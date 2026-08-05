@@ -177,12 +177,11 @@ export default function Home() {
       <section className="office-stage" aria-label="Isabel's SSX construction operations office">
         <img
           className="office-plate"
-          src="/isabel-office-final.jpg?scene=final"
+          src="/isabel-office-screen01.jpg?scene=screen01"
           alt="Isabel's construction operations office"
         />
         <div className="daylight" aria-hidden="true" />
         <div className="screen-wall" aria-label="Live SSX project operations wall">
-          <Screen01Canvas tick={tick} viewport={viewport} />
           <button
             className={`map-hit-area ${focusedScreen === "map" ? "screen-focused" : ""}`}
             onClick={() => { setFocusedScreen("map"); setView("wall"); }}

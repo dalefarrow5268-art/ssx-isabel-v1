@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import { PerspectiveTransform } from "react-perspective-transform";
+import { useEffect, useMemo, useRef, useState } from "react";
+import Perspective from "perspectivets";
 
 type View = "arrival" | "wall" | "desk" | "table";
 type ScreenKind = "map" | "schedule" | "weather" | "cameras" | "evidence" | "risk" | "audit" | "field" | "forecast" | "lookahead";
@@ -42,27 +42,6 @@ const screens: Screen[] = [
 // real-world bounds are fitted and approved. The rest of the room remains the
 // locked architectural plate until its turn.
 const fittedScreenIds = new Set(["map"]);
-
-type Point = { x: number; y: number };
-type PerspectivePoints = {
-  topLeft: Point;
-  topRight: Point;
-  bottomRight: Point;
-  bottomLeft: Point;
-};
-
-const defaultMapCalibration: {
-  topLeft: [number, number];
-  topRight: [number, number];
-  bottomRight: [number, number];
-  bottomLeft: [number, number];
-} = {
-  // Measured from the clean office plate's inner glass: TL, TR, BR, BL.
-  topLeft: [10.8, 9.0],
-  topRight: [24.35, 14.55],
-  bottomRight: [24.35, 28.03],
-  bottomLeft: [10.8, 28.22],
-} as const;
 
 const statusCopy = [
   "RFI-117 linked to the storefront risk thread.",
@@ -117,13 +96,66 @@ function ScreenContent({ kind, tick }: { kind: ScreenKind; tick: number }) {
   }
 }
 
-function isCalibration(value: unknown): value is typeof defaultMapCalibration {
-  if (!value || typeof value !== "object") return false;
-  return Object.values(defaultMapCalibration).every((_, index) => {
-    const key = Object.keys(defaultMapCalibration)[index] as keyof typeof defaultMapCalibration;
-    const point = (value as Record<string, unknown>)[key];
-    return Array.isArray(point) && point.length === 2 && point.every((coordinate) => typeof coordinate === "number" && Number.isFinite(coordinate));
-  });
+function mapTextureSvg(tick: number) {
+  const time = `07:${String(42 + (tick % 8)).padStart(2, "0")}`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+    <defs>
+      <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b2830"/><stop offset=".62" stop-color="#091b25"/><stop offset="1" stop-color="#102e32"/></linearGradient>
+      <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse" patternTransform="rotate(24)"><path d="M0 0H58M0 29H58" stroke="#4e8993" stroke-opacity=".2" stroke-width="2"/></pattern>
+      <filter id="glow"><feGaussianBlur stdDeviation="9" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect x="50" y="54" width="1100" height="692" rx="2" fill="url(#panel)" stroke="#5e9aaa" stroke-opacity=".55" stroke-width="3"/>
+    <text x="84" y="104" fill="#9bc2cc" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="700" letter-spacing="4">ISABEL TOWER · SITE MAP</text>
+    <text x="1088" y="104" text-anchor="end" fill="#7ee0aa" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" letter-spacing="3">LIVE</text>
+    <rect x="82" y="140" width="1036" height="558" fill="url(#grid)" stroke="#5594a0" stroke-opacity=".35" stroke-width="2"/>
+    <path d="M118 310 L655 645" fill="none" stroke="#e7b94f" stroke-width="8" filter="url(#glow)"/>
+    <path d="M260 620 L890 238" fill="none" stroke="#63c9d6" stroke-width="7" filter="url(#glow)"/>
+    <g fill="#f8ca5d" filter="url(#glow)"><circle cx="300" cy="280" r="10"/><circle cx="710" cy="395" r="9"/><circle cx="910" cy="490" r="9"/></g>
+    <g fill="#73a875" fill-opacity=".32"><circle cx="456" cy="322" r="37"/><circle cx="804" cy="235" r="29"/><circle cx="255" cy="585" r="42"/></g>
+    <text x="1038" y="672" text-anchor="end" fill="#c9e2de" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="3">FIELD CREWS · 8</text>
+    <text x="84" y="724" fill="#648b97" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="2">SYNCED ${time} · NORTH TOWER</text>
+  </svg>`;
+}
+
+function Screen01Canvas({ tick, viewport }: { tick: number; viewport: { width: number; height: number } }) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas || viewport.width < 2 || viewport.height < 2) return;
+
+    let cancelled = false;
+    const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+    canvas.width = Math.round(viewport.width * pixelRatio);
+    canvas.height = Math.round(viewport.height * pixelRatio);
+    const context = canvas.getContext("2d");
+    if (!context) return;
+    context.clearRect(0, 0, canvas.width, canvas.height);
+
+    const image = new Image();
+    image.onload = () => {
+      if (cancelled) return;
+      const perspective = new Perspective(context, image);
+      perspective.draw({
+        topLeftX: viewport.width * 0.108 * pixelRatio,
+        topLeftY: viewport.height * 0.09 * pixelRatio,
+        topRightX: viewport.width * 0.2435 * pixelRatio,
+        topRightY: viewport.height * 0.1455 * pixelRatio,
+        bottomRightX: viewport.width * 0.2435 * pixelRatio,
+        bottomRightY: viewport.height * 0.2803 * pixelRatio,
+        bottomLeftX: viewport.width * 0.108 * pixelRatio,
+        bottomLeftY: viewport.height * 0.2822 * pixelRatio,
+      });
+    };
+    image.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(mapTextureSvg(tick))}`;
+
+    return () => {
+      cancelled = true;
+      image.onload = null;
+    };
+  }, [tick, viewport]);
+
+  return <canvas ref={canvasRef} className="screen-01-canvas" aria-label="Screen 01 Isabel Tower site map" />;
 }
 
 export default function Home() {
@@ -131,46 +163,13 @@ export default function Home() {
   const [view, setView] = useState<View>("arrival");
   const [focusedScreen, setFocusedScreen] = useState<string | null>(null);
   const [present, setPresent] = useState(false);
-  const [calibrating, setCalibrating] = useState(false);
   const [viewport, setViewport] = useState({ width: 1, height: 1 });
-  const [calibrationPoints, setCalibrationPoints] = useState(defaultMapCalibration);
-  const [calibrationLoaded, setCalibrationLoaded] = useState(false);
-  const [copied, setCopied] = useState(false);
   useEffect(() => {
-    setCalibrating(new URLSearchParams(window.location.search).get("calibrate") === "map");
     const updateViewport = () => setViewport({ width: window.innerWidth, height: window.innerHeight });
     updateViewport();
     window.addEventListener("resize", updateViewport);
     return () => window.removeEventListener("resize", updateViewport);
   }, []);
-  useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem("ssx-isabel-screen-01-calibration-v2");
-      if (saved) {
-        const parsed: unknown = JSON.parse(saved);
-        if (isCalibration(parsed)) setCalibrationPoints(parsed);
-      }
-    } catch {
-      // A bad local calibration should never prevent the office from loading.
-    }
-    setCalibrationLoaded(true);
-  }, []);
-  useEffect(() => {
-    if (!calibrationLoaded) return;
-    window.localStorage.setItem("ssx-isabel-screen-01-calibration-v2", JSON.stringify(calibrationPoints));
-  }, [calibrationLoaded, calibrationPoints]);
-  const mapPoints = useMemo<PerspectivePoints>(() => ({
-    topLeft: { x: viewport.width * calibrationPoints.topLeft[0] / 100, y: viewport.height * calibrationPoints.topLeft[1] / 100 },
-    topRight: { x: viewport.width * calibrationPoints.topRight[0] / 100, y: viewport.height * calibrationPoints.topRight[1] / 100 },
-    bottomRight: { x: viewport.width * calibrationPoints.bottomRight[0] / 100, y: viewport.height * calibrationPoints.bottomRight[1] / 100 },
-    bottomLeft: { x: viewport.width * calibrationPoints.bottomLeft[0] / 100, y: viewport.height * calibrationPoints.bottomLeft[1] / 100 },
-  }), [calibrationPoints, viewport]);
-  const handleMapPointsChange = (points: PerspectivePoints) => setCalibrationPoints({
-    topLeft: [points.topLeft.x / viewport.width * 100, points.topLeft.y / viewport.height * 100],
-    topRight: [points.topRight.x / viewport.width * 100, points.topRight.y / viewport.height * 100],
-    bottomRight: [points.bottomRight.x / viewport.width * 100, points.bottomRight.y / viewport.height * 100],
-    bottomLeft: [points.bottomLeft.x / viewport.width * 100, points.bottomLeft.y / viewport.height * 100],
-  });
   const activeMessage = statusCopy[tick % statusCopy.length];
 
   return (
@@ -183,48 +182,13 @@ export default function Home() {
         />
         <div className="daylight" aria-hidden="true" />
         <div className="screen-wall" aria-label="Live SSX project operations wall">
-          {screens.filter((screen) => fittedScreenIds.has(screen.id)).map((screen) => (
-            screen.projective ? <div key={screen.id} className="projective-container">
-              <PerspectiveTransform
-                points={mapPoints}
-                editable={calibrating}
-                onPointsChange={handleMapPointsChange}
-                onEditableChange={setCalibrating}
-              >
-                <div className="projective-surface">
-                  <button
-                    className={`live-screen ${screen.kind} projective-screen ${focusedScreen === screen.id ? "screen-focused" : ""}`}
-                    onClick={() => { setFocusedScreen(screen.id); setView("wall"); }}
-                    aria-label={`Focus ${screen.label}`}
-                  >
-                    <ScreenContent kind={screen.kind} tick={tick} />
-                    <span className="screen-reflection" aria-hidden="true" />
-                  </button>
-                </div>
-              </PerspectiveTransform>
-            </div> : <button
-              key={screen.id}
-              className={`live-screen ${screen.kind} ${focusedScreen === screen.id ? "screen-focused" : ""}`}
-              style={{ left: `${screen.x}%`, top: `${screen.y}%`, width: `${screen.w}%`, height: `${screen.h}%`, "--skew": `${screen.skew ?? 0}deg` } as unknown as React.CSSProperties}
-              onClick={() => { setFocusedScreen(screen.id); setView("wall"); }}
-              aria-label={`Focus ${screen.label}`}
-            >
-              <ScreenContent kind={screen.kind} tick={tick} />
-              <span className="screen-reflection" aria-hidden="true" />
-            </button>
-          ))}
+          <Screen01Canvas tick={tick} viewport={viewport} />
+          <button
+            className={`map-hit-area ${focusedScreen === "map" ? "screen-focused" : ""}`}
+            onClick={() => { setFocusedScreen("map"); setView("wall"); }}
+            aria-label="Focus Screen 01 Isabel Tower site map"
+          />
         </div>
-        {calibrating && <div className="calibration-layer" aria-label="Screen 01 calibration mode">
-          <div className="calibration-panel">
-            <b>SCREEN 01 CORNER PIN</b>
-            <span>Drag the four handles onto the inner glass corners. Shift+P toggles calibration.</span>
-            <code>{JSON.stringify(Object.values(calibrationPoints))}</code>
-            <div className="calibration-actions">
-              <button onClick={async () => { await navigator.clipboard?.writeText(JSON.stringify(Object.values(calibrationPoints))); setCopied(true); }}> {copied ? "Copied" : "Copy points"}</button>
-              <button onClick={() => { setCalibrationPoints(defaultMapCalibration); setCopied(false); }}>Reset</button>
-            </div>
-          </div>
-        </div>}
 
         <button className="room-zone desk-zone" onClick={() => setView("desk")} aria-label="Move closer to Isabel's desk" />
         <button className="room-zone table-zone" onClick={() => setView("table")} aria-label="Move to the collaboration table" />

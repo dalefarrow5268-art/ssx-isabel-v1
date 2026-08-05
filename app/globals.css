@@ -1149,3 +1149,36 @@ html, body {
     border-bottom: 0;
   }
 }
+
+
+/* Quiet room controls: interaction remains discoverable without turning the office into a dashboard. */
+@media (min-width: 1100px) {
+  .room-map,
+  .evidence-station,
+  .room-placard,
+  .office-clock,
+  .ops-strip,
+  .station,
+  .arrival-banner {
+    opacity: .42;
+    transition: opacity .25s ease, background .25s ease, border-color .25s ease;
+  }
+  .room-map:hover,
+  .evidence-station:hover,
+  .room-placard:hover,
+  .office-clock:hover,
+  .ops-strip:hover,
+  .station:hover,
+  .arrival-banner:hover,
+  .station.active {
+    opacity: .9;
+  }
+  .entry-button {
+    opacity: .7;
+    transition: opacity .25s ease;
+  }
+  .entry-button:hover,
+  .entry-button:focus-visible {
+    opacity: 1;
+  }
+}

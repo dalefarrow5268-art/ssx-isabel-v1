@@ -99,7 +99,7 @@ export default function Home() {
       <section className="office-stage" aria-label="Isabel's SSX construction operations office">
         <img
           className="office-plate"
-          src="/isabel-office-reference.png?scene=final"
+          src="/isabel-office-final.jpg?scene=final"
           alt="Isabel's construction operations office"
         />
         <div className="daylight" aria-hidden="true" />

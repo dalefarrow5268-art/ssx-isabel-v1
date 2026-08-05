@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 
 type View = "arrival" | "wall" | "desk" | "table";
@@ -93,7 +92,11 @@ export default function Home() {
   return (
     <main className={`office-cinema view-${view} ${present ? "user-present" : ""}`}>
       <section className="office-stage" aria-label="Isabel's SSX construction operations office">
-        <Image className="office-plate" src="/isabel-office-reference.png" alt="Isabel's construction operations office" fill priority sizes="100vw" />
+        <img
+          className="office-plate"
+          src="/isabel-office-reference.png?scene=final"
+          alt="Isabel's construction operations office"
+        />
         <div className="daylight" aria-hidden="true" />
         <div className="screen-wall" aria-label="Live SSX project operations wall">
           {screens.map((screen) => (

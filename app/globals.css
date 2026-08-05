@@ -1322,3 +1322,92 @@ html, body {
     background: radial-gradient(ellipse at 76% 22%, rgba(199,156,88,.16), transparent 22%), radial-gradient(ellipse at 32% 38%, rgba(255,235,187,.08), transparent 20%);
   }
 }
+
+
+/* Built-in left wall digital white board and camera pan. */
+.left-digital-board {
+  position: absolute;
+  left: -23%;
+  top: 13%;
+  width: 35%;
+  height: 42%;
+  z-index: 3;
+  padding: 18px;
+  text-align: left;
+  color: #182027;
+  border: 1px solid rgba(224,237,242,.8);
+  border-radius: 2px;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.98), rgba(235,246,249,.96)),
+    #f8ffff;
+  box-shadow: 16px 18px 42px rgba(0,0,0,.34), inset 0 0 32px rgba(141,201,255,.16);
+  cursor: pointer;
+  transform: perspective(900px) rotateY(7deg);
+  transform-origin: right center;
+  transition: left .9s cubic-bezier(.2,.8,.2,1), box-shadow .3s ease;
+}
+.left-digital-board:before,
+.left-digital-board:after {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+}
+.left-digital-board:before {
+  inset: 14% 8%;
+  border: 1px solid rgba(53,96,116,.18);
+  background:
+    linear-gradient(135deg, transparent 47%, rgba(53,96,116,.22) 48% 49%, transparent 50%),
+    linear-gradient(25deg, transparent 61%, rgba(53,96,116,.18) 62% 63%, transparent 64%),
+    repeating-linear-gradient(0deg, transparent 0 31px, rgba(53,96,116,.09) 32px 33px);
+}
+.left-digital-board:after {
+  left: 8%;
+  right: 8%;
+  bottom: 9%;
+  height: 2px;
+  background: linear-gradient(90deg, #4e9fc6, #c9a66e, #74c88d);
+}
+.left-digital-board span,
+.left-digital-board b {
+  position: relative;
+  z-index: 1;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: .16em;
+}
+.left-digital-board span { color: #356074; font-size: 10px; }
+.left-digital-board b { margin-top: 8px; color: #65727a; font-size: 9px; font-weight: 500; }
+.left-digital-board i {
+  position: absolute;
+  right: 7%;
+  top: 8%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #74c88d;
+  box-shadow: 0 0 14px #74c88d;
+}
+@media (min-width: 1100px) {
+  .office-scene.room-draft .left-digital-board,
+  .office-scene.room-activity .left-digital-board {
+    left: 7%;
+    box-shadow: 18px 20px 52px rgba(0,0,0,.42), 0 0 38px rgba(224,237,242,.1);
+  }
+  .office-scene.room-draft,
+  .office-scene.room-activity {
+    transform: translateX(16%);
+    transition: transform .9s cubic-bezier(.2,.8,.2,1);
+  }
+  .office-scene.room-draft .office-photo,
+  .office-scene.room-activity .office-photo {
+    transform: scale(1.08);
+    transform-origin: 18% 46%;
+    transition: transform .9s cubic-bezier(.2,.8,.2,1);
+  }
+}
+@media (max-width: 1099px) {
+  .left-digital-board { left: 4%; top: 12%; width: 42%; height: 30%; }
+}
+@media (max-width: 680px) {
+  .left-digital-board { left: 16px; top: 17%; width: calc(100% - 32px); height: 24%; }
+}

@@ -7,11 +7,11 @@ body { overflow: hidden; font-family: Arial, Helvetica, sans-serif; }
 button { font: inherit; }
 
 .office-cinema { width: 100vw; height: 100vh; overflow: hidden; background: #17130e; }
-.office-stage { position: relative; width: 100%; height: 100%; overflow: hidden; isolation: isolate; background: #17130e url("/isabel-office-reference.png?scene=final") 50% 48% / cover no-repeat; }
-.office-plate { position: absolute; inset: 0; z-index: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 48%; transform: scale(1.055); transform-origin: 50% 48%; transition: transform 1.1s cubic-bezier(.2,.8,.2,1), object-position 1.1s cubic-bezier(.2,.8,.2,1); filter: brightness(1.025) saturate(.98) contrast(1.01); }
+.office-stage { position: relative; width: 100%; height: 100%; overflow: hidden; isolation: isolate; background: #17130e url("/isabel-office-reference.png?scene=final") 50% 50% / 100% 100% no-repeat; }
+.office-plate { position: absolute; inset: 0; z-index: 0; display: block; width: 100%; height: 100%; object-fit: fill; object-position: 50% 50%; transform: none; transform-origin: 50% 50%; transition: transform 1.1s cubic-bezier(.2,.8,.2,1); filter: brightness(1.025) saturate(.98) contrast(1.01); }
 .daylight { position: absolute; inset: 0; pointer-events: none; z-index: 1; background: radial-gradient(ellipse at 80% 28%, rgba(255,249,232,.14), transparent 27%), linear-gradient(105deg, transparent 48%, rgba(255,244,213,.035) 67%, transparent 80%); mix-blend-mode: screen; animation: daylight-drift 18s ease-in-out infinite; }
 
-.screen-wall { position: absolute; inset: 0; z-index: 2; transform: scale(1.055); transform-origin: 50% 48%; transition: transform 1.1s cubic-bezier(.2,.8,.2,1); }
+.screen-wall { position: absolute; inset: 0; z-index: 2; transform: none; transform-origin: 50% 50%; transition: transform 1.1s cubic-bezier(.2,.8,.2,1); }
 .live-screen { --screen-ink: #08111b; --accent: #62c5ee; position: absolute; display: block; overflow: hidden; padding: clamp(3px, .34vw, 7px); color: #d9edf4; cursor: pointer; text-align: left; border: 1px solid rgba(125, 199, 231, .21); border-radius: 2px; background: linear-gradient(140deg, rgba(3,14,25,.91), rgba(7,21,31,.85)); box-shadow: inset 0 0 25px rgba(31, 151, 214, .08), 0 0 0 1px rgba(1,5,10,.25); transform: skewY(var(--skew)); transition: filter .3s ease, border-color .3s ease, box-shadow .3s ease, opacity .5s ease; }
 .live-screen:hover, .live-screen:focus-visible, .live-screen.screen-focused { outline: none; z-index: 4; border-color: rgba(157, 224, 248, .78); box-shadow: inset 0 0 30px rgba(64, 184, 239, .2), 0 0 24px rgba(54, 166, 231, .18); filter: brightness(1.14) saturate(1.14); }
 .screen-title { position: relative; z-index: 2; overflow: hidden; white-space: nowrap; color: #91b8cc; font-size: clamp(3px, .36vw, 7px); font-weight: 700; letter-spacing: .08em; text-overflow: ellipsis; }
@@ -45,6 +45,6 @@ button { font: inherit; }
 @keyframes radar-pulse { 0%,100% { transform: scale(.86); opacity: .68; } 50% { transform: scale(1.14); opacity: 1; } }
 @keyframes status-pulse { 0%,100% { opacity: .55; } 50% { opacity: 1; } }
 
-@media (max-width: 900px) { .office-plate, .screen-wall { transform: scale(1.22); transform-origin: 52% 47%; }.office-presence { right: 4%; bottom: 3%; max-width: 46vw; }.office-presence b { font-size: 10px; }.desk-zone { right: 13%; width: 35%; }.live-screen { padding: 2px; } }
-@media (max-width: 680px) { .office-plate, .screen-wall { transform: scale(1.55); transform-origin: 48% 45%; }.office-presence { display: none; }.view-wall .office-plate, .view-wall .screen-wall { transform: scale(2); }.room-zone { display: none; } }
+@media (max-width: 900px) { .office-presence { right: 4%; bottom: 3%; max-width: 46vw; }.office-presence b { font-size: 10px; }.desk-zone { right: 13%; width: 35%; }.live-screen { padding: 2px; } }
+@media (max-width: 680px) { .office-presence { display: none; }.view-wall .office-plate, .view-wall .screen-wall { transform: scale(1.35); }.room-zone { display: none; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }

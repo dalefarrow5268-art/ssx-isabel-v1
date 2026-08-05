@@ -998,3 +998,29 @@ nav button.active { color: var(--cream); border-color: var(--gold); background: 
   .hotspot-table { left: 58%; top: 45%; width: 40%; height: 30%; }
   .control-panel { margin-top: -20px; }
 }
+
+
+/* Isabel presence pass: restrained human-scale motion over the reference scene. */
+@keyframes isabel-breathe {
+  0%, 100% { transform: translateX(-50%) translateY(0) rotateY(-4deg); }
+  50% { transform: translateX(-50%) translateY(-3px) rotateY(4deg); }
+}
+@keyframes isabel-signal {
+  0%, 100% { opacity: .72; box-shadow: 0 0 12px var(--gold); }
+  50% { opacity: 1; box-shadow: 0 0 26px var(--gold), 0 0 44px rgba(201,166,110,.28); }
+}
+.isabel {
+  animation: isabel-breathe 5.8s ease-in-out infinite;
+  transform-origin: 50% 100%;
+  transition: left .8s ease, bottom .8s ease, opacity .5s ease, filter .5s ease;
+  filter: drop-shadow(0 12px 14px rgba(0,0,0,.32));
+}
+.isabel i { animation: isabel-signal 3.2s ease-in-out infinite; }
+.isabel.noticed {
+  opacity: .62;
+  filter: drop-shadow(0 14px 18px rgba(0,0,0,.38)) brightness(1.08);
+}
+.office.entered .isabel { animation-duration: 4.8s; }
+@media (prefers-reduced-motion: reduce) {
+  .isabel, .isabel i { animation: none; }
+}

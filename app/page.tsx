@@ -29,6 +29,11 @@ const screens: Screen[] = [
   { id: "weather", label: "Weather radar", kind: "weather", x: 61.2, y: 28.4, w: 10.5, h: 15.9, skew: 1 },
 ];
 
+// Visual-effects workflow: we only replace a photographed surface after its
+// real-world bounds are fitted and approved. The rest of the room remains the
+// locked architectural plate until its turn.
+const fittedScreenIds = new Set(["map"]);
+
 const statusCopy = [
   "RFI-117 linked to the storefront risk thread.",
   "Field camera 03 refreshed 14 seconds ago.",
@@ -99,7 +104,7 @@ export default function Home() {
         />
         <div className="daylight" aria-hidden="true" />
         <div className="screen-wall" aria-label="Live SSX project operations wall">
-          {screens.map((screen) => (
+          {screens.filter((screen) => fittedScreenIds.has(screen.id)).map((screen) => (
             <button
               key={screen.id}
               className={`live-screen ${screen.kind} ${focusedScreen === screen.id ? "screen-focused" : ""}`}

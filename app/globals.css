@@ -1411,3 +1411,27 @@ html, body {
 @media (max-width: 680px) {
   .left-digital-board { left: 16px; top: 17%; width: calc(100% - 32px); height: 24%; }
 }
+
+
+/* Whiteboard physical integration: recessed frame, wall-mounted depth, and no floating-card styling. */
+@media (min-width: 1100px) {
+  .left-digital-board {
+    border: 12px solid #26211b;
+    border-right-width: 16px;
+    border-bottom-width: 16px;
+    padding: 16px;
+    background:
+      linear-gradient(90deg, rgba(255,255,255,.99), rgba(239,249,250,.98)),
+      #f8ffff;
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,.95),
+      inset 0 0 34px rgba(115,181,204,.16),
+      18px 20px 0 rgba(35,28,21,.55),
+      22px 28px 42px rgba(0,0,0,.42);
+  }
+  .left-digital-board:before {
+    inset: 12% 7%;
+  }
+  .left-digital-board span { font-size: 9px; }
+  .left-digital-board b { font-size: 8px; }
+}

@@ -14,7 +14,7 @@ button { font: inherit; }
 .screen-wall { position: absolute; inset: 0; z-index: 2; transform: none; transform-origin: 50% 50%; transition: transform 1.1s cubic-bezier(.2,.8,.2,1); }
 .live-screen { --screen-ink: #08111b; --accent: #62c5ee; position: absolute; display: block; overflow: hidden; padding: 0; color: #d9edf4; cursor: pointer; text-align: left; appearance: none; border: 0; border-radius: 0; background: linear-gradient(140deg, rgba(3,14,25,.95), rgba(7,21,31,.91)); box-shadow: inset 0 0 20px rgba(31, 151, 214, .07); clip-path: polygon(.25% .65%, 99.75% 0, 100% 99.45%, 0 100%); transform: skewY(var(--skew)); transition: filter .3s ease, box-shadow .3s ease, opacity .5s ease; }
 .screen-01-canvas { position: absolute; inset: 0; z-index: 2; display: block; width: 100%; height: 100%; pointer-events: none; }
-.map-hit-area { position: absolute; inset: 0; z-index: 3; border: 0; background: transparent; clip-path: polygon(10.8% 9%, 24.35% 14.55%, 24.35% 28.03%, 10.8% 28.22%); cursor: pointer; }
+.map-hit-area { position: absolute; inset: 0; z-index: 3; border: 0; background: transparent; clip-path: polygon(10.8% 10.6%, 24.35% 13.4%, 24.35% 26.3%, 10.8% 26.1%); cursor: pointer; }
 .map-hit-area:focus-visible { outline: 2px solid rgba(255,213,111,.9); outline-offset: -2px; }
 .screen-title { position: absolute; z-index: 2; top: 7%; right: 5%; left: 5%; overflow: hidden; white-space: nowrap; color: #91b8cc; font-size: clamp(3px, .36vw, 7px); font-weight: 700; letter-spacing: .08em; text-overflow: ellipsis; }
 .screen-title b { float: right; color: #74d69e; font-size: .92em; }

@@ -1263,3 +1263,21 @@ html, body {
     object-position: center center;
   }
 }
+
+
+/* Brighter executive-office exposure while preserving warm contrast. */
+@media (min-width: 1100px) {
+  .office-photo {
+    filter: saturate(.98) contrast(1.01) brightness(1.08);
+  }
+  .office-scene {
+    background: #211b14;
+  }
+  .office-scene:after {
+    opacity: .62;
+    background:
+      radial-gradient(ellipse at 32% 38%, rgba(255,203,123,.14), transparent 24%),
+      radial-gradient(ellipse at 73% 22%, rgba(255,235,187,.12), transparent 20%),
+      linear-gradient(180deg, rgba(255,220,154,.035), transparent 48%, rgba(39,25,13,.08));
+  }
+}

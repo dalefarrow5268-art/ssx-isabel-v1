@@ -17,7 +17,10 @@ type Screen = {
 };
 
 const screens: Screen[] = [
-  { id: "map", label: "Project map", kind: "map", x: 10.7, y: 9.1, w: 16.7, h: 18.8, skew: -1.5 },
+  // Screen 01: measured to the *inner glass*, not the photographed bezel.
+  // Each succeeding display will get its own four-point calibration before it
+  // is made live — the same workflow as a Photoshop smart-object replacement.
+  { id: "map", label: "Project map", kind: "map", x: 11.8, y: 12.9, w: 14.5, h: 13.1, skew: -1.05 },
   { id: "schedule", label: "Critical path", kind: "schedule", x: 27.7, y: 10.7, w: 11.0, h: 17.2, skew: -1 },
   { id: "lookahead", label: "14 day lookahead", kind: "lookahead", x: 38.9, y: 11.7, w: 11.0, h: 16.1, skew: -0.4 },
   { id: "cameras", label: "Field cameras", kind: "cameras", x: 50.0, y: 12.6, w: 11.0, h: 15.2, skew: 0.2 },

@@ -1,315 +1,126 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import Image from "next/image";
+import { useEffect, useMemo, useState } from "react";
 
-const stations = ["Briefing", "Weather", "Draft", "Confirm", "Memory", "Activity"] as const;
-type Station = (typeof stations)[number];
+type View = "arrival" | "wall" | "desk" | "table";
+type ScreenKind = "map" | "schedule" | "weather" | "cameras" | "evidence" | "risk" | "audit" | "field" | "forecast" | "lookahead";
 
-const rooms = [
-  { label: "Control center", station: "Briefing" },
-  { label: "Weather room", station: "Weather" },
-  { label: "Drafting room", station: "Draft" },
-  { label: "Memory vault", station: "Memory" },
-  { label: "Meeting room", station: "Confirm" },
-  { label: "Project war room", station: "Activity" },
-] as const;
-
-const evidence = [
-  { id: "rfi-117", kind: "RFI", title: "RFI-117 anchorage clarification", note: "Level 2 storefront anchorage detail changed; submittal revision may be required.", source: "Procore · 06:42" },
-  { id: "sched-44", kind: "Schedule", title: "Schedule Update 44", note: "Storefront installation begins in 18 calendar days.", source: "P6 import · 06:51" },
-  { id: "mins-21", kind: "Minutes", title: "Owner coordination minutes", note: "Written confirmation requested before schedule-impacting messages.", source: "Meeting note · 07:04" },
-];
-
-const briefing = [
-  { level: "Critical", title: "Storefront anchorage may affect fabrication release", owner: "Maya Chen", why: "RFI-117 and the 18-day install window create schedule exposure.", residue: "Confirm fabrication hold status by 2:00 PM." },
-  { level: "Decision", title: "Owner-facing message needs written confirmation", owner: "You", why: "The owner asked for backup before schedule-impacting coordination.", residue: "Queue the draft only after human approval." },
-  { level: "Blocked", title: "Weather may affect exterior work tomorrow", owner: "Carlos Vega", why: "Rain risk exists, but field impact has not been confirmed.", residue: "Wait for superintendent field update." },
-];
-
-const toneVariants = {
-  Professional: "At this point, I am treating this as a coordination risk, not a confirmed delay.",
-  Firmer: "Please confirm today whether the revised detail changes fabrication release or creates schedule exposure.",
-  Warmer: "I appreciate the quick confirmation so we can keep the team aligned before this becomes schedule-sensitive.",
+type Screen = {
+  id: string;
+  label: string;
+  kind: ScreenKind;
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  skew?: number;
 };
 
-const stationCopy = {
-  Briefing: "She is standing at the evidence wall, ranking the morning by consequence.",
-  Weather: "She checks the field/weather board before exterior work becomes a schedule problem.",
-  Draft: "She walks to the writing desk and shapes the owner message with evidence attached.",
-  Confirm: "She stops at the authority table. Nothing leaves the room without your approval.",
-  Memory: "She opens the memory vault and asks what should become durable context.",
-  Activity: "She turns to the audit board so you can inspect every action residue.",
-};
-
-const weather = [
-  { label: "Exterior work", value: "At risk", note: "Storefront install is close enough that rain could force resequencing." },
-  { label: "Lift / glazing", value: "Check limits", note: "Wind handling limits need Carlos’s field read before escalation." },
-  { label: "Confidence", value: "Blocked", note: "Weather forecast is known. Actual field impact is not confirmed." },
+const screens: Screen[] = [
+  { id: "map", label: "Project map", kind: "map", x: 10.7, y: 9.1, w: 16.7, h: 18.8, skew: -1.5 },
+  { id: "schedule", label: "Critical path", kind: "schedule", x: 27.7, y: 10.7, w: 11.0, h: 17.2, skew: -1 },
+  { id: "lookahead", label: "14 day lookahead", kind: "lookahead", x: 38.9, y: 11.7, w: 11.0, h: 16.1, skew: -0.4 },
+  { id: "cameras", label: "Field cameras", kind: "cameras", x: 50.0, y: 12.6, w: 11.0, h: 15.2, skew: 0.2 },
+  { id: "forecast", label: "Weather forecast", kind: "forecast", x: 61.1, y: 13.2, w: 10.6, h: 14.7, skew: 0.8 },
+  { id: "evidence", label: "Evidence wall", kind: "evidence", x: 10.7, y: 28.4, w: 16.7, h: 16.0, skew: -1.2 },
+  { id: "field", label: "Site progress", kind: "field", x: 27.8, y: 28.3, w: 11.0, h: 16.0, skew: -0.6 },
+  { id: "risk", label: "Risk register", kind: "risk", x: 39.0, y: 28.3, w: 10.9, h: 16.0, skew: -0.1 },
+  { id: "audit", label: "Activity stream", kind: "audit", x: 50.1, y: 28.3, w: 11.0, h: 16.0, skew: 0.4 },
+  { id: "weather", label: "Weather radar", kind: "weather", x: 61.2, y: 28.4, w: 10.5, h: 15.9, skew: 1 },
 ];
 
-const activity = [
-  { time: "07:30", title: "Opened the office", detail: "Isabel began sorting project signals before the user arrived." },
-  { time: "07:34", title: "Pinned evidence", detail: "RFI, schedule, and meeting notes linked to the same risk thread." },
-  { time: "07:38", title: "Drafted owner language", detail: "Tone remains adjustable and source-backed." },
-  { time: "07:41", title: "Held external action", detail: "Live send remains blocked until explicit confirmation." },
+const statusCopy = [
+  "RFI-117 linked to the storefront risk thread.",
+  "Field camera 03 refreshed 14 seconds ago.",
+  "Tomorrow AM rain remains a watch item, not a delay.",
+  "Critical path review is prepared for Isabel.",
 ];
+
+function useProjectPulse() {
+  const [tick, setTick] = useState(0);
+
+  useEffect(() => {
+    const pulse = window.setInterval(() => setTick((current) => current + 1), 4200);
+    return () => window.clearInterval(pulse);
+  }, []);
+
+  return tick;
+}
+
+function MiniChart({ seed, color = "#65d3a1" }: { seed: number; color?: string }) {
+  const bars = useMemo(() => Array.from({ length: 9 }, (_, index) => 22 + ((index * 17 + seed * 13) % 63)), [seed]);
+  return (
+    <div className="mini-chart" aria-hidden="true">
+      {bars.map((height, index) => <i key={index} style={{ height: `${height}%`, backgroundColor: color }} />)}
+    </div>
+  );
+}
+
+function ScreenContent({ kind, tick }: { kind: ScreenKind; tick: number }) {
+  const time = `07:${String(42 + (tick % 8)).padStart(2, "0")}`;
+  switch (kind) {
+    case "map":
+      return <><div className="screen-title">ISABEL TOWER · SITE MAP <b>LIVE</b></div><div className="map-grid"><i className="route route-a" /><i className="route route-b" /><i className="pin pin-a" /><i className="pin pin-b" /><i className="pin pin-c" /><span>FIELD CREWS · 8</span></div></>;
+    case "schedule":
+      return <><div className="screen-title">CRITICAL PATH <b>LIVE</b></div><div className="gantt"><i /><i /><i /><i /><i /><i /></div><div className="screen-footer"><span>FLOAT</span><b>18 DAYS</b></div></>;
+    case "lookahead":
+      return <><div className="screen-title">14 DAY LOOKAHEAD</div><MiniChart seed={tick} color="#73bff2" /><div className="screen-footer"><span>WORKFRONTS</span><b>12 ACTIVE</b></div></>;
+    case "cameras":
+      return <><div className="screen-title">FIELD CAMERAS <b>STREAM</b></div><div className="camera-grid"><i /><i /><i /><i /></div><div className="screen-footer"><span>CAM 03</span><b>{time}</b></div></>;
+    case "forecast":
+      return <><div className="screen-title">SITE WEATHER</div><div className="forecast"><b>72°</b><span>Tomorrow AM</span><i>64%</i></div><div className="weather-days"><em>NOW</em><em>AM</em><em>PM</em><em>THU</em></div></>;
+    case "evidence":
+      return <><div className="screen-title">EVIDENCE BOARD</div><div className="evidence-list"><i><b>RFI-117</b><span>Anchorage detail</span></i><i><b>SCHED 44</b><span>Install window</span></i><i><b>MIN 21</b><span>Owner confirmation</span></i></div><div className="screen-footer"><span>LINKED</span><b>3 SOURCES</b></div></>;
+    case "field":
+      return <><div className="screen-title">SITE PROGRESS</div><div className="site-photo"><i /><i /><b>WEST ELEVATION</b></div><MiniChart seed={tick + 2} color="#e1a95a" /></>;
+    case "risk":
+      return <><div className="screen-title">RISK REGISTER <b>4 OPEN</b></div><div className="risk-list"><i><span>ANCHORAGE</span><b>HIGH</b></i><i><span>WEATHER</span><b>WATCH</b></i><i><span>LOGISTICS</span><b>LOW</b></i></div><div className="screen-footer"><span>CONFIDENCE</span><b>BLOCKED</b></div></>;
+    case "audit":
+      return <><div className="screen-title">ACTIVITY STREAM <b>LIVE</b></div><div className="audit-list"><i><em>07:41</em><span>Evidence linked</span></i><i><em>07:38</em><span>Draft prepared</span></i><i><em>07:34</em><span>Weather checked</span></i></div><div className="screen-footer"><span>OPEN EVENTS</span><b>4</b></div></>;
+    case "weather":
+      return <><div className="screen-title">RADAR · 18H</div><div className="radar"><i /><i /><i /><b /></div><div className="screen-footer"><span>RAIN RISK</span><b>64%</b></div></>;
+  }
+}
 
 export default function Home() {
-  const [station, setStation] = useState<Station>("Briefing");
-  const [tone, setTone] = useState("Professional");
-  const [confirmed, setConfirmed] = useState(false);
-  const [memory, setMemory] = useState("Pending");
-  const [entered, setEntered] = useState(false);
-  const [focusedEvidence, setFocusedEvidence] = useState(evidence[0].id);
-  const selectedEvidence = useMemo(() => evidence.find(item => item.id === focusedEvidence) ?? evidence[0], [focusedEvidence]);
-  const activeRoom = rooms.find(room => room.station === station)?.label ?? "Control center";
+  const tick = useProjectPulse();
+  const [view, setView] = useState<View>("arrival");
+  const [focusedScreen, setFocusedScreen] = useState<string | null>(null);
+  const [present, setPresent] = useState(false);
+  const activeMessage = statusCopy[tick % statusCopy.length];
 
   return (
-    <main className={entered ? "office entered" : "office"}>
-      <section className={`office-scene room-${station.toLowerCase()}`} aria-label="SSX Isabel office">
-        <img className="office-photo" src="/isabel-office-reference.png" alt="SSX construction operations office" />
-        <button className="photo-hotspot hotspot-command" onClick={() => setStation("Briefing")} aria-label="Open command wall" />
-        <button className="photo-hotspot hotspot-desk" onClick={() => setStation("Draft")} aria-label="Open Isabel's desk" />
-        <button className="photo-hotspot hotspot-vault" onClick={() => setStation("Memory")} aria-label="Open memory vault" />
-        <button className="photo-hotspot hotspot-table" onClick={() => setStation("Confirm")} aria-label="Open meeting room" />
-        <div className="back-wall" />
-        <div className="left-wall" />
-        <div className="right-wall" />
-        <div className="floor-plane" />
-        <div className="ceiling-soffit" />
-        <div className="ceiling-grid" />
-        <div className="office-clock" aria-label="Office status">
-          <b>SSX HQ</b>
-          <span>07:42 · {entered ? "USER PRESENT" : "PRE-ARRIVAL"}</span>
-        </div>
-        <div className="arrival-lane" aria-hidden="true"><span>ARRIVAL LANE</span><i /><i /><i /></div>
-        <div className="room-placard">
-          <span>ACTIVE ROOM</span>
-          <b>{activeRoom}</b>
-          <em>{stationCopy[station]}</em>
-        </div>
-        <div className="command-wall">
-          <header>
-            <b>SSX</b>
-            <span>Construction Operations Command</span>
-          </header>
-          <div className="project-map"><span>Active projects map</span><i /></div>
-          <div className="schedule-strip"><span>Schedule · 14 day lookahead</span><i /><i /><i /></div>
-          <div className="wall-weather"><span>Weather/radar</span><b>64%</b></div>
-          <div className="wall-evidence"><span>Evidence board</span><em>RFI-117</em><em>Schedule</em><em>Minutes</em></div>
-          <div className="wall-audit"><span>Audit timeline</span><i /><i /><i /><i /></div>
-        </div>
-        <div className="ops-strip" aria-label="Current office activity">
-          <span>LAST ACTION</span><b>{station === "Draft" ? "Owner language prepared" : station === "Memory" ? "Memory proposal awaiting review" : "Evidence linked to risk thread"}</b>
-          <em>07:41</em>
-        </div>
-        <div className="scout-engine-panel">
-          <b>SCOUT ENGINE</b>
-          <span>personality</span>
-          <span>memory</span>
-          <span>evidence</span>
-        </div>
-
-        <div className="room-map">
-          <b>SSX rooms</b>
-          {rooms.map(room => (
+    <main className={`office-cinema view-${view} ${present ? "user-present" : ""}`}>
+      <section className="office-stage" aria-label="Isabel's SSX construction operations office">
+        <Image className="office-plate" src="/isabel-office-reference.png" alt="Isabel's construction operations office" fill priority sizes="100vw" />
+        <div className="daylight" aria-hidden="true" />
+        <div className="screen-wall" aria-label="Live SSX project operations wall">
+          {screens.map((screen) => (
             <button
-              key={room.label}
-              className={activeRoom === room.label ? "current" : ""}
-              aria-pressed={activeRoom === room.label}
-              onClick={() => setStation(room.station)}
+              key={screen.id}
+              className={`live-screen ${screen.kind} ${focusedScreen === screen.id ? "screen-focused" : ""}`}
+              style={{ left: `${screen.x}%`, top: `${screen.y}%`, width: `${screen.w}%`, height: `${screen.h}%`, "--skew": `${screen.skew ?? 0}deg` } as React.CSSProperties}
+              onClick={() => { setFocusedScreen(screen.id); setView("wall"); }}
+              aria-label={`Focus ${screen.label}`}
             >
-              <i aria-hidden="true" />{room.label}
+              <ScreenContent kind={screen.kind} tick={tick} />
+              <span className="screen-reflection" aria-hidden="true" />
             </button>
           ))}
         </div>
 
-        <div className="station evidence-station">
-          <span>Evidence wall</span>
-          {evidence.map(item => (
-            <button key={item.id} className={focusedEvidence === item.id ? "evidence-chip active" : "evidence-chip"} onClick={() => { setFocusedEvidence(item.id); setStation("Briefing"); }}>
-              {item.kind}
-            </button>
-          ))}
+        <button className="room-zone desk-zone" onClick={() => setView("desk")} aria-label="Move closer to Isabel's desk" />
+        <button className="room-zone table-zone" onClick={() => setView("table")} aria-label="Move to the collaboration table" />
+        <button className="room-zone entry-zone" onClick={() => { setPresent(true); setView("arrival"); }} aria-label="Enter Isabel's office" />
+        <button className="room-zone reset-zone" onClick={() => { setView("arrival"); setFocusedScreen(null); }} aria-label="Return to the office entrance" />
+
+        <div className="office-presence" aria-live="polite">
+          <span className="presence-dot" />
+          <span>{present ? "ISABEL IS WITH YOU" : "ISABEL IS WORKING"}</span>
+          <b>{activeMessage}</b>
         </div>
-
-        <button className={station === "Draft" ? "station desk active" : "station desk"} onClick={() => setStation("Draft")}>
-          <span>Isabel's desk</span>
-          <b>Owner draft</b>
-          <i className="desk-monitor" aria-hidden="true" />
-          <i className="desk-lamp" aria-hidden="true" />
-        </button>
-
-        <button className={station === "Weather" ? "station weather active" : "station weather"} onClick={() => setStation("Weather")}>
-          <span>Weather board</span>
-          <b>64% rain risk</b>
-        </button>
-
-        <button className={station === "Confirm" ? "station authority active" : "station authority"} onClick={() => setStation("Confirm")}>
-          <span>Authority table</span>
-          <b>{confirmed ? "Queued" : "Waiting"}</b>
-        </button>
-
-        <div className="conference-table" aria-hidden="true">
-          <span />
-          <i />
-        </div>
-
-        <div className="desk-chair" aria-hidden="true" />
-
-        <div className="foreground-console" aria-hidden="true">
-          <span>FIELD READ</span>
-          <b>Weather watch · no delay</b>
-          <em>Awaiting Carlos</em>
-        </div>
-
-        <button className="entry-button" onClick={() => setEntered(current => !current)}>
-          {entered ? "Leave office" : "Enter Isabel's office"}
-        </button>
-        <div className="arrival-banner" aria-live="polite">
-          <span>{entered ? "ISABEL LOOKS UP" : "OFFICE READY"}</span>
-          <b>{entered ? "Welcome back. The morning is already sorted." : "Pre-arrival work is in progress."}</b>
-        </div>
-
-        <button className={station === "Memory" ? "station vault active" : "station vault"} onClick={() => setStation("Memory")}>
-          <span>Memory vault</span>
-          <b>{memory}</b>
-        </button>
-
-        <button className={station === "Activity" ? "station audit active" : "station audit"} onClick={() => setStation("Activity")}>
-          <span>Audit board</span>
-          <b>4 events</b>
-        </button>
-
-        <div className={`isabel ${entered ? "noticed" : ""} at-${station.toLowerCase()}`} aria-label="Isabel in the SSX office">
-          <div className="isabel-standin">
-            <span />
-            <b>ISABEL</b>
-          </div>
-          <i />
-        </div>
-
-        <div className="floor-shadow" />
-      </section>
-
-      <section className="control-panel">
-        <header>
-          <div>
-            <span className="kicker">ISABEL V1 · OFFICE MODE</span>
-            <h1>{entered ? "She noticed you walk in." : "She is already working."}</h1>
-            <p>{entered ? stationCopy[station] : "The screen is her SSX office. She moves through the room, prepares work, and waits for you to step in."}</p>
-          </div>
-          <div className="status">
-            <b>{entered ? "USER PRESENT" : "PRE-ARRIVAL"}</b>
-            <span>Memory: {memory}</span>
-          </div>
-        </header>
-
-        <nav aria-label="Office stations">
-          {stations.map(item => (
-            <button key={item} className={station === item ? "active" : ""} onClick={() => setStation(item)}>{item}</button>
-          ))}
-        </nav>
-
-        {station === "Briefing" && (
-          <div className="briefing-board">
-            <section className="source-card">
-              <span>Focused source</span>
-              <h2>{selectedEvidence.title}</h2>
-              <p>{selectedEvidence.note}</p>
-              <small>{selectedEvidence.source}</small>
-            </section>
-            {briefing.map((item, index) => (
-              <article className="briefing-item" key={item.title}>
-                <b>0{index + 1}</b>
-                <div>
-                  <span>{item.level} · {item.owner}</span>
-                  <h3>{item.title}</h3>
-                  <p>{item.why}</p>
-                  <small>{item.residue}</small>
-                </div>
-              </article>
-            ))}
-          </div>
-        )}
-
-        {station === "Weather" && (
-          <div className="weather-room">
-            <section className="weather-hero">
-              <span>Field/weather board</span>
-              <h2>Weather is a watch item, not a delay yet.</h2>
-              <p>Isabel keeps the weather board visible because exterior storefront work is close, but she does not escalate until site impact is confirmed.</p>
-              <div className="radar-wall">
-                <i />
-                <b>ISABEL TOWER</b>
-                <em>Rain band · tomorrow AM</em>
-              </div>
-            </section>
-            {weather.map(item => (
-              <article key={item.label}>
-                <span>{item.label}</span>
-                <h3>{item.value}</h3>
-                <p>{item.note}</p>
-              </article>
-            ))}
-            <div className="field-action">
-              <span>Recommended next move</span>
-              <b>Ask Carlos for alternate exterior sequence before the afternoon meeting.</b>
-              <button>Request field confirmation</button>
-            </div>
-          </div>
-        )}
-
-        {station === "Draft" && (
-          <div className="draft-room">
-            <article className="document">
-              <span>Owner message on Isabel’s desk</span>
-              <h2>Storefront anchorage clarification and schedule check</h2>
-              <p>John,</p>
-              <p>We are reviewing the RFI-117 response regarding the Level 2 storefront anchorage detail. Because storefront installation is scheduled to begin in 18 days, we are confirming whether the revised detail affects fabrication release.</p>
-              <p>I will update you once we confirm any schedule exposure. {toneVariants[tone as keyof typeof toneVariants]}</p>
-              <p>Respectfully,<br />SSX</p>
-            </article>
-            <aside className="tone-rack">
-              <span>Tone Isabel can apply</span>
-              {Object.keys(toneVariants).map(item => <button key={item} className={tone === item ? "active" : ""} onClick={() => setTone(item)}>{item}</button>)}
-            </aside>
-          </div>
-        )}
-
-        {station === "Confirm" && (
-          <div className="confirm-room">
-            <div>
-              <span>External action boundary</span>
-              <h2>Queue owner message and create Maya’s follow-up task?</h2>
-              <p>Isabel can prepare everything in the room, but no email, task, or memory write leaves without human authority.</p>
-            </div>
-            <div className="checks"><span>Evidence attached</span><span>Human confirmation</span><span>Task residue</span><span>Audit event</span></div>
-            <div className="actions"><button onClick={() => setConfirmed(false)}>Hold</button><button onClick={() => setConfirmed(true)}>{confirmed ? "Queued" : "Confirm"}</button></div>
-          </div>
-        )}
-
-        {station === "Memory" && (
-          <div className="memory-room">
-            <article>
-              <span>Proposed durable memory</span>
-              <h2>John Ramirez prefers written confirmation before schedule-impacting coordination messages.</h2>
-              <p>Store this only as project-bound relationship context. It can improve Isabel’s future behavior without becoming hidden or permanent.</p>
-            </article>
-            <div className="actions"><button onClick={() => setMemory("Declined")}>Decline</button><button onClick={() => setMemory("Approved")}>Approve memory</button></div>
-          </div>
-        )}
-
-        {station === "Activity" && (
-          <div className="activity-room">
-            {activity.map(item => (
-              <article key={item.title}>
-                <time>{item.time}</time>
-                <div><h3>{item.title}</h3><p>{item.detail}</p></div>
-              </article>
-            ))}
-          </div>
-        )}
+        <p className="sr-only">The office is alive. Project screens refresh continuously. Select a display to inspect the curved command wall, Isabel&apos;s desk, or the collaboration table.</p>
       </section>
     </main>
   );

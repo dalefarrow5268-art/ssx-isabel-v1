@@ -14,13 +14,18 @@ type Screen = {
   w: number;
   h: number;
   skew?: number;
+  projective?: boolean;
+  quad?: [[number, number], [number, number], [number, number], [number, number]];
 };
 
 const screens: Screen[] = [
   // Screen 01: measured to the *inner glass*, not the photographed bezel.
   // Each succeeding display will get its own four-point calibration before it
   // is made live — the same workflow as a Photoshop smart-object replacement.
-  { id: "map", label: "Project map", kind: "map", x: 11.8, y: 12.9, w: 14.5, h: 13.1, skew: -1.05 },
+  // Screen 01 is a photographed plane. These are the inner-glass corners
+  // measured on the locked office plate: TL, TR, BR, BL in stage percentages.
+  { id: "map", label: "Project map", kind: "map", x: 10.8, y: 8.8, w: 13.4, h: 19.5, projective: true,
+    quad: [[10.8, 8.8], [24.2, 12.8], [24.2, 28.3], [10.8, 24.4]] },
   { id: "schedule", label: "Critical path", kind: "schedule", x: 27.7, y: 10.7, w: 11.0, h: 17.2, skew: -1 },
   { id: "lookahead", label: "14 day lookahead", kind: "lookahead", x: 38.9, y: 11.7, w: 11.0, h: 16.1, skew: -0.4 },
   { id: "cameras", label: "Field cameras", kind: "cameras", x: 50.0, y: 12.6, w: 11.0, h: 15.2, skew: 0.2 },
@@ -36,6 +41,56 @@ const screens: Screen[] = [
 // real-world bounds are fitted and approved. The rest of the room remains the
 // locked architectural plate until its turn.
 const fittedScreenIds = new Set(["map"]);
+
+type Point = [number, number];
+
+function solveHomography(source: Point[], destination: Point[]) {
+  const rows: number[][] = [];
+  source.forEach(([x, y], index) => {
+    const [u, v] = destination[index];
+    rows.push([x, y, 1, 0, 0, 0, -u * x, -u * y, u]);
+    rows.push([0, 0, 0, x, y, 1, -v * x, -v * y, v]);
+  });
+
+  for (let column = 0; column < 8; column += 1) {
+    let pivot = column;
+    for (let row = column + 1; row < 8; row += 1) {
+      if (Math.abs(rows[row][column]) > Math.abs(rows[pivot][column])) pivot = row;
+    }
+    [rows[column], rows[pivot]] = [rows[pivot], rows[column]];
+    const divisor = rows[column][column] || 1;
+    for (let value = column; value < 9; value += 1) rows[column][value] /= divisor;
+    for (let row = 0; row < 8; row += 1) {
+      if (row === column) continue;
+      const factor = rows[row][column];
+      for (let value = column; value < 9; value += 1) rows[row][value] -= factor * rows[column][value];
+    }
+  }
+
+  const h = rows.map(row => row[8]);
+  return [h[0], h[3], 0, h[6], h[1], h[4], 0, h[7], 0, 0, 1, 0, h[2], h[5], 0, 1]
+    .join(",");
+}
+
+function useProjectiveTransform(quad?: [Point, Point, Point, Point]) {
+  const [transform, setTransform] = useState("matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)");
+
+  useEffect(() => {
+    if (!quad) return;
+    const update = () => {
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      const source: Point[] = [[0, 0], [width, 0], [width, height], [0, height]];
+      const destination = quad.map(([x, y]) => [width * x / 100, height * y / 100] as Point);
+      setTransform(`matrix3d(${solveHomography(source, destination)})`);
+    };
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, [quad]);
+
+  return transform;
+}
 
 const statusCopy = [
   "RFI-117 linked to the storefront risk thread.",
@@ -95,6 +150,7 @@ export default function Home() {
   const [view, setView] = useState<View>("arrival");
   const [focusedScreen, setFocusedScreen] = useState<string | null>(null);
   const [present, setPresent] = useState(false);
+  const mapTransform = useProjectiveTransform(screens[0].quad);
   const activeMessage = statusCopy[tick % statusCopy.length];
 
   return (
@@ -110,8 +166,10 @@ export default function Home() {
           {screens.filter((screen) => fittedScreenIds.has(screen.id)).map((screen) => (
             <button
               key={screen.id}
-              className={`live-screen ${screen.kind} ${focusedScreen === screen.id ? "screen-focused" : ""}`}
-              style={{ left: `${screen.x}%`, top: `${screen.y}%`, width: `${screen.w}%`, height: `${screen.h}%`, "--skew": `${screen.skew ?? 0}deg` } as React.CSSProperties}
+              className={`live-screen ${screen.kind} ${screen.projective ? "projective-screen" : ""} ${focusedScreen === screen.id ? "screen-focused" : ""}`}
+              style={(screen.projective
+                ? { "--screen-transform": mapTransform }
+                : { left: `${screen.x}%`, top: `${screen.y}%`, width: `${screen.w}%`, height: `${screen.h}%`, "--skew": `${screen.skew ?? 0}deg` }) as unknown as React.CSSProperties}
               onClick={() => { setFocusedScreen(screen.id); setView("wall"); }}
               aria-label={`Focus ${screen.label}`}
             >

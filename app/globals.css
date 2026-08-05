@@ -1081,3 +1081,34 @@ nav button.active { color: var(--cream); border-color: var(--gold); background: 
     padding: 14px;
   }
 }
+
+
+/* Desktop monitor composition: 27-inch 1080p/1440p target. */
+@media (min-width: 1100px) {
+  .office-scene {
+    height: 100vh;
+    min-height: 760px;
+  }
+  .control-panel {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    z-index: 8;
+    width: min(1180px, calc(100% - 96px));
+    max-height: 220px;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 14px 18px;
+    background: linear-gradient(180deg, rgba(8,10,12,.84), rgba(8,10,12,.94));
+    box-shadow: 0 18px 60px rgba(0,0,0,.5);
+  }
+  .control-panel header {
+    display: flex;
+  }
+  .control-panel h1 {
+    font-size: clamp(24px, 2.1vw, 34px);
+  }
+  .control-panel nav {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2830"/>
+      <stop offset=".62" stop-color="#091b25"/>
+      <stop offset="1" stop-color="#102e32"/>
+    </linearGradient>
+    <pattern id="grid" width="58" height="58" patternUnits="userSpaceOnUse" patternTransform="rotate(24)">
+      <path d="M0 0H58M0 29H58" stroke="#4e8993" stroke-opacity=".2" stroke-width="2"/>
+    </pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="9" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect x="50" y="54" width="1100" height="692" rx="2" fill="url(#panel)" stroke="#5e9aaa" stroke-opacity=".55" stroke-width="3"/>
+  <text x="84" y="104" fill="#9bc2cc" font-family="Arial,Helvetica,sans-serif" font-size="35" font-weight="700" letter-spacing="4">ISABEL TOWER · SITE MAP</text>
+  <text x="1088" y="104" text-anchor="end" fill="#7ee0aa" font-family="Arial,Helvetica,sans-serif" font-size="30" font-weight="700" letter-spacing="3">LIVE</text>
+  <rect x="82" y="140" width="1036" height="558" fill="url(#grid)" stroke="#5594a0" stroke-opacity=".35" stroke-width="2"/>
+  <path d="M118 310 L655 645" fill="none" stroke="#e7b94f" stroke-width="8" filter="url(#glow)"/>
+  <path d="M260 620 L890 238" fill="none" stroke="#63c9d6" stroke-width="7" filter="url(#glow)"/>
+  <g fill="#f8ca5d" filter="url(#glow)"><circle cx="300" cy="280" r="10"/><circle cx="710" cy="395" r="9"/><circle cx="910" cy="490" r="9"/></g>
+  <g fill="#73a875" fill-opacity=".32"><circle cx="456" cy="322" r="37"/><circle cx="804" cy="235" r="29"/><circle cx="255" cy="585" r="42"/></g>
+  <text x="1038" y="672" text-anchor="end" fill="#c9e2de" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="3">FIELD CREWS · 8</text>
+  <text x="84" y="724" fill="#648b97" font-family="Arial,Helvetica,sans-serif" font-size="20" letter-spacing="2">NORTH TOWER · LIVE OPERATIONS</text>
+</svg>

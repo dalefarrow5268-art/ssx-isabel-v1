@@ -95,7 +95,7 @@ function ScreenContent({ kind, tick }: { kind: ScreenKind; tick: number }) {
   const time = `07:${String(42 + (tick % 8)).padStart(2, "0")}`;
   switch (kind) {
     case "map":
-      return <><div className="screen-title">ISABEL TOWER · SITE MAP <b>LIVE</b></div><div className="map-grid"><i className="route route-a" /><i className="route route-b" /><i className="pin pin-a" /><i className="pin pin-b" /><i className="pin pin-c" /><span>FIELD CREWS · 8</span></div></>;
+      return <div className="map-panel"><div className="screen-title">ISABEL TOWER · SITE MAP <b>LIVE</b></div><div className="map-grid"><i className="route route-a" /><i className="route route-b" /><i className="pin pin-a" /><i className="pin pin-b" /><i className="pin pin-c" /><span>FIELD CREWS · 8</span></div></div>;
     case "schedule":
       return <><div className="screen-title">CRITICAL PATH <b>LIVE</b></div><div className="gantt"><i /><i /><i /><i /><i /><i /></div><div className="screen-footer"><span>FLOAT</span><b>18 DAYS</b></div></>;
     case "lookahead":

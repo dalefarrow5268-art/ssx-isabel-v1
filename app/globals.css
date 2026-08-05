@@ -1501,3 +1501,21 @@ html, body {
     left: 7%;
   }
 }
+
+
+/* Stable clean office baseline after removing the experimental whiteboard pan. */
+.left-digital-board { display: none !important; }
+@media (min-width: 1100px) {
+  .office-scene,
+  .office-scene.room-draft,
+  .office-scene.room-activity {
+    transform: none !important;
+  }
+  .office-photo,
+  .office-scene.room-draft .office-photo,
+  .office-scene.room-activity .office-photo {
+    transform: scale(1.08) !important;
+    transform-origin: 48% 45% !important;
+    object-position: 48% 44% !important;
+  }
+}

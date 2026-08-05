@@ -1024,3 +1024,60 @@ nav button.active { color: var(--cream); border-color: var(--gold); background: 
 @media (prefers-reduced-motion: reduce) {
   .isabel, .isabel i { animation: none; }
 }
+
+
+/* Compact control dock: keep the office scene dominant and fit common laptop screens. */
+.office {
+  display: block;
+  min-height: 100vh;
+}
+.office-scene {
+  min-height: min(760px, 78vh);
+  height: min(760px, 78vh);
+}
+.control-panel {
+  width: min(1120px, calc(100% - 32px));
+  max-height: 285px;
+  overflow: auto;
+  margin: -34px auto 22px;
+  padding: 16px 18px;
+  border-radius: 2px;
+  background: linear-gradient(135deg, rgba(11,13,16,.9), rgba(20,24,29,.78));
+}
+.control-panel header {
+  align-items: center;
+  padding-bottom: 11px;
+}
+.control-panel h1 {
+  font-size: clamp(24px, 3vw, 36px);
+  margin: 4px 0;
+}
+.control-panel header p {
+  font-size: 12px;
+  line-height: 1.35;
+}
+.control-panel nav {
+  margin: 11px 0;
+}
+.control-panel nav button {
+  padding: 8px 6px;
+  font-size: 9px;
+}
+.briefing-board, .weather-room, .draft-room, .confirm-room, .memory-room, .activity-room {
+  font-size: 12px;
+}
+.source-card, .briefing-item, .document, .tone-rack, .confirm-room, .memory-room, .activity-room article, .weather-room article, .weather-hero {
+  padding: 12px;
+}
+@media (max-width: 680px) {
+  .office-scene {
+    min-height: 650px;
+    height: 650px;
+  }
+  .control-panel {
+    width: calc(100% - 20px);
+    max-height: 360px;
+    margin: -18px auto 16px;
+    padding: 14px;
+  }
+}

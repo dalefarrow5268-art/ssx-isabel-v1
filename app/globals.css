@@ -1281,3 +1281,44 @@ html, body {
       linear-gradient(180deg, rgba(255,220,154,.035), transparent 48%, rgba(39,25,13,.08));
   }
 }
+
+
+/* Embedded working screens: clickable wall regions with live ambient response. */
+@keyframes screen-refresh {
+  0%, 92%, 100% { opacity: .08; transform: translateX(-12%); }
+  95% { opacity: .2; transform: translateX(12%); }
+}
+@media (min-width: 1100px) {
+  .photo-hotspot {
+    display: block !important;
+    opacity: 0;
+    border: 1px solid transparent;
+    background: transparent;
+  }
+  .photo-hotspot:hover,
+  .photo-hotspot:focus-visible {
+    opacity: 1;
+    border-color: rgba(255,214,143,.3);
+    background: rgba(255,214,143,.035);
+    box-shadow: inset 0 0 34px rgba(255,214,143,.08);
+    outline: none;
+  }
+  .hotspot-command:after,
+  .hotspot-vault:after {
+    content: "";
+    position: absolute;
+    inset: 8%;
+    pointer-events: none;
+    background: linear-gradient(90deg, transparent, rgba(164,218,255,.12), transparent);
+    animation: screen-refresh 7s linear infinite;
+  }
+  .office-scene.room-weather:after {
+    background: radial-gradient(ellipse at 31% 38%, rgba(90,174,255,.14), transparent 24%), radial-gradient(ellipse at 73% 22%, rgba(255,235,187,.1), transparent 20%);
+  }
+  .office-scene.room-draft:after {
+    background: radial-gradient(ellipse at 31% 38%, rgba(255,190,102,.14), transparent 24%), radial-gradient(ellipse at 73% 22%, rgba(255,235,187,.1), transparent 20%);
+  }
+  .office-scene.room-memory:after {
+    background: radial-gradient(ellipse at 76% 22%, rgba(199,156,88,.16), transparent 22%), radial-gradient(ellipse at 32% 38%, rgba(255,235,187,.08), transparent 20%);
+  }
+}

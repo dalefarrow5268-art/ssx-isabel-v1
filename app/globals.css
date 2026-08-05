@@ -1246,3 +1246,20 @@ html, body {
 @media (prefers-reduced-motion: reduce) {
   .office-photo, .office-scene:after { animation: none; }
 }
+
+
+/* Keep the atmosphere architectural: no card-like treatment over the reference image. */
+@media (min-width: 1100px) {
+  .office-scene {
+    isolation: isolate;
+  }
+  .office-scene:after {
+    opacity: .8;
+    background:
+      radial-gradient(ellipse at 31% 43%, rgba(211,149,67,.09), transparent 20%),
+      radial-gradient(ellipse at 78% 21%, rgba(255,220,157,.065), transparent 16%);
+  }
+  .office-photo {
+    object-position: center center;
+  }
+}

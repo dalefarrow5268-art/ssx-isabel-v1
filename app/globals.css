@@ -1519,3 +1519,25 @@ html, body {
     object-position: 48% 44% !important;
   }
 }
+
+
+/* Emergency render correction: guarantee the office photograph is the visible desktop layer. */
+@media (min-width: 1100px) {
+  .office-scene {
+    background: transparent !important;
+  }
+  .office-photo {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+  }
+  .office-scene:before,
+  .office-scene:after {
+    display: none !important;
+    content: none !important;
+  }
+}

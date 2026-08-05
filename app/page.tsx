@@ -72,6 +72,11 @@ export default function Home() {
         <button className="photo-hotspot hotspot-desk" onClick={() => setStation("Draft")} aria-label="Open Isabel's desk" />
         <button className="photo-hotspot hotspot-vault" onClick={() => setStation("Memory")} aria-label="Open memory vault" />
         <button className="photo-hotspot hotspot-table" onClick={() => setStation("Confirm")} aria-label="Open meeting room" />
+        <button className="left-digital-board" onClick={() => setStation("Draft")} aria-label="Open left wall digital white board">
+          <span>SSX DIGITAL WHITE BOARD</span>
+          <b>Drafting wall · click to open</b>
+          <i aria-hidden="true" />
+        </button>
         <div className="back-wall" />
         <div className="left-wall" />
         <div className="right-wall" />

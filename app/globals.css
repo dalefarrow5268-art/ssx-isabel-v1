@@ -38,6 +38,49 @@ button { font: inherit; }
     radial-gradient(ellipse at 50% 47%, rgba(201,166,110,.12), transparent 28%),
     linear-gradient(180deg, rgba(255,255,255,.03), transparent 38%);
 }
+.office-photo {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: saturate(.82) contrast(1.08) brightness(.72);
+}
+.office-scene > :not(.office-photo) { z-index: 1; }
+.photo-hotspot {
+  position: absolute;
+  z-index: 2;
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+}
+.photo-hotspot:hover, .photo-hotspot:focus-visible {
+  border-color: rgba(201,166,110,.62);
+  background: rgba(201,166,110,.08);
+  box-shadow: inset 0 0 28px rgba(201,166,110,.08), 0 0 20px rgba(201,166,110,.12);
+  outline: none;
+}
+.hotspot-command { left: 28%; top: 16%; width: 31%; height: 25%; }
+.hotspot-desk { left: 19%; top: 43%; width: 31%; height: 28%; }
+.hotspot-vault { left: 65%; top: 15%; width: 22%; height: 43%; }
+.hotspot-table { left: 67%; top: 45%; width: 31%; height: 32%; }
+.office-scene > .back-wall,
+.office-scene > .left-wall,
+.office-scene > .right-wall,
+.office-scene > .floor-plane,
+.office-scene > .ceiling-soffit,
+.office-scene > .ceiling-grid,
+.office-scene > .command-wall { display: none; }
+.office-scene > .scout-engine-panel,
+.office-scene > .room-map,
+.office-scene > .evidence-station { background: rgba(8,10,12,.72); }
+.office-scene > .station { box-shadow: 0 12px 30px rgba(0,0,0,.18); backdrop-filter: blur(4px); }
+.office-scene > .isabel,
+.office-scene > .desk-chair,
+.office-scene > .conference-table,
+.office-scene > .floor-shadow { display: none; }
 .office-scene:after {
   content: "";
   position: absolute;
@@ -894,4 +937,64 @@ nav button.active { color: var(--cream); border-color: var(--gold); background: 
     animation-iteration-count: 1 !important;
     transition-duration: .01ms !important;
   }
+}
+
+/* Photo-first office composition: controls sit inside the room instead of replacing it. */
+.office-scene {
+  min-height: 760px;
+  background: #090807;
+}
+.office-photo { filter: saturate(.9) contrast(1.05) brightness(.78); }
+.office-scene:before { top: 0; height: 100%; opacity: .28; background: linear-gradient(180deg, rgba(0,0,0,.14), transparent 52%, rgba(0,0,0,.55)); box-shadow: none; }
+.office-scene:after { background: linear-gradient(90deg, rgba(0,0,0,.18), transparent 22% 78%, rgba(0,0,0,.2)); }
+.office-clock { left: 8%; bottom: 38%; background: rgba(10,8,7,.62); }
+.room-placard { left: 8%; top: 14%; background: rgba(10,8,7,.7); }
+.ops-strip { left: 31%; right: 31%; top: 44%; background: rgba(8,10,10,.58); }
+.scout-engine-panel { display: none; }
+.room-map { left: 50%; top: 8%; width: 250px; transform: translateX(-50%); background: rgba(8,8,8,.72); }
+.evidence-station { left: 42%; top: 29%; width: 230px; background: rgba(8,8,8,.68); }
+.desk { left: 22%; bottom: 27%; width: 31%; height: 18%; transform: none; padding: 12px 18px; background: rgba(12,10,8,.25); border-color: rgba(201,166,110,.34); }
+.desk:before, .desk:after, .desk-monitor, .desk-lamp { display: none; }
+.desk-chair { left: 34%; bottom: 24%; opacity: .6; }
+.conference-table { left: 67%; right: 4%; bottom: 10%; height: 22%; opacity: .45; }
+.weather { left: 8%; top: 53%; background: rgba(8,16,20,.68); }
+.authority { right: 20%; bottom: 31%; background: rgba(10,9,8,.68); }
+.vault { right: 5%; bottom: 25%; background: rgba(25,18,12,.58); }
+.audit { left: 61%; top: 49%; background: rgba(8,10,10,.62); }
+.foreground-console { left: 6%; right: 6%; bottom: -28px; opacity: .72; }
+.isabel { left: 39%; bottom: 28%; width: 72px; height: 184px; opacity: .4; mix-blend-mode: screen; }
+.isabel-standin { opacity: .18; }
+.floor-shadow { left: 28%; right: 43%; bottom: 26%; opacity: .35; }
+.control-panel { margin-top: -42px; }
+.office-scene > .room-placard,
+.office-scene > .office-clock,
+.office-scene > .ops-strip { box-shadow: none; }
+.office-scene > .desk { border-color: rgba(201,166,110,.25); background: rgba(12,10,8,.18); }
+.office-scene > .weather,
+.office-scene > .authority,
+.office-scene > .vault,
+.office-scene > .audit { opacity: .86; }
+
+@media (max-width: 900px) {
+  .office-scene { min-height: 700px; }
+  .room-placard { left: 4%; top: 14%; }
+  .room-map { left: 50%; top: 8%; }
+  .evidence-station { left: 38%; top: 29%; }
+  .desk { left: 18%; bottom: 27%; width: 36%; }
+  .isabel { left: 37%; bottom: 28%; }
+}
+
+@media (max-width: 680px) {
+  .office-scene { min-height: 680px; }
+  .office-photo { object-position: 53% center; }
+  .room-placard { left: 16px; top: 14%; }
+  .room-map { left: 16px; right: 16px; top: 34%; width: auto; transform: none; }
+  .evidence-station { left: 16px; top: 49%; width: 150px; }
+  .desk { left: 21%; bottom: 23%; width: 46%; height: 15%; }
+  .desk-chair, .conference-table { display: none; }
+  .hotspot-command { left: 24%; top: 19%; width: 50%; height: 22%; }
+  .hotspot-desk { left: 15%; top: 43%; width: 43%; height: 25%; }
+  .hotspot-vault { left: 63%; top: 18%; width: 30%; height: 36%; }
+  .hotspot-table { left: 58%; top: 45%; width: 40%; height: 30%; }
+  .control-panel { margin-top: -20px; }
 }

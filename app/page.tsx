@@ -67,6 +67,11 @@ export default function Home() {
   return (
     <main className={entered ? "office entered" : "office"}>
       <section className={`office-scene room-${station.toLowerCase()}`} aria-label="SSX Isabel office">
+        <img className="office-photo" src="/isabel-office-reference.png" alt="SSX construction operations office" />
+        <button className="photo-hotspot hotspot-command" onClick={() => setStation("Briefing")} aria-label="Open command wall" />
+        <button className="photo-hotspot hotspot-desk" onClick={() => setStation("Draft")} aria-label="Open Isabel's desk" />
+        <button className="photo-hotspot hotspot-vault" onClick={() => setStation("Memory")} aria-label="Open memory vault" />
+        <button className="photo-hotspot hotspot-table" onClick={() => setStation("Confirm")} aria-label="Open meeting room" />
         <div className="back-wall" />
         <div className="left-wall" />
         <div className="right-wall" />

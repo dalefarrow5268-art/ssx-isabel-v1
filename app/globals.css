@@ -1182,3 +1182,31 @@ html, body {
     opacity: 1;
   }
 }
+
+
+/* Final desktop composition: the reference image is the office window. */
+@media (min-width: 1100px) {
+  .office-photo {
+    filter: saturate(.96) contrast(1.02) brightness(.92);
+  }
+  .room-map,
+  .evidence-station,
+  .room-placard,
+  .office-clock,
+  .ops-strip,
+  .station,
+  .foreground-console,
+  .arrival-banner,
+  .arrival-lane,
+  .entry-button,
+  .photo-hotspot {
+    display: none !important;
+  }
+  .office-scene:after,
+  .office-scene:before {
+    display: none;
+  }
+  .office-scene {
+    background: #111;
+  }
+}

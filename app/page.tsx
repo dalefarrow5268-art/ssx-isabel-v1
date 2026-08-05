@@ -5,6 +5,15 @@ import { useMemo, useState } from "react";
 const stations = ["Briefing", "Weather", "Draft", "Confirm", "Memory", "Activity"] as const;
 type Station = (typeof stations)[number];
 
+const rooms = [
+  { label: "Control center", station: "Briefing" },
+  { label: "Weather room", station: "Weather" },
+  { label: "Drafting room", station: "Draft" },
+  { label: "Memory vault", station: "Memory" },
+  { label: "Meeting room", station: "Confirm" },
+  { label: "Project war room", station: "Activity" },
+] as const;
+
 const evidence = [
   { id: "rfi-117", kind: "RFI", title: "RFI-117 anchorage clarification", note: "Level 2 storefront anchorage detail changed; submittal revision may be required.", source: "Procore · 06:42" },
   { id: "sched-44", kind: "Schedule", title: "Schedule Update 44", note: "Storefront installation begins in 18 calendar days.", source: "P6 import · 06:51" },
@@ -53,13 +62,43 @@ export default function Home() {
   const [entered, setEntered] = useState(false);
   const [focusedEvidence, setFocusedEvidence] = useState(evidence[0].id);
   const selectedEvidence = useMemo(() => evidence.find(item => item.id === focusedEvidence) ?? evidence[0], [focusedEvidence]);
+  const activeRoom = rooms.find(room => room.station === station)?.label ?? "Control center";
 
   return (
     <main className={entered ? "office entered" : "office"}>
-      <section className="office-scene" aria-label="SSX Isabel office">
+      <section className={`office-scene room-${station.toLowerCase()}`} aria-label="SSX Isabel office">
+        <div className="back-wall" />
+        <div className="left-wall" />
+        <div className="right-wall" />
+        <div className="floor-plane" />
+        <div className="ceiling-soffit" />
         <div className="ceiling-grid" />
-        <div className="city-window"><span>SSX HQ · 07:42</span></div>
-        <div className="glass-wall">
+        <div className="office-clock" aria-label="Office status">
+          <b>SSX HQ</b>
+          <span>07:42 · {entered ? "USER PRESENT" : "PRE-ARRIVAL"}</span>
+        </div>
+        <div className="arrival-lane" aria-hidden="true"><span>ARRIVAL LANE</span><i /><i /><i /></div>
+        <div className="room-placard">
+          <span>ACTIVE ROOM</span>
+          <b>{activeRoom}</b>
+          <em>{stationCopy[station]}</em>
+        </div>
+        <div className="command-wall">
+          <header>
+            <b>SSX</b>
+            <span>Construction Operations Command</span>
+          </header>
+          <div className="project-map"><span>Active projects map</span><i /></div>
+          <div className="schedule-strip"><span>Schedule · 14 day lookahead</span><i /><i /><i /></div>
+          <div className="wall-weather"><span>Weather/radar</span><b>64%</b></div>
+          <div className="wall-evidence"><span>Evidence board</span><em>RFI-117</em><em>Schedule</em><em>Minutes</em></div>
+          <div className="wall-audit"><span>Audit timeline</span><i /><i /><i /><i /></div>
+        </div>
+        <div className="ops-strip" aria-label="Current office activity">
+          <span>LAST ACTION</span><b>{station === "Draft" ? "Owner language prepared" : station === "Memory" ? "Memory proposal awaiting review" : "Evidence linked to risk thread"}</b>
+          <em>07:41</em>
+        </div>
+        <div className="scout-engine-panel">
           <b>SCOUT ENGINE</b>
           <span>personality</span>
           <span>memory</span>
@@ -68,15 +107,17 @@ export default function Home() {
 
         <div className="room-map">
           <b>SSX rooms</b>
-          <span className="current">Control center</span>
-          <span>Weather room</span>
-          <span>Drafting room</span>
-          <span>Memory vault</span>
+          {rooms.map(room => (
+            <button
+              key={room.label}
+              className={activeRoom === room.label ? "current" : ""}
+              aria-pressed={activeRoom === room.label}
+              onClick={() => setStation(room.station)}
+            >
+              <i aria-hidden="true" />{room.label}
+            </button>
+          ))}
         </div>
-
-        <button className="door" onClick={() => setEntered(true)}>
-          <span>{entered ? "You are in the office" : "Enter Isabel’s office"}</span>
-        </button>
 
         <div className="station evidence-station">
           <span>Evidence wall</span>
@@ -88,8 +129,10 @@ export default function Home() {
         </div>
 
         <button className={station === "Draft" ? "station desk active" : "station desk"} onClick={() => setStation("Draft")}>
-          <span>Writing desk</span>
+          <span>Isabel's desk</span>
           <b>Owner draft</b>
+          <i className="desk-monitor" aria-hidden="true" />
+          <i className="desk-lamp" aria-hidden="true" />
         </button>
 
         <button className={station === "Weather" ? "station weather active" : "station weather"} onClick={() => setStation("Weather")}>
@@ -101,6 +144,27 @@ export default function Home() {
           <span>Authority table</span>
           <b>{confirmed ? "Queued" : "Waiting"}</b>
         </button>
+
+        <div className="conference-table" aria-hidden="true">
+          <span />
+          <i />
+        </div>
+
+        <div className="desk-chair" aria-hidden="true" />
+
+        <div className="foreground-console" aria-hidden="true">
+          <span>FIELD READ</span>
+          <b>Weather watch · no delay</b>
+          <em>Awaiting Carlos</em>
+        </div>
+
+        <button className="entry-button" onClick={() => setEntered(current => !current)}>
+          {entered ? "Leave office" : "Enter Isabel's office"}
+        </button>
+        <div className="arrival-banner" aria-live="polite">
+          <span>{entered ? "ISABEL LOOKS UP" : "OFFICE READY"}</span>
+          <b>{entered ? "Welcome back. The morning is already sorted." : "Pre-arrival work is in progress."}</b>
+        </div>
 
         <button className={station === "Memory" ? "station vault active" : "station vault"} onClick={() => setStation("Memory")}>
           <span>Memory vault</span>

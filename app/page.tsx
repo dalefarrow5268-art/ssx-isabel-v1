@@ -20,7 +20,8 @@ type Screen = {
 };
 
 const screens: Screen[] = [
-  // Screen 01: measured to the *inner glass*, not the photographed bezel.
+  // Screen 01: the test display is a 27-inch HP monitor. It is measured to
+  // the *inner glass*, not the photographed bezel.
   // Each succeeding display will get its own four-point calibration before it
   // is made live — the same workflow as a Photoshop smart-object replacement.
   // Screen 01 is a photographed plane. These are the inner-glass corners
@@ -138,13 +139,13 @@ function Screen01Canvas({ tick, viewport }: { tick: number; viewport: { width: n
       const perspective = new Perspective(context, image);
       perspective.draw({
         topLeftX: viewport.width * 0.108 * pixelRatio,
-        topLeftY: viewport.height * 0.09 * pixelRatio,
+        topLeftY: viewport.height * 0.106 * pixelRatio,
         topRightX: viewport.width * 0.2435 * pixelRatio,
-        topRightY: viewport.height * 0.1455 * pixelRatio,
+        topRightY: viewport.height * 0.134 * pixelRatio,
         bottomRightX: viewport.width * 0.2435 * pixelRatio,
-        bottomRightY: viewport.height * 0.2803 * pixelRatio,
+        bottomRightY: viewport.height * 0.263 * pixelRatio,
         bottomLeftX: viewport.width * 0.108 * pixelRatio,
-        bottomLeftY: viewport.height * 0.2822 * pixelRatio,
+        bottomLeftY: viewport.height * 0.261 * pixelRatio,
       });
     };
     image.src = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(mapTextureSvg(tick))}`;

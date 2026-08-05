@@ -1435,3 +1435,32 @@ html, body {
   .left-digital-board span { font-size: 9px; }
   .left-digital-board b { font-size: 8px; }
 }
+
+
+@keyframes board-data-refresh {
+  0%, 78%, 100% { opacity: .18; transform: translateX(-3%); }
+  86% { opacity: .5; transform: translateX(3%); }
+}
+@keyframes board-status-pulse {
+  0%, 100% { opacity: .55; }
+  50% { opacity: 1; }
+}
+@media (min-width: 1100px) {
+  .left-digital-board:before {
+    animation: board-data-refresh 8s ease-in-out infinite;
+  }
+  .left-digital-board i {
+    animation: board-status-pulse 2.8s ease-in-out infinite;
+  }
+  .left-digital-board:hover {
+    box-shadow:
+      inset 0 0 0 1px rgba(255,255,255,.95),
+      inset 0 0 34px rgba(115,181,204,.2),
+      18px 20px 0 rgba(35,28,21,.55),
+      22px 28px 42px rgba(0,0,0,.42),
+      0 0 28px rgba(220,241,246,.14);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .left-digital-board:before, .left-digital-board i { animation: none; }
+}

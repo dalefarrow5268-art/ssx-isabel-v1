@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { ISABEL_RUNTIME_EVENTS } from "./three/isabel-performance";
 
 type VoiceState = "idle" | "speaking" | "stopped" | "unavailable";
@@ -19,6 +19,8 @@ type SpeechLifecycle = {
   charLength?: number;
   elapsedTime?: number;
   text: string;
+  source?: "browser" | "cadence";
+  rate?: number;
 };
 
 const SPEECH_LIFECYCLE_EVENT = "isabel-speech-lifecycle";
@@ -37,16 +39,36 @@ function voiceSettings(intent: SpeechRequest["emotionalIntent"]) {
   }
 }
 
+function cadenceDelay(text: string, index: number, rate: number) {
+  const character = text[index] ?? "";
+  const next = text[index + 1] ?? "";
+  const base = 145 / Math.max(rate, 0.7);
+  if (/[.!?]/.test(character)) return base * 3.4;
+  if (/[,;:]/.test(character)) return base * 2.1;
+  if (/\s/.test(character)) return base * 0.72;
+  if (/[aeiouy]/i.test(character) || /[aeiouy]/i.test(next)) return base * 0.92;
+  return base * 0.68;
+}
+
 export default function IsabelSpeechRuntime() {
   const [state, setState] = useState<VoiceState>("idle");
   const [lastText, setLastText] = useState("Voice runtime ready");
   const [voiceName, setVoiceName] = useState("browser default");
+  const cadenceTimerRef = useRef<number | null>(null);
+  const speechTokenRef = useRef(0);
 
   useEffect(() => {
     if (!("speechSynthesis" in window)) {
       setState("unavailable");
       return;
     }
+
+    const clearCadence = () => {
+      if (cadenceTimerRef.current !== null) {
+        window.clearTimeout(cadenceTimerRef.current);
+        cadenceTimerRef.current = null;
+      }
+    };
 
     const chooseVoice = () => {
       const voices = window.speechSynthesis.getVoices();
@@ -57,6 +79,27 @@ export default function IsabelSpeechRuntime() {
       return preferred;
     };
 
+    const startCadence = (detail: SpeechRequest, rate: number, token: number) => {
+      clearCadence();
+      let index = 0;
+      const pulse = () => {
+        if (speechTokenRef.current !== token || index >= detail.text.length) return;
+        dispatchLifecycle({
+          commandId: detail.commandId,
+          phase: "boundary",
+          charIndex: index,
+          charLength: 1,
+          text: detail.text,
+          source: "cadence",
+          rate,
+        });
+        const delay = cadenceDelay(detail.text, index, rate);
+        index += /\s/.test(detail.text[index] ?? "") ? 1 : 2;
+        cadenceTimerRef.current = window.setTimeout(pulse, delay);
+      };
+      cadenceTimerRef.current = window.setTimeout(pulse, 70);
+    };
+
     chooseVoice();
     window.speechSynthesis.addEventListener("voiceschanged", chooseVoice);
 
@@ -64,7 +107,11 @@ export default function IsabelSpeechRuntime() {
       const detail = (event as CustomEvent<SpeechRequest>).detail;
       if (!detail?.text?.trim() || detail.mode === "silent") return;
 
+      speechTokenRef.current += 1;
+      const token = speechTokenRef.current;
+      clearCadence();
       window.speechSynthesis.cancel();
+
       const utterance = new SpeechSynthesisUtterance(detail.text);
       const selectedVoice = chooseVoice();
       if (selectedVoice) utterance.voice = selectedVoice;
@@ -75,7 +122,8 @@ export default function IsabelSpeechRuntime() {
 
       utterance.onstart = () => {
         setState("speaking");
-        dispatchLifecycle({ commandId: detail.commandId, phase: "start", text: detail.text });
+        dispatchLifecycle({ commandId: detail.commandId, phase: "start", text: detail.text, source: "browser", rate: settings.rate });
+        startCadence(detail, settings.rate, token);
       };
       utterance.onboundary = (boundary) => {
         dispatchLifecycle({
@@ -85,15 +133,21 @@ export default function IsabelSpeechRuntime() {
           charLength: boundary.charLength,
           elapsedTime: boundary.elapsedTime,
           text: detail.text,
+          source: "browser",
+          rate: settings.rate,
         });
       };
       utterance.onend = () => {
+        if (speechTokenRef.current !== token) return;
+        clearCadence();
         setState("idle");
-        dispatchLifecycle({ commandId: detail.commandId, phase: "end", text: detail.text });
+        dispatchLifecycle({ commandId: detail.commandId, phase: "end", text: detail.text, source: "browser", rate: settings.rate });
       };
       utterance.onerror = () => {
+        if (speechTokenRef.current !== token) return;
+        clearCadence();
         setState("stopped");
-        dispatchLifecycle({ commandId: detail.commandId, phase: "error", text: detail.text });
+        dispatchLifecycle({ commandId: detail.commandId, phase: "error", text: detail.text, source: "browser", rate: settings.rate });
       };
 
       setLastText(detail.text);
@@ -113,6 +167,8 @@ export default function IsabelSpeechRuntime() {
     window.addEventListener(ISABEL_RUNTIME_EVENTS.speech, listener);
     window.addEventListener("isabel-confirmation-resolved", confirmationListener);
     return () => {
+      speechTokenRef.current += 1;
+      clearCadence();
       window.speechSynthesis.cancel();
       window.speechSynthesis.removeEventListener("voiceschanged", chooseVoice);
       window.removeEventListener(ISABEL_RUNTIME_EVENTS.speech, listener);
@@ -122,9 +178,14 @@ export default function IsabelSpeechRuntime() {
 
   const stop = () => {
     if (!("speechSynthesis" in window)) return;
+    speechTokenRef.current += 1;
+    if (cadenceTimerRef.current !== null) {
+      window.clearTimeout(cadenceTimerRef.current);
+      cadenceTimerRef.current = null;
+    }
     window.speechSynthesis.cancel();
     setState("stopped");
-    dispatchLifecycle({ phase: "cancel", text: lastText });
+    dispatchLifecycle({ phase: "cancel", text: lastText, source: "browser" });
   };
 
   return (

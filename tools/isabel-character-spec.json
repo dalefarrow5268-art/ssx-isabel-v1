@@ -1,0 +1,51 @@
+{
+  "schema": "ssx.isabel.character-build.v1",
+  "name": "Isabel",
+  "source": "locked-isabel-reference-pack",
+  "generator": "MPFB 2.0.16+ / Blender 4.1+",
+  "rig": "game_engine",
+  "phenotype": {
+    "age": 0.28,
+    "gender": 0.0,
+    "weight": 0.38,
+    "muscle": 0.24,
+    "height": 0.61,
+    "proportions": 0.57,
+    "race": { "african": 0.12, "asian": 0.08, "caucasian": 0.80 }
+  },
+  "visual_targets": {
+    "adult_professional": true,
+    "body": "slim natural female proportions; narrow relaxed shoulders; defined waist; natural hips; long balanced legs; no exaggerated anatomy",
+    "face": "oval/soft-angular adult face; dark brown eyes; natural brows; poised neutral expression",
+    "hair": "dark brown, long/wavy or loosely pinned-up with face-framing strands",
+    "wardrobe": "fitted black professional blazer and trousers; dark blouse; black closed-toe heels",
+    "jewelry": "subtle professional jewelry only"
+  },
+  "asset_search": {
+    "hair": ["ponytail", "wavy", "long", "brown"],
+    "skin": ["midtoned_female", "female"],
+    "eyes": ["eyes"],
+    "eyebrows": ["eyebrow"],
+    "eyelashes": ["eyelash"],
+    "top": ["blazer", "jacket", "suit", "coat"],
+    "bottom": ["trouser", "pants", "slacks", "suit"],
+    "shoes": ["heel", "pump", "shoe"]
+  },
+  "required_runtime_contract": {
+    "bones": ["hips", "spine", "chest", "neck", "head", "leftUpperArm", "leftLowerArm", "leftHand", "rightUpperArm", "rightLowerArm", "rightHand", "leftUpperLeg", "leftLowerLeg", "leftFoot", "rightUpperLeg", "rightLowerLeg", "rightFoot"],
+    "face": ["blink-left", "blink-right", "jaw-open", "visemes-or-arkit"],
+    "export": "GLB",
+    "forward_axis": "+Z normalized by runtime",
+    "target_scene_height": 4.15
+  },
+  "quality_gates": [
+    "single connected skinned humanoid",
+    "feet at ground in neutral pose",
+    "hands and feet fully modeled",
+    "no helper geometry exported",
+    "PBR-compatible materials",
+    "GameEngine rig present",
+    "animation retargeting validation passes",
+    "facial morph validation passes before production"
+  ]
+}

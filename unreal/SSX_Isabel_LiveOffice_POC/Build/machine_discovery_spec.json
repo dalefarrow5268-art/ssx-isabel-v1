@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "purpose": "Discover the real home AI computer configuration and produce a safe proposed Isabel machine config without guessing paths, ports, or GPU capabilities.",
+  "discovery": {
+    "os": ["windows_version", "architecture", "computer_name", "user_profile"],
+    "gpu": ["adapter_name", "driver_version", "vram_mb", "nvidia_smi_available", "nvenc_expected"],
+    "cpu_memory": ["cpu_name", "logical_processors", "ram_gb"],
+    "unreal": ["ue_5_7_editor_candidates", "selected_editor_exe", "project_file_exists"],
+    "network": ["active_ipv4_addresses", "default_gateway"],
+    "dependencies": ["git", "python", "powershell", "chrome_or_edge"],
+    "ports": [80, 8888, 8889]
+  },
+  "rules": {
+    "never_overwrite_existing_machine_config_without_explicit_switch": true,
+    "never_guess_unreal_path": true,
+    "never_claim_nvenc_ready_only_from_gpu_brand": true,
+    "never_auto_open_firewall_ports": true,
+    "never_enable_external_action_replay": true,
+    "prefer_loopback_for_local_pixel_streaming_services": true,
+    "preserve_identity_geometry_camera_locks": true
+  },
+  "outputs": {
+    "discovery_report": "latest_machine_discovery.json",
+    "proposed_config": "isabel_machine_config.proposed.json",
+    "canonical_config": "isabel_machine_config.json"
+  },
+  "pass_conditions": [
+    "Windows 64-bit detected",
+    "repo root resolved",
+    "Unreal 5.7 editor resolved or clearly marked missing",
+    "project .uproject resolved",
+    "GPU inventory collected",
+    "Git and Python availability checked",
+    "required Pixel Streaming ports tested",
+    "proposed config generated without overwriting canonical config"
+  ]
+}

@@ -45,27 +45,14 @@ export type MotionSource = {
   name: HumanoidAction;
   clip: THREE.AnimationClip;
   sourceRoot: THREE.Object3D;
-  sourceSkeleton?: THREE.Skeleton;
 };
 
 const REQUIRED_BONES: HumanoidBoneRole[] = [
-  "hips",
-  "spine",
-  "chest",
-  "neck",
-  "head",
-  "leftUpperArm",
-  "leftLowerArm",
-  "leftHand",
-  "rightUpperArm",
-  "rightLowerArm",
-  "rightHand",
-  "leftUpperLeg",
-  "leftLowerLeg",
-  "leftFoot",
-  "rightUpperLeg",
-  "rightLowerLeg",
-  "rightFoot",
+  "hips", "spine", "chest", "neck", "head",
+  "leftUpperArm", "leftLowerArm", "leftHand",
+  "rightUpperArm", "rightLowerArm", "rightHand",
+  "leftUpperLeg", "leftLowerLeg", "leftFoot",
+  "rightUpperLeg", "rightLowerLeg", "rightFoot",
 ];
 
 const BONE_ALIASES: Record<HumanoidBoneRole, string[]> = {
@@ -134,7 +121,7 @@ function primarySkinnedMesh(root: THREE.Object3D): THREE.SkinnedMesh {
   root.traverse((object) => {
     if (!target && (object as THREE.SkinnedMesh).isSkinnedMesh) target = object as THREE.SkinnedMesh;
   });
-  if (!target) throw new Error("Humanoid target has no SkinnedMesh");
+  if (!target) throw new Error("Humanoid has no SkinnedMesh");
   return target;
 }
 
@@ -155,21 +142,31 @@ export function retargetHumanoidClip(
   clip: THREE.AnimationClip,
 ): THREE.AnimationClip {
   const targetReport = inspectHumanoid(targetRoot);
+  const sourceReport = inspectHumanoid(sourceRoot);
   if (targetReport.missing.length) {
     throw new Error(`Target rig missing bones: ${targetReport.missing.join(", ")}`);
   }
-  const targetMesh = primarySkinnedMesh(targetRoot);
-  const names = buildBoneNameMap(targetReport, sourceRoot);
-  const sourceReport = inspectHumanoid(sourceRoot);
-  const sourceHip = sourceReport.bones.hips?.name ?? "Hips";
+  if (sourceReport.missing.length) {
+    throw new Error(`Source rig missing bones: ${sourceReport.missing.join(", ")}`);
+  }
 
-  return retargetClip(targetMesh, sourceRoot, clip, {
+  const targetMesh = primarySkinnedMesh(targetRoot);
+  const sourceMesh = primarySkinnedMesh(sourceRoot);
+  const names = buildBoneNameMap(targetReport, sourceRoot);
+  const sourceHip = sourceReport.bones.hips?.name ?? "Hips";
+  const sourceHeight = Math.max(sourceReport.height, 0.001);
+  const scale = targetReport.height / sourceHeight;
+
+  const retargeted = retargetClip(targetMesh, sourceMesh.skeleton, clip, {
     names,
     hip: sourceHip,
+    scale,
     preserveBoneMatrix: true,
-    preserveHipPosition: true,
     useFirstFramePosition: false,
+    hipInfluence: new THREE.Vector3(0, 1, 0),
   });
+  retargeted.name = clip.name;
+  return retargeted;
 }
 
 export class HumanoidAnimationController {
@@ -185,7 +182,6 @@ export class HumanoidAnimationController {
     this.root = root;
     this.report = inspectHumanoid(root);
     this.mixer = new THREE.AnimationMixer(root);
-
     if (!this.report.skinnedMeshes.length) throw new Error("Humanoid rig contains no skinned mesh");
     if (this.report.missing.length) {
       throw new Error(`Humanoid rig is incomplete: ${this.report.missing.join(", ")}`);
@@ -207,10 +203,14 @@ export class HumanoidAnimationController {
     return this.registerClip(source.name, clip, loop);
   }
 
+  has(name: HumanoidAction) {
+    return this.actions.has(name);
+  }
+
   play(name: HumanoidAction, fadeSeconds = 0.28, reset = false) {
     const next = this.actions.get(name);
-    if (!next) throw new Error(`No animation registered for action: ${name}`);
-    if (this.currentName === name && !reset) return;
+    if (!next) return false;
+    if (this.currentName === name && !reset) return true;
 
     if (reset) next.reset();
     next.enabled = true;
@@ -223,6 +223,7 @@ export class HumanoidAnimationController {
 
     this.current = next;
     this.currentName = name;
+    return true;
   }
 
   stop(fadeSeconds = 0.2) {
@@ -244,12 +245,12 @@ export class HumanoidAnimationController {
 }
 
 export const THREE_STATE_TO_ACTION: Record<string, HumanoidAction> = {
-  working: "work",
-  notice: "notice",
-  stand: "stand",
+  working: "idle",
+  notice: "idle",
+  stand: "idle",
   walk: "walk",
-  present: "present",
-  listen: "listen",
+  present: "idle",
+  listen: "idle",
   return: "walk",
   sit: "sit",
 };

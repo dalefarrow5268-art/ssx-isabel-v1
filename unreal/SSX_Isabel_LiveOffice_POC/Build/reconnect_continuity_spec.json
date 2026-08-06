@@ -1,0 +1,133 @@
+{
+  "version": 1,
+  "purpose": "Restore Isabel's believable office state across browser refreshes, Unreal restarts, network drops, and partial subsystem recovery.",
+  "principles": [
+    "Never reset the whole experience because one transport layer reconnects.",
+    "Restore only stable, verified state; never resurrect a half-completed physical transition as if it finished.",
+    "Identity, office geometry, camera composition, and authority boundaries are immutable across recovery.",
+    "External actions must never be replayed automatically after reconnect.",
+    "Execution and verification remain distinct after recovery."
+  ],
+  "snapshot": {
+    "fields": [
+      "session_id",
+      "saved_at",
+      "isabel.location_anchor",
+      "isabel.posture",
+      "isabel.activity",
+      "isabel.attention_target",
+      "isabel.emotion_mode",
+      "isabel.speaking_state",
+      "camera.active_camera",
+      "screens.active_screen",
+      "screens.last_good_urls",
+      "work.active_thread_id",
+      "work.open_commitments",
+      "work.pending_approval_ids",
+      "transport.pixel_streaming_state",
+      "transport.voice_state"
+    ],
+    "excluded": [
+      "raw authentication secrets",
+      "unverified transient coordinates",
+      "half-finished animation frame state",
+      "temporary model chain-of-thought",
+      "unapproved external action replay tokens"
+    ]
+  },
+  "stable_state_rules": {
+    "movement": {
+      "if_transition_interrupted": "resolve_to_nearest_safe_stable_anchor",
+      "if_screen_walk_interrupted": "resume_at_nearest_safe_anchor_then_replan",
+      "teleport_allowed": false
+    },
+    "sit_stand": {
+      "mid_sit": "resolve_seated_if_body_already_committed_else_standing",
+      "mid_stand": "resolve_standing_if hips_clear_chair else seated"
+    },
+    "speech": {
+      "never_resume_mid_phoneme": true,
+      "after_reconnect": "return_to_listening_then_restate_context_if_needed",
+      "pending_tts": "discard_and_regenerate_if_still_relevant"
+    },
+    "approval": {
+      "preserve_exact_payload_approvals": true,
+      "auto_execute_after_reconnect": false,
+      "material_payload_change_invalidates_approval": true
+    }
+  },
+  "recovery_scenarios": [
+    {
+      "id": "browser_refresh",
+      "expected": [
+        "browser reconnects to existing session where possible",
+        "office state is rehydrated",
+        "Isabel does not re-run arrival greeting if user presence is already established",
+        "active work thread remains available"
+      ]
+    },
+    {
+      "id": "pixel_stream_drop",
+      "expected": [
+        "browser remains alive",
+        "renderer-offline status appears",
+        "continuity snapshot remains intact",
+        "stream reconnect restores same stable Isabel state"
+      ]
+    },
+    {
+      "id": "unreal_restart",
+      "expected": [
+        "office rebuild validates immutable geometry",
+        "character actor respawns with locked identity",
+        "continuity snapshot is applied only after health checks pass",
+        "external actions are not replayed"
+      ]
+    },
+    {
+      "id": "voice_transport_restart",
+      "expected": [
+        "Isabel remains visually attentive",
+        "conversation falls back to text if needed",
+        "voice state returns independently without resetting office"
+      ]
+    },
+    {
+      "id": "single_screen_recovery",
+      "expected": [
+        "only failed screen enters fallback",
+        "last-good URL is retained",
+        "screen returns live independently of other monitors"
+      ]
+    },
+    {
+      "id": "memory_store_unavailable",
+      "expected": [
+        "session-local context continues",
+        "no fabricated remembered preferences",
+        "durable-memory writes remain blocked until service returns"
+      ]
+    }
+  ],
+  "fatal_conditions": [
+    "identity drift after restoration",
+    "office geometry drift after rebuild",
+    "camera changes to repair a failed restore",
+    "automatic replay of a consequential external action",
+    "claiming an interrupted action completed without verification",
+    "resuming from an unsafe in-between physical pose"
+  ],
+  "acceptance": {
+    "browser_refresh_restore_seconds_target": 3.0,
+    "pixel_stream_reconnect_target_seconds": 8.0,
+    "unreal_restart_restore_requires_health_pass": true,
+    "continuity_must_survive": [
+      "location/posture",
+      "active work thread",
+      "open commitments",
+      "approved-but-not-executed actions",
+      "screen state",
+      "relationship/session context"
+    ]
+  }
+}

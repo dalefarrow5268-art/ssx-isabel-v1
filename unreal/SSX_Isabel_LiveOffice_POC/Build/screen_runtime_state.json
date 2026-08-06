@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "screens": {
+    "SCREEN_01": {"status":"waiting","last_good_url":null,"last_refresh":null,"error":null},
+    "SCREEN_02": {"status":"waiting","last_good_url":null,"last_refresh":null,"error":null},
+    "SCREEN_03": {"status":"waiting","last_good_url":null,"last_refresh":null,"error":null},
+    "SCREEN_04": {"status":"waiting","last_good_url":null,"last_refresh":null,"error":null}
+  },
+  "fallback": {
+    "mode": "ssx_status_panel",
+    "headline": "Live data temporarily unavailable",
+    "message": "Isabel is still online. This monitor will reconnect automatically.",
+    "keep_last_good_frame": true
+  }
+}

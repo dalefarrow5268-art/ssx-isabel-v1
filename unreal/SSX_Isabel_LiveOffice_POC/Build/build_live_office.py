@@ -17,9 +17,11 @@ def cm_scale(x, y, z):
     return unreal.Vector(x / 100.0, y / 100.0, z / 100.0)
 
 
-def add_tag(actor):
+def add_tag(actor, extra=None):
     tags = list(actor.tags)
     tags.append(unreal.Name(TAG))
+    if extra:
+        tags.append(unreal.Name(extra))
     actor.tags = tags
 
 
@@ -32,6 +34,17 @@ def cube(label, loc, size, rot=(0, 0, 0)):
     actor.set_actor_label(label)
     actor.set_actor_scale3d(cm_scale(*size))
     add_tag(actor)
+    return actor
+
+
+def target_point(label, raw, role='anchor'):
+    actor = ELL.spawn_actor_from_class(
+        unreal.TargetPoint,
+        unreal.Vector(raw['x'], raw['y'], raw['z']),
+        unreal.Rotator(0, raw.get('yaw', 0), 0),
+    )
+    actor.set_actor_label(label)
+    add_tag(actor, f'ISABEL_{role.upper()}')
     return actor
 
 
@@ -50,7 +63,6 @@ def build_shell():
     cube('BACK_WALL', (0, -d / 2, h / 2), (w, t, h))
     cube('RIGHT_WALL', (w / 2, 0, h / 2), (t, d, h))
 
-    # Left window wall: real framed openings instead of a painted/photo wall.
     x = -w / 2
     win = SPEC['windows']
     sill = win['sill_height']
@@ -78,7 +90,6 @@ def build_monitor_wall():
     z0 = center_z + total_h / 2 - sh / 2
     y = -d / 2 + r['wall_thickness'] / 2 + sd / 2 + 2
 
-    # White mat/reveal backing remains a separate physical object.
     reveal = m['white_reveal']
     cube('MONITOR_WHITE_REVEAL', (0, y - 3, center_z), (total_w + 2 * reveal, 4, total_h + 2 * reveal))
 
@@ -91,18 +102,25 @@ def build_monitor_wall():
             screen_num += 1
 
 
-def build_desk_and_isabel_anchor():
+def build_desk():
     d = SPEC['desk']
-    # Simple blockout only. Final desk will be a proper asset.
     cube('DESK_TOP', (d['x'], d['y'], d['height']), (d['width'], d['depth'], 6))
     leg_offset = d['width'] * 0.42
     cube('DESK_LEG_A', (d['x'] - leg_offset, d['y'], d['height'] / 2), (8, d['depth'] * 0.7, d['height']))
     cube('DESK_LEG_B', (d['x'] + leg_offset, d['y'], d['height'] / 2), (8, d['depth'] * 0.7, d['height']))
 
-    a = SPEC['isabel_anchor']
-    anchor = ELL.spawn_actor_from_class(unreal.TargetPoint, unreal.Vector(a['x'], a['y'], a['z']))
-    anchor.set_actor_label('ISABEL_ANCHOR_DESK')
-    add_tag(anchor)
+
+def build_anchor_points():
+    for name, raw in SPEC.get('anchors', {}).items():
+        target_point(f'ANCHOR_{name}', raw, raw.get('role', 'anchor'))
+
+    for name, target in SPEC.get('interaction_targets', {}).items():
+        look = target.get('look_target')
+        gesture = target.get('gesture_target')
+        if look:
+            target_point(f'LOOK_{name}', {**look, 'yaw': 0}, 'look_target')
+        if gesture:
+            target_point(f'GESTURE_{name}', {**gesture, 'yaw': 0}, 'gesture_target')
 
 
 def build_camera():
@@ -121,7 +139,6 @@ def build_camera():
 
 
 def build_lights():
-    # Conservative POC lighting. We will tune physically after room composition is approved.
     sun = ELL.spawn_actor_from_class(unreal.DirectionalLight, unreal.Vector(0, 0, 250), unreal.Rotator(-35, -35, 0))
     sun.set_actor_label('SUN_DAYLIGHT')
     add_tag(sun)
@@ -144,10 +161,11 @@ def main():
     destroy_previous()
     build_shell()
     build_monitor_wall()
-    build_desk_and_isabel_anchor()
+    build_desk()
+    build_anchor_points()
     build_camera()
     build_lights()
-    unreal.log('=== ISABEL LIVE OFFICE: blockout complete ===')
+    unreal.log(f"=== ISABEL LIVE OFFICE: blockout complete; {len(SPEC.get('anchors', {}))} movement anchors built ===")
     unreal.log('Save the level as Content/Maps/Isabel_LiveOffice_POC after reviewing the camera view.')
 
 

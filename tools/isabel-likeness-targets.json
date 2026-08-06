@@ -1,0 +1,25 @@
+{
+  "schema": "ssx.isabel.likeness-targets.v1",
+  "subject": "Isabel",
+  "revision": "front-reference-baseline-001",
+  "status": "awaiting-ci-target-inventory",
+  "reference": "locked canonical Isabel front portrait",
+  "rules": {
+    "exact_paths_only": true,
+    "weight_range": [-1.0, 1.0],
+    "default_weight_ceiling": 0.35,
+    "symmetry": "Use paired/symmetric identity targets unless stable asymmetry is visible in the canonical reference.",
+    "profile": "Do not apply strong projection/depth morphs until profile or three-quarter evidence is verified.",
+    "acceptance": "A generated front render must remain recognizably Isabel; generic-human convergence is failure."
+  },
+  "binding_order": [
+    "face outline/jaw/chin",
+    "eye spacing/size/shape",
+    "brow position/shape",
+    "nose frontal proportions",
+    "mouth/lip proportions",
+    "cheek fullness",
+    "profile/depth only after verified evidence"
+  ],
+  "bindings": []
+}

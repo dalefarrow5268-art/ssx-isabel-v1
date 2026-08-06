@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "purpose": "Production geometry contract for Isabel's monitor wall and surrounding cabinetry.",
+  "units": "centimeters",
+  "source": "Approved Isabel office design direction",
+  "monitor_group": {
+    "rows": 2,
+    "columns": 2,
+    "screen_width": 145.0,
+    "screen_height": 81.5625,
+    "aspect_ratio": "16:9",
+    "screen_depth": 5.0,
+    "horizontal_gap": 10.0,
+    "vertical_gap": 10.0,
+    "center_height": 190.0,
+    "center_x": 0.0,
+    "rules": [
+      "All four screens use identical dimensions.",
+      "Screen planes stay perfectly rectangular and are never perspective-baked textures.",
+      "Screen content remains independent live web/data content.",
+      "No screen asset may change the physical monitor group dimensions."
+    ]
+  },
+  "white_mat_reveal": {
+    "width_all_sides": 15.24,
+    "depth_front_alignment": "match_screen_front_plane",
+    "finish": "crisp warm white matte",
+    "rules": [
+      "Reveal width is uniform on top, bottom, left, and right.",
+      "Reveal must not read gray or cream under neutral office lighting.",
+      "Reveal is separate physical geometry from cabinetry and screen glass."
+    ]
+  },
+  "cabinetry": {
+    "finish": "near-black stained wood",
+    "roughness_target": 0.42,
+    "grain_direction": "vertical_on_tall_panels_horizontal_on_shelves",
+    "monitor_surround": "built-in millwork framing the white reveal",
+    "minimum_visible_border": 12.0,
+    "panel_joint_width": 0.3,
+    "rules": [
+      "Cabinetry surrounds but never overlaps the white reveal.",
+      "Monitor group stays centered on the back wall.",
+      "Millwork depth must create believable shadow lines without hiding the screen edges.",
+      "Do not merge cabinetry, reveal, and monitors into one mesh."
+    ]
+  },
+  "screen_frame": {
+    "bezel_width": 1.8,
+    "bezel_depth": 1.2,
+    "material": "dark satin metal",
+    "corner_style": "slightly softened",
+    "rules": [
+      "All four bezels must match exactly.",
+      "No oversized television-style frames.",
+      "Frame must remain visually subordinate to the white reveal."
+    ]
+  },
+  "tolerances": {
+    "position_cm": 0.5,
+    "dimension_cm": 0.5,
+    "screen_aspect_error_percent": 0.1,
+    "reveal_uniformity_cm": 0.3
+  },
+  "acceptance_tests": [
+    "All four screens measure 16:9 within tolerance.",
+    "Monitor group is centered on back wall.",
+    "White reveal is uniform on all four outer sides.",
+    "Cabinetry does not cover or distort screen edges.",
+    "No monitor or bezel is skewed relative to the others.",
+    "Live screen content remains readable from CAMERA_ARRIVAL."
+  ]
+}

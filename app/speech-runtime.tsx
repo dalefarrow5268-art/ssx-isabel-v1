@@ -6,10 +6,26 @@ import { ISABEL_RUNTIME_EVENTS } from "./three/isabel-performance";
 type VoiceState = "idle" | "speaking" | "stopped" | "unavailable";
 
 type SpeechRequest = {
+  commandId?: string;
   text: string;
   mode?: "silent" | "preview" | "speak";
   emotionalIntent?: "neutral" | "warm" | "focused" | "serious" | "reassuring";
 };
+
+type SpeechLifecycle = {
+  commandId?: string;
+  phase: "start" | "boundary" | "end" | "cancel" | "error";
+  charIndex?: number;
+  charLength?: number;
+  elapsedTime?: number;
+  text: string;
+};
+
+const SPEECH_LIFECYCLE_EVENT = "isabel-speech-lifecycle";
+
+function dispatchLifecycle(detail: SpeechLifecycle) {
+  window.dispatchEvent(new CustomEvent<SpeechLifecycle>(SPEECH_LIFECYCLE_EVENT, { detail }));
+}
 
 function voiceSettings(intent: SpeechRequest["emotionalIntent"]) {
   switch (intent) {
@@ -56,9 +72,30 @@ export default function IsabelSpeechRuntime() {
       utterance.rate = settings.rate;
       utterance.pitch = settings.pitch;
       utterance.volume = 1;
-      utterance.onstart = () => setState("speaking");
-      utterance.onend = () => setState("idle");
-      utterance.onerror = () => setState("stopped");
+
+      utterance.onstart = () => {
+        setState("speaking");
+        dispatchLifecycle({ commandId: detail.commandId, phase: "start", text: detail.text });
+      };
+      utterance.onboundary = (boundary) => {
+        dispatchLifecycle({
+          commandId: detail.commandId,
+          phase: "boundary",
+          charIndex: boundary.charIndex,
+          charLength: boundary.charLength,
+          elapsedTime: boundary.elapsedTime,
+          text: detail.text,
+        });
+      };
+      utterance.onend = () => {
+        setState("idle");
+        dispatchLifecycle({ commandId: detail.commandId, phase: "end", text: detail.text });
+      };
+      utterance.onerror = () => {
+        setState("stopped");
+        dispatchLifecycle({ commandId: detail.commandId, phase: "error", text: detail.text });
+      };
+
       setLastText(detail.text);
       window.speechSynthesis.speak(utterance);
     };
@@ -87,6 +124,7 @@ export default function IsabelSpeechRuntime() {
     if (!("speechSynthesis" in window)) return;
     window.speechSynthesis.cancel();
     setState("stopped");
+    dispatchLifecycle({ phase: "cancel", text: lastText });
   };
 
   return (

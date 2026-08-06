@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "purpose": "Represent project cause-and-effect relationships so Isabel can reason across schedule, RFIs, submittals, trades, locations, parties, cost exposure, evidence, and downstream consequences without collapsing inference into fact.",
+  "node_types": [
+    "project",
+    "location",
+    "trade",
+    "company",
+    "person",
+    "activity",
+    "milestone",
+    "rfi",
+    "submittal",
+    "drawing",
+    "change",
+    "issue",
+    "risk",
+    "cost_item",
+    "evidence",
+    "decision",
+    "commitment"
+  ],
+  "edge_types": {
+    "LOCATED_AT": "physical/project location",
+    "OWNED_BY": "responsible party",
+    "PERFORMED_BY": "trade/company executes work",
+    "DEPENDS_ON": "hard or soft dependency",
+    "PRECEDES": "schedule predecessor relationship",
+    "BLOCKS": "cannot proceed until resolved",
+    "CLARIFIES": "document resolves or modifies another item",
+    "CHANGES": "alters scope/detail/requirement",
+    "AFFECTS": "supported impact relationship",
+    "MAY_AFFECT": "plausible but not yet confirmed impact",
+    "EVIDENCED_BY": "traceable source support",
+    "CONTRADICTS": "evidence or claims disagree",
+    "CREATES_RISK": "raises a defined risk",
+    "CREATES_COST_EXPOSURE": "potential cost consequence",
+    "CREATES_SCHEDULE_EXPOSURE": "potential time consequence",
+    "REQUIRES_DECISION": "user/owner decision needed",
+    "RESOLVES": "closes issue, risk, or decision",
+    "PROMISES_FOLLOWUP": "open commitment relationship"
+  },
+  "confidence": {
+    "confirmed": 0.9,
+    "probable": 0.7,
+    "possible": 0.45,
+    "speculative_below": 0.45
+  },
+  "causal_rules": [
+    "Never convert MAY_AFFECT into AFFECTS without supporting evidence.",
+    "Schedule exposure is not a delay unless an affected path or milestone consequence is supported.",
+    "Cost exposure is not a cost change unless quantity/rate/scope evidence supports it.",
+    "Every derived consequence must retain the path of supporting nodes and edges.",
+    "Contradictory evidence remains visible until explicitly resolved.",
+    "Responsible party and decision owner are distinct concepts.",
+    "A project graph may recommend investigation or decision; it may not approve consequential actions."
+  ],
+  "impact_dimensions": [
+    "schedule",
+    "cost",
+    "safety",
+    "quality",
+    "scope",
+    "procurement",
+    "coordination",
+    "client_commitment",
+    "field_productivity"
+  ],
+  "example": {
+    "scenario": "RFI-117 storefront anchorage clarification",
+    "nodes": [
+      {"id":"RFI-117","type":"rfi"},
+      {"id":"DETAIL-L2-STOREFRONT","type":"drawing"},
+      {"id":"FAB-RELEASE-STOREFRONT","type":"milestone"},
+      {"id":"INSTALL-STOREFRONT","type":"activity"},
+      {"id":"OWNER-NOTICE","type":"decision"}
+    ],
+    "edges": [
+      {"from":"RFI-117","to":"DETAIL-L2-STOREFRONT","type":"CLARIFIES","confidence":1.0},
+      {"from":"DETAIL-L2-STOREFRONT","to":"FAB-RELEASE-STOREFRONT","type":"MAY_AFFECT","confidence":0.72},
+      {"from":"FAB-RELEASE-STOREFRONT","to":"INSTALL-STOREFRONT","type":"PRECEDES","confidence":1.0},
+      {"from":"INSTALL-STOREFRONT","to":"OWNER-NOTICE","type":"REQUIRES_DECISION","confidence":0.86}
+    ],
+    "required_unknown": "Whether revised anchorage changes fabrication release status.",
+    "allowed_conclusion": "There is schedule exposure; a delay is not yet confirmed."
+  }
+}

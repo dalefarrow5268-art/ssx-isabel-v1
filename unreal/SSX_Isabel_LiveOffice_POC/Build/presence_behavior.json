@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "pre_arrival": {
+    "default_state": "IDLE_WORK",
+    "activity_mix": [
+      {"action":"REVIEW_SCREEN_02","weight":35},
+      {"action":"REVIEW_SCREEN_01","weight":20},
+      {"action":"HAND_MOUSE","weight":15},
+      {"action":"TYPE_BRIEFLY","weight":10},
+      {"action":"GLANCE_SCREEN_03","weight":8},
+      {"action":"POSTURE_SHIFT","weight":7},
+      {"action":"LOOK_OUT_WINDOW_BRIEFLY","weight":5}
+    ],
+    "micro_motion": ["BREATHE","BLINK","EYE_SACCADE","MICRO_HEAD_MOVE","SMALL_HAND_ADJUSTMENT"],
+    "rules": [
+      "Isabel must never appear frozen while waiting.",
+      "Idle motion must stay subtle and professional.",
+      "Do not loop one obvious animation on a short timer.",
+      "Do not have Isabel stare at the arrival camera before a user is present."
+    ]
+  },
+  "arrival": {
+    "event": "USER_PRESENT",
+    "sequence": [
+      {"step":"EYES_TO_USER","delay_ms":0,"duration_ms":220},
+      {"step":"HEAD_TO_USER","delay_ms":120,"duration_ms":480},
+      {"step":"UPPER_BODY_ACKNOWLEDGE","delay_ms":260,"duration_ms":650},
+      {"step":"SOFT_SMILE","delay_ms":360,"duration_ms":700},
+      {"step":"HOLD_EYE_CONTACT","delay_ms":700,"duration_ms":900}
+    ],
+    "greeting_window_ms": 1200,
+    "interruption_policy": "finish_current_micro_action_then_acknowledge",
+    "rules": [
+      "Eyes lead the head to avoid robotic simultaneous motion.",
+      "Do not snap the whole torso toward the camera.",
+      "If Isabel is walking, she should slow and establish stable footing before greeting.",
+      "If Isabel is speaking to another task, defer greeting until the current speech boundary."
+    ]
+  },
+  "engaged": {
+    "attention": "USER",
+    "micro_motion": ["NATURAL_BLINK","LISTENING_NOD_OPTIONAL","EYE_CONTACT_BREAK_AND_RETURN","BREATHING"],
+    "eye_contact": {"min_ms":1200,"max_ms":4200,"break_ms_min":180,"break_ms_max":650},
+    "rules": [
+      "Sustained perfect eye contact is not natural; allow short breaks.",
+      "Listening motion must not compete with speech content.",
+      "Expression intensity remains restrained unless the conversation calls for more emotion."
+    ]
+  },
+  "departure": {
+    "sequence": ["SMALL_ACKNOWLEDGEMENT","RETURN_ATTENTION_TO_PRIOR_TASK","RESUME_CONTINUITY_STATE"],
+    "resume_delay_ms": 900
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "brain_output": {
+    "required": ["speech"],
+    "optional": ["topic", "show_screen", "emphasis", "prefer_move", "return_to_desk"],
+    "emphasis_values": ["low", "normal", "high", "critical"],
+    "screen_values": ["SCREEN_01", "SCREEN_02", "SCREEN_03", "SCREEN_04"]
+  },
+  "rules": [
+    "The brain never emits raw world coordinates.",
+    "The brain never selects low-level animation assets directly.",
+    "All motion resolves through named office behaviors and anchors.",
+    "Movement is optional; Isabel should remain conversational unless physical movement improves the explanation.",
+    "Pointing is allowed only after the character is physically stable.",
+    "Speech content and physical behavior are planned together but executed by separate runtime coordinators."
+  ],
+  "examples": [
+    {
+      "speech": "There is a schedule issue I want to show you.",
+      "topic": "schedule",
+      "emphasis": "high",
+      "prefer_move": true
+    },
+    {
+      "speech": "Everything looks good right now.",
+      "topic": "overview",
+      "emphasis": "normal",
+      "prefer_move": false
+    }
+  ]
+}

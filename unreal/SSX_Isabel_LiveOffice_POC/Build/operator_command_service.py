@@ -11,6 +11,7 @@ from dataclasses import dataclass, asdict
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from typing import Any, Dict, Optional
+from urllib.parse import urlparse
 
 BUILD_DIR = Path(__file__).resolve().parent
 CONFIG_PATH = BUILD_DIR / "isabel_machine_config.json"
@@ -27,6 +28,28 @@ ALLOWED_COMMANDS = {
 BLOCKED_TOKENS = {
     "cmd.exe", "powershell -command", "python -c", "exec(", "eval(", "subprocess.popen",
 }
+
+
+def load_allowed_origins() -> set[str]:
+    origins = {"http://localhost", "http://127.0.0.1"}
+    if CONFIG_PATH.exists():
+        try:
+            cfg = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+            for origin in cfg.get("web", {}).get("allowed_origins", []):
+                if isinstance(origin, str) and origin.strip():
+                    origins.add(origin.rstrip("/"))
+            front = cfg.get("web", {}).get("front_door_url")
+            if isinstance(front, str) and front.strip():
+                parsed = urlparse(front)
+                if parsed.scheme and parsed.netloc:
+                    origins.add(f"{parsed.scheme}://{parsed.netloc}")
+        except Exception:
+            pass
+    return origins
+
+
+ALLOWED_ORIGINS = load_allowed_origins()
+
 
 @dataclass
 class Job:
@@ -57,6 +80,7 @@ class OperatorService:
                 "updatedAt": time.time(),
                 "state": "READY" if not self.last_error else "DEGRADED",
                 "lastError": self.last_error,
+                "allowedOrigins": sorted(ALLOWED_ORIGINS),
                 "jobs": [asdict(j) for j in self.jobs.values()],
             }
         STATUS_PATH.write_text(json.dumps(payload, indent=2), encoding="utf-8")
@@ -69,6 +93,9 @@ class OperatorService:
         joined = " ".join(argv).lower()
         if any(token in joined for token in BLOCKED_TOKENS):
             raise RuntimeError("Unsafe command template blocked")
+
+        if not Path(argv[-1]).exists():
+            raise FileNotFoundError(f"Commissioning command target missing: {argv[-1]}")
 
         job = Job(id=str(uuid.uuid4()), command=command, state="RUNNING", started_at=time.time())
         with self.lock:
@@ -117,20 +144,48 @@ SERVICE = OperatorService()
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "IsabelOperator/1.0"
+    server_version = "IsabelOperator/1.1"
+
+    def _cors_origin(self) -> Optional[str]:
+        origin = self.headers.get("Origin")
+        if not origin:
+            return None
+        normalized = origin.rstrip("/")
+        if normalized in ALLOWED_ORIGINS:
+            return origin
+        return None
 
     def _send(self, code: int, payload: Dict[str, Any]) -> None:
         body = json.dumps(payload).encode("utf-8")
         self.send_response(code)
         self.send_header("Content-Type", "application/json")
         self.send_header("Cache-Control", "no-store")
+        cors = self._cors_origin()
+        if cors:
+            self.send_header("Access-Control-Allow-Origin", cors)
+            self.send_header("Vary", "Origin")
         self.send_header("Content-Length", str(len(body)))
         self.end_headers()
         self.wfile.write(body)
 
+    def do_OPTIONS(self) -> None:
+        if not self._cors_origin():
+            self._send(403, {"error": "origin_not_allowed"})
+            return
+        self.send_response(204)
+        self.send_header("Access-Control-Allow-Origin", self.headers.get("Origin", ""))
+        self.send_header("Vary", "Origin")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.send_header("Access-Control-Max-Age", "600")
+        self.end_headers()
+
     def do_GET(self) -> None:
+        if self.headers.get("Origin") and not self._cors_origin():
+            self._send(403, {"error": "origin_not_allowed"})
+            return
         if self.path == "/health":
-            self._send(200, {"ok": True, "service": "isabel-operator-command-service"})
+            self._send(200, {"ok": True, "service": "isabel-operator-command-service", "version": 1})
             return
         if self.path == "/status":
             self._send(200, SERVICE.get_status())
@@ -143,6 +198,9 @@ class Handler(BaseHTTPRequestHandler):
         self._send(404, {"error": "not_found"})
 
     def do_POST(self) -> None:
+        if self.headers.get("Origin") and not self._cors_origin():
+            self._send(403, {"error": "origin_not_allowed"})
+            return
         if self.path != "/command":
             self._send(404, {"error": "not_found"})
             return
@@ -171,6 +229,7 @@ def main() -> None:
     port = int(os.environ.get("ISABEL_OPERATOR_PORT", "8765"))
     server = ThreadingHTTPServer((host, port), Handler)
     print(f"Isabel operator command service listening on http://{host}:{port}")
+    print(f"Allowed browser origins: {', '.join(sorted(ALLOWED_ORIGINS))}")
     server.serve_forever()
 
 

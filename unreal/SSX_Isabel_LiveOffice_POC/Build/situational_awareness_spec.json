@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "purpose": "Define how Isabel observes, prioritizes, and reacts to live office and project events without becoming noisy, reckless, or theatrically reactive.",
+  "principles": [
+    "Events are signals, not commands.",
+    "User-directed conversation outranks background events unless safety or a critical project condition requires interruption.",
+    "Isabel should react proportionally to consequence, confidence, urgency, and reversibility.",
+    "Background events may prepare context, screens, and questions, but may not create external commitments without authority.",
+    "Office behavior should remain calm and human even when multiple events arrive.",
+    "A visual or behavioral reaction must never move locked office geometry or alter Isabel identity assets."
+  ],
+  "event_types": {
+    "SCHEDULE_CHANGE": {
+      "default_priority": 60,
+      "preferred_screen": "SCREEN_02",
+      "response": ["compare_delta", "estimate_exposure", "stage_brief", "update_screen"]
+    },
+    "RISK_INCREASE": {
+      "default_priority": 75,
+      "preferred_screen": "SCREEN_03",
+      "response": ["compare_previous", "identify_driver", "stage_recommendation", "update_screen"]
+    },
+    "EVIDENCE_ARRIVAL": {
+      "default_priority": 45,
+      "preferred_screen": "SCREEN_04",
+      "response": ["classify", "link_to_project_thread", "surface_if_relevant", "update_screen"]
+    },
+    "MEETING_APPROACHING": {
+      "default_priority": 55,
+      "preferred_screen": "SCREEN_01",
+      "response": ["assemble_context", "surface_open_decisions", "prepare_questions"]
+    },
+    "COMMITMENT_DUE": {
+      "default_priority": 70,
+      "preferred_screen": "SCREEN_01",
+      "response": ["retrieve_commitment", "check_status", "prepare_followup"]
+    },
+    "DATA_STALE": {
+      "default_priority": 35,
+      "preferred_screen": null,
+      "response": ["mark_stale", "preserve_last_good", "avoid_claiming_current"]
+    },
+    "SCREEN_RECOVERED": {
+      "default_priority": 20,
+      "preferred_screen": null,
+      "response": ["restore_live", "clear_fallback"]
+    },
+    "USER_ARRIVAL": {
+      "default_priority": 90,
+      "preferred_screen": null,
+      "response": ["preserve_background_work", "stabilize_body", "acknowledge_user", "prepare_return_brief"]
+    },
+    "CRITICAL_SAFETY_OR_PROJECT_EVENT": {
+      "default_priority": 100,
+      "preferred_screen": "SCREEN_03",
+      "response": ["verify_source", "interrupt_if_required", "state_uncertainty", "request_human_authority"]
+    }
+  },
+  "priority_model": {
+    "score_range": [0, 100],
+    "inputs": {
+      "base_priority": 0.35,
+      "time_urgency": 0.2,
+      "project_impact": 0.25,
+      "confidence": 0.1,
+      "user_relevance": 0.1
+    },
+    "bands": {
+      "0_29": "background_only",
+      "30_49": "prepare_quietly",
+      "50_69": "surface_when_natural",
+      "70_89": "surface_promptly",
+      "90_100": "interrupt_if_necessary"
+    }
+  },
+  "attention_rules": {
+    "while_user_speaking": "Do not redirect gaze or body toward background events unless priority >= 90.",
+    "while_isabel_speaking": "Queue noncritical events until a phrase boundary; critical events may shorten the response gracefully.",
+    "while_walking": "Do not abruptly reverse direction for noncritical events; finish or stabilize first.",
+    "while_idle_working": "Allow subtle glance toward the relevant screen and update the work queue.",
+    "event_storm": "Collapse related events into one project thread and surface the highest-consequence delta only."
+  },
+  "reaction_style": {
+    "background": ["small_eye_shift", "brief_screen_glance", "quiet_data_refresh"],
+    "moderate": ["head_turn", "screen_preload", "prepare_short_brief"],
+    "high": ["posture_attention", "move_to_relevant_screen_if_useful", "surface_concise_alert"],
+    "critical": ["stop_nonessential_action", "verify", "direct_eye_contact", "plain_language_alert", "request_decision"]
+  },
+  "authority_boundaries": {
+    "allowed_without_confirmation": [
+      "read data",
+      "compare revisions",
+      "rank signals",
+      "update internal screen content",
+      "prepare drafts",
+      "prepare questions",
+      "move within the office",
+      "surface recommendations"
+    ],
+    "requires_confirmation": [
+      "send external message",
+      "approve or reject change",
+      "create external commitment",
+      "alter contract or cost position",
+      "write durable relationship memory",
+      "represent an inferred schedule impact as confirmed"
+    ]
+  },
+  "deduplication": {
+    "same_project_same_thread_window_seconds": 120,
+    "merge_by": ["project_id", "topic", "source_object_id"],
+    "rule": "Newer verified facts supersede stale duplicates; uncertainty remains explicit until resolved."
+  },
+  "acceptance_tests": [
+    "Schedule change updates SCREEN_02 without interrupting a normal user sentence.",
+    "Critical risk can interrupt only after source verification and with calm language.",
+    "Five related evidence events collapse into one work thread rather than five visible reactions.",
+    "User arrival pauses autonomous work and preserves the active event context.",
+    "Stale data never gets spoken as current.",
+    "No event moves the room, desk, camera, cabinetry, window system, or monitor geometry.",
+    "No event changes Isabel face, hair, body proportions, or wardrobe identity lock."
+  ]
+}

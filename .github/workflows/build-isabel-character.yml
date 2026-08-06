@@ -1,0 +1,72 @@
+name: Build Isabel Character
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/build-isabel-character.yml
+
+permissions:
+  contents: read
+
+jobs:
+  build-isabel:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout Isabel review branch
+        uses: actions/checkout@v4
+        with:
+          ref: isabel-office-review
+          lfs: false
+
+      - name: Install Blender and Git LFS
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y blender git-lfs
+          blender --version
+          git lfs install
+
+      - name: Install MPFB extension
+        run: |
+          blender --online-mode --command extension install -s -e mpfb
+          blender --command extension list | grep -i mpfb
+
+      - name: Fetch official MakeHuman CC0 system assets
+        run: |
+          git clone --depth 1 https://github.com/makehumancommunity/makehuman-assets.git "$RUNNER_TEMP/makehuman-assets"
+          cd "$RUNNER_TEMP/makehuman-assets"
+          git lfs pull
+          test -d base/rigs
+          test -d base/skins
+          test -d base/hair
+
+      - name: Build Isabel GLB
+        env:
+          MPFB_DATA_PATH: ${{ runner.temp }}/makehuman-assets/base
+        run: |
+          mkdir -p public/models/isabel build/isabel
+          blender --background --online-mode \
+            --python tools/build-isabel-mpfb.py -- \
+            --spec tools/isabel-character-spec.json \
+            --output public/models/isabel/isabel-v1.glb \
+            --save-blend build/isabel/isabel-v1.blend
+          ls -lh public/models/isabel/isabel-v1.glb build/isabel/isabel-v1.blend
+
+      - name: Validate Isabel GLB
+        run: |
+          blender --background --python tools/validate-isabel-glb.py -- public/models/isabel/isabel-v1.glb
+
+      - name: Upload Isabel build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: isabel-character-build
+          if-no-files-found: error
+          retention-days: 14
+          path: |
+            public/models/isabel/isabel-v1.glb
+            build/isabel/isabel-v1.blend
+            tools/isabel-character-spec.json

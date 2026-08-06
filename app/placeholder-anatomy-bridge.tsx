@@ -1,12 +1,20 @@
 "use client";
 
 import { useEffect } from "react";
+import type { IsabelViseme } from "./text-viseme";
+import { IsabelFacialPerformanceController } from "./three/facial-performance-controller";
 import { HumanoidAnimationController } from "./three/humanoid-controller";
 
 type MotionState = "working" | "notice" | "stand" | "walk" | "present" | "listen" | "return" | "sit";
+type VisemeCueDetail = {
+  shape: IsabelViseme;
+  strength?: number;
+  durationMs?: number;
+};
 
 const HUMAN_BASE_URL = "https://arweave.net/Ea1KXujzJatQgCFSMzGOzp_UtHqB1pyia--U3AtkMAY";
 const MOTION_SOURCE_URL = "https://threejs.org/examples/models/gltf/RobotExpressive/RobotExpressive.glb";
+const VISEME_CUE_EVENT = "isabel-viseme-cue";
 
 export default function IsabelPlaceholderAnatomyBridge() {
   useEffect(() => {
@@ -14,7 +22,9 @@ export default function IsabelPlaceholderAnatomyBridge() {
     let frame = 0;
     let activeState: MotionState = "working";
     let stateListener: ((event: Event) => void) | null = null;
+    let visemeListener: ((event: Event) => void) | null = null;
     let controller: HumanoidAnimationController | null = null;
+    let facialController: IsabelFacialPerformanceController | null = null;
 
     void (async () => {
       const THREE = await import("three");
@@ -114,6 +124,17 @@ export default function IsabelPlaceholderAnatomyBridge() {
           console.error("Retargeted humanoid animation setup failed", error);
         }
 
+        // Facial performance is a separate layer from the body mixer. The existing
+        // speech runtime emits coarse viseme cues; this adapter resolves them to the
+        // MPFB/TalkingHead-compatible morph names available on the loaded GLB.
+        facialController = new IsabelFacialPerformanceController(avatar);
+        visemeListener = (event: Event) => {
+          const detail = (event as CustomEvent<VisemeCueDetail>).detail;
+          if (!detail?.shape) return;
+          facialController?.setViseme(detail);
+        };
+        window.addEventListener(VISEME_CUE_EVENT, visemeListener);
+
         stateListener = (event: Event) => {
           const detail = (event as CustomEvent<MotionState | { state?: MotionState }>).detail;
           activeState = typeof detail === "string" ? detail : detail?.state ?? activeState;
@@ -211,6 +232,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
           }
 
           controller?.update(delta);
+          facialController?.update(delta, now);
 
           if (presenting && controller) {
             const report = controller.report;
@@ -247,20 +269,26 @@ export default function IsabelPlaceholderAnatomyBridge() {
 
       const restore = () => {
         proto.add = originalAdd;
+        facialController?.reset();
+        facialController = null;
         controller?.dispose();
         controller = null;
         if (frame) window.cancelAnimationFrame(frame);
         if (stateListener) window.removeEventListener("isabel-three-state", stateListener);
+        if (visemeListener) window.removeEventListener(VISEME_CUE_EVENT, visemeListener);
       };
       window.addEventListener("pagehide", restore, { once: true });
     })();
 
     return () => {
       disposed = true;
+      facialController?.reset();
+      facialController = null;
       controller?.dispose();
       controller = null;
       if (frame) window.cancelAnimationFrame(frame);
       if (stateListener) window.removeEventListener("isabel-three-state", stateListener);
+      if (visemeListener) window.removeEventListener(VISEME_CUE_EVENT, visemeListener);
     };
   }, []);
 

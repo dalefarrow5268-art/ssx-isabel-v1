@@ -1,0 +1,57 @@
+{
+  "units": "centimeters",
+  "room": {
+    "width": 670,
+    "depth": 790,
+    "height": 335,
+    "wall_thickness": 15
+  },
+  "windows": {
+    "wall": "left",
+    "sill_height": 45,
+    "head_height": 300,
+    "bay_count": 3,
+    "frame_width": 10
+  },
+  "monitor_wall": {
+    "wall": "back",
+    "rows": 2,
+    "columns": 2,
+    "screen_width": 145,
+    "screen_height": 81.5625,
+    "screen_depth": 5,
+    "gap_x": 10,
+    "gap_y": 10,
+    "center_height": 190,
+    "white_reveal": 15.24
+  },
+  "desk": {
+    "width": 190,
+    "depth": 80,
+    "height": 76,
+    "x": 150,
+    "y": 100,
+    "faces": "left_windows"
+  },
+  "isabel_anchor": {
+    "x": 185,
+    "y": 115,
+    "z": 0,
+    "faces": "left_windows"
+  },
+  "camera_arrival": {
+    "x": 0,
+    "y": 610,
+    "z": 165,
+    "pitch": -2,
+    "yaw": -90,
+    "roll": 0,
+    "focal_length_mm": 28
+  },
+  "screen_ids": ["SCREEN_01", "SCREEN_02", "SCREEN_03", "SCREEN_04"],
+  "notes": [
+    "This is the geometry truth for the first Unreal proof of concept, not a final architectural survey.",
+    "All major elements stay as independent 3D objects so moving Isabel cannot deform the office.",
+    "Screens remain exact 16:9 physical surfaces and are never generated as part of an AI background image."
+  ]
+}

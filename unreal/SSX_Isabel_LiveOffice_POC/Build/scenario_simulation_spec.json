@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "purpose": "Define how Isabel compares project scenarios without presenting assumptions as facts.",
+  "principles": [
+    "Every scenario begins from an explicit baseline state.",
+    "Assumptions are visible and separately labeled from confirmed evidence.",
+    "Schedule, cost, coordination, safety, quality, procurement, and owner-impact consequences are scored independently.",
+    "Unknowns reduce confidence and may block a recommendation.",
+    "Isabel may recommend; she may not authorize a consequential project action.",
+    "Scenario outputs must retain evidence and causal-path references."
+  ],
+  "dimensions": {
+    "schedule": {"weight": 1.0, "direction": "lower_is_better"},
+    "cost_exposure": {"weight": 0.9, "direction": "lower_is_better"},
+    "coordination_risk": {"weight": 0.8, "direction": "lower_is_better"},
+    "safety_risk": {"weight": 1.0, "direction": "lower_is_better"},
+    "quality_risk": {"weight": 0.9, "direction": "lower_is_better"},
+    "procurement_risk": {"weight": 0.85, "direction": "lower_is_better"},
+    "owner_impact": {"weight": 0.7, "direction": "lower_is_better"},
+    "reversibility": {"weight": 0.65, "direction": "higher_is_better"}
+  },
+  "confidence_rules": {
+    "high": "Most critical inputs are confirmed and causal links are supported.",
+    "medium": "Some assumptions or unresolved dependencies remain.",
+    "low": "Critical inputs are missing, contradictory, or stale; gather evidence before recommending."
+  },
+  "required_output": [
+    "baseline",
+    "scenario_name",
+    "assumptions",
+    "predicted_consequences",
+    "confidence",
+    "evidence_ids",
+    "unknowns",
+    "reversibility",
+    "recommended_next_step",
+    "decision_owner"
+  ],
+  "example_questions": [
+    "What happens if fabrication is held for two days?",
+    "What if exterior work is resequenced around rain?",
+    "Which option creates the least schedule and cost exposure?",
+    "What is the safest reversible move while we wait for the missing answer?"
+  ],
+  "acceptance": [
+    "No scenario may convert a hypothetical consequence into a confirmed event.",
+    "Unknowns and assumptions remain visible in every comparison.",
+    "The recommended option may be 'gather more evidence' when confidence is insufficient.",
+    "The decision owner is always explicit for consequential actions."
+  ]
+}

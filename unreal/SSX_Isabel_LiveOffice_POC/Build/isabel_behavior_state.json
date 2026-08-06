@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "states": {
+    "IDLE_WORK": {
+      "anchor": "DESK",
+      "posture": "SEATED",
+      "attention": "SCREEN_02",
+      "loop": ["BREATHE", "BLINK", "MICRO_HEAD_MOVE", "GLANCE_SCREEN_01", "GLANCE_SCREEN_02", "HAND_MOUSE"]
+    },
+    "LOOK_AT_USER": {
+      "anchor": "DESK",
+      "posture": "SEATED",
+      "attention": "USER",
+      "sequence": ["EYES_TO_USER", "HEAD_TO_USER", "SOFT_SMILE"]
+    },
+    "SIT_AT_DESK": {
+      "anchor": "DESK_CHAIR",
+      "posture": "SEATED",
+      "sequence": ["NAV_TO_CHAIR", "ALIGN_TO_CHAIR", "SIT"]
+    },
+    "STAND_FROM_DESK": {
+      "anchor": "DESK_CHAIR",
+      "posture": "STANDING",
+      "sequence": ["PUSH_BACK", "STAND", "SETTLE"]
+    },
+    "GO_TO_DESK": {
+      "anchor": "DESK",
+      "posture": "STANDING",
+      "sequence": ["NAV_TO_DESK", "FACE_DESK"]
+    },
+    "GO_TO_SCREEN_01": {"anchor":"SCREEN_01","posture":"STANDING","sequence":["NAV_TO_SCREEN_01","FACE_SCREEN_01","POINT_OPTIONAL"]},
+    "GO_TO_SCREEN_02": {"anchor":"SCREEN_02","posture":"STANDING","sequence":["NAV_TO_SCREEN_02","FACE_SCREEN_02","POINT_OPTIONAL"]},
+    "GO_TO_SCREEN_03": {"anchor":"SCREEN_03","posture":"STANDING","sequence":["NAV_TO_SCREEN_03","FACE_SCREEN_03","POINT_OPTIONAL"]},
+    "GO_TO_SCREEN_04": {"anchor":"SCREEN_04","posture":"STANDING","sequence":["NAV_TO_SCREEN_04","FACE_SCREEN_04","POINT_OPTIONAL"]}
+  }
+}

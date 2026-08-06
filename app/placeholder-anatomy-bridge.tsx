@@ -52,6 +52,10 @@ export default function IsabelPlaceholderAnatomyBridge() {
         const scale = initialSize.y > 0 ? targetHeight / initialSize.y : 1;
         avatar.scale.setScalar(scale);
 
+        // Imported humanoid faces the opposite local forward axis from the office rig.
+        // Normalize it once here so all existing room choreography stays correct.
+        avatar.rotation.y = Math.PI;
+
         const fittedBox = new THREE.Box3().setFromObject(avatar);
         const center = fittedBox.getCenter(new THREE.Vector3());
         avatar.position.x -= center.x;

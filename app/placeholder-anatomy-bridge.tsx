@@ -5,6 +5,7 @@ import { useEffect } from "react";
 export default function IsabelPlaceholderAnatomyBridge() {
   useEffect(() => {
     let disposed = false;
+    let idleFrame = 0;
 
     void (async () => {
       const THREE = await import("three");
@@ -15,7 +16,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
       const pending = new WeakSet<import("three").Object3D>();
 
       const enhanceRig = (rig: import("three").Object3D) => {
-        if (disposed || rig.children.some((child) => child.name === "HUMAN_PLACEHOLDER_V4")) return;
+        if (disposed || rig.children.some((child) => child.name === "HUMAN_PLACEHOLDER_V5")) return;
 
         const headPivot = rig.children.find((child) =>
           (child as import("three").Group).isGroup &&
@@ -26,23 +27,24 @@ export default function IsabelPlaceholderAnatomyBridge() {
         if (!headPivot) return;
 
         const skin = new THREE.MeshStandardMaterial({ color: 0xb97863, roughness: 0.56 });
-        const suit = new THREE.MeshStandardMaterial({ color: 0x111319, roughness: 0.56 });
-        const suitSoft = new THREE.MeshStandardMaterial({ color: 0x1b1e25, roughness: 0.64 });
-        const shirt = new THREE.MeshStandardMaterial({ color: 0xe8e3dc, roughness: 0.72 });
+        const suit = new THREE.MeshStandardMaterial({ color: 0x111319, roughness: 0.58 });
+        const suitSoft = new THREE.MeshStandardMaterial({ color: 0x1a1d23, roughness: 0.64 });
+        const shirt = new THREE.MeshStandardMaterial({ color: 0xe9e3dc, roughness: 0.72 });
         const hair = new THREE.MeshStandardMaterial({ color: 0x2a1812, roughness: 0.78 });
-        const shoe = new THREE.MeshStandardMaterial({ color: 0x08090b, roughness: 0.42 });
+        const shoe = new THREE.MeshStandardMaterial({ color: 0x08090b, roughness: 0.44 });
 
+        // Remove every old placeholder body part while preserving the working head pivot.
         for (const child of rig.children) {
           if (child === headPivot) continue;
           if ((child as import("three").Mesh).isMesh || (child as import("three").Group).isGroup) child.visible = false;
         }
 
-        // Keep the working face, but reduce the bobble-head read and shorten the exposed neck.
-        headPivot.scale.setScalar(0.76);
-        headPivot.position.set(0, 4.50, 0.055);
+        // Better adult head/body ratio and less exposed neck.
+        headPivot.scale.setScalar(0.74);
+        headPivot.position.set(0, 4.43, 0.055);
 
         const human = new THREE.Group();
-        human.name = "HUMAN_PLACEHOLDER_V4";
+        human.name = "HUMAN_PLACEHOLDER_V5";
         originalAdd.call(rig, human);
 
         const addMesh = (
@@ -64,87 +66,79 @@ export default function IsabelPlaceholderAnatomyBridge() {
           return mesh;
         };
 
-        // 01 shorter, slimmer neck.
-        addMesh(new THREE.CylinderGeometry(0.145, 0.18, 0.38, 24), skin, "HUMAN_NECK", 0, 4.11, 0, 1, 1, 0.92);
+        // 01 neck: shorter and slightly tapered.
+        addMesh(new THREE.CylinderGeometry(0.14, 0.18, 0.34, 24), skin, "HUMAN_NECK", 0, 4.08, 0, 1, 1, 0.92);
 
-        // 02 clavicle bridge: flatter and narrower than the prior shoulder tube.
-        const clavicle = addMesh(new THREE.CapsuleGeometry(0.15, 0.78, 6, 18), suit, "CLAVICLE_BRIDGE", 0, 3.91, 0, 1, 1, 1.08);
-        clavicle.rotation.z = Math.PI / 2;
+        // 02 upper torso: tapered frustum instead of a sphere/bubble.
+        addMesh(new THREE.CylinderGeometry(0.50, 0.37, 0.86, 28), suit, "CHEST_TAPER", 0, 3.57, 0.01, 1, 1, 0.60);
 
-        // 03 upper torso: wider chest, much less spherical depth.
-        addMesh(new THREE.SphereGeometry(0.56, 28, 20), suit, "UPPER_TORSO", 0, 3.54, 0.015, 1.04, 0.79, 0.43);
+        // 03 waist bridge: overlaps chest and pelvis so the silhouette is continuous.
+        addMesh(new THREE.CylinderGeometry(0.37, 0.39, 0.46, 28), suitSoft, "WAIST_BRIDGE", 0, 2.93, 0.015, 1, 1, 0.60);
 
-        // 04 mid torso: overlaps the upper torso to create a continuous silhouette.
-        addMesh(new THREE.SphereGeometry(0.50, 28, 20), suit, "MID_TORSO", 0, 3.12, 0.01, 0.94, 0.76, 0.42);
+        // 04 pelvis: shallow taper, not a round hip bubble.
+        addMesh(new THREE.CylinderGeometry(0.39, 0.45, 0.54, 28), suitSoft, "PELVIS_TAPER", 0, 2.45, 0.02, 1, 1, 0.62);
 
-        // 05 waist: less pinched than before so it reads anatomical, not corseted.
-        addMesh(new THREE.CylinderGeometry(0.37, 0.41, 0.52, 24), suitSoft, "WAIST", 0, 2.74, 0.015, 1, 1, 0.60);
+        // 05 subtle side hip volume only, kept shallow front-to-back.
+        addMesh(new THREE.SphereGeometry(0.18, 18, 12), suitSoft, "HIP_L", -0.38, 2.34, 0.02, 1.0, 1.25, 0.62);
+        addMesh(new THREE.SphereGeometry(0.18, 18, 12), suitSoft, "HIP_R", 0.38, 2.34, 0.02, 1.0, 1.25, 0.62);
 
-        // 06 pelvis: wider but shallower to avoid the bubble-hip look.
-        addMesh(new THREE.SphereGeometry(0.50, 28, 20), suitSoft, "PELVIS", 0, 2.34, 0.025, 1.02, 0.52, 0.46);
+        // 06 short lower pelvis connector that meets the thighs.
+        addMesh(new THREE.CylinderGeometry(0.41, 0.34, 0.30, 28), suitSoft, "LOWER_PELVIS", 0, 2.09, 0.02, 1, 1, 0.60);
 
-        // 07 lower pelvis connector creates one torso-to-leg transition.
-        addMesh(new THREE.CylinderGeometry(0.39, 0.34, 0.30, 24), suitSoft, "LOWER_PELVIS", 0, 2.08, 0.02, 1, 1, 0.60);
-
-        // 08 front-direction shirt cue without changing the face/mouth system.
-        const shirtPanel = addMesh(new THREE.PlaneGeometry(0.22, 0.64), shirt, "SHIRT_PANEL", 0, 3.43, 0.273);
-        shirtPanel.position.z = 0.274;
-
-        // 09/10 shoulders are smaller and lower; no more ball-joint look.
-        addMesh(new THREE.SphereGeometry(0.135, 18, 12), suit, "SHOULDER_L", -0.56, 3.78, 0, 1.10, 0.82, 0.95);
-        addMesh(new THREE.SphereGeometry(0.135, 18, 12), suit, "SHOULDER_R", 0.56, 3.78, 0, 1.10, 0.82, 0.95);
+        // 07 shirt opening gives a clear front direction without changing the face system.
+        addMesh(new THREE.PlaneGeometry(0.20, 0.58), shirt, "SHIRT_PANEL", 0, 3.55, 0.315);
 
         const makeArm = (side: -1 | 1) => {
-          const shoulderX = side * 0.565;
+          const x = side * 0.515;
 
-          // 11 upper arm slopes inward and slightly forward.
-          const upper = addMesh(new THREE.CapsuleGeometry(0.088, 0.63, 6, 12), suit, `UPPER_ARM_${side}`, shoulderX + side * 0.055, 3.24, 0.03, 0.98, 1, 0.92);
-          upper.rotation.z = side * -0.13;
-          upper.rotation.x = -0.04;
+          // 08 shoulder connection is built into the arm; no ball-joint spheres.
+          const upper = addMesh(new THREE.CapsuleGeometry(0.09, 0.62, 6, 12), suit, `UPPER_ARM_${side}`, x + side * 0.045, 3.37, 0.035, 0.98, 1, 0.92);
+          upper.rotation.z = side * -0.16;
+          upper.rotation.x = -0.055;
 
-          // 12 smaller elbow, offset a touch forward.
-          addMesh(new THREE.SphereGeometry(0.088, 14, 10), suit, `ELBOW_${side}`, shoulderX + side * 0.11, 2.80, 0.055, 0.90, 0.76, 0.90);
+          // 09 compact elbow.
+          addMesh(new THREE.SphereGeometry(0.082, 14, 10), suit, `ELBOW_${side}`, x + side * 0.11, 2.92, 0.065, 0.88, 0.72, 0.88);
 
-          // 13 forearm slightly angled instead of perfectly vertical.
-          const fore = addMesh(new THREE.CapsuleGeometry(0.072, 0.56, 6, 12), suitSoft, `FOREARM_${side}`, shoulderX + side * 0.145, 2.39, 0.10, 0.96, 1, 0.90);
-          fore.rotation.z = side * -0.08;
-          fore.rotation.x = -0.085;
+          // 10 forearm angles inward and forward for a relaxed stance.
+          const fore = addMesh(new THREE.CapsuleGeometry(0.073, 0.56, 6, 12), suitSoft, `FOREARM_${side}`, x + side * 0.145, 2.50, 0.115, 0.96, 1, 0.90);
+          fore.rotation.z = side * -0.085;
+          fore.rotation.x = -0.10;
 
-          // 14 wrist a little thicker so the hand does not look detached.
-          addMesh(new THREE.CylinderGeometry(0.058, 0.068, 0.16, 14), skin, `WRIST_${side}`, shoulderX + side * 0.17, 2.05, 0.12, 1, 1, 0.90);
+          // 11 wrist connection.
+          addMesh(new THREE.CylinderGeometry(0.058, 0.067, 0.15, 14), skin, `WRIST_${side}`, x + side * 0.17, 2.16, 0.14, 1, 1, 0.90);
 
-          // 15 palm proportion increased slightly.
-          const hand = addMesh(new THREE.CapsuleGeometry(0.078, 0.23, 5, 10), skin, `HAND_${side}`, shoulderX + side * 0.185, 1.83, 0.135, 0.90, 1, 0.62);
-          hand.rotation.z = side * -0.04;
+          // 12 hand: wider palm, slightly flattened depth.
+          const hand = addMesh(new THREE.CapsuleGeometry(0.079, 0.23, 5, 10), skin, `HAND_${side}`, x + side * 0.185, 1.94, 0.155, 0.92, 1, 0.62);
+          hand.rotation.z = side * -0.05;
         };
         makeArm(-1);
         makeArm(1);
 
         const makeLeg = (side: -1 | 1) => {
-          const hipX = side * 0.235;
+          const x = side * 0.225;
 
-          // 16 thigh widened slightly at the hip and kept close enough to read as one pelvis.
-          const thigh = addMesh(new THREE.CapsuleGeometry(0.145, 0.90, 6, 12), suitSoft, `THIGH_${side}`, hipX, 1.51, 0.02, 1.00, 1, 0.94);
-          thigh.rotation.z = side * 0.014;
+          // 13 thigh with enough volume to meet the pelvis naturally.
+          const thigh = addMesh(new THREE.CapsuleGeometry(0.145, 0.88, 6, 12), suitSoft, `THIGH_${side}`, x, 1.53, 0.02, 1.02, 1, 0.95);
+          thigh.rotation.z = side * 0.012;
 
-          // 17 knee kept subtle.
-          addMesh(new THREE.SphereGeometry(0.118, 14, 10), suitSoft, `KNEE_${side}`, hipX + side * 0.008, 0.92, 0.045, 0.90, 0.70, 0.90);
+          // 14 small knee transition.
+          addMesh(new THREE.SphereGeometry(0.117, 14, 10), suitSoft, `KNEE_${side}`, x + side * 0.006, 0.96, 0.045, 0.90, 0.68, 0.90);
 
-          // 18 calf significantly thicker than the previous needle-like version.
-          const calf = addMesh(new THREE.CapsuleGeometry(0.118, 0.78, 6, 12), suitSoft, `CALF_${side}`, hipX + side * 0.015, 0.48, 0.04, 1.00, 1, 0.94);
-          calf.rotation.z = side * -0.008;
+          // 15 calf: visibly thicker than the ankle and not needle-like.
+          const calf = addMesh(new THREE.CapsuleGeometry(0.125, 0.74, 6, 12), suitSoft, `CALF_${side}`, x + side * 0.012, 0.53, 0.04, 1.0, 1, 0.94);
+          calf.rotation.z = side * -0.006;
 
-          // 19 ankle widened and shortened.
-          addMesh(new THREE.CylinderGeometry(0.078, 0.086, 0.18, 14), suitSoft, `ANKLE_${side}`, hipX + side * 0.015, 0.04, 0.055, 1, 1, 0.92);
+          // 16 ankle shortened and widened.
+          addMesh(new THREE.CylinderGeometry(0.082, 0.09, 0.17, 14), suitSoft, `ANKLE_${side}`, x + side * 0.012, 0.10, 0.055, 1, 1, 0.92);
 
-          // 20 feet widened to support the silhouette and stance.
-          const foot = addMesh(new THREE.BoxGeometry(0.29, 0.16, 0.58), shoe, `FOOT_${side}`, hipX + side * 0.025, -0.12, 0.18);
-          foot.rotation.y = side * 0.06;
+          // 17 foot: proportional width/length with slight toe-out.
+          const foot = addMesh(new THREE.BoxGeometry(0.30, 0.16, 0.58), shoe, `FOOT_${side}`, x + side * 0.024, -0.06, 0.19);
+          foot.rotation.y = side * 0.055;
         };
         makeLeg(-1);
         makeLeg(1);
 
-        // Preserve existing eyes/mouth; only add orientation cues.
+        // 18 ear cues make head rotation readable.
         const earL = new THREE.Mesh(new THREE.SphereGeometry(0.064, 14, 10), skin);
         earL.scale.set(0.52, 1, 0.46);
         earL.position.set(-0.445, 0.01, 0);
@@ -153,6 +147,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
         earR.position.x = 0.445;
         headPivot.add(earR);
 
+        // 19 nose/brow/chin orientation cues; existing eyes and mouth remain untouched.
         const nose = new THREE.Mesh(new THREE.ConeGeometry(0.048, 0.15, 14), skin);
         nose.rotation.x = Math.PI / 2;
         nose.position.set(0, -0.025, 0.49);
@@ -171,6 +166,19 @@ export default function IsabelPlaceholderAnatomyBridge() {
         chin.scale.set(1.18, 0.50, 0.68);
         chin.position.set(0, -0.34, 0.34);
         headPivot.add(chin);
+
+        // 20 idle life goes on the new body, not the old hidden capsule torso.
+        const baseHeadY = headPivot.position.y;
+        const animateIdle = () => {
+          if (disposed) return;
+          const t = performance.now() * 0.001;
+          human.scale.y = 1 + Math.sin(t * 1.6) * 0.0045;
+          human.rotation.z = Math.sin(t * 0.62) * 0.004;
+          human.position.x = Math.sin(t * 0.48) * 0.008;
+          headPivot.position.y = baseHeadY + Math.sin(t * 1.6) * 0.006;
+          idleFrame = window.requestAnimationFrame(animateIdle);
+        };
+        idleFrame = window.requestAnimationFrame(animateIdle);
       };
 
       objectPrototype.add = function patchedAdd(...objects: import("three").Object3D[]) {
@@ -187,12 +195,14 @@ export default function IsabelPlaceholderAnatomyBridge() {
 
       const restore = () => {
         objectPrototype.add = originalAdd;
+        if (idleFrame) window.cancelAnimationFrame(idleFrame);
       };
       window.addEventListener("pagehide", restore, { once: true });
     })();
 
     return () => {
       disposed = true;
+      if (idleFrame) window.cancelAnimationFrame(idleFrame);
     };
   }, []);
 

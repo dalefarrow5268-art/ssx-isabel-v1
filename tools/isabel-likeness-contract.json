@@ -1,0 +1,103 @@
+{
+  "schema": "ssx.isabel.likeness-contract.v1",
+  "subject": "Isabel",
+  "reference_basis": "locked front-facing canonical portrait plus locked full-body office references",
+  "principle": "Store reproducible MPFB morph intent separately from rig/animation. Front-view traits may be tuned confidently; depth/profile traits remain provisional until a real side or three-quarter reference is available.",
+  "front_view": {
+    "face_outline": {
+      "shape": "oval-soft-angular",
+      "jaw_width": "medium-narrow",
+      "jaw_angle": "soft-defined",
+      "chin": "moderately narrow, softly pointed",
+      "confidence": "high"
+    },
+    "eyes": {
+      "size": "medium",
+      "horizontal_spacing": "balanced/slightly close to one-eye-width",
+      "shape": "almond",
+      "outer_corner": "neutral to subtly raised",
+      "upper_lid": "defined",
+      "confidence": "high"
+    },
+    "brows": {
+      "density": "full",
+      "height": "low-medium",
+      "arch": "soft",
+      "tail": "tapered",
+      "confidence": "high"
+    },
+    "nose": {
+      "bridge_width": "narrow-medium",
+      "base_width": "medium",
+      "tip_width": "medium-narrow",
+      "frontal_length": "medium",
+      "confidence": "medium-high"
+    },
+    "mouth": {
+      "width": "medium",
+      "upper_lip": "medium-full with defined cupid bow",
+      "lower_lip": "fuller than upper",
+      "corner_position": "neutral",
+      "confidence": "high"
+    },
+    "cheeks": {
+      "cheekbone_width": "medium-high",
+      "midface_fullness": "natural/slim",
+      "confidence": "medium-high"
+    }
+  },
+  "profile_unknowns": {
+    "nose_projection": "provisional",
+    "nasal_bridge_depth": "provisional",
+    "chin_projection": "provisional",
+    "forehead_slope": "provisional",
+    "lip_projection": "provisional",
+    "rule": "Do not overfit these from a single frontal image. Tune only after a verified three-quarter/profile reference or a rendered comparison exposes an obvious mismatch."
+  },
+  "body": {
+    "build": "slim natural adult female",
+    "shoulders": "narrow-relaxed",
+    "waist": "defined but not exaggerated",
+    "hips": "natural proportional",
+    "legs": "long balanced",
+    "hands_feet": "fully modeled realistic scale",
+    "confidence": "medium-high"
+  },
+  "surface": {
+    "skin_tone": "warm medium/tan",
+    "eyes": "dark brown",
+    "hair": "dark brown to black, loosely pinned-up/wavy with face-framing strands",
+    "brows": "dark and full",
+    "skin_detail": "subtle freckles and natural texture, not airbrushed"
+  },
+  "wardrobe": {
+    "primary": "fitted black professional blazer, dark top, tailored black trousers, black closed-toe heels",
+    "jewelry": "small gold hoop earrings and fine round-pendant necklace"
+  },
+  "mpfb_target_strategy": {
+    "method": "Use named MPFB system targets as a deterministic weight vector. Prefer exact target-name matches; MPFB 2.0.17 resolves exact names before partial matches.",
+    "families_to_scan": [
+      "head", "forehead", "eyebrows", "eyes", "nose", "cheek", "mouth", "lips", "jaw", "chin"
+    ],
+    "symmetry": "Keep identity-shaping targets symmetric unless the reference shows a stable asymmetry worth preserving.",
+    "initialization": "Start from a neutral adult female macro phenotype, then fit local facial targets. Do not use race macro sliders as a substitute for likeness.",
+    "optimization_order": [
+      "face outline/jaw/chin",
+      "eye spacing/size/shape",
+      "brow position/shape",
+      "nose frontal proportions",
+      "mouth/lip proportions",
+      "cheek fullness",
+      "only then profile/depth"
+    ]
+  },
+  "acceptance": {
+    "identity_gate": "A front render must be recognizably the locked Isabel before animation polish is considered complete.",
+    "do_not_accept": [
+      "generic MPFB woman",
+      "different face that merely shares hair/wardrobe",
+      "beautified drift away from the locked reference",
+      "profile guesses that visibly damage front likeness"
+    ]
+  }
+}

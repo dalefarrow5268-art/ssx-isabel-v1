@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "goal": "Make Isabel feel immediately responsive rather than like a queued avatar pipeline.",
+  "targets_ms": {
+    "arrival_eye_ack": 180,
+    "user_voice_onset_detection": 120,
+    "partial_transcript_available": 250,
+    "brain_first_token": 450,
+    "tts_first_audio": 300,
+    "face_motion_after_audio": 80,
+    "barge_in_voice_fade": 120,
+    "screen_command_ack": 150,
+    "navigation_start": 250,
+    "pixel_stream_input_to_photon": 120,
+    "ideal_end_of_user_speech_to_isabel_audio": 850,
+    "maximum_acceptable_end_of_user_speech_to_isabel_audio": 1400
+  },
+  "strategy": [
+    "Stream every stage that can stream: ASR partials, LLM tokens, TTS audio, facial motion and screen updates.",
+    "Do not wait for a full transcript when intent is already stable enough for safe preparation.",
+    "Allow Isabel to begin nonverbal acknowledgement while the brain is still thinking.",
+    "Prefetch likely screen data and common office actions before speech finishes.",
+    "Keep local Unreal movement, gaze and animation decisions on the home AI PC.",
+    "Use barge-in as a first-class path, not an error case.",
+    "Never fake certainty to save latency; uncertain actions wait for confirmation while nonverbal behavior continues."
+  ],
+  "quality_rule": "Perceived responsiveness matters more than raw benchmark speed. Isabel should acknowledge instantly, think visibly but subtly, and begin speaking as soon as useful audio is available."
+}

@@ -8,11 +8,18 @@ on:
     paths:
       - .github/workflows/build-isabel-character.yml
       - tools/build-isabel-mpfb.py
+      - tools/discover-isabel-mpfb-targets.py
       - tools/isabel-character-spec.json
+      - tools/isabel-likeness-targets.json
+      - tools/isabel-likeness-contract.json
       - tools/validate-isabel-glb.py
 
 permissions:
   contents: read
+
+concurrency:
+  group: isabel-character-build
+  cancel-in-progress: true
 
 jobs:
   build-isabel:
@@ -20,14 +27,20 @@ jobs:
     timeout-minutes: 45
 
     steps:
-      - name: Checkout Isabel repo
+      - name: Checkout Isabel review branch
         uses: actions/checkout@v4
 
-      - name: Install Blender and Git LFS
+      - name: Record Isabel source revision
+        run: |
+          echo "Building isabel-office-review at $(git rev-parse HEAD)"
+          git log -1 --oneline
+
+      - name: Install Blender, NumPy, and Git LFS
         run: |
           sudo apt-get update
-          sudo apt-get install -y blender git-lfs
+          sudo apt-get install -y blender python3-numpy git-lfs unzip curl
           blender --version
+          blender --background --python-expr "import numpy; print('Blender NumPy', numpy.__version__)"
           git lfs install
 
       - name: Install MPFB extension
@@ -44,6 +57,24 @@ jobs:
           test -d base/skins
           test -d base/hair
 
+      - name: Install official Isabel facial packs
+        run: |
+          mkdir -p "$RUNNER_TEMP/functional-packs"
+          curl -fL --retry 3 --retry-delay 2 https://files2.makehumancommunity.org/functional/faceunits01.zip -o "$RUNNER_TEMP/functional-packs/faceunits01.zip"
+          curl -fL --retry 3 --retry-delay 2 https://files2.makehumancommunity.org/functional/visemes02.zip -o "$RUNNER_TEMP/functional-packs/visemes02.zip"
+          unzip -qo "$RUNNER_TEMP/functional-packs/faceunits01.zip" -d "$RUNNER_TEMP/makehuman-assets/base"
+          unzip -qo "$RUNNER_TEMP/functional-packs/visemes02.zip" -d "$RUNNER_TEMP/makehuman-assets/base"
+          echo "Faceunits target files: $(find "$RUNNER_TEMP/makehuman-assets/base" -type f \( -name '*.target' -o -name '*.target.gz' \) | grep -ci faceunit || true)"
+          echo "Viseme target files: $(find "$RUNNER_TEMP/makehuman-assets/base" -type f \( -name '*.target' -o -name '*.target.gz' \) | grep -ci viseme || true)"
+
+      - name: Discover exact MPFB likeness targets
+        run: |
+          mkdir -p build/isabel
+          blender --background --online-mode \
+            --python tools/discover-isabel-mpfb-targets.py -- \
+            --json build/isabel/mpfb-target-report.json
+          test -s build/isabel/mpfb-target-report.json
+
       - name: Build Isabel GLB
         env:
           MPFB_DATA_PATH: ${{ runner.temp }}/makehuman-assets/base
@@ -52,6 +83,7 @@ jobs:
           blender --background --online-mode \
             --python tools/build-isabel-mpfb.py -- \
             --spec tools/isabel-character-spec.json \
+            --likeness tools/isabel-likeness-targets.json \
             --output public/models/isabel/isabel-v1.glb \
             --save-blend build/isabel/isabel-v1.blend
           ls -lh public/models/isabel/isabel-v1.glb build/isabel/isabel-v1.blend
@@ -69,4 +101,7 @@ jobs:
           path: |
             public/models/isabel/isabel-v1.glb
             build/isabel/isabel-v1.blend
+            build/isabel/mpfb-target-report.json
             tools/isabel-character-spec.json
+            tools/isabel-likeness-contract.json
+            tools/isabel-likeness-targets.json

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "name": "ISABEL_FIRST_LIVE_DEMO",
+  "goal": "Prove Isabel feels like a persistent digital person living in a real office, not a talking video or webpage avatar.",
+  "sequence": [
+    {"step": 1, "event": "PRE_ARRIVAL", "expected": ["IDLE_WORK", "SCREEN_02_ATTENTION", "NATURAL_BLINK", "BREATHING"]},
+    {"step": 2, "event": "USER_ARRIVES", "expected": ["EYES_TO_USER", "HEAD_TO_USER", "SOFT_SMILE"]},
+    {"step": 3, "event": "USER_SAYS", "text": "Good afternoon, Isabel. Show me the schedule issue.", "expected": ["LISTEN", "TRANSCRIBE", "THINK"]},
+    {"step": 4, "event": "ISABEL_INTENT", "topic": "schedule", "speech": "Of course. There is one schedule item I want you to see.", "expected": ["STAND_FROM_DESK", "GO_TO_SCREEN_02"]},
+    {"step": 5, "event": "ARRIVE_SCREEN_02", "expected": ["FACE_SCREEN_02", "LOOK_AT_SCREEN_02", "POINT_OPTIONAL"]},
+    {"step": 6, "event": "ISABEL_EXPLAINS", "speech": "This activity is close enough to the current path that I would confirm the field condition before we call it a delay.", "expected": ["AUDIO_DRIVEN_FACE", "RESTRAINED_GESTURE", "SCREEN_02_LIVE"]},
+    {"step": 7, "event": "USER_INTERRUPTS", "text": "What should I do next?", "expected": ["BARGE_IN", "VOICE_FADE", "RETURN_LISTENING"]},
+    {"step": 8, "event": "ISABEL_RESPONDS", "speech": "I would get the superintendent's field read first, then decide whether the owner needs an update.", "expected": ["LOOK_AT_USER", "SPEAK", "CALM_EXPRESSION"]},
+    {"step": 9, "event": "RETURN_HOME", "expected": ["GO_TO_DESK", "SIT_AT_DESK", "IDLE_WORK"]}
+  ],
+  "hard_failures": [
+    "Office geometry moves or deforms",
+    "Isabel identity visibly drifts",
+    "Screen 02 is not a real independent live surface",
+    "Lip sync is visibly detached from audio",
+    "Isabel teleports during normal movement",
+    "User interruption does not stop Isabel naturally",
+    "Camera unexpectedly follows Isabel",
+    "Reconnect resets the whole office"
+  ],
+  "success": "The full sequence completes in one continuous browser session with stable office geometry, stable Isabel identity, live screen content, natural interruption handling, and no scene reset."
+}

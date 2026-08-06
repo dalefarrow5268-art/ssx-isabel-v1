@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "name": "Isabel Live Office Production Assembly",
+  "branch": "isabel-live-office-poc",
+  "order": [
+    "room_shell_and_anchors",
+    "monitor_wall_and_cabinetry",
+    "desk_chair_interaction",
+    "window_daylight",
+    "tray_ceiling",
+    "flatiron_artwork",
+    "floor_foreground",
+    "camera_lock",
+    "health_report"
+  ],
+  "locked_invariants": [
+    "CAMERA_ARRIVAL transform stays fixed after approval",
+    "SCREEN_01 through SCREEN_04 remain exact 16:9 surfaces",
+    "white monitor reveal stays uniform",
+    "Isabel movement anchors do not move during asset replacement",
+    "desk center remains open for natural leg/heel visibility",
+    "window wall remains straight deterministic geometry",
+    "office visual upgrades never regenerate the room as an AI image"
+  ],
+  "visual_target": "bright polished professional office matching the approved Isabel office reference, with dark cabinetry, crisp white reveals, large left windows, warm daylight, tray ceiling, Flatiron artwork, and Isabel in the locked black professional wardrobe",
+  "runtime_target": "persistent Unreal-rendered office streamed to browser through Pixel Streaming"
+}

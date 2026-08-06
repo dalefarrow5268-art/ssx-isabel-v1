@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "goal": "Replace proof-of-concept blockout geometry with production-ready Unreal assets without disturbing locked office coordinates, anchors, camera, or Isabel behavior.",
+  "locked": [
+    "CAMERA_ARRIVAL transform and lens after approval",
+    "named Isabel anchors",
+    "screen IDs and 16:9 physical bounds",
+    "desk center/orientation",
+    "window wall opening extents",
+    "monitor-wall centerline",
+    "room shell dimensions"
+  ],
+  "replacement_order": [
+    "cabinetry",
+    "monitor frames and white reveal",
+    "windows and mullions",
+    "desk",
+    "chair",
+    "floor/carpet",
+    "ceiling/tray lighting trim",
+    "picture frame and Flatiron artwork",
+    "small props"
+  ],
+  "asset_rules": {
+    "cabinetry": {
+      "method": "modular_meshes_or_custom_model",
+      "must_match": ["near-black stained wood", "clean vertical/horizontal reveals", "no geometry overlap with screens"],
+      "pivot_rule": "align to existing BACK_WALL and monitor group centerline"
+    },
+    "monitor_system": {
+      "method": "frame_mesh_plus_live_surface",
+      "must_match": ["exact 16:9", "uniform spacing", "white reveal remains separate object"],
+      "do_not": ["bake UI into textures", "change screen IDs"]
+    },
+    "windows": {
+      "method": "frame/mullion meshes inside locked openings",
+      "must_match": ["dark metal frames", "clear daylight opening", "no warped mullions"]
+    },
+    "desk": {
+      "method": "production mesh centered on locked desk transform",
+      "must_match": ["dark walnut/espresso tone", "open center", "realistic scale"],
+      "do_not": ["move desk to fix camera composition"]
+    },
+    "chair": {
+      "method": "separate interactive chair asset",
+      "must_match": ["black executive/professional", "seat height compatible with Isabel sit anchor"]
+    },
+    "floor": {
+      "method": "material replacement only unless geometry issue found",
+      "must_match": ["warm greige carpet", "low sheen", "subtle texture"]
+    },
+    "art": {
+      "method": "frame mesh + image texture",
+      "subject": "Flatiron Building",
+      "must_match": ["white mat", "black frame", "sharp/non-distorted image"]
+    }
+  },
+  "validation": [
+    "No replacement changes any anchor coordinate.",
+    "No replacement changes camera transform/focal length after camera lock.",
+    "No replacement changes screen aspect ratios or IDs.",
+    "Isabel can still complete desk sit/stand and all four screen approaches.",
+    "Arrival view remains within approved composition tolerances.",
+    "NavMesh remains continuous around desk and monitor approach points."
+  ]
+}

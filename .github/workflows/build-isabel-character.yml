@@ -85,6 +85,7 @@ jobs:
           blender --background --online-mode \
             --python tools/build-isabel-mpfb.py -- \
             --spec tools/isabel-character-spec.json \
+            --likeness tools/isabel-likeness-targets.json \
             --output public/models/isabel/isabel-v1.glb \
             --save-blend build/isabel/isabel-v1.blend
           ls -lh public/models/isabel/isabel-v1.glb build/isabel/isabel-v1.blend
@@ -105,3 +106,4 @@ jobs:
             build/isabel/mpfb-target-report.json
             tools/isabel-character-spec.json
             tools/isabel-likeness-contract.json
+            tools/isabel-likeness-targets.json

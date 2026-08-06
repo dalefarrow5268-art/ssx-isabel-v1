@@ -19,7 +19,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
       const pending = new WeakSet<import("three").Object3D>();
 
       const enhanceRig = (rig: import("three").Object3D) => {
-        if (disposed || rig.children.some((child) => child.name === "HUMAN_PLACEHOLDER_V12")) return;
+        if (disposed || rig.children.some((child) => child.name === "HUMAN_PLACEHOLDER_V13")) return;
 
         const headPivot = rig.children.find(
           (child) =>
@@ -47,7 +47,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
         headPivot.name = "PLACEHOLDER_HEAD_PIVOT";
 
         const human = new THREE.Group();
-        human.name = "HUMAN_PLACEHOLDER_V12";
+        human.name = "HUMAN_PLACEHOLDER_V13";
         originalAdd.call(rig, human);
 
         const torso = new THREE.Group();
@@ -156,9 +156,9 @@ export default function IsabelPlaceholderAnatomyBridge() {
           const calf = mesh(knee, new THREE.CapsuleGeometry(0.12, 0.86, 6, 12), suitSoft, `CALF_${side}`, side * 0.002, -0.46, 0.015, 1.02, 1, 0.89);
           calf.rotation.z = side * -0.002;
           mesh(knee, new THREE.CylinderGeometry(0.076, 0.086, 0.19, 14), suitSoft, `ANKLE_${side}`, side * 0.002, -0.94, 0.03, 1, 1, 0.88);
-          const foot = mesh(knee, new THREE.BoxGeometry(0.29, 0.14, 0.62), shoe, `FOOT_${side}`, side * 0.01, -1.11, 0.20);
+          const foot = mesh(knee, new THREE.BoxGeometry(0.31, 0.16, 0.68), shoe, `FOOT_${side}`, side * 0.01, -0.96, 0.22);
           foot.rotation.y = side * 0.028;
-          mesh(knee, new THREE.BoxGeometry(0.13, 0.11, 0.15), shoe, `HEEL_${side}`, side * 0.01, -1.15, -0.03);
+          mesh(knee, new THREE.BoxGeometry(0.15, 0.13, 0.18), shoe, `HEEL_${side}`, side * 0.01, -1.00, -0.02);
         };
         makeLeg(-1);
         makeLeg(1);
@@ -205,10 +205,11 @@ export default function IsabelPlaceholderAnatomyBridge() {
           const walking = activeState === "walk" || activeState === "return";
           const listening = activeState === "listen";
           const presenting = activeState === "present";
-          const lowered = activeState === "working" || activeState === "notice" || activeState === "sit";
+          const seated = activeState === "sit" || activeState === "working";
+          const lowered = activeState === "notice";
 
-          const targetComp = lowered ? 0.72 : 0;
-          compensation += (targetComp - compensation) * 0.18;
+          const targetComp = seated ? 0.30 : lowered ? 0.72 : 0;
+          compensation += (targetComp - compensation) * 0.16;
           human.position.y = compensation;
           headPivot.position.y = baseHeadY + compensation + Math.sin(t * 1.4) * 0.0025;
 
@@ -220,7 +221,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
           human.rotation.z = sway * (listening ? 0.003 : 0.0012);
 
           const torsoZ = listening ? -0.007 + sway * 0.0012 : presenting ? 0.005 : sway * 0.0008;
-          const torsoX = presenting ? -0.014 : activeState === "notice" ? -0.003 : 0;
+          const torsoX = seated ? 0.08 : presenting ? -0.014 : activeState === "notice" ? -0.003 : 0;
           torso.rotation.z += (torsoZ - torso.rotation.z) * 0.12;
           torso.rotation.x += (torsoX - torso.rotation.x) * 0.12;
           pelvis.rotation.z += ((-torsoZ * 0.28) - pelvis.rotation.z) * 0.12;
@@ -235,6 +236,15 @@ export default function IsabelPlaceholderAnatomyBridge() {
             hips[1].rotation.x = stride * 0.095;
             knees[0].rotation.x = Math.max(0, stride) * 0.16;
             knees[1].rotation.x = Math.max(0, -stride) * 0.16;
+          } else if (seated) {
+            shoulders[0].rotation.x += (-0.08 - shoulders[0].rotation.x) * 0.12;
+            shoulders[1].rotation.x += (-0.06 - shoulders[1].rotation.x) * 0.12;
+            elbows[0].rotation.x += (-0.32 - elbows[0].rotation.x) * 0.12;
+            elbows[1].rotation.x += (-0.28 - elbows[1].rotation.x) * 0.12;
+            hips[0].rotation.x += (-1.10 - hips[0].rotation.x) * 0.14;
+            hips[1].rotation.x += (-1.10 - hips[1].rotation.x) * 0.14;
+            knees[0].rotation.x += (1.42 - knees[0].rotation.x) * 0.14;
+            knees[1].rotation.x += (1.42 - knees[1].rotation.x) * 0.14;
           } else {
             shoulders[0].rotation.x += ((listening ? -0.02 : -0.032) - shoulders[0].rotation.x) * 0.12;
             shoulders[1].rotation.x += ((listening ? -0.015 : -0.024) - shoulders[1].rotation.x) * 0.12;

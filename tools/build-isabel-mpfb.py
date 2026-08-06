@@ -7,7 +7,7 @@ Run inside Blender with MPFB installed:
     --save-blend build/isabel/isabel-v1.blend
 
 This follows MPFB's official script_samples complete-character export pattern:
-create_human -> skin/assets -> built-in rig -> browser face targets -> ExportService staging -> GLB export.
+create_human -> skin/assets -> Mixamo-compatible rig -> browser face targets -> ExportService staging -> GLB export.
 """
 from __future__ import annotations
 
@@ -86,14 +86,7 @@ def add_asset(HumanService, basemesh, path: Path | None, asset_type: str) -> Non
 
 
 def add_browser_face_contract(FaceService, basemesh) -> None:
-    """Load the exact facial target families expected by our browser runtime.
-
-    TalkingHead-compatible browser avatars use Meta/Oculus visemes for speech and
-    ARKit face units for expressions/gaze-related eyelid motion. MPFB 2.0.15+
-    exposes these through FaceService. Functional packs are optional during the
-    first geometry proof, but their absence is reported loudly so a baseline GLB
-    cannot be mistaken for the finished Isabel facial rig.
-    """
+    """Load the exact facial target families expected by our browser runtime."""
     before = set()
     if basemesh.data.shape_keys:
         before = {k.name for k in basemesh.data.shape_keys.key_blocks}
@@ -134,6 +127,39 @@ def add_browser_face_contract(FaceService, basemesh) -> None:
         f"meta_visemes={'yes' if meta_ok else 'no'} "
         f"arkit_faceunits={'yes' if arkit_ok else 'no'} "
         f"added_shape_keys={len(added)}"
+    )
+
+
+def normalize_browser_root_name() -> None:
+    """TalkingHead and our browser loaders are simplest when the skeleton root is Armature."""
+    armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
+    if not armatures:
+        raise RuntimeError("No armature exists after MPFB rig creation")
+    # MPFB creates one character rig for this build. Keep the first armature deterministic.
+    armatures.sort(key=lambda obj: obj.name)
+    armature = armatures[0]
+    armature.name = "Armature"
+    if armature.data:
+        armature.data.name = "Armature"
+    print(f"ISABEL_BROWSER_ROOT name={armature.name} bones={len(armature.data.bones)}")
+
+
+def report_eye_contract() -> None:
+    """Report eye-control readiness without inventing fragile eye geometry.
+
+    MPFB's Mixamo/GameEngine export rigs are optimized for external animation and do not
+    promise the default-rig eye IK helpers. ARKit eye-look shapes are therefore the hard
+    browser gaze path; dedicated LeftEye/RightEye bones are an optional enhancement that
+    will be added only after the generated eye asset topology is inspected in CI.
+    """
+    armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
+    names = {bone.name.lower().replace("_", "") for arm in armatures for bone in arm.data.bones}
+    left = any("lefteye" in name or "eye.l" in name for name in names)
+    right = any("righteye" in name or "eye.r" in name for name in names)
+    print(
+        "ISABEL_EYE_CONTRACT "
+        f"left_eye_bone={'yes' if left else 'no'} right_eye_bone={'yes' if right else 'no'} "
+        "gaze_fallback=arkit-eye-look-morphs"
     )
 
 
@@ -193,9 +219,13 @@ def main() -> None:
         print(f"ISABEL_SKIN file={skin}")
         HumanService.set_character_skin(str(skin), basemesh, skin_type="GAMEENGINE")
 
-    rig_name = spec.get("rig", "game_engine")
+    # MPFB documents Mixamo as the rig specifically intended for the Mixamo animation
+    # service. TalkingHead requires a Mixamo-compatible skeleton, and our Three.js
+    # retargeter already recognizes Mixamo bone names, so this is our browser contract.
+    rig_name = spec.get("rig", "mixamo")
     HumanService.add_builtin_rig(basemesh, rig_name)
     print(f"ISABEL_RIG name={rig_name}")
+    normalize_browser_root_name()
 
     defaults = {
         "eyes": ("low-poly.mhclo",),
@@ -222,9 +252,8 @@ def main() -> None:
         garment = resolve_asset(data_root, "clothes", search.get(slot, []))
         add_asset(HumanService, basemesh, garment, "Clothes")
 
-    # Add speech/expression morphs before the export copy. MPFB's export staging then
-    # preserves these keys while baking the geometry and removing helper structures.
     add_browser_face_contract(FaceService, basemesh)
+    report_eye_contract()
 
     if args.save_blend:
         blend_path = Path(args.save_blend).resolve()

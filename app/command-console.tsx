@@ -15,6 +15,7 @@ type LiveFeedback = {
   gaze: string;
   tone: string;
   speechMode: string;
+  recordId: string;
   confirmation: "none" | "waiting" | "approved" | "declined";
 };
 
@@ -23,6 +24,7 @@ const EMPTY_FEEDBACK: LiveFeedback = {
   gaze: "none",
   tone: "neutral",
   speechMode: "silent",
+  recordId: "No active record",
   confirmation: "none",
 };
 
@@ -78,8 +80,12 @@ export default function IsabelCommandConsole() {
 
   useEffect(() => {
     const screenListener = (event: Event) => {
-      const detail = (event as CustomEvent<{ screen: string; action: string }>).detail;
-      setFeedback((value) => ({ ...value, screen: `${detail.screen} · ${detail.action}` }));
+      const detail = (event as CustomEvent<{ screen: string; action: string; recordId?: string }>).detail;
+      setFeedback((value) => ({
+        ...value,
+        screen: `${detail.screen} · ${detail.action}`,
+        recordId: detail.recordId ?? "Active screen command",
+      }));
     };
     const gazeListener = (event: Event) => {
       const detail = (event as CustomEvent<{ target: string }>).detail;
@@ -112,6 +118,7 @@ export default function IsabelCommandConsole() {
       gaze: command.gazeTarget,
       tone: command.emotionalIntent,
       speechMode: command.speechMode ?? "speak",
+      recordId: command.screenAction?.recordId ?? "No active record",
       confirmation: command.requiresConfirmation ? "waiting" : "none",
     });
     const nextReceipt = sendToOffice(command);
@@ -137,10 +144,45 @@ export default function IsabelCommandConsole() {
     </div>
   );
 
+  const monitorActive = feedback.screen !== "none";
+  const waiting = feedback.confirmation === "waiting";
+
   return (
     <main style={{ minHeight: "100vh", background: "#05080c", color: "#eef5f8", fontFamily: "Arial, sans-serif" }}>
       <section style={{ position: "relative", height: "100vh", overflow: "hidden" }}>
         <ThreeMotionLab />
+
+        <div aria-label="Live evidence monitor response" style={{
+          position: "absolute",
+          left: "50%",
+          top: "18%",
+          transform: "translateX(-50%)",
+          width: "min(300px, 22vw)",
+          minWidth: 210,
+          padding: 14,
+          borderRadius: 10,
+          pointerEvents: "none",
+          zIndex: 12,
+          opacity: monitorActive ? 1 : 0.18,
+          background: waiting ? "rgba(81,45,8,.92)" : "rgba(5,40,54,.92)",
+          border: waiting ? "1px solid rgba(255,190,80,.9)" : "1px solid rgba(87,211,255,.9)",
+          boxShadow: monitorActive
+            ? waiting
+              ? "0 0 34px rgba(255,170,50,.62), inset 0 0 24px rgba(255,170,50,.16)"
+              : "0 0 34px rgba(58,194,239,.62), inset 0 0 24px rgba(58,194,239,.16)"
+            : "none",
+          transition: "all 220ms ease",
+        }}>
+          <div style={{ fontSize: 9, letterSpacing: ".17em", color: waiting ? "#ffd58a" : "#8ee7ff", marginBottom: 6 }}>
+            {waiting ? "AUTHORIZATION REQUIRED" : "ACTIVE WALL DISPLAY"}
+          </div>
+          <div style={{ fontSize: 15, fontWeight: 800, color: "white", marginBottom: 5 }}>
+            {feedback.screen === "none" ? "Monitor standing by" : feedback.screen.toUpperCase()}
+          </div>
+          <div style={{ fontSize: 11, lineHeight: 1.35, color: "#d5e7ed" }}>{feedback.recordId}</div>
+          {monitorActive ? <div style={{ height: 2, marginTop: 10, background: waiting ? "#f4b94f" : "#5bdcff", boxShadow: waiting ? "0 0 14px #f4b94f" : "0 0 14px #5bdcff" }} /> : null}
+        </div>
+
         <aside style={{
           position: "absolute", left: 20, bottom: 20, width: "min(570px, calc(100vw - 40px))",
           padding: 18, borderRadius: 16, background: "rgba(4, 9, 14, .94)",

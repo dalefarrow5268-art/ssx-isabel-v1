@@ -1,0 +1,98 @@
+{
+  "version": 1,
+  "system": "ISABEL_ATTENTION_BODY_LANGUAGE",
+  "goal": "Make Isabel's conversational presence read as naturally attentive rather than mechanically animated.",
+  "principles": [
+    "Eyes normally lead head motion by a small amount.",
+    "Head normally leads torso motion unless a full body turn is required.",
+    "Listening is active but restrained; avoid constant nodding and fixed eye contact.",
+    "Speaking gestures are semantically motivated, sparse, and synchronized to emphasis.",
+    "Movement transitions must settle before precision gestures or strong facial emphasis.",
+    "Micro-behavior continues during thought and system latency so Isabel never freezes unnaturally.",
+    "Body language must never imply certainty or approval that the reasoning layer has not established."
+  ],
+  "attention_states": {
+    "WORK_FOCUS": {
+      "primary_target": "active_work_surface",
+      "eye_contact_ratio": 0.08,
+      "micro_actions": ["blink", "small_head_reframe", "screen_glance", "mouse_or_keyboard_intent", "posture_shift"]
+    },
+    "USER_ARRIVAL": {
+      "sequence_ms": {
+        "eyes_to_user": [120, 260],
+        "head_follow": [180, 420],
+        "upper_body_acknowledgement": [350, 700]
+      },
+      "expression": "subtle_warm_acknowledgement",
+      "rule": "Do not snap the whole body toward the user."
+    },
+    "LISTENING": {
+      "eye_contact_ratio": [0.55, 0.78],
+      "allowed_breaks": ["brief_down_glance", "context_screen_glance", "thinking_glance"],
+      "acknowledgements": ["micro_nod", "brow_response", "small_head_tilt"],
+      "max_repetitive_nods_per_10s": 2,
+      "rule": "Do not maintain perfect uninterrupted eye contact."
+    },
+    "THINKING": {
+      "eye_contact_ratio": [0.25, 0.55],
+      "behaviors": ["brief_gaze_break", "small_breath", "subtle_posture_settle", "return_to_user_before_speaking"],
+      "rule": "Thinking behavior may mask latency but must not become theatrical."
+    },
+    "SPEAKING": {
+      "eye_contact_ratio": [0.5, 0.75],
+      "gesture_density": "low",
+      "gesture_rules": [
+        "One major gesture per meaningful idea at most.",
+        "Use hand emphasis only when speech contains actual emphasis.",
+        "Point only when referencing a physical screen or spatial object.",
+        "Return hands toward neutral between gestures.",
+        "Do not gesture continuously."
+      ]
+    },
+    "INTERRUPTED": {
+      "sequence": ["stop_speech", "cancel_large_gesture", "eyes_to_user", "settle_head", "listen"],
+      "target_reaction_ms": 250
+    },
+    "WALKING": {
+      "eye_contact_ratio": [0.1, 0.35],
+      "rule": "Prioritize locomotion and path awareness; use brief user glances rather than sustained eye contact.",
+      "gesture_policy": "suppress_large_gestures_until_stable"
+    },
+    "SCREEN_EXPLAIN": {
+      "sequence": ["look_to_screen", "orient_head", "orient_torso_if_needed", "optional_point", "return_glance_to_user"],
+      "rule": "Alternate attention between the referenced screen and the user so she appears to be explaining, not presenting to an empty room."
+    }
+  },
+  "blink_model": {
+    "baseline_interval_s": [2.2, 6.5],
+    "double_blink_probability": 0.08,
+    "suppress_during": ["precision_point", "rapid_head_turn"],
+    "increase_probability_after": ["long_gaze_hold", "speech_boundary", "attention_shift"],
+    "rule": "Never blink on a rigid metronome."
+  },
+  "head_motion": {
+    "idle_amplitude_deg": [0.4, 2.0],
+    "conversational_turn_speed_deg_s": [55, 130],
+    "avoid": ["instant_snap", "constant_bobbing", "symmetrical_repetition"]
+  },
+  "torso_motion": {
+    "small_reorientation_threshold_deg": 25,
+    "full_reorientation_threshold_deg": 55,
+    "rule": "Use torso only when head/eyes alone would look strained or socially odd."
+  },
+  "gesture_catalog": {
+    "micro": ["small_nod", "head_tilt", "brow_lift", "hand_settle", "breath_shift"],
+    "conversational": ["open_palm", "small_counting_emphasis", "contained_hand_emphasis"],
+    "spatial": ["screen_point", "screen_open_palm", "desk_reference"],
+    "prohibited_default": ["constant_waving", "big_presenter_gestures", "random_pointing", "repeated_identical_nods"]
+  },
+  "quality_gates": [
+    "No fixed stare longer than socially natural unless explicitly required.",
+    "No repetitive loop visible within a 30 second conversation sample.",
+    "Eyes lead most conversational attention shifts.",
+    "Gestures correspond to speech meaning or physical context.",
+    "Interruptions visibly stop speech and large gestures quickly.",
+    "Walking, sitting, and standing transitions do not combine with conflicting upper-body gestures.",
+    "Isabel never freezes completely during thinking or network latency."
+  ]
+}

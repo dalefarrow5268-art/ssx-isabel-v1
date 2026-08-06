@@ -6,10 +6,11 @@ import styles from "./three.module.css";
 
 type MotionState = "working" | "notice" | "stand" | "walk" | "present" | "listen" | "return" | "sit";
 type CameraMode = "wide" | "follow";
-type AssetPhase = "checking" | "loading" | "validating" | "ready" | "failed" | "placeholder";
+type AssetPhase = "checking" | "loading" | "validating" | "ready" | "placeholder";
 type Step = { state: MotionState; ms: number; title: string; detail: string };
 type Check = { label: string; ok: boolean; detail: string };
 type AssetReport = { phase: AssetPhase; source: string; checks: Check[]; error?: string };
+type ScreenAction = { screen: string; action: string; recordId?: string };
 
 const MODEL_PATH = "/models/isabel/isabel-v1.glb";
 const REQUIRED_BONES = ["Hips", "Spine", "Chest", "Neck", "Head"];
@@ -27,11 +28,7 @@ const sequence: Step[] = [
   { state: "sit", ms: 2200, title: "Sitting and resuming work", detail: "Returning to the seated work posture and restarting the loop." },
 ];
 
-const DEFAULT_REPORT: AssetReport = {
-  phase: "checking",
-  source: MODEL_PATH,
-  checks: [],
-};
+const DEFAULT_REPORT: AssetReport = { phase: "checking", source: MODEL_PATH, checks: [] };
 
 function normalizeName(value: string) {
   return value.toLowerCase().replace(/[^a-z0-9]/g, "");
@@ -64,18 +61,14 @@ function inspectAsset(root: Object3D, animations: AnimationClip[]) {
   });
 
   const clipNames = animations.map((clip) => clip.name);
-  const checks: Check[] = [
-    { label: "Renderable geometry", ok: renderableMeshes > 0, detail: `${renderableMeshes} mesh${renderableMeshes === 1 ? "" : "es"}` },
-    { label: "Skinned body rig", ok: skinnedMeshes > 0, detail: `${skinnedMeshes} skinned mesh${skinnedMeshes === 1 ? "" : "es"}` },
+  return [
+    { label: "Renderable geometry", ok: renderableMeshes > 0, detail: `${renderableMeshes} meshes` },
+    { label: "Skinned body rig", ok: skinnedMeshes > 0, detail: `${skinnedMeshes} skinned meshes` },
     ...REQUIRED_BONES.map((bone) => ({ label: `Bone: ${bone}`, ok: includesNamed(boneNames, bone), detail: includesNamed(boneNames, bone) ? "found" : "missing" })),
     ...REQUIRED_MORPHS.map((morph) => ({ label: `Morph: ${morph}`, ok: includesNamed([...morphNames], morph), detail: includesNamed([...morphNames], morph) ? "found" : "missing" })),
     ...REQUIRED_CLIPS.map((clip) => ({ label: `Animation: ${clip}`, ok: includesNamed(clipNames, clip), detail: includesNamed(clipNames, clip) ? "found" : "missing" })),
-    { label: "Texture maps", ok: texturedMaterials > 0, detail: `${texturedMaterials} mapped material${texturedMaterials === 1 ? "" : "s"}` },
+    { label: "Texture maps", ok: texturedMaterials > 0, detail: `${texturedMaterials} mapped materials` },
   ];
-
-  const boxReady = root.children.length > 0;
-  checks.push({ label: "Scene root", ok: boxReady, detail: boxReady ? "populated" : "empty" });
-  return checks;
 }
 
 function createPlaceholder(THREE: typeof import("three")) {
@@ -84,21 +77,16 @@ function createPlaceholder(THREE: typeof import("three")) {
   const skin = new THREE.MeshStandardMaterial({ color: 0xb97863, roughness: 0.56 });
   const suit = new THREE.MeshStandardMaterial({ color: 0x101216, roughness: 0.6 });
   const hair = new THREE.MeshStandardMaterial({ color: 0x2a1812, roughness: 0.78 });
-  const gold = new THREE.MeshStandardMaterial({ color: 0xc69a50, metalness: 0.75, roughness: 0.25 });
 
   const torso = new THREE.Mesh(new THREE.CapsuleGeometry(0.6, 1.25, 8, 16), suit);
-  torso.name = "placeholder-torso";
   torso.position.y = 2.52;
-  torso.castShadow = true;
   rig.add(torso);
 
   const headPivot = new THREE.Group();
-  headPivot.name = "placeholder-head-pivot";
   headPivot.position.y = 3.79;
   rig.add(headPivot);
   const head = new THREE.Mesh(new THREE.SphereGeometry(0.48, 32, 24), skin);
   head.scale.set(0.88, 1.08, 0.9);
-  head.castShadow = true;
   headPivot.add(head);
   const bun = new THREE.Mesh(new THREE.SphereGeometry(0.31, 24, 18), hair);
   bun.position.set(0, 0.34, -0.28);
@@ -114,14 +102,7 @@ function createPlaceholder(THREE: typeof import("three")) {
   const mouth = new THREE.Mesh(new THREE.BoxGeometry(0.23, 0.035, 0.025), new THREE.MeshStandardMaterial({ color: 0x672929 }));
   mouth.position.set(0, -0.17, 0.43);
   headPivot.add(mouth);
-  [-0.5, 0.5].forEach((side) => {
-    const hoop = new THREE.Mesh(new THREE.TorusGeometry(0.06, 0.012, 8, 20), gold);
-    hoop.position.set(side * 0.86, -0.02, 0.03);
-    hoop.rotation.y = Math.PI / 2;
-    headPivot.add(hoop);
-  });
 
-  const limbs: Group[] = [];
   const makeLimb = (x: number, y: number, radius: number, length: number) => {
     const limb = new THREE.Group();
     limb.position.set(x, y, 0);
@@ -129,15 +110,52 @@ function createPlaceholder(THREE: typeof import("three")) {
     upper.position.y = -0.5;
     limb.add(upper);
     rig.add(limb);
-    limbs.push(limb);
-    return limb;
   };
   makeLimb(-0.72, 2.92, 0.15, 0.72);
   makeLimb(0.72, 2.92, 0.15, 0.72);
   makeLimb(-0.28, 1.72, 0.19, 0.88);
   makeLimb(0.28, 1.72, 0.19, 0.88);
 
-  return { rig, torso, headPivot, eyes, mouth, limbs };
+  return { rig, torso, headPivot, eyes, mouth };
+}
+
+function drawMonitor(
+  context: CanvasRenderingContext2D,
+  canvas: HTMLCanvasElement,
+  detail: ScreenAction | null,
+  waiting: boolean,
+) {
+  const width = canvas.width;
+  const height = canvas.height;
+  const accent = waiting ? "#f2b34f" : "#58d8ff";
+  const background = context.createLinearGradient(0, 0, width, height);
+  background.addColorStop(0, waiting ? "#281704" : "#071a22");
+  background.addColorStop(1, waiting ? "#100b04" : "#040b10");
+  context.fillStyle = background;
+  context.fillRect(0, 0, width, height);
+
+  context.strokeStyle = accent;
+  context.lineWidth = 8;
+  context.strokeRect(18, 18, width - 36, height - 36);
+
+  context.fillStyle = accent;
+  context.font = "700 30px Arial";
+  context.fillText(waiting ? "AUTHORIZATION REQUIRED" : "ISABEL ACTIVE DISPLAY", 48, 72);
+
+  context.fillStyle = "#ffffff";
+  context.font = "700 48px Arial";
+  const title = detail ? `${detail.screen.toUpperCase()} · ${detail.action.toUpperCase()}` : "MONITOR STANDING BY";
+  context.fillText(title, 48, 150);
+
+  context.fillStyle = "#b9d4df";
+  context.font = "32px Arial";
+  context.fillText(detail?.recordId ?? "No active record", 48, 215);
+
+  context.fillStyle = accent;
+  context.fillRect(48, height - 70, width - 96, 8);
+  context.fillStyle = "#8ba7b2";
+  context.font = "24px Arial";
+  context.fillText("SSX · ISABEL · LIVE PROJECT INTELLIGENCE", 48, height - 28);
 }
 
 export default function ThreeMotionLab() {
@@ -175,6 +193,7 @@ export default function ThreeMotionLab() {
       const scene = new THREE.Scene();
       scene.background = new THREE.Color(0x090d12);
       scene.fog = new THREE.Fog(0x090d12, 11, 28);
+
       const camera = new THREE.PerspectiveCamera(40, mount.clientWidth / mount.clientHeight, 0.1, 100);
       camera.position.set(0, 4.6, 11.8);
       const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -207,12 +226,25 @@ export default function ThreeMotionLab() {
       accent.position.set(7.15, 3.2, -0.45);
       scene.add(accent);
 
+      const monitorCanvas = document.createElement("canvas");
+      monitorCanvas.width = 1024;
+      monitorCanvas.height = 576;
+      const monitorContext = monitorCanvas.getContext("2d");
+      if (!monitorContext) throw new Error("Unable to create monitor canvas context");
+      drawMonitor(monitorContext, monitorCanvas, null, false);
+      const monitorTexture = new THREE.CanvasTexture(monitorCanvas);
+      monitorTexture.colorSpace = THREE.SRGBColorSpace;
+      monitorTexture.needsUpdate = true;
+
       const monitors: Mesh[] = [];
       [-1, 0, 1].forEach((position, monitorIndex) => {
         const frame = new THREE.Mesh(new THREE.BoxGeometry(3.05, 1.95, 0.18), new THREE.MeshStandardMaterial({ color: 0x050709, metalness: 0.75 }));
         frame.position.set(position * 3.45, 3.65, -4.16);
         scene.add(frame);
-        const screen = new THREE.Mesh(new THREE.BoxGeometry(2.82, 1.7, 0.08), new THREE.MeshStandardMaterial({ color: 0x101b23, emissive: [0x15677f, 0x675025, 0x294f61][monitorIndex], emissiveIntensity: 1.25 }));
+        const material = monitorIndex === 0
+          ? new THREE.MeshStandardMaterial({ map: monitorTexture, emissive: 0x174e60, emissiveIntensity: 1.4, roughness: 0.22 })
+          : new THREE.MeshStandardMaterial({ color: 0x101b23, emissive: [0x15677f, 0x675025, 0x294f61][monitorIndex], emissiveIntensity: 1.25 });
+        const screen = new THREE.Mesh(new THREE.BoxGeometry(2.82, 1.7, 0.08), material);
         screen.position.set(position * 3.45, 3.65, -4.04);
         scene.add(screen);
         monitors.push(screen);
@@ -237,9 +269,10 @@ export default function ThreeMotionLab() {
       try {
         const gltf = await new GLTFLoader().loadAsync(MODEL_PATH);
         if (cancelled) return;
-        setAssetReport({ phase: "validating", source: MODEL_PATH, checks: [] });
         const checks = inspectAsset(gltf.scene, gltf.animations);
-        const requiredReady = checks.filter((check) => check.label.startsWith("Bone:") || check.label.startsWith("Morph:") || check.label.startsWith("Animation:") || check.label === "Skinned body rig").every((check) => check.ok);
+        const requiredReady = checks
+          .filter((check) => check.label.startsWith("Bone:") || check.label.startsWith("Morph:") || check.label.startsWith("Animation:") || check.label === "Skinned body rig")
+          .every((check) => check.ok);
         if (!requiredReady) throw new Error("The GLB loaded, but required rig, face, or motion capabilities are missing.");
 
         scene.remove(character);
@@ -247,8 +280,7 @@ export default function ThreeMotionLab() {
         character.name = "ISABEL_PRODUCTION_GLB";
         const box = new THREE.Box3().setFromObject(character);
         const size = box.getSize(new THREE.Vector3());
-        const scale = size.y > 0 ? 4.15 / size.y : 1;
-        character.scale.setScalar(scale);
+        character.scale.setScalar(size.y > 0 ? 4.15 / size.y : 1);
         const calibrated = new THREE.Box3().setFromObject(character);
         character.position.set(0.4, -calibrated.min.y - 0.72, 1.1);
         character.traverse((object) => {
@@ -260,11 +292,10 @@ export default function ThreeMotionLab() {
         scene.add(character);
         setAssetReport({ phase: "ready", source: MODEL_PATH, checks });
       } catch (error) {
-        const message = error instanceof Error ? error.message : "Unknown model-loading error";
         setAssetReport({
           phase: "placeholder",
           source: MODEL_PATH,
-          error: message,
+          error: error instanceof Error ? error.message : "Unknown model-loading error",
           checks: [{ label: "Production GLB", ok: false, detail: "placeholder active" }],
         });
       }
@@ -273,10 +304,33 @@ export default function ThreeMotionLab() {
       let frame = 0;
       let activeState: MotionState = step.state;
       let activeCamera: CameraMode = cameraMode;
+      let activeScreen: ScreenAction | null = null;
+      let confirmationWaiting = false;
+
       const stateListener = (event: Event) => { activeState = (event as CustomEvent<MotionState>).detail; };
       const cameraListener = (event: Event) => { activeCamera = (event as CustomEvent<CameraMode>).detail; };
+      const screenListener = (event: Event) => {
+        activeScreen = (event as CustomEvent<ScreenAction>).detail;
+        drawMonitor(monitorContext, monitorCanvas, activeScreen, confirmationWaiting);
+        monitorTexture.needsUpdate = true;
+      };
+      const confirmationListener = () => {
+        confirmationWaiting = true;
+        drawMonitor(monitorContext, monitorCanvas, activeScreen, true);
+        monitorTexture.needsUpdate = true;
+      };
+      const resolvedListener = () => {
+        confirmationWaiting = false;
+        drawMonitor(monitorContext, monitorCanvas, activeScreen, false);
+        monitorTexture.needsUpdate = true;
+      };
+
       window.addEventListener("isabel-three-state", stateListener);
       window.addEventListener("isabel-camera-mode", cameraListener);
+      window.addEventListener("isabel-screen-action", screenListener);
+      window.addEventListener("isabel-confirmation-required", confirmationListener);
+      window.addEventListener("isabel-confirmation-resolved", resolvedListener);
+
       const approach = (current: number, target: number, speed: number) => current + (target - current) * speed;
       const resize = () => {
         camera.aspect = mount.clientWidth / mount.clientHeight;
@@ -288,10 +342,13 @@ export default function ThreeMotionLab() {
       const animate = () => {
         frame = requestAnimationFrame(animate);
         const t = clock.getElapsedTime();
+
         monitors.forEach((monitor, monitorIndex) => {
           const material = monitor.material as import("three").MeshStandardMaterial;
-          material.emissiveIntensity = activeState === "present" && monitorIndex === 0 ? 3.8 : 1.25;
+          const selected = monitorIndex === 0 && activeScreen !== null;
+          material.emissiveIntensity = selected ? 2.8 + Math.sin(t * 4) * 0.35 : activeState === "present" && monitorIndex === 0 ? 2.1 : 1.25;
         });
+
         if (character === placeholder.rig) {
           placeholder.torso.scale.y = 1 + Math.sin(t * 1.65) * 0.022;
           placeholder.eyes.forEach((eye) => { eye.scale.y = Math.sin(t * 2.4) > 0.986 ? 0.18 : 1; });
@@ -338,6 +395,10 @@ export default function ThreeMotionLab() {
         window.removeEventListener("resize", resize);
         window.removeEventListener("isabel-three-state", stateListener);
         window.removeEventListener("isabel-camera-mode", cameraListener);
+        window.removeEventListener("isabel-screen-action", screenListener);
+        window.removeEventListener("isabel-confirmation-required", confirmationListener);
+        window.removeEventListener("isabel-confirmation-resolved", resolvedListener);
+        monitorTexture.dispose();
         renderer.dispose();
         if (renderer.domElement.parentNode === mount) mount.removeChild(renderer.domElement);
       };

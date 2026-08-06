@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "name": "isabel_pixel_streaming_health_handshake",
+  "purpose": "Gate the live Isabel session until browser, Pixel Streaming transport, Unreal runtime, character runtime, camera, and all four monitor surfaces prove healthy.",
+  "heartbeat": {
+    "interval_ms": 2000,
+    "warning_after_ms": 5000,
+    "offline_after_ms": 10000
+  },
+  "required_components": [
+    "browser_shell",
+    "pixel_streaming_data_channel",
+    "unreal_runtime",
+    "ISABEL_CHARACTER",
+    "CAMERA_ARRIVAL",
+    "SCREEN_01",
+    "SCREEN_02",
+    "SCREEN_03",
+    "SCREEN_04"
+  ],
+  "optional_components": [
+    "voice_asr",
+    "voice_tts",
+    "memory_store",
+    "live_project_data"
+  ],
+  "session_states": [
+    "BOOTING",
+    "TRANSPORT_CONNECTED",
+    "RUNTIME_READY",
+    "DEGRADED",
+    "LIVE",
+    "OFFLINE"
+  ],
+  "live_gate": {
+    "require_transport": true,
+    "require_unreal_runtime": true,
+    "require_character": true,
+    "require_arrival_camera": true,
+    "require_all_four_screen_surfaces": true,
+    "require_identity_lock": true,
+    "require_geometry_lock": true
+  },
+  "degraded_rules": {
+    "voice_unavailable": "Allow typed control and visual presence; do not fake speech.",
+    "memory_unavailable": "Continue session-local only; do not invent recalled preferences.",
+    "project_data_unavailable": "Keep office live and mark affected screens unavailable/stale.",
+    "single_screen_feed_unavailable": "Degrade only that screen; keep physical surface and other screens live."
+  },
+  "fatal_rules": [
+    "identity_lock_failed",
+    "office_geometry_lock_failed",
+    "arrival_camera_missing",
+    "character_actor_missing",
+    "data_channel_not_connected",
+    "unreal_runtime_not_responding"
+  ],
+  "browser_events": {
+    "hello": "isabel.browser.hello",
+    "heartbeat": "isabel.browser.heartbeat",
+    "health_request": "isabel.health.request",
+    "command": "isabel.command"
+  },
+  "unreal_events": {
+    "ready": "isabel.unreal.ready",
+    "heartbeat": "isabel.unreal.heartbeat",
+    "health_snapshot": "isabel.health.snapshot",
+    "command_ack": "isabel.command.ack",
+    "state": "isabel.state",
+    "error": "isabel.error"
+  },
+  "health_snapshot_fields": [
+    "session_id",
+    "connection_epoch",
+    "timestamp",
+    "transport",
+    "runtime",
+    "character",
+    "camera",
+    "screens",
+    "identity_lock",
+    "geometry_lock",
+    "voice",
+    "memory",
+    "project_data",
+    "overall"
+  ],
+  "acceptance": [
+    "Browser cannot label the session LIVE until a fresh Unreal health snapshot satisfies the live gate.",
+    "A stale heartbeat automatically moves the browser to DEGRADED then OFFLINE without destroying continuity state.",
+    "A recovered data channel triggers a fresh health request before commands resume.",
+    "No external action is replayed as part of reconnect or health recovery.",
+    "Screen health is independent per monitor.",
+    "The browser always distinguishes renderer offline from Isabel reasoning/data services offline."
+  ]
+}

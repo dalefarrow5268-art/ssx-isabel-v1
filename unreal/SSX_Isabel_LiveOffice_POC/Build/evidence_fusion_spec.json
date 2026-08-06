@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "name": "Isabel Multi-Source Evidence Fusion",
+  "purpose": "Fuse heterogeneous project evidence into one provenance-preserving, contradiction-aware situation model before decision reasoning.",
+  "source_types": [
+    "schedule",
+    "rfi",
+    "submittal",
+    "meeting_minutes",
+    "email",
+    "field_report",
+    "photo",
+    "camera",
+    "drawing",
+    "specification",
+    "change_event",
+    "cost_record",
+    "weather",
+    "sensor_or_live_feed"
+  ],
+  "normalized_evidence_record": {
+    "required": ["evidence_id", "project_id", "source_type", "observed_at", "ingested_at", "claim", "provenance", "confidence"],
+    "fields": {
+      "evidence_id": "stable unique id",
+      "project_id": "project scope",
+      "source_type": "one of source_types",
+      "observed_at": "when the underlying event/document fact occurred",
+      "ingested_at": "when Isabel received it",
+      "claim": "atomic claim, not an unsupported summary",
+      "entities": "people, companies, activities, locations, RFIs, submittals, dates",
+      "provenance": "document/message/feed identifier plus locatable citation metadata",
+      "confidence": "0.0-1.0 source/claim confidence",
+      "freshness": "current, aging, stale, superseded",
+      "authority": "official, direct_observation, participant_report, derived, speculative",
+      "supersedes": "evidence ids explicitly replaced by this item",
+      "attachments": "photos, pages, drawings, clips or other supporting artifacts"
+    }
+  },
+  "fusion_rules": {
+    "atomic_first": true,
+    "preserve_provenance": true,
+    "never_merge_conflicting_claims_into_false_consensus": true,
+    "official_source_does_not_erase_direct_field_observation": true,
+    "newer_is_not_automatically_truer": true,
+    "superseded_records_remain_auditable": true,
+    "photos_require_time_location_and_subject_context_before_strong_inference": true,
+    "email_intent_is_not_project_fact_until_correlated_or_authoritative": true,
+    "schedule_dates_must_retain_baseline_update_and_data_date_context": true,
+    "derived_claims_must_list_supporting_evidence_ids": true
+  },
+  "correlation": {
+    "keys": [
+      "project_id",
+      "location",
+      "activity_id",
+      "rfi_number",
+      "submittal_number",
+      "drawing_detail",
+      "responsible_party",
+      "time_window",
+      "material_or_system"
+    ],
+    "time_window_hours_default": 72,
+    "require_two_independent_sources_for_high_confidence_derived_claim": true
+  },
+  "contradiction_handling": {
+    "states": ["supported", "partially_supported", "contested", "unresolved", "superseded"],
+    "rules": [
+      "Show both sides of a material contradiction.",
+      "Identify which source is authoritative for which question.",
+      "Do not average mutually exclusive facts.",
+      "Lower derived confidence when material contradictions remain.",
+      "Generate a targeted evidence request when one missing fact can resolve the conflict."
+    ]
+  },
+  "situation_thread": {
+    "required": [
+      "thread_id",
+      "project_id",
+      "topic",
+      "confirmed_facts",
+      "derived_implications",
+      "contradictions",
+      "unknowns",
+      "decision_points",
+      "supporting_evidence_ids",
+      "updated_at"
+    ],
+    "display_order": [
+      "what_changed",
+      "why_it_matters",
+      "what_is_confirmed",
+      "what_is_contested",
+      "what_is_unknown",
+      "what_decision_is_needed",
+      "recommended_next_evidence"
+    ]
+  },
+  "confidence_policy": {
+    "high": 0.85,
+    "medium": 0.65,
+    "low": 0.0,
+    "high_confidence_language": "confirmed / supported by",
+    "medium_confidence_language": "likely / evidence indicates",
+    "low_confidence_language": "possible / not yet verified",
+    "ban": [
+      "stating inferred causation as confirmed",
+      "hiding contradictory evidence",
+      "citing a source Isabel cannot trace",
+      "using stale evidence as current without warning"
+    ]
+  },
+  "screen_integration": {
+    "SCREEN_01": "situation overview and evidence thread",
+    "SCREEN_02": "schedule impact and time correlation",
+    "SCREEN_03": "risk, contradictions and decision exposure",
+    "SCREEN_04": "photos, cameras, documents and source provenance"
+  },
+  "first_acceptance_case": {
+    "topic": "Level 2 storefront anchorage",
+    "inputs": [
+      "RFI response changes anchorage detail",
+      "schedule shows storefront installation in 18 days",
+      "submittal status shows fabrication release pending/unclear",
+      "meeting minutes request written confirmation before schedule-impacting communication",
+      "field photo or report confirms current installation/prep condition"
+    ],
+    "required_output": [
+      "separate facts from implications",
+      "correlate RFI to schedule activity",
+      "identify fabrication-release uncertainty",
+      "preserve every source reference",
+      "state whether schedule impact is confirmed or only exposed",
+      "ask for the smallest missing fact needed to resolve uncertainty"
+    ]
+  }
+}

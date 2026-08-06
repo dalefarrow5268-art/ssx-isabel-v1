@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "speech_states": {
+    "LISTENING": {
+      "mouth": "neutral_closed",
+      "eyes": "user_with_natural_breaks",
+      "head": "micro_nods_optional",
+      "body": "quiet_attentive"
+    },
+    "THINKING": {
+      "mouth": "neutral_closed",
+      "eyes": "brief_break_then_return",
+      "head": "small_thought_shift",
+      "body": "still"
+    },
+    "SPEAKING": {
+      "audio_drives_face": true,
+      "lip_sync": "realtime_audio_solver",
+      "blink": "enabled",
+      "emotion_from_voice": true,
+      "head_motion": "subtle_audio_aware",
+      "body_gestures": "phrase_boundary_only"
+    },
+    "INTERRUPTED": {
+      "finish_phoneme": true,
+      "fade_voice_ms": 120,
+      "return_to": "LISTENING"
+    }
+  },
+  "rules": [
+    "Speech audio is the timing truth for lips and facial performance.",
+    "Do not trigger large body gestures on every sentence.",
+    "Eye contact may break naturally but should return during important phrases.",
+    "Head and torso motion must never fight navigation or sitting/standing transitions.",
+    "If locomotion starts, body gestures yield to locomotion until Isabel is stable."
+  ]
+}

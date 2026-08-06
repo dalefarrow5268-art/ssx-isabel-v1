@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "input": {
+    "mode": "microphone",
+    "vad": {
+      "enabled": true,
+      "speech_start_ms": 120,
+      "speech_end_ms": 500,
+      "barge_in": true
+    },
+    "stt": {
+      "provider": "pluggable",
+      "streaming": true,
+      "partial_transcripts": true
+    }
+  },
+  "brain": {
+    "streaming_response": true,
+    "first_token_target_ms": 700,
+    "can_emit_behavior_cues": true
+  },
+  "output": {
+    "tts": {
+      "provider": "pluggable",
+      "streaming": true,
+      "audio_format": "pcm16",
+      "sample_rate_hz": 24000
+    },
+    "facial_timing_source": "audio",
+    "allow_interrupt": true
+  },
+  "events": [
+    "USER_SPEECH_START",
+    "USER_SPEECH_PARTIAL",
+    "USER_SPEECH_END",
+    "TRANSCRIPT_FINAL",
+    "BRAIN_RESPONSE_START",
+    "BRAIN_TOKEN",
+    "TTS_AUDIO_START",
+    "TTS_AUDIO_CHUNK",
+    "TTS_AUDIO_END",
+    "ISABEL_INTERRUPTED",
+    "TURN_COMPLETE"
+  ],
+  "rules": [
+    "Audio is the timing truth for Isabel's mouth and facial performance.",
+    "The user may interrupt Isabel while she is speaking.",
+    "Large body gestures wait until locomotion and sit/stand transitions are stable.",
+    "The orchestration layer must remain provider-agnostic so speech vendors can be replaced without changing the office runtime."
+  ]
+}

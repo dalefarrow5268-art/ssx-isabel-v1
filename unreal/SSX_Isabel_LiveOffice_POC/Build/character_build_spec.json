@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "character_id": "ISABEL_V1",
+  "identity_source": "locked_reference_images",
+  "identity_lock_file": "isabel_identity_lock.json",
+  "target_engine": "Unreal Engine 5.7",
+  "target_character_system": "MetaHuman-compatible persistent rig",
+  "goals": {
+    "identity_consistency": "mandatory",
+    "photorealism": "high",
+    "runtime_full_body": true,
+    "runtime_face": true,
+    "runtime_gaze": true,
+    "runtime_lipsync": true,
+    "runtime_navigation": true
+  },
+  "body": {
+    "presentation": "adult professional woman",
+    "silhouette": "slim tailored professional proportions",
+    "wardrobe_default": "black blouse, black tailored blazer, black tailored trousers, black heels",
+    "hands_required": true,
+    "feet_required": true
+  },
+  "face": {
+    "preserve_reference_identity": true,
+    "neutral_expression_is_identity_baseline": true,
+    "no_face_regeneration_per_scene": true,
+    "required_runtime_controls": [
+      "blink",
+      "eye_aim",
+      "head_aim",
+      "jaw",
+      "visemes",
+      "brow",
+      "smile",
+      "frown",
+      "cheek",
+      "micro_expression"
+    ]
+  },
+  "hair": {
+    "style": "dark brown loose professional updo with face-framing strands",
+    "runtime_strategy": "groom_or_hair_cards_selected_after_gpu_test",
+    "must_not_drift": true
+  },
+  "rig": {
+    "body": "MetaHuman skeleton or compatible retargeted skeleton",
+    "face": "MetaHuman facial rig or compatible facial control rig",
+    "ik": ["feet", "hands", "look_at"],
+    "motion_warping": true,
+    "root_motion_supported": true
+  },
+  "animation_slots": {
+    "IDLE_WORK": "pending_asset",
+    "WALK": "pending_asset",
+    "TURN": "pending_asset",
+    "SIT": "pending_asset",
+    "STAND": "pending_asset",
+    "REACH": "pending_asset",
+    "POINT_PRESENT": "pending_asset",
+    "TYPE": "pending_asset"
+  },
+  "acceptance": {
+    "face_match_required": true,
+    "hair_match_required": true,
+    "wardrobe_match_required": true,
+    "body_proportion_match_required": true,
+    "reject_if_generic_metahuman": true,
+    "reject_if_identity_changes_between_actions": true
+  }
+}

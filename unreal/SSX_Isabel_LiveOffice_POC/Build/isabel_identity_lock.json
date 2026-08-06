@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "identity_name": "Isabel",
+  "status": "LOCKED_REFERENCE",
+  "source_reference_files": [
+    "4F1025E8-54E2-4532-87FD-12FB261ADF3C(2).PNG",
+    "bd248ed6-0a02-42b8-bbc7-f0bdf5d3bb9b.png"
+  ],
+  "face": {
+    "hair": "dark brown, loose professional updo with soft face-framing strands",
+    "eyes": "brown",
+    "brows": "strong, dark, natural",
+    "complexion": "warm medium complexion with realistic visible skin texture",
+    "expression_default": "calm, confident, attentive, approachable",
+    "makeup": "natural professional",
+    "earrings": "small gold hoop earrings",
+    "necklace": "delicate necklace with small circular pendant"
+  },
+  "wardrobe_default": {
+    "blazer": "tailored black blazer",
+    "top": "black blouse",
+    "trousers": "tailored black trousers",
+    "shoes": "black professional heels"
+  },
+  "body": {
+    "presentation": "realistic adult female professional",
+    "proportions": "slim natural professional proportions matching reference",
+    "posture": "confident, relaxed, realistic"
+  },
+  "identity_guardrails": [
+    "Do not change facial structure without explicit approval.",
+    "Do not drift hair color, eye color, complexion, or core proportions.",
+    "Do not replace the professional black wardrobe during proof-of-concept unless explicitly requested.",
+    "Pose, gaze, expression intensity, lighting, and camera may change while identity remains fixed.",
+    "Any generated or modeled Isabel must be compared against the locked headshot and full-body reference before acceptance."
+  ],
+  "runtime_goal": "Create one persistent rigged digital human matching the locked references rather than regenerating Isabel per scene."
+}

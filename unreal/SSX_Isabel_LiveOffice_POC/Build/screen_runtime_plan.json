@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "base_url_env": "ISABEL_SCREEN_BASE_URL",
+  "bindings": {
+    "SCREEN_01": {"actor": "SCREEN_01", "route": "/screens/project-overview", "surface": "browser_texture"},
+    "SCREEN_02": {"actor": "SCREEN_02", "route": "/screens/schedule", "surface": "browser_texture"},
+    "SCREEN_03": {"actor": "SCREEN_03", "route": "/screens/risk", "surface": "browser_texture"},
+    "SCREEN_04": {"actor": "SCREEN_04", "route": "/screens/evidence", "surface": "browser_texture"}
+  },
+  "runtime_rules": [
+    "Never rebuild office geometry to refresh screen content.",
+    "Each screen owns an independent browser/data source.",
+    "Screen web content is rendered at 16:9 and fitted to the physical monitor surface.",
+    "Unreal owns physical perspective, reflections, bloom, lighting, occlusion, and camera composition.",
+    "If a screen source is unavailable, show a local fallback panel rather than a blank/invalid texture."
+  ]
+}

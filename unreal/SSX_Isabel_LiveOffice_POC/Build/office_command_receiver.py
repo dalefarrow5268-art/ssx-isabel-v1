@@ -1,8 +1,8 @@
-"""Isabel live-office command receiver scaffold.
+"""Isabel live-office command receiver.
 
-This module is intentionally engine-light so we can test the protocol before the
-home AI workstation is online. In Unreal, Pixel Streaming messages will be
-translated into these commands and dispatched into the behavior state machine.
+Validates the browser protocol, resolves the behavior state, and compiles that
+state into deterministic movement/action instructions. The compiled result can
+be tested without Unreal and bound to Pixel Streaming + MetaHuman on the home PC.
 """
 
 from __future__ import annotations
@@ -63,11 +63,25 @@ def load_behavior_model() -> Dict[str, Any]:
 def resolve_command(command: str) -> Dict[str, Any]:
     model = load_behavior_model()
     if command == "CAMERA_ARRIVAL":
-        return {"kind": "camera", "camera": "ARRIVAL"}
+        return {
+            "kind": "camera",
+            "camera": "ARRIVAL",
+            "instructions": [{"op": "SET_CAMERA", "camera": "CAMERA_ARRIVAL", "blend_seconds": 0.6}],
+        }
+
     state = model["states"].get(command)
     if not state:
         raise ValueError(f"No behavior state mapped for {command}")
-    return {"kind": "behavior", "state": command, "plan": state}
+
+    # Local import avoids circular import during command-line smoke tests.
+    from movement_action_executor import compile_action
+
+    return {
+        "kind": "behavior",
+        "state": command,
+        "plan": state,
+        "compiled": compile_action(command, state),
+    }
 
 
 def receive(raw_payload: str | Dict[str, Any]) -> Dict[str, Any]:
@@ -87,7 +101,7 @@ if __name__ == "__main__":
         "source": "ssx-isabel-web",
         "version": 1,
         "type": "office-command",
-        "command": "LOOK_AT_USER",
+        "command": "GO_TO_SCREEN_03",
         "issuedAt": "2026-08-06T20:00:00.000Z",
         "requestId": "local-smoke-test",
     }

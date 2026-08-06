@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "primary_camera": "CAMERA_ARRIVAL",
+  "reference_intent": "Match the approved Isabel office composition while keeping the camera deterministic as Isabel moves.",
+  "camera": {
+    "sensor_width_mm": 36.0,
+    "sensor_height_mm": 20.25,
+    "focal_length_mm": 28.0,
+    "aperture_fstop": 5.6,
+    "focus_mode": "manual",
+    "focus_distance_cm": 760.0,
+    "transform": {
+      "x": 0.0,
+      "y": 610.0,
+      "z": 165.0,
+      "pitch": -2.0,
+      "yaw": -90.0,
+      "roll": 0.0
+    }
+  },
+  "composition_targets": {
+    "monitor_group_center": {"screen_x": 0.34, "screen_y": 0.39},
+    "isabel_head": {"screen_x": 0.69, "screen_y": 0.47},
+    "desk_center": {"screen_x": 0.68, "screen_y": 0.68},
+    "window_band": {"screen_x_min": 0.0, "screen_x_max": 0.24},
+    "floor_visibility_min_fraction": 0.12,
+    "ceiling_visibility_min_fraction": 0.10
+  },
+  "lock_rules": [
+    "Camera transform never follows Isabel during normal office behavior.",
+    "Office objects are never moved to compensate for camera framing after geometry lock.",
+    "Only focal length, transform, and crop may be tuned during camera calibration.",
+    "Final calibration values must be written back to this file after approval.",
+    "No AI image regeneration is used to correct composition."
+  ],
+  "quality_gates": [
+    "All four monitors are fully visible and remain 16:9.",
+    "Isabel is visible at the desk without blocking the monitor group.",
+    "Left windows read clearly as a continuous daylight wall.",
+    "Floor and ceiling are both visible enough to preserve room depth.",
+    "No wide-angle distortion makes furniture or window frames bow unnaturally."
+  ]
+}

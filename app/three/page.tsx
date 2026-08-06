@@ -4,23 +4,39 @@ import { useEffect, useRef, useState } from "react";
 import type { Group, Mesh } from "three";
 import styles from "./three.module.css";
 
-type MotionState = "idle" | "notice" | "walk" | "present" | "return";
+type MotionState =
+  | "working"
+  | "notice"
+  | "stand"
+  | "walk"
+  | "present"
+  | "listen"
+  | "return"
+  | "sit";
 
 const sequence: Array<{ state: MotionState; ms: number }> = [
-  { state: "idle", ms: 2600 },
-  { state: "notice", ms: 1500 },
+  { state: "working", ms: 3200 },
+  { state: "notice", ms: 1600 },
+  { state: "stand", ms: 1600 },
   { state: "walk", ms: 5200 },
-  { state: "present", ms: 4200 },
+  { state: "present", ms: 4300 },
+  { state: "listen", ms: 2600 },
   { state: "return", ms: 5200 },
+  { state: "sit", ms: 1800 },
 ];
 
 const labels: Record<MotionState, string> = {
-  idle: "Working at desk",
+  working: "Working at the desk",
   notice: "Noticing the user",
-  walk: "Walking to evidence wall",
-  present: "Presenting evidence",
-  return: "Returning to desk",
+  stand: "Standing from the chair",
+  walk: "Walking to the evidence wall",
+  present: "Presenting linked evidence",
+  listen: "Listening for direction",
+  return: "Returning to the desk",
+  sit: "Sitting and resuming work",
 };
+
+const speechStates = new Set<MotionState>(["present"]);
 
 export default function ThreeMotionLab() {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -30,7 +46,10 @@ export default function ThreeMotionLab() {
 
   useEffect(() => {
     if (!running) return;
-    const timer = window.setTimeout(() => setIndex((value) => (value + 1) % sequence.length), sequence[index].ms);
+    const timer = window.setTimeout(
+      () => setIndex((value) => (value + 1) % sequence.length),
+      sequence[index].ms,
+    );
     return () => window.clearTimeout(timer);
   }, [index, running]);
 
@@ -48,11 +67,11 @@ export default function ThreeMotionLab() {
 
       const mount = mountRef.current;
       const scene = new THREE.Scene();
-      scene.background = new THREE.Color(0x0b1118);
-      scene.fog = new THREE.Fog(0x0b1118, 10, 24);
+      scene.background = new THREE.Color(0x091018);
+      scene.fog = new THREE.Fog(0x091018, 10, 25);
 
       const camera = new THREE.PerspectiveCamera(42, mount.clientWidth / mount.clientHeight, 0.1, 100);
-      camera.position.set(0, 4.7, 10.8);
+      camera.position.set(0, 4.8, 11.2);
       camera.lookAt(0, 2.1, 0);
 
       const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -62,18 +81,18 @@ export default function ThreeMotionLab() {
       renderer.shadowMap.type = THREE.PCFSoftShadowMap;
       mount.appendChild(renderer.domElement);
 
-      scene.add(new THREE.HemisphereLight(0xd8ebff, 0x202934, 2.2));
-      const key = new THREE.DirectionalLight(0xffffff, 3.4);
+      scene.add(new THREE.HemisphereLight(0xd9ecff, 0x202934, 2.2));
+      const key = new THREE.DirectionalLight(0xffffff, 3.5);
       key.position.set(4, 8, 5);
       key.castShadow = true;
       scene.add(key);
-      const rim = new THREE.PointLight(0x5dc7ff, 18, 16);
+      const rim = new THREE.PointLight(0x60c9ff, 18, 16);
       rim.position.set(-5, 4, -3);
       scene.add(rim);
 
       const floor = new THREE.Mesh(
         new THREE.PlaneGeometry(16, 12),
-        new THREE.MeshStandardMaterial({ color: 0x17202a, roughness: 0.82, metalness: 0.12 })
+        new THREE.MeshStandardMaterial({ color: 0x17202a, roughness: 0.82, metalness: 0.12 }),
       );
       floor.rotation.x = -Math.PI / 2;
       floor.receiveShadow = true;
@@ -81,25 +100,39 @@ export default function ThreeMotionLab() {
 
       const backWall = new THREE.Mesh(
         new THREE.BoxGeometry(14, 6, 0.25),
-        new THREE.MeshStandardMaterial({ color: 0x17212b, roughness: 0.7 })
+        new THREE.MeshStandardMaterial({ color: 0x17212b, roughness: 0.7 }),
       );
       backWall.position.set(0, 3, -4.2);
       scene.add(backWall);
 
-      const monitorMaterial = new THREE.MeshStandardMaterial({ color: 0x123848, emissive: 0x0d5871, emissiveIntensity: 1.4 });
+      const monitorMaterials = [-1, 0, 1].map(
+        () => new THREE.MeshStandardMaterial({ color: 0x123848, emissive: 0x0d5871, emissiveIntensity: 1.15 }),
+      );
+      const monitors: Mesh[] = [];
       for (let i = -1; i <= 1; i++) {
-        const monitor = new THREE.Mesh(new THREE.BoxGeometry(2.5, 1.45, 0.12), monitorMaterial.clone());
+        const monitor = new THREE.Mesh(new THREE.BoxGeometry(2.5, 1.45, 0.12), monitorMaterials[i + 1]);
         monitor.position.set(i * 2.9, 3.55, -4.0);
         scene.add(monitor);
+        monitors.push(monitor);
       }
 
       const desk = new THREE.Mesh(
         new THREE.BoxGeometry(4.8, 0.22, 1.5),
-        new THREE.MeshStandardMaterial({ color: 0x5d4633, roughness: 0.52 })
+        new THREE.MeshStandardMaterial({ color: 0x5d4633, roughness: 0.52 }),
       );
       desk.position.set(0, 1.15, 2.1);
       desk.castShadow = true;
       scene.add(desk);
+
+      const chair = new THREE.Group();
+      const chairMaterial = new THREE.MeshStandardMaterial({ color: 0x20252b, roughness: 0.72 });
+      const chairSeat = new THREE.Mesh(new THREE.BoxGeometry(1.15, 0.16, 1.0), chairMaterial);
+      chairSeat.position.y = 0.76;
+      const chairBack = new THREE.Mesh(new THREE.BoxGeometry(1.1, 1.35, 0.18), chairMaterial);
+      chairBack.position.set(0, 1.45, 0.42);
+      chair.add(chairSeat, chairBack);
+      chair.position.set(0, 0, 1.45);
+      scene.add(chair);
 
       const rig = new THREE.Group();
       scene.add(rig);
@@ -138,6 +171,12 @@ export default function ThreeMotionLab() {
         headPivot.add(eye);
         eyes.push(eye);
       });
+      const mouth = new THREE.Mesh(
+        new THREE.BoxGeometry(0.23, 0.035, 0.025),
+        new THREE.MeshStandardMaterial({ color: 0x5f2424, roughness: 0.5 }),
+      );
+      mouth.position.set(0, -0.17, 0.43);
+      headPivot.add(mouth);
 
       const makeLimb = (group: Group, radius: number, length: number) => {
         const upper = new THREE.Mesh(new THREE.CapsuleGeometry(radius, length, 6, 12), suit);
@@ -168,13 +207,15 @@ export default function ThreeMotionLab() {
       const leftKnee = makeLimb(leftLeg, 0.19, 0.88);
       const rightKnee = makeLimb(rightLeg, 0.19, 0.88);
 
-      rig.position.set(0, 0, 1.15);
+      rig.position.set(0, -0.72, 1.1);
       rig.rotation.y = 0;
 
       const clock = new THREE.Clock();
       let frame = 0;
       let activeState: MotionState = state;
-      const stateListener = (event: Event) => { activeState = (event as CustomEvent<MotionState>).detail; };
+      const stateListener = (event: Event) => {
+        activeState = (event as CustomEvent<MotionState>).detail;
+      };
       window.addEventListener("isabel-three-state", stateListener);
 
       const resize = () => {
@@ -185,42 +226,71 @@ export default function ThreeMotionLab() {
       };
       window.addEventListener("resize", resize);
 
+      const approach = (current: number, target: number, speed: number) => current + (target - current) * speed;
+
       const animate = () => {
         frame = requestAnimationFrame(animate);
         const t = clock.getElapsedTime();
+        const seated = activeState === "working" || activeState === "notice" || activeState === "sit";
+        const speaking = speechStates.has(activeState);
+
         torso.scale.y = 1 + Math.sin(t * 1.7) * 0.025;
-        const blink = Math.sin(t * 2.3) > 0.985 ? 0.18 : 1;
-        eyes.forEach((eye) => (eye.scale.y = blink));
+        eyes.forEach((eye) => (eye.scale.y = Math.sin(t * 2.3) > 0.985 ? 0.18 : 1));
+        mouth.scale.y = speaking ? 0.5 + Math.abs(Math.sin(t * 8.7)) * 1.8 : 0.25;
 
-        leftArm.rotation.z *= 0.9;
-        rightArm.rotation.z *= 0.9;
-        leftArm.rotation.x *= 0.9;
-        rightArm.rotation.x *= 0.9;
-        leftLeg.rotation.x *= 0.8;
-        rightLeg.rotation.x *= 0.8;
-        leftKnee.rotation.x *= 0.8;
-        rightKnee.rotation.x *= 0.8;
+        monitors.forEach((monitor, monitorIndex) => {
+          const material = monitor.material as import("three").MeshStandardMaterial;
+          material.emissiveIntensity = activeState === "present" && monitorIndex === 0 ? 3.6 : 1.15;
+        });
 
-        if (activeState === "idle") {
-          rig.position.x += (0 - rig.position.x) * 0.03;
-          rig.position.z += (1.15 - rig.position.z) * 0.03;
-          rig.rotation.y += (0 - rig.rotation.y) * 0.04;
-          rig.position.y *= 0.8;
-          headPivot.rotation.y = Math.sin(t * 0.55) * 0.08;
-          leftForearm.rotation.x = -1 + Math.sin(t * 3) * 0.08;
-          rightForearm.rotation.x = -1 - Math.sin(t * 3) * 0.08;
+        leftArm.rotation.z *= 0.88;
+        rightArm.rotation.z *= 0.88;
+        leftArm.rotation.x *= 0.86;
+        rightArm.rotation.x *= 0.86;
+        leftLeg.rotation.x *= 0.78;
+        rightLeg.rotation.x *= 0.78;
+        leftKnee.rotation.x *= 0.78;
+        rightKnee.rotation.x *= 0.78;
+        headPivot.rotation.x *= 0.9;
+        headPivot.rotation.y *= 0.9;
+
+        if (activeState === "working") {
+          rig.position.x = approach(rig.position.x, 0, 0.04);
+          rig.position.z = approach(rig.position.z, 1.1, 0.04);
+          rig.position.y = approach(rig.position.y, -0.72, 0.05);
+          rig.rotation.y = approach(rig.rotation.y, 0, 0.05);
+          leftLeg.rotation.x = -1.15;
+          rightLeg.rotation.x = -1.15;
+          leftKnee.rotation.x = 1.55;
+          rightKnee.rotation.x = 1.55;
+          leftForearm.rotation.x = -1.0 + Math.sin(t * 4.2) * 0.09;
+          rightForearm.rotation.x = -1.0 - Math.sin(t * 4.2) * 0.09;
+          headPivot.rotation.y = Math.sin(t * 0.55) * 0.06;
         } else if (activeState === "notice") {
-          rig.rotation.y += (0 - rig.rotation.y) * 0.08;
-          headPivot.rotation.y += (0 - headPivot.rotation.y) * 0.08;
-          headPivot.rotation.x += (-0.08 - headPivot.rotation.x) * 0.08;
+          rig.position.y = approach(rig.position.y, -0.72, 0.05);
+          leftLeg.rotation.x = -1.15;
+          rightLeg.rotation.x = -1.15;
+          leftKnee.rotation.x = 1.55;
+          rightKnee.rotation.x = 1.55;
+          headPivot.rotation.y = approach(headPivot.rotation.y, 0, 0.08);
+          headPivot.rotation.x = approach(headPivot.rotation.x, -0.08, 0.08);
+        } else if (activeState === "stand") {
+          rig.position.y = approach(rig.position.y, 0, 0.055);
+          leftLeg.rotation.x = approach(leftLeg.rotation.x, 0, 0.08);
+          rightLeg.rotation.x = approach(rightLeg.rotation.x, 0, 0.08);
+          leftKnee.rotation.x = approach(leftKnee.rotation.x, 0, 0.08);
+          rightKnee.rotation.x = approach(rightKnee.rotation.x, 0, 0.08);
         } else if (activeState === "walk" || activeState === "return") {
           const returning = activeState === "return";
           const targetX = returning ? 0 : -2.6;
-          const targetZ = returning ? 1.15 : -1.25;
-          const targetFacing = returning ? 0 : Math.PI;
-          rig.position.x += (targetX - rig.position.x) * 0.014;
-          rig.position.z += (targetZ - rig.position.z) * 0.014;
-          rig.rotation.y += (targetFacing - rig.rotation.y) * 0.035;
+          const targetZ = returning ? 1.1 : -1.25;
+          const dx = targetX - rig.position.x;
+          const dz = targetZ - rig.position.z;
+          const targetFacing = Math.atan2(dx, dz);
+          rig.position.x = approach(rig.position.x, targetX, 0.014);
+          rig.position.z = approach(rig.position.z, targetZ, 0.014);
+          rig.position.y = Math.abs(Math.sin(t * 7.4)) * 0.04;
+          rig.rotation.y = approach(rig.rotation.y, targetFacing, 0.07);
           const stride = Math.sin(t * 7.4) * 0.72;
           leftLeg.rotation.x = stride;
           rightLeg.rotation.x = -stride;
@@ -228,18 +298,34 @@ export default function ThreeMotionLab() {
           rightKnee.rotation.x = Math.max(0, stride) * 0.55;
           leftArm.rotation.x = -stride * 0.55;
           rightArm.rotation.x = stride * 0.55;
-          rig.position.y = Math.abs(Math.sin(t * 7.4)) * 0.04;
         } else if (activeState === "present") {
-          rig.position.x += (-2.6 - rig.position.x) * 0.04;
-          rig.position.z += (-1.25 - rig.position.z) * 0.04;
-          rig.rotation.y += (Math.PI - rig.rotation.y) * 0.05;
-          rig.position.y *= 0.8;
-          headPivot.rotation.y += (0 - headPivot.rotation.y) * 0.05;
+          rig.position.x = approach(rig.position.x, -2.6, 0.05);
+          rig.position.z = approach(rig.position.z, -1.25, 0.05);
+          rig.position.y = approach(rig.position.y, 0, 0.08);
+          rig.rotation.y = approach(rig.rotation.y, Math.PI, 0.06);
+          headPivot.rotation.y = approach(headPivot.rotation.y, 0.55, 0.06);
           rightArm.rotation.z = -0.72;
           rightArm.rotation.x = -0.35;
           rightForearm.rotation.x = -0.75;
+        } else if (activeState === "listen") {
+          rig.rotation.y = approach(rig.rotation.y, 0.1, 0.055);
+          headPivot.rotation.x = approach(headPivot.rotation.x, 0.05, 0.06);
+          leftArm.rotation.x = approach(leftArm.rotation.x, -0.12, 0.06);
+          rightArm.rotation.x = approach(rightArm.rotation.x, -0.12, 0.06);
+        } else if (activeState === "sit") {
+          rig.position.x = approach(rig.position.x, 0, 0.05);
+          rig.position.z = approach(rig.position.z, 1.1, 0.05);
+          rig.rotation.y = approach(rig.rotation.y, 0, 0.06);
+          rig.position.y = approach(rig.position.y, -0.72, 0.045);
+          leftLeg.rotation.x = approach(leftLeg.rotation.x, -1.15, 0.07);
+          rightLeg.rotation.x = approach(rightLeg.rotation.x, -1.15, 0.07);
+          leftKnee.rotation.x = approach(leftKnee.rotation.x, 1.55, 0.07);
+          rightKnee.rotation.x = approach(rightKnee.rotation.x, 1.55, 0.07);
         }
 
+        const cameraTargetX = activeState === "present" || activeState === "listen" ? -1.1 : 0;
+        camera.position.x = approach(camera.position.x, cameraTargetX, 0.015);
+        camera.lookAt(rig.position.x * 0.3, 2.2, rig.position.z * 0.15);
         renderer.render(scene, camera);
       };
       animate();
@@ -253,7 +339,10 @@ export default function ThreeMotionLab() {
       };
     })();
 
-    return () => { cancelled = true; cleanup(); };
+    return () => {
+      cancelled = true;
+      cleanup();
+    };
   }, []);
 
   const chooseState = (next: MotionState) => {
@@ -266,20 +355,32 @@ export default function ThreeMotionLab() {
       <section className={styles.stage}>
         <div ref={mountRef} className={styles.canvas} />
         <aside className={styles.panel}>
-          <span>ISABEL · REAL-TIME 3D MOTION PROOF</span>
+          <span>ISABEL · REAL-TIME 3D BEHAVIOR PROOF</span>
           <h1>{labels[state]}</h1>
-          <p>The character now performs the complete sequence automatically. Every breath, blink, head turn, step, pivot and presentation gesture is generated live by browser code.</p>
+          <p>
+            This bundle adds seated work, user recognition, standing, path-aware walking,
+            evidence presentation, listening, return, sitting, blinking, breathing, mouth motion,
+            monitor focus and camera tracking.
+          </p>
           <div className={styles.buttons}>
-            <button className={running ? styles.active : ""} onClick={() => setRunning((value) => !value)}>{running ? "Pause sequence" : "Resume sequence"}</button>
+            <button className={running ? styles.active : ""} onClick={() => setRunning((value) => !value)}>
+              {running ? "Pause sequence" : "Resume sequence"}
+            </button>
             {sequence.map((item) => (
-              <button key={item.state} className={!running && state === item.state ? styles.active : ""} onClick={() => chooseState(item.state)}>{labels[item.state]}</button>
+              <button
+                key={item.state}
+                className={!running && state === item.state ? styles.active : ""}
+                onClick={() => chooseState(item.state)}
+              >
+                {labels[item.state]}
+              </button>
             ))}
           </div>
           <dl>
             <div><dt>Renderer</dt><dd>Three.js WebGL</dd></div>
-            <div><dt>Movement</dt><dd>live skeletal transforms</dd></div>
-            <div><dt>Scene</dt><dd>fixed 3D coordinates</dd></div>
-            <div><dt>Character status</dt><dd>placeholder rig pending Isabel GLB</dd></div>
+            <div><dt>Behavior states</dt><dd>8 coordinated states</dd></div>
+            <div><dt>Movement</dt><dd>path and facing aware</dd></div>
+            <div><dt>Character asset</dt><dd>placeholder pending Isabel GLB</dd></div>
           </dl>
         </aside>
       </section>

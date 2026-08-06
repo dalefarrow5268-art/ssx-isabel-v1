@@ -12,6 +12,8 @@ type Check = { label: string; ok: boolean; detail: string };
 type AssetReport = { phase: AssetPhase; source: string; checks: Check[]; error?: string };
 type ScreenAction = { screen: string; action: string; recordId?: string };
 type SpeechLifecycle = { phase: "start" | "boundary" | "end" | "cancel" | "error"; charIndex?: number };
+type VisemeShape = "rest" | "closed" | "open" | "wide" | "round";
+type VisemeCue = { shape: VisemeShape; strength?: number; durationMs?: number; index?: number };
 type MorphBinding = { mesh: Mesh; index: number };
 
 const MODEL_PATH = "/models/isabel/isabel-v1.glb";
@@ -19,6 +21,7 @@ const REQUIRED_BONES = ["Hips", "Spine", "Chest", "Neck", "Head"];
 const REQUIRED_MORPHS = ["eyeBlinkLeft", "eyeBlinkRight", "jawOpen"];
 const REQUIRED_CLIPS = ["idle", "walk"];
 const SPEECH_LIFECYCLE_EVENT = "isabel-speech-lifecycle";
+const VISEME_EVENT = "isabel-viseme-cue";
 
 const sequence: Step[] = [
   { state: "working", ms: 3600, title: "Working at the desk", detail: "Reviewing schedule, evidence and open risk items." },
@@ -90,7 +93,7 @@ function createPlaceholder(THREE: typeof import("three")) {
   });
   const mouth = new THREE.Mesh(new THREE.BoxGeometry(0.25, 0.055, 0.04), new THREE.MeshStandardMaterial({ color: 0x5f151b, roughness: 0.45 }));
   mouth.position.set(0, -0.18, 0.445);
-  mouth.scale.y = 0.22;
+  mouth.scale.set(1, 0.22, 1);
   headPivot.add(mouth);
   const makeLimb = (x: number, y: number, radius: number, length: number) => {
     const limb = new THREE.Group();
@@ -119,6 +122,17 @@ function drawMonitor(context: CanvasRenderingContext2D, canvas: HTMLCanvasElemen
   context.fillStyle = accent; context.fillRect(48, canvas.height - 70, canvas.width - 96, 8);
   context.fillStyle = "#8ba7b2"; context.font = "24px Arial"; context.fillText("SSX · ISABEL · LIVE PROJECT INTELLIGENCE", 48, canvas.height - 28);
 }
+
+const visemeTarget = (shape: VisemeShape, strength: number) => {
+  const s = Math.max(0, Math.min(1, strength));
+  switch (shape) {
+    case "closed": return { x: 1.0, y: 0.12, z: 1.0, jaw: 0.02 };
+    case "wide": return { x: 1.35, y: 0.62 + s * 0.55, z: 0.9, jaw: 0.45 + s * 0.25 };
+    case "round": return { x: 0.68, y: 1.15 + s * 0.75, z: 1.15, jaw: 0.55 + s * 0.3 };
+    case "open": return { x: 0.92, y: 1.45 + s * 1.1, z: 1.0, jaw: 0.7 + s * 0.3 };
+    default: return { x: 1.0, y: 0.22, z: 1.0, jaw: 0 };
+  }
+};
 
 export default function ThreeMotionLab() {
   const mountRef = useRef<HTMLDivElement>(null);
@@ -204,7 +218,12 @@ export default function ThreeMotionLab() {
       const clock = new THREE.Clock();
       let frame = 0; let activeState: MotionState = step.state; let activeCamera: CameraMode = cameraMode;
       let activeScreen: ScreenAction | null = null; let confirmationWaiting = false;
-      let speechActive = false; let speechPulse = 0; let lastBoundaryAt = 0;
+      let speechActive = false;
+      let viseme: VisemeShape = "rest";
+      let visemeStrength = 0;
+      let targetMouth = visemeTarget("rest", 0);
+      let currentMouth = { ...targetMouth };
+      let visemeExpiry = 0;
       const stateListener = (event: Event) => { activeState = (event as CustomEvent<MotionState>).detail; };
       const cameraListener = (event: Event) => { activeCamera = (event as CustomEvent<CameraMode>).detail; };
       const screenListener = (event: Event) => { activeScreen = (event as CustomEvent<ScreenAction>).detail; drawMonitor(monitorContext, monitorCanvas, activeScreen, confirmationWaiting); monitorTexture.needsUpdate = true; };
@@ -212,13 +231,23 @@ export default function ThreeMotionLab() {
       const resolvedListener = () => { confirmationWaiting = false; drawMonitor(monitorContext, monitorCanvas, activeScreen, false); monitorTexture.needsUpdate = true; };
       const speechListener = (event: Event) => {
         const detail = (event as CustomEvent<SpeechLifecycle>).detail;
-        if (detail.phase === "start") { speechActive = true; speechPulse = 1; }
-        else if (detail.phase === "boundary") { speechActive = true; speechPulse = 1; lastBoundaryAt = performance.now(); }
-        else { speechActive = false; speechPulse = 0; }
+        speechActive = detail.phase === "start" || detail.phase === "boundary";
+        if (!speechActive) {
+          viseme = "rest";
+          targetMouth = visemeTarget("rest", 0);
+        }
+      };
+      const visemeListener = (event: Event) => {
+        const detail = (event as CustomEvent<VisemeCue>).detail;
+        viseme = detail.shape ?? "rest";
+        visemeStrength = detail.strength ?? 0.75;
+        targetMouth = visemeTarget(viseme, visemeStrength);
+        visemeExpiry = performance.now() + (detail.durationMs ?? 150);
       };
       window.addEventListener("isabel-three-state", stateListener); window.addEventListener("isabel-camera-mode", cameraListener);
       window.addEventListener("isabel-screen-action", screenListener); window.addEventListener("isabel-confirmation-required", confirmationListener);
       window.addEventListener("isabel-confirmation-resolved", resolvedListener); window.addEventListener(SPEECH_LIFECYCLE_EVENT, speechListener);
+      window.addEventListener(VISEME_EVENT, visemeListener);
       const approach = (current: number, target: number, speed: number) => current + (target - current) * speed;
       const resize = () => { camera.aspect = mount.clientWidth / mount.clientHeight; camera.updateProjectionMatrix(); renderer.setSize(mount.clientWidth, mount.clientHeight); };
       window.addEventListener("resize", resize);
@@ -226,8 +255,11 @@ export default function ThreeMotionLab() {
       const animate = () => {
         frame = requestAnimationFrame(animate);
         const t = clock.getElapsedTime();
-        if (speechActive && performance.now() - lastBoundaryAt > 180) speechPulse *= 0.9;
-        const mouthOpen = speechActive ? 0.42 + Math.abs(Math.sin(t * 12.5)) * 0.58 + speechPulse * 0.25 : 0;
+        if (speechActive && performance.now() > visemeExpiry) targetMouth = visemeTarget("rest", 0.15);
+        currentMouth.x = approach(currentMouth.x, targetMouth.x, 0.3);
+        currentMouth.y = approach(currentMouth.y, targetMouth.y, 0.34);
+        currentMouth.z = approach(currentMouth.z, targetMouth.z, 0.3);
+        currentMouth.jaw = approach(currentMouth.jaw, targetMouth.jaw, 0.32);
         monitors.forEach((monitor, monitorIndex) => {
           const material = monitor.material as import("three").MeshStandardMaterial;
           const selected = monitorIndex === 0 && activeScreen !== null;
@@ -236,10 +268,9 @@ export default function ThreeMotionLab() {
         if (character === placeholder.rig) {
           placeholder.torso.scale.y = 1 + Math.sin(t * 1.65) * 0.022;
           placeholder.eyes.forEach((eye) => { eye.scale.y = Math.sin(t * 2.4) > 0.986 ? 0.18 : 1; });
-          placeholder.mouth.scale.y = speechActive ? 1.2 + mouthOpen * 4.8 : 0.22;
-          placeholder.mouth.scale.x = speechActive ? 0.92 + Math.sin(t * 7.4) * 0.08 : 1;
+          placeholder.mouth.scale.set(currentMouth.x, currentMouth.y, currentMouth.z);
         }
-        jawBindings.forEach(({ mesh, index: morphIndex }) => { if (mesh.morphTargetInfluences) mesh.morphTargetInfluences[morphIndex] = mouthOpen; });
+        jawBindings.forEach(({ mesh, index: morphIndex }) => { if (mesh.morphTargetInfluences) mesh.morphTargetInfluences[morphIndex] = currentMouth.jaw; });
         if (activeState === "working" || activeState === "notice" || activeState === "sit") {
           character.position.x = approach(character.position.x, 0.4, 0.04); character.position.z = approach(character.position.z, 1.1, 0.04); character.position.y = approach(character.position.y, -0.72, 0.05); character.rotation.y = approach(character.rotation.y, 0, 0.05);
         } else if (activeState === "stand") character.position.y = approach(character.position.y, 0, 0.055);
@@ -263,6 +294,7 @@ export default function ThreeMotionLab() {
         window.removeEventListener("isabel-three-state", stateListener); window.removeEventListener("isabel-camera-mode", cameraListener);
         window.removeEventListener("isabel-screen-action", screenListener); window.removeEventListener("isabel-confirmation-required", confirmationListener);
         window.removeEventListener("isabel-confirmation-resolved", resolvedListener); window.removeEventListener(SPEECH_LIFECYCLE_EVENT, speechListener);
+        window.removeEventListener(VISEME_EVENT, visemeListener);
         monitorTexture.dispose(); renderer.dispose(); if (renderer.domElement.parentNode === mount) mount.removeChild(renderer.domElement);
       };
     })();

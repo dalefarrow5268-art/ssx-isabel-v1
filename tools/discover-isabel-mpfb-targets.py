@@ -1,16 +1,15 @@
 """Discover exact MPFB facial target names for deterministic Isabel likeness fitting.
 
-Run inside or outside Blender:
-  python tools/discover-isabel-mpfb-targets.py --root /path/to/makehuman-assets/base
-
-This deliberately does not guess MPFB runtime API calls. It inventories the real
-installed .target files and ranks facial candidates so the likeness vector can bind
-to exact names proven to exist in the CI environment.
+Preferred run mode is inside Blender with MPFB loaded. In that mode the script asks
+MPFB's LocationService for its bundled system-data directory and scans the real
+character target library there. --root remains available only as a fallback/debug aid.
 """
 from __future__ import annotations
 
 import argparse
+import importlib
 import json
+import sys
 from pathlib import Path
 
 FAMILIES = {
@@ -25,44 +24,63 @@ FAMILIES = {
 }
 
 
+def dynamic_import(package_suffix: str, key: str):
+    for module_name in tuple(sys.modules):
+        if module_name.endswith(package_suffix):
+            module = importlib.import_module(module_name)
+            if hasattr(module, key):
+                return getattr(module, key)
+    raise RuntimeError(f"MPFB service not loaded: {package_suffix}.{key}")
+
+
+def resolve_root(explicit: str) -> tuple[Path, str]:
+    if explicit:
+        return Path(explicit).expanduser().resolve(), "explicit"
+    LocationService = dynamic_import("mpfb.services.locationservice", "LocationService")
+    root = Path(LocationService.get_mpfb_data()).resolve()
+    return root, "mpfb-system-data"
+
+
 def score(path: Path, words: list[str]) -> int:
     hay = path.as_posix().lower().replace("_", "-")
     return sum(3 if f"/{word}" in hay else 1 for word in words if word in hay)
 
 
 def main() -> None:
+    argv = sys.argv[sys.argv.index("--") + 1 :] if "--" in sys.argv else sys.argv[1:]
     parser = argparse.ArgumentParser()
-    parser.add_argument("--root", required=True)
-    parser.add_argument("--top", type=int, default=30)
+    parser.add_argument("--root", default="")
+    parser.add_argument("--top", type=int, default=40)
     parser.add_argument("--json", default="")
-    args = parser.parse_args()
+    args = parser.parse_args(argv)
 
-    root = Path(args.root).expanduser().resolve()
+    root, source = resolve_root(args.root)
     candidates = sorted(root.rglob("*.target"))
     if not candidates:
-        raise RuntimeError(f"No .target files found under {root}")
+        raise RuntimeError(f"No .target files found under {root} ({source})")
 
-    report: dict[str, list[dict[str, object]]] = {}
+    report: dict[str, object] = {
+        "source": source,
+        "root": str(root),
+        "total_targets": len(candidates),
+        "families": {},
+    }
+    families = report["families"]
+    assert isinstance(families, dict)
     for family, words in FAMILIES.items():
-        ranked = []
-        for path in candidates:
-            s = score(path, words)
-            if s:
-                ranked.append((s, path))
+        ranked = [(score(path, words), path) for path in candidates]
+        ranked = [(s, p) for s, p in ranked if s]
         ranked.sort(key=lambda item: (-item[0], item[1].as_posix()))
-        report[family] = [
-            {
-                "score": s,
-                "name": path.stem,
-                "path": path.relative_to(root).as_posix(),
-            }
+        entries = [
+            {"score": s, "name": path.stem, "path": path.relative_to(root).as_posix()}
             for s, path in ranked[: args.top]
         ]
-        print(f"ISABEL_TARGET_FAMILY {family} count={len(report[family])}")
-        for item in report[family][:10]:
+        families[family] = entries
+        print(f"ISABEL_TARGET_FAMILY {family} count={len(entries)}")
+        for item in entries[:12]:
             print(f"  score={item['score']} name={item['name']} path={item['path']}")
 
-    print(f"ISABEL_TARGET_DISCOVERY_OK files={len(candidates)} root={root}")
+    print(f"ISABEL_TARGET_DISCOVERY_OK files={len(candidates)} root={root} source={source}")
     if args.json:
         out = Path(args.json).resolve()
         out.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "floor": {
+    "finish": "warm_greige_commercial_carpet",
+    "pile": "low",
+    "roughness_target": 0.82,
+    "pattern_scale_cm": 55,
+    "rules": [
+      "Carpet must read as carpet, not polished concrete.",
+      "No large directional pattern that competes with Isabel.",
+      "Floor brightness must preserve chair and heel silhouettes."
+    ]
+  },
+  "foreground_seating": {
+    "count": 2,
+    "style": "low_profile_professional_guest_chairs",
+    "material": "dark_leather_or_fabric",
+    "scale_guardrails": {
+      "seat_height_cm": [43, 49],
+      "overall_height_cm": [76, 92],
+      "overall_width_cm": [58, 72]
+    },
+    "composition_rules": [
+      "Guest chairs stay low enough that they do not obscure Isabel's desk area.",
+      "Chairs must not appear miniaturized relative to Isabel.",
+      "Keep a visible carpet band at the bottom of the arrival frame.",
+      "Do not place a foreground desk or table across the bottom edge."
+    ]
+  },
+  "acceptance_tests": [
+    "Arrival view shows believable floor depth.",
+    "Foreground seating is human scale.",
+    "Isabel remains the dominant human focal point.",
+    "No chair intersects the camera near plane.",
+    "No foreground object blocks the open-center desk/leg view."
+  ]
+}

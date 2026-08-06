@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "goal": "Minimize manual Unreal setup and prove a deterministic live-office scene on the home AI computer.",
+  "checks": [
+    {"id":"project_opens","required":true},
+    {"id":"plugins_loaded","required":true},
+    {"id":"office_spec_valid","required":true},
+    {"id":"room_geometry_built","required":true},
+    {"id":"four_16_9_screens_present","required":true},
+    {"id":"all_named_anchors_present","required":true},
+    {"id":"arrival_camera_present","required":true},
+    {"id":"nav_bounds_present","required":true},
+    {"id":"isabel_character_slot_present","required":true},
+    {"id":"user_focus_target_present","required":true},
+    {"id":"map_saved","required":true},
+    {"id":"navigation_built","required":true},
+    {"id":"runtime_smoke_test_passed","required":true},
+    {"id":"pixel_stream_local_passed","required":true},
+    {"id":"chrome_view_passed","required":true}
+  ],
+  "stop_conditions": [
+    "Do not tune final materials until geometry/camera is accepted.",
+    "Do not expose Pixel Streaming publicly until local/LAN test is stable.",
+    "Do not accept a character that fails the Isabel identity acceptance checklist."
+  ]
+}

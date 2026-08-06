@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "system": "Isabel anticipation and predictive behavior",
+  "purpose": "Reduce perceived latency and increase human-like preparedness without allowing guesses to become consequential actions.",
+  "principles": [
+    "Anticipation may prepare context, never fabricate certainty.",
+    "Predicted actions remain reversible until confirmed by user intent or authoritative data.",
+    "External or consequential actions require explicit authority boundaries.",
+    "Isabel may preload likely screens, queries, tools, and body orientation while listening.",
+    "No raw coordinates or uncontrolled animation decisions may originate from prediction logic.",
+    "Prediction confidence must decay when new evidence conflicts with the current hypothesis."
+  ],
+  "confidence_bands": {
+    "low": {"min": 0.0, "max": 0.49, "behavior": "observe_only"},
+    "medium": {"min": 0.5, "max": 0.74, "behavior": "prepare_reversible"},
+    "high": {"min": 0.75, "max": 0.94, "behavior": "prepare_and_soft_orient"},
+    "authoritative": {"min": 0.95, "max": 1.0, "behavior": "execute_if_policy_allows"}
+  },
+  "predictable_domains": {
+    "schedule": {
+      "screen": "SCREEN_02",
+      "allowed_preparation": ["prefetch_schedule", "highlight_recent_variance", "soft_gaze_toward_screen"],
+      "blocked_until_confirmed": ["walk_to_screen", "speak_specific_conclusion", "write_or_send_external_action"]
+    },
+    "risk": {
+      "screen": "SCREEN_03",
+      "allowed_preparation": ["prefetch_risk_register", "rank_open_issues", "soft_gaze_toward_screen"],
+      "blocked_until_confirmed": ["declare_criticality", "change_project_state", "notify_external_party"]
+    },
+    "evidence": {
+      "screen": "SCREEN_04",
+      "allowed_preparation": ["prefetch_recent_evidence", "index_related_sources", "soft_gaze_toward_screen"],
+      "blocked_until_confirmed": ["state_source_as_proven", "publish_findings"]
+    },
+    "overview": {
+      "screen": "SCREEN_01",
+      "allowed_preparation": ["prefetch_project_summary", "identify_recent_changes"],
+      "blocked_until_confirmed": ["commit_to_specific_workflow"]
+    }
+  },
+  "human_signals": {
+    "listening": ["eyes_acknowledge_user", "micro_head_turn", "small_posture_adjustment"],
+    "thinking": ["brief_gaze_shift", "soft_focus_on_relevant_screen", "subtle_breath_reset"],
+    "ready_to_answer": ["return_gaze_to_user", "stable_posture_before_speech"]
+  },
+  "barge_in": {
+    "on_user_interrupt": [
+      "cancel_uncommitted_prediction",
+      "stop_pending_body_move_if_safe",
+      "clear_stale_screen_preload_if_irrelevant",
+      "return_attention_to_user"
+    ]
+  },
+  "safety_boundaries": {
+    "never_predict_as_fact": true,
+    "never_send_external_message_without_authority": true,
+    "never_write_durable_memory_from_prediction_only": true,
+    "never_change_project_record_from_prediction_only": true,
+    "never_move_isabel_if_prediction_confidence_is_below_high": true
+  },
+  "quality_targets": {
+    "perceived_acknowledgement_ms": 250,
+    "relevant_context_prefetch_ms": 400,
+    "prediction_cancel_ms": 120,
+    "false_commit_rate_target": 0.0
+  }
+}

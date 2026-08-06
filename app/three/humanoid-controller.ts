@@ -167,7 +167,7 @@ export function retargetHumanoidClip(
     names,
     hip: sourceHip,
     preserveBoneMatrix: true,
-    preserveBonePositions: true,
+    preserveHipPosition: true,
     useFirstFramePosition: false,
   });
 }

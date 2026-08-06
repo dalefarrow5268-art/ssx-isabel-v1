@@ -6,7 +6,7 @@ import { HumanoidAnimationController } from "./three/humanoid-controller";
 type MotionState = "working" | "notice" | "stand" | "walk" | "present" | "listen" | "return" | "sit";
 
 const HUMAN_BASE_URL = "https://arweave.net/Ea1KXujzJatQgCFSMzGOzp_UtHqB1pyia--U3AtkMAY";
-const MOTION_SOURCE_URL = "https://threejs.org/examples/models/gltf/Soldier.glb";
+const MOTION_SOURCE_URL = "https://threejs.org/examples/models/gltf/RobotExpressive/RobotExpressive.glb";
 
 export default function IsabelPlaceholderAnatomyBridge() {
   useEffect(() => {
@@ -72,42 +72,38 @@ export default function IsabelPlaceholderAnatomyBridge() {
         originalAdd.call(rig, human);
         human.visible = true;
 
-        const bones: import("three").Bone[] = [];
-        avatar.traverse((object) => {
-          if ((object as import("three").Bone).isBone) bones.push(object as import("three").Bone);
-        });
-        const findBone = (...patterns: string[]) =>
-          bones.find((bone) => {
-            const name = normalize(bone.name);
-            return patterns.some((pattern) => name.includes(pattern));
-          }) ?? null;
-
-        const hips = findBone("hips");
-        const leftUpperLeg = findBone("leftupperleg", "leftupleg", "leftthigh");
-        const rightUpperLeg = findBone("rightupperleg", "rightupleg", "rightthigh");
-        const leftLowerLeg = findBone("leftlowerleg", "leftleg", "leftshin");
-        const rightLowerLeg = findBone("rightlowerleg", "rightleg", "rightshin");
-        const leftUpperArm = findBone("leftupperarm", "leftarm");
-        const rightUpperArm = findBone("rightupperarm", "rightarm");
-        const leftForeArm = findBone("leftforearm", "leftlowerarm");
-        const rightForeArm = findBone("rightforearm", "rightlowerarm");
-
-        const tracked = [
-          hips, leftUpperLeg, rightUpperLeg, leftLowerLeg, rightLowerLeg,
-          leftUpperArm, rightUpperArm, leftForeArm, rightForeArm,
-        ].filter(Boolean) as import("three").Bone[];
-        const baseRotations = new Map(tracked.map((bone) => [bone, bone.rotation.clone()]));
-        const baseHipY = hips?.position.y ?? 0;
-        const approach = (current: number, target: number, speed: number) => current + (target - current) * speed;
-
         try {
           controller = new HumanoidAnimationController(avatar);
-          const idleClip = motionGltf.animations.find((clip) => normalize(clip.name) === "idle");
-          const walkClip = motionGltf.animations.find((clip) => normalize(clip.name) === "walk");
-          if (!idleClip || !walkClip) throw new Error("Motion source is missing Idle or Walk clips");
-          controller.registerRetargeted({ name: "idle", clip: idleClip, sourceRoot: motionGltf.scene }, true);
-          controller.registerRetargeted({ name: "walk", clip: walkClip, sourceRoot: motionGltf.scene }, true);
-          controller.play("idle", 0, true);
+
+          const clipsByName = new Map(
+            motionGltf.animations.map((clip) => [normalize(clip.name), clip] as const),
+          );
+          const requireClip = (...names: string[]) => {
+            for (const name of names) {
+              const clip = clipsByName.get(normalize(name));
+              if (clip) return clip;
+            }
+            throw new Error(`Motion source is missing clip: ${names.join(" / ")}`);
+          };
+
+          controller.registerRetargeted(
+            { name: "idle", clip: requireClip("Idle"), sourceRoot: motionGltf.scene },
+            true,
+          );
+          controller.registerRetargeted(
+            { name: "walk", clip: requireClip("Walking", "Walk"), sourceRoot: motionGltf.scene },
+            true,
+          );
+          controller.registerRetargeted(
+            { name: "sit", clip: requireClip("Sitting", "Sit"), sourceRoot: motionGltf.scene },
+            true,
+          );
+          controller.registerRetargeted(
+            { name: "stand", clip: requireClip("Standing", "Stand"), sourceRoot: motionGltf.scene },
+            true,
+          );
+
+          controller.play("sit", 0, true);
         } catch (error) {
           controller?.dispose();
           controller = null;
@@ -121,47 +117,34 @@ export default function IsabelPlaceholderAnatomyBridge() {
         window.addEventListener("isabel-three-state", stateListener);
 
         let previousTime = performance.now();
-        let activeMotion: "idle" | "walk" | "sit" = "idle";
-
-        const setManualX = (bone: import("three").Bone | null, offset: number, speed = 0.15) => {
-          if (!bone) return;
-          const base = baseRotations.get(bone)?.x ?? 0;
-          bone.rotation.x = approach(bone.rotation.x, base + offset, speed);
-        };
+        let activeMotion: "idle" | "walk" | "sit" | "stand" = "sit";
 
         const animate = () => {
           if (disposed) return;
           const now = performance.now();
           const delta = Math.min((now - previousTime) / 1000, 0.05);
           previousTime = now;
+
           const seated = activeState === "working" || activeState === "notice" || activeState === "sit";
           const walking = activeState === "walk" || activeState === "return";
+          const explicitlyStanding = activeState === "stand";
 
-          if (seated) {
-            if (activeMotion !== "sit") {
-              controller?.stop(0.12);
-              activeMotion = "sit";
-            }
-            setManualX(leftUpperLeg, -1.05, 0.17);
-            setManualX(rightUpperLeg, -1.05, 0.17);
-            setManualX(leftLowerLeg, 1.28, 0.17);
-            setManualX(rightLowerLeg, 1.28, 0.17);
-            setManualX(leftUpperArm, -0.12, 0.14);
-            setManualX(rightUpperArm, -0.10, 0.14);
-            setManualX(leftForeArm, -0.38, 0.14);
-            setManualX(rightForeArm, -0.34, 0.14);
-            if (hips) hips.position.y = approach(hips.position.y, baseHipY - 0.10, 0.14);
-          } else {
-            const desired: "idle" | "walk" = walking ? "walk" : "idle";
-            if (activeMotion !== desired) {
-              controller?.play(desired, 0.26, desired === "walk");
-              activeMotion = desired;
-            }
-            controller?.update(delta);
-            if (hips && !controller) hips.position.y = approach(hips.position.y, baseHipY, 0.12);
+          const desired: "idle" | "walk" | "sit" | "stand" = seated
+            ? "sit"
+            : walking
+              ? "walk"
+              : explicitlyStanding
+                ? "stand"
+                : "idle";
+
+          if (activeMotion !== desired) {
+            controller?.play(desired, desired === "walk" ? 0.22 : 0.30, true);
+            activeMotion = desired;
           }
 
-          human.rotation.z = Math.sin(now * 0.00048) * (activeState === "listen" ? 0.004 : 0.0015);
+          controller?.update(delta);
+          human.rotation.z = Math.sin(now * 0.00048) * (activeState === "listen" ? 0.003 : 0.0012);
+
           frame = window.requestAnimationFrame(animate);
         };
         frame = window.requestAnimationFrame(animate);

@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "units": "centimeters",
+  "desk": {
+    "top_height": 76,
+    "top_thickness": 6,
+    "clear_knee_width": 92,
+    "clear_knee_depth": 46,
+    "clear_knee_height": 68,
+    "interaction_anchor": "ISABEL_DESK_STAND",
+    "seated_anchor": "ISABEL_DESK_SEATED"
+  },
+  "chair": {
+    "seat_height": 48,
+    "seat_depth": 46,
+    "seat_width": 50,
+    "back_height_from_seat": 58,
+    "wheelbase_radius": 34,
+    "default_yaw": 180,
+    "pushback_distance": 42,
+    "sit_alignment_tolerance_cm": 4,
+    "stand_alignment_tolerance_cm": 7
+  },
+  "isabel_body": {
+    "reference_height_cm": 170,
+    "heel_height_cm": 8,
+    "hip_clearance_cm": 8,
+    "knee_clearance_cm": 10,
+    "foot_clearance_cm": 12,
+    "standing_capsule_radius_cm": 34,
+    "standing_capsule_half_height_cm": 90
+  },
+  "sit_sequence": [
+    "NAV_TO_CHAIR_APPROACH",
+    "TURN_TO_CHAIR",
+    "CHAIR_PULLBACK_IF_NEEDED",
+    "ALIGN_HIPS_TO_SEAT",
+    "SIT_TRANSITION",
+    "FOOT_PLANT",
+    "HAND_SETTLE",
+    "SEATED_IDLE"
+  ],
+  "stand_sequence": [
+    "PREPARE_HANDS",
+    "FOOT_PLANT",
+    "LEAN_FORWARD",
+    "STAND_TRANSITION",
+    "CLEAR_CHAIR",
+    "SETTLE_STANDING"
+  ],
+  "hard_rules": [
+    "Isabel's legs and heels must remain physically plausible and may be partially visible from the arrival camera.",
+    "Desk geometry may not intersect Isabel's knees, thighs, feet, chair, or sit/stand motion arc.",
+    "Chair may move only within the defined pushback travel zone.",
+    "Desk and chair asset replacement may not move ISABEL_DESK_SEATED or ISABEL_DESK_STAND anchors.",
+    "Final desk should preserve an open center so Isabel's legs are not hidden by an unnecessary center panel or extra desk leg."
+  ]
+}

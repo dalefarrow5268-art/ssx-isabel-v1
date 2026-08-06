@@ -1,13 +1,38 @@
 'use client';
 
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { makeOfficeMessage, type OfficeCommand } from './protocol';
+import { PixelStreamingBridge, type BridgeStatus, type UnrealBridgeEnvelope } from './pixel-streaming-bridge';
 
 export default function LiveOfficePage() {
   const [lastCommand, setLastCommand] = useState<OfficeCommand>('CAMERA_ARRIVAL');
-  const [bridgeState, setBridgeState] = useState<'waiting' | 'ready'>('waiting');
+  const [bridgeState, setBridgeState] = useState<BridgeStatus>('offline');
+  const [lastBridgeEvent, setLastBridgeEvent] = useState<UnrealBridgeEnvelope['event']>('heartbeat');
   const iframeRef = useRef<HTMLIFrameElement>(null);
+  const bridgeRef = useRef<PixelStreamingBridge | null>(null);
   const streamUrl = useMemo(() => process.env.NEXT_PUBLIC_ISABEL_STREAM_URL || '', []);
+
+  useEffect(() => {
+    const bridge = new PixelStreamingBridge();
+    bridgeRef.current = bridge;
+    const unsubscribe = bridge.subscribe(event => {
+      setLastBridgeEvent(event.event);
+      setBridgeState(bridge.getStatus());
+    });
+
+    return () => {
+      unsubscribe();
+      bridge.disconnect();
+      bridgeRef.current = null;
+    };
+  }, []);
+
+  const connectIframeBridge = () => {
+    const targetWindow = iframeRef.current?.contentWindow;
+    if (!targetWindow) return;
+    bridgeRef.current?.connect(targetWindow);
+    setBridgeState(bridgeRef.current?.getStatus() ?? 'offline');
+  };
 
   const sendCommand = (command: OfficeCommand) => {
     const message = makeOfficeMessage(command);
@@ -16,9 +41,13 @@ export default function LiveOfficePage() {
     // Local event keeps the web shell testable before the Unreal machine is online.
     window.dispatchEvent(new CustomEvent('isabel-office-command', { detail: message }));
 
-    // Pixel Streaming frontend can receive this envelope and forward it over its
-    // WebRTC data channel. Saturday we attach the frontend-side adapter to Unreal.
-    iframeRef.current?.contentWindow?.postMessage(message, '*');
+    try {
+      bridgeRef.current?.sendOfficeCommand(message);
+      setBridgeState(bridgeRef.current?.getStatus() ?? 'offline');
+    } catch {
+      // No renderer yet is a valid staging condition. The local event still fires.
+      setBridgeState('offline');
+    }
   };
 
   return (
@@ -32,6 +61,7 @@ export default function LiveOfficePage() {
           <div style={{ textAlign: 'right', fontSize: 13, opacity: 0.8 }}>
             <div>Bridge: {bridgeState}</div>
             <div>Last command: {lastCommand}</div>
+            <div>Last bridge event: {lastBridgeEvent}</div>
           </div>
         </header>
 
@@ -42,15 +72,15 @@ export default function LiveOfficePage() {
               title="Isabel Live Office"
               src={streamUrl}
               allow="autoplay; microphone; camera; fullscreen"
-              onLoad={() => setBridgeState('ready')}
+              onLoad={connectIframeBridge}
               style={{ width: '100%', height: '100%', border: 0 }}
             />
           ) : (
             <div style={{ height: '100%', display: 'grid', placeItems: 'center', textAlign: 'center', padding: 30 }}>
               <div>
-                <div style={{ fontSize: 24, marginBottom: 10 }}>Live office shell is ready</div>
+                <div style={{ fontSize: 24, marginBottom: 10 }}>ISABEL LIVE OFFICE — waiting for Unreal renderer</div>
                 <div style={{ maxWidth: 700, opacity: 0.72, lineHeight: 1.55 }}>
-                  The browser command bridge and Unreal project are prepared. Saturday the home AI computer supplies the live Pixel Streaming endpoint and this panel becomes the real-time office viewport.
+                  Browser transport, command protocol, state synchronization, and Unreal bridge adapters are prepared. When the home GPU renderer comes online, this viewport becomes the persistent real-time office.
                 </div>
               </div>
             </div>

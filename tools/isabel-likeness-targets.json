@@ -1,11 +1,11 @@
 {
   "schema": "ssx.isabel.likeness-targets.v1",
   "subject": "Isabel",
-  "revision": "front-reference-baseline-001",
-  "status": "awaiting-ci-target-inventory",
+  "revision": "front-reference-baseline-002",
+  "status": "first-conservative-front-pass",
   "reference": "locked canonical Isabel front portrait",
   "rules": {
-    "exact_paths_only": true,
+    "canonical_names_only": true,
     "weight_range": [-1.0, 1.0],
     "default_weight_ceiling": 0.35,
     "symmetry": "Use paired/symmetric identity targets unless stable asymmetry is visible in the canonical reference.",
@@ -21,5 +21,37 @@
     "cheek fullness",
     "profile/depth only after verified evidence"
   ],
-  "bindings": []
+  "bindings": [
+    {
+      "name": "isabel-chin-soft-point",
+      "target": "chin-triangle",
+      "weight": 0.12,
+      "enabled": true,
+      "evidence": "Canonical front portrait shows a moderately narrow, softly pointed chin.",
+      "confidence": "high"
+    },
+    {
+      "name": "isabel-cupid-bow-definition",
+      "target": "mouth-cupidsbow-incr",
+      "weight": 0.10,
+      "enabled": true,
+      "evidence": "Canonical front portrait shows a defined cupid bow without exaggerated lip geometry.",
+      "confidence": "high"
+    },
+    {
+      "name": "isabel-nostril-flare-restraint",
+      "target": "nose-flaring-decr",
+      "weight": 0.08,
+      "enabled": true,
+      "evidence": "Canonical front portrait shows a controlled medium nasal base with restrained nostril flare.",
+      "confidence": "medium-high"
+    }
+  ],
+  "deferred_until_render": [
+    "eye-corner angle because MPFB corner1/corner2 semantic orientation must be visually verified",
+    "jaw width because the correct front-width target must be verified from the catalog/render",
+    "nose projection and bridge depth because a frontal portrait is insufficient evidence",
+    "lip projection because a frontal portrait is insufficient evidence",
+    "chin projection because a frontal portrait is insufficient evidence"
+  ]
 }

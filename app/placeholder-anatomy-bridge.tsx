@@ -102,6 +102,10 @@ export default function IsabelPlaceholderAnatomyBridge() {
             { name: "stand", clip: requireClip("Standing", "Stand"), sourceRoot: motionGltf.scene },
             true,
           );
+          controller.registerRetargeted(
+            { name: "present", clip: requireClip("Wave"), sourceRoot: motionGltf.scene },
+            false,
+          );
 
           controller.play("sit", 0, true);
         } catch (error) {
@@ -117,7 +121,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
         window.addEventListener("isabel-three-state", stateListener);
 
         let previousTime = performance.now();
-        let activeMotion: "idle" | "walk" | "sit" | "stand" = "sit";
+        let activeMotion: "idle" | "walk" | "sit" | "stand" | "present" = "sit";
 
         const animate = () => {
           if (disposed) return;
@@ -128,17 +132,21 @@ export default function IsabelPlaceholderAnatomyBridge() {
           const seated = activeState === "working" || activeState === "notice" || activeState === "sit";
           const walking = activeState === "walk" || activeState === "return";
           const explicitlyStanding = activeState === "stand";
+          const presenting = activeState === "present";
 
-          const desired: "idle" | "walk" | "sit" | "stand" = seated
+          const desired: "idle" | "walk" | "sit" | "stand" | "present" = seated
             ? "sit"
             : walking
               ? "walk"
               : explicitlyStanding
                 ? "stand"
-                : "idle";
+                : presenting
+                  ? "present"
+                  : "idle";
 
           if (activeMotion !== desired) {
-            controller?.play(desired, desired === "walk" ? 0.22 : 0.30, true);
+            const fade = desired === "walk" ? 0.22 : desired === "present" ? 0.18 : 0.30;
+            controller?.play(desired, fade, true);
             activeMotion = desired;
           }
 

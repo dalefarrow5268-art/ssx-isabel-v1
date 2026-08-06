@@ -9,6 +9,10 @@ type GazeRequest = {
   destination?: string;
 };
 
+type SpeechLifecycle = {
+  phase: "start" | "boundary" | "end" | "cancel" | "error";
+};
+
 type HeadPose = {
   target: GazeTarget;
   yaw: number;
@@ -18,6 +22,7 @@ type HeadPose = {
 
 const GAZE_REQUEST_EVENT = "isabel-gaze-request";
 const HEAD_POSE_EVENT = "isabel-head-pose";
+const SPEECH_LIFECYCLE_EVENT = "isabel-speech-lifecycle";
 
 function targetPose(target: GazeTarget): HeadPose {
   switch (target) {
@@ -38,12 +43,29 @@ function targetPose(target: GazeTarget): HeadPose {
 export default function IsabelGazeRuntime() {
   useEffect(() => {
     let frame = 0;
-    let current = targetPose("user");
+    let commandTarget: GazeTarget = "user";
+    let current = targetPose(commandTarget);
     let desired = current;
+    let speaking = false;
 
-    const listener = (event: Event) => {
+    const gazeListener = (event: Event) => {
       const detail = (event as CustomEvent<GazeRequest>).detail;
-      desired = targetPose(detail?.target ?? detail?.destination ?? "user");
+      commandTarget = detail?.target ?? detail?.destination ?? "user";
+      if (!speaking || commandTarget !== "user") {
+        desired = targetPose(commandTarget);
+      }
+    };
+
+    const speechListener = (event: Event) => {
+      const detail = (event as CustomEvent<SpeechLifecycle>).detail;
+      if (detail.phase === "start" || detail.phase === "boundary") {
+        speaking = true;
+        if (commandTarget === "user") desired = targetPose("user");
+        return;
+      }
+
+      speaking = false;
+      desired = targetPose(commandTarget);
     };
 
     const animate = () => {
@@ -57,11 +79,13 @@ export default function IsabelGazeRuntime() {
       frame = window.requestAnimationFrame(animate);
     };
 
-    window.addEventListener(GAZE_REQUEST_EVENT, listener);
+    window.addEventListener(GAZE_REQUEST_EVENT, gazeListener);
+    window.addEventListener(SPEECH_LIFECYCLE_EVENT, speechListener);
     frame = window.requestAnimationFrame(animate);
     return () => {
       window.cancelAnimationFrame(frame);
-      window.removeEventListener(GAZE_REQUEST_EVENT, listener);
+      window.removeEventListener(GAZE_REQUEST_EVENT, gazeListener);
+      window.removeEventListener(SPEECH_LIFECYCLE_EVENT, speechListener);
     };
   }, []);
 

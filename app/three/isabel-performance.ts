@@ -92,6 +92,7 @@ function dispatch<T>(name: string, detail: T): void {
 }
 
 export function resolveMotionState(command: IsabelPerformanceCommand): ThreeMotionState {
+  if (command.behavior === "returning" || command.destination === "desk-chair") return "return";
   return MOTION_TO_STATE[command.motion] ?? BEHAVIOR_TO_MOTION[command.behavior];
 }
 

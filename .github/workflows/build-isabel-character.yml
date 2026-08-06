@@ -69,6 +69,14 @@ jobs:
             \( -iname '*viseme*' -o -iname '*eyeBlink*' -o -iname '*browDown*' -o -iname '*jawOpen*' \) \
             | head -100
 
+      - name: Discover exact MPFB likeness targets
+        run: |
+          mkdir -p build/isabel
+          python3 tools/discover-isabel-mpfb-targets.py \
+            --root "$RUNNER_TEMP/makehuman-assets/base" \
+            --json build/isabel/mpfb-target-report.json
+          test -s build/isabel/mpfb-target-report.json
+
       - name: Build Isabel GLB
         env:
           MPFB_DATA_PATH: ${{ runner.temp }}/makehuman-assets/base
@@ -94,4 +102,6 @@ jobs:
           path: |
             public/models/isabel/isabel-v1.glb
             build/isabel/isabel-v1.blend
+            build/isabel/mpfb-target-report.json
             tools/isabel-character-spec.json
+            tools/isabel-likeness-contract.json

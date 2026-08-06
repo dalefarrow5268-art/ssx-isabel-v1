@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "rendering": {
+    "dynamic_gi": "Lumen",
+    "reflections": "Lumen",
+    "tone": "bright_warm_professional",
+    "avoid": ["dark_cinematic_crush", "overwarm_orange", "blue_corporate_cast", "watercolor_softness"]
+  },
+  "materials": {
+    "floor_carpet": {"family": "warm_greige_low_pile", "roughness": 0.82, "metallic": 0.0},
+    "cabinetry": {"family": "near_black_stained_wood", "roughness": 0.42, "metallic": 0.0},
+    "walls": {"family": "soft_warm_white", "roughness": 0.76, "metallic": 0.0},
+    "ceiling": {"family": "clean_white_matte", "roughness": 0.88, "metallic": 0.0},
+    "monitor_reveal": {"family": "gallery_white_matte", "roughness": 0.64, "metallic": 0.0},
+    "monitor_bezel": {"family": "charcoal_black_satin", "roughness": 0.34, "metallic": 0.08},
+    "monitor_glass": {"family": "display_glass", "roughness": 0.14, "metallic": 0.0},
+    "desk": {"family": "dark_walnut_or_espresso", "roughness": 0.4, "metallic": 0.0},
+    "chair": {"family": "black_leather_or_high_grade_vinyl", "roughness": 0.3, "metallic": 0.0},
+    "window_frames": {"family": "dark_bronze_or_black_metal", "roughness": 0.28, "metallic": 0.72}
+  },
+  "lighting": {
+    "daylight": {"source": "left_windows", "character": "soft_bright_day", "color_temperature_k": 5600, "priority": 1},
+    "skylight": {"intensity_mode": "supportive", "priority": 2},
+    "ceiling_perimeter": {"color_temperature_k": 3500, "dimmable": true, "target": "soft_even_fill"},
+    "desk_lamp": {"color_temperature_k": 3000, "target": "localized_warm_pool"},
+    "monitor_emission": {"target": "subtle_only", "do_not_light_room": true}
+  },
+  "camera_rules": {
+    "arrival_camera_must_match_approved_composition": true,
+    "preserve_verticals": true,
+    "avoid_ultra_wide_distortion": true,
+    "target_focal_length_mm": 28,
+    "exposure_priority": "face_and_room_midtones"
+  },
+  "quality_gates": [
+    "Window frames remain crisp and solid.",
+    "Cabinetry wood reads as wood, never painted black plastic.",
+    "Monitor white reveal is visibly white but not clipped.",
+    "Screen text remains readable without blooming.",
+    "Isabel skin remains natural and does not inherit room color casts.",
+    "Ceiling detail remains sharp and architectural.",
+    "Room stays bright and inviting at arrival view."
+  ]
+}

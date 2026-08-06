@@ -2,23 +2,14 @@
   "FileVersion": 3,
   "EngineAssociation": "5.7",
   "Category": "SSX / Isabel",
-  "Description": "Live 3D office proof of concept for Isabel. The browser will receive a Pixel Streaming feed from Unreal running on the home AI computer.",
+  "Description": "Live 3D office proof of concept for Isabel. Unreal renders the persistent office and Isabel; the browser receives the live stream.",
   "Modules": [],
   "Plugins": [
-    {
-      "Name": "PixelStreaming2",
-      "Enabled": true
-    },
-    {
-      "Name": "MetaHuman",
-      "Enabled": true
-    },
-    {
-      "Name": "ModelingToolsEditorMode",
-      "Enabled": true
-    }
+    { "Name": "PixelStreaming2", "Enabled": true },
+    { "Name": "MetaHuman", "Enabled": true },
+    { "Name": "ModelingToolsEditorMode", "Enabled": true },
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true }
   ],
-  "TargetPlatforms": [
-    "Windows"
-  ]
+  "TargetPlatforms": ["Windows"]
 }

@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "ceiling": {
+    "type": "tray",
+    "room_height_cm": 335,
+    "tray_drop_cm": 18,
+    "tray_inset_cm": 42,
+    "perimeter_band_width_cm": 16,
+    "center_panel_finish": "warm_white_matte",
+    "perimeter_finish": "warm_white_matte",
+    "edge_profile": "crisp_square",
+    "beams": false
+  },
+  "lighting": {
+    "type": "indirect_perimeter",
+    "color_temperature_k": 3500,
+    "intensity_lm_per_meter_target": 700,
+    "continuous_all_four_sides": true,
+    "visible_fixture": false,
+    "dimming_allowed": true,
+    "goal": "bright architectural lift without flattening Isabel or the monitor wall"
+  },
+  "quality_rules": [
+    "Tray edges remain straight and crisp from CAMERA_ARRIVAL.",
+    "No exposed light strips are visible from the arrival camera.",
+    "Perimeter light must not clip or bloom into the ceiling edges.",
+    "Ceiling detail must remain readable under daylight.",
+    "No beams are introduced.",
+    "Lighting must not shift Isabel skin tone or wash out monitor content."
+  ],
+  "locked": true
+}

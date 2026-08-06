@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "purpose": "Provide a complete, human-readable trust and audit trail for Isabel conclusions, recommendations, approvals, executions, and verification.",
+  "principles": [
+    "Every consequential conclusion must retain its supporting evidence references and confidence.",
+    "Inference must be visibly distinguishable from confirmed fact.",
+    "Every approval must identify the exact payload, approver, timestamp, and scope.",
+    "Every executed action must record what actually happened, not merely what was planned.",
+    "Verification must be a separate event from execution.",
+    "Corrections append a superseding record; prior records are not silently rewritten.",
+    "User-facing summaries remain concise while the full chain stays inspectable."
+  ],
+  "event_types": [
+    "EVIDENCE_OBSERVED",
+    "FACT_CONFIRMED",
+    "INFERENCE_DERIVED",
+    "UNKNOWN_IDENTIFIED",
+    "RECOMMENDATION_CREATED",
+    "PLAN_CREATED",
+    "APPROVAL_REQUESTED",
+    "APPROVAL_GRANTED",
+    "APPROVAL_REVOKED",
+    "ACTION_EXECUTION_STARTED",
+    "ACTION_EXECUTION_SUCCEEDED",
+    "ACTION_EXECUTION_FAILED",
+    "RESULT_VERIFIED",
+    "RESULT_VERIFICATION_FAILED",
+    "MEMORY_PROPOSED",
+    "MEMORY_APPROVED",
+    "MEMORY_CORRECTED"
+  ],
+  "record_contract": {
+    "required": [
+      "event_id",
+      "event_type",
+      "timestamp",
+      "project_id",
+      "actor",
+      "summary",
+      "confidence",
+      "source_ids",
+      "correlation_id"
+    ],
+    "optional": [
+      "decision_owner",
+      "approval_id",
+      "payload_hash",
+      "parent_event_ids",
+      "supersedes_event_id",
+      "result",
+      "verification",
+      "metadata"
+    ]
+  },
+  "approval_rules": {
+    "exact_payload_required": true,
+    "material_change_invalidates_approval": true,
+    "approval_cannot_be_inferred": true,
+    "verbal_or_ui_confirmation_must_be_explicit": true,
+    "revocation_supported_until_execution_boundary": true
+  },
+  "trust_view": {
+    "default_sections": [
+      "What Isabel knows",
+      "What Isabel inferred",
+      "What remains unknown",
+      "What Isabel recommended",
+      "What the human approved",
+      "What executed",
+      "What was verified"
+    ],
+    "never_show_hidden_reasoning": true,
+    "show_evidence_and_concise_rationale_instead": true
+  },
+  "acceptance_tests": [
+    "A recommendation can be traced back to every supporting source.",
+    "A consequential action cannot show as approved without an approval record tied to an exact payload hash.",
+    "Execution success and verification success are stored separately.",
+    "If evidence is corrected, the old record remains visible and the replacement points back to it.",
+    "A reviewer can reconstruct the entire decision chain without relying on chat history."
+  ]
+}

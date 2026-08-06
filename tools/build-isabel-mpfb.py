@@ -7,7 +7,7 @@ Run inside Blender with MPFB installed:
     --save-blend build/isabel/isabel-v1.blend
 
 This follows MPFB's official script_samples complete-character export pattern:
-create_human -> skin/assets -> built-in rig -> ExportService staging -> GLB export.
+create_human -> skin/assets -> built-in rig -> browser face targets -> ExportService staging -> GLB export.
 """
 from __future__ import annotations
 
@@ -33,12 +33,7 @@ def parse_args() -> argparse.Namespace:
 
 
 def dynamic_import(package_suffix: str, key: str):
-    """Resolve MPFB services when installed as a Blender Extension.
-
-    MPFB's own standalone examples use this pattern because extension modules live
-    below a runtime-generated package prefix rather than being importable as plain
-    top-level ``mpfb`` modules.
-    """
+    """Resolve MPFB services when installed as a Blender Extension."""
     for module_name in tuple(sys.modules):
         if module_name.endswith(package_suffix):
             module = importlib.import_module(module_name)
@@ -49,10 +44,6 @@ def dynamic_import(package_suffix: str, key: str):
 
 
 def ensure_mpfb_loaded() -> None:
-    """Force Blender to initialize installed extensions before resolving services."""
-    # A no-op background scene load is sufficient after the extension has been installed.
-    # The extension registration occurs during Blender startup; inspect loaded modules rather
-    # than assuming the legacy top-level addon name is importable.
     if not any("mpfb" in name.lower() for name in sys.modules):
         raise RuntimeError("MPFB extension is installed but was not loaded by Blender")
 
@@ -94,6 +85,58 @@ def add_asset(HumanService, basemesh, path: Path | None, asset_type: str) -> Non
     HumanService.add_mhclo_asset(str(path), basemesh, asset_type=asset_type, material_type="GAMEENGINE")
 
 
+def add_browser_face_contract(FaceService, basemesh) -> None:
+    """Load the exact facial target families expected by our browser runtime.
+
+    TalkingHead-compatible browser avatars use Meta/Oculus visemes for speech and
+    ARKit face units for expressions/gaze-related eyelid motion. MPFB 2.0.15+
+    exposes these through FaceService. Functional packs are optional during the
+    first geometry proof, but their absence is reported loudly so a baseline GLB
+    cannot be mistaken for the finished Isabel facial rig.
+    """
+    before = set()
+    if basemesh.data.shape_keys:
+        before = {k.name for k in basemesh.data.shape_keys.key_blocks}
+
+    meta_ok = False
+    arkit_ok = False
+    try:
+        FaceService.load_targets(
+            basemesh,
+            load_microsoft_visemes=False,
+            load_meta_visemes=True,
+            load_arkit_faceunits=False,
+        )
+        meta_ok = True
+    except Exception as exc:
+        print(f"ISABEL_FACE_PACK_MISSING pack=visemes02 error={type(exc).__name__}:{exc}")
+
+    try:
+        FaceService.load_targets(
+            basemesh,
+            load_microsoft_visemes=False,
+            load_meta_visemes=False,
+            load_arkit_faceunits=True,
+        )
+        arkit_ok = True
+    except Exception as exc:
+        print(f"ISABEL_FACE_PACK_MISSING pack=faceunits01 error={type(exc).__name__}:{exc}")
+
+    if meta_ok or arkit_ok:
+        FaceService.interpolate_targets(basemesh)
+
+    after = set()
+    if basemesh.data.shape_keys:
+        after = {k.name for k in basemesh.data.shape_keys.key_blocks}
+    added = sorted(after - before)
+    print(
+        "ISABEL_FACE_CONTRACT "
+        f"meta_visemes={'yes' if meta_ok else 'no'} "
+        f"arkit_faceunits={'yes' if arkit_ok else 'no'} "
+        f"added_shape_keys={len(added)}"
+    )
+
+
 def select_hierarchy(ObjectService, root) -> None:
     bpy.ops.object.select_all(action="DESELECT")
     root.select_set(True)
@@ -131,11 +174,11 @@ def main() -> None:
     HumanService = dynamic_import("mpfb.services.humanservice", "HumanService")
     ExportService = dynamic_import("mpfb.services.exportservice", "ExportService")
     ObjectService = dynamic_import("mpfb.services.objectservice", "ObjectService")
+    FaceService = dynamic_import("mpfb.services.faceservice", "FaceService")
 
     bpy.ops.object.select_all(action="SELECT")
     bpy.ops.object.delete(use_global=False)
 
-    # Official MPFB standalone API: start with a real basemesh, then attach the game rig.
     basemesh = HumanService.create_human()
     basemesh.name = "ISABEL_BASEMESH"
     basemesh["ssx_character_spec"] = spec.get("schema", "")
@@ -150,8 +193,6 @@ def main() -> None:
         print(f"ISABEL_SKIN file={skin}")
         HumanService.set_character_skin(str(skin), basemesh, skin_type="GAMEENGINE")
 
-    # game_engine is MPFB's browser/game-friendly built-in skeleton and matches our
-    # Three.js humanoid retargeting contract better than a Blender control rig.
     rig_name = spec.get("rig", "game_engine")
     HumanService.add_builtin_rig(basemesh, rig_name)
     print(f"ISABEL_RIG name={rig_name}")
@@ -177,19 +218,19 @@ def main() -> None:
             asset = choose_default(data_root, kind, defaults[kind])
         add_asset(HumanService, basemesh, asset, type_names[kind])
 
-    # Wardrobe is selected independently so the black professional silhouette can be
-    # refined without changing the body/rig contract.
     for slot in ("top", "bottom", "shoes"):
         garment = resolve_asset(data_root, "clothes", search.get(slot, []))
         add_asset(HumanService, basemesh, garment, "Clothes")
+
+    # Add speech/expression morphs before the export copy. MPFB's export staging then
+    # preserves these keys while baking the geometry and removing helper structures.
+    add_browser_face_contract(FaceService, basemesh)
 
     if args.save_blend:
         blend_path = Path(args.save_blend).resolve()
         blend_path.parent.mkdir(parents=True, exist_ok=True)
         bpy.ops.wm.save_as_mainfile(filepath=str(blend_path))
 
-    # Official MPFB export staging: duplicate the full character hierarchy, bake
-    # modifiers/masks and remove helper geometry before handing it to glTF.
     export_root = ExportService.create_character_copy(basemesh, name_suffix="_export")
     export_basemesh = ObjectService.find_object_of_type_amongst_nearest_relatives(export_root, "Basemesh")
     if export_basemesh is None:

@@ -5,14 +5,12 @@ import { buildVisemeTimeline } from "./text-viseme";
 import { ISABEL_RUNTIME_EVENTS } from "./three/isabel-performance";
 
 type VoiceState = "idle" | "speaking" | "stopped" | "unavailable";
-
 type SpeechRequest = {
   commandId?: string;
   text: string;
   mode?: "silent" | "preview" | "speak";
   emotionalIntent?: "neutral" | "warm" | "focused" | "serious" | "reassuring";
 };
-
 type SpeechLifecycle = {
   commandId?: string;
   phase: "start" | "boundary" | "end" | "cancel" | "error";
@@ -26,6 +24,7 @@ type SpeechLifecycle = {
 
 const SPEECH_LIFECYCLE_EVENT = "isabel-speech-lifecycle";
 const VISEME_TIMELINE_EVENT = "isabel-viseme-timeline";
+const VISEME_CUE_EVENT = "isabel-viseme-cue";
 
 function dispatchLifecycle(detail: SpeechLifecycle) {
   window.dispatchEvent(new CustomEvent<SpeechLifecycle>(SPEECH_LIFECYCLE_EVENT, { detail }));
@@ -57,6 +56,7 @@ export default function IsabelSpeechRuntime() {
   const [lastText, setLastText] = useState("Voice runtime ready");
   const [voiceName, setVoiceName] = useState("browser default");
   const cadenceTimerRef = useRef<number | null>(null);
+  const visemeTimersRef = useRef<number[]>([]);
   const speechTokenRef = useRef(0);
 
   useEffect(() => {
@@ -70,6 +70,14 @@ export default function IsabelSpeechRuntime() {
         window.clearTimeout(cadenceTimerRef.current);
         cadenceTimerRef.current = null;
       }
+    };
+
+    const clearVisemes = () => {
+      visemeTimersRef.current.forEach((timer) => window.clearTimeout(timer));
+      visemeTimersRef.current = [];
+      window.dispatchEvent(new CustomEvent(VISEME_CUE_EVENT, {
+        detail: { shape: "rest", strength: 0, durationMs: 100 },
+      }));
     };
 
     const chooseVoice = () => {
@@ -86,20 +94,27 @@ export default function IsabelSpeechRuntime() {
       let index = 0;
       const pulse = () => {
         if (speechTokenRef.current !== token || index >= detail.text.length) return;
-        dispatchLifecycle({
-          commandId: detail.commandId,
-          phase: "boundary",
-          charIndex: index,
-          charLength: 1,
-          text: detail.text,
-          source: "cadence",
-          rate,
-        });
+        dispatchLifecycle({ commandId: detail.commandId, phase: "boundary", charIndex: index, charLength: 1, text: detail.text, source: "cadence", rate });
         const delay = cadenceDelay(detail.text, index, rate);
         index += /\s/.test(detail.text[index] ?? "") ? 1 : 2;
         cadenceTimerRef.current = window.setTimeout(pulse, delay);
       };
       cadenceTimerRef.current = window.setTimeout(pulse, 70);
+    };
+
+    const startVisemes = (timeline: ReturnType<typeof buildVisemeTimeline>, token: number) => {
+      clearVisemes();
+      visemeTimersRef.current = timeline.map((cue, index) => window.setTimeout(() => {
+        if (speechTokenRef.current !== token) return;
+        window.dispatchEvent(new CustomEvent(VISEME_CUE_EVENT, {
+          detail: {
+            shape: cue.viseme,
+            strength: cue.strength,
+            durationMs: cue.durationMs,
+            index,
+          },
+        }));
+      }, Math.max(0, cue.startMs)));
     };
 
     chooseVoice();
@@ -112,6 +127,7 @@ export default function IsabelSpeechRuntime() {
       speechTokenRef.current += 1;
       const token = speechTokenRef.current;
       clearCadence();
+      clearVisemes();
       window.speechSynthesis.cancel();
 
       const utterance = new SpeechSynthesisUtterance(detail.text);
@@ -121,43 +137,33 @@ export default function IsabelSpeechRuntime() {
       utterance.rate = settings.rate;
       utterance.pitch = settings.pitch;
       utterance.volume = 1;
-
       const timeline = buildVisemeTimeline(detail.text, settings.rate);
+
       window.dispatchEvent(new CustomEvent(VISEME_TIMELINE_EVENT, {
-        detail: {
-          commandId: detail.commandId,
-          text: detail.text,
-          rate: settings.rate,
-          timeline,
-        },
+        detail: { commandId: detail.commandId, text: detail.text, rate: settings.rate, timeline },
       }));
 
       utterance.onstart = () => {
+        if (speechTokenRef.current !== token) return;
         setState("speaking");
         dispatchLifecycle({ commandId: detail.commandId, phase: "start", text: detail.text, source: "browser", rate: settings.rate });
         startCadence(detail, settings.rate, token);
+        startVisemes(timeline, token);
       };
       utterance.onboundary = (boundary) => {
-        dispatchLifecycle({
-          commandId: detail.commandId,
-          phase: "boundary",
-          charIndex: boundary.charIndex,
-          charLength: boundary.charLength,
-          elapsedTime: boundary.elapsedTime,
-          text: detail.text,
-          source: "browser",
-          rate: settings.rate,
-        });
+        dispatchLifecycle({ commandId: detail.commandId, phase: "boundary", charIndex: boundary.charIndex, charLength: boundary.charLength, elapsedTime: boundary.elapsedTime, text: detail.text, source: "browser", rate: settings.rate });
       };
       utterance.onend = () => {
         if (speechTokenRef.current !== token) return;
         clearCadence();
+        clearVisemes();
         setState("idle");
         dispatchLifecycle({ commandId: detail.commandId, phase: "end", text: detail.text, source: "browser", rate: settings.rate });
       };
       utterance.onerror = () => {
         if (speechTokenRef.current !== token) return;
         clearCadence();
+        clearVisemes();
         setState("stopped");
         dispatchLifecycle({ commandId: detail.commandId, phase: "error", text: detail.text, source: "browser", rate: settings.rate });
       };
@@ -181,6 +187,7 @@ export default function IsabelSpeechRuntime() {
     return () => {
       speechTokenRef.current += 1;
       clearCadence();
+      clearVisemes();
       window.speechSynthesis.cancel();
       window.speechSynthesis.removeEventListener("voiceschanged", chooseVoice);
       window.removeEventListener(ISABEL_RUNTIME_EVENTS.speech, listener);
@@ -191,27 +198,20 @@ export default function IsabelSpeechRuntime() {
   const stop = () => {
     if (!("speechSynthesis" in window)) return;
     speechTokenRef.current += 1;
-    if (cadenceTimerRef.current !== null) {
-      window.clearTimeout(cadenceTimerRef.current);
-      cadenceTimerRef.current = null;
-    }
+    if (cadenceTimerRef.current !== null) window.clearTimeout(cadenceTimerRef.current);
+    cadenceTimerRef.current = null;
+    visemeTimersRef.current.forEach((timer) => window.clearTimeout(timer));
+    visemeTimersRef.current = [];
+    window.dispatchEvent(new CustomEvent(VISEME_CUE_EVENT, { detail: { shape: "rest", strength: 0, durationMs: 100 } }));
     window.speechSynthesis.cancel();
     setState("stopped");
     dispatchLifecycle({ phase: "cancel", text: lastText, source: "browser" });
   };
 
   return (
-    <div style={{
-      position: "fixed", right: 18, bottom: 18, zIndex: 40, width: 260, padding: 12,
-      borderRadius: 12, border: "1px solid rgba(126,211,238,.28)",
-      background: "rgba(4,9,14,.92)", color: "#dcebf1", boxShadow: "0 16px 44px rgba(0,0,0,.38)",
-      fontFamily: "Arial, sans-serif",
-    }}>
+    <div style={{ position: "fixed", right: 18, bottom: 18, zIndex: 40, width: 260, padding: 12, borderRadius: 12, border: "1px solid rgba(126,211,238,.28)", background: "rgba(4,9,14,.92)", color: "#dcebf1", boxShadow: "0 16px 44px rgba(0,0,0,.38)", fontFamily: "Arial, sans-serif" }}>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", gap: 10 }}>
-        <div>
-          <div style={{ fontSize: 9, letterSpacing: ".15em", color: "#82cce5" }}>ISABEL VOICE</div>
-          <div style={{ fontSize: 12, marginTop: 3 }}>{state === "speaking" ? "Speaking now" : state}</div>
-        </div>
+        <div><div style={{ fontSize: 9, letterSpacing: ".15em", color: "#82cce5" }}>ISABEL VOICE</div><div style={{ fontSize: 12, marginTop: 3 }}>{state === "speaking" ? "Speaking now" : state}</div></div>
         <button onClick={stop} style={{ cursor: "pointer", borderRadius: 7, border: "1px solid rgba(255,255,255,.14)", background: "#121b21", color: "white", padding: "6px 9px" }}>Stop</button>
       </div>
       <div style={{ marginTop: 8, fontSize: 10, color: "#8298a3" }}>{voiceName}</div>

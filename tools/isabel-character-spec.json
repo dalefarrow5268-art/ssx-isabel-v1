@@ -18,11 +18,12 @@
     "body": "slim natural female proportions; narrow relaxed shoulders; defined waist; natural hips; long balanced legs; no exaggerated anatomy",
     "face": "oval to soft-angular adult face; warm medium/tan skin; dark brown eyes; thick dark natural brows; subtle skin texture/freckling; poised neutral expression",
     "hair": "dark brown to black; loosely pinned-up with natural face-framing strands; realistic strand silhouette rather than helmet hair",
+    "hair_build_note": "Use the official pony asset only as a temporary baseline proxy. Production acceptance still requires the canonical loosely pinned-up Isabel hairstyle.",
     "wardrobe": "fitted black professional blazer and trousers; dark blouse; black closed-toe heels",
     "jewelry": "small gold hoop earrings and a fine round-pendant necklace; understated professional scale"
   },
   "asset_search": {
-    "hair": ["updo", "ponytail", "wavy", "long", "dark", "brown"],
+    "hair": ["pony"],
     "skin": ["midtoned_female", "tan", "female"],
     "eyes": ["eyes", "brown"],
     "eyebrows": ["eyebrow", "thick"],

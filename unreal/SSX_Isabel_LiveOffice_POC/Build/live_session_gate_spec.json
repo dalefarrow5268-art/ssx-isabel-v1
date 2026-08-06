@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "purpose": "Gate the Isabel live office session until the full runtime is safe and coherent enough to admit a user.",
+  "states": ["BOOTING", "CHECKING", "REPAIRING", "DEGRADED", "READY", "BLOCKED"],
+  "required_before_ready": {
+    "unreal_runtime": true,
+    "pixel_streaming_data_channel": true,
+    "isabel_character": "ISABEL_CHARACTER",
+    "arrival_camera": "CAMERA_ARRIVAL",
+    "identity_lock": true,
+    "geometry_lock": true,
+    "screen_actors": ["SCREEN_01", "SCREEN_02", "SCREEN_03", "SCREEN_04"],
+    "state_backbone": true,
+    "event_transport": true,
+    "command_receiver": true
+  },
+  "repairable_conditions": {
+    "screen_feed_offline": "switch only the affected monitor to controlled fallback and retry",
+    "memory_offline": "enter session-local memory mode",
+    "voice_offline": "enable typed interaction fallback",
+    "tts_offline": "show text response and suppress lip sync",
+    "browser_reconnect": "increment connection epoch and restore stable session state",
+    "pixel_stream_reconnect": "preserve session and retry transport without resetting office"
+  },
+  "fatal_conditions": [
+    "identity_lock_failure",
+    "geometry_lock_failure",
+    "camera_lock_failure",
+    "missing_isabel_character",
+    "missing_command_receiver",
+    "unauthorized_external_action_replay",
+    "state_backbone_corruption"
+  ],
+  "startup_policy": {
+    "max_auto_repair_attempts_per_subsystem": 3,
+    "repair_backoff_seconds": [1, 3, 8],
+    "do_not_replay_external_actions": true,
+    "restore_only_stable_pose": true,
+    "restore_only_named_anchor": true,
+    "browser_can_show_degraded_mode": true,
+    "browser_must_not_label_session_live_until_gate_ready": true
+  },
+  "ready_contract": {
+    "browser_status": "LIVE",
+    "unreal_status": "READY",
+    "isabel_state": "stable",
+    "command_roundtrip_ack": true,
+    "heartbeat_required": true,
+    "health_snapshot_required": true
+  }
+}

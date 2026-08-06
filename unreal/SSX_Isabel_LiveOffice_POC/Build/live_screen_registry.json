@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "screens": {
+    "SCREEN_01": {
+      "role": "project_overview",
+      "source_type": "web",
+      "default_path": "/screens/project-overview",
+      "refresh_mode": "live"
+    },
+    "SCREEN_02": {
+      "role": "schedule",
+      "source_type": "web",
+      "default_path": "/screens/schedule",
+      "refresh_mode": "live"
+    },
+    "SCREEN_03": {
+      "role": "risk_and_issues",
+      "source_type": "web",
+      "default_path": "/screens/risk",
+      "refresh_mode": "live"
+    },
+    "SCREEN_04": {
+      "role": "cameras_and_evidence",
+      "source_type": "web",
+      "default_path": "/screens/evidence",
+      "refresh_mode": "live"
+    }
+  },
+  "rules": [
+    "Each monitor remains an independent 16:9 physical surface.",
+    "Screen content may update without rebuilding or regenerating the office.",
+    "Text and charts are rendered by the web/data layer, not by image generation.",
+    "Unreal owns perspective, reflections, lighting, and physical placement."
+  ]
+}

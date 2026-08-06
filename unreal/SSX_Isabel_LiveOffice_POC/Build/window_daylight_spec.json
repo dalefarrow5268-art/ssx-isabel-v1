@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "window_wall": {
+    "side": "left",
+    "bay_count": 3,
+    "sill_height_cm": 45,
+    "head_height_cm": 300,
+    "frame_depth_cm": 12,
+    "mullion_width_cm": 8,
+    "frame_finish": "dark_satin_metal",
+    "glass": {
+      "tint": "neutral_clear",
+      "roughness": 0.05,
+      "ior": 1.52,
+      "double_sided": true
+    }
+  },
+  "exterior": {
+    "mode": "controlled_city_backplate_or_lightweight_3d",
+    "priority": "daylight_and_depth_over_detail",
+    "motion_allowed": ["subtle_cloud_change", "distant_traffic", "very_slow_parallax"],
+    "forbidden": ["busy_video_wall_feel", "high_contrast_flicker", "rapid_camera_motion", "AI_generated_window_distortion"]
+  },
+  "daylight": {
+    "key": "directional_sun",
+    "fill": "skylight",
+    "target_feel": "bright_warm_professional",
+    "sun_angle_deg": 35,
+    "sun_yaw_deg": -35,
+    "interior_white_balance_k": 5600,
+    "exposure_strategy": "protect_monitor_whites_and_isabel_skin",
+    "lumen_required": true
+  },
+  "acceptance": [
+    "Window frames remain straight and crisp in the arrival camera.",
+    "Exterior never overpowers Isabel or the monitor wall.",
+    "No clipped white sky through the windows.",
+    "Isabel skin remains neutral and readable near the window side.",
+    "Monitor text remains readable while daylight is active.",
+    "Window geometry never changes when Isabel moves or camera context changes."
+  ]
+}

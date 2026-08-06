@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "purpose": "Persistent relationship and work-continuity memory for Isabel.",
+  "principles": {
+    "project_bound_by_default": true,
+    "human_review_for_durable_memory": true,
+    "no_hidden_permanent_memory": true,
+    "separate_fact_preference_commitment": true,
+    "record_provenance": true,
+    "expire_or_refresh_stale_context": true
+  },
+  "memory_classes": {
+    "session": {
+      "examples": ["current topic", "active screen", "temporary task context"],
+      "persistence": "session"
+    },
+    "project": {
+      "examples": ["project role", "approved workflow preference", "known decision pattern"],
+      "persistence": "durable_with_review"
+    },
+    "relationship": {
+      "examples": ["communication preference", "preferred briefing style", "working cadence"],
+      "persistence": "durable_with_review"
+    },
+    "commitment": {
+      "examples": ["Isabel promised to follow up", "awaiting user decision", "requested document"],
+      "persistence": "until_resolved_or_expired"
+    }
+  },
+  "entry_schema": {
+    "id": "string",
+    "class": "session|project|relationship|commitment",
+    "subject": "string",
+    "statement": "string",
+    "project_id": "string|null",
+    "confidence": "0..1",
+    "source": "conversation|user_confirmation|system_event|document",
+    "created_at": "iso8601",
+    "last_confirmed_at": "iso8601|null",
+    "expires_at": "iso8601|null",
+    "status": "proposed|approved|declined|resolved|expired",
+    "sensitivity": "normal|restricted",
+    "notes": "string|null"
+  },
+  "retrieval_rules": [
+    "Retrieve current project context before relationship context.",
+    "Prefer approved memory over inferred memory.",
+    "Surface unresolved commitments when the user returns.",
+    "Never present low-confidence inferred preference as fact.",
+    "Ask for confirmation before promoting inferred preference to durable memory.",
+    "Do not let stale memory override current explicit user instructions."
+  ],
+  "return_to_office_behavior": {
+    "resume_last_stable_context": true,
+    "surface_open_commitments": true,
+    "mention_prior_context_only_when_relevant": true,
+    "avoid_repeating_old_context_without_need": true,
+    "preserve_last_stable_emotional_mode": true
+  },
+  "authority_rules": [
+    "Memory may prepare work but cannot authorize external actions.",
+    "Durable relationship preferences require user approval or strong explicit evidence.",
+    "Deletion or correction must supersede prior memory immediately.",
+    "Restricted memory must never be exposed to unrelated projects or users."
+  ]
+}

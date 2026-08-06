@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "system": "isabel_fault_tolerance",
+  "principles": [
+    "degrade one subsystem at a time instead of collapsing the full experience",
+    "preserve user trust by stating what is unavailable without overstating success",
+    "never convert missing data into fabricated data",
+    "preserve Isabel identity, authority boundaries, office geometry, and continuity during recovery",
+    "prefer last-known-good state only when it is explicitly labeled stale and still safe to show"
+  ],
+  "subsystems": {
+    "pixel_streaming": {
+      "failure": "browser loses Unreal stream or WebRTC cannot connect",
+      "degraded_mode": "show live-office shell with renderer-offline status, preserve controls disabled except reconnect and diagnostics",
+      "recovery": "retry with exponential backoff, restore previous continuity state after renderer returns",
+      "never": ["pretend Isabel is still visually present", "reset office continuity without reason"]
+    },
+    "screen_data": {
+      "failure": "one or more monitor routes fail",
+      "degraded_mode": "keep physical monitor present and display controlled fallback with last-good timestamp",
+      "recovery": "retry only the failed screen independently",
+      "never": ["blank the whole office", "replace failed data with invented values"]
+    },
+    "asr": {
+      "failure": "speech recognition unavailable or confidence too low",
+      "degraded_mode": "keep listening body language, request concise repeat or permit typed input",
+      "recovery": "retry ASR stream without restarting Unreal",
+      "never": ["guess a consequential command from low-confidence transcript"]
+    },
+    "tts": {
+      "failure": "voice synthesis fails or stalls",
+      "degraded_mode": "show concise text response and keep non-speaking facial state stable",
+      "recovery": "retry voice on next turn or after provider recovery",
+      "never": ["desynchronize mouth motion from missing audio"]
+    },
+    "brain": {
+      "failure": "reasoning provider times out or returns invalid plan",
+      "degraded_mode": "remain responsive, acknowledge failure, preserve current office state, allow simple deterministic commands",
+      "recovery": "retry with bounded fallback model/provider if configured",
+      "never": ["execute a partially validated consequential plan"]
+    },
+    "navigation": {
+      "failure": "path unavailable, blocked, or movement timeout",
+      "degraded_mode": "stop safely at current location, face user or nearest valid target, explain movement is unavailable if relevant",
+      "recovery": "repath once, then use stationary explanation rather than teleporting",
+      "never": ["teleport in production", "clip through desk, chairs, monitor wall, or windows"]
+    },
+    "facial_performance": {
+      "failure": "face rig/audio-driven animation unavailable",
+      "degraded_mode": "neutral attentive face with eye/head behavior only",
+      "recovery": "rebind facial rig without recreating character actor",
+      "never": ["swap to a different face or identity"]
+    },
+    "memory": {
+      "failure": "memory store unavailable or inconsistent",
+      "degraded_mode": "operate session-local only and disclose durable memory is temporarily unavailable when relevant",
+      "recovery": "reconnect and reconcile by source/version, never blind overwrite",
+      "never": ["invent remembered preferences", "silently discard user corrections"]
+    },
+    "evidence": {
+      "failure": "source connector unavailable, stale, contradictory, or missing",
+      "degraded_mode": "show known facts, mark stale/unknown fields, gather alternate evidence",
+      "recovery": "refresh source independently and recompute affected conclusions",
+      "never": ["promote inference to confirmed fact"]
+    },
+    "action_execution": {
+      "failure": "external write/send/create fails after approval",
+      "degraded_mode": "mark execution failed, retain exact approved payload and do not claim success",
+      "recovery": "retry only if approval remains valid for unchanged payload or request approval again",
+      "never": ["treat attempted execution as verified result"]
+    }
+  },
+  "severity_levels": {
+    "INFO": "no user-visible degradation",
+    "DEGRADED": "one feature unavailable but Isabel remains useful",
+    "BLOCKED": "requested capability cannot safely proceed",
+    "FATAL": "identity, authority, evidence integrity, or geometry integrity is compromised"
+  },
+  "fatal_conditions": [
+    "identity drift",
+    "office geometry drift",
+    "unauthorized consequential action",
+    "fabricated project data",
+    "verification claimed without evidence"
+  ],
+  "acceptance": [
+    "single subsystem failures do not restart the entire office",
+    "continuity state survives recoverable reconnects",
+    "failed monitor data remains isolated to the affected monitor",
+    "navigation failure never causes teleportation",
+    "voice failure never causes fake lip sync",
+    "external action failure is visible and auditable",
+    "all degraded states have an explicit recovery path"
+  ]
+}

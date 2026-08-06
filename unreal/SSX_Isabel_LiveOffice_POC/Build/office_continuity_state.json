@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "default": {
+    "isabel": {
+      "anchor": "ISABEL_DESK_SEATED",
+      "posture": "SEATED",
+      "activity": "IDLE_WORK",
+      "attention": "SCREEN_02",
+      "speaking": false,
+      "last_command": "IDLE_WORK"
+    },
+    "office": {
+      "camera": "CAMERA_ARRIVAL",
+      "active_screen": "SCREEN_02",
+      "lighting_profile": "DAYLIGHT",
+      "session_mode": "AVAILABLE"
+    }
+  },
+  "resume_rules": [
+    "Restore Isabel to the last completed safe anchor when a session reconnects.",
+    "Never resume halfway through a sit, stand, walk, or gesture transition.",
+    "If the saved action was transitional, resolve to its nearest stable endpoint before rendering.",
+    "Screen state may recover independently of Isabel position.",
+    "Identity and office geometry are never part of transient continuity state."
+  ]
+}

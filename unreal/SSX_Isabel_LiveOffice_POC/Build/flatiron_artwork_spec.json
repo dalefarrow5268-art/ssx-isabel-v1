@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "artwork": {
+    "name": "Flatiron Building",
+    "role": "framed_art_behind_isabel",
+    "texture_asset": "/Game/Isabel/Art/T_Flatiron_Building",
+    "placement": {
+      "wall": "right_isabel_wall",
+      "centered_to": "ISABEL_DESK_SEATED",
+      "center_height_cm": 205,
+      "offset_from_wall_cm": 2.0
+    }
+  },
+  "frame": {
+    "outer_width_cm": 92,
+    "outer_height_cm": 122,
+    "frame_face_width_cm": 4.0,
+    "frame_depth_cm": 3.0,
+    "finish": "matte_near_black"
+  },
+  "mat": {
+    "visible_width_cm": 7.5,
+    "finish": "clean_neutral_white",
+    "target_reference": "same_white_family_as_monitor_reveal",
+    "rule": "mat remains visibly white under room lighting without clipping"
+  },
+  "glazing": {
+    "enabled": true,
+    "roughness": 0.12,
+    "reflection_strength": 0.18,
+    "rule": "subtle reflections only; artwork stays readable from arrival camera"
+  },
+  "acceptance": [
+    "frame remains square and undistorted",
+    "mat width is even on all four sides",
+    "Flatiron image is readable from CAMERA_ARRIVAL",
+    "artwork does not drift when Isabel moves",
+    "frame and mat are separate geometry from the wall",
+    "monitor reveal and picture mat read as related whites, not mismatched colors"
+  ]
+}

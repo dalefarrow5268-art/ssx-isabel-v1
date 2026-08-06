@@ -20,6 +20,7 @@
     "hair": "dark brown to black; loosely pinned-up with natural face-framing strands; realistic strand silhouette rather than helmet hair",
     "hair_build_note": "Use the official pony asset only as a temporary baseline proxy. Production acceptance still requires the canonical loosely pinned-up Isabel hairstyle.",
     "wardrobe": "fitted black professional blazer and trousers; dark blouse; black closed-toe heels",
+    "wardrobe_build_note": "Use the official female_elegantsuit01 as a temporary full-outfit silhouette. Production acceptance still requires Isabel's fitted black blazer/trousers/blouse and heels.",
     "jewelry": "small gold hoop earrings and a fine round-pendant necklace; understated professional scale"
   },
   "asset_search": {
@@ -28,9 +29,9 @@
     "eyes": ["eyes", "brown"],
     "eyebrows": ["eyebrow", "thick"],
     "eyelashes": ["eyelash"],
-    "top": ["blazer", "jacket", "suit", "coat", "black"],
-    "bottom": ["trouser", "pants", "slacks", "suit", "black"],
-    "shoes": ["heel", "pump", "shoe", "black"]
+    "top": ["female_elegantsuit01"],
+    "bottom": [],
+    "shoes": ["shoes01"]
   },
   "required_runtime_contract": {
     "root_name": "Armature",

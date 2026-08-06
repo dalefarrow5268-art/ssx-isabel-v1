@@ -11,6 +11,10 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: isabel-character-build
+  cancel-in-progress: true
+
 jobs:
   build-isabel:
     runs-on: ubuntu-26.04

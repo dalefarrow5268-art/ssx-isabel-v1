@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "name": "Isabel Production Watchdog",
+  "purpose": "Keep the home AI host, Unreal renderer, Pixel Streaming transport, browser bridge, live screens, and Isabel runtime healthy without manual babysitting.",
+  "poll_seconds": 5,
+  "startup_grace_seconds": 90,
+  "recovery_cooldown_seconds": 20,
+  "max_restart_attempts_per_component": 3,
+  "components": {
+    "unreal": {
+      "required": true,
+      "health": ["process_alive", "runtime_heartbeat_fresh"],
+      "recovery": ["preserve_continuity_snapshot", "restart_unreal", "run_live_session_gate"],
+      "fatal_if": ["identity_lock_failed", "geometry_lock_failed", "camera_lock_failed"]
+    },
+    "pixel_streaming": {
+      "required": true,
+      "health": ["signalling_reachable", "data_channel_heartbeat_fresh"],
+      "recovery": ["restart_pixel_streaming_services", "rebind_runtime_bridge", "run_live_session_gate"]
+    },
+    "browser_bridge": {
+      "required": true,
+      "health": ["staging_url_reachable", "bridge_heartbeat_fresh"],
+      "recovery": ["refresh_bridge_session", "increment_connection_epoch"]
+    },
+    "screens": {
+      "required": true,
+      "health": ["screen_01", "screen_02", "screen_03", "screen_04"],
+      "recovery": ["retry_failed_screen_only", "retain_last_good_url", "show_controlled_fallback"],
+      "rule": "Never restart the whole office for one failed monitor feed."
+    },
+    "voice": {
+      "required": false,
+      "health": ["asr_available", "tts_available"],
+      "recovery": ["retry_provider", "degrade_to_text_if_needed"]
+    },
+    "memory": {
+      "required": false,
+      "health": ["memory_store_available"],
+      "recovery": ["degrade_to_session_local_memory"],
+      "rule": "Never invent remembered preferences while memory is unavailable."
+    }
+  },
+  "global_invariants": [
+    "Never auto-replay an external consequential action after restart or reconnect.",
+    "Never treat execution as verification.",
+    "Never overwrite the locked Isabel identity.",
+    "Never alter locked office geometry or camera framing as a recovery tactic.",
+    "Always preserve the latest stable continuity state before restarting Unreal.",
+    "Recover transitional posture to the nearest safe stable posture before resuming behavior.",
+    "If repeated recovery exceeds the restart budget, enter BLOCKED and surface the exact failed component."
+  ],
+  "watchdog_states": ["STARTING", "HEALTHY", "DEGRADED", "RECOVERING", "BLOCKED"],
+  "status_file": "latest_watchdog_status.json"
+}

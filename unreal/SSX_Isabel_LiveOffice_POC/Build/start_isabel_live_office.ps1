@@ -1,47 +1,57 @@
+param(
+  [string]$ConfigPath = (Join-Path $PSScriptRoot 'isabel_machine_config.json')
+)
+
 $ErrorActionPreference = 'Stop'
+Write-Host '=== SSX Isabel Live Office - Config Driven Startup ==='
 
-Write-Host '=== SSX Isabel Live Office - One Click Startup ==='
+$configLoader = Join-Path $PSScriptRoot 'import_isabel_machine_config.ps1'
+$config = & $configLoader -ConfigPath $ConfigPath
+$root = $config.repo.local_path
+$branch = $config.repo.branch
+$project = $config.unreal.project_file
+$editor = $config.unreal.editor_exe
+$health = Join-Path $PSScriptRoot 'run_health_report.ps1'
 
-$root = Join-Path $HOME 'Documents\SSX\ssx-isabel-v1'
-$branch = 'isabel-live-office-poc'
-$project = Join-Path $root 'unreal\SSX_Isabel_LiveOffice_POC\SSX_Isabel_LiveOffice_POC.uproject'
-$health = Join-Path $root 'unreal\SSX_Isabel_LiveOffice_POC\Build\run_health_report.ps1'
-
-if (-not (Test-Path $root)) {
-  throw "Project folder not found: $root. Run setup_home_ai_pc.ps1 first."
-}
+if (-not (Test-Path $root)) { throw "Project folder not found: $root. Run setup_home_ai_pc.ps1 first." }
+if (-not (Test-Path $project)) { throw "Unreal project not found: $project" }
+if (-not (Test-Path $editor)) { throw "Configured Unreal Editor not found: $editor" }
 
 Set-Location $root
-Write-Host '[1/8] Updating repository...'
-git fetch origin
-git checkout $branch
-git pull origin $branch
+Write-Host '[1/8] Updating configured repository branch...'
+try {
+  git fetch origin $branch
+  git checkout $branch
+  git pull --ff-only origin $branch
+} catch {
+  Write-Warning "Git update failed; continuing with installed revision: $($_.Exception.Message)"
+}
 
 Write-Host '[2/8] Running preflight health report...'
-if (Test-Path $health) { & $health }
+if (Test-Path $health) { & powershell.exe -NoProfile -ExecutionPolicy Bypass -File $health }
 
-Write-Host '[3/8] Locating Unreal Editor...'
-$editors = @(
-  'C:\Program Files\Epic Games\UE_5.7\Engine\Binaries\Win64\UnrealEditor.exe',
-  'D:\Epic Games\UE_5.7\Engine\Binaries\Win64\UnrealEditor.exe'
-)
-$editor = $editors | Where-Object { Test-Path $_ } | Select-Object -First 1
-if (-not $editor) { throw 'Unreal Engine 5.7 not found.' }
+Write-Host '[3/8] Validating configured Unreal Editor...'
+Write-Host "  Engine: $($config.unreal.engine_version)"
+Write-Host "  Editor: $editor"
 
 Write-Host '[4/8] Opening Isabel Unreal project...'
-Start-Process -FilePath $editor -ArgumentList @('"' + $project + '"')
+$arguments = @('"' + $project + '"')
+if ($config.unreal.map) { $arguments += $config.unreal.map }
+Start-Process -FilePath $editor -ArgumentList $arguments
 
 Write-Host '[5/8] Waiting for Unreal startup...'
-Start-Sleep -Seconds 12
+Start-Sleep -Seconds ([Math]::Min([int]$config.runtime.startup_timeout_seconds, 15))
 
-Write-Host '[6/8] Browser shell target prepared.'
-Write-Host 'Once Pixel Streaming is running, open the SSX /live-office route.'
+Write-Host '[6/8] Browser and screen targets:'
+Write-Host "  Front door: $($config.web.front_door_url)"
+Write-Host "  Live office: $($config.web.live_office_path)"
+Write-Host "  Stream URL: $($config.web.stream_url)"
+Write-Host "  Screen base: $($config.screens.base_url)"
 
-Write-Host '[7/8] Startup status:'
-Write-Host "  Project: $project"
-Write-Host "  Branch:  $branch"
-Write-Host "  Editor:  $editor"
+Write-Host '[7/8] Pixel Streaming config:'
+Write-Host "  Signalling host: $($config.pixel_streaming.signalling_host)"
+Write-Host "  HTTP port: $($config.pixel_streaming.http_port)"
+Write-Host "  Streamer port: $($config.pixel_streaming.streamer_port)"
+Write-Host "  SFU port: $($config.pixel_streaming.sfu_port)"
 
-Write-Host '[8/8] Next inside Unreal:'
-Write-Host '  Run Build/first_launch_bootstrap.py if the POC map is not yet built.'
-Write-Host '  Then run the Pixel Streaming local launcher and open Chrome.'
+Write-Host '[8/8] Startup prepared. Live session gate still decides READY/LIVE.'

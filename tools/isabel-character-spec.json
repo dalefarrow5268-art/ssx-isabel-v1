@@ -1,9 +1,9 @@
 {
-  "schema": "ssx.isabel.character-build.v1",
+  "schema": "ssx.isabel.character-build.v2",
   "name": "Isabel",
   "source": "locked-isabel-reference-pack",
-  "generator": "MPFB 2.0.16+ / Blender 4.1+",
-  "rig": "game_engine",
+  "generator": "MPFB 2.0.17+ / Blender 4.2+",
+  "rig": "mixamo",
   "phenotype": {
     "age": 0.28,
     "gender": 0.0,
@@ -16,36 +16,44 @@
   "visual_targets": {
     "adult_professional": true,
     "body": "slim natural female proportions; narrow relaxed shoulders; defined waist; natural hips; long balanced legs; no exaggerated anatomy",
-    "face": "oval/soft-angular adult face; dark brown eyes; natural brows; poised neutral expression",
-    "hair": "dark brown, long/wavy or loosely pinned-up with face-framing strands",
+    "face": "oval to soft-angular adult face; warm medium/tan skin; dark brown eyes; thick dark natural brows; subtle skin texture/freckling; poised neutral expression",
+    "hair": "dark brown to black; loosely pinned-up with natural face-framing strands; realistic strand silhouette rather than helmet hair",
     "wardrobe": "fitted black professional blazer and trousers; dark blouse; black closed-toe heels",
-    "jewelry": "subtle professional jewelry only"
+    "jewelry": "small gold hoop earrings and a fine round-pendant necklace; understated professional scale"
   },
   "asset_search": {
-    "hair": ["ponytail", "wavy", "long", "brown"],
-    "skin": ["midtoned_female", "female"],
-    "eyes": ["eyes"],
-    "eyebrows": ["eyebrow"],
+    "hair": ["updo", "ponytail", "wavy", "long", "dark", "brown"],
+    "skin": ["midtoned_female", "tan", "female"],
+    "eyes": ["eyes", "brown"],
+    "eyebrows": ["eyebrow", "thick"],
     "eyelashes": ["eyelash"],
-    "top": ["blazer", "jacket", "suit", "coat"],
-    "bottom": ["trouser", "pants", "slacks", "suit"],
-    "shoes": ["heel", "pump", "shoe"]
+    "top": ["blazer", "jacket", "suit", "coat", "black"],
+    "bottom": ["trouser", "pants", "slacks", "suit", "black"],
+    "shoes": ["heel", "pump", "shoe", "black"]
   },
   "required_runtime_contract": {
+    "root_name": "Armature",
+    "rig_family": "Mixamo-compatible",
     "bones": ["hips", "spine", "chest", "neck", "head", "leftUpperArm", "leftLowerArm", "leftHand", "rightUpperArm", "rightLowerArm", "rightHand", "leftUpperLeg", "leftLowerLeg", "leftFoot", "rightUpperLeg", "rightLowerLeg", "rightFoot"],
-    "face": ["blink-left", "blink-right", "jaw-open", "visemes-or-arkit"],
+    "face_arkit_count": 52,
+    "viseme_count": 15,
+    "gaze": "ARKit eye-look morphs required; dedicated LeftEye/RightEye bones preferred when available",
     "export": "GLB",
     "forward_axis": "+Z normalized by runtime",
     "target_scene_height": 4.15
   },
   "quality_gates": [
-    "single connected skinned humanoid",
+    "single coherent skinned humanoid hierarchy",
     "feet at ground in neutral pose",
     "hands and feet fully modeled",
     "no helper geometry exported",
     "PBR-compatible materials",
-    "GameEngine rig present",
+    "Mixamo-compatible rig present",
+    "root object named Armature",
     "animation retargeting validation passes",
-    "facial morph validation passes before production"
+    "52 ARKit face units available before production",
+    "15 Oculus/Meta visemes available before production",
+    "eye gaze passes close-up browser test",
+    "canonical Isabel likeness reviewed before production"
   ]
 }

@@ -27,6 +27,11 @@ jobs:
           ref: isabel-office-review
           lfs: false
 
+      - name: Record Isabel source revision
+        run: |
+          echo "Building isabel-office-review at $(git rev-parse HEAD)"
+          git log -1 --oneline
+
       - name: Install Blender, NumPy, and Git LFS
         run: |
           sudo apt-get update

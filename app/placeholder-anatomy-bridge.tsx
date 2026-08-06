@@ -120,6 +120,66 @@ export default function IsabelPlaceholderAnatomyBridge() {
         };
         window.addEventListener("isabel-three-state", stateListener);
 
+        const targetWorld = new THREE.Vector3();
+        const linkWorld = new THREE.Vector3();
+        const effectorWorld = new THREE.Vector3();
+        const linkWorldQ = new THREE.Quaternion();
+        const inverseLinkQ = new THREE.Quaternion();
+        const effectorVector = new THREE.Vector3();
+        const targetVector = new THREE.Vector3();
+        const axis = new THREE.Vector3();
+        const deltaQ = new THREE.Quaternion();
+        const leftFootWorld = new THREE.Vector3();
+        const rightFootWorld = new THREE.Vector3();
+
+        const solveArmToward = (
+          target: import("three").Vector3,
+          effector: import("three").Bone | undefined,
+          links: Array<import("three").Bone | undefined>,
+          strength: number,
+        ) => {
+          if (!effector || links.some((link) => !link)) return;
+          targetWorld.copy(target);
+          avatar.updateMatrixWorld(true);
+
+          for (let iteration = 0; iteration < 4; iteration += 1) {
+            for (const maybeLink of links) {
+              const link = maybeLink!;
+              link.getWorldPosition(linkWorld);
+              link.getWorldQuaternion(linkWorldQ);
+              effector.getWorldPosition(effectorWorld);
+
+              inverseLinkQ.copy(linkWorldQ).invert();
+              effectorVector.subVectors(effectorWorld, linkWorld).applyQuaternion(inverseLinkQ).normalize();
+              targetVector.subVectors(targetWorld, linkWorld).applyQuaternion(inverseLinkQ).normalize();
+
+              const dot = THREE.MathUtils.clamp(effectorVector.dot(targetVector), -1, 1);
+              let angle = Math.acos(dot);
+              if (!Number.isFinite(angle) || angle < 0.0001) continue;
+              angle = Math.min(angle, 0.22) * strength;
+
+              axis.crossVectors(effectorVector, targetVector);
+              if (axis.lengthSq() < 0.000001) continue;
+              axis.normalize();
+              deltaQ.setFromAxisAngle(axis, angle);
+              link.quaternion.multiply(deltaQ).normalize();
+              link.updateMatrixWorld(true);
+            }
+          }
+        };
+
+        const stabilizeFeetToFloor = (strength: number) => {
+          const leftFoot = controller?.report.bones.leftFoot;
+          const rightFoot = controller?.report.bones.rightFoot;
+          if (!leftFoot || !rightFoot || strength <= 0) return;
+          avatar.updateMatrixWorld(true);
+          leftFoot.getWorldPosition(leftFootWorld);
+          rightFoot.getWorldPosition(rightFootWorld);
+          const lowestFoot = Math.min(leftFootWorld.y, rightFootWorld.y);
+          const correction = THREE.MathUtils.clamp(-lowestFoot, -0.08, 0.08) * strength;
+          human.position.y += correction;
+        };
+
         let previousTime = performance.now();
         let activeMotion: "idle" | "walk" | "sit" | "stand" | "present" = "sit";
 
@@ -151,8 +211,21 @@ export default function IsabelPlaceholderAnatomyBridge() {
           }
 
           controller?.update(delta);
-          human.rotation.z = Math.sin(now * 0.00048) * (activeState === "listen" ? 0.003 : 0.0012);
 
+          if (presenting && controller) {
+            const report = controller.report;
+            const gestureTarget = new THREE.Vector3(-3.15, 3.15, -2.25);
+            solveArmToward(
+              gestureTarget,
+              report.bones.rightHand,
+              [report.bones.rightLowerArm, report.bones.rightUpperArm],
+              0.32,
+            );
+          }
+
+          if (!seated) stabilizeFeetToFloor(walking ? 0.18 : 0.34);
+
+          human.rotation.z = Math.sin(now * 0.00048) * (activeState === "listen" ? 0.003 : 0.0012);
           frame = window.requestAnimationFrame(animate);
         };
         frame = window.requestAnimationFrame(animate);

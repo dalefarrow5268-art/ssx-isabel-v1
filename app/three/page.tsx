@@ -169,7 +169,7 @@ export default function ThreeMotionLab() {
       const rightKnee = makeLimb(rightLeg, 0.19, 0.88);
 
       rig.position.set(0, 0, 1.15);
-      rig.rotation.y = Math.PI;
+      rig.rotation.y = 0;
 
       const clock = new THREE.Clock();
       let frame = 0;
@@ -204,19 +204,20 @@ export default function ThreeMotionLab() {
         if (activeState === "idle") {
           rig.position.x += (0 - rig.position.x) * 0.03;
           rig.position.z += (1.15 - rig.position.z) * 0.03;
-          rig.rotation.y += (Math.PI - rig.rotation.y) * 0.04;
+          rig.rotation.y += (0 - rig.rotation.y) * 0.04;
           rig.position.y *= 0.8;
           headPivot.rotation.y = Math.sin(t * 0.55) * 0.08;
           leftForearm.rotation.x = -1 + Math.sin(t * 3) * 0.08;
           rightForearm.rotation.x = -1 - Math.sin(t * 3) * 0.08;
         } else if (activeState === "notice") {
-          headPivot.rotation.y += (0.65 - headPivot.rotation.y) * 0.08;
+          rig.rotation.y += (0 - rig.rotation.y) * 0.08;
+          headPivot.rotation.y += (0 - headPivot.rotation.y) * 0.08;
           headPivot.rotation.x += (-0.08 - headPivot.rotation.x) * 0.08;
         } else if (activeState === "walk" || activeState === "return") {
           const returning = activeState === "return";
           const targetX = returning ? 0 : -2.6;
           const targetZ = returning ? 1.15 : -1.25;
-          const targetFacing = returning ? Math.PI : 0.1;
+          const targetFacing = returning ? 0 : Math.PI;
           rig.position.x += (targetX - rig.position.x) * 0.014;
           rig.position.z += (targetZ - rig.position.z) * 0.014;
           rig.rotation.y += (targetFacing - rig.rotation.y) * 0.035;
@@ -231,9 +232,9 @@ export default function ThreeMotionLab() {
         } else if (activeState === "present") {
           rig.position.x += (-2.6 - rig.position.x) * 0.04;
           rig.position.z += (-1.25 - rig.position.z) * 0.04;
-          rig.rotation.y += (0.1 - rig.rotation.y) * 0.05;
+          rig.rotation.y += (Math.PI - rig.rotation.y) * 0.05;
           rig.position.y *= 0.8;
-          headPivot.rotation.y += (0.15 - headPivot.rotation.y) * 0.05;
+          headPivot.rotation.y += (0 - headPivot.rotation.y) * 0.05;
           rightArm.rotation.z = -0.72;
           rightArm.rotation.x = -0.35;
           rightForearm.rotation.x = -0.75;

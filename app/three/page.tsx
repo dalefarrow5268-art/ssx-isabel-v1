@@ -1,9 +1,18 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type { Group, Mesh } from "three";
 import styles from "./three.module.css";
 
 type MotionState = "idle" | "notice" | "walk" | "present" | "return";
+
+const sequence: Array<{ state: MotionState; ms: number }> = [
+  { state: "idle", ms: 2600 },
+  { state: "notice", ms: 1500 },
+  { state: "walk", ms: 5200 },
+  { state: "present", ms: 4200 },
+  { state: "return", ms: 5200 },
+];
 
 const labels: Record<MotionState, string> = {
   idle: "Working at desk",
@@ -15,7 +24,19 @@ const labels: Record<MotionState, string> = {
 
 export default function ThreeMotionLab() {
   const mountRef = useRef<HTMLDivElement>(null);
-  const [state, setState] = useState<MotionState>("idle");
+  const [index, setIndex] = useState(0);
+  const [running, setRunning] = useState(true);
+  const state = sequence[index].state;
+
+  useEffect(() => {
+    if (!running) return;
+    const timer = window.setTimeout(() => setIndex((value) => (value + 1) % sequence.length), sequence[index].ms);
+    return () => window.clearTimeout(timer);
+  }, [index, running]);
+
+  useEffect(() => {
+    window.dispatchEvent(new CustomEvent("isabel-three-state", { detail: state }));
+  }, [state]);
 
   useEffect(() => {
     let cleanup = () => {};
@@ -41,8 +62,7 @@ export default function ThreeMotionLab() {
       renderer.shadowMap.type = THREE.PCFSoftShadowMap;
       mount.appendChild(renderer.domElement);
 
-      const ambient = new THREE.HemisphereLight(0xd8ebff, 0x202934, 2.2);
-      scene.add(ambient);
+      scene.add(new THREE.HemisphereLight(0xd8ebff, 0x202934, 2.2));
       const key = new THREE.DirectionalLight(0xffffff, 3.4);
       key.position.set(4, 8, 5);
       key.castShadow = true;
@@ -83,7 +103,6 @@ export default function ThreeMotionLab() {
 
       const rig = new THREE.Group();
       scene.add(rig);
-
       const skin = new THREE.MeshStandardMaterial({ color: 0xb9775f, roughness: 0.58 });
       const suit = new THREE.MeshStandardMaterial({ color: 0x111418, roughness: 0.66 });
       const hair = new THREE.MeshStandardMaterial({ color: 0x251813, roughness: 0.8 });
@@ -100,23 +119,19 @@ export default function ThreeMotionLab() {
       const headPivot = new THREE.Group();
       headPivot.position.y = 3.78;
       rig.add(headPivot);
-
       const head = new THREE.Mesh(new THREE.SphereGeometry(0.48, 32, 24), skin);
       head.scale.set(0.88, 1.08, 0.9);
       head.castShadow = true;
       headPivot.add(head);
-
       const bun = new THREE.Mesh(new THREE.SphereGeometry(0.33, 24, 18), hair);
       bun.position.set(0, 0.35, -0.25);
       headPivot.add(bun);
-
       const hairCap = new THREE.Mesh(new THREE.SphereGeometry(0.5, 24, 18, 0, Math.PI * 2, 0, Math.PI * 0.58), hair);
       hairCap.position.set(0, 0.08, -0.03);
-      hairCap.rotation.x = -0.05;
       headPivot.add(hairCap);
 
+      const eyes: Mesh[] = [];
       const eyeMaterial = new THREE.MeshStandardMaterial({ color: 0x1d1712, roughness: 0.2 });
-      const eyes: THREE.Mesh[] = [];
       [-0.17, 0.17].forEach((x) => {
         const eye = new THREE.Mesh(new THREE.SphereGeometry(0.045, 16, 12), eyeMaterial);
         eye.position.set(x, 0.06, 0.43);
@@ -124,56 +139,42 @@ export default function ThreeMotionLab() {
         eyes.push(eye);
       });
 
+      const makeLimb = (group: Group, radius: number, length: number) => {
+        const upper = new THREE.Mesh(new THREE.CapsuleGeometry(radius, length, 6, 12), suit);
+        upper.position.y = -0.5;
+        group.add(upper);
+        const joint = new THREE.Group();
+        joint.position.y = -0.95;
+        group.add(joint);
+        const lower = new THREE.Mesh(new THREE.CapsuleGeometry(radius * 0.86, length * 0.86, 6, 12), suit);
+        lower.position.y = -0.4;
+        joint.add(lower);
+        return joint;
+      };
+
       const leftArm = new THREE.Group();
       const rightArm = new THREE.Group();
       leftArm.position.set(-0.72, 2.9, 0);
       rightArm.position.set(0.72, 2.9, 0);
       rig.add(leftArm, rightArm);
-
-      function limb(group: THREE.Group) {
-        const upper = new THREE.Mesh(new THREE.CapsuleGeometry(0.15, 0.72, 6, 12), suit);
-        upper.position.y = -0.5;
-        group.add(upper);
-        const lowerPivot = new THREE.Group();
-        lowerPivot.position.y = -0.95;
-        group.add(lowerPivot);
-        const lower = new THREE.Mesh(new THREE.CapsuleGeometry(0.13, 0.62, 6, 12), suit);
-        lower.position.y = -0.4;
-        lowerPivot.add(lower);
-        return lowerPivot;
-      }
-      const leftForearm = limb(leftArm);
-      const rightForearm = limb(rightArm);
+      const leftForearm = makeLimb(leftArm, 0.15, 0.72);
+      const rightForearm = makeLimb(rightArm, 0.15, 0.72);
 
       const leftLeg = new THREE.Group();
       const rightLeg = new THREE.Group();
       leftLeg.position.set(-0.28, 1.7, 0);
       rightLeg.position.set(0.28, 1.7, 0);
       rig.add(leftLeg, rightLeg);
-      function leg(group: THREE.Group) {
-        const upper = new THREE.Mesh(new THREE.CapsuleGeometry(0.19, 0.88, 6, 12), suit);
-        upper.position.y = -0.55;
-        group.add(upper);
-        const knee = new THREE.Group();
-        knee.position.y = -1.05;
-        group.add(knee);
-        const lower = new THREE.Mesh(new THREE.CapsuleGeometry(0.16, 0.82, 6, 12), suit);
-        lower.position.y = -0.5;
-        knee.add(lower);
-        return knee;
-      }
-      const leftKnee = leg(leftLeg);
-      const rightKnee = leg(rightLeg);
+      const leftKnee = makeLimb(leftLeg, 0.19, 0.88);
+      const rightKnee = makeLimb(rightLeg, 0.19, 0.88);
 
       rig.position.set(0, 0, 1.15);
       rig.rotation.y = Math.PI;
 
       const clock = new THREE.Clock();
       let frame = 0;
-      let activeState: MotionState = "idle";
-      const stateListener = (event: Event) => {
-        activeState = (event as CustomEvent<MotionState>).detail;
-      };
+      let activeState: MotionState = state;
+      const stateListener = (event: Event) => { activeState = (event as CustomEvent<MotionState>).detail; };
       window.addEventListener("isabel-three-state", stateListener);
 
       const resize = () => {
@@ -187,9 +188,7 @@ export default function ThreeMotionLab() {
       const animate = () => {
         frame = requestAnimationFrame(animate);
         const t = clock.getElapsedTime();
-        const breathe = Math.sin(t * 1.7) * 0.025;
-        torso.scale.y = 1 + breathe;
-
+        torso.scale.y = 1 + Math.sin(t * 1.7) * 0.025;
         const blink = Math.sin(t * 2.3) > 0.985 ? 0.18 : 1;
         eyes.forEach((eye) => (eye.scale.y = blink));
 
@@ -206,17 +205,21 @@ export default function ThreeMotionLab() {
           rig.position.x += (0 - rig.position.x) * 0.03;
           rig.position.z += (1.15 - rig.position.z) * 0.03;
           rig.rotation.y += (Math.PI - rig.rotation.y) * 0.04;
+          rig.position.y *= 0.8;
           headPivot.rotation.y = Math.sin(t * 0.55) * 0.08;
-          leftForearm.rotation.x = -1.0 + Math.sin(t * 3) * 0.08;
-          rightForearm.rotation.x = -1.0 - Math.sin(t * 3) * 0.08;
+          leftForearm.rotation.x = -1 + Math.sin(t * 3) * 0.08;
+          rightForearm.rotation.x = -1 - Math.sin(t * 3) * 0.08;
         } else if (activeState === "notice") {
           headPivot.rotation.y += (0.65 - headPivot.rotation.y) * 0.08;
-          headPivot.rotation.x = -0.08;
-        } else if (activeState === "walk") {
-          const destinationX = -2.6;
-          rig.position.x += (destinationX - rig.position.x) * 0.012;
-          rig.position.z += (-1.25 - rig.position.z) * 0.012;
-          rig.rotation.y += (0.1 - rig.rotation.y) * 0.035;
+          headPivot.rotation.x += (-0.08 - headPivot.rotation.x) * 0.08;
+        } else if (activeState === "walk" || activeState === "return") {
+          const returning = activeState === "return";
+          const targetX = returning ? 0 : -2.6;
+          const targetZ = returning ? 1.15 : -1.25;
+          const targetFacing = returning ? Math.PI : 0.1;
+          rig.position.x += (targetX - rig.position.x) * 0.014;
+          rig.position.z += (targetZ - rig.position.z) * 0.014;
+          rig.rotation.y += (targetFacing - rig.rotation.y) * 0.035;
           const stride = Math.sin(t * 7.4) * 0.72;
           leftLeg.rotation.x = stride;
           rightLeg.rotation.x = -stride;
@@ -229,19 +232,11 @@ export default function ThreeMotionLab() {
           rig.position.x += (-2.6 - rig.position.x) * 0.04;
           rig.position.z += (-1.25 - rig.position.z) * 0.04;
           rig.rotation.y += (0.1 - rig.rotation.y) * 0.05;
+          rig.position.y *= 0.8;
           headPivot.rotation.y += (0.15 - headPivot.rotation.y) * 0.05;
           rightArm.rotation.z = -0.72;
           rightArm.rotation.x = -0.35;
           rightForearm.rotation.x = -0.75;
-        } else if (activeState === "return") {
-          rig.position.x += (0 - rig.position.x) * 0.014;
-          rig.position.z += (1.15 - rig.position.z) * 0.014;
-          rig.rotation.y += (Math.PI - rig.rotation.y) * 0.03;
-          const stride = Math.sin(t * 7.2) * 0.68;
-          leftLeg.rotation.x = stride;
-          rightLeg.rotation.x = -stride;
-          leftArm.rotation.x = -stride * 0.5;
-          rightArm.rotation.x = stride * 0.5;
         }
 
         renderer.render(scene, camera);
@@ -253,19 +248,17 @@ export default function ThreeMotionLab() {
         window.removeEventListener("resize", resize);
         window.removeEventListener("isabel-three-state", stateListener);
         renderer.dispose();
-        mount.removeChild(renderer.domElement);
+        if (renderer.domElement.parentNode === mount) mount.removeChild(renderer.domElement);
       };
     })();
 
-    return () => {
-      cancelled = true;
-      cleanup();
-    };
+    return () => { cancelled = true; cleanup(); };
   }, []);
 
-  useEffect(() => {
-    window.dispatchEvent(new CustomEvent("isabel-three-state", { detail: state }));
-  }, [state]);
+  const chooseState = (next: MotionState) => {
+    setRunning(false);
+    setIndex(sequence.findIndex((item) => item.state === next));
+  };
 
   return (
     <main className={styles.page}>
@@ -274,19 +267,18 @@ export default function ThreeMotionLab() {
         <aside className={styles.panel}>
           <span>ISABEL · REAL-TIME 3D MOTION PROOF</span>
           <h1>{labels[state]}</h1>
-          <p>This is a code-driven skeletal character moving through a measured virtual office. It is the runtime foundation that the final identity-locked Isabel model will replace.</p>
+          <p>The character now performs the complete sequence automatically. Every breath, blink, head turn, step, pivot and presentation gesture is generated live by browser code.</p>
           <div className={styles.buttons}>
-            {(["idle", "notice", "walk", "present", "return"] as MotionState[]).map((item) => (
-              <button key={item} className={state === item ? styles.active : ""} onClick={() => setState(item)}>
-                {labels[item]}
-              </button>
+            <button className={running ? styles.active : ""} onClick={() => setRunning((value) => !value)}>{running ? "Pause sequence" : "Resume sequence"}</button>
+            {sequence.map((item) => (
+              <button key={item.state} className={!running && state === item.state ? styles.active : ""} onClick={() => chooseState(item.state)}>{labels[item.state]}</button>
             ))}
           </div>
           <dl>
             <div><dt>Renderer</dt><dd>Three.js WebGL</dd></div>
-            <div><dt>Movement</dt><dd>real-time bone transforms</dd></div>
+            <div><dt>Movement</dt><dd>live skeletal transforms</dd></div>
             <div><dt>Scene</dt><dd>fixed 3D coordinates</dd></div>
-            <div><dt>Next asset</dt><dd>identity-locked Isabel GLB</dd></div>
+            <div><dt>Character status</dt><dd>placeholder rig pending Isabel GLB</dd></div>
           </dl>
         </aside>
       </section>

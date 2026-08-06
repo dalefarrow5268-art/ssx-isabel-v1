@@ -36,7 +36,6 @@ def parse_args() -> argparse.Namespace:
 
 
 def dynamic_import(package_suffix: str, key: str):
-    """Resolve MPFB services when installed as a Blender Extension."""
     for module_name in tuple(sys.modules):
         if module_name.endswith(package_suffix):
             module = importlib.import_module(module_name)
@@ -88,19 +87,13 @@ def add_asset(HumanService, basemesh, path: Path | None, asset_type: str) -> Non
     HumanService.add_mhclo_asset(str(path), basemesh, asset_type=asset_type, material_type="GAMEENGINE")
 
 
-def resolve_exact_target(data_root: Path, relative_path: str) -> Path:
-    """Resolve only an explicitly approved target path; never fuzzy-match identity morphs."""
-    candidate = (data_root / relative_path).resolve()
-    root = data_root.resolve()
-    if root not in candidate.parents:
-        raise RuntimeError(f"Likeness target escapes MPFB data root: {relative_path}")
-    if not candidate.exists() or candidate.suffix.lower() != ".target":
-        raise RuntimeError(f"Approved likeness target does not exist: {relative_path}")
-    return candidate
+def apply_likeness_targets(TargetService, basemesh, likeness_path: Path | None) -> None:
+    """Apply Isabel identity targets by exact MPFB target name.
 
-
-def apply_likeness_targets(TargetService, basemesh, data_root: Path, likeness_path: Path | None) -> None:
-    """Apply a versioned, auditable Isabel identity vector using exact MPFB target paths."""
+    The vector stores canonical MPFB target names, not guessed filesystem paths.
+    TargetService.target_full_path() resolves those names against MPFB's bundled system
+    target library first, which is the authoritative source in MPFB 2.0.17.
+    """
     if likeness_path is None:
         print("ISABEL_LIKENESS status=not-configured")
         return
@@ -110,22 +103,33 @@ def apply_likeness_targets(TargetService, basemesh, data_root: Path, likeness_pa
     payload = json.loads(likeness_path.read_text(encoding="utf-8"))
     bindings = payload.get("bindings", [])
     applied: list[dict] = []
+
     for entry in bindings:
         if not entry.get("enabled", True):
             continue
-        relative_path = str(entry.get("target", "")).strip()
-        if not relative_path:
+        target_id = str(entry.get("target", "")).strip()
+        if not target_id:
             continue
         weight = float(entry.get("weight", 0.0))
         if not -1.0 <= weight <= 1.0:
-            raise RuntimeError(f"Likeness weight outside safe range [-1,1]: {relative_path}={weight}")
+            raise RuntimeError(f"Likeness weight outside safe range [-1,1]: {target_id}={weight}")
         if abs(weight) < 1e-6:
             continue
-        target_path = resolve_exact_target(data_root, relative_path)
-        target_name = str(entry.get("name") or target_path.stem)
-        TargetService.load_target(basemesh, str(target_path), weight, target_name)
-        applied.append({"name": target_name, "target": relative_path, "weight": weight})
-        print(f"ISABEL_LIKENESS_APPLY name={target_name} weight={weight:.4f} target={relative_path}")
+
+        full_path = TargetService.target_full_path(target_id)
+        if not full_path:
+            raise RuntimeError(f"Approved MPFB likeness target cannot be resolved exactly: {target_id}")
+        target_name = str(entry.get("name") or target_id)
+
+        # MPFB 2.0.17: weight and name are keyword-only parameters.
+        TargetService.load_target(
+            basemesh,
+            str(full_path),
+            weight=weight,
+            name=target_name,
+        )
+        applied.append({"name": target_name, "target": target_id, "weight": weight, "path": str(full_path)})
+        print(f"ISABEL_LIKENESS_APPLY name={target_name} weight={weight:.4f} target={target_id} path={full_path}")
 
     basemesh["ssx_likeness_schema"] = payload.get("schema", "")
     basemesh["ssx_likeness_revision"] = payload.get("revision", "")
@@ -133,7 +137,6 @@ def apply_likeness_targets(TargetService, basemesh, data_root: Path, likeness_pa
 
 
 def add_browser_face_contract(FaceService, basemesh) -> None:
-    """Load the exact facial target families expected by our browser runtime."""
     before = set()
     if basemesh.data.shape_keys:
         before = {k.name for k in basemesh.data.shape_keys.key_blocks}
@@ -178,7 +181,6 @@ def add_browser_face_contract(FaceService, basemesh) -> None:
 
 
 def normalize_browser_root_name() -> None:
-    """TalkingHead and our browser loaders are simplest when the skeleton root is Armature."""
     armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
     if not armatures:
         raise RuntimeError("No armature exists after MPFB rig creation")
@@ -193,8 +195,8 @@ def normalize_browser_root_name() -> None:
 def report_eye_contract() -> None:
     armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
     names = {bone.name.lower().replace("_", "") for arm in armatures for bone in arm.data.bones}
-    left = any("lefteye" in name or "eye.l" in name for name in names)
-    right = any("righteye" in name or "eye.r" in name for name in names)
+    left = any("lefteye" in name or "eyel" in name for name in names)
+    right = any("righteye" in name or "eyer" in name for name in names)
     print(
         "ISABEL_EYE_CONTRACT "
         f"left_eye_bone={'yes' if left else 'no'} right_eye_bone={'yes' if right else 'no'} "
@@ -251,9 +253,7 @@ def main() -> None:
     basemesh["ssx_character_spec"] = spec.get("schema", "")
     basemesh["ssx_character_name"] = spec.get("name", "Isabel")
 
-    # Identity comes before rigging and animation. Exact target paths are versioned in a
-    # separate file so likeness tuning is reproducible and independently reviewable.
-    apply_likeness_targets(TargetService, basemesh, data_root, likeness_path)
+    apply_likeness_targets(TargetService, basemesh, likeness_path)
 
     search = spec.get("asset_search", {})
     skin = resolve_asset(data_root, "skins", search.get("skin", []), extension=".mhmat")

@@ -3,11 +3,13 @@
 Run inside Blender with MPFB installed:
   blender --background --python tools/build-isabel-mpfb.py -- \
     --spec tools/isabel-character-spec.json \
+    --likeness tools/isabel-likeness-targets.json \
     --output public/models/isabel/isabel-v1.glb \
     --save-blend build/isabel/isabel-v1.blend
 
-This follows MPFB's official script_samples complete-character export pattern:
-create_human -> skin/assets -> Mixamo-compatible rig -> browser face targets -> ExportService staging -> GLB export.
+Pipeline:
+create_human -> approved likeness targets -> skin/assets -> Mixamo-compatible rig ->
+browser face targets -> ExportService staging -> GLB export.
 """
 from __future__ import annotations
 
@@ -26,6 +28,7 @@ def parse_args() -> argparse.Namespace:
     argv = argv[argv.index("--") + 1 :] if "--" in argv else []
     parser = argparse.ArgumentParser()
     parser.add_argument("--spec", required=True)
+    parser.add_argument("--likeness", default="")
     parser.add_argument("--output", required=True)
     parser.add_argument("--mpfb-data", default=os.environ.get("MPFB_DATA_PATH", ""))
     parser.add_argument("--save-blend", default="")
@@ -85,6 +88,50 @@ def add_asset(HumanService, basemesh, path: Path | None, asset_type: str) -> Non
     HumanService.add_mhclo_asset(str(path), basemesh, asset_type=asset_type, material_type="GAMEENGINE")
 
 
+def resolve_exact_target(data_root: Path, relative_path: str) -> Path:
+    """Resolve only an explicitly approved target path; never fuzzy-match identity morphs."""
+    candidate = (data_root / relative_path).resolve()
+    root = data_root.resolve()
+    if root not in candidate.parents:
+        raise RuntimeError(f"Likeness target escapes MPFB data root: {relative_path}")
+    if not candidate.exists() or candidate.suffix.lower() != ".target":
+        raise RuntimeError(f"Approved likeness target does not exist: {relative_path}")
+    return candidate
+
+
+def apply_likeness_targets(TargetService, basemesh, data_root: Path, likeness_path: Path | None) -> None:
+    """Apply a versioned, auditable Isabel identity vector using exact MPFB target paths."""
+    if likeness_path is None:
+        print("ISABEL_LIKENESS status=not-configured")
+        return
+    if not likeness_path.exists():
+        raise RuntimeError(f"Likeness target file does not exist: {likeness_path}")
+
+    payload = json.loads(likeness_path.read_text(encoding="utf-8"))
+    bindings = payload.get("bindings", [])
+    applied: list[dict] = []
+    for entry in bindings:
+        if not entry.get("enabled", True):
+            continue
+        relative_path = str(entry.get("target", "")).strip()
+        if not relative_path:
+            continue
+        weight = float(entry.get("weight", 0.0))
+        if not -1.0 <= weight <= 1.0:
+            raise RuntimeError(f"Likeness weight outside safe range [-1,1]: {relative_path}={weight}")
+        if abs(weight) < 1e-6:
+            continue
+        target_path = resolve_exact_target(data_root, relative_path)
+        target_name = str(entry.get("name") or target_path.stem)
+        TargetService.load_target(basemesh, str(target_path), weight, target_name)
+        applied.append({"name": target_name, "target": relative_path, "weight": weight})
+        print(f"ISABEL_LIKENESS_APPLY name={target_name} weight={weight:.4f} target={relative_path}")
+
+    basemesh["ssx_likeness_schema"] = payload.get("schema", "")
+    basemesh["ssx_likeness_revision"] = payload.get("revision", "")
+    print(f"ISABEL_LIKENESS status=applied count={len(applied)} revision={payload.get('revision', '')}")
+
+
 def add_browser_face_contract(FaceService, basemesh) -> None:
     """Load the exact facial target families expected by our browser runtime."""
     before = set()
@@ -135,7 +182,6 @@ def normalize_browser_root_name() -> None:
     armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
     if not armatures:
         raise RuntimeError("No armature exists after MPFB rig creation")
-    # MPFB creates one character rig for this build. Keep the first armature deterministic.
     armatures.sort(key=lambda obj: obj.name)
     armature = armatures[0]
     armature.name = "Armature"
@@ -145,13 +191,6 @@ def normalize_browser_root_name() -> None:
 
 
 def report_eye_contract() -> None:
-    """Report eye-control readiness without inventing fragile eye geometry.
-
-    MPFB's Mixamo/GameEngine export rigs are optimized for external animation and do not
-    promise the default-rig eye IK helpers. ARKit eye-look shapes are therefore the hard
-    browser gaze path; dedicated LeftEye/RightEye bones are an optional enhancement that
-    will be added only after the generated eye asset topology is inspected in CI.
-    """
     armatures = [obj for obj in bpy.context.scene.objects if obj.type == "ARMATURE"]
     names = {bone.name.lower().replace("_", "") for arm in armatures for bone in arm.data.bones}
     left = any("lefteye" in name or "eye.l" in name for name in names)
@@ -190,6 +229,7 @@ def export_glb(output: Path) -> None:
 def main() -> None:
     args = parse_args()
     spec = json.loads(Path(args.spec).resolve().read_text(encoding="utf-8"))
+    likeness_path = Path(args.likeness).resolve() if args.likeness else None
     data_root = Path(args.mpfb_data).expanduser().resolve() if args.mpfb_data else None
     output_path = Path(args.output).resolve()
 
@@ -201,6 +241,7 @@ def main() -> None:
     ExportService = dynamic_import("mpfb.services.exportservice", "ExportService")
     ObjectService = dynamic_import("mpfb.services.objectservice", "ObjectService")
     FaceService = dynamic_import("mpfb.services.faceservice", "FaceService")
+    TargetService = dynamic_import("mpfb.services.targetservice", "TargetService")
 
     bpy.ops.object.select_all(action="SELECT")
     bpy.ops.object.delete(use_global=False)
@@ -210,8 +251,11 @@ def main() -> None:
     basemesh["ssx_character_spec"] = spec.get("schema", "")
     basemesh["ssx_character_name"] = spec.get("name", "Isabel")
 
-    search = spec.get("asset_search", {})
+    # Identity comes before rigging and animation. Exact target paths are versioned in a
+    # separate file so likeness tuning is reproducible and independently reviewable.
+    apply_likeness_targets(TargetService, basemesh, data_root, likeness_path)
 
+    search = spec.get("asset_search", {})
     skin = resolve_asset(data_root, "skins", search.get("skin", []), extension=".mhmat")
     if skin is None:
         skin = choose_default(data_root, "skins", ("young_caucasian_female.mhmat",))
@@ -219,9 +263,6 @@ def main() -> None:
         print(f"ISABEL_SKIN file={skin}")
         HumanService.set_character_skin(str(skin), basemesh, skin_type="GAMEENGINE")
 
-    # MPFB documents Mixamo as the rig specifically intended for the Mixamo animation
-    # service. TalkingHead requires a Mixamo-compatible skeleton, and our Three.js
-    # retargeter already recognizes Mixamo bone names, so this is our browser contract.
     rig_name = spec.get("rig", "mixamo")
     HumanService.add_builtin_rig(basemesh, rig_name)
     print(f"ISABEL_RIG name={rig_name}")

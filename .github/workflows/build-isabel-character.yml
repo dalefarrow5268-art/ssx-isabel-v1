@@ -30,7 +30,7 @@ jobs:
       - name: Install Blender, NumPy, and Git LFS
         run: |
           sudo apt-get update
-          sudo apt-get install -y blender python3-numpy git-lfs
+          sudo apt-get install -y blender python3-numpy git-lfs unzip curl
           blender --version
           blender --background --python-expr "import numpy; print('Blender NumPy', numpy.__version__)"
           git lfs install
@@ -48,6 +48,26 @@ jobs:
           test -d base/rigs
           test -d base/skins
           test -d base/hair
+
+      - name: Install official Isabel facial packs
+        run: |
+          mkdir -p "$RUNNER_TEMP/functional-packs"
+          curl -fL --retry 3 --retry-delay 2 \
+            https://files2.makehumancommunity.org/functional/faceunits01.zip \
+            -o "$RUNNER_TEMP/functional-packs/faceunits01.zip"
+          curl -fL --retry 3 --retry-delay 2 \
+            https://files2.makehumancommunity.org/functional/visemes02.zip \
+            -o "$RUNNER_TEMP/functional-packs/visemes02.zip"
+          echo "--- faceunits01 ---"
+          unzip -l "$RUNNER_TEMP/functional-packs/faceunits01.zip" | head -80
+          echo "--- visemes02 ---"
+          unzip -l "$RUNNER_TEMP/functional-packs/visemes02.zip" | head -80
+          unzip -qo "$RUNNER_TEMP/functional-packs/faceunits01.zip" -d "$RUNNER_TEMP/makehuman-assets/base"
+          unzip -qo "$RUNNER_TEMP/functional-packs/visemes02.zip" -d "$RUNNER_TEMP/makehuman-assets/base"
+          echo "--- facial targets after install ---"
+          find "$RUNNER_TEMP/makehuman-assets/base" -type f \
+            \( -iname '*viseme*' -o -iname '*eyeBlink*' -o -iname '*browDown*' -o -iname '*jawOpen*' \) \
+            | head -100
 
       - name: Build Isabel GLB
         env:

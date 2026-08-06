@@ -52,28 +52,16 @@ jobs:
       - name: Install official Isabel facial packs
         run: |
           mkdir -p "$RUNNER_TEMP/functional-packs"
-          curl -fL --retry 3 --retry-delay 2 \
-            https://files2.makehumancommunity.org/functional/faceunits01.zip \
-            -o "$RUNNER_TEMP/functional-packs/faceunits01.zip"
-          curl -fL --retry 3 --retry-delay 2 \
-            https://files2.makehumancommunity.org/functional/visemes02.zip \
-            -o "$RUNNER_TEMP/functional-packs/visemes02.zip"
-          echo "--- faceunits01 ---"
-          unzip -l "$RUNNER_TEMP/functional-packs/faceunits01.zip" | head -80
-          echo "--- visemes02 ---"
-          unzip -l "$RUNNER_TEMP/functional-packs/visemes02.zip" | head -80
+          curl -fL --retry 3 --retry-delay 2 https://files2.makehumancommunity.org/functional/faceunits01.zip -o "$RUNNER_TEMP/functional-packs/faceunits01.zip"
+          curl -fL --retry 3 --retry-delay 2 https://files2.makehumancommunity.org/functional/visemes02.zip -o "$RUNNER_TEMP/functional-packs/visemes02.zip"
           unzip -qo "$RUNNER_TEMP/functional-packs/faceunits01.zip" -d "$RUNNER_TEMP/makehuman-assets/base"
           unzip -qo "$RUNNER_TEMP/functional-packs/visemes02.zip" -d "$RUNNER_TEMP/makehuman-assets/base"
-          echo "--- facial targets after install ---"
-          find "$RUNNER_TEMP/makehuman-assets/base" -type f \
-            \( -iname '*viseme*' -o -iname '*eyeBlink*' -o -iname '*browDown*' -o -iname '*jawOpen*' \) \
-            | head -100
 
       - name: Discover exact MPFB likeness targets
         run: |
           mkdir -p build/isabel
-          python3 tools/discover-isabel-mpfb-targets.py \
-            --root "$RUNNER_TEMP/makehuman-assets/base" \
+          blender --background --online-mode \
+            --python tools/discover-isabel-mpfb-targets.py -- \
             --json build/isabel/mpfb-target-report.json
           test -s build/isabel/mpfb-target-report.json
 

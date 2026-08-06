@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "name": "Isabel Production Session State Backbone",
+  "purpose": "Provide one shared source of truth across browser, Unreal, voice, screens, memory, approvals, work threads, and Isabel's physical state.",
+  "principles": [
+    "one canonical session state",
+    "subsystems publish observations and requests, not competing truths",
+    "state changes are versioned and attributable",
+    "identity, geometry, camera, authority, and approval integrity are protected invariants",
+    "reconnect restores only stable verified state",
+    "external actions are never replayed automatically after reconnect"
+  ],
+  "canonical_state": {
+    "session": {
+      "session_id": "uuid",
+      "state_version": 0,
+      "started_at": "iso8601",
+      "updated_at": "iso8601",
+      "connection_epoch": 0,
+      "mode": "BOOTING|READY|LISTENING|THINKING|SPEAKING|MOVING|DEGRADED|RECOVERING"
+    },
+    "identity": {
+      "character_id": "ISABEL_CHARACTER",
+      "identity_lock": true,
+      "face_lock": true,
+      "hair_lock": true,
+      "proportion_lock": true
+    },
+    "physical": {
+      "stable_anchor": "ISABEL_DESK_SEATED",
+      "target_anchor": null,
+      "posture": "SEATED|STANDING|WALKING|TRANSITION",
+      "attention_target": "USER_FOCUS|SCREEN_01|SCREEN_02|SCREEN_03|SCREEN_04|WINDOW|DESK",
+      "active_camera": "CAMERA_ARRIVAL",
+      "transition_id": null,
+      "transition_started_at": null
+    },
+    "conversation": {
+      "turn_id": null,
+      "user_speaking": false,
+      "isabel_speaking": false,
+      "partial_transcript": "",
+      "final_transcript": "",
+      "response_status": "IDLE|STREAMING|COMPLETE|INTERRUPTED",
+      "emotion_mode": "BASELINE"
+    },
+    "screens": {
+      "SCREEN_01": {"route": "/screens/project-overview", "status": "WAITING|LIVE|FALLBACK", "last_good_url": null},
+      "SCREEN_02": {"route": "/screens/schedule", "status": "WAITING|LIVE|FALLBACK", "last_good_url": null},
+      "SCREEN_03": {"route": "/screens/risk", "status": "WAITING|LIVE|FALLBACK", "last_good_url": null},
+      "SCREEN_04": {"route": "/screens/evidence", "status": "WAITING|LIVE|FALLBACK", "last_good_url": null}
+    },
+    "work": {
+      "active_project_id": null,
+      "active_thread_id": null,
+      "current_task": null,
+      "open_commitments": [],
+      "prepared_artifacts": []
+    },
+    "memory": {
+      "availability": "UNKNOWN|ONLINE|DEGRADED|OFFLINE",
+      "session_context": {},
+      "approved_memory_refs": [],
+      "proposed_memory_refs": []
+    },
+    "approvals": {
+      "pending": [],
+      "approved": [],
+      "expired": [],
+      "rule": "approval is valid only for the exact payload hash"
+    },
+    "execution": {
+      "in_flight_action": null,
+      "last_action_result": null,
+      "last_verified_result": null,
+      "replay_allowed": false
+    },
+    "health": {
+      "browser": "UNKNOWN",
+      "pixel_streaming": "UNKNOWN",
+      "unreal": "UNKNOWN",
+      "voice_asr": "UNKNOWN",
+      "voice_tts": "UNKNOWN",
+      "memory": "UNKNOWN",
+      "screens": "UNKNOWN",
+      "navigation": "UNKNOWN"
+    }
+  },
+  "writers": {
+    "browser": ["session.connection_epoch", "health.browser", "conversation.user_speaking"],
+    "unreal": ["physical", "health.unreal", "health.navigation", "health.pixel_streaming"],
+    "voice": ["conversation.partial_transcript", "conversation.final_transcript", "conversation.isabel_speaking", "health.voice_asr", "health.voice_tts"],
+    "screen_runtime": ["screens", "health.screens"],
+    "memory_runtime": ["memory", "health.memory"],
+    "orchestrator": ["session.mode", "work", "approvals", "execution", "conversation.response_status", "conversation.emotion_mode"]
+  },
+  "conflict_rules": [
+    "newer state_version wins only inside the same ownership domain",
+    "protected invariants cannot be overwritten by subsystem messages",
+    "physical TRANSITION never becomes restore target",
+    "approval records cannot be modified after approval; changed payload requires new approval",
+    "execution COMPLETE does not imply VERIFIED",
+    "memory OFFLINE cannot fabricate remembered preferences"
+  ],
+  "restore_rules": [
+    "resolve TRANSITION posture to nearest stable SEATED or STANDING state",
+    "restore stable_anchor, not raw world coordinates",
+    "restore active work thread and pending approvals",
+    "do not replay speech mid-phoneme",
+    "do not replay external actions",
+    "restore each monitor independently from last good route",
+    "preserve camera lock and geometry lock"
+  ],
+  "acceptance": [
+    "browser and Unreal show the same session_id and state_version",
+    "reconnect increments connection_epoch without creating a new work session",
+    "one screen may fail without corrupting other screen states",
+    "Isabel's stable anchor survives browser refresh",
+    "pending approvals survive reconnect and retain original payload hash",
+    "completed-but-unverified action remains unverified after restart",
+    "identity/camera/geometry locks remain unchanged through recovery"
+  ]
+}

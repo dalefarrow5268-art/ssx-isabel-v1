@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "project": "SSX_Isabel_LiveOffice_POC",
+  "branch": "isabel-live-office-poc",
+  "startup_order": [
+    "repo_update",
+    "health_report",
+    "open_unreal",
+    "first_launch_bootstrap_if_needed",
+    "validate_required_actors",
+    "start_pixel_streaming",
+    "open_live_office_browser",
+    "run_end_to_end_smoke_test"
+  ],
+  "required_runtime_targets": [
+    "CAMERA_ARRIVAL",
+    "SCREEN_01",
+    "SCREEN_02",
+    "SCREEN_03",
+    "SCREEN_04",
+    "ISABEL_CHARACTER",
+    "ISABEL_DESK_SEATED",
+    "ISABEL_DESK_STAND",
+    "USER_FOCUS"
+  ],
+  "success_definition": "Chrome shows the persistent Unreal office, Isabel is alive at her desk, responds to the user, and can move to SCREEN_02 without the room changing shape."
+}

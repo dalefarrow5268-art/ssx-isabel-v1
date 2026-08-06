@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "tests": [
+    {"id":"scene.camera","requires":["CAMERA_ARRIVAL"],"severity":"fatal"},
+    {"id":"scene.screens","requires":["SCREEN_01","SCREEN_02","SCREEN_03","SCREEN_04"],"severity":"fatal"},
+    {"id":"scene.character","requires":["ISABEL_CHARACTER"],"severity":"fatal"},
+    {"id":"scene.anchors","requires":["ISABEL_DESK_SEATED","ISABEL_DESK_STAND","SCREEN_01_VIEW","SCREEN_02_VIEW","SCREEN_03_VIEW","SCREEN_04_VIEW","USER_FOCUS"],"severity":"fatal"},
+    {"id":"behavior.look_at_user","command":"LOOK_AT_USER","expect":{"kind":"behavior"},"severity":"fatal"},
+    {"id":"behavior.stand","command":"STAND_FROM_DESK","expect":{"kind":"behavior"},"severity":"fatal"},
+    {"id":"behavior.go_screen_02","command":"GO_TO_SCREEN_02","expect":{"kind":"behavior"},"severity":"fatal"},
+    {"id":"behavior.sit","command":"SIT_AT_DESK","expect":{"kind":"behavior"},"severity":"fatal"},
+    {"id":"continuity.stable_resume","severity":"warning"},
+    {"id":"screens.routes","severity":"warning"},
+    {"id":"pixel_streaming.frontend","severity":"fatal"}
+  ],
+  "rules": {
+    "fatal_failure_blocks_demo": true,
+    "warnings_do_not_block_demo": true,
+    "report_format": "json"
+  }
+}

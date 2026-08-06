@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "purpose": "Convert Isabel decisions into controlled, auditable execution plans without crossing human authority boundaries.",
+  "principles": [
+    "Every action has an owner, preconditions, evidence, expected outcome, and verification step.",
+    "Preparation is allowed more freely than commitment.",
+    "Consequential external actions require explicit human approval.",
+    "No action may silently convert an inference into a fact.",
+    "Failed or blocked actions remain visible and resumable.",
+    "Plans are idempotent where possible and safe to retry.",
+    "All externally visible actions produce an audit residue."
+  ],
+  "action_classes": {
+    "read_only": {
+      "examples": ["fetch schedule", "read RFI", "inspect submittal", "compare evidence", "check open commitments"],
+      "approval": "not_required"
+    },
+    "prepare": {
+      "examples": ["draft email", "draft RFI response", "prepare meeting brief", "stage task list", "preload screen"],
+      "approval": "not_required_until_commit"
+    },
+    "internal_reversible": {
+      "examples": ["reorder internal queue", "set temporary working focus", "create local simulation", "stage follow-up"],
+      "approval": "policy_dependent"
+    },
+    "external_consequential": {
+      "examples": ["send email", "create external task", "change schedule", "approve submittal", "commit cost", "write durable memory"],
+      "approval": "explicit_human_required"
+    }
+  },
+  "plan_schema": {
+    "plan_id": "string",
+    "goal": "string",
+    "decision_owner": "string",
+    "status": ["DRAFT", "READY_FOR_APPROVAL", "APPROVED", "EXECUTING", "BLOCKED", "COMPLETED", "CANCELLED"],
+    "evidence_ids": ["string"],
+    "assumptions": ["string"],
+    "unknowns": ["string"],
+    "steps": [
+      {
+        "step_id": "string",
+        "action_class": "read_only|prepare|internal_reversible|external_consequential",
+        "owner": "Isabel|user|named_person|system",
+        "action": "string",
+        "depends_on": ["step_id"],
+        "preconditions": ["string"],
+        "approval_required": true,
+        "verification": "string",
+        "rollback": "string|null"
+      }
+    ]
+  },
+  "execution_rules": {
+    "approval": [
+      "Approval applies only to the exact consequential step shown to the user.",
+      "Material changes after approval invalidate that approval and require re-confirmation.",
+      "Bundled approvals must display every consequential action in the bundle."
+    ],
+    "verification": [
+      "Do not mark a step complete because a request was sent; verify the resulting state when possible.",
+      "If verification is unavailable, mark completion as UNVERIFIED rather than confirmed."
+    ],
+    "failure": [
+      "Stop dependent steps after a failed prerequisite.",
+      "Preserve completed safe work.",
+      "Explain the blocker and the smallest next action needed to continue."
+    ],
+    "interruption": [
+      "User interruption pauses execution at a safe boundary.",
+      "Never continue an external consequential action after interruption unless approval remains valid and the user did not cancel it."
+    ]
+  },
+  "example_storefront_plan": {
+    "goal": "Resolve RFI-117 fabrication-release uncertainty without creating an unsupported schedule claim.",
+    "decision_owner": "Project Manager",
+    "steps": [
+      {
+        "step_id": "S1",
+        "action_class": "read_only",
+        "owner": "Isabel",
+        "action": "Confirm latest RFI-117 response and linked storefront submittal revision.",
+        "depends_on": [],
+        "preconditions": [],
+        "approval_required": false,
+        "verification": "Latest revision IDs and timestamps captured.",
+        "rollback": null
+      },
+      {
+        "step_id": "S2",
+        "action_class": "read_only",
+        "owner": "Isabel",
+        "action": "Confirm fabrication-release status and storefront installation date.",
+        "depends_on": ["S1"],
+        "preconditions": ["Current schedule and procurement evidence available"],
+        "approval_required": false,
+        "verification": "Release status is confirmed or explicitly marked unknown.",
+        "rollback": null
+      },
+      {
+        "step_id": "S3",
+        "action_class": "prepare",
+        "owner": "Isabel",
+        "action": "Prepare PM briefing and draft coordination message based only on confirmed facts.",
+        "depends_on": ["S2"],
+        "preconditions": [],
+        "approval_required": false,
+        "verification": "Draft distinguishes facts, risks, and unknowns.",
+        "rollback": "Discard draft"
+      },
+      {
+        "step_id": "S4",
+        "action_class": "external_consequential",
+        "owner": "user",
+        "action": "Approve sending the coordination message or changing the external action plan.",
+        "depends_on": ["S3"],
+        "preconditions": ["User reviews exact message/action"],
+        "approval_required": true,
+        "verification": "Approval event stored with exact payload hash.",
+        "rollback": null
+      }
+    ]
+  }
+}

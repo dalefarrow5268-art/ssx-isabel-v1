@@ -1,5 +1,5 @@
-import ThreeMotionLab from "./three/page";
+import IsabelCommandConsole from "./command-console";
 
 export default function Home() {
-  return <ThreeMotionLab />;
+  return <IsabelCommandConsole />;
 }

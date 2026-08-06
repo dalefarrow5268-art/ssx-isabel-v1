@@ -27,11 +27,12 @@ jobs:
           ref: isabel-office-review
           lfs: false
 
-      - name: Install Blender and Git LFS
+      - name: Install Blender, NumPy, and Git LFS
         run: |
           sudo apt-get update
-          sudo apt-get install -y blender git-lfs
+          sudo apt-get install -y blender python3-numpy git-lfs
           blender --version
+          blender --background --python-expr "import numpy; print('Blender NumPy', numpy.__version__)"
           git lfs install
 
       - name: Install MPFB extension

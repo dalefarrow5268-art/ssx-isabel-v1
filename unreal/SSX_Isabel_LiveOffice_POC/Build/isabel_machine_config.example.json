@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "machine_name": "HOME-AI",
+  "environment": "home-gpu",
+  "repo": {
+    "url": "https://github.com/dalefarrow5268-art/ssx-isabel-v1.git",
+    "branch": "isabel-live-office-poc",
+    "local_path": "%USERPROFILE%\\Documents\\SSX\\ssx-isabel-v1"
+  },
+  "unreal": {
+    "engine_version": "5.7",
+    "editor_exe": "C:\\Program Files\\Epic Games\\UE_5.7\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+    "project_file": "unreal\\SSX_Isabel_LiveOffice_POC\\SSX_Isabel_LiveOffice_POC.uproject",
+    "map": "/Game/Maps/Isabel_LiveOffice_POC"
+  },
+  "pixel_streaming": {
+    "signalling_host": "127.0.0.1",
+    "http_port": 80,
+    "streamer_port": 8888,
+    "sfu_port": 8889,
+    "health_timeout_seconds": 12,
+    "heartbeat_interval_seconds": 2
+  },
+  "web": {
+    "front_door_url": "",
+    "live_office_path": "/live-office",
+    "stream_url": "",
+    "allowed_origins": []
+  },
+  "screens": {
+    "base_url": "",
+    "routes": {
+      "SCREEN_01": "/screens/project-overview",
+      "SCREEN_02": "/screens/schedule",
+      "SCREEN_03": "/screens/risk",
+      "SCREEN_04": "/screens/evidence"
+    }
+  },
+  "runtime": {
+    "state_dir": "%LOCALAPPDATA%\\SSX\\Isabel\\state",
+    "log_dir": "%LOCALAPPDATA%\\SSX\\Isabel\\logs",
+    "startup_timeout_seconds": 120,
+    "command_ack_timeout_ms": 1500,
+    "max_unreal_restarts_per_hour": 3,
+    "max_stream_restarts_per_hour": 5
+  },
+  "quality": {
+    "identity_lock_required": true,
+    "geometry_lock_required": true,
+    "camera_lock_required": true,
+    "all_four_screens_required": true,
+    "external_action_replay_allowed": false
+  }
+}

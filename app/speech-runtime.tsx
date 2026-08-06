@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { buildVisemeTimeline } from "./text-viseme";
 import { ISABEL_RUNTIME_EVENTS } from "./three/isabel-performance";
 
 type VoiceState = "idle" | "speaking" | "stopped" | "unavailable";
@@ -24,6 +25,7 @@ type SpeechLifecycle = {
 };
 
 const SPEECH_LIFECYCLE_EVENT = "isabel-speech-lifecycle";
+const VISEME_TIMELINE_EVENT = "isabel-viseme-timeline";
 
 function dispatchLifecycle(detail: SpeechLifecycle) {
   window.dispatchEvent(new CustomEvent<SpeechLifecycle>(SPEECH_LIFECYCLE_EVENT, { detail }));
@@ -119,6 +121,16 @@ export default function IsabelSpeechRuntime() {
       utterance.rate = settings.rate;
       utterance.pitch = settings.pitch;
       utterance.volume = 1;
+
+      const timeline = buildVisemeTimeline(detail.text, settings.rate);
+      window.dispatchEvent(new CustomEvent(VISEME_TIMELINE_EVENT, {
+        detail: {
+          commandId: detail.commandId,
+          text: detail.text,
+          rate: settings.rate,
+          timeline,
+        },
+      }));
 
       utterance.onstart = () => {
         setState("speaking");

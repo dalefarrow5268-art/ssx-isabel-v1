@@ -19,7 +19,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
       const pending = new WeakSet<import("three").Object3D>();
 
       const enhanceRig = (rig: import("three").Object3D) => {
-        if (disposed || rig.children.some((child) => child.name === "HUMAN_PLACEHOLDER_V13")) return;
+        if (disposed || rig.children.some((child) => child.name === "HUMAN_PLACEHOLDER_V14")) return;
 
         const headPivot = rig.children.find(
           (child) =>
@@ -42,12 +42,13 @@ export default function IsabelPlaceholderAnatomyBridge() {
           if ((child as import("three").Mesh).isMesh || (child as import("three").Group).isGroup) child.visible = false;
         }
 
-        headPivot.scale.setScalar(0.62);
-        headPivot.position.set(0, 4.53, 0.07);
+        headPivot.scale.setScalar(0.60);
+        headPivot.position.set(0, 4.18, 0.07);
         headPivot.name = "PLACEHOLDER_HEAD_PIVOT";
 
         const human = new THREE.Group();
-        human.name = "HUMAN_PLACEHOLDER_V13";
+        human.name = "HUMAN_PLACEHOLDER_V14";
+        human.scale.setScalar(0.91);
         originalAdd.call(rig, human);
 
         const torso = new THREE.Group();
@@ -79,24 +80,24 @@ export default function IsabelPlaceholderAnatomyBridge() {
           return m;
         };
 
-        mesh(torso, new THREE.CylinderGeometry(0.11, 0.15, 0.40, 24), skin, "NECK", 0, 4.18, 0, 1, 1, 0.9);
-        const clavicle = mesh(torso, new THREE.CapsuleGeometry(0.045, 0.42, 6, 16), suit, "CLAVICLE", 0, 3.94, 0, 1, 1, 0.88);
+        mesh(torso, new THREE.CylinderGeometry(0.105, 0.145, 0.34, 24), skin, "NECK", 0, 3.92, 0, 1, 1, 0.9);
+        const clavicle = mesh(torso, new THREE.CapsuleGeometry(0.042, 0.38, 6, 16), suit, "CLAVICLE", 0, 3.72, 0, 1, 1, 0.88);
         clavicle.rotation.z = Math.PI / 2;
 
-        mesh(torso, new THREE.CylinderGeometry(0.43, 0.40, 0.32, 32), suit, "CHEST", 0, 3.77, 0.01, 1, 1, 0.55);
-        mesh(torso, new THREE.CylinderGeometry(0.40, 0.365, 0.39, 32), suit, "RIBCAGE", 0, 3.42, 0.015, 1, 1, 0.56);
-        mesh(torso, new THREE.CylinderGeometry(0.365, 0.38, 0.39, 32), suit, "WAIST", 0, 3.04, 0.018, 1, 1, 0.57);
-        mesh(torso, new THREE.CylinderGeometry(0.38, 0.42, 0.32, 32), suit, "BLAZER_HEM", 0, 2.69, 0.02, 1, 1, 0.58);
+        mesh(torso, new THREE.CylinderGeometry(0.41, 0.385, 0.30, 32), suit, "CHEST", 0, 3.57, 0.01, 1, 1, 0.55);
+        mesh(torso, new THREE.CylinderGeometry(0.385, 0.355, 0.36, 32), suit, "RIBCAGE", 0, 3.24, 0.015, 1, 1, 0.56);
+        mesh(torso, new THREE.CylinderGeometry(0.355, 0.37, 0.36, 32), suit, "WAIST", 0, 2.89, 0.018, 1, 1, 0.57);
+        mesh(torso, new THREE.CylinderGeometry(0.37, 0.41, 0.30, 32), suit, "BLAZER_HEM", 0, 2.56, 0.02, 1, 1, 0.58);
 
-        mesh(pelvis, new THREE.CylinderGeometry(0.42, 0.47, 0.30, 32), suitSoft, "PELVIS_TOP", 0, 2.42, 0.02, 1, 1, 0.60);
-        mesh(pelvis, new THREE.CylinderGeometry(0.47, 0.415, 0.27, 32), suitSoft, "PELVIS_BOTTOM", 0, 2.14, 0.02, 1, 1, 0.59);
-        mesh(pelvis, new THREE.SphereGeometry(0.145, 18, 12), suitSoft, "HIP_L", -0.365, 2.24, 0.02, 1, 1.12, 0.56);
-        mesh(pelvis, new THREE.SphereGeometry(0.145, 18, 12), suitSoft, "HIP_R", 0.365, 2.24, 0.02, 1, 1.12, 0.56);
+        mesh(pelvis, new THREE.CylinderGeometry(0.41, 0.46, 0.28, 32), suitSoft, "PELVIS_TOP", 0, 2.31, 0.02, 1, 1, 0.60);
+        mesh(pelvis, new THREE.CylinderGeometry(0.46, 0.405, 0.25, 32), suitSoft, "PELVIS_BOTTOM", 0, 2.05, 0.02, 1, 1, 0.59);
+        mesh(pelvis, new THREE.SphereGeometry(0.14, 18, 12), suitSoft, "HIP_L", -0.35, 2.14, 0.02, 1, 1.10, 0.56);
+        mesh(pelvis, new THREE.SphereGeometry(0.14, 18, 12), suitSoft, "HIP_R", 0.35, 2.14, 0.02, 1, 1.10, 0.56);
 
-        mesh(torso, new THREE.PlaneGeometry(0.14, 0.44), blouse, "BLOUSE", 0, 3.58, 0.286);
-        const lapelL = mesh(torso, new THREE.BoxGeometry(0.085, 0.36, 0.016), suitSoft, "LAPEL_L", -0.095, 3.58, 0.284);
+        mesh(torso, new THREE.PlaneGeometry(0.135, 0.42), blouse, "BLOUSE", 0, 3.39, 0.276);
+        const lapelL = mesh(torso, new THREE.BoxGeometry(0.082, 0.34, 0.016), suitSoft, "LAPEL_L", -0.092, 3.39, 0.274);
         lapelL.rotation.z = -0.23;
-        const lapelR = mesh(torso, new THREE.BoxGeometry(0.085, 0.36, 0.016), suitSoft, "LAPEL_R", 0.095, 3.58, 0.284);
+        const lapelR = mesh(torso, new THREE.BoxGeometry(0.082, 0.34, 0.016), suitSoft, "LAPEL_R", 0.092, 3.39, 0.274);
         lapelR.rotation.z = 0.23;
 
         const shoulders: import("three").Group[] = [];
@@ -107,29 +108,29 @@ export default function IsabelPlaceholderAnatomyBridge() {
         const makeArm = (side: -1 | 1) => {
           const shoulder = new THREE.Group();
           shoulder.name = side < 0 ? "SHOULDER_L" : "SHOULDER_R";
-          shoulder.position.set(side * 0.35, 3.79, 0.01);
+          shoulder.position.set(side * 0.335, 3.58, 0.01);
           human.add(shoulder);
           shoulders.push(shoulder);
 
-          const sleeve = mesh(shoulder, new THREE.CapsuleGeometry(0.048, 0.12, 6, 12), suit, `SLEEVE_CAP_${side}`, side * 0.006, -0.06, 0, 1.02, 1, 0.88);
-          sleeve.rotation.z = Math.PI / 2 + side * -0.28;
+          const sleeve = mesh(shoulder, new THREE.CapsuleGeometry(0.046, 0.11, 6, 12), suit, `SLEEVE_CAP_${side}`, side * 0.005, -0.055, 0, 1.0, 1, 0.86);
+          sleeve.rotation.z = Math.PI / 2 + side * -0.29;
 
-          const upper = mesh(shoulder, new THREE.CapsuleGeometry(0.068, 0.61, 6, 12), suit, `UPPER_ARM_${side}`, side * 0.014, -0.48, 0.022, 0.92, 1, 0.86);
+          const upper = mesh(shoulder, new THREE.CapsuleGeometry(0.066, 0.58, 6, 12), suit, `UPPER_ARM_${side}`, side * 0.012, -0.46, 0.022, 0.92, 1, 0.86);
           upper.rotation.z = side * -0.035;
           upper.rotation.x = -0.065;
 
           const elbow = new THREE.Group();
           elbow.name = side < 0 ? "ELBOW_L" : "ELBOW_R";
-          elbow.position.set(side * 0.025, -0.92, 0.04);
+          elbow.position.set(side * 0.023, -0.88, 0.04);
           shoulder.add(elbow);
           elbows.push(elbow);
 
-          mesh(elbow, new THREE.SphereGeometry(0.052, 14, 10), suit, `ELBOW_JOINT_${side}`, 0, 0, 0, 0.76, 0.56, 0.76);
-          const fore = mesh(elbow, new THREE.CapsuleGeometry(0.056, 0.56, 6, 12), suitSoft, `FOREARM_${side}`, side * 0.008, -0.39, 0.042, 0.90, 1, 0.84);
+          mesh(elbow, new THREE.SphereGeometry(0.050, 14, 10), suit, `ELBOW_JOINT_${side}`, 0, 0, 0, 0.74, 0.54, 0.74);
+          const fore = mesh(elbow, new THREE.CapsuleGeometry(0.054, 0.53, 6, 12), suitSoft, `FOREARM_${side}`, side * 0.007, -0.37, 0.042, 0.90, 1, 0.84);
           fore.rotation.z = side * -0.014;
           fore.rotation.x = -0.09;
-          mesh(elbow, new THREE.CylinderGeometry(0.044, 0.052, 0.13, 14), skin, `WRIST_${side}`, side * 0.012, -0.72, 0.065, 1, 1, 0.84);
-          const hand = mesh(elbow, new THREE.CapsuleGeometry(0.066, 0.23, 5, 10), skin, `HAND_${side}`, side * 0.015, -0.94, 0.078, 0.84, 1, 0.54);
+          mesh(elbow, new THREE.CylinderGeometry(0.043, 0.050, 0.12, 14), skin, `WRIST_${side}`, side * 0.011, -0.68, 0.065, 1, 1, 0.84);
+          const hand = mesh(elbow, new THREE.CapsuleGeometry(0.064, 0.22, 5, 10), skin, `HAND_${side}`, side * 0.014, -0.89, 0.078, 0.84, 1, 0.54);
           hand.rotation.z = side * -0.008;
         };
         makeArm(-1);
@@ -138,32 +139,32 @@ export default function IsabelPlaceholderAnatomyBridge() {
         const makeLeg = (side: -1 | 1) => {
           const hip = new THREE.Group();
           hip.name = side < 0 ? "HIP_JOINT_L" : "HIP_JOINT_R";
-          hip.position.set(side * 0.205, 2.10, 0.015);
+          hip.position.set(side * 0.198, 2.01, 0.015);
           human.add(hip);
           hips.push(hip);
 
-          mesh(hip, new THREE.CylinderGeometry(0.165, 0.145, 0.30, 20), suitSoft, `THIGH_ROOT_${side}`, 0, -0.14, 0, 1, 1, 0.92);
-          const thigh = mesh(hip, new THREE.CapsuleGeometry(0.145, 0.90, 6, 12), suitSoft, `THIGH_${side}`, 0, -0.65, 0, 1, 1, 0.91);
+          mesh(hip, new THREE.CylinderGeometry(0.16, 0.14, 0.28, 20), suitSoft, `THIGH_ROOT_${side}`, 0, -0.13, 0, 1, 1, 0.92);
+          const thigh = mesh(hip, new THREE.CapsuleGeometry(0.14, 0.86, 6, 12), suitSoft, `THIGH_${side}`, 0, -0.62, 0, 1, 1, 0.91);
           thigh.rotation.z = side * 0.002;
 
           const knee = new THREE.Group();
           knee.name = side < 0 ? "KNEE_L" : "KNEE_R";
-          knee.position.set(0, -1.23, 0.02);
+          knee.position.set(0, -1.17, 0.02);
           hip.add(knee);
           knees.push(knee);
 
-          mesh(knee, new THREE.SphereGeometry(0.092, 14, 10), suitSoft, `KNEE_JOINT_${side}`, 0, 0, 0, 0.80, 0.56, 0.80);
-          const calf = mesh(knee, new THREE.CapsuleGeometry(0.12, 0.86, 6, 12), suitSoft, `CALF_${side}`, side * 0.002, -0.46, 0.015, 1.02, 1, 0.89);
+          mesh(knee, new THREE.SphereGeometry(0.089, 14, 10), suitSoft, `KNEE_JOINT_${side}`, 0, 0, 0, 0.80, 0.56, 0.80);
+          const calf = mesh(knee, new THREE.CapsuleGeometry(0.116, 0.82, 6, 12), suitSoft, `CALF_${side}`, side * 0.002, -0.44, 0.015, 1.02, 1, 0.89);
           calf.rotation.z = side * -0.002;
-          mesh(knee, new THREE.CylinderGeometry(0.076, 0.086, 0.19, 14), suitSoft, `ANKLE_${side}`, side * 0.002, -0.94, 0.03, 1, 1, 0.88);
-          const foot = mesh(knee, new THREE.BoxGeometry(0.31, 0.16, 0.68), shoe, `FOOT_${side}`, side * 0.01, -0.96, 0.22);
+          mesh(knee, new THREE.CylinderGeometry(0.074, 0.084, 0.18, 14), suitSoft, `ANKLE_${side}`, side * 0.002, -0.90, 0.03, 1, 1, 0.88);
+          const foot = mesh(knee, new THREE.BoxGeometry(0.30, 0.15, 0.66), shoe, `FOOT_${side}`, side * 0.01, -1.04, 0.22);
           foot.rotation.y = side * 0.028;
-          mesh(knee, new THREE.BoxGeometry(0.15, 0.13, 0.18), shoe, `HEEL_${side}`, side * 0.01, -1.00, -0.02);
+          mesh(knee, new THREE.BoxGeometry(0.15, 0.18, 0.16), shoe, `HEEL_${side}`, side * 0.01, -1.09, -0.02);
         };
         makeLeg(-1);
         makeLeg(1);
 
-        const earL = new THREE.Mesh(new THREE.SphereGeometry(0.052, 14, 10), skin);
+        const earL = new THREE.Mesh(new THREE.SphereGeometry(0.050, 14, 10), skin);
         earL.scale.set(0.47, 1, 0.41);
         earL.position.set(-0.445, 0.01, 0);
         headPivot.add(earL);
@@ -171,12 +172,12 @@ export default function IsabelPlaceholderAnatomyBridge() {
         earR.position.x = 0.445;
         headPivot.add(earR);
 
-        const nose = new THREE.Mesh(new THREE.ConeGeometry(0.040, 0.124, 14), skin);
+        const nose = new THREE.Mesh(new THREE.ConeGeometry(0.039, 0.12, 14), skin);
         nose.rotation.x = Math.PI / 2;
         nose.position.set(0, -0.025, 0.49);
         headPivot.add(nose);
 
-        const browL = new THREE.Mesh(new THREE.BoxGeometry(0.132, 0.014, 0.018), hair);
+        const browL = new THREE.Mesh(new THREE.BoxGeometry(0.13, 0.014, 0.018), hair);
         browL.position.set(-0.17, 0.16, 0.445);
         browL.rotation.z = -0.045;
         headPivot.add(browL);
@@ -185,7 +186,7 @@ export default function IsabelPlaceholderAnatomyBridge() {
         browR.rotation.z = 0.045;
         headPivot.add(browR);
 
-        const chin = new THREE.Mesh(new THREE.SphereGeometry(0.086, 16, 10), skin);
+        const chin = new THREE.Mesh(new THREE.SphereGeometry(0.084, 16, 10), skin);
         chin.scale.set(1.07, 0.42, 0.59);
         chin.position.set(0, -0.34, 0.34);
         headPivot.add(chin);
@@ -206,25 +207,26 @@ export default function IsabelPlaceholderAnatomyBridge() {
           const listening = activeState === "listen";
           const presenting = activeState === "present";
           const seated = activeState === "sit" || activeState === "working";
-          const lowered = activeState === "notice";
 
-          const targetComp = seated ? 0.30 : lowered ? 0.72 : 0;
+          const targetComp = seated ? -0.02 : 0;
           compensation += (targetComp - compensation) * 0.16;
           human.position.y = compensation;
+          human.position.z += ((seated ? 0.08 : 0) - human.position.z) * 0.12;
           headPivot.position.y = baseHeadY + compensation + Math.sin(t * 1.4) * 0.0025;
 
           const breath = Math.sin(t * 1.4);
           torso.scale.y = 1 + breath * 0.0022;
           torso.scale.x = 1 + breath * 0.0009;
           const sway = Math.sin(t * 0.46);
-          human.position.x = sway * (walking ? 0.001 : 0.0035);
+          human.position.x = sway * (walking ? 0.001 : 0.003);
           human.rotation.z = sway * (listening ? 0.003 : 0.0012);
 
           const torsoZ = listening ? -0.007 + sway * 0.0012 : presenting ? 0.005 : sway * 0.0008;
-          const torsoX = seated ? 0.08 : presenting ? -0.014 : activeState === "notice" ? -0.003 : 0;
+          const torsoX = seated ? 0.12 : presenting ? -0.014 : activeState === "notice" ? -0.003 : 0;
           torso.rotation.z += (torsoZ - torso.rotation.z) * 0.12;
           torso.rotation.x += (torsoX - torso.rotation.x) * 0.12;
           pelvis.rotation.z += ((-torsoZ * 0.28) - pelvis.rotation.z) * 0.12;
+          pelvis.rotation.x += ((seated ? -0.08 : 0) - pelvis.rotation.x) * 0.12;
 
           if (walking) {
             const stride = Math.sin(t * 6.4);
@@ -237,14 +239,14 @@ export default function IsabelPlaceholderAnatomyBridge() {
             knees[0].rotation.x = Math.max(0, stride) * 0.16;
             knees[1].rotation.x = Math.max(0, -stride) * 0.16;
           } else if (seated) {
-            shoulders[0].rotation.x += (-0.08 - shoulders[0].rotation.x) * 0.12;
-            shoulders[1].rotation.x += (-0.06 - shoulders[1].rotation.x) * 0.12;
-            elbows[0].rotation.x += (-0.32 - elbows[0].rotation.x) * 0.12;
-            elbows[1].rotation.x += (-0.28 - elbows[1].rotation.x) * 0.12;
-            hips[0].rotation.x += (-1.10 - hips[0].rotation.x) * 0.14;
-            hips[1].rotation.x += (-1.10 - hips[1].rotation.x) * 0.14;
-            knees[0].rotation.x += (1.42 - knees[0].rotation.x) * 0.14;
-            knees[1].rotation.x += (1.42 - knees[1].rotation.x) * 0.14;
+            shoulders[0].rotation.x += (-0.10 - shoulders[0].rotation.x) * 0.14;
+            shoulders[1].rotation.x += (-0.08 - shoulders[1].rotation.x) * 0.14;
+            elbows[0].rotation.x += (-0.40 - elbows[0].rotation.x) * 0.14;
+            elbows[1].rotation.x += (-0.36 - elbows[1].rotation.x) * 0.14;
+            hips[0].rotation.x += (-1.32 - hips[0].rotation.x) * 0.16;
+            hips[1].rotation.x += (-1.32 - hips[1].rotation.x) * 0.16;
+            knees[0].rotation.x += (1.46 - knees[0].rotation.x) * 0.16;
+            knees[1].rotation.x += (1.46 - knees[1].rotation.x) * 0.16;
           } else {
             shoulders[0].rotation.x += ((listening ? -0.02 : -0.032) - shoulders[0].rotation.x) * 0.12;
             shoulders[1].rotation.x += ((listening ? -0.015 : -0.024) - shoulders[1].rotation.x) * 0.12;

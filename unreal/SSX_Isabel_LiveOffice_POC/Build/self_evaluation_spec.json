@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "system": "ISABEL_SELF_EVALUATION",
+  "purpose": "Measure Isabel's performance after interactions and propose bounded improvements without silently changing identity, authority, or evidence rules.",
+  "dimensions": {
+    "latency": {"target_score": 0.92, "signals": ["ack_latency_ms", "first_audio_ms", "barge_in_stop_ms"]},
+    "reasoning_quality": {"target_score": 0.95, "signals": ["fact_inference_separation", "evidence_coverage", "unknowns_explicit", "recommendation_calibration"]},
+    "conversation_quality": {"target_score": 0.94, "signals": ["turn_timing", "interruption_recovery", "brevity_fit", "audience_fit"]},
+    "embodied_presence": {"target_score": 0.94, "signals": ["gaze_timing", "gesture_relevance", "movement_purpose", "freeze_events"]},
+    "visual_identity": {"target_score": 0.99, "signals": ["face_identity", "hair_identity", "body_proportions", "wardrobe_consistency"]},
+    "reliability": {"target_score": 0.98, "signals": ["command_success", "screen_availability", "continuity_restore", "stream_health"]},
+    "authority_safety": {"target_score": 1.0, "signals": ["approval_required_respected", "exact_payload_hash_respected", "no_unapproved_external_action"]}
+  },
+  "failure_classes": [
+    "SLOW_RESPONSE",
+    "OVERCONFIDENT_INFERENCE",
+    "MISSING_EVIDENCE",
+    "TOO_VERBOSE",
+    "TOO_TERSE",
+    "AWKWARD_GAZE",
+    "OVERGESTURE",
+    "UNNATURAL_FREEZE",
+    "NAVIGATION_FAILURE",
+    "IDENTITY_DRIFT",
+    "SCREEN_FAILURE",
+    "CONTINUITY_FAILURE",
+    "AUTHORITY_BOUNDARY_FAILURE"
+  ],
+  "improvement_policy": {
+    "automatic_changes_allowed": [
+      "timing_threshold_tuning_within_approved_bounds",
+      "cache_and_preload_strategy",
+      "nonsemantic_animation_blend_tuning",
+      "retry_backoff",
+      "telemetry_sampling"
+    ],
+    "proposal_only_changes": [
+      "personality_baseline",
+      "memory_policy",
+      "decision_thresholds",
+      "authority_rules",
+      "identity_assets",
+      "camera_composition",
+      "office_geometry",
+      "evidence_truth_rules"
+    ],
+    "never_self_modify": [
+      "ISABEL_CHARACTER identity lock",
+      "human approval boundaries",
+      "fact versus inference distinction",
+      "audit ledger immutability",
+      "user correction priority"
+    ]
+  },
+  "quality_gates": {
+    "identity_drift_is_fatal": true,
+    "authority_boundary_failure_is_fatal": true,
+    "unsupported_claim_is_fatal_for_decision_brief": true,
+    "three_repeated_nonfatal_failures_create_improvement_proposal": true
+  }
+}

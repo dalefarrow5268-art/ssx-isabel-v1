@@ -33,12 +33,6 @@
     "y": 100,
     "faces": "left_windows"
   },
-  "isabel_anchor": {
-    "x": 185,
-    "y": 115,
-    "z": 0,
-    "faces": "left_windows"
-  },
   "camera_arrival": {
     "x": 0,
     "y": 610,
@@ -48,10 +42,40 @@
     "roll": 0,
     "focal_length_mm": 28
   },
+  "anchors": {
+    "ISABEL_DESK_SEATED": {"x": 185, "y": 115, "z": 0, "yaw": 180, "role": "seated_home"},
+    "ISABEL_DESK_STAND": {"x": 182, "y": 165, "z": 0, "yaw": 180, "role": "desk_stand"},
+    "SCREEN_01_VIEW": {"x": -105, "y": -245, "z": 0, "yaw": -90, "role": "screen_view"},
+    "SCREEN_02_VIEW": {"x": 105, "y": -245, "z": 0, "yaw": -90, "role": "screen_view"},
+    "SCREEN_03_VIEW": {"x": -105, "y": -205, "z": 0, "yaw": -90, "role": "screen_view"},
+    "SCREEN_04_VIEW": {"x": 105, "y": -205, "z": 0, "yaw": -90, "role": "screen_view"},
+    "WINDOW_VIEW": {"x": -235, "y": 40, "z": 0, "yaw": 180, "role": "window_view"},
+    "USER_FOCUS": {"x": 0, "y": 610, "z": 165, "yaw": 90, "role": "attention_target"}
+  },
+  "interaction_targets": {
+    "DESK": {"anchor": "ISABEL_DESK_STAND", "look_target": {"x": 150, "y": 100, "z": 95}},
+    "SCREEN_01": {"anchor": "SCREEN_01_VIEW", "look_target": {"x": -77.5, "y": -330, "z": 230}, "gesture_target": {"x": -77.5, "y": -330, "z": 210}},
+    "SCREEN_02": {"anchor": "SCREEN_02_VIEW", "look_target": {"x": 77.5, "y": -330, "z": 230}, "gesture_target": {"x": 77.5, "y": -330, "z": 210}},
+    "SCREEN_03": {"anchor": "SCREEN_03_VIEW", "look_target": {"x": -77.5, "y": -330, "z": 145}, "gesture_target": {"x": -77.5, "y": -330, "z": 145}},
+    "SCREEN_04": {"anchor": "SCREEN_04_VIEW", "look_target": {"x": 77.5, "y": -330, "z": 145}, "gesture_target": {"x": 77.5, "y": -330, "z": 145}},
+    "WINDOW": {"anchor": "WINDOW_VIEW", "look_target": {"x": -335, "y": 40, "z": 170}},
+    "USER": {"anchor": "ISABEL_DESK_SEATED", "look_target": {"x": 0, "y": 610, "z": 165}}
+  },
+  "nav_rules": {
+    "agent_radius": 34,
+    "agent_height": 180,
+    "preferred_walk_speed_cm_s": 150,
+    "slow_radius_cm": 85,
+    "stop_radius_cm": 20,
+    "turn_in_place_threshold_deg": 55,
+    "screen_approach_requires_stop": true,
+    "desk_requires_precise_alignment": true
+  },
   "screen_ids": ["SCREEN_01", "SCREEN_02", "SCREEN_03", "SCREEN_04"],
   "notes": [
     "This is the geometry truth for the first Unreal proof of concept, not a final architectural survey.",
     "All major elements stay as independent 3D objects so moving Isabel cannot deform the office.",
-    "Screens remain exact 16:9 physical surfaces and are never generated as part of an AI background image."
+    "Screens remain exact 16:9 physical surfaces and are never generated as part of an AI background image.",
+    "All Isabel movement resolves to named anchors so behavior logic never depends on guessed world coordinates."
   ]
 }

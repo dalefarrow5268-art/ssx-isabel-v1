@@ -1,0 +1,15 @@
+name = "ssx-contact-intake"
+main = "src/worker.js"
+compatibility_date = "2026-08-06"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ssx-contact-system"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "ATTACHMENTS"
+bucket_name = "ssx-contact-attachments"
+
+[triggers]
+crons = ["0 13 * * *", "0 17 * * *", "0 21 * * *"]

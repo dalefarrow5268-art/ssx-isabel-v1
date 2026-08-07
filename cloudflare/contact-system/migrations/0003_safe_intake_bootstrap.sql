@@ -1,0 +1,59 @@
+CREATE TABLE IF NOT EXISTS intake_submissions (
+  id TEXT PRIMARY KEY,
+  source_type TEXT NOT NULL,
+  raw_text TEXT,
+  status TEXT NOT NULL DEFAULT 'received',
+  created_at TEXT NOT NULL,
+  updated_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS intake_files (
+  id TEXT PRIMARY KEY,
+  intake_id TEXT NOT NULL,
+  file_name TEXT NOT NULL,
+  file_type TEXT,
+  size_bytes INTEGER NOT NULL DEFAULT 0,
+  r2_key TEXT NOT NULL,
+  created_at TEXT NOT NULL,
+  FOREIGN KEY(intake_id) REFERENCES intake_submissions(id)
+);
+
+CREATE TABLE IF NOT EXISTS tasks (
+  id TEXT PRIMARY KEY,
+  intake_id TEXT,
+  title TEXT NOT NULL,
+  description TEXT,
+  status TEXT NOT NULL DEFAULT 'open',
+  priority TEXT NOT NULL DEFAULT 'normal',
+  due_at TEXT,
+  timer_started_at TEXT,
+  timer_paused_at TEXT,
+  timer_elapsed_seconds INTEGER NOT NULL DEFAULT 0,
+  completed_at TEXT,
+  created_at TEXT NOT NULL,
+  updated_at TEXT NOT NULL,
+  FOREIGN KEY(intake_id) REFERENCES intake_submissions(id)
+);
+
+CREATE INDEX IF NOT EXISTS idx_tasks_status_priority_due ON tasks(status,priority,due_at);
+
+CREATE TABLE IF NOT EXISTS digest_runs (
+  id TEXT PRIMARY KEY,
+  recipient TEXT NOT NULL,
+  digest_key TEXT NOT NULL UNIQUE,
+  scheduled_at TEXT NOT NULL,
+  payload_json TEXT,
+  created_at TEXT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS contact_messages (
+  id TEXT PRIMARY KEY,
+  intake_id TEXT NOT NULL,
+  contact_id TEXT,
+  subject TEXT,
+  body_text TEXT,
+  message_date TEXT,
+  created_at TEXT NOT NULL,
+  FOREIGN KEY(intake_id) REFERENCES intake_submissions(id),
+  FOREIGN KEY(contact_id) REFERENCES contacts(id)
+);

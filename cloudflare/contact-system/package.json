@@ -1,0 +1,16 @@
+{
+  "name": "ssx-contact-system-worker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute ssx-contact-system --remote --file=migrations/0001.sql",
+    "db:migrate": "wrangler d1 execute ssx-contact-system --remote --file=migrations/0002_canonical_contact_system.sql",
+    "health": "node scripts/health-check.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.30.0"
+  }
+}

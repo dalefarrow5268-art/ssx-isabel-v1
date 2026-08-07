@@ -46,9 +46,9 @@ export default function Contact() {
           color: #061f3a;
           font-family: Arial, Helvetica, sans-serif;
           background:
-            radial-gradient(circle at 83% 28%, rgba(255, 239, 205, .78) 0 8%, rgba(255, 239, 205, 0) 20%),
-            radial-gradient(circle at 70% 38%, rgba(215, 232, 244, .78) 0 14%, rgba(215, 232, 244, 0) 34%),
-            linear-gradient(180deg, #d9eaf5 0%, #f5f7f7 32%, #dce9f2 48%, #082946 71%, #05233d 89%, #e5eef6 89%);
+            linear-gradient(180deg, rgba(236, 245, 251, .10) 0%, rgba(236, 245, 251, .02) 43%, rgba(3, 31, 55, .86) 61%, rgba(3, 31, 55, .97) 86%, rgba(226, 236, 245, .97) 86%),
+            url('/ssx-hero-clouds.jpg') center top / 100% auto no-repeat,
+            linear-gradient(180deg, #d9eaf5 0%, #f7f9f9 45%, #082946 64%, #05233d 86%, #e5eef6 86%);
           position: relative;
           overflow-x: hidden;
         }
@@ -58,24 +58,13 @@ export default function Contact() {
             overflow: hidden;
           }
         }
-        .page:before {
-          content: '';
-          position: fixed;
-          inset: 0;
-          pointer-events: none;
-          background:
-            radial-gradient(ellipse at 18% 54%, rgba(255,255,255,.58) 0 10%, rgba(255,255,255,0) 28%),
-            radial-gradient(ellipse at 42% 58%, rgba(255,255,255,.52) 0 12%, rgba(255,255,255,0) 32%),
-            linear-gradient(180deg, rgba(255,255,255,.25), rgba(255,255,255,0) 45%, rgba(0,20,38,.12) 65%, rgba(0,20,38,0));
-          z-index: 0;
-        }
         .page:after {
           content: '✈';
           position: fixed;
-          top: clamp(215px, 26vh, 310px);
-          left: 57%;
+          top: clamp(175px, 22vh, 255px);
+          left: 63%;
           transform: translateX(-50%) rotate(-6deg);
-          color: rgba(5, 35, 62, .55);
+          color: rgba(5, 35, 62, .62);
           font-size: clamp(70px, 9vw, 145px);
           line-height: 1;
           pointer-events: none;
@@ -87,7 +76,7 @@ export default function Contact() {
           z-index: 1;
         }
         .shell {
-          min-height: 100dvh;
+          height: 100dvh;
           display: grid;
           grid-template-rows: auto minmax(0, 1fr) auto;
         }
@@ -96,13 +85,13 @@ export default function Contact() {
           grid-template-columns: minmax(220px, 360px) 1fr auto;
           align-items: start;
           gap: clamp(22px, 4vw, 72px);
-          padding: clamp(14px, 2.2vh, 28px) clamp(22px, 3.7vw, 68px) 0;
+          padding: clamp(10px, 1.5vh, 18px) clamp(22px, 3.7vw, 68px) 0;
         }
         .brand {
           width: fit-content;
         }
         .wordmark {
-          font-size: clamp(72px, 8.1vw, 154px);
+          font-size: clamp(62px, 6.4vw, 116px);
           font-weight: 900;
           letter-spacing: clamp(-10px, -.8vw, -15px);
           line-height: .66;
@@ -116,7 +105,7 @@ export default function Contact() {
           display: flex;
           align-items: center;
           gap: 10px;
-          margin-top: clamp(10px, 1vw, 16px);
+          margin-top: clamp(6px, .8vh, 10px);
           font-size: clamp(10px, .72vw, 13px);
           font-weight: 800;
           letter-spacing: clamp(4px, .55vw, 8px);
@@ -133,7 +122,7 @@ export default function Contact() {
           display: flex;
           justify-content: center;
           gap: clamp(28px, 4.5vw, 84px);
-          padding-top: clamp(18px, 2.5vh, 30px);
+          padding-top: clamp(14px, 2vh, 24px);
           font-size: clamp(12px, .9vw, 16px);
           font-weight: 900;
           letter-spacing: 1.8px;
@@ -144,7 +133,7 @@ export default function Contact() {
           border: 1px solid #b98330;
           background: rgba(255,255,255,.43);
           color: #a86e20;
-          padding: clamp(12px, 1.8vh, 18px) 26px;
+          padding: clamp(10px, 1.4vh, 14px) 26px;
           font-size: 14px;
           font-weight: 800;
           letter-spacing: 2.4px;
@@ -154,7 +143,7 @@ export default function Contact() {
           grid-template-columns: minmax(250px, 28vw) minmax(420px, 1fr) minmax(260px, 30vw);
           grid-template-rows: auto 1fr;
           column-gap: clamp(28px, 4vw, 74px);
-          padding: clamp(18px, 3vh, 34px) clamp(22px, 3.7vw, 68px) clamp(12px, 2vh, 20px);
+          padding: clamp(8px, 1.5vh, 16px) clamp(22px, 3.7vw, 68px) clamp(6px, 1vh, 10px);
         }
         .copy {
           grid-column: 1 / 3;
@@ -162,14 +151,14 @@ export default function Contact() {
         }
         h1 {
           margin: 0;
-          font-size: clamp(48px, 5.1vw, 82px);
+          font-size: clamp(42px, 4.5vw, 72px);
           line-height: .98;
           letter-spacing: clamp(-4px, -.35vw, -7px);
           color: #06223e;
         }
         .lead {
           margin: clamp(10px, 1.7vh, 18px) 0 0;
-          font-size: clamp(18px, 1.45vw, 26px);
+          font-size: clamp(16px, 1.25vw, 22px);
           line-height: 1.28;
           color: #153555;
         }
@@ -192,11 +181,11 @@ export default function Contact() {
           justify-content: space-between;
           align-items: end;
           gap: clamp(22px, 4vw, 64px);
-          margin-top: clamp(28px, 7vh, 92px);
+          margin-top: clamp(14px, 3.2vh, 34px);
         }
         .side-card,
         .right-card {
-          min-height: clamp(190px, 25vh, 245px);
+          min-height: clamp(150px, 19vh, 190px);
           border-radius: 14px;
           background: rgba(2, 31, 56, .62);
           border: 1px solid rgba(186, 213, 230, .16);
@@ -204,14 +193,14 @@ export default function Contact() {
           backdrop-filter: blur(4px);
         }
         .side-card {
-          padding: clamp(18px, 2.5vh, 26px) 26px clamp(18px, 2.5vh, 26px) 44px;
+          padding: clamp(12px, 1.8vh, 18px) 22px clamp(12px, 1.8vh, 18px) 38px;
         }
         .feature {
           display: grid;
           grid-template-columns: 46px 1fr;
           gap: 18px;
           color: white;
-          margin-bottom: clamp(14px, 2.3vh, 26px);
+          margin-bottom: clamp(10px, 1.5vh, 16px);
         }
         .feature:last-child { margin-bottom: 0; }
         .icon {
@@ -235,7 +224,7 @@ export default function Contact() {
           color: white;
         }
         .drop {
-          height: clamp(168px, 23vh, 220px);
+          height: clamp(130px, 17vh, 165px);
           border: 2px dashed rgba(255,255,255,.92);
           border-radius: 14px;
           background: rgba(2, 31, 56, .95);
@@ -250,7 +239,7 @@ export default function Contact() {
           color: #d49a38;
           font-size: clamp(42px, 5.5vh, 56px);
           line-height: 1;
-          margin-bottom: 10px;
+          margin-bottom: 5px;
         }
         .drop strong {
           display: block;
@@ -268,7 +257,7 @@ export default function Contact() {
           display: flex;
           align-items: center;
           gap: 18px;
-          margin: clamp(10px, 1.9vh, 18px) 0 8px;
+          margin: clamp(7px, 1.1vh, 10px) 0 5px;
           font-weight: 800;
           letter-spacing: 1px;
         }
@@ -286,7 +275,7 @@ export default function Contact() {
         }
         textarea {
           width: 100%;
-          height: clamp(58px, 9vh, 82px);
+          height: clamp(44px, 6vh, 58px);
           resize: none;
           color: white;
           background: rgba(3, 23, 43, .82);
@@ -303,7 +292,7 @@ export default function Contact() {
           margin-top: 10px;
         }
         .btn {
-          height: 38px;
+          height: 32px;
           border: 1px solid #c99034;
           background: rgba(3, 31, 55, .54);
           color: #d8a24b;
@@ -328,7 +317,7 @@ export default function Contact() {
           padding: 24px 26px 24px 0;
         }
         .preview {
-          height: clamp(100px, 15vh, 140px);
+          height: clamp(86px, 12vh, 112px);
           border-radius: 9px;
           background: linear-gradient(135deg, #f8fbff, #b8c7d6);
           margin-left: 0;
@@ -360,8 +349,8 @@ export default function Contact() {
         }
         .footer {
           background: rgba(229, 238, 246, .96);
-          min-height: clamp(86px, 12vh, 120px);
-          padding: clamp(10px, 1.6vh, 16px) clamp(22px, 4vw, 74px) clamp(12px, 2vh, 20px);
+          min-height: clamp(74px, 10vh, 92px);
+          padding: clamp(8px, 1vh, 10px) clamp(22px, 4vw, 74px) clamp(8px, 1vh, 10px);
           color: #06223e;
         }
         .footer-line {
@@ -386,7 +375,7 @@ export default function Contact() {
           grid-template-columns: 1fr auto 1fr;
           align-items: end;
           gap: 22px;
-          margin-top: clamp(12px, 2vh, 22px);
+          margin-top: clamp(8px, 1.2vh, 12px);
         }
         .footer-brand {
           font-size: 31px;
@@ -411,19 +400,37 @@ export default function Contact() {
           font-size: 12px;
         }
 
-        @media (min-width: 1181px) and (max-height: 900px) {
-          .wordmark { font-size: clamp(64px, 7vw, 118px); }
-          .tagline { margin-top: 8px; }
-          .hero { padding-top: clamp(12px, 2vh, 24px); }
-          .lower { margin-top: clamp(18px, 4.5vh, 56px); }
+        @media (min-width: 1181px) and (max-height: 930px) {
+          .wordmark { font-size: clamp(58px, 5.8vw, 104px); }
+          .tagline { margin-top: 5px; }
+          .links { padding-top: 14px; }
+          .join { margin-top: 8px; }
+          .hero { padding-top: 6px; }
+          h1 { font-size: clamp(38px, 4vw, 64px); }
+          .lead { margin-top: 7px; font-size: clamp(15px, 1.12vw, 20px); }
+          .goldline { margin-top: 8px; margin-bottom: 6px; }
+          .lower { margin-top: clamp(8px, 2vh, 18px); }
           .side-card,
-          .right-card { min-height: clamp(170px, 22vh, 218px); }
-          .drop { height: clamp(142px, 20vh, 190px); }
-          .drop small { line-height: 1.35; }
-          textarea { height: clamp(48px, 7vh, 68px); }
-          .footer-line { font-size: 11px; }
-          .footer-brand { font-size: 26px; }
-          .footer-links { gap: 38px; }
+          .right-card { min-height: 150px; }
+          .feature { margin-bottom: 10px; }
+          .icon { font-size: 34px; }
+          .feature b,
+          .feature span { font-size: 11px; }
+          .drop { height: 124px; }
+          .upload { font-size: 34px; }
+          .drop strong { margin-bottom: 3px; }
+          .drop small { font-size: 11px; line-height: 1.25; }
+          .or { margin: 5px 0 3px; }
+          label { margin-bottom: 4px; font-size: 11px; }
+          textarea { height: 42px; padding: 9px 12px; }
+          .buttons { margin-top: 6px; }
+          .btn { height: 28px; }
+          .preview { height: 82px; }
+          .right-features .feature { margin-bottom: 9px; }
+          .footer-line { font-size: 10px; letter-spacing: 2px; }
+          .footer-brand { font-size: 24px; }
+          .footer-links { gap: 34px; }
+          .copyright { font-size: 11px; }
         }
         @media (max-width: 1180px) {
           .nav { grid-template-columns: 1fr auto; }
@@ -439,9 +446,12 @@ export default function Contact() {
         }
         @media (max-width: 820px) {
           .page {
+            height: auto;
+            min-height: 100dvh;
             background:
-              radial-gradient(circle at 80% 20%, rgba(255, 239, 205, .66), rgba(255, 239, 205, 0) 28%),
-              linear-gradient(180deg, #d9eaf5 0%, #f7f9f9 34%, #dce9f2 48%, #082946 62%, #05233d 88%, #e5eef6 88%);
+              linear-gradient(180deg, rgba(231,241,249,.36) 0%, rgba(231,241,249,.08) 38%, rgba(3,31,55,.94) 58%, rgba(3,31,55,.98) 88%, rgba(226,236,245,.97) 88%),
+              url('/ssx-hero-clouds.jpg') 64% top / auto 56vh no-repeat,
+              #06223e;
           }
           .page:after {
             top: 245px;

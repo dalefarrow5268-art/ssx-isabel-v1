@@ -161,9 +161,63 @@ export default function Contact() {
           left: 53.5%;
           top: 18%;
           width: clamp(330px, 31vw, 520px);
-          aspect-ratio: 500 / 150;
-          background: url('/ssx-plane-crop.jpg') center / contain no-repeat;
-          filter: drop-shadow(0 12px 12px rgba(2,20,36,.18));
+          aspect-ratio: 5 / 1.25;
+          transform: rotate(-4deg);
+          filter: drop-shadow(0 12px 12px rgba(2,20,36,.22));
+        }
+        .jet:before {
+          content: "";
+          position: absolute;
+          left: 6%;
+          right: 0;
+          top: 37%;
+          height: 22%;
+          border-radius: 100% 48% 55% 100%;
+          background:
+            radial-gradient(circle at 88% 35%, #eef8ff 0 2%, transparent 3%),
+            repeating-linear-gradient(90deg, transparent 0 7.5%, rgba(5,31,55,.65) 7.7% 8.2%, transparent 8.4% 10.5%),
+            linear-gradient(180deg, #ffffff 0%, #d6e1ea 48%, #09233f 51%, #eef5f8 76%, #7c8d9b 100%);
+          clip-path: polygon(0 55%, 5% 22%, 72% 15%, 100% 46%, 74% 82%, 5% 78%);
+        }
+        .jet:after {
+          content: "SSX";
+          position: absolute;
+          left: 43%;
+          top: 43%;
+          color: #09233f;
+          font-size: clamp(10px, .85vw, 14px);
+          font-weight: 900;
+          letter-spacing: .5px;
+          transform: rotate(3deg);
+        }
+        .jet .tail,
+        .jet .wing,
+        .jet .wing2 {
+          position: absolute;
+          display: block;
+          background: linear-gradient(135deg, #08233f 0%, #0f73ad 48%, #e7f5fb 52%, #718595 100%);
+        }
+        .jet .tail {
+          left: 8%;
+          top: 18%;
+          width: 20%;
+          height: 38%;
+          clip-path: polygon(0 72%, 48% 72%, 76% 0, 100% 0, 72% 82%, 6% 92%);
+        }
+        .jet .wing {
+          left: 42%;
+          top: 45%;
+          width: 28%;
+          height: 48%;
+          clip-path: polygon(0 0, 100% 10%, 64% 100%, 30% 88%);
+        }
+        .jet .wing2 {
+          left: 52%;
+          top: 26%;
+          width: 20%;
+          height: 26%;
+          opacity: .9;
+          clip-path: polygon(0 68%, 100% 0, 78% 78%, 18% 100%);
         }
         .people { display: none; }
         .person {
@@ -395,7 +449,7 @@ export default function Contact() {
             <div className="goldline" />
             <p className="promise">Turn email into action. Build better relationships.</p>
           </div>
-          <div className="jet" aria-hidden="true" />
+          <div className="jet" aria-hidden="true"><span className="tail" /><span className="wing" /><span className="wing2" /></div>
           <div className="people" aria-hidden="true"><div className="person small" /><div className="person tall" /><div className="rocks" /></div>
 
           <div className="lower">

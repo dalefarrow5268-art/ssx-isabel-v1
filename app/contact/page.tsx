@@ -46,8 +46,10 @@ export default function Contact() {
           color: #061f3a;
           font-family: Arial, Helvetica, sans-serif;
           background:
-            linear-gradient(180deg, rgba(237, 244, 249, .2) 0%, rgba(237, 244, 249, .05) 46%, rgba(3, 31, 55, .92) 69%, rgba(3, 31, 55, .97) 89%, rgba(226, 236, 245, .95) 89%),
-            url('/ssx-contact-vision.jpg') center top / cover no-repeat;
+            radial-gradient(circle at 83% 28%, rgba(255, 239, 205, .78) 0 8%, rgba(255, 239, 205, 0) 20%),
+            radial-gradient(circle at 70% 38%, rgba(215, 232, 244, .78) 0 14%, rgba(215, 232, 244, 0) 34%),
+            linear-gradient(180deg, #d9eaf5 0%, #f5f7f7 32%, #dce9f2 48%, #082946 71%, #05233d 89%, #e5eef6 89%);
+          position: relative;
           overflow-x: hidden;
         }
         @media (min-width: 1181px) and (min-height: 760px) {
@@ -55,6 +57,34 @@ export default function Contact() {
             height: 100dvh;
             overflow: hidden;
           }
+        }
+        .page:before {
+          content: '';
+          position: fixed;
+          inset: 0;
+          pointer-events: none;
+          background:
+            radial-gradient(ellipse at 18% 54%, rgba(255,255,255,.58) 0 10%, rgba(255,255,255,0) 28%),
+            radial-gradient(ellipse at 42% 58%, rgba(255,255,255,.52) 0 12%, rgba(255,255,255,0) 32%),
+            linear-gradient(180deg, rgba(255,255,255,.25), rgba(255,255,255,0) 45%, rgba(0,20,38,.12) 65%, rgba(0,20,38,0));
+          z-index: 0;
+        }
+        .page:after {
+          content: '✈';
+          position: fixed;
+          top: clamp(215px, 26vh, 310px);
+          left: 57%;
+          transform: translateX(-50%) rotate(-6deg);
+          color: rgba(5, 35, 62, .55);
+          font-size: clamp(70px, 9vw, 145px);
+          line-height: 1;
+          pointer-events: none;
+          text-shadow: 0 14px 28px rgba(255,255,255,.34);
+          z-index: 0;
+        }
+        .shell {
+          position: relative;
+          z-index: 1;
         }
         .shell {
           min-height: 100dvh;
@@ -410,9 +440,14 @@ export default function Contact() {
         @media (max-width: 820px) {
           .page {
             background:
-              linear-gradient(180deg, rgba(231,241,249,.56) 0%, rgba(231,241,249,.20) 36%, rgba(3,31,55,.94) 58%, rgba(3,31,55,.98) 88%, rgba(226,236,245,.97) 88%),
-              url('/ssx-contact-vision.jpg') 57% top / auto 72vh no-repeat,
-              #06223e;
+              radial-gradient(circle at 80% 20%, rgba(255, 239, 205, .66), rgba(255, 239, 205, 0) 28%),
+              linear-gradient(180deg, #d9eaf5 0%, #f7f9f9 34%, #dce9f2 48%, #082946 62%, #05233d 88%, #e5eef6 88%);
+          }
+          .page:after {
+            top: 245px;
+            left: 70%;
+            font-size: 86px;
+            opacity: .48;
           }
           .nav { grid-template-columns: 1fr; gap: 12px; }
           .join { display: none; }

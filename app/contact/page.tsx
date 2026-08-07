@@ -38,441 +38,443 @@ export default function Contact() {
   }
 
   return (
-    <main className="ssx-page">
+    <main className="page">
       <style jsx>{`
         * { box-sizing: border-box; }
-        .ssx-page {
-          --navy: #06233f;
-          --navy2: #021d35;
-          --gold: #c89034;
-          --paper: #e7f0f7;
-          min-height: 100svh;
-          color: var(--navy);
-          font-family: Arial, Helvetica, sans-serif;
-          background: var(--paper);
-          overflow-x: hidden;
+        .page {
+          --navy:#06233f;
+          --gold:#d39a3a;
+          --panel:rgba(2,30,54,.76);
+          min-height:100svh;
+          margin:0;
+          color:var(--navy);
+          font-family:Arial, Helvetica, sans-serif;
+          background:#e6f0f8;
+          overflow-x:hidden;
         }
         .stage {
-          min-height: 100svh;
-          display: grid;
-          grid-template-rows: auto 1fr auto;
-          overflow: hidden;
-          position: relative;
-          isolation: isolate;
+          min-height:100svh;
+          display:grid;
+          grid-template-rows:auto minmax(0,1fr) auto;
+          position:relative;
+          isolation:isolate;
+          overflow:hidden;
           background:
-            linear-gradient(180deg, rgba(230,242,250,.10) 0%, rgba(255,255,255,.16) 36%, rgba(6,35,63,.28) 54%, rgba(3,28,51,.98) 70%, rgba(3,28,51,1) 86.8%, rgba(231,240,247,1) 86.9%),
-            url("/ssx-hero-clouds.jpg") center 14% / 100% auto no-repeat,
-            linear-gradient(180deg, #dfeef8 0%, #fbfbf8 44%, #05233f 68%, #031d35 86.8%, #e7f0f7 86.9%);
+            linear-gradient(180deg,rgba(223,239,249,.04) 0%,rgba(255,255,255,.08) 41%,rgba(6,35,63,.22) 55%,rgba(3,29,52,.96) 72%,#031d34 87.5%,#e6f0f8 87.6%),
+            url("/ssx-hero-clouds.jpg") center top / 100% 58.6% no-repeat,
+            linear-gradient(180deg,#dcecf7 0%,#fff9ef 43%,#06233f 66%,#031d34 87.5%,#e6f0f8 87.6%);
         }
-        .stage::after {
-          content: "";
-          position: absolute;
-          left: 0;
-          right: 0;
-          bottom: 13.1%;
-          height: 30%;
-          z-index: -1;
-          background: linear-gradient(180deg, rgba(4,33,59,0), rgba(3,28,51,.96) 46%, #031d35);
+        .stage:before {
+          content:"";
+          position:absolute;
+          left:0; right:0; bottom:12.4%;
+          height:30%;
+          z-index:-1;
+          background:linear-gradient(180deg,rgba(5,35,63,0),rgba(3,29,52,.92) 36%,#031d34);
         }
         .nav {
-          display: grid;
-          grid-template-columns: 360px 1fr 290px;
-          align-items: start;
-          gap: clamp(28px, 4vw, 72px);
-          padding: clamp(20px, 3.3vh, 44px) clamp(46px, 3.8vw, 72px) 0;
+          display:grid;
+          grid-template-columns:360px 1fr 285px;
+          align-items:start;
+          gap:48px;
+          padding:28px 56px 0;
         }
         .logo {
-          width: clamp(260px, 23vw, 370px);
-          line-height: .68;
-          font-size: clamp(88px, 8.3vw, 150px);
-          font-weight: 900;
-          letter-spacing: -.09em;
-          color: var(--navy);
+          font-size:132px;
+          line-height:.68;
+          letter-spacing:-13px;
+          font-weight:900;
+          color:var(--navy);
         }
-        .logo span { color: rgba(6,35,63,.58); }
-        .brandline {
-          margin-top: clamp(8px, .9vh, 12px);
-          display: flex;
-          align-items: center;
-          gap: 10px;
-          font-size: clamp(10px, .75vw, 13px);
-          font-weight: 900;
-          letter-spacing: clamp(3px, .42vw, 6px);
-          white-space: nowrap;
+        .logo span { color:rgba(6,35,63,.55); }
+        .tag {
+          margin-top:10px;
+          display:flex;
+          align-items:center;
+          gap:10px;
+          white-space:nowrap;
+          font-size:12px;
+          font-weight:900;
+          letter-spacing:5px;
         }
-        .brandline::before, .brandline::after, .footer-kicker::before, .footer-kicker::after {
-          content: "";
-          height: 1px;
-          background: var(--gold);
+        .tag:before,.tag:after,.footer-line:before,.footer-line:after {
+          content:"";
+          height:1px;
+          background:var(--gold);
         }
-        .brandline::before, .brandline::after { width: 40px; }
-        .navlinks {
-          display: flex;
-          justify-content: center;
-          gap: clamp(34px, 4.3vw, 76px);
-          padding-top: clamp(22px, 2.2vh, 35px);
-          font-size: clamp(12px, .9vw, 16px);
-          font-weight: 900;
-          letter-spacing: 1.7px;
+        .tag:before,.tag:after { width:38px; }
+        .links {
+          display:flex;
+          justify-content:center;
+          gap:66px;
+          padding-top:36px;
+          font-size:15px;
+          font-weight:900;
+          letter-spacing:1.6px;
         }
         .join {
-          justify-self: end;
-          margin-top: clamp(12px, 1.8vh, 22px);
-          width: clamp(230px, 17.5vw, 286px);
-          height: clamp(40px, 5vh, 48px);
-          border: 1px solid #b98230;
-          background: rgba(255,255,255,.38);
-          color: #a76b1e;
-          font-size: 14px;
-          font-weight: 900;
-          letter-spacing: 2.4px;
+          justify-self:end;
+          margin-top:26px;
+          width:270px;
+          height:46px;
+          border:1px solid #b77e2d;
+          background:rgba(255,255,255,.34);
+          color:#a86d20;
+          font-size:14px;
+          font-weight:900;
+          letter-spacing:2.5px;
         }
         .hero {
-          position: relative;
-          display: grid;
-          grid-template-rows: auto minmax(0,1fr);
-          padding: clamp(28px, 4.5vh, 66px) clamp(46px, 3.8vw, 72px) clamp(8px, 1.1vh, 16px);
+          min-height:0;
+          position:relative;
+          display:grid;
+          grid-template-rows:auto 1fr;
+          padding:34px 56px 0;
         }
-        .copy { max-width: min(760px, 52vw); }
+        .copy {
+          width:min(820px,52vw);
+          max-width:none;
+          position:relative;
+          z-index:2;
+        }
         h1 {
-          margin: 0;
-          color: var(--navy);
-          font-size: clamp(56px, 5.7vw, 92px);
-          line-height: .98;
-          letter-spacing: -.065em;
-          font-weight: 900;
+          margin:0;
+          max-width:820px;
+          font-size:clamp(58px,5vw,82px);
+          line-height:.98;
+          letter-spacing:-6px;
+          font-weight:900;
+          color:var(--navy);
         }
         .lead {
-          margin: clamp(12px, 1.5vh, 18px) 0 0;
-          color: #153654;
-          font-size: clamp(22px, 1.7vw, 30px);
-          line-height: 1.25;
+          margin:18px 0 0;
+          font-size:clamp(22px,1.7vw,30px);
+          line-height:1.24;
+          color:#183956;
         }
         .rule {
-          width: 88px;
-          height: 2px;
-          background: var(--gold);
-          margin: clamp(14px, 1.8vh, 22px) 0 clamp(8px, 1.1vh, 12px);
+          width:88px;
+          height:2px;
+          background:var(--gold);
+          margin:20px 0 12px;
         }
         .promise {
-          margin: 0;
-          color: var(--navy);
-          font-size: clamp(12px, .9vw, 16px);
-          font-weight: 900;
+          margin:0;
+          font-size:15px;
+          font-weight:900;
         }
-        .aircraft {
-          position: absolute;
-          left: 52.4%;
-          top: 17.6%;
-          width: clamp(360px, 32vw, 540px);
-          transform: rotate(-3deg);
-          filter: drop-shadow(0 16px 14px rgba(3,22,39,.22));
+        .plane {
+          position:absolute;
+          left:52.6%;
+          top:12.5%;
+          width:min(450px,30vw);
+          height:120px;
+          transform:rotate(-4deg);
+          opacity:.9;
+          filter:drop-shadow(0 12px 10px rgba(2,20,35,.18));
+          pointer-events:none;
         }
+        .plane svg { width:100%; height:100%; display:block; }
         .work {
-          align-self: end;
-          width: min(92vw, 1400px);
-          margin: clamp(56px, 10vh, 150px) auto 0;
-          display: grid;
-          grid-template-columns: minmax(285px, 30%) minmax(500px, 38%) minmax(340px, 30%);
-          gap: clamp(34px, 4.2vw, 72px);
-          align-items: end;
+          align-self:end;
+          width:min(92vw,1418px);
+          margin:36px auto 0;
+          display:grid;
+          grid-template-columns:minmax(300px,29%) minmax(520px,39%) minmax(330px,29%);
+          gap:64px;
+          align-items:end;
         }
         .panel {
-          color: white;
-          border: 1px solid rgba(191,218,236,.18);
-          border-radius: 10px;
-          background: rgba(2,29,52,.76);
-          box-shadow: 0 24px 54px rgba(0,18,34,.22);
-          backdrop-filter: blur(2px);
+          color:#fff;
+          border:1px solid rgba(189,217,237,.17);
+          border-radius:10px;
+          background:var(--panel);
+          box-shadow:0 22px 54px rgba(0,18,34,.22);
+          backdrop-filter:blur(2px);
         }
-        .left-panel {
-          padding: clamp(20px, 2.5vh, 30px) clamp(24px, 2.1vw, 36px);
+        .left {
+          min-height:238px;
+          padding:24px 28px 24px 70px;
+          position:relative;
         }
-        .feature {
-          display: grid;
-          grid-template-columns: 50px 1fr;
-          gap: 18px;
-          align-items: start;
-          margin-bottom: clamp(16px, 2.4vh, 30px);
+        .left:after {
+          content:"";
+          position:absolute;
+          right:0;
+          top:22px;
+          bottom:22px;
+          width:1px;
+          background:rgba(211,226,238,.34);
         }
-        .feature:last-child { margin-bottom: 0; }
-        .glyph {
-          color: var(--gold);
-          font-size: clamp(34px, 3vw, 46px);
-          line-height: 1;
-          text-align: center;
+        .feat {
+          display:grid;
+          grid-template-columns:48px 1fr;
+          gap:18px;
+          margin-bottom:24px;
+          align-items:start;
         }
-        .feature b {
-          display: block;
-          margin: 0 0 6px;
-          font-size: clamp(11px, .78vw, 13px);
-          letter-spacing: .15px;
+        .feat:last-child { margin-bottom:0; }
+        .ico {
+          color:var(--gold);
+          font-size:39px;
+          line-height:1;
+          text-align:center;
         }
-        .feature span {
-          display: block;
-          font-size: clamp(11px, .78vw, 13px);
-          line-height: 1.42;
+        .feat b {
+          display:block;
+          margin-bottom:6px;
+          font-size:13px;
+        }
+        .feat span {
+          display:block;
+          font-size:13px;
+          line-height:1.42;
         }
         .drop {
-          height: clamp(198px, 23vh, 242px);
-          display: grid;
-          place-items: center;
-          text-align: center;
-          cursor: pointer;
-          color: white;
-          border: 2px dashed rgba(255,255,255,.92);
-          border-radius: 14px;
-          background: rgba(2,29,52,.94);
-          box-shadow: 0 16px 40px rgba(0,16,31,.44), inset 0 0 28px rgba(255,255,255,.06);
+          height:224px;
+          border:2px dashed rgba(255,255,255,.94);
+          border-radius:14px;
+          background:rgba(2,30,54,.94);
+          box-shadow:0 15px 36px rgba(0,16,31,.45), inset 0 0 24px rgba(255,255,255,.06);
+          color:white;
+          display:grid;
+          place-items:center;
+          text-align:center;
+          cursor:pointer;
         }
         .upload {
-          color: var(--gold);
-          font-size: clamp(44px, 5.2vh, 60px);
-          line-height: 1;
-          margin-bottom: 8px;
+          font-size:56px;
+          line-height:1;
+          color:var(--gold);
+          margin-bottom:6px;
         }
         .drop strong {
-          display: block;
-          font-size: clamp(18px, 1.35vw, 23px);
-          margin-bottom: 6px;
+          display:block;
+          font-size:21px;
+          margin-bottom:7px;
         }
         .drop small {
-          display: block;
-          color: rgba(255,255,255,.91);
-          font-size: clamp(11px, .78vw, 13px);
-          line-height: 1.42;
+          display:block;
+          font-size:13px;
+          line-height:1.42;
+          color:rgba(255,255,255,.92);
         }
-        .browse { color: #e1a446; }
-        .filelist, .status {
-          margin-top: 7px;
-          color: #ffe0a3;
-          font-size: 12px;
-          line-height: 1.35;
+        .browse { color:#e1a446; }
+        .filelist,.status {
+          color:#ffe1a8;
+          font-size:12px;
+          margin-top:7px;
         }
         .or {
-          display: flex;
-          align-items: center;
-          gap: 18px;
-          margin: clamp(10px, 1.6vh, 18px) 0 6px;
-          color: white;
-          font-weight: 900;
-          letter-spacing: 1px;
+          margin:14px 0 6px;
+          display:flex;
+          align-items:center;
+          gap:18px;
+          color:white;
+          font-weight:900;
+          letter-spacing:1px;
         }
-        .or::before, .or::after {
-          content: "";
-          flex: 1;
-          height: 1px;
-          background: rgba(222,235,244,.62);
+        .or:before,.or:after {
+          content:"";
+          flex:1;
+          height:1px;
+          background:rgba(222,235,244,.62);
         }
         label {
-          display: block;
-          margin-bottom: 6px;
-          color: white;
-          font-size: 12px;
+          display:block;
+          margin-bottom:6px;
+          color:white;
+          font-size:12px;
         }
         textarea {
-          width: 100%;
-          height: clamp(70px, 8.7vh, 94px);
-          resize: none;
-          border: 1px solid rgba(175,204,225,.55);
-          border-radius: 5px;
-          background: rgba(3,24,43,.86);
-          color: white;
-          padding: 12px;
-          font: inherit;
+          width:100%;
+          height:76px;
+          resize:none;
+          border:1px solid rgba(176,204,224,.55);
+          border-radius:5px;
+          background:rgba(3,24,43,.85);
+          color:white;
+          padding:12px;
+          font:inherit;
         }
-        textarea::placeholder { color: rgba(255,255,255,.46); }
+        textarea::placeholder { color:rgba(255,255,255,.45); }
         .buttons {
-          display: flex;
-          justify-content: space-between;
-          gap: 16px;
-          margin-top: 8px;
+          display:flex;
+          justify-content:space-between;
+          gap:16px;
+          margin-top:8px;
         }
         .btn {
-          height: 34px;
-          border: 1px solid var(--gold);
-          background: rgba(3,31,55,.58);
-          color: #dca54b;
-          padding: 0 28px;
-          font-size: 12px;
-          font-weight: 900;
-          letter-spacing: 1.8px;
+          height:34px;
+          border:1px solid var(--gold);
+          background:rgba(3,31,55,.55);
+          color:#dca54b;
+          padding:0 28px;
+          font-size:12px;
+          font-weight:900;
+          letter-spacing:1.8px;
         }
-        .submit { min-width: 265px; }
-        .right-panel {
-          display: grid;
-          grid-template-columns: minmax(120px, .92fr) 1.25fr;
-          gap: 28px;
-          align-items: center;
-          padding: clamp(20px, 2.5vh, 30px) clamp(20px, 2vw, 34px);
+        .submit { min-width:255px; }
+        .right {
+          min-height:238px;
+          display:grid;
+          grid-template-columns:142px 1fr;
+          gap:28px;
+          align-items:center;
+          padding:24px 34px 24px 0;
+          position:relative;
         }
-        .card-art {
-          height: clamp(98px, 12.6vh, 136px);
-          border-radius: 8px;
-          background: linear-gradient(135deg, #f8fbff, #bac9d8);
-          box-shadow: 0 18px 30px rgba(0,0,0,.24);
-          position: relative;
-          overflow: hidden;
+        .right:before {
+          content:"";
+          position:absolute;
+          left:0;
+          top:22px;
+          bottom:22px;
+          width:1px;
+          background:rgba(211,226,238,.34);
         }
-        .card-art::before {
-          content: "SSX";
-          position: absolute;
-          top: 10px;
-          left: 12px;
-          color: var(--navy);
-          font-size: 10px;
-          font-weight: 900;
+        .mockcard {
+          height:136px;
+          border-radius:8px;
+          background:linear-gradient(135deg,#f8fbff,#bac9d8);
+          box-shadow:0 18px 30px rgba(0,0,0,.24);
+          position:relative;
+          overflow:hidden;
         }
-        .card-art::after {
-          content: "";
-          position: absolute;
-          left: 14px;
-          right: 14px;
-          top: 36px;
-          bottom: 14px;
-          background: repeating-linear-gradient(180deg, rgba(11,49,82,.18) 0 8px, transparent 8px 18px);
-          border-radius: 4px;
+        .mockcard:before {
+          content:"SSX";
+          position:absolute;
+          top:10px; left:12px;
+          font-size:10px;
+          font-weight:900;
+          color:var(--navy);
+        }
+        .mockcard:after {
+          content:"";
+          position:absolute;
+          left:14px; right:14px; top:36px; bottom:14px;
+          border-radius:4px;
+          background:repeating-linear-gradient(180deg,rgba(11,49,82,.18) 0 8px,transparent 8px 18px);
         }
         .footer {
-          min-height: 13.1svh;
-          padding: clamp(9px, 1.4vh, 17px) clamp(44px, 4vw, 72px) clamp(10px, 1.7vh, 18px);
-          background: rgba(231,240,247,.98);
+          min-height:12.4svh;
+          padding:14px 56px 14px;
+          background:rgba(231,240,247,.98);
         }
-        .footer-kicker {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          gap: 16px;
-          text-align: center;
-          font-size: clamp(10px, .78vw, 13px);
-          font-weight: 900;
-          letter-spacing: clamp(1.8px, .22vw, 3px);
+        .footer-line {
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          gap:16px;
+          text-align:center;
+          font-size:13px;
+          font-weight:900;
+          letter-spacing:2.6px;
         }
-        .footer-kicker::before, .footer-kicker::after { flex: 1; }
-        .footer-bottom {
-          display: grid;
-          grid-template-columns: 1fr auto 1fr;
-          align-items: end;
-          gap: 22px;
-          margin-top: clamp(11px, 1.9vh, 24px);
+        .footer-line:before,.footer-line:after { flex:1; }
+        .footrow {
+          margin-top:22px;
+          display:grid;
+          grid-template-columns:1fr auto 1fr;
+          align-items:end;
+          gap:24px;
         }
-        .footer-logo {
-          font-size: clamp(24px, 2.1vw, 32px);
-          font-weight: 900;
-          letter-spacing: -.1em;
+        .footlogo {
+          font-size:31px;
+          font-weight:900;
+          letter-spacing:-3px;
         }
-        .footer-logo span {
-          margin-left: 10px;
-          font-size: 11px;
-          letter-spacing: 2px;
-          font-weight: 800;
+        .footlogo span {
+          margin-left:10px;
+          font-size:11px;
+          letter-spacing:2px;
+          font-weight:800;
         }
-        .footer-links {
-          display: flex;
-          gap: clamp(30px, 3.2vw, 56px);
-          font-size: 12px;
-          font-weight: 900;
-          letter-spacing: .9px;
+        .footlinks {
+          display:flex;
+          gap:48px;
+          font-size:12px;
+          font-weight:900;
+          letter-spacing:.9px;
         }
-        .copyright {
-          justify-self: end;
-          font-size: 12px;
+        .copyr { justify-self:end; font-size:12px; }
+
+        @media (min-width:1181px) and (max-height:930px) {
+          .stage { grid-template-rows:128px minmax(0,1fr) 100px; }
+          .nav { padding-top:14px; }
+          .logo { font-size:108px; letter-spacing:-11px; }
+          .tag { margin-top:7px; font-size:11px; letter-spacing:4px; }
+          .links { padding-top:30px; }
+          .join { margin-top:22px; height:42px; }
+          .hero { padding-top:22px; }
+          h1 { font-size:clamp(54px,4.25vw,76px); }
+          .lead { margin-top:12px; font-size:clamp(19px,1.35vw,25px); }
+          .rule { margin-top:15px; margin-bottom:9px; }
+          .promise { font-size:13px; }
+          .plane { top:14%; width:min(400px,27vw); }
+          .work { margin-top:24px; }
+          .left,.right { min-height:190px; }
+          .left { padding-top:18px; padding-bottom:18px; }
+          .right { padding-top:18px; padding-bottom:18px; }
+          .feat { margin-bottom:17px; }
+          .ico { font-size:32px; }
+          .feat b,.feat span { font-size:11.5px; }
+          .drop { height:166px; }
+          .upload { font-size:44px; }
+          .drop strong { font-size:19px; }
+          textarea { height:58px; }
+          .mockcard { height:104px; }
+          .footer { padding-top:10px; padding-bottom:10px; }
+          .footrow { margin-top:16px; }
         }
 
-        @media (min-width: 1181px) and (max-height: 930px) {
-          .nav { padding-top: 15px; }
-          .logo { font-size: clamp(74px, 7vw, 120px); }
-          .navlinks { padding-top: 20px; }
-          .join { margin-top: 12px; height: 42px; }
-          .hero { padding-top: 19px; }
-          h1 { font-size: clamp(48px, 5vw, 78px); }
-          .lead { font-size: clamp(18px, 1.35vw, 24px); }
-          .work { margin-top: clamp(30px, 6vh, 72px); }
-          .drop { height: 170px; }
-          textarea { height: 60px; }
-          .panel { border-radius: 9px; }
-          .left-panel, .right-panel { padding-top: 19px; padding-bottom: 19px; }
-          .feature { margin-bottom: 19px; }
-          .card-art { height: 110px; }
-          .footer { min-height: 100px; }
-          .footer-bottom { margin-top: 16px; }
-        }
-
-        @media (max-width: 1180px) {
+        @media (max-width:1180px) {
           .stage {
-            overflow: visible;
+            overflow:visible;
             background:
-              linear-gradient(180deg, rgba(230,242,250,.10) 0%, rgba(255,255,255,.12) 34%, rgba(6,35,63,.35) 52%, rgba(3,28,51,.98) 66%, rgba(3,28,51,1) 88%, rgba(231,240,247,1) 88.1%),
-              url("/ssx-hero-clouds.jpg") center top / auto 58vh no-repeat,
-              linear-gradient(180deg, #dfeef8 0%, #fbfbf8 44%, #05233f 68%, #031d35 88%, #e7f0f7 88.1%);
+              linear-gradient(180deg,rgba(223,239,249,.04) 0%,rgba(255,255,255,.08) 38%,rgba(6,35,63,.22) 51%,rgba(3,29,52,.96) 65%,#031d34 88%,#e6f0f8 88.1%),
+              url("/ssx-hero-clouds.jpg") 58% top / auto 58vh no-repeat,
+              #031d34;
           }
-          .nav { grid-template-columns: 1fr auto; }
-          .navlinks { display: none; }
-          .copy { max-width: min(680px, 78vw); }
-          .aircraft { left: 58%; top: 20%; width: 34vw; }
-          .work {
-            grid-template-columns: 1fr 1.35fr;
-            margin-top: clamp(54px, 10vh, 110px);
-          }
-          .right-panel {
-            grid-column: 1 / 3;
-            grid-template-columns: 220px 1fr;
-          }
+          .nav { grid-template-columns:1fr auto; padding:22px 28px 0; }
+          .links { display:none; }
+          .hero { padding:34px 28px 0; }
+          .copy { width:min(760px,78vw); }
+          h1 { font-size:clamp(48px,7.2vw,72px); }
+          .plane { width:34vw; left:60%; top:18%; }
+          .work { grid-template-columns:1fr 1.35fr; gap:24px; margin:70px 28px 0; width:auto; }
+          .right { grid-column:1/3; grid-template-columns:200px 1fr; padding-left:24px; }
         }
 
-        @media (max-width: 820px) {
+        @media (max-width:820px) {
           .stage {
-            display: block;
-            min-height: 100svh;
+            display:block;
             background:
-              linear-gradient(180deg, rgba(231,241,249,.28) 0%, rgba(231,241,249,.08) 35%, rgba(3,31,55,.90) 54%, rgba(3,31,55,.99) 87%, rgba(226,236,245,.98) 87.1%),
-              url("/ssx-hero-clouds.jpg") 63% top / auto 55vh no-repeat,
-              #06233f;
+              linear-gradient(180deg,rgba(230,241,249,.26) 0%,rgba(255,255,255,.05) 35%,rgba(3,29,52,.92) 56%,#031d34 88%,#e6f0f8 88.1%),
+              url("/ssx-hero-clouds.jpg") 63% top / auto 54vh no-repeat,
+              #031d34;
           }
-          .nav {
-            grid-template-columns: 1fr;
-            padding: 18px 18px 0;
-          }
-          .join, .aircraft { display: none; }
-          .hero { padding: 32px 18px 0; }
-          .copy { max-width: 100%; }
-          h1 { font-size: clamp(40px, 12vw, 58px); }
-          .lead { font-size: 20px; }
-          .work {
-            width: auto;
-            grid-template-columns: 1fr;
-            gap: 18px;
-            margin: 44px 18px 0;
-          }
-          .right-panel { grid-column: auto; grid-template-columns: 1fr; }
-          .card-art { display: none; }
-          .buttons { flex-direction: column; }
-          .btn, .submit { width: 100%; min-width: 0; }
-          .footer {
-            padding: 18px;
-          }
-          .footer-bottom {
-            grid-template-columns: 1fr;
-            text-align: center;
-            justify-items: center;
-          }
-          .footer-logo span {
-            display: block;
-            margin: 4px 0 0;
-          }
-          .footer-links {
-            flex-wrap: wrap;
-            justify-content: center;
-          }
-          .copyright { justify-self: center; }
-        }
-
-        @media (max-width: 520px) {
-          .logo { font-size: 62px; letter-spacing: -.1em; }
-          .brandline { font-size: 9px; letter-spacing: 2.6px; }
-          .brandline::before, .brandline::after { width: 28px; }
-          .drop { height: 210px; padding: 18px; }
-          .footer-kicker { font-size: 10px; letter-spacing: 1.6px; }
+          .nav { grid-template-columns:1fr; padding:18px 18px 0; }
+          .logo { font-size:64px; letter-spacing:-7px; }
+          .tag { font-size:9px; letter-spacing:2.7px; }
+          .tag:before,.tag:after { width:28px; }
+          .join,.plane { display:none; }
+          .hero { padding:34px 18px 0; }
+          .copy { width:100%; }
+          h1 { font-size:clamp(39px,11.5vw,58px); letter-spacing:-3px; }
+          .lead { font-size:20px; }
+          .work { grid-template-columns:1fr; margin:44px 18px 0; gap:18px; }
+          .left,.right { min-height:auto; padding:22px; }
+          .left:after,.right:before { display:none; }
+          .right { grid-column:auto; grid-template-columns:1fr; }
+          .mockcard { display:none; }
+          .buttons { flex-direction:column; }
+          .btn,.submit { width:100%; min-width:0; }
+          .footer { padding:18px; }
+          .footrow { grid-template-columns:1fr; text-align:center; justify-items:center; }
+          .footlogo span { display:block; margin:4px 0 0; }
+          .footlinks { flex-wrap:wrap; justify-content:center; gap:28px; }
+          .copyr { justify-self:center; }
         }
       `}</style>
 
@@ -480,9 +482,9 @@ export default function Contact() {
         <nav className="nav">
           <div>
             <div className="logo">SS<span>X</span></div>
-            <div className="brandline">BUILDING HUMAN POTENTIAL</div>
+            <div className="tag">BUILDING HUMAN POTENTIAL</div>
           </div>
-          <div className="navlinks"><span>VISION</span><span>PEOPLE</span><span>COMMUNITY</span><span>IMPACT</span><span>ABOUT</span></div>
+          <div className="links"><span>VISION</span><span>PEOPLE</span><span>COMMUNITY</span><span>IMPACT</span><span>ABOUT</span></div>
           <button className="join">JOIN THE MOVEMENT</button>
         </nav>
 
@@ -494,38 +496,40 @@ export default function Contact() {
             <p className="promise">Turn email into action. Build better relationships.</p>
           </div>
 
-          <svg className="aircraft" viewBox="0 0 680 170" aria-hidden="true">
-            <defs>
-              <linearGradient id="body" x1="0" x2="1" y1="0" y2="1">
-                <stop offset="0" stopColor="#ffffff" />
-                <stop offset=".46" stopColor="#d5e0e8" />
-                <stop offset=".52" stopColor="#082743" />
-                <stop offset=".67" stopColor="#f3f7fa" />
-                <stop offset="1" stopColor="#718493" />
-              </linearGradient>
-              <linearGradient id="blueWing" x1="0" x2="1">
-                <stop offset="0" stopColor="#07223d" />
-                <stop offset=".48" stopColor="#0f78b5" />
-                <stop offset=".54" stopColor="#e8f5fb" />
-                <stop offset="1" stopColor="#6f8290" />
-              </linearGradient>
-            </defs>
-            <path d="M48 92 C168 48 520 45 641 77 C670 85 666 96 636 101 C493 128 168 130 48 92Z" fill="url(#body)" />
-            <path d="M78 86 L6 54 L110 61 L164 16 L218 16 L160 88Z" fill="url(#blueWing)" />
-            <path d="M282 88 L416 158 L480 158 L362 91Z" fill="url(#blueWing)" />
-            <path d="M340 72 L448 24 L512 25 L407 84Z" fill="url(#blueWing)" opacity=".94" />
-            <path d="M70 88 C178 70 514 64 633 80" fill="none" stroke="#0a2a48" strokeWidth="3" opacity=".55" />
-            {Array.from({ length: 18 }).map((_, index) => (
-              <circle key={index} cx={250 + index * 18} cy={80 - index * .22} r="4.2" fill="#0b2b49" opacity=".75" />
-            ))}
-            <text x="322" y="105" fill="#092743" fontSize="25" fontWeight="900" letterSpacing="1">SSX</text>
-          </svg>
+          <div className="plane" aria-hidden="true">
+            <svg viewBox="0 0 680 170">
+              <defs>
+                <linearGradient id="fuselage" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0" stopColor="#ffffff" />
+                  <stop offset=".45" stopColor="#d6e3ec" />
+                  <stop offset=".52" stopColor="#06233f" />
+                  <stop offset=".65" stopColor="#f6f9fb" />
+                  <stop offset="1" stopColor="#748997" />
+                </linearGradient>
+                <linearGradient id="wing" x1="0" x2="1">
+                  <stop offset="0" stopColor="#07233f" />
+                  <stop offset=".5" stopColor="#0c76b1" />
+                  <stop offset=".57" stopColor="#edf6fb" />
+                  <stop offset="1" stopColor="#718595" />
+                </linearGradient>
+              </defs>
+              <path d="M48 92 C168 48 520 45 641 77 C670 85 666 96 636 101 C493 128 168 130 48 92Z" fill="url(#fuselage)" />
+              <path d="M78 86 L6 54 L110 61 L164 16 L218 16 L160 88Z" fill="url(#wing)" />
+              <path d="M282 88 L416 158 L480 158 L362 91Z" fill="url(#wing)" />
+              <path d="M340 72 L448 24 L512 25 L407 84Z" fill="url(#wing)" opacity=".94" />
+              <path d="M70 88 C178 70 514 64 633 80" fill="none" stroke="#0a2a48" strokeWidth="3" opacity=".55" />
+              {Array.from({ length: 18 }).map((_, index) => (
+                <circle key={index} cx={250 + index * 18} cy={80 - index * .22} r="4.1" fill="#0b2b49" opacity=".75" />
+              ))}
+              <text x="322" y="105" fill="#092743" fontSize="25" fontWeight="900" letterSpacing="1">SSX</text>
+            </svg>
+          </div>
 
           <div className="work">
-            <aside className="panel left-panel">
-              <div className="feature"><div className="glyph">✉</div><div><b>DROP OR PASTE</b><span>Upload emails or paste<br />content in seconds</span></div></div>
-              <div className="feature"><div className="glyph">♙</div><div><b>SMART PROCESSING</b><span>We extract to-dos, contacts,<br />and key information</span></div></div>
-              <div className="feature"><div className="glyph">◷</div><div><b>STAY AHEAD</b><span>Organized insights. Urgent<br />alerts. Better results.</span></div></div>
+            <aside className="panel left">
+              <div className="feat"><div className="ico">✉</div><div><b>DROP OR PASTE</b><span>Upload emails or paste<br />content in seconds</span></div></div>
+              <div className="feat"><div className="ico">♙</div><div><b>SMART PROCESSING</b><span>We extract to-dos, contacts,<br />and key information</span></div></div>
+              <div className="feat"><div className="ico">◷</div><div><b>STAY AHEAD</b><span>Organized insights. Urgent<br />alerts. Better results.</span></div></div>
             </aside>
 
             <section>
@@ -549,23 +553,23 @@ export default function Contact() {
               {status && <div className="status">{status}</div>}
             </section>
 
-            <aside className="panel right-panel">
-              <div className="card-art" />
+            <aside className="panel right">
+              <div className="mockcard" />
               <div>
-                <div className="feature"><div className="glyph">⌖</div><div><b>BUILT FOR DALE</b><span>Your tasks. Your priorities.<br />Your success.</span></div></div>
-                <div className="feature"><div className="glyph">⌑</div><div><b>SECURE &amp; RELIABLE</b><span>Enterprise-grade security<br />and cloud infrastructure</span></div></div>
-                <div className="feature"><div className="glyph">↗</div><div><b>MORE DONE, LESS NOISE</b><span>Focus on what matters.<br />We handle the rest.</span></div></div>
+                <div className="feat"><div className="ico">⌖</div><div><b>BUILT FOR DALE</b><span>Your tasks. Your priorities.<br />Your success.</span></div></div>
+                <div className="feat"><div className="ico">⌑</div><div><b>SECURE &amp; RELIABLE</b><span>Enterprise-grade security<br />and cloud infrastructure</span></div></div>
+                <div className="feat"><div className="ico">↗</div><div><b>MORE DONE, LESS NOISE</b><span>Focus on what matters.<br />We handle the rest.</span></div></div>
               </div>
             </aside>
           </div>
         </section>
 
         <footer className="footer">
-          <div className="footer-kicker">CONNECTING PEOPLE. ALIGNING PROJECTS. BUILDING TRUST.</div>
-          <div className="footer-bottom">
-            <div className="footer-logo">SSX <span>BUILDING HUMAN POTENTIAL</span></div>
-            <div className="footer-links"><span>PRIVACY</span><span>TERMS</span><span>SUPPORT</span></div>
-            <div className="copyright">© 2024 SSX Contact System</div>
+          <div className="footer-line">CONNECTING PEOPLE. ALIGNING PROJECTS. BUILDING TRUST.</div>
+          <div className="footrow">
+            <div className="footlogo">SSX <span>BUILDING HUMAN POTENTIAL</span></div>
+            <div className="footlinks"><span>PRIVACY</span><span>TERMS</span><span>SUPPORT</span></div>
+            <div className="copyr">© 2024 SSX Contact System</div>
           </div>
         </footer>
       </div>

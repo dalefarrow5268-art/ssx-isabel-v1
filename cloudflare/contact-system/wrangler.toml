@@ -1,15 +1,15 @@
-name = "ssx-contact-intake"
+name = "ssx-contact-system"
 main = "src/worker.js"
 compatibility_date = "2026-08-06"
 
 [[d1_databases]]
 binding = "DB"
-database_name = "ssx-contact-system"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_name = "mason-forge-cloud"
+database_id = "736f655b-889d-4fb2-8948-0a396d39436f"
 
 [[r2_buckets]]
-binding = "ATTACHMENTS"
-bucket_name = "ssx-contact-attachments"
+binding = "CONTACT_FILES"
+bucket_name = "mason-forge-project-files"
 
 [triggers]
 crons = ["0 13 * * *", "0 17 * * *", "0 21 * * *"]

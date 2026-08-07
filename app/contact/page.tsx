@@ -432,6 +432,97 @@ export default function Contact() {
           .footer-links { gap: 34px; }
           .copyright { font-size: 11px; }
         }
+
+        @media (min-width: 1181px) {
+          .page {
+            height: 100dvh;
+            min-height: 100dvh;
+            overflow: hidden;
+            background: #e5eef6;
+          }
+          .page:after { display: none; }
+          .shell {
+            position: relative;
+            height: 100dvh;
+            min-height: 0;
+            display: block;
+            background: url('/ssx-contact-original.jpg') center center / contain no-repeat;
+          }
+          .nav,
+          .copy,
+          .side-card,
+          .right-card,
+          .footer {
+            opacity: 0;
+            pointer-events: none;
+          }
+          .hero {
+            position: absolute;
+            inset: 0;
+            display: block;
+            padding: 0;
+          }
+          .lower {
+            position: absolute;
+            inset: 0;
+            display: block;
+            margin: 0;
+          }
+          .intake {
+            position: absolute;
+            left: 32.3%;
+            top: 48.6%;
+            width: 35.5%;
+            height: 38.5%;
+            color: transparent;
+          }
+          .drop {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 48%;
+            opacity: 0;
+          }
+          .or,
+          label,
+          .filelist,
+          .status {
+            opacity: 0;
+          }
+          textarea {
+            position: absolute;
+            left: 0;
+            top: 63.5%;
+            width: 100%;
+            height: 16%;
+            opacity: 0;
+          }
+          .buttons {
+            position: absolute;
+            left: 0;
+            top: 82%;
+            width: 100%;
+            height: 10%;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 15% 1fr 42%;
+            gap: 0;
+          }
+          .btn {
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            padding: 0;
+          }
+          .submit {
+            grid-column: 3;
+            min-width: 0;
+          }
+          .buttons .btn:first-child {
+            grid-column: 1;
+          }
+        }
         @media (max-width: 1180px) {
           .nav { grid-template-columns: 1fr auto; }
           .links { display: none; }

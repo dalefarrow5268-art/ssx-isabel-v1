@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "machine_family": "GMKtec EVO-T2S",
+  "cpu": "Intel Core Ultra X7 358H",
+  "memory_gb": 64,
+  "memory_type": "LPDDR5X 8533 MT/s",
+  "gpu": "Intel Arc B390 integrated graphics",
+  "storage": "1TB PCIe 5.0 SSD",
+  "expansion": {
+    "oculink": true,
+    "usb4": 2,
+    "network": ["10GbE", "2.5GbE", "Wi-Fi 7"]
+  },
+  "isabel_runtime_strategy": {
+    "first_pass": "Run Unreal + Pixel Streaming on Arc B390 before purchasing eGPU hardware",
+    "measure_before_upgrade": true,
+    "egpu_upgrade_path": "OCuLink external NVIDIA GPU if measured render/encode headroom is insufficient"
+  },
+  "qualification_targets": {
+    "editor_viewport_fps_min": 30,
+    "pixel_streaming_fps_target": 30,
+    "frame_time_ms_max": 33.3,
+    "gpu_utilization_warning_pct": 95,
+    "system_memory_warning_pct": 85,
+    "stream_disconnects_allowed_during_10min_test": 0,
+    "required_screen_count": 4,
+    "identity_lock_required": true,
+    "geometry_lock_required": true,
+    "camera_lock_required": true
+  },
+  "quality_presets_to_test": [
+    "1080p-balanced",
+    "1080p-quality",
+    "1440p-balanced"
+  ],
+  "decision_rule": "Do not recommend OCuLink/NVIDIA purchase until the Arc B390 has been measured in the actual Isabel office scene with character, lighting, four screens, voice, and Pixel Streaming active."
+}

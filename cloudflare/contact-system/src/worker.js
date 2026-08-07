@@ -5,7 +5,7 @@ export default {
     const url = new URL(request.url);
     try {
       if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: JSON_HEADERS });
-      if (url.pathname === '/api/health') return json({ ok:true, service:'ssx-contact-intake', version:'v3' });
+      if (url.pathname === '/api/health') return json({ ok:true, service:'ssx-contact-system', version:'v3' });
       if (url.pathname === '/api/intake' && request.method === 'POST') return await intake(request, env);
       if (url.pathname === '/api/tasks' && request.method === 'GET') return await tasks(url, env);
       if (url.pathname.startsWith('/api/tasks/') && request.method === 'PATCH') return await patchTask(request, env, url.pathname.split('/').pop());
@@ -20,7 +20,7 @@ async function intake(request, env){
   const type=request.headers.get('content-type')||''; let rawText='', sourceType='paste', files=[];
   if(type.includes('multipart/form-data')){
     const form=await request.formData(); rawText=String(form.get('pasted_text')||form.get('raw_text')||'').trim();
-    for(const v of form.getAll('files')) if(v instanceof File){const id=crypto.randomUUID(), key=`contact-intake/${new Date().toISOString().slice(0,10)}/${id}/${safe(v.name)}`; await env.ATTACHMENTS.put(key,await v.arrayBuffer(),{httpMetadata:{contentType:v.type||'application/octet-stream'}}); files.push({id,key,name:v.name,type:v.type,size:v.size});}
+    for(const v of form.getAll('files')) if(v instanceof File){const id=crypto.randomUUID(), key=`contact-intake/${new Date().toISOString().slice(0,10)}/${id}/${safe(v.name)}`; await env.CONTACT_FILES.put(key,await v.arrayBuffer(),{httpMetadata:{contentType:v.type||'application/octet-stream'}}); files.push({id,key,name:v.name,type:v.type,size:v.size});}
     sourceType=files.length?'file':'paste';
   } else { const b=await request.json(); rawText=String(b.raw_text||b.pasted_text||'').trim(); sourceType=b.source_type||'paste'; }
   if(!rawText&&!files.length)return json({error:'empty_intake'},400);

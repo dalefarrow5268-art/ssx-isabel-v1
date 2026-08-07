@@ -51,40 +51,37 @@ export default function Contact() {
           font-family: Arial, Helvetica, sans-serif;
           background: #e5eef6;
           overflow-x: hidden;
-          display: grid;
-          place-items: start center;
         }
         .stage {
-          width: min(100vw, 1536px, calc(100dvh * 1.5));
-          height: min(100dvh, 1024px, calc(100vw / 1.5));
-          min-height: 0;
+          width: 100vw;
+          height: 100dvh;
+          min-height: 780px;
           display: grid;
           grid-template-rows: auto minmax(0, 1fr) auto;
           position: relative;
           isolation: isolate;
           overflow: hidden;
-          container-type: size;
           background:
-            linear-gradient(180deg, rgba(234,244,251,.05) 0%, rgba(255,255,255,.06) 43%, rgba(3,31,55,.80) 61%, rgba(3,31,55,.98) 86%, rgba(229,238,246,.98) 86%),
-            url('/ssx-hero-clouds.jpg') center top / 100% 58% no-repeat,
-            linear-gradient(180deg, #dcebf5 0%, #f8fafb 43%, #06223e 63%, #041f38 86%, #e5eef6 86%);
+            linear-gradient(180deg, rgba(234,244,251,.06) 0%, rgba(255,255,255,.02) 41%, rgba(3,31,55,.72) 59%, rgba(3,31,55,.98) 86.5%, rgba(229,238,246,.98) 86.5%),
+            url('/ssx-hero-clouds.jpg') center top / 100% 58.5% no-repeat,
+            linear-gradient(180deg, #dcebf5 0%, #f8fafb 42%, #06223e 62%, #041f38 86.5%, #e5eef6 86.5%);
         }
         .stage:before {
           content: "";
           position: absolute;
-          inset: 54% 0 13%;
+          inset: 58.5% 0 13.5%;
           z-index: -1;
           background: linear-gradient(180deg, rgba(4,31,55,.18), rgba(2,24,43,.98) 28%, rgba(2,24,43,.98));
         }
         .nav {
           display: grid;
-          grid-template-columns: minmax(210px, 330px) 1fr auto;
+          grid-template-columns: minmax(240px, 360px) 1fr auto;
           align-items: start;
           gap: clamp(24px, 4vw, 74px);
-          padding: min(2.9%, 30px) min(3.7%, 57px) 0;
+          padding: clamp(18px, 3vh, 30px) clamp(34px, 3.7vw, 68px) 0;
         }
         .wordmark {
-          font-size: clamp(58px, 7.7cqw, 124px);
+          font-size: clamp(82px, 8vw, 152px);
           line-height: .68;
           font-weight: 900;
           letter-spacing: clamp(-9px, -.7vw, -14px);
@@ -97,7 +94,7 @@ export default function Contact() {
           display: flex;
           align-items: center;
           gap: 10px;
-          font-size: clamp(9px, .68vw, 12px);
+          font-size: clamp(10px, .72vw, 13px);
           font-weight: 900;
           letter-spacing: clamp(3px, .45vw, 7px);
           white-space: nowrap;
@@ -132,19 +129,19 @@ export default function Contact() {
           position: relative;
           display: grid;
           grid-template-rows: auto minmax(0, 1fr);
-          padding: min(2.4%, 24px) min(3.7%, 57px) min(1.2%, 12px);
+          padding: clamp(28px, 4.2vh, 62px) clamp(34px, 3.7vw, 68px) clamp(8px, 1vh, 14px);
         }
-        .copy { max-width: min(760px, 48vw); }
+        .copy { max-width: min(760px, 50vw); }
         h1 {
           margin: 0;
-          font-size: clamp(42px, 5.5cqw, 84px);
+          font-size: clamp(58px, 5.8vw, 92px);
           line-height: .96;
           letter-spacing: clamp(-4px, -.32vw, -7px);
           color: var(--navy);
         }
         .lead {
           margin: clamp(9px, 1.5vh, 18px) 0 0;
-          font-size: clamp(17px, 1.45vw, 29px);
+          font-size: clamp(22px, 1.7vw, 30px);
           line-height: 1.25;
           color: #153555;
         }
@@ -161,9 +158,9 @@ export default function Contact() {
         }
         .jet {
           position: absolute;
-          left: 52.5%;
-          top: 15.5%;
-          width: min(32.5%, 500px);
+          left: 53.5%;
+          top: 18%;
+          width: clamp(330px, 31vw, 520px);
           aspect-ratio: 500 / 150;
           background: url('/ssx-plane-crop.jpg') center / contain no-repeat;
           filter: drop-shadow(0 12px 12px rgba(2,20,36,.18));
@@ -199,14 +196,18 @@ export default function Contact() {
         .lower {
           align-self: end;
           display: grid;
-          grid-template-columns: 27% 36% 30%;
+          grid-template-columns: minmax(270px, 30%) minmax(500px, 36%) minmax(320px, 30%);
           align-items: end;
           justify-content: space-between;
-          gap: min(4.2%, 64px);
-          margin-top: min(4.2%, 43px);
+          gap: clamp(30px, 4vw, 72px);
+          max-width: 1420px;
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          margin-top: clamp(60px, 11vh, 165px);
         }
         .side-card, .right-card {
-          min-height: clamp(170px, 22vh, 250px);
+          min-height: clamp(220px, 25vh, 270px);
           border-radius: 12px;
           background: var(--panel);
           border: 1px solid rgba(186,213,230,.16);
@@ -227,7 +228,7 @@ export default function Contact() {
         .feature span { display: block; font-size: clamp(11px, .75vw, 13px); line-height: 1.42; }
         .intake { color: white; }
         .drop {
-          height: min(21.5cqh, 220px);
+          height: clamp(200px, 24vh, 245px);
           border: 2px dashed rgba(255,255,255,.92);
           border-radius: 14px;
           background: rgba(2, 31, 56, .94);
@@ -247,7 +248,7 @@ export default function Contact() {
         label { display: block; margin-bottom: 5px; font-size: 12px; }
         textarea {
           width: 100%;
-          height: min(7.7cqh, 79px);
+          height: clamp(70px, 8.5vh, 92px);
           resize: none;
           color: white;
           background: rgba(3,23,43,.82);
@@ -290,7 +291,7 @@ export default function Contact() {
         .right-features .feature { margin-bottom: clamp(12px, 1.8vh, 24px); }
         .footer {
           background: rgba(229,238,246,.98);
-          min-height: 13.7%;
+          min-height: clamp(112px, 13.5vh, 138px);
           padding: clamp(8px, 1.3vh, 16px) clamp(22px, 4vw, 74px) clamp(8px, 1.6vh, 18px);
           color: var(--ink);
         }
@@ -302,33 +303,34 @@ export default function Contact() {
         .footer-links { display: flex; gap: clamp(30px, 3vw, 52px); font-size: 12px; font-weight: 800; letter-spacing: 1px; }
         .copyright { justify-self: end; font-size: 12px; }
 
-        @media (min-width: 1181px) and (max-height: 900px) {
-          .wordmark { font-size: clamp(58px, 6vw, 105px); }
-          .links { padding-top: 15px; }
-          .join { margin-top: 8px; }
-          .hero { padding-top: 4px; }
-          h1 { font-size: clamp(38px, 4vw, 66px); }
-          .lead { font-size: clamp(15px, 1.15vw, 21px); margin-top: 7px; }
-          .goldline { margin-top: 8px; margin-bottom: 6px; }
-          .jet { top: 10%; }
-          .people { display: none; }
-          .lower { margin-top: 8px; }
-          .side-card, .right-card { min-height: 150px; }
-          .feature { margin-bottom: 10px; }
-          .icon { font-size: 33px; }
-          .feature b, .feature span, .drop small { font-size: 11px; }
-          .drop { height: 122px; }
-          .upload { font-size: 34px; }
-          .or { margin: 5px 0 3px; }
-          textarea { height: 42px; padding: 9px 12px; }
-          .btn { height: 28px; }
-          .preview { height: 82px; }
-          .footer-bottom { margin-top: 8px; }
+        @media (min-width: 1181px) and (max-height: 930px) {
+          .stage { min-height: 0; }
+          .nav { padding-top: 14px; }
+          .wordmark { font-size: clamp(70px, 6.8vw, 118px); }
+          .tagline { margin-top: 7px; }
+          .links { padding-top: 20px; }
+          .join { margin-top: 14px; padding-top: 12px; padding-bottom: 12px; }
+          .hero { padding-top: 18px; }
+          h1 { font-size: clamp(48px, 4.9vw, 78px); }
+          .lead { font-size: clamp(18px, 1.35vw, 24px); margin-top: 12px; }
+          .goldline { margin-top: 16px; margin-bottom: 10px; }
+          .promise { font-size: 13px; }
+          .jet { top: 17%; width: clamp(300px, 28vw, 460px); }
+          .lower { margin-top: clamp(28px, 6vh, 70px); }
+          .side-card,
+          .right-card { min-height: 190px; }
+          .side-card { padding-top: 20px; padding-bottom: 20px; }
+          .feature { margin-bottom: 20px; }
+          .drop { height: 170px; }
+          textarea { height: 60px; }
+          .preview { height: 112px; }
+          .footer { min-height: 100px; padding-top: 10px; padding-bottom: 12px; }
+          .footer-bottom { margin-top: 18px; }
         }
 
         @media (max-width: 1180px) {
           .page { display: block; }
-          .stage { width: 100%; height: auto; min-height: auto; overflow: visible; container-type: inline-size; background-size: cover, cover, cover; }
+          .stage { width: 100%; height: auto; min-height: auto; overflow: visible; background-size: cover, cover, cover; }
           .nav { grid-template-columns: 1fr auto; }
           .links { display: none; }
           .hero { grid-template-rows: auto auto; }

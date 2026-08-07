@@ -49,24 +49,30 @@ export default function Contact() {
           min-height: 100dvh;
           color: var(--ink);
           font-family: Arial, Helvetica, sans-serif;
-          background: #e7f0f7;
+          background: #e5eef6;
           overflow-x: hidden;
+          display: grid;
+          place-items: start center;
         }
         .stage {
-          min-height: 100dvh;
+          width: min(100vw, 1536px, calc(100dvh * 1.5));
+          height: min(100dvh, 1024px, calc(100vw / 1.5));
+          min-height: 0;
           display: grid;
           grid-template-rows: auto minmax(0, 1fr) auto;
           position: relative;
           isolation: isolate;
+          overflow: hidden;
+          container-type: size;
           background:
-            linear-gradient(180deg, rgba(234,244,251,.04) 0%, rgba(255,255,255,.10) 40%, rgba(3,31,55,.82) 61%, rgba(3,31,55,.98) 86%, rgba(229,238,246,.98) 86%),
-            url('/ssx-hero-clouds.jpg') center top / cover no-repeat,
+            linear-gradient(180deg, rgba(234,244,251,.05) 0%, rgba(255,255,255,.06) 43%, rgba(3,31,55,.80) 61%, rgba(3,31,55,.98) 86%, rgba(229,238,246,.98) 86%),
+            url('/ssx-hero-clouds.jpg') center top / 100% 58% no-repeat,
             linear-gradient(180deg, #dcebf5 0%, #f8fafb 43%, #06223e 63%, #041f38 86%, #e5eef6 86%);
         }
         .stage:before {
           content: "";
           position: absolute;
-          inset: 52% 0 13%;
+          inset: 54% 0 13%;
           z-index: -1;
           background: linear-gradient(180deg, rgba(4,31,55,.18), rgba(2,24,43,.98) 28%, rgba(2,24,43,.98));
         }
@@ -75,10 +81,10 @@ export default function Contact() {
           grid-template-columns: minmax(210px, 330px) 1fr auto;
           align-items: start;
           gap: clamp(24px, 4vw, 74px);
-          padding: clamp(12px, 2vh, 26px) clamp(22px, 3.6vw, 68px) 0;
+          padding: min(2.9%, 30px) min(3.7%, 57px) 0;
         }
         .wordmark {
-          font-size: clamp(66px, 7.2vw, 132px);
+          font-size: clamp(58px, 7.7cqw, 124px);
           line-height: .68;
           font-weight: 900;
           letter-spacing: clamp(-9px, -.7vw, -14px);
@@ -126,12 +132,12 @@ export default function Contact() {
           position: relative;
           display: grid;
           grid-template-rows: auto minmax(0, 1fr);
-          padding: clamp(8px, 1.8vh, 22px) clamp(22px, 3.6vw, 68px) clamp(6px, 1vh, 12px);
+          padding: min(2.4%, 24px) min(3.7%, 57px) min(1.2%, 12px);
         }
         .copy { max-width: min(760px, 48vw); }
         h1 {
           margin: 0;
-          font-size: clamp(42px, 4.8vw, 86px);
+          font-size: clamp(42px, 5.5cqw, 84px);
           line-height: .96;
           letter-spacing: clamp(-4px, -.32vw, -7px);
           color: var(--navy);
@@ -155,37 +161,14 @@ export default function Contact() {
         }
         .jet {
           position: absolute;
-          left: 52%;
-          top: 12%;
-          width: min(30vw, 440px);
-          height: min(8vw, 118px);
-          transform: rotate(-4deg);
-          filter: drop-shadow(0 10px 12px rgba(2,20,36,.22));
+          left: 52.5%;
+          top: 15.5%;
+          width: min(32.5%, 500px);
+          aspect-ratio: 500 / 150;
+          background: url('/ssx-plane-crop.jpg') center / contain no-repeat;
+          filter: drop-shadow(0 12px 12px rgba(2,20,36,.18));
         }
-        .jet:before {
-          content: "";
-          position: absolute;
-          inset: 30% 4% 30% 14%;
-          border-radius: 999px 75% 75% 999px;
-          background: linear-gradient(180deg, #f7fbff, #b4c4d1 62%, #071f39 64%, #edf4f8 78%);
-          clip-path: polygon(0 50%, 6% 22%, 74% 18%, 100% 50%, 74% 82%, 6% 78%);
-        }
-        .jet:after {
-          content: "";
-          position: absolute;
-          inset: 0;
-          background: linear-gradient(135deg, #092b4d, #2b9bd8 48%, #e7f4fb 50%, #08233f 75%);
-          clip-path: polygon(20% 48%, 0 34%, 22% 34%, 34% 8%, 43% 10%, 36% 45%, 64% 48%, 70% 86%, 58% 86%, 50% 56%);
-          opacity: .95;
-        }
-        .people {
-          position: absolute;
-          right: clamp(80px, 8vw, 150px);
-          top: clamp(220px, 31vh, 330px);
-          width: clamp(90px, 9vw, 150px);
-          height: clamp(135px, 14vw, 230px);
-          filter: drop-shadow(0 20px 18px rgba(0,0,0,.42));
-        }
+        .people { display: none; }
         .person {
           position: absolute;
           bottom: 0;
@@ -216,11 +199,11 @@ export default function Contact() {
         .lower {
           align-self: end;
           display: grid;
-          grid-template-columns: minmax(250px, 360px) minmax(420px, 680px) minmax(290px, 450px);
+          grid-template-columns: 27% 36% 30%;
           align-items: end;
           justify-content: space-between;
-          gap: clamp(22px, 4vw, 64px);
-          margin-top: clamp(12px, 3vh, 56px);
+          gap: min(4.2%, 64px);
+          margin-top: min(4.2%, 43px);
         }
         .side-card, .right-card {
           min-height: clamp(170px, 22vh, 250px);
@@ -244,7 +227,7 @@ export default function Contact() {
         .feature span { display: block; font-size: clamp(11px, .75vw, 13px); line-height: 1.42; }
         .intake { color: white; }
         .drop {
-          height: clamp(150px, 21vh, 235px);
+          height: min(21.5cqh, 220px);
           border: 2px dashed rgba(255,255,255,.92);
           border-radius: 14px;
           background: rgba(2, 31, 56, .94);
@@ -264,7 +247,7 @@ export default function Contact() {
         label { display: block; margin-bottom: 5px; font-size: 12px; }
         textarea {
           width: 100%;
-          height: clamp(54px, 7.5vh, 86px);
+          height: min(7.7cqh, 79px);
           resize: none;
           color: white;
           background: rgba(3,23,43,.82);
@@ -307,7 +290,7 @@ export default function Contact() {
         .right-features .feature { margin-bottom: clamp(12px, 1.8vh, 24px); }
         .footer {
           background: rgba(229,238,246,.98);
-          min-height: clamp(78px, 11vh, 124px);
+          min-height: 13.7%;
           padding: clamp(8px, 1.3vh, 16px) clamp(22px, 4vw, 74px) clamp(8px, 1.6vh, 18px);
           color: var(--ink);
         }
@@ -328,7 +311,7 @@ export default function Contact() {
           .lead { font-size: clamp(15px, 1.15vw, 21px); margin-top: 7px; }
           .goldline { margin-top: 8px; margin-bottom: 6px; }
           .jet { top: 10%; }
-          .people { top: clamp(180px, 27vh, 270px); }
+          .people { display: none; }
           .lower { margin-top: 8px; }
           .side-card, .right-card { min-height: 150px; }
           .feature { margin-bottom: 10px; }
@@ -344,7 +327,8 @@ export default function Contact() {
         }
 
         @media (max-width: 1180px) {
-          .stage { min-height: auto; }
+          .page { display: block; }
+          .stage { width: 100%; height: auto; min-height: auto; overflow: visible; container-type: inline-size; background-size: cover, cover, cover; }
           .nav { grid-template-columns: 1fr auto; }
           .links { display: none; }
           .hero { grid-template-rows: auto auto; }

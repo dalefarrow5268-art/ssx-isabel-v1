@@ -50,17 +50,23 @@ export default function Contact() {
             url('/ssx-contact-vision.jpg') center top / cover no-repeat;
           overflow-x: hidden;
         }
+        @media (min-width: 1181px) and (min-height: 760px) {
+          .page {
+            height: 100dvh;
+            overflow: hidden;
+          }
+        }
         .shell {
           min-height: 100dvh;
           display: grid;
-          grid-template-rows: auto 1fr auto;
+          grid-template-rows: auto minmax(0, 1fr) auto;
         }
         .nav {
           display: grid;
           grid-template-columns: minmax(220px, 360px) 1fr auto;
           align-items: start;
           gap: clamp(22px, 4vw, 72px);
-          padding: clamp(22px, 3.2vw, 42px) clamp(22px, 3.7vw, 68px) 0;
+          padding: clamp(14px, 2.2vh, 28px) clamp(22px, 3.7vw, 68px) 0;
         }
         .brand {
           width: fit-content;
@@ -97,18 +103,18 @@ export default function Contact() {
           display: flex;
           justify-content: center;
           gap: clamp(28px, 4.5vw, 84px);
-          padding-top: 30px;
+          padding-top: clamp(18px, 2.5vh, 30px);
           font-size: clamp(12px, .9vw, 16px);
           font-weight: 900;
           letter-spacing: 1.8px;
         }
         .join {
-          margin-top: 22px;
+          margin-top: clamp(14px, 2vh, 22px);
           min-width: clamp(210px, 17vw, 290px);
           border: 1px solid #b98330;
           background: rgba(255,255,255,.43);
           color: #a86e20;
-          padding: 18px 26px;
+          padding: clamp(12px, 1.8vh, 18px) 26px;
           font-size: 14px;
           font-weight: 800;
           letter-spacing: 2.4px;
@@ -118,7 +124,7 @@ export default function Contact() {
           grid-template-columns: minmax(250px, 28vw) minmax(420px, 1fr) minmax(260px, 30vw);
           grid-template-rows: auto 1fr;
           column-gap: clamp(28px, 4vw, 74px);
-          padding: clamp(28px, 4vw, 64px) clamp(22px, 3.7vw, 68px) 34px;
+          padding: clamp(18px, 3vh, 34px) clamp(22px, 3.7vw, 68px) clamp(12px, 2vh, 20px);
         }
         .copy {
           grid-column: 1 / 3;
@@ -126,14 +132,14 @@ export default function Contact() {
         }
         h1 {
           margin: 0;
-          font-size: clamp(54px, 5.7vw, 92px);
+          font-size: clamp(48px, 5.1vw, 82px);
           line-height: .98;
           letter-spacing: clamp(-4px, -.35vw, -7px);
           color: #06223e;
         }
         .lead {
-          margin: 20px 0 0;
-          font-size: clamp(22px, 1.7vw, 30px);
+          margin: clamp(10px, 1.7vh, 18px) 0 0;
+          font-size: clamp(18px, 1.45vw, 26px);
           line-height: 1.28;
           color: #153555;
         }
@@ -141,7 +147,7 @@ export default function Contact() {
           width: 92px;
           height: 2px;
           background: #c99034;
-          margin: 24px 0 14px;
+          margin: clamp(10px, 1.8vh, 20px) 0 clamp(8px, 1.2vh, 12px);
         }
         .promise {
           margin: 0;
@@ -156,11 +162,11 @@ export default function Contact() {
           justify-content: space-between;
           align-items: end;
           gap: clamp(22px, 4vw, 64px);
-          margin-top: clamp(120px, 17vh, 260px);
+          margin-top: clamp(28px, 7vh, 92px);
         }
         .side-card,
         .right-card {
-          min-height: 260px;
+          min-height: clamp(190px, 25vh, 245px);
           border-radius: 14px;
           background: rgba(2, 31, 56, .62);
           border: 1px solid rgba(186, 213, 230, .16);
@@ -168,14 +174,14 @@ export default function Contact() {
           backdrop-filter: blur(4px);
         }
         .side-card {
-          padding: 28px 28px 28px 52px;
+          padding: clamp(18px, 2.5vh, 26px) 26px clamp(18px, 2.5vh, 26px) 44px;
         }
         .feature {
           display: grid;
           grid-template-columns: 46px 1fr;
           gap: 18px;
           color: white;
-          margin-bottom: 30px;
+          margin-bottom: clamp(14px, 2.3vh, 26px);
         }
         .feature:last-child { margin-bottom: 0; }
         .icon {
@@ -199,7 +205,7 @@ export default function Contact() {
           color: white;
         }
         .drop {
-          height: 245px;
+          height: clamp(168px, 23vh, 220px);
           border: 2px dashed rgba(255,255,255,.92);
           border-radius: 14px;
           background: rgba(2, 31, 56, .95);
@@ -212,7 +218,7 @@ export default function Contact() {
         }
         .upload {
           color: #d49a38;
-          font-size: 58px;
+          font-size: clamp(42px, 5.5vh, 56px);
           line-height: 1;
           margin-bottom: 10px;
         }
@@ -232,7 +238,7 @@ export default function Contact() {
           display: flex;
           align-items: center;
           gap: 18px;
-          margin: 22px 0 10px;
+          margin: clamp(10px, 1.9vh, 18px) 0 8px;
           font-weight: 800;
           letter-spacing: 1px;
         }
@@ -250,7 +256,7 @@ export default function Contact() {
         }
         textarea {
           width: 100%;
-          height: 92px;
+          height: clamp(58px, 9vh, 82px);
           resize: none;
           color: white;
           background: rgba(3, 23, 43, .82);
@@ -292,7 +298,7 @@ export default function Contact() {
           padding: 24px 26px 24px 0;
         }
         .preview {
-          height: 150px;
+          height: clamp(100px, 15vh, 140px);
           border-radius: 9px;
           background: linear-gradient(135deg, #f8fbff, #b8c7d6);
           margin-left: 0;
@@ -320,12 +326,12 @@ export default function Contact() {
         }
         .right-features .feature {
           grid-template-columns: 46px 1fr;
-          margin-bottom: 26px;
+          margin-bottom: clamp(12px, 2.1vh, 22px);
         }
         .footer {
           background: rgba(229, 238, 246, .96);
-          min-height: 132px;
-          padding: 18px clamp(22px, 4vw, 74px) 24px;
+          min-height: clamp(86px, 12vh, 120px);
+          padding: clamp(10px, 1.6vh, 16px) clamp(22px, 4vw, 74px) clamp(12px, 2vh, 20px);
           color: #06223e;
         }
         .footer-line {
@@ -350,7 +356,7 @@ export default function Contact() {
           grid-template-columns: 1fr auto 1fr;
           align-items: end;
           gap: 22px;
-          margin-top: 26px;
+          margin-top: clamp(12px, 2vh, 22px);
         }
         .footer-brand {
           font-size: 31px;
@@ -373,6 +379,21 @@ export default function Contact() {
         .copyright {
           justify-self: end;
           font-size: 12px;
+        }
+
+        @media (min-width: 1181px) and (max-height: 900px) {
+          .wordmark { font-size: clamp(64px, 7vw, 118px); }
+          .tagline { margin-top: 8px; }
+          .hero { padding-top: clamp(12px, 2vh, 24px); }
+          .lower { margin-top: clamp(18px, 4.5vh, 56px); }
+          .side-card,
+          .right-card { min-height: clamp(170px, 22vh, 218px); }
+          .drop { height: clamp(142px, 20vh, 190px); }
+          .drop small { line-height: 1.35; }
+          textarea { height: clamp(48px, 7vh, 68px); }
+          .footer-line { font-size: 11px; }
+          .footer-brand { font-size: 26px; }
+          .footer-links { gap: 38px; }
         }
         @media (max-width: 1180px) {
           .nav { grid-template-columns: 1fr auto; }

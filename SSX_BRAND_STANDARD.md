@@ -1,7 +1,7 @@
 # SSX Brand Standard — Typography
 
 **Status:** OFFICIAL / LOCKED  
-**Decision date:** 2026-08-10  
+**Decision date:** 2026-08-11  
 **Official SSX typeface:** **Inter**
 
 ## Core rule

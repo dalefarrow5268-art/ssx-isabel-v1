@@ -49,7 +49,7 @@ Each applicable section activity library will include:
 | 18 | Reserved | No trade activities unless project-defined |
 | 19 | Reserved | No trade activities unless project-defined |
 | 20 | Reserved | No trade activities unless project-defined |
-| 21 | Fire Suppression | Queued |
+| 21 | [Fire Suppression](./division-21/MASTER_DIVISION_21_ACTIVITIES.md) | Activity list created |
 | 22 | Plumbing | Queued |
 | 23 | Heating, Ventilating, and Air Conditioning | Queued |
 | 24 | Reserved | No trade activities unless project-defined |

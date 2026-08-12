@@ -17,6 +17,7 @@
 11. [Meetings and Coordination](./meetings-and-coordination/MASTER_MEETINGS_AND_COORDINATION.md) — Kickoffs, recurring project meetings, field and trade coordination, BIM, decisions, escalation, commissioning, closeout and action-item controls.
 12. [Mockups](./mockups/MASTER_MOCKUPS.md) — Visual, workmanship, performance, laboratory, field, full-room, first-work, digital and integrated-system mockups from planning through approval and removal.
 13. [Startup and Commissioning](./startup-and-commissioning/MASTER_STARTUP_AND_COMMISSIONING.md) — Design review, readiness, equipment startup, TAB, controls, functional and integrated testing, training, seasonal testing and warranty commissioning.
+14. [Turnover and Closeout](./turnover-and-closeout/MASTER_TURNOVER_AND_CLOSEOUT.md) — Area and system completion, punch, substantial completion, TCO/CO, records, training, warranties, financial closeout, demobilization and post-occupancy.
 
 ## SSX activity types
 

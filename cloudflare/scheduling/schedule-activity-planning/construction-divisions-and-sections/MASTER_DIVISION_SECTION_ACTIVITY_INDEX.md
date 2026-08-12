@@ -54,7 +54,7 @@ Each applicable section activity library will include:
 | 23 | [Heating, Ventilating, and Air Conditioning](./division-23/MASTER_DIVISION_23_ACTIVITIES.md) | Activity list created |
 | 24 | Reserved | No trade activities unless project-defined |
 | 25 | [Integrated Automation](./division-25/MASTER_DIVISION_25_ACTIVITIES.md) | Activity list created |
-| 26 | Electrical | Queued |
+| 26 | [Electrical](./division-26/MASTER_DIVISION_26_ACTIVITIES.md) | Activity list created |
 | 27 | Communications | Queued |
 | 28 | Electronic Safety and Security | Queued |
 | 29 | Reserved | No trade activities unless project-defined |

@@ -25,6 +25,7 @@
 19. [Quality Control Activities](./quality-control/MASTER_QUALITY_CONTROL_ACTIVITIES.md) — Quality planning, preparatory, initial and follow-up controls, receiving and trade inspections, hold points, testing, nonconformance, corrective action and quality records.
 20. [Change Management](./change-management/MASTER_CHANGE_MANAGEMENT_ACTIVITIES.md) — Identification, notice, scope development, design, pricing, schedule analysis, approval, procurement, implementation, verification and closure of construction changes.
 21. [Design and Engineering Activities](./design-and-engineering/MASTER_DESIGN_AND_ENGINEERING_ACTIVITIES.md) — Programming, investigation, design phases, engineering calculations, coordination, BIM/VDC, constructability, delegated design, field revisions and record documents.
+22. [Schedule Management Activities](./schedule-management/MASTER_SCHEDULE_MANAGEMENT_ACTIVITIES.md) — Baseline development, logic, updates, progress validation, look-aheads, constraints, critical-path analysis, forecasting, recovery, time impacts and as-built schedules.
 
 ## SSX activity types
 
@@ -46,6 +47,7 @@
 - Quality Control
 - Change Management
 - Design / Engineering
+- Schedule Management
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

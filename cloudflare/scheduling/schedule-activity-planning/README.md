@@ -11,12 +11,14 @@
 5. [Training](./training/MASTER_TRAINING_REQUIREMENTS.md) — Orientations, operator training, competent/qualified-person roles, certifications and refreshers.
 6. [Submittals and Approvals](./submittals-and-approvals/MASTER_SUBMITTALS_AND_APPROVALS.md) — Product data, shop drawings, delegated design, samples, mockups, owner decisions, design-team reviews, utility approvals, AHJ approvals and closeout submittals.
 7. [Holiday Calendars](./holiday-calendars/US_FEDERAL_HOLIDAYS_2026_2045.md) — U.S. federal observed holidays and optional construction shutdown planning flags, separated by year from 2026 through 2045.
+8. [Procurement and Long-Lead Milestones](./procurement-and-long-lead/MASTER_PROCUREMENT_AND_LONG_LEAD_MILESTONES.md) — Sourcing, purchasing, approvals, fabrication, factory testing, logistics, delivery, storage, recovery and closeout milestones.
 
 ## SSX activity types
 
 - Inspection
 - Testing
 - Delivery
+- Procurement
 - Submittal
 - Approval
 - Holiday / Nonwork Day

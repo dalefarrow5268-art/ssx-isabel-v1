@@ -28,6 +28,7 @@
 22. [Schedule Management Activities](./schedule-management/MASTER_SCHEDULE_MANAGEMENT_ACTIVITIES.md) — Baseline development, logic, updates, progress validation, look-aheads, constraints, critical-path analysis, forecasting, recovery, time impacts and as-built schedules.
 23. [Cost and Payment Control Activities](./cost-and-payment-controls/MASTER_COST_AND_PAYMENT_CONTROL_ACTIVITIES.md) — Budgets, estimates, commitments, schedules of values, monthly pay cycles, stored materials, lien waivers, allowances, forecasts, audits, retainage and final payment.
 24. [Daily Reporting and Project Documentation](./daily-reporting-and-documentation/MASTER_DAILY_REPORTING_AND_DOCUMENTATION_ACTIVITIES.md) — Daily reports, manpower, production, equipment, deliveries, weather, photographs, correspondence, notices, quality, delays, document control and record retention.
+25. [Site Logistics and Material Handling](./site-logistics-and-material-handling/MASTER_SITE_LOGISTICS_AND_MATERIAL_HANDLING_ACTIVITIES.md) — Access, traffic control, delivery reservations, laydown, storage, cranes, lifts, hoists, material movement, phase relocations, removals and restoration.
 
 ## SSX activity types
 
@@ -52,6 +53,7 @@
 - Schedule Management
 - Cost / Payment Control
 - Daily Reporting / Documentation
+- Site Logistics / Material Handling
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

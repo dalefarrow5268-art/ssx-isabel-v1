@@ -1,8 +1,8 @@
-# SSX Division 00 Activities — Bidding and Contract Requirements
+# SSX 2026 CSI Division 00 Activities — Procurement and Contracting Requirements
 
-Potential activities under the traditional 1995 Division 00 structure. Use only activities applicable to the project delivery and procurement method.
+Potential activities under the current Division 00 procurement and contracting structure. Use only activities applicable to the project delivery and procurement method.
 
-## 00020 — Invitation to Bid
+## 00 11 13 — Advertisement or Invitation for Bids
 
 - Confirm project scope and bid packages
 - Confirm bidder qualification requirements
@@ -17,7 +17,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Issue reminder notices
 - Close invitation period
 
-## 00100 — Instructions to Bidders
+## 00 21 13 — Instructions to Bidders
 
 - Draft bidding instructions
 - Define electronic or sealed bid procedure
@@ -32,7 +32,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Respond to procedural questions
 - Document approved exceptions
 
-## 00200 — Information Available to Bidders
+## 00 31 00 — Available Project Information
 
 - Assemble surveys
 - Assemble geotechnical information
@@ -48,7 +48,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Record bidder access
 - Preserve issued package
 
-## 00300 — Bid Forms
+## 00 41 00 — Bid Forms
 
 - Prepare base bid form
 - Prepare trade or package breakdown
@@ -66,7 +66,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Request permitted clarification
 - Preserve original submission
 
-## 00400 — Bid Supplements
+## 00 43 00 and 00 45 00 — Procurement Supplements and Representations
 
 - Prepare bid bond form
 - Prepare qualifications statement
@@ -83,7 +83,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Resolve qualifications
 - Approve responsive bidder
 
-## 00500 — Agreement
+## 00 52 00 — Agreement Forms
 
 - Select contract form
 - Insert parties and project information
@@ -101,7 +101,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Distribute executed agreement
 - Record effective date
 
-## 00600 — Bonds and Certificates
+## 00 61 00 and 00 62 00 — Bonds, Certificates, and Other Forms
 
 - Confirm performance-bond requirement
 - Confirm payment-bond requirement
@@ -119,7 +119,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Obtain final certificates
 - Release notice to proceed prerequisite
 
-## 00700 — General Conditions
+## 00 72 00 — General Conditions
 
 - Select general conditions
 - Review owner-contractor responsibilities
@@ -136,7 +136,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Coordinate with supplementary conditions
 - Approve and issue general conditions
 
-## 00800 — Supplementary Conditions
+## 00 73 00 — Supplementary Conditions
 
 - Identify project-specific modifications
 - Modify owner requirements
@@ -153,7 +153,7 @@ Potential activities under the traditional 1995 Division 00 structure. Use only 
 - Conduct legal review
 - Issue final supplementary conditions
 
-## 00900 — Addenda and Modifications
+## 00 91 00 — Addenda
 
 - Receive bidder question
 - Determine need for addendum

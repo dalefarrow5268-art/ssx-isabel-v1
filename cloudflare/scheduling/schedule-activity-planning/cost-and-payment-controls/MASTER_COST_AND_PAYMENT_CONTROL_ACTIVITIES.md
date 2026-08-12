@@ -246,6 +246,42 @@ Potential construction schedule activities for establishing, committing, forecas
 - Update forecast
 - Preserve baseline cost loading
 
+## Recommended monthly payment calendar
+
+This is a practical SSX default for a normal monthly construction billing cycle. Contract terms, owner procedures, lender requirements and applicable state law control when they differ.
+
+| Typical timing | Activity | Required deliverables |
+|---|---|---|
+| 15th–20th | Forecast current-month billing | Preliminary percent complete, stored materials, approved changes and expected month-end progress |
+| 20th | Subcontractor draft invoice due | Draft payment application, continuation sheet, change breakdown and current conditional progress waiver |
+| 20th–23rd | Superintendent and project-manager review | Field-verified quantities, accepted work, deficiency holds and schedule-progress comparison |
+| 23rd–25th | Pencil-draft billing review | Contractor, architect and owner reconcile projected values before formal submission |
+| 25th | Subcontractor final invoice due | Corrected application, supplier invoices, stored-material proof, certified payroll and required lower-tier waivers |
+| 25th–month end | Contractor compiles owner application | Approved subcontract values, contractor work, general conditions, stored materials, changes and retainage |
+| Last business day | Owner pay application submitted | Executed application, continuation sheets, schedule update, photographs, waivers and other required backup |
+| Days 1–7 after submission | Architect/owner/lender review | Certification, corrections, funding review and written withholding reasons |
+| Contract payment date, commonly 20–30 days after approval | Owner payment due | Certified undisputed amount less contractual withholding |
+| Commonly within 7 days after contractor receipt, subject to contract and law | Subcontractor and supplier payments issued | Approved amount, retainage treatment and payment remittance |
+| With each progress application | Conditional progress waiver submitted | Waiver limited to the billed amount and stated through-date |
+| After payment clears | Unconditional progress waiver submitted | Waiver matching the amount actually received and correct through-date |
+| Final billing | Conditional final waiver submitted | Final amount due, pending payment |
+| After final funds clear | Unconditional final waiver submitted | Final amount actually received, with permitted exceptions identified |
+
+### Monthly cycle controls
+
+- Publish the complete billing calendar at project kickoff.
+- Move dates falling on weekends or holidays to the contract-defined business day.
+- Require subcontractors to forecast through month end without billing unsupported work.
+- Verify projected work again at month end and correct the next application when needed.
+- Do not bill unapproved changes as approved contract value.
+- Require stored-material invoices, proof of payment, insurance, photographs and location records.
+- Require lower-tier waivers when the contract or risk procedure calls for them.
+- Match every waiver’s legal entity, amount and through-date to the associated payment.
+- Never request an unconditional waiver before the corresponding funds have cleared.
+- Identify disputed or withheld amounts in writing while processing undisputed amounts.
+- Track architect review, owner approval, lender funding, contractor receipt and downstream payment separately.
+- Coordinate prompt-payment and lien-waiver procedures with project-specific legal requirements.
+
 ## Progress measurement for payment
 
 - Define billing cutoff

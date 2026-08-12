@@ -10,6 +10,7 @@
 4. [Safety](./safety/MASTER_SAFETY_ACTIVITIES.md) — Safety inspections, toolbox talks, permits, audits, drills and compliance checks.
 5. [Training](./training/MASTER_TRAINING_REQUIREMENTS.md) — Orientations, operator training, competent/qualified-person roles, certifications and refreshers.
 6. [Submittals and Approvals](./submittals-and-approvals/MASTER_SUBMITTALS_AND_APPROVALS.md) — Product data, shop drawings, delegated design, samples, mockups, owner decisions, design-team reviews, utility approvals, AHJ approvals and closeout submittals.
+7. [Holiday Calendars](./holiday-calendars/US_FEDERAL_HOLIDAYS_2026_2045.md) — U.S. federal observed holidays and optional construction shutdown planning flags, separated by year from 2026 through 2045.
 
 ## SSX activity types
 
@@ -18,6 +19,7 @@
 - Delivery
 - Submittal
 - Approval
+- Holiday / Nonwork Day
 - Owner Decision
 - Safety Inspection
 - Safety Meeting

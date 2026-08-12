@@ -22,6 +22,7 @@
 16. [Utility-Company Activities](./utility-company-activities/MASTER_UTILITY_COMPANY_ACTIVITIES.md) — Electric, gas, water, sewer, stormwater, telecom, fiber and district-utility applications, design, easements, construction, inspections, activation and closeout.
 17. [Jurisdiction and AHJ Activities](./jurisdiction-and-ahj/MASTER_JURISDICTION_AND_AHJ_ACTIVITIES.md) — Planning, zoning, building, Fire Marshal, public works, environmental, health, accessibility, elevator, inspection, TCO/CO and permit-closeout activities.
 18. [Weather and Environmental Events](./weather-and-environmental-events/MASTER_WEATHER_AND_ENVIRONMENTAL_EVENTS.md) — Monitoring, preparedness, work restrictions, shutdowns, protection, emergency response, recovery and schedule documentation for weather, natural hazards and environmental events.
+19. [Quality Control Activities](./quality-control/MASTER_QUALITY_CONTROL_ACTIVITIES.md) — Quality planning, preparatory, initial and follow-up controls, receiving and trade inspections, hold points, testing, nonconformance, corrective action and quality records.
 
 ## SSX activity types
 
@@ -40,6 +41,7 @@
 - Utility Activity
 - Jurisdiction / AHJ Activity
 - Weather / Environmental Event
+- Quality Control
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

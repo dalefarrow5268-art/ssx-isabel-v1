@@ -33,7 +33,7 @@ Each applicable section activity library will include:
 | 02 | [Existing Conditions](./division-02/MASTER_DIVISION_02_ACTIVITIES.md) | Activity list created |
 | 03 | [Concrete](./division-03/MASTER_DIVISION_03_ACTIVITIES.md) | Activity list created |
 | 04 | [Masonry](./division-04/MASTER_DIVISION_04_ACTIVITIES.md) | Activity list created |
-| 05 | Metals | Queued |
+| 05 | [Metals](./division-05/MASTER_DIVISION_05_ACTIVITIES.md) | Activity list created |
 | 06 | Wood, Plastics, and Composites | Queued |
 | 07 | Thermal and Moisture Protection | Queued |
 | 08 | Openings | Queued |

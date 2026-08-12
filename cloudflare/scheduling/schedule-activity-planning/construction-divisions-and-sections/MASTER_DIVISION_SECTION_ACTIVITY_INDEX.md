@@ -42,7 +42,7 @@ Each applicable section activity library will include:
 | 11 | [Equipment](./division-11/MASTER_DIVISION_11_ACTIVITIES.md) | Activity list created |
 | 12 | [Furnishings](./division-12/MASTER_DIVISION_12_ACTIVITIES.md) | Activity list created |
 | 13 | [Special Construction](./division-13/MASTER_DIVISION_13_ACTIVITIES.md) | Activity list created |
-| 14 | Conveying Equipment | Queued |
+| 14 | [Conveying Equipment](./division-14/MASTER_DIVISION_14_ACTIVITIES.md) | Activity list created |
 | 15 | Reserved | No trade activities unless project-defined |
 | 16 | Reserved | No trade activities unless project-defined |
 | 17 | Reserved | No trade activities unless project-defined |

@@ -21,6 +21,7 @@
 15. [Owner Decisions](./owner-decisions/MASTER_OWNER_DECISIONS.md) — Program, scope, design, finish, equipment, procurement, budget, schedule, commissioning, occupancy and risk-acceptance decisions with calculated need-by dates.
 16. [Utility-Company Activities](./utility-company-activities/MASTER_UTILITY_COMPANY_ACTIVITIES.md) — Electric, gas, water, sewer, stormwater, telecom, fiber and district-utility applications, design, easements, construction, inspections, activation and closeout.
 17. [Jurisdiction and AHJ Activities](./jurisdiction-and-ahj/MASTER_JURISDICTION_AND_AHJ_ACTIVITIES.md) — Planning, zoning, building, Fire Marshal, public works, environmental, health, accessibility, elevator, inspection, TCO/CO and permit-closeout activities.
+18. [Weather and Environmental Events](./weather-and-environmental-events/MASTER_WEATHER_AND_ENVIRONMENTAL_EVENTS.md) — Monitoring, preparedness, work restrictions, shutdowns, protection, emergency response, recovery and schedule documentation for weather, natural hazards and environmental events.
 
 ## SSX activity types
 
@@ -38,6 +39,7 @@
 - Owner Decision
 - Utility Activity
 - Jurisdiction / AHJ Activity
+- Weather / Environmental Event
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

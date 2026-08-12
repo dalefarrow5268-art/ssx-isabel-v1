@@ -38,7 +38,7 @@ Each applicable section activity library will include:
 | 07 | [Thermal and Moisture Protection](./division-07/MASTER_DIVISION_07_ACTIVITIES.md) | Activity list created |
 | 08 | [Openings](./division-08/MASTER_DIVISION_08_ACTIVITIES.md) | Activity list created |
 | 09 | [Finishes](./division-09/MASTER_DIVISION_09_ACTIVITIES.md) | Activity list created |
-| 10 | Specialties | Queued |
+| 10 | [Specialties](./division-10/MASTER_DIVISION_10_ACTIVITIES.md) | Activity list created |
 | 11 | Equipment | Queued |
 | 12 | Furnishings | Queued |
 | 13 | Special Construction | Queued |

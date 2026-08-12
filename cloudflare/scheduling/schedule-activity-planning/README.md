@@ -13,6 +13,7 @@
 7. [Holiday Calendars](./holiday-calendars/US_FEDERAL_HOLIDAYS_2026_2045.md) — U.S. federal observed holidays and optional construction shutdown planning flags, separated by year from 2026 through 2045.
 8. [Procurement and Long-Lead Milestones](./procurement-and-long-lead/MASTER_PROCUREMENT_AND_LONG_LEAD_MILESTONES.md) — Sourcing, purchasing, approvals, fabrication, factory testing, logistics, delivery, storage, recovery and closeout milestones.
 9. [Permits and Licenses](./permits-and-licenses/MASTER_PERMITS_AND_LICENSES.md) — Entitlements, building and trade permits, environmental and utility authorizations, licenses, occupancy approvals, renewals and closeout.
+10. [Mobilization and Temporary Facilities](./mobilization-and-temporary-facilities/MASTER_MOBILIZATION_AND_TEMPORARY_FACILITIES.md) — Site establishment, offices, temporary utilities, logistics, access, protection, recurring service, relocation, demobilization and restoration.
 
 ## SSX activity types
 
@@ -21,6 +22,7 @@
 - Delivery
 - Procurement
 - Permit / License
+- Mobilization / Temporary Facility
 - Submittal
 - Approval
 - Holiday / Nonwork Day

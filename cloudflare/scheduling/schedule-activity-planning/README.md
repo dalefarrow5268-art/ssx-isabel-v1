@@ -19,6 +19,7 @@
 13. [Startup and Commissioning](./startup-and-commissioning/MASTER_STARTUP_AND_COMMISSIONING.md) — Design review, readiness, equipment startup, TAB, controls, functional and integrated testing, training, seasonal testing and warranty commissioning.
 14. [Turnover and Closeout](./turnover-and-closeout/MASTER_TURNOVER_AND_CLOSEOUT.md) — Area and system completion, punch, substantial completion, TCO/CO, records, training, warranties, financial closeout, demobilization and post-occupancy.
 15. [Owner Decisions](./owner-decisions/MASTER_OWNER_DECISIONS.md) — Program, scope, design, finish, equipment, procurement, budget, schedule, commissioning, occupancy and risk-acceptance decisions with calculated need-by dates.
+16. [Utility-Company Activities](./utility-company-activities/MASTER_UTILITY_COMPANY_ACTIVITIES.md) — Electric, gas, water, sewer, stormwater, telecom, fiber and district-utility applications, design, easements, construction, inspections, activation and closeout.
 
 ## SSX activity types
 
@@ -34,6 +35,7 @@
 - Approval
 - Holiday / Nonwork Day
 - Owner Decision
+- Utility Activity
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

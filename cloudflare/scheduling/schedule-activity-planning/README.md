@@ -14,6 +14,7 @@
 8. [Procurement and Long-Lead Milestones](./procurement-and-long-lead/MASTER_PROCUREMENT_AND_LONG_LEAD_MILESTONES.md) — Sourcing, purchasing, approvals, fabrication, factory testing, logistics, delivery, storage, recovery and closeout milestones.
 9. [Permits and Licenses](./permits-and-licenses/MASTER_PERMITS_AND_LICENSES.md) — Entitlements, building and trade permits, environmental and utility authorizations, licenses, occupancy approvals, renewals and closeout.
 10. [Mobilization and Temporary Facilities](./mobilization-and-temporary-facilities/MASTER_MOBILIZATION_AND_TEMPORARY_FACILITIES.md) — Site establishment, offices, temporary utilities, logistics, access, protection, recurring service, relocation, demobilization and restoration.
+11. [Meetings and Coordination](./meetings-and-coordination/MASTER_MEETINGS_AND_COORDINATION.md) — Kickoffs, recurring project meetings, field and trade coordination, BIM, decisions, escalation, commissioning, closeout and action-item controls.
 
 ## SSX activity types
 
@@ -23,6 +24,7 @@
 - Procurement
 - Permit / License
 - Mobilization / Temporary Facility
+- Meeting / Coordination
 - Submittal
 - Approval
 - Holiday / Nonwork Day

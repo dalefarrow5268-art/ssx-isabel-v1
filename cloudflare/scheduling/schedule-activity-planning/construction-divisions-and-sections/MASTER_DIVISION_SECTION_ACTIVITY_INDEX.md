@@ -37,7 +37,7 @@ Each applicable section activity library will include:
 | 06 | [Wood, Plastics, and Composites](./division-06/MASTER_DIVISION_06_ACTIVITIES.md) | Activity list created |
 | 07 | [Thermal and Moisture Protection](./division-07/MASTER_DIVISION_07_ACTIVITIES.md) | Activity list created |
 | 08 | [Openings](./division-08/MASTER_DIVISION_08_ACTIVITIES.md) | Activity list created |
-| 09 | Finishes | Queued |
+| 09 | [Finishes](./division-09/MASTER_DIVISION_09_ACTIVITIES.md) | Activity list created |
 | 10 | Specialties | Queued |
 | 11 | Equipment | Queued |
 | 12 | Furnishings | Queued |

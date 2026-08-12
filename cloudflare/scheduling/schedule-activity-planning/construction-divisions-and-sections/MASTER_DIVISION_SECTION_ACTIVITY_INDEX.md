@@ -1,266 +1,195 @@
-# SSX Construction Activities by 1995 CSI Division and Section
+# SSX Construction Activities by 2026 CSI Division and Section
 
-This library organizes potential schedule activities by the traditional five-digit, 16-division MasterFormat structure last current in 1995, matching the SSX division and section cards.
+This library follows the SSX schedule card structure based on the current CSI MasterFormat organization through Division 48. It does not use the legacy 1995 16-division system.
 
-CSI now uses an expanded system. SSX retains the 1995 structure as its primary construction-facing navigation while recording current MasterFormat cross-references where scopes moved or split.
+> Exact section numbers and titles must be verified against the project specifications and the licensed/current CSI MasterFormat source used by the project. SSX stores potential construction activities, not replacement specifications.
 
 ## Activity model for every section
 
-Each section activity file should include, when applicable:
+Each applicable section activity library will include:
 
-1. Design criteria and field verification
-2. Submittal preparation, review and approval
-3. Samples, mockups and first-work benchmark
-4. Procurement, fabrication and factory testing
-5. Delivery, receiving, storage and preservation
-6. Preparatory quality-control meeting
-7. Substrate, predecessor and work-area readiness
-8. Layout and coordination
-9. Installation by building, floor, area or system
-10. In-process quality control
-11. Required inspection and testing
-12. Deficiency correction and reinspection
-13. Protection and maintenance
-14. Startup, commissioning and training
-15. Punch, record documents, warranties and turnover
+1. Scope confirmation and field verification
+2. Design criteria and delegated engineering
+3. Submittal preparation, review and approval
+4. Samples, mockups and first-work benchmark
+5. Procurement, fabrication and factory testing
+6. Delivery, receiving, storage and preservation
+7. Preparatory quality-control meeting
+8. Substrate, predecessor and work-area readiness
+9. Layout and interdisciplinary coordination
+10. Installation by building, floor, area or system
+11. In-process quality control
+12. Required inspections and testing
+13. Deficiency correction and reinspection
+14. Protection, startup and commissioning
+15. Punch, training, records, warranties and turnover
 
-## Division library
+## 2026 CSI division cards through Division 48
 
-| Division | 1995 title | Modern scope note | Library status |
-|---|---|---|---|
-| 00 | Bidding and Contract Requirements | Current procurement and contracting requirements remain Division 00 | Detailed activity file created |
-| 01 | General Requirements | Current Division 01 | Queued |
-| 02 | Site Construction | Now largely Divisions 02, 31, 32 and 33 | Queued |
-| 03 | Concrete | Current Division 03 | Queued |
-| 04 | Masonry | Current Division 04 | Queued |
-| 05 | Metals | Current Division 05 | Queued |
-| 06 | Wood and Plastics | Now largely Division 06; composites may be elsewhere | Queued |
-| 07 | Thermal and Moisture Protection | Current Division 07 | Queued |
-| 08 | Doors and Windows | Current Division 08 Openings | Queued |
-| 09 | Finishes | Current Division 09 | Queued |
-| 10 | Specialties | Current Division 10 | Queued |
-| 11 | Equipment | Current Division 11 | Queued |
-| 12 | Furnishings | Current Division 12 | Queued |
-| 13 | Special Construction | Scope now distributed across several current divisions | Queued |
-| 14 | Conveying Systems | Current Division 14 | Queued |
-| 15 | Mechanical | Now largely Divisions 21, 22 and 23 | Queued |
-| 16 | Electrical | Now largely Divisions 26, 27 and 28 | Queued |
+| Division | Division title | Activity-library status |
+|---|---|---|
+| 00 | Procurement and Contracting Requirements | Detailed file created |
+| 01 | General Requirements | Queued |
+| 02 | Existing Conditions | Queued |
+| 03 | Concrete | Queued |
+| 04 | Masonry | Queued |
+| 05 | Metals | Queued |
+| 06 | Wood, Plastics, and Composites | Queued |
+| 07 | Thermal and Moisture Protection | Queued |
+| 08 | Openings | Queued |
+| 09 | Finishes | Queued |
+| 10 | Specialties | Queued |
+| 11 | Equipment | Queued |
+| 12 | Furnishings | Queued |
+| 13 | Special Construction | Queued |
+| 14 | Conveying Equipment | Queued |
+| 15 | Reserved | No trade activities unless project-defined |
+| 16 | Reserved | No trade activities unless project-defined |
+| 17 | Reserved | No trade activities unless project-defined |
+| 18 | Reserved | No trade activities unless project-defined |
+| 19 | Reserved | No trade activities unless project-defined |
+| 20 | Reserved | No trade activities unless project-defined |
+| 21 | Fire Suppression | Queued |
+| 22 | Plumbing | Queued |
+| 23 | Heating, Ventilating, and Air Conditioning | Queued |
+| 24 | Reserved | No trade activities unless project-defined |
+| 25 | Integrated Automation | Queued |
+| 26 | Electrical | Queued |
+| 27 | Communications | Queued |
+| 28 | Electronic Safety and Security | Queued |
+| 29 | Reserved | No trade activities unless project-defined |
+| 30 | Reserved | No trade activities unless project-defined |
+| 31 | Earthwork | Queued |
+| 32 | Exterior Improvements | Queued |
+| 33 | Utilities | Queued |
+| 34 | Transportation | Queued |
+| 35 | Waterway and Marine Construction | Queued |
+| 36 | Reserved | No trade activities unless project-defined |
+| 37 | Reserved | No trade activities unless project-defined |
+| 38 | Reserved | No trade activities unless project-defined |
+| 39 | Reserved | No trade activities unless project-defined |
+| 40 | Process Integration | Queued |
+| 41 | Material Processing and Handling Equipment | Queued |
+| 42 | Process Heating, Cooling, and Drying Equipment | Queued |
+| 43 | Process Gas and Liquid Handling, Purification, and Storage Equipment | Queued |
+| 44 | Pollution and Waste Control Equipment | Queued |
+| 45 | Industry-Specific Manufacturing Equipment | Queued |
+| 46 | Water and Wastewater Equipment | Queued |
+| 47 | Reserved | No trade activities unless project-defined |
+| 48 | Electrical Power Generation | Queued |
 
-## Planned files and section groups
+## Division-level section families to build
 
-### Division 00 — Bidding and Contract Requirements
-- 00020 Invitation to Bid
-- 00100 Instructions to Bidders
-- 00200 Information Available to Bidders
-- 00300 Bid Forms
-- 00400 Bid Supplements
-- 00500 Agreement
-- 00600 Bonds and Certificates
-- 00700 General Conditions
-- 00800 Supplementary Conditions
-- 00900 Addenda and Modifications
+### 00 — Procurement and Contracting Requirements
+Solicitation, instructions, available information, bid forms, supplements, award, contracting forms, project forms, general conditions and supplementary conditions.
 
-### Division 01 — General Requirements
-- 01010 Summary of Work
-- 01020 Allowances
-- 01030 Alternates
-- 01040 Project Coordination
-- 01050 Field Engineering
-- 01100 Multiple Contracts
-- 01200 Project Meetings
-- 01300 Submittals
-- 01400 Quality Control
-- 01500 Temporary Facilities and Controls
-- 01600 Materials and Equipment
-- 01700 Execution Requirements
-- 01740 Cleaning
-- 01770 Closeout Procedures
-- 01780 Closeout Submittals
+### 01 — General Requirements
+Summary, price/payment, administration, submittals, quality, temporary facilities, product requirements, execution, closeout, commissioning and performance requirements.
 
-### Division 02 — Site Construction
-- Existing conditions and surveys
-- Demolition and selective demolition
-- Hazardous-material removal
-- Earthwork and excavation
-- Dewatering
-- Shoring and underpinning
-- Site utilities
-- Pavements and curbs
-- Site improvements
-- Landscaping and irrigation
+### 02 — Existing Conditions
+Assessment, surveys, subsurface investigation, selective demolition, structure moving, site remediation, hazardous-material abatement and recycling.
 
-### Division 03 — Concrete
-- Concrete formwork
-- Reinforcement
-- Cast-in-place concrete
-- Precast concrete
-- Post-tensioning
-- Grouting
-- Concrete finishing
-- Concrete curing
-- Concrete repair
-- Testing and acceptance
+### 03 — Concrete
+Forming, reinforcing, cast-in-place, precast, post-tensioning, grouting, mass concrete, finishing, curing, cutting, restoration and testing.
 
-### Division 04 — Masonry
-- Unit masonry
-- Reinforcing and anchors
-- Mortar and grout
-- Stone masonry
-- Cast stone
-- Glass-unit masonry
-- Masonry restoration
-- Cleaning and protection
+### 04 — Masonry
+Unit masonry, stone, refractories, corrosion-resistant masonry, masonry accessories, restoration and cleaning.
 
-### Division 05 — Metals
-- Structural steel
-- Steel joists
-- Metal deck
-- Cold-formed framing
-- Metal fabrications
-- Metal stairs
-- Railings
-- Gratings
-- Expansion controls
-- Welding, bolting and coatings
+### 05 — Metals
+Structural metal framing, joists, deck, cold-formed framing, fabrications, stairs, railings, gratings, ornamental metal and metal restoration.
 
-### Division 06 — Wood and Plastics
-- Rough carpentry
-- Heavy timber
-- Wood framing
-- Sheathing
-- Finish carpentry
-- Architectural woodwork
-- Plastic fabrications
-- Solid-surface materials
-- Wood treatment and preservation
+### 06 — Wood, Plastics, and Composites
+Rough carpentry, finish carpentry, architectural woodwork, structural plastics, plastic fabrications and composite fabrications.
 
-### Division 07 — Thermal and Moisture Protection
-- Dampproofing and waterproofing
-- Building insulation
-- Air barriers
-- Vapor retarders
-- Roofing
-- Roof accessories
-- Sheet-metal flashing
-- Fireproofing
-- Firestopping
-- Joint sealants
+### 07 — Thermal and Moisture Protection
+Dampproofing, waterproofing, insulation, air barriers, roofing, siding, flashing, fireproofing, firestopping, joint protection and sealants.
 
-### Division 08 — Doors and Windows
-- Metal doors and frames
-- Wood doors
-- Specialty doors
-- Entrances and storefronts
-- Windows
-- Curtain wall
-- Skylights
-- Door hardware
-- Glass and glazing
-- Louvers and vents
+### 08 — Openings
+Doors, frames, specialty doors, entrances, storefronts, curtain walls, windows, skylights, hardware, glazing, louvers and vents.
 
-### Division 09 — Finishes
-- Metal framing
-- Gypsum assemblies
-- Plaster
-- Tile
-- Terrazzo
-- Acoustical ceilings
-- Flooring
-- Wall coverings
-- Painting and coatings
-- Specialty finishes
+### 09 — Finishes
+Plaster, gypsum, tile, terrazzo, ceilings, flooring, wall finishes, acoustical treatment, painting and coatings.
 
-### Division 10 — Specialties
-- Visual display surfaces
-- Signage
-- Toilet compartments
-- Louvers and vents when specified here
-- Wall and corner protection
-- Toilet accessories
-- Fire-protection specialties
-- Lockers
-- Postal specialties
-- Operable partitions
-- Storage specialties
-- Flagpoles
+### 10 — Specialties
+Information specialties, partitions, storage specialties, fire-protection specialties, protective covers, toilet/bath accessories, safety specialties and other specialties.
 
-### Division 11 — Equipment
-- Maintenance equipment
-- Loading-dock equipment
-- Commercial kitchen equipment
-- Residential equipment
-- Athletic equipment
-- Theater and stage equipment
-- Medical equipment
-- Waste-handling equipment
-- Food-service equipment
-- Parking-control equipment
+### 11 — Equipment
+Vehicle, parking, loading, food-service, residential, athletic, recreation, entertainment, medical, laboratory, waste-handling and other equipment.
 
-### Division 12 — Furnishings
-- Casework
-- Window treatments
-- Entrance mats
-- Furniture
-- Seating
-- Artwork and accessories
-- Rugs
-- Furnishing installation and owner coordination
+### 12 — Furnishings
+Art, window treatments, casework, furnishings, rugs and mats, multiple seating, interior plants and accessories.
 
-### Division 13 — Special Construction
-- Pre-engineered structures
-- Clean rooms
-- Controlled-environment rooms
-- Radiation protection
-- Special-purpose rooms
-- Pools and aquatic construction
-- Ice rinks
-- Grandstands and bleachers
-- Sound and vibration control
-- Integrated specialty structures
+### 13 — Special Construction
+Special facilities, integrated construction, special-purpose rooms, controlled environments, radiation protection, aquatic facilities and special structures.
 
-### Division 14 — Conveying Systems
-- Elevators
-- Hydraulic elevators
-- Traction elevators
-- Machine-room-less elevators
-- Dumbwaiters
-- Material lifts
-- Escalators and moving walks
-- Platform lifts
-- Hoists and cranes
-- Testing, certification and turnover
+### 14 — Conveying Equipment
+Dumbwaiters, elevators, lifts, escalators, moving walks, turntables, scaffolding and other conveying equipment.
 
-### Division 15 — Mechanical
-- Fire suppression
-- Plumbing
-- HVAC
-- Mechanical insulation
-- Piping
-- Ductwork
-- Equipment
-- Controls
-- Testing, adjusting and balancing
-- Startup and commissioning
+### 21 — Fire Suppression
+Water-based systems, fire pumps, tanks, standpipes, sprinklers, special suppression and fire-extinguishing systems.
 
-### Division 16 — Electrical
-- Basic electrical requirements
-- Raceways and boxes
-- Conductors and cables
-- Grounding and bonding
-- Electrical distribution
-- Lighting
-- Fire alarm
-- Communications
-- Security
-- Electronic safety and integrated systems
-- Testing and commissioning
+### 22 — Plumbing
+Piping, equipment, fixtures, domestic water, sanitary waste, storm drainage, specialty plumbing and testing.
+
+### 23 — HVAC
+Piping, ductwork, insulation, equipment, air distribution, controls, testing/adjusting/balancing and commissioning.
+
+### 25 — Integrated Automation
+Control networks, instrumentation, software, integration, analytics, sequence verification and enterprise interfaces.
+
+### 26 — Electrical
+Common work, low-voltage distribution, facility power, lighting, grounding, protective devices, testing and commissioning.
+
+### 27 — Communications
+Structured cabling, data, voice, audiovisual, distributed communications, monitoring and testing.
+
+### 28 — Electronic Safety and Security
+Access control, video surveillance, intrusion detection, fire detection/alarm, emergency communications and integrated security.
+
+### 31 — Earthwork
+Clearing, earth moving, excavation support, foundations, tunneling, soil treatment, dewatering and earthwork methods.
+
+### 32 — Exterior Improvements
+Paving, site improvements, irrigation, planting, wetlands, site furnishings and exterior athletic/recreation surfaces.
+
+### 33 — Utilities
+Water, sanitary sewer, storm drainage, hydronic/steam, fuels, electrical utilities, communications utilities and utility monitoring.
+
+### 34 — Transportation
+Roadways, railways, bridges, transportation signaling, airfield and marine transportation systems.
+
+### 35 — Waterway and Marine Construction
+Waterway construction, shoreline protection, marine structures, dredging, dams and water-control structures.
+
+### 40 — Process Integration
+Process controls, piping, equipment integration, instrumentation, testing and process commissioning.
+
+### 41 — Material Processing and Handling Equipment
+Conveying, lifting, storage, bulk-material handling, packaging and material-processing equipment.
+
+### 42 — Process Heating, Cooling, and Drying Equipment
+Industrial heating, cooling, heat transfer, ovens, furnaces, kilns and drying equipment.
+
+### 43 — Process Gas and Liquid Handling, Purification, and Storage Equipment
+Pumps, compressors, tanks, vessels, purification, filtration and gas/liquid process systems.
+
+### 44 — Pollution and Waste Control Equipment
+Air-pollution control, waste handling, recycling, remediation and pollution-control equipment.
+
+### 45 — Industry-Specific Manufacturing Equipment
+Manufacturing and fabrication equipment unique to the owner’s industrial process.
+
+### 46 — Water and Wastewater Equipment
+Water treatment, wastewater treatment, screening, clarification, filtration, chemical feed and solids handling.
+
+### 48 — Electrical Power Generation
+Power generation, solar, wind, energy storage, generators, distributed energy and power-plant systems.
 
 ## Section activity naming standard
 
-Use clear, location-based names:
-
 - Prepare [section] submittal
 - Review and approve [section] submittal
+- Complete delegated design – [section]
 - Fabricate [section] – [package]
 - Deliver and inspect [section] – [location]
 - Conduct preparatory QC – [section/location]
@@ -268,19 +197,21 @@ Use clear, location-based names:
 - Install [section] – [building/floor/area]
 - Inspect/test [section] – [location]
 - Correct and reinspect [section] – [location]
+- Startup/commission [section/system]
 - Complete punch and turnover – [section/system]
 
 ## Required SSX controls
 
-- Every activity carries both division and section identifiers.
+- Every activity carries current division and section identifiers.
 - Activities are divided by physical location when that improves sequencing.
-- Procurement, installation, inspection, testing and closeout are separate when meaningful.
-- Legacy 1995 codes remain visible on SSX cards.
-- Modern cross-references are metadata, not replacements for Dale’s primary 1995 navigation.
-- Project schedules select only applicable sections and activities.
-- Exact project specifications govern over this master universe.
+- Procurement, fabrication, installation, inspection, testing and turnover remain separate when meaningful.
+- Reserved divisions remain clearly identified and do not receive invented trade scope.
+- Project specifications govern section numbers and titles.
+- The master library supplies possible activities; projects select only applicable work.
+- Changes in CSI numbering are versioned rather than silently overwriting historical project records.
 
-## Reference basis
+## Research basis
 
-- Construction Specifications Institute transition guidance confirms the traditional 16 divisions were last current in 1995.
-- Current section research may use CSI’s current MasterFormat structure and public UFGS section library as scope checks, then map the construction work back to SSX’s 1995 navigation.
+- CSI is the governing source for MasterFormat.
+- Public UFGS sections may be used to validate construction scope and common execution activities.
+- Product guide specifications may help identify manufacturer-dependent submittals, testing and installation steps, but do not override project requirements.

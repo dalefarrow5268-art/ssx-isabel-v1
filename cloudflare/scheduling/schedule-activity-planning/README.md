@@ -20,6 +20,7 @@
 14. [Turnover and Closeout](./turnover-and-closeout/MASTER_TURNOVER_AND_CLOSEOUT.md) — Area and system completion, punch, substantial completion, TCO/CO, records, training, warranties, financial closeout, demobilization and post-occupancy.
 15. [Owner Decisions](./owner-decisions/MASTER_OWNER_DECISIONS.md) — Program, scope, design, finish, equipment, procurement, budget, schedule, commissioning, occupancy and risk-acceptance decisions with calculated need-by dates.
 16. [Utility-Company Activities](./utility-company-activities/MASTER_UTILITY_COMPANY_ACTIVITIES.md) — Electric, gas, water, sewer, stormwater, telecom, fiber and district-utility applications, design, easements, construction, inspections, activation and closeout.
+17. [Jurisdiction and AHJ Activities](./jurisdiction-and-ahj/MASTER_JURISDICTION_AND_AHJ_ACTIVITIES.md) — Planning, zoning, building, Fire Marshal, public works, environmental, health, accessibility, elevator, inspection, TCO/CO and permit-closeout activities.
 
 ## SSX activity types
 
@@ -36,6 +37,7 @@
 - Holiday / Nonwork Day
 - Owner Decision
 - Utility Activity
+- Jurisdiction / AHJ Activity
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

@@ -1,0 +1,27 @@
+name = "ssx-isabel-core"
+main = "src/index.js"
+compatibility_date = "2026-08-11"
+
+# Cloudflare-first Isabel core. Fill account-specific resource IDs at deploy time.
+
+[[durable_objects.bindings]]
+name = "ISABEL_SESSION"
+class_name = "IsabelSession"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["IsabelSession"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ssx-isabel"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[[r2_buckets]]
+binding = "ASSETS"
+bucket_name = "ssx-isabel-assets"
+
+[vars]
+# Keep empty during initial setup. Set to the exact private UI origin once deployed.
+ALLOWED_ORIGIN = ""
+CORE_VERSION = "0.1.0-cloudflare-first"

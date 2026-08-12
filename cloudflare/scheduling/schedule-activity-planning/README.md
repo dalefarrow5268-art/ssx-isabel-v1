@@ -15,6 +15,7 @@
 9. [Permits and Licenses](./permits-and-licenses/MASTER_PERMITS_AND_LICENSES.md) — Entitlements, building and trade permits, environmental and utility authorizations, licenses, occupancy approvals, renewals and closeout.
 10. [Mobilization and Temporary Facilities](./mobilization-and-temporary-facilities/MASTER_MOBILIZATION_AND_TEMPORARY_FACILITIES.md) — Site establishment, offices, temporary utilities, logistics, access, protection, recurring service, relocation, demobilization and restoration.
 11. [Meetings and Coordination](./meetings-and-coordination/MASTER_MEETINGS_AND_COORDINATION.md) — Kickoffs, recurring project meetings, field and trade coordination, BIM, decisions, escalation, commissioning, closeout and action-item controls.
+12. [Mockups](./mockups/MASTER_MOCKUPS.md) — Visual, workmanship, performance, laboratory, field, full-room, first-work, digital and integrated-system mockups from planning through approval and removal.
 
 ## SSX activity types
 
@@ -25,6 +26,7 @@
 - Permit / License
 - Mobilization / Temporary Facility
 - Meeting / Coordination
+- Mockup
 - Submittal
 - Approval
 - Holiday / Nonwork Day

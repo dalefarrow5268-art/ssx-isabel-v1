@@ -18,6 +18,7 @@
 12. [Mockups](./mockups/MASTER_MOCKUPS.md) — Visual, workmanship, performance, laboratory, field, full-room, first-work, digital and integrated-system mockups from planning through approval and removal.
 13. [Startup and Commissioning](./startup-and-commissioning/MASTER_STARTUP_AND_COMMISSIONING.md) — Design review, readiness, equipment startup, TAB, controls, functional and integrated testing, training, seasonal testing and warranty commissioning.
 14. [Turnover and Closeout](./turnover-and-closeout/MASTER_TURNOVER_AND_CLOSEOUT.md) — Area and system completion, punch, substantial completion, TCO/CO, records, training, warranties, financial closeout, demobilization and post-occupancy.
+15. [Owner Decisions](./owner-decisions/MASTER_OWNER_DECISIONS.md) — Program, scope, design, finish, equipment, procurement, budget, schedule, commissioning, occupancy and risk-acceptance decisions with calculated need-by dates.
 
 ## SSX activity types
 

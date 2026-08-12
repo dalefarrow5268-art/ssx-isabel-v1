@@ -31,6 +31,7 @@
 25. [Site Logistics and Material Handling](./site-logistics-and-material-handling/MASTER_SITE_LOGISTICS_AND_MATERIAL_HANDLING_ACTIVITIES.md) — Access, traffic control, delivery reservations, laydown, storage, cranes, lifts, hoists, material movement, phase relocations, removals and restoration.
 26. [Workforce and Labor Activities](./workforce-and-labor/MASTER_WORKFORCE_AND_LABOR_ACTIVITIES.md) — Labor forecasting, recruiting, union coordination, screening, onboarding, badging, certifications, staffing, productivity, compliance, shortage response and demobilization.
 27. [Security and Site Access Activities](./security-and-site-access/MASTER_SECURITY_AND_SITE_ACCESS_ACTIVITIES.md) — Perimeter protection, gates, guards, worker and visitor credentials, keys, cameras, alarms, restricted areas, incident response, phased access and security turnover.
+28. [Sustainability and Green-Building Compliance](./sustainability-and-green-building/MASTER_SUSTAINABILITY_AND_GREEN_BUILDING_ACTIVITIES.md) — Sustainability planning, materials, waste diversion, construction IAQ, water, energy, commissioning, wellness, certification documentation and post-occupancy performance.
 
 ## SSX activity types
 
@@ -58,6 +59,7 @@
 - Site Logistics / Material Handling
 - Workforce / Labor
 - Security / Site Access
+- Sustainability / Green Building
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

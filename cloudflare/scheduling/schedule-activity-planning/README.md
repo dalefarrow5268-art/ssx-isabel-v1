@@ -24,6 +24,7 @@
 18. [Weather and Environmental Events](./weather-and-environmental-events/MASTER_WEATHER_AND_ENVIRONMENTAL_EVENTS.md) — Monitoring, preparedness, work restrictions, shutdowns, protection, emergency response, recovery and schedule documentation for weather, natural hazards and environmental events.
 19. [Quality Control Activities](./quality-control/MASTER_QUALITY_CONTROL_ACTIVITIES.md) — Quality planning, preparatory, initial and follow-up controls, receiving and trade inspections, hold points, testing, nonconformance, corrective action and quality records.
 20. [Change Management](./change-management/MASTER_CHANGE_MANAGEMENT_ACTIVITIES.md) — Identification, notice, scope development, design, pricing, schedule analysis, approval, procurement, implementation, verification and closure of construction changes.
+21. [Design and Engineering Activities](./design-and-engineering/MASTER_DESIGN_AND_ENGINEERING_ACTIVITIES.md) — Programming, investigation, design phases, engineering calculations, coordination, BIM/VDC, constructability, delegated design, field revisions and record documents.
 
 ## SSX activity types
 
@@ -44,6 +45,7 @@
 - Weather / Environmental Event
 - Quality Control
 - Change Management
+- Design / Engineering
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

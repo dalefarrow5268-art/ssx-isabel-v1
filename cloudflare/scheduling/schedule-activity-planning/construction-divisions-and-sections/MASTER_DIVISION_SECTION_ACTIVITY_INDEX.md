@@ -31,7 +31,7 @@ Each applicable section activity library will include:
 | 00 | [Procurement and Contracting Requirements](./division-00/MASTER_DIVISION_00_ACTIVITIES.md) | Detailed file created |
 | 01 | [General Requirements](./division-01/MASTER_DIVISION_01_ACTIVITIES.md) | Detailed file created |
 | 02 | [Existing Conditions](./division-02/MASTER_DIVISION_02_ACTIVITIES.md) | Activity list created |
-| 03 | Concrete | Queued |
+| 03 | [Concrete](./division-03/MASTER_DIVISION_03_ACTIVITIES.md) | Activity list created |
 | 04 | Masonry | Queued |
 | 05 | Metals | Queued |
 | 06 | Wood, Plastics, and Composites | Queued |

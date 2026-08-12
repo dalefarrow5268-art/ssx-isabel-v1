@@ -27,6 +27,7 @@
 21. [Design and Engineering Activities](./design-and-engineering/MASTER_DESIGN_AND_ENGINEERING_ACTIVITIES.md) — Programming, investigation, design phases, engineering calculations, coordination, BIM/VDC, constructability, delegated design, field revisions and record documents.
 22. [Schedule Management Activities](./schedule-management/MASTER_SCHEDULE_MANAGEMENT_ACTIVITIES.md) — Baseline development, logic, updates, progress validation, look-aheads, constraints, critical-path analysis, forecasting, recovery, time impacts and as-built schedules.
 23. [Cost and Payment Control Activities](./cost-and-payment-controls/MASTER_COST_AND_PAYMENT_CONTROL_ACTIVITIES.md) — Budgets, estimates, commitments, schedules of values, monthly pay cycles, stored materials, lien waivers, allowances, forecasts, audits, retainage and final payment.
+24. [Daily Reporting and Project Documentation](./daily-reporting-and-documentation/MASTER_DAILY_REPORTING_AND_DOCUMENTATION_ACTIVITIES.md) — Daily reports, manpower, production, equipment, deliveries, weather, photographs, correspondence, notices, quality, delays, document control and record retention.
 
 ## SSX activity types
 
@@ -50,6 +51,7 @@
 - Design / Engineering
 - Schedule Management
 - Cost / Payment Control
+- Daily Reporting / Documentation
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

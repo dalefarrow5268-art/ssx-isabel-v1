@@ -26,6 +26,7 @@
 20. [Change Management](./change-management/MASTER_CHANGE_MANAGEMENT_ACTIVITIES.md) — Identification, notice, scope development, design, pricing, schedule analysis, approval, procurement, implementation, verification and closure of construction changes.
 21. [Design and Engineering Activities](./design-and-engineering/MASTER_DESIGN_AND_ENGINEERING_ACTIVITIES.md) — Programming, investigation, design phases, engineering calculations, coordination, BIM/VDC, constructability, delegated design, field revisions and record documents.
 22. [Schedule Management Activities](./schedule-management/MASTER_SCHEDULE_MANAGEMENT_ACTIVITIES.md) — Baseline development, logic, updates, progress validation, look-aheads, constraints, critical-path analysis, forecasting, recovery, time impacts and as-built schedules.
+23. [Cost and Payment Control Activities](./cost-and-payment-controls/MASTER_COST_AND_PAYMENT_CONTROL_ACTIVITIES.md) — Budgets, estimates, commitments, schedules of values, monthly pay cycles, stored materials, lien waivers, allowances, forecasts, audits, retainage and final payment.
 
 ## SSX activity types
 
@@ -48,6 +49,7 @@
 - Change Management
 - Design / Engineering
 - Schedule Management
+- Cost / Payment Control
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

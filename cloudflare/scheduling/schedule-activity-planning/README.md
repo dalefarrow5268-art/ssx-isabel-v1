@@ -32,6 +32,7 @@
 26. [Workforce and Labor Activities](./workforce-and-labor/MASTER_WORKFORCE_AND_LABOR_ACTIVITIES.md) — Labor forecasting, recruiting, union coordination, screening, onboarding, badging, certifications, staffing, productivity, compliance, shortage response and demobilization.
 27. [Security and Site Access Activities](./security-and-site-access/MASTER_SECURITY_AND_SITE_ACCESS_ACTIVITIES.md) — Perimeter protection, gates, guards, worker and visitor credentials, keys, cameras, alarms, restricted areas, incident response, phased access and security turnover.
 28. [Sustainability and Green-Building Compliance](./sustainability-and-green-building/MASTER_SUSTAINABILITY_AND_GREEN_BUILDING_ACTIVITIES.md) — Sustainability planning, materials, waste diversion, construction IAQ, water, energy, commissioning, wellness, certification documentation and post-occupancy performance.
+29. [Construction Activities by 2026 CSI Division and Section](./construction-divisions-and-sections/MASTER_DIVISION_SECTION_ACTIVITY_INDEX.md) — Section-level design, submittal, procurement, installation, inspection, testing, commissioning and closeout activities organized through Division 48.
 
 ## SSX activity types
 
@@ -60,6 +61,7 @@
 - Workforce / Labor
 - Security / Site Access
 - Sustainability / Green Building
+- CSI Division / Section Construction Activity
 - Safety Inspection
 - Safety Meeting
 - Safety Permit

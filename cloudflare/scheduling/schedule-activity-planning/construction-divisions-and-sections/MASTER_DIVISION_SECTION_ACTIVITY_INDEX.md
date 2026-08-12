@@ -28,8 +28,8 @@ Each applicable section activity library will include:
 
 | Division | Division title | Activity-library status |
 |---|---|---|
-| 00 | Procurement and Contracting Requirements | Detailed file created |
-| 01 | General Requirements | Queued |
+| 00 | [Procurement and Contracting Requirements](./division-00/MASTER_DIVISION_00_ACTIVITIES.md) | Detailed file created |
+| 01 | [General Requirements](./division-01/MASTER_DIVISION_01_ACTIVITIES.md) | Detailed file created |
 | 02 | Existing Conditions | Queued |
 | 03 | Concrete | Queued |
 | 04 | Masonry | Queued |

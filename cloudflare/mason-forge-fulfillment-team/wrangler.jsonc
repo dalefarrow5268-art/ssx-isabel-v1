@@ -1,0 +1,30 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ssx-mason-forge-fulfillment-team",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-13",
+  "observability": { "enabled": true },
+  "workflows": [{
+    "name": "ssx-mason-forge-project-workflow",
+    "binding": "PROJECT_WORKFLOW",
+    "class_name": "MasonForgeProjectWorkflow"
+  }],
+  "d1_databases": [{
+    "binding": "DB",
+    "database_name": "ssx-mason-forge",
+    "database_id": "REPLACE_WITH_CLOUDFLARE_D1_DATABASE_ID"
+  }],
+  "r2_buckets": [{
+    "binding": "PROJECT_FILES",
+    "bucket_name": "ssx-project-files"
+  }],
+  "queues": {
+    "producers": [{
+      "binding": "FULFILLMENT_QUEUE",
+      "queue": "ssx-mason-forge-fulfillment"
+    }]
+  },
+  "vars": {
+    "WEATHER_CENTER_URL": "REPLACE_WITH_EXISTING_SSX_WEATHER_CENTER_URL"
+  }
+}

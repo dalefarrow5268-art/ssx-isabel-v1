@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0.0",
+  "company": "SSX",
+  "department": "Mason Forge Project Fulfillment",
+  "employment_model": "event-driven project assignments",
+  "status_values": [
+    "standby",
+    "assigned",
+    "working",
+    "waiting-for-input",
+    "waiting-for-approval",
+    "completed",
+    "exception",
+    "held"
+  ],
+  "employees": [
+    {
+      "employee_id": "SSX-EMP-001",
+      "name": "Oscar Orchestrator",
+      "title": "Director of Project Fulfillment",
+      "department": "Mason Forge Project Fulfillment",
+      "reports_to": "Dale Farrow",
+      "personnel_file": "employees/oscar-orchestrator.md",
+      "workflow_order": 1,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-002",
+      "name": "Ivy Intake",
+      "title": "Project Intake and Document Control Coordinator",
+      "department": "Project Intake",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/ivy-intake.md",
+      "workflow_order": 2,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-003",
+      "name": "Dexter Decoder",
+      "title": "Document Extraction Specialist",
+      "department": "Project Intelligence",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/dexter-decoder.md",
+      "workflow_order": 3,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-004",
+      "name": "Reggie Rules",
+      "title": "Project Requirements Coordinator",
+      "department": "Project Requirements",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/reggie-rules.md",
+      "workflow_order": 4,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-005",
+      "name": "Penny Plancheck",
+      "title": "Plans and Specifications Review Lead",
+      "department": "Scope Review",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/penny-plancheck.md",
+      "workflow_order": 5,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-006",
+      "name": "Parker Picker",
+      "title": "Construction Inventory Fulfillment Specialist",
+      "department": "Fulfillment Warehouse",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/parker-picker.md",
+      "workflow_order": 6,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-007",
+      "name": "Esther Estimates",
+      "title": "Senior Project Estimator",
+      "department": "Estimating",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/esther-estimates.md",
+      "workflow_order": 7,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-008",
+      "name": "Sally Sequence",
+      "title": "Construction Schedule Builder",
+      "department": "Scheduling",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/sally-sequence.md",
+      "workflow_order": 8,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-009",
+      "name": "Wendy Weatherwise",
+      "title": "Weather and Natural Hazard Analyst",
+      "department": "SSX Weather Center",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/wendy-weatherwise.md",
+      "workflow_order": 9,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-010",
+      "name": "Duncan Duration",
+      "title": "Duration and Construction Logic Engineer",
+      "department": "Scheduling Intelligence",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/duncan-duration.md",
+      "workflow_order": 10,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-011",
+      "name": "Quincy Quality",
+      "title": "Quality and Traceability Auditor",
+      "department": "Quality Assurance",
+      "reports_to": "Dale Farrow",
+      "personnel_file": "employees/quincy-quality.md",
+      "workflow_order": 11,
+      "hire_date": "2026-08-13"
+    },
+    {
+      "employee_id": "SSX-EMP-012",
+      "name": "Piper Presentations",
+      "title": "Client Schedule and Export Coordinator",
+      "department": "Project Communications",
+      "reports_to": "Oscar Orchestrator",
+      "personnel_file": "employees/piper-presentations.md",
+      "workflow_order": 12,
+      "hire_date": "2026-08-13"
+    }
+  ],
+  "hire_date": "2026-08-13"
+}

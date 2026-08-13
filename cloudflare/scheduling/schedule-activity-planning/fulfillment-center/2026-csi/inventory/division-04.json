@@ -1,0 +1,4294 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D04",
+    "division_number": "04",
+    "title": "Masonry",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-04/MASTER_DIVISION_04_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 31,
+    "activities": 451
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D04-S040100",
+      "section_code": "04 01 00",
+      "title": "Maintenance of Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040100-A001",
+          "sequence": 1,
+          "name": "Survey existing masonry",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A002",
+          "sequence": 2,
+          "name": "Photograph existing conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A003",
+          "sequence": 3,
+          "name": "Map cracks and movement",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A004",
+          "sequence": 4,
+          "name": "Perform sounding and probes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A005",
+          "sequence": 5,
+          "name": "Test mortar and masonry units",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A006",
+          "sequence": 6,
+          "name": "Prepare repair submittal",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A007",
+          "sequence": 7,
+          "name": "Construct repair mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A008",
+          "sequence": 8,
+          "name": "Approve repair mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A009",
+          "sequence": 9,
+          "name": "Remove damaged masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A010",
+          "sequence": 10,
+          "name": "Rebuild masonry",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A011",
+          "sequence": 11,
+          "name": "Repoint mortar joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A012",
+          "sequence": 12,
+          "name": "Repair cracks",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A013",
+          "sequence": 13,
+          "name": "Replace anchors and ties",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A014",
+          "sequence": 14,
+          "name": "Clean repaired masonry",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A015",
+          "sequence": 15,
+          "name": "Apply protective treatment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A016",
+          "sequence": 16,
+          "name": "Inspect repairs",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040100-A017",
+          "sequence": 17,
+          "name": "Complete punch and closeout",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040120",
+      "section_code": "04 01 20",
+      "title": "Maintenance of Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040120-A001",
+          "sequence": 1,
+          "name": "Identify damaged masonry units",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A002",
+          "sequence": 2,
+          "name": "Match replacement units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A003",
+          "sequence": 3,
+          "name": "Match mortar color and profile",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A004",
+          "sequence": 4,
+          "name": "Prepare sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A005",
+          "sequence": 5,
+          "name": "Remove deteriorated units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A006",
+          "sequence": 6,
+          "name": "Clean openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A007",
+          "sequence": 7,
+          "name": "Install replacement units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A008",
+          "sequence": 8,
+          "name": "Repoint adjacent joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A009",
+          "sequence": 9,
+          "name": "Cure repairs",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A010",
+          "sequence": 10,
+          "name": "Clean completed repairs",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A011",
+          "sequence": 11,
+          "name": "Inspect color and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040120-A012",
+          "sequence": 12,
+          "name": "Correct unacceptable repairs",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040140",
+      "section_code": "04 01 40",
+      "title": "Maintenance of Stone Assemblies",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040140-A001",
+          "sequence": 1,
+          "name": "Survey stone conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A002",
+          "sequence": 2,
+          "name": "Identify displaced and cracked stone",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A003",
+          "sequence": 3,
+          "name": "Test anchors and mortar",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A004",
+          "sequence": 4,
+          "name": "Source matching stone",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A005",
+          "sequence": 5,
+          "name": "Prepare repair mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A006",
+          "sequence": 6,
+          "name": "Shore unstable stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A007",
+          "sequence": 7,
+          "name": "Remove damaged stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A008",
+          "sequence": 8,
+          "name": "Repair substrate",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A009",
+          "sequence": 9,
+          "name": "Replace anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A010",
+          "sequence": 10,
+          "name": "Reset stone",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A011",
+          "sequence": 11,
+          "name": "Repoint joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A012",
+          "sequence": 12,
+          "name": "Patch stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A013",
+          "sequence": 13,
+          "name": "Clean stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040140-A014",
+          "sequence": 14,
+          "name": "Inspect and approve repairs",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040500",
+      "section_code": "04 05 00",
+      "title": "Common Work Results for Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040500-A001",
+          "sequence": 1,
+          "name": "Conduct masonry preinstallation conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A002",
+          "sequence": 2,
+          "name": "Submit masonry materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A003",
+          "sequence": 3,
+          "name": "Submit mortar and grout mixes",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A004",
+          "sequence": 4,
+          "name": "Submit reinforcing and accessories",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A005",
+          "sequence": 5,
+          "name": "Submit cleaning materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A006",
+          "sequence": 6,
+          "name": "Prepare masonry shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A007",
+          "sequence": 7,
+          "name": "Coordinate openings and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A008",
+          "sequence": 8,
+          "name": "Coordinate expansion and control joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A009",
+          "sequence": 9,
+          "name": "Coordinate flashing and drainage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A010",
+          "sequence": 10,
+          "name": "Deliver and inspect materials",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A011",
+          "sequence": 11,
+          "name": "Store and protect materials",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A012",
+          "sequence": 12,
+          "name": "Construct sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A013",
+          "sequence": 13,
+          "name": "Approve sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A014",
+          "sequence": 14,
+          "name": "Establish cold-weather procedures",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A015",
+          "sequence": 15,
+          "name": "Establish hot-weather procedures",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040500-A016",
+          "sequence": 16,
+          "name": "Complete preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040513",
+      "section_code": "04 05 13",
+      "title": "Masonry Mortaring",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040513-A001",
+          "sequence": 1,
+          "name": "Submit mortar mix designs",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A002",
+          "sequence": 2,
+          "name": "Approve mortar colors",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A003",
+          "sequence": 3,
+          "name": "Procure mortar materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A004",
+          "sequence": 4,
+          "name": "Verify water and sand",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A005",
+          "sequence": 5,
+          "name": "Set mixing station",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A006",
+          "sequence": 6,
+          "name": "Batch and mix mortar",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A007",
+          "sequence": 7,
+          "name": "Track mixing and use time",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A008",
+          "sequence": 8,
+          "name": "Place bed and head joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A009",
+          "sequence": 9,
+          "name": "Tool mortar joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A010",
+          "sequence": 10,
+          "name": "Protect fresh mortar",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A011",
+          "sequence": 11,
+          "name": "Sample mortar",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A012",
+          "sequence": 12,
+          "name": "Test mortar",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A013",
+          "sequence": 13,
+          "name": "Correct mortar deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040513-A014",
+          "sequence": 14,
+          "name": "Clean mixing area",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040516",
+      "section_code": "04 05 16",
+      "title": "Masonry Grouting",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040516-A001",
+          "sequence": 1,
+          "name": "Submit grout mix",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A002",
+          "sequence": 2,
+          "name": "Approve grout procedure",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A003",
+          "sequence": 3,
+          "name": "Verify cleanouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A004",
+          "sequence": 4,
+          "name": "Verify cell alignment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A005",
+          "sequence": 5,
+          "name": "Verify reinforcing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A006",
+          "sequence": 6,
+          "name": "Schedule grout placement",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A007",
+          "sequence": 7,
+          "name": "Place grout",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A008",
+          "sequence": 8,
+          "name": "Consolidate grout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A009",
+          "sequence": 9,
+          "name": "Reconsolidate grout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A010",
+          "sequence": 10,
+          "name": "Monitor lift heights",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A011",
+          "sequence": 11,
+          "name": "Prepare grout samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A012",
+          "sequence": 12,
+          "name": "Test grout",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A013",
+          "sequence": 13,
+          "name": "Repair voids",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040516-A014",
+          "sequence": 14,
+          "name": "Close cleanouts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040519",
+      "section_code": "04 05 19",
+      "title": "Masonry Anchorage and Reinforcing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040519-A001",
+          "sequence": 1,
+          "name": "Prepare reinforcing shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A002",
+          "sequence": 2,
+          "name": "Submit anchors and ties",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A003",
+          "sequence": 3,
+          "name": "Submit reinforcing",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A004",
+          "sequence": 4,
+          "name": "Procure materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A005",
+          "sequence": 5,
+          "name": "Install vertical reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A006",
+          "sequence": 6,
+          "name": "Install horizontal joint reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A007",
+          "sequence": 7,
+          "name": "Install dowels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A008",
+          "sequence": 8,
+          "name": "Install veneer anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A009",
+          "sequence": 9,
+          "name": "Install adjustable ties",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A010",
+          "sequence": 10,
+          "name": "Install seismic anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A011",
+          "sequence": 11,
+          "name": "Install masonry connectors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A012",
+          "sequence": 12,
+          "name": "Verify laps and spacing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A013",
+          "sequence": 13,
+          "name": "Inspect reinforcing before grouting",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040519-A014",
+          "sequence": 14,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040523",
+      "section_code": "04 05 23",
+      "title": "Masonry Accessories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040523-A001",
+          "sequence": 1,
+          "name": "Submit flashing",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A002",
+          "sequence": 2,
+          "name": "Submit weeps and vents",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A003",
+          "sequence": 3,
+          "name": "Submit cavity drainage materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A004",
+          "sequence": 4,
+          "name": "Submit control-joint materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A005",
+          "sequence": 5,
+          "name": "Procure accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A006",
+          "sequence": 6,
+          "name": "Install through-wall flashing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A007",
+          "sequence": 7,
+          "name": "Install end dams",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A008",
+          "sequence": 8,
+          "name": "Install drip edges",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A009",
+          "sequence": 9,
+          "name": "Install cavity drainage",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A010",
+          "sequence": 10,
+          "name": "Install weeps and vents",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A011",
+          "sequence": 11,
+          "name": "Install control-joint fillers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A012",
+          "sequence": 12,
+          "name": "Install bond-breaker materials",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A013",
+          "sequence": 13,
+          "name": "Inspect accessories before concealment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040523-A014",
+          "sequence": 14,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S040531",
+      "section_code": "04 05 31",
+      "title": "Masonry Cleaning",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S040531-A001",
+          "sequence": 1,
+          "name": "Submit cleaning procedure",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A002",
+          "sequence": 2,
+          "name": "Test cleaning products",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A003",
+          "sequence": 3,
+          "name": "Construct cleaning sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A004",
+          "sequence": 4,
+          "name": "Approve cleaning sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A005",
+          "sequence": 5,
+          "name": "Protect adjacent materials",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A006",
+          "sequence": 6,
+          "name": "Prewet masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A007",
+          "sequence": 7,
+          "name": "Clean mortar smears",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A008",
+          "sequence": 8,
+          "name": "Clean efflorescence",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A009",
+          "sequence": 9,
+          "name": "Remove stains",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A010",
+          "sequence": 10,
+          "name": "Rinse masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A011",
+          "sequence": 11,
+          "name": "Control runoff",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A012",
+          "sequence": 12,
+          "name": "Inspect cleaned surfaces",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A013",
+          "sequence": 13,
+          "name": "Repeat cleaning",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S040531-A014",
+          "sequence": 14,
+          "name": "Restore protection",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042000",
+      "section_code": "04 20 00",
+      "title": "Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042000-A001",
+          "sequence": 1,
+          "name": "Prepare unit-masonry shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A002",
+          "sequence": 2,
+          "name": "Submit masonry units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A003",
+          "sequence": 3,
+          "name": "Submit mortar and grout",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A004",
+          "sequence": 4,
+          "name": "Submit reinforcing and accessories",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A005",
+          "sequence": 5,
+          "name": "Construct sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A006",
+          "sequence": 6,
+          "name": "Approve sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A007",
+          "sequence": 7,
+          "name": "Verify foundation and slab layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A008",
+          "sequence": 8,
+          "name": "Verify dowels",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A009",
+          "sequence": 9,
+          "name": "Lay out walls and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A010",
+          "sequence": 10,
+          "name": "Install first-course masonry",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A011",
+          "sequence": 11,
+          "name": "Install masonry by area",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A012",
+          "sequence": 12,
+          "name": "Install reinforcement and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A013",
+          "sequence": 13,
+          "name": "Install flashing and weeps",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A014",
+          "sequence": 14,
+          "name": "Install lintels and embeds",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A015",
+          "sequence": 15,
+          "name": "Grout masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A016",
+          "sequence": 16,
+          "name": "Tool joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A017",
+          "sequence": 17,
+          "name": "Install control joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A018",
+          "sequence": 18,
+          "name": "Inspect alignment and tolerances",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A019",
+          "sequence": 19,
+          "name": "Test mortar, grout and prisms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A020",
+          "sequence": 20,
+          "name": "Clean masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A021",
+          "sequence": 21,
+          "name": "Protect and cure masonry",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042000-A022",
+          "sequence": 22,
+          "name": "Complete masonry punch",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042100",
+      "section_code": "04 21 00",
+      "title": "Clay Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042100-A001",
+          "sequence": 1,
+          "name": "Submit brick and clay units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A002",
+          "sequence": 2,
+          "name": "Approve colors and blends",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A003",
+          "sequence": 3,
+          "name": "Prepare brick blend plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A004",
+          "sequence": 4,
+          "name": "Construct brick sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A005",
+          "sequence": 5,
+          "name": "Approve sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A006",
+          "sequence": 6,
+          "name": "Procure brick",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A007",
+          "sequence": 7,
+          "name": "Deliver and distribute brick",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A008",
+          "sequence": 8,
+          "name": "Lay out brick coursing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A009",
+          "sequence": 9,
+          "name": "Install brick veneer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A010",
+          "sequence": 10,
+          "name": "Install structural clay masonry",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A011",
+          "sequence": 11,
+          "name": "Install anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A012",
+          "sequence": 12,
+          "name": "Install flashing and weeps",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A013",
+          "sequence": 13,
+          "name": "Install shelf-angle joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A014",
+          "sequence": 14,
+          "name": "Tool mortar joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A015",
+          "sequence": 15,
+          "name": "Clean brick",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A016",
+          "sequence": 16,
+          "name": "Inspect color distribution",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A017",
+          "sequence": 17,
+          "name": "Repair and replace damaged brick",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042100-A018",
+          "sequence": 18,
+          "name": "Seal joints and transitions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042113",
+      "section_code": "04 21 13",
+      "title": "Brick Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042113-A001",
+          "sequence": 1,
+          "name": "Approve brick units",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A002",
+          "sequence": 2,
+          "name": "Establish coursing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A003",
+          "sequence": 3,
+          "name": "Verify substrate and anchors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A004",
+          "sequence": 4,
+          "name": "Install base flashing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A005",
+          "sequence": 5,
+          "name": "Lay brick",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A006",
+          "sequence": 6,
+          "name": "Install veneer ties",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A007",
+          "sequence": 7,
+          "name": "Install cavity drainage",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A008",
+          "sequence": 8,
+          "name": "Install weeps",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A009",
+          "sequence": 9,
+          "name": "Coordinate windows and doors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A010",
+          "sequence": 10,
+          "name": "Install lintels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A011",
+          "sequence": 11,
+          "name": "Form movement joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A012",
+          "sequence": 12,
+          "name": "Tool joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A013",
+          "sequence": 13,
+          "name": "Clean brick",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A014",
+          "sequence": 14,
+          "name": "Inspect wall",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042113-A015",
+          "sequence": 15,
+          "name": "Correct rejected work",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042200",
+      "section_code": "04 22 00",
+      "title": "Concrete Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042200-A001",
+          "sequence": 1,
+          "name": "Submit concrete masonry units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A002",
+          "sequence": 2,
+          "name": "Approve colors and textures",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A003",
+          "sequence": 3,
+          "name": "Submit fire-rated assembly information",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A004",
+          "sequence": 4,
+          "name": "Construct CMU sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A005",
+          "sequence": 5,
+          "name": "Procure CMU",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A006",
+          "sequence": 6,
+          "name": "Lay out CMU walls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A007",
+          "sequence": 7,
+          "name": "Install first course",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A008",
+          "sequence": 8,
+          "name": "Install CMU partitions",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A009",
+          "sequence": 9,
+          "name": "Install structural CMU walls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A010",
+          "sequence": 10,
+          "name": "Install bond beams",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A011",
+          "sequence": 11,
+          "name": "Install lintel units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A012",
+          "sequence": 12,
+          "name": "Install reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A013",
+          "sequence": 13,
+          "name": "Grout cells",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A014",
+          "sequence": 14,
+          "name": "Install embeds and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A015",
+          "sequence": 15,
+          "name": "Form control joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A016",
+          "sequence": 16,
+          "name": "Tool joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A017",
+          "sequence": 17,
+          "name": "Inspect wall alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A018",
+          "sequence": 18,
+          "name": "Test masonry",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A019",
+          "sequence": 19,
+          "name": "Clean and protect CMU",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042200-A020",
+          "sequence": 20,
+          "name": "Complete punch",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042223",
+      "section_code": "04 22 23",
+      "title": "Architectural Concrete Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042223-A001",
+          "sequence": 1,
+          "name": "Approve architectural CMU samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A002",
+          "sequence": 2,
+          "name": "Approve color and texture range",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A003",
+          "sequence": 3,
+          "name": "Construct architectural CMU mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A004",
+          "sequence": 4,
+          "name": "Procure matched production lots",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A005",
+          "sequence": 5,
+          "name": "Establish unit blend",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A006",
+          "sequence": 6,
+          "name": "Install architectural CMU",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A007",
+          "sequence": 7,
+          "name": "Coordinate cuts and corners",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A008",
+          "sequence": 8,
+          "name": "Tool joints uniformly",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A009",
+          "sequence": 9,
+          "name": "Clean using approved method",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A010",
+          "sequence": 10,
+          "name": "Apply sealer when required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A011",
+          "sequence": 11,
+          "name": "Inspect appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A012",
+          "sequence": 12,
+          "name": "Replace chipped or mismatched units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042223-A013",
+          "sequence": 13,
+          "name": "Protect finished walls",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042300",
+      "section_code": "04 23 00",
+      "title": "Glass Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042300-A001",
+          "sequence": 1,
+          "name": "Submit glass masonry units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A002",
+          "sequence": 2,
+          "name": "Submit reinforcing and accessories",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A003",
+          "sequence": 3,
+          "name": "Prepare panel layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A004",
+          "sequence": 4,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A005",
+          "sequence": 5,
+          "name": "Verify openings and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A006",
+          "sequence": 6,
+          "name": "Install perimeter channels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A007",
+          "sequence": 7,
+          "name": "Install glass block",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A008",
+          "sequence": 8,
+          "name": "Install reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A009",
+          "sequence": 9,
+          "name": "Form expansion joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A010",
+          "sequence": 10,
+          "name": "Tool joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A011",
+          "sequence": 11,
+          "name": "Seal perimeter",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A012",
+          "sequence": 12,
+          "name": "Clean glass masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A013",
+          "sequence": 13,
+          "name": "Inspect alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A014",
+          "sequence": 14,
+          "name": "Repair damaged joints",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042300-A015",
+          "sequence": 15,
+          "name": "Protect completed panels",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042400",
+      "section_code": "04 24 00",
+      "title": "Adobe Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042400-A001",
+          "sequence": 1,
+          "name": "Submit adobe units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A002",
+          "sequence": 2,
+          "name": "Approve soil and material properties",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A003",
+          "sequence": 3,
+          "name": "Construct sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A004",
+          "sequence": 4,
+          "name": "Protect units from moisture",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A005",
+          "sequence": 5,
+          "name": "Prepare foundation and capillary break",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A006",
+          "sequence": 6,
+          "name": "Lay adobe units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A007",
+          "sequence": 7,
+          "name": "Install reinforcement and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A008",
+          "sequence": 8,
+          "name": "Form openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A009",
+          "sequence": 9,
+          "name": "Apply compatible finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A010",
+          "sequence": 10,
+          "name": "Cure and protect",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A011",
+          "sequence": 11,
+          "name": "Inspect wall",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042400-A012",
+          "sequence": 12,
+          "name": "Repair cracking and erosion",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042700",
+      "section_code": "04 27 00",
+      "title": "Multiple-Wythe Unit Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042700-A001",
+          "sequence": 1,
+          "name": "Prepare wall-section coordination",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A002",
+          "sequence": 2,
+          "name": "Verify cavity dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A003",
+          "sequence": 3,
+          "name": "Install backup wythe",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A004",
+          "sequence": 4,
+          "name": "Install veneer wythe",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A005",
+          "sequence": 5,
+          "name": "Install headers or connectors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A006",
+          "sequence": 6,
+          "name": "Install ties and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A007",
+          "sequence": 7,
+          "name": "Install insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A008",
+          "sequence": 8,
+          "name": "Install air space and drainage",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A009",
+          "sequence": 9,
+          "name": "Install flashing and weeps",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A010",
+          "sequence": 10,
+          "name": "Keep cavity clean",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A011",
+          "sequence": 11,
+          "name": "Inspect cavity before closure",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A012",
+          "sequence": 12,
+          "name": "Close wall sections",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042700-A013",
+          "sequence": 13,
+          "name": "Clean and inspect completed work",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S042800",
+      "section_code": "04 28 00",
+      "title": "Concrete Form Masonry Units",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S042800-A001",
+          "sequence": 1,
+          "name": "Submit concrete form masonry units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A002",
+          "sequence": 2,
+          "name": "Prepare reinforcing layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A003",
+          "sequence": 3,
+          "name": "Verify foundation dowels",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A004",
+          "sequence": 4,
+          "name": "Install form masonry units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A005",
+          "sequence": 5,
+          "name": "Install reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A006",
+          "sequence": 6,
+          "name": "Coordinate embeds and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A007",
+          "sequence": 7,
+          "name": "Place concrete fill",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A008",
+          "sequence": 8,
+          "name": "Consolidate fill",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A009",
+          "sequence": 9,
+          "name": "Cure wall",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A010",
+          "sequence": 10,
+          "name": "Inspect alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A011",
+          "sequence": 11,
+          "name": "Test concrete fill",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S042800-A012",
+          "sequence": 12,
+          "name": "Finish and protect wall",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S044000",
+      "section_code": "04 40 00",
+      "title": "Stone Assemblies",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S044000-A001",
+          "sequence": 1,
+          "name": "Submit stone samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A002",
+          "sequence": 2,
+          "name": "Approve stone range",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A003",
+          "sequence": 3,
+          "name": "Complete stone testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A004",
+          "sequence": 4,
+          "name": "Prepare stone shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A005",
+          "sequence": 5,
+          "name": "Submit anchors and setting materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A006",
+          "sequence": 6,
+          "name": "Construct stone mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A007",
+          "sequence": 7,
+          "name": "Approve mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A008",
+          "sequence": 8,
+          "name": "Procure stone blocks or slabs",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A009",
+          "sequence": 9,
+          "name": "Fabricate stone",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A010",
+          "sequence": 10,
+          "name": "Conduct shop inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A011",
+          "sequence": 11,
+          "name": "Deliver and inspect stone",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A012",
+          "sequence": 12,
+          "name": "Store stone",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A013",
+          "sequence": 13,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A014",
+          "sequence": 14,
+          "name": "Install stone assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A015",
+          "sequence": 15,
+          "name": "Install anchors and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A016",
+          "sequence": 16,
+          "name": "Set and align stone",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A017",
+          "sequence": 17,
+          "name": "Point or seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A018",
+          "sequence": 18,
+          "name": "Clean stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A019",
+          "sequence": 19,
+          "name": "Protect stone",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044000-A020",
+          "sequence": 20,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S044100",
+      "section_code": "04 41 00",
+      "title": "Dry-Placed Stone",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S044100-A001",
+          "sequence": 1,
+          "name": "Submit stone and aggregate",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A002",
+          "sequence": 2,
+          "name": "Construct dry-stone sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A003",
+          "sequence": 3,
+          "name": "Prepare base",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A004",
+          "sequence": 4,
+          "name": "Sort and blend stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A005",
+          "sequence": 5,
+          "name": "Place dry-laid stone",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A006",
+          "sequence": 6,
+          "name": "Install through stones and ties",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A007",
+          "sequence": 7,
+          "name": "Maintain batter and alignment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A008",
+          "sequence": 8,
+          "name": "Install drainage",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A009",
+          "sequence": 9,
+          "name": "Place capstones",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A010",
+          "sequence": 10,
+          "name": "Inspect stability",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A011",
+          "sequence": 11,
+          "name": "Correct loose or unacceptable stone",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044100-A012",
+          "sequence": 12,
+          "name": "Clean completed work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S044200",
+      "section_code": "04 42 00",
+      "title": "Exterior Stone Cladding",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S044200-A001",
+          "sequence": 1,
+          "name": "Complete stone-cladding engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A002",
+          "sequence": 2,
+          "name": "Prepare panel and anchor shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A003",
+          "sequence": 3,
+          "name": "Test stone",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A004",
+          "sequence": 4,
+          "name": "Approve finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A005",
+          "sequence": 5,
+          "name": "Construct performance mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A006",
+          "sequence": 6,
+          "name": "Fabricate stone panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A007",
+          "sequence": 7,
+          "name": "Fabricate anchors",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A008",
+          "sequence": 8,
+          "name": "Prepare backup wall",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A009",
+          "sequence": 9,
+          "name": "Install supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A010",
+          "sequence": 10,
+          "name": "Erect stone panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A011",
+          "sequence": 11,
+          "name": "Align and shim panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A012",
+          "sequence": 12,
+          "name": "Secure anchors",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A013",
+          "sequence": 13,
+          "name": "Install joint backing and sealant",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A014",
+          "sequence": 14,
+          "name": "Clean cladding",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A015",
+          "sequence": 15,
+          "name": "Test wall when required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A016",
+          "sequence": 16,
+          "name": "Repair and replace damaged stone",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044200-A017",
+          "sequence": 17,
+          "name": "Complete facade inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S044213",
+      "section_code": "04 42 13",
+      "title": "Masonry-Supported Stone Cladding",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S044213-A001",
+          "sequence": 1,
+          "name": "Verify masonry support",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A002",
+          "sequence": 2,
+          "name": "Install flashing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A003",
+          "sequence": 3,
+          "name": "Install anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A004",
+          "sequence": 4,
+          "name": "Set stone veneer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A005",
+          "sequence": 5,
+          "name": "Maintain cavity",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A006",
+          "sequence": 6,
+          "name": "Install ties",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A007",
+          "sequence": 7,
+          "name": "Form movement joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A008",
+          "sequence": 8,
+          "name": "Point joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A009",
+          "sequence": 9,
+          "name": "Clean stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A010",
+          "sequence": 10,
+          "name": "Inspect anchorage and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044213-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S044216",
+      "section_code": "04 42 16",
+      "title": "Steel-Stud-Supported Stone Cladding",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S044216-A001",
+          "sequence": 1,
+          "name": "Complete support engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A002",
+          "sequence": 2,
+          "name": "Verify cold-formed framing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A003",
+          "sequence": 3,
+          "name": "Verify sheathing and air barrier",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A004",
+          "sequence": 4,
+          "name": "Install stone anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A005",
+          "sequence": 5,
+          "name": "Install shelf supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A006",
+          "sequence": 6,
+          "name": "Set stone panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A007",
+          "sequence": 7,
+          "name": "Coordinate movements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A008",
+          "sequence": 8,
+          "name": "Seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A009",
+          "sequence": 9,
+          "name": "Inspect attachments",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A010",
+          "sequence": 10,
+          "name": "Test cladding",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044216-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S044300",
+      "section_code": "04 43 00",
+      "title": "Stone Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S044300-A001",
+          "sequence": 1,
+          "name": "Submit stone sources",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A002",
+          "sequence": 2,
+          "name": "Approve stone blend",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A003",
+          "sequence": 3,
+          "name": "Construct stone-masonry sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A004",
+          "sequence": 4,
+          "name": "Prepare foundation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A005",
+          "sequence": 5,
+          "name": "Sort and stage stone",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A006",
+          "sequence": 6,
+          "name": "Install rubble stone masonry",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A007",
+          "sequence": 7,
+          "name": "Install ashlar masonry",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A008",
+          "sequence": 8,
+          "name": "Install cut-stone masonry",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A009",
+          "sequence": 9,
+          "name": "Install anchors and ties",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A010",
+          "sequence": 10,
+          "name": "Install flashing and drainage",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A011",
+          "sequence": 11,
+          "name": "Form movement joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A012",
+          "sequence": 12,
+          "name": "Point mortar joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A013",
+          "sequence": 13,
+          "name": "Clean stone masonry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A014",
+          "sequence": 14,
+          "name": "Inspect completed work",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S044300-A015",
+          "sequence": 15,
+          "name": "Correct unacceptable work",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S045000",
+      "section_code": "04 50 00",
+      "title": "Refractory Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S045000-A001",
+          "sequence": 1,
+          "name": "Submit refractory materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A002",
+          "sequence": 2,
+          "name": "Submit installation procedure",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A003",
+          "sequence": 3,
+          "name": "Submit dry-out schedule",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A004",
+          "sequence": 4,
+          "name": "Verify installer qualifications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A005",
+          "sequence": 5,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A006",
+          "sequence": 6,
+          "name": "Install refractory brick",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A007",
+          "sequence": 7,
+          "name": "Install castable refractory",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A008",
+          "sequence": 8,
+          "name": "Install anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A009",
+          "sequence": 9,
+          "name": "Form joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A010",
+          "sequence": 10,
+          "name": "Cure refractory",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A011",
+          "sequence": 11,
+          "name": "Conduct controlled dry-out",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A012",
+          "sequence": 12,
+          "name": "Monitor temperatures",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A013",
+          "sequence": 13,
+          "name": "Inspect lining",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A014",
+          "sequence": 14,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045000-A015",
+          "sequence": 15,
+          "name": "Complete startup inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S045100",
+      "section_code": "04 51 00",
+      "title": "Flue Liner Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S045100-A001",
+          "sequence": 1,
+          "name": "Submit flue-liner units",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A002",
+          "sequence": 2,
+          "name": "Verify chimney layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A003",
+          "sequence": 3,
+          "name": "Install liners",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A004",
+          "sequence": 4,
+          "name": "Install insulation and clearances",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A005",
+          "sequence": 5,
+          "name": "Seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A006",
+          "sequence": 6,
+          "name": "Coordinate cleanouts and connections",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A007",
+          "sequence": 7,
+          "name": "Inspect alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A008",
+          "sequence": 8,
+          "name": "Conduct smoke or leakage test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A009",
+          "sequence": 9,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045100-A010",
+          "sequence": 10,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S045700",
+      "section_code": "04 57 00",
+      "title": "Masonry Fireplaces",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S045700-A001",
+          "sequence": 1,
+          "name": "Submit fireplace components",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A002",
+          "sequence": 2,
+          "name": "Verify foundation and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A003",
+          "sequence": 3,
+          "name": "Install firebox",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A004",
+          "sequence": 4,
+          "name": "Install smoke chamber",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A005",
+          "sequence": 5,
+          "name": "Install flue",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A006",
+          "sequence": 6,
+          "name": "Install hearth",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A007",
+          "sequence": 7,
+          "name": "Install dampers and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A008",
+          "sequence": 8,
+          "name": "Coordinate combustible clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A009",
+          "sequence": 9,
+          "name": "Inspect masonry",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A010",
+          "sequence": 10,
+          "name": "Conduct draft/smoke test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S045700-A012",
+          "sequence": 12,
+          "name": "Clean and protect",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S047000",
+      "section_code": "04 70 00",
+      "title": "Manufactured Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S047000-A001",
+          "sequence": 1,
+          "name": "Submit manufactured masonry samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A002",
+          "sequence": 2,
+          "name": "Approve colors and textures",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A004",
+          "sequence": 4,
+          "name": "Construct sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A005",
+          "sequence": 5,
+          "name": "Approve panel",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A006",
+          "sequence": 6,
+          "name": "Procure units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A007",
+          "sequence": 7,
+          "name": "Deliver and inspect",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A008",
+          "sequence": 8,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A009",
+          "sequence": 9,
+          "name": "Install units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A010",
+          "sequence": 10,
+          "name": "Install anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A011",
+          "sequence": 11,
+          "name": "Form joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A012",
+          "sequence": 12,
+          "name": "Point and finish",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A013",
+          "sequence": 13,
+          "name": "Clean work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A014",
+          "sequence": 14,
+          "name": "Inspect appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047000-A015",
+          "sequence": 15,
+          "name": "Replace damaged units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S047200",
+      "section_code": "04 72 00",
+      "title": "Cast Stone Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S047200-A001",
+          "sequence": 1,
+          "name": "Submit cast-stone shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A002",
+          "sequence": 2,
+          "name": "Approve color and texture samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A003",
+          "sequence": 3,
+          "name": "Construct cast-stone mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A004",
+          "sequence": 4,
+          "name": "Fabricate cast stone",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A005",
+          "sequence": 5,
+          "name": "Conduct plant quality control",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A006",
+          "sequence": 6,
+          "name": "Deliver and inspect units",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A007",
+          "sequence": 7,
+          "name": "Install anchors and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A008",
+          "sequence": 8,
+          "name": "Set cast-stone units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A009",
+          "sequence": 9,
+          "name": "Align joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A010",
+          "sequence": 10,
+          "name": "Point and seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A011",
+          "sequence": 11,
+          "name": "Clean cast stone",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A012",
+          "sequence": 12,
+          "name": "Repair approved minor defects",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A013",
+          "sequence": 13,
+          "name": "Replace rejected units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047200-A014",
+          "sequence": 14,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S047300",
+      "section_code": "04 73 00",
+      "title": "Manufactured Stone Masonry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S047300-A001",
+          "sequence": 1,
+          "name": "Submit manufactured stone veneer",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A002",
+          "sequence": 2,
+          "name": "Approve unit blend",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A003",
+          "sequence": 3,
+          "name": "Construct veneer sample panel",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A004",
+          "sequence": 4,
+          "name": "Prepare weather-resistive substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A005",
+          "sequence": 5,
+          "name": "Install lath when required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A006",
+          "sequence": 6,
+          "name": "Apply scratch coat",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A007",
+          "sequence": 7,
+          "name": "Lay out stone blend",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A008",
+          "sequence": 8,
+          "name": "Install manufactured stone",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A009",
+          "sequence": 9,
+          "name": "Form and point joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A010",
+          "sequence": 10,
+          "name": "Clean veneer",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A011",
+          "sequence": 11,
+          "name": "Seal transitions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A012",
+          "sequence": 12,
+          "name": "Inspect adhesion and appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S047300-A014",
+          "sequence": 14,
+          "name": "Protect completed veneer",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D04-S048000",
+      "section_code": "04 80 00",
+      "title": "Masonry Testing and Inspection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D04-S048000-A001",
+          "sequence": 1,
+          "name": "Approve testing agency",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A002",
+          "sequence": 2,
+          "name": "Verify inspector qualifications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A003",
+          "sequence": 3,
+          "name": "Inspect masonry materials",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A004",
+          "sequence": 4,
+          "name": "Inspect reinforcing and anchors",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A005",
+          "sequence": 5,
+          "name": "Inspect flashing and drainage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A006",
+          "sequence": 6,
+          "name": "Inspect cleanouts",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A007",
+          "sequence": 7,
+          "name": "Inspect grout placement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A008",
+          "sequence": 8,
+          "name": "Sample mortar",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A009",
+          "sequence": 9,
+          "name": "Sample grout",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A010",
+          "sequence": 10,
+          "name": "Construct masonry prisms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A011",
+          "sequence": 11,
+          "name": "Test mortar, grout and prisms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A012",
+          "sequence": 12,
+          "name": "Inspect wall alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A013",
+          "sequence": 13,
+          "name": "Report deficiencies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A014",
+          "sequence": 14,
+          "name": "Correct deficient masonry",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A015",
+          "sequence": 15,
+          "name": "Reinspect and retest",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D04-S048000-A016",
+          "sequence": 16,
+          "name": "Submit final inspection reports",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

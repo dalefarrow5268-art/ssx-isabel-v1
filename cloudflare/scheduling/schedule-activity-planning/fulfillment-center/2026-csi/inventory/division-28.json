@@ -1,0 +1,3941 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D28",
+    "division_number": "28",
+    "title": "Electronic Safety and Security",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-28/MASTER_DIVISION_28_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 32,
+    "activities": 411
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D28-S280100",
+      "section_code": "28 01 00",
+      "title": "Operation and Maintenance of Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280100-A001",
+          "sequence": 1,
+          "name": "Review record drawings, test reports, configurations and service history",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A002",
+          "sequence": 2,
+          "name": "Survey existing control panels, servers, field devices and cabling",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A003",
+          "sequence": 3,
+          "name": "Document failed, obsolete and unsupported components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A004",
+          "sequence": 4,
+          "name": "Back up databases, firmware and system configurations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A005",
+          "sequence": 5,
+          "name": "Develop outage, migration and continuity-of-protection plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A006",
+          "sequence": 6,
+          "name": "Coordinate temporary security and fire-watch measures",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A007",
+          "sequence": 7,
+          "name": "Isolate and remove deficient components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A008",
+          "sequence": 8,
+          "name": "Repair, replace or upgrade equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A009",
+          "sequence": 9,
+          "name": "Restore programming and integrations",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A010",
+          "sequence": 10,
+          "name": "Test affected devices, alarm paths and communications",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A011",
+          "sequence": 11,
+          "name": "Update records, labels and asset inventory",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A012",
+          "sequence": 12,
+          "name": "Train owner maintenance personnel",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280100-A013",
+          "sequence": 13,
+          "name": "Complete closeout",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280500",
+      "section_code": "28 05 00",
+      "title": "Common Work Results for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280500-A001",
+          "sequence": 1,
+          "name": "Conduct electronic safety and security coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A002",
+          "sequence": 2,
+          "name": "Confirm system boundaries and responsibility matrix",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A003",
+          "sequence": 3,
+          "name": "Coordinate rooms, racks, pathways, power, grounding and cooling",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A004",
+          "sequence": 4,
+          "name": "Coordinate door hardware, fire protection, communications and automation interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A005",
+          "sequence": 5,
+          "name": "Coordinate network addressing, time synchronization and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A006",
+          "sequence": 6,
+          "name": "Prepare coordinated device-location and riser drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A007",
+          "sequence": 7,
+          "name": "Submit equipment, software and licensing data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A008",
+          "sequence": 8,
+          "name": "Procure long-lead panels, servers and specialty devices",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A009",
+          "sequence": 9,
+          "name": "Plan outages, cutovers and temporary protection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A010",
+          "sequence": 10,
+          "name": "Conduct preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A011",
+          "sequence": 11,
+          "name": "Verify work-area and pathway readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A012",
+          "sequence": 12,
+          "name": "Protect installed systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280500-A013",
+          "sequence": 13,
+          "name": "Coordinate testing, commissioning and owner training",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280505",
+      "section_code": "28 05 05",
+      "title": "Selective Security Systems Demolition",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280505-A001",
+          "sequence": 1,
+          "name": "Survey existing devices, panels, cabling and interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A002",
+          "sequence": 2,
+          "name": "Verify active circuits and systems to remain",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A003",
+          "sequence": 3,
+          "name": "Develop demolition and outage sequence",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A004",
+          "sequence": 4,
+          "name": "Coordinate temporary monitoring and security coverage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A005",
+          "sequence": 5,
+          "name": "Back up configurations and databases",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A006",
+          "sequence": 6,
+          "name": "Label circuits and devices before disconnection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A007",
+          "sequence": 7,
+          "name": "Disconnect and remove abandoned equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A008",
+          "sequence": 8,
+          "name": "Remove abandoned cabling where required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A009",
+          "sequence": 9,
+          "name": "Protect systems and cabling to remain",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A010",
+          "sequence": 10,
+          "name": "Patch penetrations and restore finishes",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A011",
+          "sequence": 11,
+          "name": "Reconnect and test affected systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280505-A012",
+          "sequence": 12,
+          "name": "Update demolition and record drawings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280507",
+      "section_code": "28 05 07",
+      "title": "Power Sources for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280507-A001",
+          "sequence": 1,
+          "name": "Calculate connected and standby loads",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A002",
+          "sequence": 2,
+          "name": "Coordinate normal, emergency and uninterruptible power sources",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A003",
+          "sequence": 3,
+          "name": "Submit power supplies, batteries and UPS equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A004",
+          "sequence": 4,
+          "name": "Install power supplies, chargers and battery cabinets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A005",
+          "sequence": 5,
+          "name": "Install branch connections and disconnecting means",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A006",
+          "sequence": 6,
+          "name": "Connect panels, servers and field devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A007",
+          "sequence": 7,
+          "name": "Configure power-failure and low-battery alarms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A008",
+          "sequence": 8,
+          "name": "Verify battery polarity and capacity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A009",
+          "sequence": 9,
+          "name": "Test transfer, charger and standby operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A010",
+          "sequence": 10,
+          "name": "Perform required battery-duration test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A011",
+          "sequence": 11,
+          "name": "Correct power deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280507-A012",
+          "sequence": 12,
+          "name": "Submit test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280509",
+      "section_code": "28 05 09",
+      "title": "Surge Protection for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280509-A001",
+          "sequence": 1,
+          "name": "Review surge exposure and protection zones",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A002",
+          "sequence": 2,
+          "name": "Submit surge-protection devices",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A003",
+          "sequence": 3,
+          "name": "Coordinate power, signal and exterior-device protection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A004",
+          "sequence": 4,
+          "name": "Install surge protection at equipment and cable entry points",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A005",
+          "sequence": 5,
+          "name": "Bond devices to the grounding system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A006",
+          "sequence": 6,
+          "name": "Verify conductor lengths and routing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A007",
+          "sequence": 7,
+          "name": "Inspect installation and ratings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A008",
+          "sequence": 8,
+          "name": "Test continuity and grounding",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A009",
+          "sequence": 9,
+          "name": "Replace damaged or deficient devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A010",
+          "sequence": 10,
+          "name": "Label protected circuits",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280509-A011",
+          "sequence": 11,
+          "name": "Document installed protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280511",
+      "section_code": "28 05 11",
+      "title": "Cyber Security Requirements for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280511-A001",
+          "sequence": 1,
+          "name": "Confirm owner cybersecurity standards and authority",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A002",
+          "sequence": 2,
+          "name": "Prepare system cybersecurity plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A003",
+          "sequence": 3,
+          "name": "Inventory networked devices, software and firmware",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A004",
+          "sequence": 4,
+          "name": "Coordinate VLANs, firewall rules, ports and certificates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A005",
+          "sequence": 5,
+          "name": "Change default credentials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A006",
+          "sequence": 6,
+          "name": "Configure role-based access and least-privilege permissions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A007",
+          "sequence": 7,
+          "name": "Apply approved firmware and security patches",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A008",
+          "sequence": 8,
+          "name": "Disable unused services and interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A009",
+          "sequence": 9,
+          "name": "Configure encryption, logging, backups and time synchronization",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A010",
+          "sequence": 10,
+          "name": "Perform vulnerability and configuration review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A011",
+          "sequence": 11,
+          "name": "Correct identified findings",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A012",
+          "sequence": 12,
+          "name": "Deliver software bill of materials and credential-transfer records",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280511-A013",
+          "sequence": 13,
+          "name": "Train owner administrators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280513",
+      "section_code": "28 05 13",
+      "title": "Servers, Workstations and Storage for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280513-A001",
+          "sequence": 1,
+          "name": "Submit server, workstation and storage architecture",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A002",
+          "sequence": 2,
+          "name": "Coordinate rack space, power, cooling and network connections",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A003",
+          "sequence": 3,
+          "name": "Procure hardware, operating systems and licenses",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A004",
+          "sequence": 4,
+          "name": "Receive and inventory equipment",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A005",
+          "sequence": 5,
+          "name": "Install servers, workstations and storage appliances",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A006",
+          "sequence": 6,
+          "name": "Connect power, grounding and network links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A007",
+          "sequence": 7,
+          "name": "Load approved firmware and software",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A008",
+          "sequence": 8,
+          "name": "Configure users, storage, retention and backups",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A009",
+          "sequence": 9,
+          "name": "Configure redundancy and failover",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A010",
+          "sequence": 10,
+          "name": "Test performance, capacity and recovery",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A011",
+          "sequence": 11,
+          "name": "Document configurations and asset identifiers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280513-A012",
+          "sequence": 12,
+          "name": "Transfer licenses and backups to owner",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280531",
+      "section_code": "28 05 31",
+      "title": "Communications Equipment for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280531-A001",
+          "sequence": 1,
+          "name": "Submit dedicated security-network equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A002",
+          "sequence": 2,
+          "name": "Coordinate IP addressing, VLANs, routing and firewall requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A003",
+          "sequence": 3,
+          "name": "Install switches, routers, media converters and wireless links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A004",
+          "sequence": 4,
+          "name": "Install antennas and transmission equipment where required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A005",
+          "sequence": 5,
+          "name": "Connect power, grounding and network cabling",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A006",
+          "sequence": 6,
+          "name": "Load approved firmware and configurations",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A007",
+          "sequence": 7,
+          "name": "Configure quality of service, monitoring and alerts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A008",
+          "sequence": 8,
+          "name": "Test bandwidth, latency and device connectivity",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A009",
+          "sequence": 9,
+          "name": "Test redundant paths and communications failure alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A010",
+          "sequence": 10,
+          "name": "Correct coverage and configuration deficiencies",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A011",
+          "sequence": 11,
+          "name": "Label ports and equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280531-A012",
+          "sequence": 12,
+          "name": "Submit network diagrams and configuration backups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280545",
+      "section_code": "28 05 45",
+      "title": "Systems Integration and Unified Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280545-A001",
+          "sequence": 1,
+          "name": "Develop integration matrix and sequence of operations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A002",
+          "sequence": 2,
+          "name": "Define data ownership, commands, priorities and failure modes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A003",
+          "sequence": 3,
+          "name": "Coordinate access control, video, intrusion, fire alarm and notification interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A004",
+          "sequence": 4,
+          "name": "Coordinate communications, automation and enterprise-system interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A005",
+          "sequence": 5,
+          "name": "Conduct interface design review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A006",
+          "sequence": 6,
+          "name": "Configure middleware, APIs and gateways",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A007",
+          "sequence": 7,
+          "name": "Map points, events, identities and alarm priorities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A008",
+          "sequence": 8,
+          "name": "Configure unified operator workflows",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A009",
+          "sequence": 9,
+          "name": "Test each point and command",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A010",
+          "sequence": 10,
+          "name": "Test cross-system event sequences",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A011",
+          "sequence": 11,
+          "name": "Test network loss, subsystem failure and recovery",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A012",
+          "sequence": 12,
+          "name": "Correct integration deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A013",
+          "sequence": 13,
+          "name": "Submit interface records and configuration backups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280545-A014",
+          "sequence": 14,
+          "name": "Train owner operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280548",
+      "section_code": "28 05 48",
+      "title": "Vibration and Seismic Controls for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280548-A001",
+          "sequence": 1,
+          "name": "Identify equipment requiring seismic restraint",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A002",
+          "sequence": 2,
+          "name": "Submit restraint calculations and details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A003",
+          "sequence": 3,
+          "name": "Coordinate anchorage and mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A004",
+          "sequence": 4,
+          "name": "Verify supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A005",
+          "sequence": 5,
+          "name": "Install anchors, braces and restraint hardware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A006",
+          "sequence": 6,
+          "name": "Restrain racks, cabinets, panels and battery equipment",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A007",
+          "sequence": 7,
+          "name": "Maintain cable flexibility at restrained equipment",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A008",
+          "sequence": 8,
+          "name": "Inspect anchor type, embedment and torque",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A009",
+          "sequence": 9,
+          "name": "Correct deficient restraints",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280548-A010",
+          "sequence": 10,
+          "name": "Submit inspection records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280553",
+      "section_code": "28 05 53",
+      "title": "Identification for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280553-A001",
+          "sequence": 1,
+          "name": "Develop device, cable, panel and software naming standard",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A002",
+          "sequence": 2,
+          "name": "Assign unique system and location identifiers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A003",
+          "sequence": 3,
+          "name": "Label panels, cabinets and power sources",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A004",
+          "sequence": 4,
+          "name": "Label cables at both ends",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A005",
+          "sequence": 5,
+          "name": "Label field devices where required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A006",
+          "sequence": 6,
+          "name": "Label network ports and equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A007",
+          "sequence": 7,
+          "name": "Label batteries and replacement dates",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A008",
+          "sequence": 8,
+          "name": "Verify identifiers against schedules and databases",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A009",
+          "sequence": 9,
+          "name": "Correct duplicate or inconsistent labels",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280553-A010",
+          "sequence": 10,
+          "name": "Update record schedules and drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280600",
+      "section_code": "28 06 00",
+      "title": "Schedules for Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280600-A001",
+          "sequence": 1,
+          "name": "Develop device, door, camera, alarm and interface schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A002",
+          "sequence": 2,
+          "name": "Develop panel, power-supply and battery schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A003",
+          "sequence": 3,
+          "name": "Develop software, license and network-address schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A004",
+          "sequence": 4,
+          "name": "Reconcile owner-furnished and contractor-furnished equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A005",
+          "sequence": 5,
+          "name": "Coordinate identifiers across drawings, databases and labels",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A006",
+          "sequence": 6,
+          "name": "Issue approved schedules for installation",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A007",
+          "sequence": 7,
+          "name": "Track substitutions and revisions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A008",
+          "sequence": 8,
+          "name": "Verify installed equipment against schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280600-A009",
+          "sequence": 9,
+          "name": "Update record schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280800",
+      "section_code": "28 08 00",
+      "title": "Commissioning of Electronic Safety and Security",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280800-A001",
+          "sequence": 1,
+          "name": "Prepare electronic safety and security commissioning plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A002",
+          "sequence": 2,
+          "name": "Review approved architecture and sequences",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A003",
+          "sequence": 3,
+          "name": "Verify installation, labeling and configuration",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A004",
+          "sequence": 4,
+          "name": "Verify device-level test completion",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A005",
+          "sequence": 5,
+          "name": "Verify backups and cybersecurity settings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A006",
+          "sequence": 6,
+          "name": "Start and configure systems",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A007",
+          "sequence": 7,
+          "name": "Test normal, emergency and standby operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A008",
+          "sequence": 8,
+          "name": "Test alarms, supervision, failover and recovery",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A009",
+          "sequence": 9,
+          "name": "Test integrated system sequences",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A010",
+          "sequence": 10,
+          "name": "Conduct end-to-end alarm transmission tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A011",
+          "sequence": 11,
+          "name": "Document deficiencies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A012",
+          "sequence": 12,
+          "name": "Correct and retest systems",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A013",
+          "sequence": 13,
+          "name": "Train owner operators and administrators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280800-A014",
+          "sequence": 14,
+          "name": "Submit final commissioning report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S280811",
+      "section_code": "28 08 11",
+      "title": "Testing for Baseline Performance Criteria",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S280811-A001",
+          "sequence": 1,
+          "name": "Define baseline performance criteria",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A002",
+          "sequence": 2,
+          "name": "Prepare test procedures and acceptance forms",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A003",
+          "sequence": 3,
+          "name": "Calibrate test instruments",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A004",
+          "sequence": 4,
+          "name": "Verify prerequisites and representative operating conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A005",
+          "sequence": 5,
+          "name": "Measure communications, response and processing times",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A006",
+          "sequence": 6,
+          "name": "Measure video quality, storage and retrieval performance",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A007",
+          "sequence": 7,
+          "name": "Measure alarm, notification and audio performance",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A008",
+          "sequence": 8,
+          "name": "Test standby duration and recovery",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A009",
+          "sequence": 9,
+          "name": "Record baseline configurations and results",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A010",
+          "sequence": 10,
+          "name": "Correct failed criteria",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A011",
+          "sequence": 11,
+          "name": "Repeat baseline tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S280811-A012",
+          "sequence": 12,
+          "name": "Submit signed baseline report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S281000",
+      "section_code": "28 10 00",
+      "title": "Access Control",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S281000-A001",
+          "sequence": 1,
+          "name": "Confirm controlled openings, access levels and operating modes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A002",
+          "sequence": 2,
+          "name": "Coordinate electrified hardware, door position switches and request-to-exit devices",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A003",
+          "sequence": 3,
+          "name": "Prepare door-by-door device and wiring matrix",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A004",
+          "sequence": 4,
+          "name": "Submit controllers, credentials, readers and software",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A005",
+          "sequence": 5,
+          "name": "Procure long-lead door and control equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A006",
+          "sequence": 6,
+          "name": "Install control panels and power supplies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A007",
+          "sequence": 7,
+          "name": "Install readers, keypads, biometric devices and credential stations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A008",
+          "sequence": 8,
+          "name": "Connect locks, contacts and egress devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A009",
+          "sequence": 9,
+          "name": "Load cardholder database, schedules and access levels",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A010",
+          "sequence": 10,
+          "name": "Configure alarm, lockdown and emergency-release functions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A011",
+          "sequence": 11,
+          "name": "Test every controlled opening",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A012",
+          "sequence": 12,
+          "name": "Test power loss, communications loss and fire-alarm release",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A013",
+          "sequence": 13,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A014",
+          "sequence": 14,
+          "name": "Enroll authorized credentials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A015",
+          "sequence": 15,
+          "name": "Train owner administrators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S281000-A016",
+          "sequence": 16,
+          "name": "Submit door test records and database backup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S282000",
+      "section_code": "28 20 00",
+      "title": "Video Surveillance",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S282000-A001",
+          "sequence": 1,
+          "name": "Conduct camera coverage and field-of-view survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A002",
+          "sequence": 2,
+          "name": "Coordinate privacy, lighting, mounting and network requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A003",
+          "sequence": 3,
+          "name": "Prepare camera schedule and storage calculation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A004",
+          "sequence": 4,
+          "name": "Submit cameras, mounts, recorders, analytics and software",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A005",
+          "sequence": 5,
+          "name": "Approve representative camera-view mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A006",
+          "sequence": 6,
+          "name": "Install cameras, housings and mounting hardware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A007",
+          "sequence": 7,
+          "name": "Install recording, management and operator equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A008",
+          "sequence": 8,
+          "name": "Connect power, network and control cabling",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A009",
+          "sequence": 9,
+          "name": "Aim, focus and mask cameras",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A010",
+          "sequence": 10,
+          "name": "Configure resolution, frame rate, retention and user permissions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A011",
+          "sequence": 11,
+          "name": "Configure recording rules, analytics and alerts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A012",
+          "sequence": 12,
+          "name": "Test live view, recording, search, export and time synchronization",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A013",
+          "sequence": 13,
+          "name": "Test low-light performance, failover and storage capacity",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A014",
+          "sequence": 14,
+          "name": "Correct blind spots and image deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S282000-A016",
+          "sequence": 16,
+          "name": "Submit final camera views, settings and test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S283000",
+      "section_code": "28 30 00",
+      "title": "Security Detection, Alarm, and Monitoring",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S283000-A001",
+          "sequence": 1,
+          "name": "Confirm protected areas, alarm zones and response requirements",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A002",
+          "sequence": 2,
+          "name": "Prepare device, zone and alarm-priority schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A003",
+          "sequence": 3,
+          "name": "Coordinate pathways, power, network and monitoring connections",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A004",
+          "sequence": 4,
+          "name": "Submit sensors, control equipment and software",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A005",
+          "sequence": 5,
+          "name": "Install control panels and communications equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A006",
+          "sequence": 6,
+          "name": "Install detection, alarm and annunciation devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A007",
+          "sequence": 7,
+          "name": "Connect monitoring-center and external-reporting paths",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A008",
+          "sequence": 8,
+          "name": "Program zones, priorities, delays and response instructions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A009",
+          "sequence": 9,
+          "name": "Test every alarm and trouble condition",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A010",
+          "sequence": 10,
+          "name": "Test tamper, communications loss and power-failure supervision",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A011",
+          "sequence": 11,
+          "name": "Verify alarm receipt, display, acknowledgment and restoration",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A012",
+          "sequence": 12,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A013",
+          "sequence": 13,
+          "name": "Train owner operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283000-A014",
+          "sequence": 14,
+          "name": "Submit zone lists and test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S283100",
+      "section_code": "28 31 00",
+      "title": "Intrusion Detection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S283100-A001",
+          "sequence": 1,
+          "name": "Confirm building, area and perimeter protection strategy",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A002",
+          "sequence": 2,
+          "name": "Conduct detection-coverage survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A003",
+          "sequence": 3,
+          "name": "Prepare device and zone layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A004",
+          "sequence": 4,
+          "name": "Submit contacts, motion sensors, glass-break sensors and perimeter detectors",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A005",
+          "sequence": 5,
+          "name": "Install control panels and expanders",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A006",
+          "sequence": 6,
+          "name": "Install door, window, interior and perimeter sensors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A007",
+          "sequence": 7,
+          "name": "Install tamper protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A008",
+          "sequence": 8,
+          "name": "Connect power, network and alarm-reporting paths",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A009",
+          "sequence": 9,
+          "name": "Program zones, arming levels, delays and schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A010",
+          "sequence": 10,
+          "name": "Walk-test and function-test each detector",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A011",
+          "sequence": 11,
+          "name": "Test nuisance-alarm resistance and environmental conditions",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A012",
+          "sequence": 12,
+          "name": "Test alarm transmission and supervision",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A013",
+          "sequence": 13,
+          "name": "Adjust sensitivity and coverage",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A014",
+          "sequence": 14,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283100-A015",
+          "sequence": 15,
+          "name": "Submit final zone map and test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S283300",
+      "section_code": "28 33 00",
+      "title": "Security Monitoring and Control",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S283300-A001",
+          "sequence": 1,
+          "name": "Confirm monitoring-center workflows and alarm priorities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A002",
+          "sequence": 2,
+          "name": "Submit monitoring hardware, software and operator-console layouts",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A003",
+          "sequence": 3,
+          "name": "Coordinate room power, cooling, ergonomics and network services",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A004",
+          "sequence": 4,
+          "name": "Install consoles, displays, controllers and communications equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A005",
+          "sequence": 5,
+          "name": "Configure alarm queues, maps, response instructions and escalation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A006",
+          "sequence": 6,
+          "name": "Configure user roles, audit trails and event retention",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A007",
+          "sequence": 7,
+          "name": "Integrate monitored security subsystems",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A008",
+          "sequence": 8,
+          "name": "Test event receipt, acknowledgment, dispatch and closure",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A009",
+          "sequence": 9,
+          "name": "Test redundant servers, operator stations and communications paths",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A010",
+          "sequence": 10,
+          "name": "Simulate high-priority and multiple-event conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A011",
+          "sequence": 11,
+          "name": "Correct workflow and display deficiencies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A012",
+          "sequence": 12,
+          "name": "Train operators and supervisors",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283300-A013",
+          "sequence": 13,
+          "name": "Submit procedures and configuration backups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S283500",
+      "section_code": "28 35 00",
+      "title": "Tracking Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S283500-A001",
+          "sequence": 1,
+          "name": "Confirm assets, personnel or vehicles to be tracked",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A002",
+          "sequence": 2,
+          "name": "Perform coverage and location-accuracy survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A003",
+          "sequence": 3,
+          "name": "Submit tags, readers, exciters, antennas and software",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A004",
+          "sequence": 4,
+          "name": "Coordinate tag attachment and privacy requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A005",
+          "sequence": 5,
+          "name": "Install readers, antennas and location infrastructure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A006",
+          "sequence": 6,
+          "name": "Enroll tags and associate tracked entities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A007",
+          "sequence": 7,
+          "name": "Configure zones, movement rules and alerts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A008",
+          "sequence": 8,
+          "name": "Test detection, location accuracy and event latency",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A009",
+          "sequence": 9,
+          "name": "Test lost-tag, low-battery and communications alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A010",
+          "sequence": 10,
+          "name": "Correct coverage gaps and configuration issues",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A011",
+          "sequence": 11,
+          "name": "Train owner administrators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283500-A012",
+          "sequence": 12,
+          "name": "Submit tag inventory and coverage records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S283700",
+      "section_code": "28 37 00",
+      "title": "Audio Monitoring",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S283700-A001",
+          "sequence": 1,
+          "name": "Confirm monitored areas and legal or owner restrictions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A002",
+          "sequence": 2,
+          "name": "Perform acoustic and ambient-noise survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A003",
+          "sequence": 3,
+          "name": "Submit microphones, processors, recording and analytics equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A004",
+          "sequence": 4,
+          "name": "Coordinate device locations, privacy notices and network requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A005",
+          "sequence": 5,
+          "name": "Install microphones and audio interfaces",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A006",
+          "sequence": 6,
+          "name": "Configure levels, zones, recording and event triggers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A007",
+          "sequence": 7,
+          "name": "Configure retention and access permissions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A008",
+          "sequence": 8,
+          "name": "Test intelligibility, detection and recording quality",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A009",
+          "sequence": 9,
+          "name": "Test alerts, time synchronization and evidence export",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A010",
+          "sequence": 10,
+          "name": "Correct noise, coverage and configuration deficiencies",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A011",
+          "sequence": 11,
+          "name": "Train authorized owner personnel",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S283700-A012",
+          "sequence": 12,
+          "name": "Submit test records and settings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S284000",
+      "section_code": "28 40 00",
+      "title": "Life Safety",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S284000-A001",
+          "sequence": 1,
+          "name": "Confirm applicable codes, listings and authority requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A002",
+          "sequence": 2,
+          "name": "Develop life-safety system responsibility matrix",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A003",
+          "sequence": 3,
+          "name": "Coordinate fire protection, electrical, communications and egress interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A004",
+          "sequence": 4,
+          "name": "Prepare device, notification and sequence schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A005",
+          "sequence": 5,
+          "name": "Submit equipment, calculations and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A006",
+          "sequence": 6,
+          "name": "Coordinate authority review and permits",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A007",
+          "sequence": 7,
+          "name": "Procure listed control and notification equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A008",
+          "sequence": 8,
+          "name": "Install panels, devices and interfaces",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A009",
+          "sequence": 9,
+          "name": "Program sequences and emergency priorities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A010",
+          "sequence": 10,
+          "name": "Conduct prefunctional testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A011",
+          "sequence": 11,
+          "name": "Conduct integrated life-safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A012",
+          "sequence": 12,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A013",
+          "sequence": 13,
+          "name": "Support authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284000-A015",
+          "sequence": 15,
+          "name": "Submit certificates and records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S284600",
+      "section_code": "28 46 00",
+      "title": "Fire Detection and Alarm",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S284600-A001",
+          "sequence": 1,
+          "name": "Confirm code, occupancy and fire-alarm design criteria",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A002",
+          "sequence": 2,
+          "name": "Prepare battery, voltage-drop and notification calculations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A003",
+          "sequence": 3,
+          "name": "Prepare device layouts, risers and sequence matrix",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A004",
+          "sequence": 4,
+          "name": "Submit listed panels, devices, software and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A005",
+          "sequence": 5,
+          "name": "Obtain fire-alarm permit and authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A006",
+          "sequence": 6,
+          "name": "Coordinate sprinkler, elevator, smoke-control, door and HVAC interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A007",
+          "sequence": 7,
+          "name": "Install control and annunciator panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A008",
+          "sequence": 8,
+          "name": "Install initiating, supervisory and notification appliances",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A009",
+          "sequence": 9,
+          "name": "Connect emergency communications and reporting paths",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A010",
+          "sequence": 10,
+          "name": "Program zones, addresses, messages and sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A011",
+          "sequence": 11,
+          "name": "Inspect circuits, labels and device locations",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A012",
+          "sequence": 12,
+          "name": "Test every initiating, supervisory, trouble and notification device",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A013",
+          "sequence": 13,
+          "name": "Test alarm transmission, standby power and integrated sequences",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A014",
+          "sequence": 14,
+          "name": "Conduct audibility, intelligibility and visible-notification testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A015",
+          "sequence": 15,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A016",
+          "sequence": 16,
+          "name": "Complete authority acceptance test",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A017",
+          "sequence": 17,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284600-A018",
+          "sequence": 18,
+          "name": "Submit record of completion and test documentation",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S284700",
+      "section_code": "28 47 00",
+      "title": "Mass Notification",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S284700-A001",
+          "sequence": 1,
+          "name": "Develop emergency communication and risk-response matrix",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A002",
+          "sequence": 2,
+          "name": "Coordinate fire alarm, public address, visual display and mobile interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A003",
+          "sequence": 3,
+          "name": "Perform acoustic coverage and intelligibility design",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A004",
+          "sequence": 4,
+          "name": "Submit control, notification and software equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A005",
+          "sequence": 5,
+          "name": "Approve emergency message content and priorities",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A006",
+          "sequence": 6,
+          "name": "Install control units, operator stations and notification devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A007",
+          "sequence": 7,
+          "name": "Connect network, radio and external notification gateways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A008",
+          "sequence": 8,
+          "name": "Configure zones, templates, priorities and permissions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A009",
+          "sequence": 9,
+          "name": "Record or load approved messages",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A010",
+          "sequence": 10,
+          "name": "Test local and facility-wide notification",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A011",
+          "sequence": 11,
+          "name": "Measure audibility and intelligibility",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A012",
+          "sequence": 12,
+          "name": "Test visual, text, email and mobile channels where included",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A013",
+          "sequence": 13,
+          "name": "Test failover, backup power and conflicting-event priorities",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A014",
+          "sequence": 14,
+          "name": "Correct coverage and configuration deficiencies",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A015",
+          "sequence": 15,
+          "name": "Train authorized operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A016",
+          "sequence": 16,
+          "name": "Conduct emergency communication acceptance test",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S284700-A017",
+          "sequence": 17,
+          "name": "Submit test records and message library",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285000",
+      "section_code": "28 50 00",
+      "title": "Specialized Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285000-A001",
+          "sequence": 1,
+          "name": "Confirm specialized system purpose and performance criteria",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A002",
+          "sequence": 2,
+          "name": "Define interfaces, responsibilities and acceptance authority",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A003",
+          "sequence": 3,
+          "name": "Prepare system architecture and device schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A004",
+          "sequence": 4,
+          "name": "Submit equipment, software and delegated-design information",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A005",
+          "sequence": 5,
+          "name": "Build and review proof of concept where required",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A006",
+          "sequence": 6,
+          "name": "Procure specialty and custom equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A007",
+          "sequence": 7,
+          "name": "Install central and field equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A008",
+          "sequence": 8,
+          "name": "Configure databases, rules and operator displays",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A009",
+          "sequence": 9,
+          "name": "Integrate related safety and security systems",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A010",
+          "sequence": 10,
+          "name": "Perform factory and field acceptance testing",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A011",
+          "sequence": 11,
+          "name": "Test failure, recovery and emergency modes",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A012",
+          "sequence": 12,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A013",
+          "sequence": 13,
+          "name": "Train owner specialists",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285000-A014",
+          "sequence": 14,
+          "name": "Submit configurations, licenses and closeout records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285100",
+      "section_code": "28 51 00",
+      "title": "Information Management and Presentation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285100-A001",
+          "sequence": 1,
+          "name": "Confirm security information and operator workflow requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A002",
+          "sequence": 2,
+          "name": "Develop data architecture and interface-control document",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A003",
+          "sequence": 3,
+          "name": "Submit management servers, software and display equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A004",
+          "sequence": 4,
+          "name": "Coordinate data retention, privacy and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A005",
+          "sequence": 5,
+          "name": "Install management and presentation hardware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A006",
+          "sequence": 6,
+          "name": "Configure subsystem interfaces and data normalization",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A007",
+          "sequence": 7,
+          "name": "Configure maps, dashboards, reports and alarm displays",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A008",
+          "sequence": 8,
+          "name": "Configure roles, permissions and audit logs",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A009",
+          "sequence": 9,
+          "name": "Test data exchange and event correlation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A010",
+          "sequence": 10,
+          "name": "Test operator commands and evidence retrieval",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A011",
+          "sequence": 11,
+          "name": "Test failover, backup and recovery",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A012",
+          "sequence": 12,
+          "name": "Correct data and presentation deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A013",
+          "sequence": 13,
+          "name": "Train owner administrators and operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285100-A014",
+          "sequence": 14,
+          "name": "Submit data dictionary and configuration backups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285111",
+      "section_code": "28 51 11",
+      "title": "Information Management and Presentation Architecture",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285111-A001",
+          "sequence": 1,
+          "name": "Develop logical and physical system architecture",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A002",
+          "sequence": 2,
+          "name": "Define servers, clients, storage and network zones",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A003",
+          "sequence": 3,
+          "name": "Define availability, redundancy and recovery requirements",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A004",
+          "sequence": 4,
+          "name": "Coordinate subsystem and enterprise interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A005",
+          "sequence": 5,
+          "name": "Prepare architecture diagrams and resource calculations",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A006",
+          "sequence": 6,
+          "name": "Review cybersecurity boundaries and data flows",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A007",
+          "sequence": 7,
+          "name": "Configure approved architecture",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A008",
+          "sequence": 8,
+          "name": "Verify capacity, redundancy and failover",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285111-A009",
+          "sequence": 9,
+          "name": "Update record architecture",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285113",
+      "section_code": "28 51 13",
+      "title": "Data and Information Management",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285113-A001",
+          "sequence": 1,
+          "name": "Define data sources, ownership and retention",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A002",
+          "sequence": 2,
+          "name": "Develop event, identity and device data model",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A003",
+          "sequence": 3,
+          "name": "Configure data ingestion and normalization",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A004",
+          "sequence": 4,
+          "name": "Configure time synchronization and record correlation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A005",
+          "sequence": 5,
+          "name": "Configure retention, archive and purge rules",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A006",
+          "sequence": 6,
+          "name": "Configure access, export and audit controls",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A007",
+          "sequence": 7,
+          "name": "Migrate approved existing data",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A008",
+          "sequence": 8,
+          "name": "Validate data completeness and accuracy",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A009",
+          "sequence": 9,
+          "name": "Test backup, restore and legal export",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285113-A010",
+          "sequence": 10,
+          "name": "Deliver data dictionary and migration report",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285115",
+      "section_code": "28 51 15",
+      "title": "Information Interfaces to Connected Subsystems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285115-A001",
+          "sequence": 1,
+          "name": "Develop interface register and point list",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A002",
+          "sequence": 2,
+          "name": "Confirm protocols, APIs, data formats and responsibilities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A003",
+          "sequence": 3,
+          "name": "Coordinate network and cybersecurity approvals",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A004",
+          "sequence": 4,
+          "name": "Configure subsystem connectors and gateways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A005",
+          "sequence": 5,
+          "name": "Map events, commands and status points",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A006",
+          "sequence": 6,
+          "name": "Test normal data exchange",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A007",
+          "sequence": 7,
+          "name": "Test commands, acknowledgments and error handling",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A008",
+          "sequence": 8,
+          "name": "Test connection loss and recovery",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A009",
+          "sequence": 9,
+          "name": "Correct mapping and timing deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285115-A010",
+          "sequence": 10,
+          "name": "Submit signed interface test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285117",
+      "section_code": "28 51 17",
+      "title": "Data Presentation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285117-A001",
+          "sequence": 1,
+          "name": "Confirm operator roles and information priorities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A002",
+          "sequence": 2,
+          "name": "Develop screen, map, dashboard and report layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A003",
+          "sequence": 3,
+          "name": "Review user-interface mockups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A004",
+          "sequence": 4,
+          "name": "Load plans, icons and response instructions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A005",
+          "sequence": 5,
+          "name": "Configure alarm colors, priorities and workflows",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A006",
+          "sequence": 6,
+          "name": "Configure dashboards and scheduled reports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A007",
+          "sequence": 7,
+          "name": "Test information accuracy and navigation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A008",
+          "sequence": 8,
+          "name": "Test accessibility and operator permissions",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A009",
+          "sequence": 9,
+          "name": "Conduct operator acceptance review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A010",
+          "sequence": 10,
+          "name": "Correct presentation deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285117-A011",
+          "sequence": 11,
+          "name": "Submit approved screen and report library",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285119",
+      "section_code": "28 51 19",
+      "title": "Control Room and Monitoring Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285119-A001",
+          "sequence": 1,
+          "name": "Prepare control-room layouts and sightline studies",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A002",
+          "sequence": 2,
+          "name": "Coordinate consoles, displays, power, cooling and lighting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A003",
+          "sequence": 3,
+          "name": "Submit operator furniture and monitoring equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A004",
+          "sequence": 4,
+          "name": "Install consoles, monitor walls and peripheral equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A005",
+          "sequence": 5,
+          "name": "Install cable management and equipment supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A006",
+          "sequence": 6,
+          "name": "Connect power, network and control interfaces",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A007",
+          "sequence": 7,
+          "name": "Configure display sources and operator controls",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A008",
+          "sequence": 8,
+          "name": "Verify ergonomics, viewing angles and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A009",
+          "sequence": 9,
+          "name": "Test workstation and display failover",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A010",
+          "sequence": 10,
+          "name": "Complete operator acceptance review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A011",
+          "sequence": 11,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285119-A012",
+          "sequence": 12,
+          "name": "Submit equipment inventory",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D28-S285200",
+      "section_code": "28 52 00",
+      "title": "Detention Security Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D28-S285200-A001",
+          "sequence": 1,
+          "name": "Confirm detention operations, security levels and control philosophy",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A002",
+          "sequence": 2,
+          "name": "Prepare door, interlock, device and control-point schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A003",
+          "sequence": 3,
+          "name": "Coordinate detention doors, hardware, communications and life-safety interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A004",
+          "sequence": 4,
+          "name": "Submit control panels, consoles, devices, software and sequences",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A005",
+          "sequence": 5,
+          "name": "Approve representative cell or controlled-opening mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A006",
+          "sequence": 6,
+          "name": "Procure detention-grade equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A007",
+          "sequence": 7,
+          "name": "Install control panels, consoles and field devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A008",
+          "sequence": 8,
+          "name": "Connect locks, door position, intercom and alarm devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A009",
+          "sequence": 9,
+          "name": "Configure interlocks, priorities and emergency modes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A010",
+          "sequence": 10,
+          "name": "Test each controlled opening and local device",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A011",
+          "sequence": 11,
+          "name": "Test group release, lockdown, fire release and power-failure modes",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A012",
+          "sequence": 12,
+          "name": "Test master control and redundant operations",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A013",
+          "sequence": 13,
+          "name": "Correct and retest deficiencies",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A014",
+          "sequence": 14,
+          "name": "Conduct operational scenario testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A015",
+          "sequence": 15,
+          "name": "Train correctional staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D28-S285200-A016",
+          "sequence": 16,
+          "name": "Submit signed security acceptance records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

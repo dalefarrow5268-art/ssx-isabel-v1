@@ -1,0 +1,2694 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D25",
+    "division_number": "25",
+    "title": "Integrated Automation",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-25/MASTER_DIVISION_25_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 21,
+    "activities": 281
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D25-S250100",
+      "section_code": "25 01 00",
+      "title": "Operation and Maintenance of Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250100-A001",
+          "sequence": 1,
+          "name": "Review automation architecture, backups and service records",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A002",
+          "sequence": 2,
+          "name": "Survey servers, networks, controllers and field devices",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A003",
+          "sequence": 3,
+          "name": "Document offline devices, failed points and obsolete components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A004",
+          "sequence": 4,
+          "name": "Back up databases, programs and graphics",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A005",
+          "sequence": 5,
+          "name": "Prepare shutdown and migration plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A006",
+          "sequence": 6,
+          "name": "Repair or replace deficient components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A007",
+          "sequence": 7,
+          "name": "Upgrade software and firmware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A008",
+          "sequence": 8,
+          "name": "Restore databases and configurations",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A009",
+          "sequence": 9,
+          "name": "Verify communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A010",
+          "sequence": 10,
+          "name": "Test affected sequences and alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A011",
+          "sequence": 11,
+          "name": "Update record documentation",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250100-A012",
+          "sequence": 12,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250190",
+      "section_code": "25 01 90",
+      "title": "Diagnostic Systems for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250190-A001",
+          "sequence": 1,
+          "name": "Submit diagnostic-platform architecture",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A002",
+          "sequence": 2,
+          "name": "Define monitored systems, data points and rules",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A003",
+          "sequence": 3,
+          "name": "Coordinate data access and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A004",
+          "sequence": 4,
+          "name": "Install diagnostic server or cloud connector",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A005",
+          "sequence": 5,
+          "name": "Configure data ingestion",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A006",
+          "sequence": 6,
+          "name": "Map and normalize points",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A007",
+          "sequence": 7,
+          "name": "Configure fault rules and analytics",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A008",
+          "sequence": 8,
+          "name": "Establish baselines",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A009",
+          "sequence": 9,
+          "name": "Validate detected faults",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A010",
+          "sequence": 10,
+          "name": "Tune thresholds and priorities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A011",
+          "sequence": 11,
+          "name": "Configure dashboards and notifications",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A012",
+          "sequence": 12,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250190-A013",
+          "sequence": 13,
+          "name": "Document ongoing diagnostic procedures",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250500",
+      "section_code": "25 05 00",
+      "title": "Common Work Results for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250500-A001",
+          "sequence": 1,
+          "name": "Conduct integrated-automation coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A002",
+          "sequence": 2,
+          "name": "Define systems, responsibilities and integration boundaries",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A003",
+          "sequence": 3,
+          "name": "Prepare network architecture and integration matrix",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A004",
+          "sequence": 4,
+          "name": "Coordinate power, pathways, IP addressing and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A005",
+          "sequence": 5,
+          "name": "Submit equipment, software and licensing data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A006",
+          "sequence": 6,
+          "name": "Coordinate point lists and naming standards",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A007",
+          "sequence": 7,
+          "name": "Develop testing and commissioning plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A008",
+          "sequence": 8,
+          "name": "Procure long-lead network and control equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A009",
+          "sequence": 9,
+          "name": "Complete preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A010",
+          "sequence": 10,
+          "name": "Coordinate trade startups and interface readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250500-A011",
+          "sequence": 11,
+          "name": "Maintain backups and change records",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250513",
+      "section_code": "25 05 13",
+      "title": "Conductors and Cables for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250513-A001",
+          "sequence": 1,
+          "name": "Submit cable types and installation methods",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A002",
+          "sequence": 2,
+          "name": "Coordinate pathways and segregation requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A003",
+          "sequence": 3,
+          "name": "Verify pathway readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A004",
+          "sequence": 4,
+          "name": "Pull copper and fiber cables",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A005",
+          "sequence": 5,
+          "name": "Maintain bend radius and separation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A006",
+          "sequence": 6,
+          "name": "Terminate cables",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A007",
+          "sequence": 7,
+          "name": "Label both ends",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A008",
+          "sequence": 8,
+          "name": "Test continuity and insulation resistance",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A009",
+          "sequence": 9,
+          "name": "Certify data and fiber links",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A010",
+          "sequence": 10,
+          "name": "Correct failed links",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250513-A011",
+          "sequence": 11,
+          "name": "Submit cable test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250526",
+      "section_code": "25 05 26",
+      "title": "Grounding and Bonding for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250526-A001",
+          "sequence": 1,
+          "name": "Submit grounding and bonding details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A002",
+          "sequence": 2,
+          "name": "Coordinate grounding points",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A003",
+          "sequence": 3,
+          "name": "Install bonding conductors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A004",
+          "sequence": 4,
+          "name": "Bond panels, racks, pathways and shields",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A005",
+          "sequence": 5,
+          "name": "Verify isolated and common grounds as required",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A006",
+          "sequence": 6,
+          "name": "Measure grounding continuity",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A007",
+          "sequence": 7,
+          "name": "Correct improper shield terminations",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A008",
+          "sequence": 8,
+          "name": "Label grounding connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250526-A009",
+          "sequence": 9,
+          "name": "Submit test results",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250528",
+      "section_code": "25 05 28",
+      "title": "Pathways for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250528-A001",
+          "sequence": 1,
+          "name": "Prepare pathway layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A002",
+          "sequence": 2,
+          "name": "Coordinate routes with structure and other trades",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A003",
+          "sequence": 3,
+          "name": "Install sleeves and backboxes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A004",
+          "sequence": 4,
+          "name": "Install conduits, trays or raceways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A005",
+          "sequence": 5,
+          "name": "Install supports and firestopping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A006",
+          "sequence": 6,
+          "name": "Maintain required separation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A007",
+          "sequence": 7,
+          "name": "Provide pull strings and bushings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A008",
+          "sequence": 8,
+          "name": "Inspect fill and bend radius",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A009",
+          "sequence": 9,
+          "name": "Label pathways",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A010",
+          "sequence": 10,
+          "name": "Document concealed routes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A011",
+          "sequence": 11,
+          "name": "Prepare pathway layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A012",
+          "sequence": 12,
+          "name": "Coordinate routes with structure and other trades",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A013",
+          "sequence": 13,
+          "name": "Install sleeves and backboxes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A014",
+          "sequence": 14,
+          "name": "Install conduits, trays or raceways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A015",
+          "sequence": 15,
+          "name": "Install supports and firestopping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A016",
+          "sequence": 16,
+          "name": "Maintain required separation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A017",
+          "sequence": 17,
+          "name": "Provide pull strings and bushings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A018",
+          "sequence": 18,
+          "name": "Inspect fill and bend radius",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A019",
+          "sequence": 19,
+          "name": "Label pathways",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A020",
+          "sequence": 20,
+          "name": "Document concealed routes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A021",
+          "sequence": 21,
+          "name": "Prepare pathway layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A022",
+          "sequence": 22,
+          "name": "Coordinate routes with structure and other trades",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A023",
+          "sequence": 23,
+          "name": "Install sleeves and backboxes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A024",
+          "sequence": 24,
+          "name": "Install conduits, trays or raceways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A025",
+          "sequence": 25,
+          "name": "Install supports and firestopping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A026",
+          "sequence": 26,
+          "name": "Maintain required separation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A027",
+          "sequence": 27,
+          "name": "Provide pull strings and bushings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A028",
+          "sequence": 28,
+          "name": "Inspect fill and bend radius",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A029",
+          "sequence": 29,
+          "name": "Label pathways",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A030",
+          "sequence": 30,
+          "name": "Document concealed routes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A031",
+          "sequence": 31,
+          "name": "Prepare pathway layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A032",
+          "sequence": 32,
+          "name": "Coordinate routes with structure and other trades",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A033",
+          "sequence": 33,
+          "name": "Install sleeves and backboxes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A034",
+          "sequence": 34,
+          "name": "Install conduits, trays or raceways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A035",
+          "sequence": 35,
+          "name": "Install supports and firestopping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A036",
+          "sequence": 36,
+          "name": "Maintain required separation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A037",
+          "sequence": 37,
+          "name": "Provide pull strings and bushings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A038",
+          "sequence": 38,
+          "name": "Inspect fill and bend radius",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A039",
+          "sequence": 39,
+          "name": "Label pathways",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250528-A040",
+          "sequence": 40,
+          "name": "Document concealed routes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250553",
+      "section_code": "25 05 53",
+      "title": "Identification for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250553-A001",
+          "sequence": 1,
+          "name": "Prepare device and cable identification standard",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A002",
+          "sequence": 2,
+          "name": "Assign equipment and point identifiers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A003",
+          "sequence": 3,
+          "name": "Label panels and controllers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A004",
+          "sequence": 4,
+          "name": "Label network devices and gateways",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A005",
+          "sequence": 5,
+          "name": "Label cables and ports",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A006",
+          "sequence": 6,
+          "name": "Install warning and cybersecurity labels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A007",
+          "sequence": 7,
+          "name": "Verify labels against drawings and database",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A008",
+          "sequence": 8,
+          "name": "Correct inconsistent identification",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250553-A009",
+          "sequence": 9,
+          "name": "Update record schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250600",
+      "section_code": "25 06 00",
+      "title": "Schedules for Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250600-A001",
+          "sequence": 1,
+          "name": "Develop controller and device schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A002",
+          "sequence": 2,
+          "name": "Develop network equipment schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A003",
+          "sequence": 3,
+          "name": "Develop point and alarm schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A004",
+          "sequence": 4,
+          "name": "Define software, license and warranty schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A005",
+          "sequence": 5,
+          "name": "Coordinate owner naming conventions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A006",
+          "sequence": 6,
+          "name": "Reconcile trade point lists",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A007",
+          "sequence": 7,
+          "name": "Issue approved schedules",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A008",
+          "sequence": 8,
+          "name": "Track substitutions and revisions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A009",
+          "sequence": 9,
+          "name": "Verify installed devices against schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250600-A010",
+          "sequence": 10,
+          "name": "Update record schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S250800",
+      "section_code": "25 08 00",
+      "title": "Commissioning of Integrated Automation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S250800-A001",
+          "sequence": 1,
+          "name": "Prepare integrated-automation commissioning plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A002",
+          "sequence": 2,
+          "name": "Review architecture, sequences and point lists",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A003",
+          "sequence": 3,
+          "name": "Verify network and controller installation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A004",
+          "sequence": 4,
+          "name": "Verify software backups and version control",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A005",
+          "sequence": 5,
+          "name": "Complete point-to-point checks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A006",
+          "sequence": 6,
+          "name": "Test alarms and trends",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A007",
+          "sequence": 7,
+          "name": "Test integrated sequences across systems",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A008",
+          "sequence": 8,
+          "name": "Test failover and loss-of-communication behavior",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A009",
+          "sequence": 9,
+          "name": "Test user roles and cybersecurity controls",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A010",
+          "sequence": 10,
+          "name": "Document deficiencies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A011",
+          "sequence": 11,
+          "name": "Correct and retest interfaces",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A012",
+          "sequence": 12,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S250800-A013",
+          "sequence": 13,
+          "name": "Submit final commissioning report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251000",
+      "section_code": "25 10 00",
+      "title": "Integrated Automation Network Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251000-A001",
+          "sequence": 1,
+          "name": "Submit network topology and equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A002",
+          "sequence": 2,
+          "name": "Coordinate IP addresses, VLANs, time synchronization and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A003",
+          "sequence": 3,
+          "name": "Install cabinets, switches and routers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A004",
+          "sequence": 4,
+          "name": "Install network power supplies and UPS connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A005",
+          "sequence": 5,
+          "name": "Connect copper and fiber links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A006",
+          "sequence": 6,
+          "name": "Configure network devices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A007",
+          "sequence": 7,
+          "name": "Configure time and name services",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A008",
+          "sequence": 8,
+          "name": "Test bandwidth, latency and redundancy",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A009",
+          "sequence": 9,
+          "name": "Verify device communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A010",
+          "sequence": 10,
+          "name": "Test failover",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A011",
+          "sequence": 11,
+          "name": "Document configurations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251000-A012",
+          "sequence": 12,
+          "name": "Train owner network staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251100",
+      "section_code": "25 11 00",
+      "title": "Integrated Automation Network Devices",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251100-A001",
+          "sequence": 1,
+          "name": "Submit network topology and equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A002",
+          "sequence": 2,
+          "name": "Coordinate IP addresses, VLANs, time synchronization and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A003",
+          "sequence": 3,
+          "name": "Install cabinets, switches and routers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A004",
+          "sequence": 4,
+          "name": "Install network power supplies and UPS connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A005",
+          "sequence": 5,
+          "name": "Connect copper and fiber links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A006",
+          "sequence": 6,
+          "name": "Configure network devices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A007",
+          "sequence": 7,
+          "name": "Configure time and name services",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A008",
+          "sequence": 8,
+          "name": "Test bandwidth, latency and redundancy",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A009",
+          "sequence": 9,
+          "name": "Verify device communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A010",
+          "sequence": 10,
+          "name": "Test failover",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A011",
+          "sequence": 11,
+          "name": "Document configurations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251100-A012",
+          "sequence": 12,
+          "name": "Train owner network staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251200",
+      "section_code": "25 12 00",
+      "title": "Integrated Automation Network Gateways",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251200-A001",
+          "sequence": 1,
+          "name": "Prepare protocol and integration matrix",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A002",
+          "sequence": 2,
+          "name": "Submit gateway capacities and supported protocols",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A003",
+          "sequence": 3,
+          "name": "Coordinate points and data ownership",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A004",
+          "sequence": 4,
+          "name": "Install gateways",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A005",
+          "sequence": 5,
+          "name": "Connect source and destination networks",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A006",
+          "sequence": 6,
+          "name": "Configure protocol drivers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A007",
+          "sequence": 7,
+          "name": "Map and scale points",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A008",
+          "sequence": 8,
+          "name": "Configure alarms and commands",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A009",
+          "sequence": 9,
+          "name": "Verify read and write permissions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A010",
+          "sequence": 10,
+          "name": "Test loss-of-communication behavior",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A011",
+          "sequence": 11,
+          "name": "Validate time stamps and units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A012",
+          "sequence": 12,
+          "name": "Correct mapping errors",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251200-A013",
+          "sequence": 13,
+          "name": "Submit integration test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251300",
+      "section_code": "25 13 00",
+      "title": "Integrated Automation Control and Monitoring Network",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251300-A001",
+          "sequence": 1,
+          "name": "Submit network topology and equipment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A002",
+          "sequence": 2,
+          "name": "Coordinate IP addresses, VLANs, time synchronization and cybersecurity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A003",
+          "sequence": 3,
+          "name": "Install cabinets, switches and routers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A004",
+          "sequence": 4,
+          "name": "Install network power supplies and UPS connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A005",
+          "sequence": 5,
+          "name": "Connect copper and fiber links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A006",
+          "sequence": 6,
+          "name": "Configure network devices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A007",
+          "sequence": 7,
+          "name": "Configure time and name services",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A008",
+          "sequence": 8,
+          "name": "Test bandwidth, latency and redundancy",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A009",
+          "sequence": 9,
+          "name": "Verify device communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A010",
+          "sequence": 10,
+          "name": "Test failover",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A011",
+          "sequence": 11,
+          "name": "Document configurations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251300-A012",
+          "sequence": 12,
+          "name": "Train owner network staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251313",
+      "section_code": "25 13 13",
+      "title": "Integrated Automation Control and Monitoring Network Supervisory Control",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251313-A001",
+          "sequence": 1,
+          "name": "Submit supervisory-control architecture",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A002",
+          "sequence": 2,
+          "name": "Install servers and operator workstations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A003",
+          "sequence": 3,
+          "name": "Install database and application services",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A004",
+          "sequence": 4,
+          "name": "Configure system hierarchy",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A005",
+          "sequence": 5,
+          "name": "Configure global schedules and setpoints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A006",
+          "sequence": 6,
+          "name": "Configure alarm routing and escalation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A007",
+          "sequence": 7,
+          "name": "Configure trends and reports",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A008",
+          "sequence": 8,
+          "name": "Configure user roles",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A009",
+          "sequence": 9,
+          "name": "Connect enterprise interfaces",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A010",
+          "sequence": 10,
+          "name": "Test redundancy and backups",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A011",
+          "sequence": 11,
+          "name": "Verify supervisory commands",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A012",
+          "sequence": 12,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251313-A013",
+          "sequence": 13,
+          "name": "Submit system images and licenses",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251316",
+      "section_code": "25 13 16",
+      "title": "Integrated Automation Control and Monitoring Network Integration Panels",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251316-A001",
+          "sequence": 1,
+          "name": "Submit integration-panel layouts and wiring diagrams",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A002",
+          "sequence": 2,
+          "name": "Coordinate panel locations, power and environmental requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A003",
+          "sequence": 3,
+          "name": "Fabricate panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A004",
+          "sequence": 4,
+          "name": "Perform shop inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A005",
+          "sequence": 5,
+          "name": "Install and anchor panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A006",
+          "sequence": 6,
+          "name": "Install power supplies and grounding",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A007",
+          "sequence": 7,
+          "name": "Terminate network and control wiring",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A008",
+          "sequence": 8,
+          "name": "Label terminals and components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A009",
+          "sequence": 9,
+          "name": "Energize panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A010",
+          "sequence": 10,
+          "name": "Verify power quality and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A011",
+          "sequence": 11,
+          "name": "Perform point-to-point testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A012",
+          "sequence": 12,
+          "name": "Correct wiring deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251316-A013",
+          "sequence": 13,
+          "name": "Submit panel records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251319",
+      "section_code": "25 13 19",
+      "title": "Integrated Automation Control and Monitoring Network Interoperability",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251319-A001",
+          "sequence": 1,
+          "name": "Define interface responsibilities and acceptance criteria",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A002",
+          "sequence": 2,
+          "name": "Finalize shared point lists",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A003",
+          "sequence": 3,
+          "name": "Confirm protocols and data models",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A004",
+          "sequence": 4,
+          "name": "Configure system interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A005",
+          "sequence": 5,
+          "name": "Normalize names, units and states",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A006",
+          "sequence": 6,
+          "name": "Map alarms, commands and schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A007",
+          "sequence": 7,
+          "name": "Test each integrated point",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A008",
+          "sequence": 8,
+          "name": "Test commands and feedback",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A009",
+          "sequence": 9,
+          "name": "Test alarm routing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A010",
+          "sequence": 10,
+          "name": "Test time synchronization",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A011",
+          "sequence": 11,
+          "name": "Test failure and recovery behavior",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A012",
+          "sequence": 12,
+          "name": "Resolve interface conflicts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A013",
+          "sequence": 13,
+          "name": "Obtain stakeholder acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251319-A014",
+          "sequence": 14,
+          "name": "Submit interoperability report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251400",
+      "section_code": "25 14 00",
+      "title": "Integrated Automation Local Control Units",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251400-A001",
+          "sequence": 1,
+          "name": "Submit controller capacities and application data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A002",
+          "sequence": 2,
+          "name": "Coordinate panel and controller locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A003",
+          "sequence": 3,
+          "name": "Install controllers and I/O modules",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A004",
+          "sequence": 4,
+          "name": "Connect network, power and field wiring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A005",
+          "sequence": 5,
+          "name": "Load controller programs",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A006",
+          "sequence": 6,
+          "name": "Address and configure devices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A007",
+          "sequence": 7,
+          "name": "Perform point-to-point checkout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A008",
+          "sequence": 8,
+          "name": "Test standalone operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A009",
+          "sequence": 9,
+          "name": "Test networked operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A010",
+          "sequence": 10,
+          "name": "Tune control loops",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A011",
+          "sequence": 11,
+          "name": "Verify safeties and fallback modes",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251400-A012",
+          "sequence": 12,
+          "name": "Document programs and settings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S251500",
+      "section_code": "25 15 00",
+      "title": "Integrated Automation Software",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S251500-A001",
+          "sequence": 1,
+          "name": "Submit software architecture, licenses and cybersecurity plan",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A002",
+          "sequence": 2,
+          "name": "Install operating systems and applications",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A003",
+          "sequence": 3,
+          "name": "Configure databases",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A004",
+          "sequence": 4,
+          "name": "Develop graphics and dashboards",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A005",
+          "sequence": 5,
+          "name": "Configure alarms, trends and reports",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A006",
+          "sequence": 6,
+          "name": "Configure schedules and calendars",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A007",
+          "sequence": 7,
+          "name": "Configure users and permissions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A008",
+          "sequence": 8,
+          "name": "Import equipment and point data",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A009",
+          "sequence": 9,
+          "name": "Test backups and restoration",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A010",
+          "sequence": 10,
+          "name": "Test software updates and rollback",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A011",
+          "sequence": 11,
+          "name": "Correct display and calculation errors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A012",
+          "sequence": 12,
+          "name": "Deliver source files and licenses",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S251500-A013",
+          "sequence": 13,
+          "name": "Train owner administrators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S253000",
+      "section_code": "25 30 00",
+      "title": "Integrated Automation Instrumentation and Terminal Devices",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S253000-A001",
+          "sequence": 1,
+          "name": "Submit sensors, meters, actuators and terminal devices",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A002",
+          "sequence": 2,
+          "name": "Verify ranges, accuracy and locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A003",
+          "sequence": 3,
+          "name": "Install sensors and transmitters",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A004",
+          "sequence": 4,
+          "name": "Install meters and actuators",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A005",
+          "sequence": 5,
+          "name": "Install room and operator devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A006",
+          "sequence": 6,
+          "name": "Connect power, network and signal wiring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A007",
+          "sequence": 7,
+          "name": "Calibrate instruments",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A008",
+          "sequence": 8,
+          "name": "Verify actuator stroke and fail position",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A009",
+          "sequence": 9,
+          "name": "Perform point-to-point checks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A010",
+          "sequence": 10,
+          "name": "Compare readings with reference instruments",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A011",
+          "sequence": 11,
+          "name": "Correct calibration and installation deficiencies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S253000-A012",
+          "sequence": 12,
+          "name": "Submit calibration records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S255000",
+      "section_code": "25 50 00",
+      "title": "Integrated Automation Facility Controls",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S255000-A001",
+          "sequence": 1,
+          "name": "Develop facility integration strategy",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A002",
+          "sequence": 2,
+          "name": "Coordinate HVAC, electrical, lighting, plumbing and specialty systems",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A003",
+          "sequence": 3,
+          "name": "Finalize enterprise point database",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A004",
+          "sequence": 4,
+          "name": "Configure cross-system commands and schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A005",
+          "sequence": 5,
+          "name": "Configure energy and demand-management functions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A006",
+          "sequence": 6,
+          "name": "Configure occupancy and environmental coordination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A007",
+          "sequence": 7,
+          "name": "Configure alarms and dashboards",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A008",
+          "sequence": 8,
+          "name": "Test normal integrated operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A009",
+          "sequence": 9,
+          "name": "Test emergency and degraded modes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A010",
+          "sequence": 10,
+          "name": "Test demand-response or load-shed functions",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A011",
+          "sequence": 11,
+          "name": "Trend performance",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A012",
+          "sequence": 12,
+          "name": "Tune facility controls",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A013",
+          "sequence": 13,
+          "name": "Train facility staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S255000-A014",
+          "sequence": 14,
+          "name": "Complete acceptance testing",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D25-S259000",
+      "section_code": "25 90 00",
+      "title": "Integrated Automation Control Sequences",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D25-S259000-A001",
+          "sequence": 1,
+          "name": "Develop detailed control narratives",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A002",
+          "sequence": 2,
+          "name": "Review sequences with designers, contractors and owner",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A003",
+          "sequence": 3,
+          "name": "Translate narratives into programmable logic",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A004",
+          "sequence": 4,
+          "name": "Define setpoints, alarms and timing",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A005",
+          "sequence": 5,
+          "name": "Program normal operating sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A006",
+          "sequence": 6,
+          "name": "Program startup and shutdown sequences",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A007",
+          "sequence": 7,
+          "name": "Program emergency and fallback modes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A008",
+          "sequence": 8,
+          "name": "Simulate sequences before field testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A009",
+          "sequence": 9,
+          "name": "Test sequences with live equipment",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A010",
+          "sequence": 10,
+          "name": "Trend response and stability",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A011",
+          "sequence": 11,
+          "name": "Tune loops and timing",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A012",
+          "sequence": 12,
+          "name": "Document deviations and approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D25-S259000-A013",
+          "sequence": 13,
+          "name": "Update final sequences and code backups",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

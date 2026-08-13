@@ -1,0 +1,4475 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D21",
+    "division_number": "21",
+    "title": "Fire Suppression",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-21/MASTER_DIVISION_21_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 35,
+    "activities": 468
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D21-S210100",
+      "section_code": "21 01 00",
+      "title": "Operation and Maintenance of Fire Suppression",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210100-A001",
+          "sequence": 1,
+          "name": "Review existing fire-suppression drawings and inspection records",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A002",
+          "sequence": 2,
+          "name": "Survey piping, valves, sprinklers and equipment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A003",
+          "sequence": 3,
+          "name": "Identify impairments, corrosion and code deficiencies",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A004",
+          "sequence": 4,
+          "name": "Submit impairment and shutdown plan",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A005",
+          "sequence": 5,
+          "name": "Notify owner and fire authority",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A006",
+          "sequence": 6,
+          "name": "Provide temporary fire protection",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A007",
+          "sequence": 7,
+          "name": "Drain and isolate affected systems",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A008",
+          "sequence": 8,
+          "name": "Repair or replace deficient components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A009",
+          "sequence": 9,
+          "name": "Restore system",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A010",
+          "sequence": 10,
+          "name": "Perform required testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A011",
+          "sequence": 11,
+          "name": "Coordinate authority reinspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210100-A012",
+          "sequence": 12,
+          "name": "Update record drawings and inspection records",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210500",
+      "section_code": "21 05 00",
+      "title": "Common Work Results for Fire Suppression",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210500-A001",
+          "sequence": 1,
+          "name": "Conduct fire-suppression coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A002",
+          "sequence": 2,
+          "name": "Prepare hydraulic design criteria",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A003",
+          "sequence": 3,
+          "name": "Submit contractor qualifications and product data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A004",
+          "sequence": 4,
+          "name": "Prepare coordinated shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A005",
+          "sequence": 5,
+          "name": "Coordinate structure, ceilings, MEP systems and access",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A006",
+          "sequence": 6,
+          "name": "Coordinate fire-alarm and supervisory interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A007",
+          "sequence": 7,
+          "name": "Obtain fire-authority approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A008",
+          "sequence": 8,
+          "name": "Procure long-lead equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A009",
+          "sequence": 9,
+          "name": "Plan shutdowns and impairment procedures",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A010",
+          "sequence": 10,
+          "name": "Complete preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210500-A011",
+          "sequence": 11,
+          "name": "Coordinate testing, inspection and turnover requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210505",
+      "section_code": "21 05 05",
+      "title": "Selective Demolition for Fire Suppression",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210505-A001",
+          "sequence": 1,
+          "name": "Survey existing fire-suppression systems",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A002",
+          "sequence": 2,
+          "name": "Verify active and abandoned components",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A003",
+          "sequence": 3,
+          "name": "Prepare impairment and demolition plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A004",
+          "sequence": 4,
+          "name": "Coordinate shutdown approval",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A005",
+          "sequence": 5,
+          "name": "Provide fire watch or temporary protection",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A006",
+          "sequence": 6,
+          "name": "Drain and isolate systems",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A007",
+          "sequence": 7,
+          "name": "Remove designated piping and equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A008",
+          "sequence": 8,
+          "name": "Cap active services",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A009",
+          "sequence": 9,
+          "name": "Dispose of materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A010",
+          "sequence": 10,
+          "name": "Restore damaged construction",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A011",
+          "sequence": 11,
+          "name": "Test remaining active systems",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210505-A012",
+          "sequence": 12,
+          "name": "Update record drawings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210516",
+      "section_code": "21 05 16",
+      "title": "Expansion Fittings and Loops for Fire-Suppression Piping",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210516-A001",
+          "sequence": 1,
+          "name": "Submit piping, fittings and valve data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A002",
+          "sequence": 2,
+          "name": "Prepare coordinated piping layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A003",
+          "sequence": 3,
+          "name": "Verify sleeves, openings and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A004",
+          "sequence": 4,
+          "name": "Procure piping materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A005",
+          "sequence": 5,
+          "name": "Install sleeves and seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A006",
+          "sequence": 6,
+          "name": "Install mains and branch piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A007",
+          "sequence": 7,
+          "name": "Install valves and fittings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A008",
+          "sequence": 8,
+          "name": "Install expansion loops and flexible connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A009",
+          "sequence": 9,
+          "name": "Complete welding, grooving or threaded joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A010",
+          "sequence": 10,
+          "name": "Inspect routing and clearances",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A012",
+          "sequence": 12,
+          "name": "Flush piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A013",
+          "sequence": 13,
+          "name": "Repair leaks",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210516-A014",
+          "sequence": 14,
+          "name": "Document concealed work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210517",
+      "section_code": "21 05 17",
+      "title": "Sleeves and Sleeve Seals for Fire-Suppression Piping",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210517-A001",
+          "sequence": 1,
+          "name": "Submit piping, fittings and valve data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A002",
+          "sequence": 2,
+          "name": "Prepare coordinated piping layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A003",
+          "sequence": 3,
+          "name": "Verify sleeves, openings and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A004",
+          "sequence": 4,
+          "name": "Procure piping materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A005",
+          "sequence": 5,
+          "name": "Install sleeves and seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A006",
+          "sequence": 6,
+          "name": "Install mains and branch piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A007",
+          "sequence": 7,
+          "name": "Install valves and fittings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A008",
+          "sequence": 8,
+          "name": "Install expansion loops and flexible connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A009",
+          "sequence": 9,
+          "name": "Complete welding, grooving or threaded joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A010",
+          "sequence": 10,
+          "name": "Inspect routing and clearances",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A012",
+          "sequence": 12,
+          "name": "Flush piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A013",
+          "sequence": 13,
+          "name": "Repair leaks",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210517-A014",
+          "sequence": 14,
+          "name": "Document concealed work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210519",
+      "section_code": "21 05 19",
+      "title": "Meters and Gages for Fire-Suppression Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210519-A001",
+          "sequence": 1,
+          "name": "Submit device schedule and product data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A002",
+          "sequence": 2,
+          "name": "Verify ranges, locations and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A003",
+          "sequence": 3,
+          "name": "Install meters, gauges and supervisory devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A004",
+          "sequence": 4,
+          "name": "Connect sensing lines and wiring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A005",
+          "sequence": 5,
+          "name": "Calibrate instruments",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A006",
+          "sequence": 6,
+          "name": "Label devices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A007",
+          "sequence": 7,
+          "name": "Test readings and alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A008",
+          "sequence": 8,
+          "name": "Correct defective devices",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210519-A009",
+          "sequence": 9,
+          "name": "Submit calibration records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210523",
+      "section_code": "21 05 23",
+      "title": "General-Duty Valves for Water-Based Fire-Suppression Piping",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210523-A001",
+          "sequence": 1,
+          "name": "Submit piping, fittings and valve data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A002",
+          "sequence": 2,
+          "name": "Prepare coordinated piping layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A003",
+          "sequence": 3,
+          "name": "Verify sleeves, openings and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A004",
+          "sequence": 4,
+          "name": "Procure piping materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A005",
+          "sequence": 5,
+          "name": "Install sleeves and seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A006",
+          "sequence": 6,
+          "name": "Install mains and branch piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A007",
+          "sequence": 7,
+          "name": "Install valves and fittings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A008",
+          "sequence": 8,
+          "name": "Install expansion loops and flexible connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A009",
+          "sequence": 9,
+          "name": "Complete welding, grooving or threaded joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A010",
+          "sequence": 10,
+          "name": "Inspect routing and clearances",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A012",
+          "sequence": 12,
+          "name": "Flush piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A013",
+          "sequence": 13,
+          "name": "Repair leaks",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210523-A014",
+          "sequence": 14,
+          "name": "Document concealed work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210529",
+      "section_code": "21 05 29",
+      "title": "Hangers and Supports for Fire-Suppression Piping and Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210529-A001",
+          "sequence": 1,
+          "name": "Submit hanger and seismic-support design",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A002",
+          "sequence": 2,
+          "name": "Coordinate support locations with structure",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A003",
+          "sequence": 3,
+          "name": "Verify loads and attachment methods",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A004",
+          "sequence": 4,
+          "name": "Install inserts and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A005",
+          "sequence": 5,
+          "name": "Install hangers and trapezes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A006",
+          "sequence": 6,
+          "name": "Install equipment supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A007",
+          "sequence": 7,
+          "name": "Set piping elevations and slopes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A008",
+          "sequence": 8,
+          "name": "Inspect spacing and attachment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A009",
+          "sequence": 9,
+          "name": "Proof-test anchors when required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A010",
+          "sequence": 10,
+          "name": "Correct deficient supports",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210529-A011",
+          "sequence": 11,
+          "name": "Document concealed supports",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210533",
+      "section_code": "21 05 33",
+      "title": "Heat Tracing for Fire-Suppression Piping",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210533-A001",
+          "sequence": 1,
+          "name": "Submit device schedule and product data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A002",
+          "sequence": 2,
+          "name": "Verify ranges, locations and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A003",
+          "sequence": 3,
+          "name": "Install meters, gauges and supervisory devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A004",
+          "sequence": 4,
+          "name": "Connect sensing lines and wiring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A005",
+          "sequence": 5,
+          "name": "Calibrate instruments",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A006",
+          "sequence": 6,
+          "name": "Label devices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A007",
+          "sequence": 7,
+          "name": "Test readings and alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A008",
+          "sequence": 8,
+          "name": "Correct defective devices",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210533-A009",
+          "sequence": 9,
+          "name": "Submit calibration records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210548",
+      "section_code": "21 05 48",
+      "title": "Vibration and Seismic Controls for Fire-Suppression Piping and Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210548-A001",
+          "sequence": 1,
+          "name": "Complete seismic restraint calculations",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A002",
+          "sequence": 2,
+          "name": "Prepare bracing layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A003",
+          "sequence": 3,
+          "name": "Coordinate brace clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A004",
+          "sequence": 4,
+          "name": "Submit anchors and restraint components",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A005",
+          "sequence": 5,
+          "name": "Install seismic braces",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A006",
+          "sequence": 6,
+          "name": "Install flexible couplings and clearances",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A007",
+          "sequence": 7,
+          "name": "Install equipment restraints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A008",
+          "sequence": 8,
+          "name": "Inspect brace angles and attachments",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A009",
+          "sequence": 9,
+          "name": "Perform special inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A010",
+          "sequence": 10,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210548-A011",
+          "sequence": 11,
+          "name": "Submit seismic certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210553",
+      "section_code": "21 05 53",
+      "title": "Identification for Fire-Suppression Piping and Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210553-A001",
+          "sequence": 1,
+          "name": "Prepare identification schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A002",
+          "sequence": 2,
+          "name": "Coordinate valve numbering",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A003",
+          "sequence": 3,
+          "name": "Install pipe labels and flow arrows",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A004",
+          "sequence": 4,
+          "name": "Install valve tags",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A005",
+          "sequence": 5,
+          "name": "Install equipment nameplates",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A006",
+          "sequence": 6,
+          "name": "Install hydraulic design placards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A007",
+          "sequence": 7,
+          "name": "Install control-valve and riser signage",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A008",
+          "sequence": 8,
+          "name": "Verify visibility and accuracy",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A009",
+          "sequence": 9,
+          "name": "Update valve charts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210553-A010",
+          "sequence": 10,
+          "name": "Complete final identification audit",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210593",
+      "section_code": "21 05 93",
+      "title": "Testing, Adjusting, and Balancing for Fire-Suppression Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210593-A001",
+          "sequence": 1,
+          "name": "Prepare testing and inspection plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A002",
+          "sequence": 2,
+          "name": "Verify system readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A003",
+          "sequence": 3,
+          "name": "Conduct hydrostatic tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A004",
+          "sequence": 4,
+          "name": "Flush underground and aboveground piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A005",
+          "sequence": 5,
+          "name": "Perform main-drain and flow tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A006",
+          "sequence": 6,
+          "name": "Test alarms and supervisory devices",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A007",
+          "sequence": 7,
+          "name": "Verify sprinkler coverage and obstructions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A008",
+          "sequence": 8,
+          "name": "Test valves and backflow devices",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A009",
+          "sequence": 9,
+          "name": "Document deficiencies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A010",
+          "sequence": 10,
+          "name": "Correct and retest systems",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A011",
+          "sequence": 11,
+          "name": "Coordinate fire-authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210593-A012",
+          "sequence": 12,
+          "name": "Submit test certificates",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210700",
+      "section_code": "21 07 00",
+      "title": "Fire-Suppression Systems Insulation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210700-A001",
+          "sequence": 1,
+          "name": "Submit insulation system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A002",
+          "sequence": 2,
+          "name": "Verify piping test completion",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A003",
+          "sequence": 3,
+          "name": "Prepare piping surfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A004",
+          "sequence": 4,
+          "name": "Install insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A005",
+          "sequence": 5,
+          "name": "Seal joints and terminations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A006",
+          "sequence": 6,
+          "name": "Insulate valves and fittings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A007",
+          "sequence": 7,
+          "name": "Install vapor barriers where required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A008",
+          "sequence": 8,
+          "name": "Install protective jackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A009",
+          "sequence": 9,
+          "name": "Label insulated piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A010",
+          "sequence": 10,
+          "name": "Inspect continuity and damage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210700-A011",
+          "sequence": 11,
+          "name": "Repair deficient insulation",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S210900",
+      "section_code": "21 09 00",
+      "title": "Instrumentation and Control for Fire-Suppression Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S210900-A001",
+          "sequence": 1,
+          "name": "Prepare control and interface diagrams",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A002",
+          "sequence": 2,
+          "name": "Coordinate fire alarm, building automation and power",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A003",
+          "sequence": 3,
+          "name": "Install control panels and devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A004",
+          "sequence": 4,
+          "name": "Install pressure and water-level sensors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A005",
+          "sequence": 5,
+          "name": "Connect valve supervisory switches",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A006",
+          "sequence": 6,
+          "name": "Connect pump and tank controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A007",
+          "sequence": 7,
+          "name": "Program sequences and alarms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A008",
+          "sequence": 8,
+          "name": "Test signals at monitoring systems",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A009",
+          "sequence": 9,
+          "name": "Test emergency and supervisory functions",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A010",
+          "sequence": 10,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S210900-A011",
+          "sequence": 11,
+          "name": "Submit point and sequence documentation",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211000",
+      "section_code": "21 10 00",
+      "title": "Water-Based Fire-Suppression Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211000-A001",
+          "sequence": 1,
+          "name": "Complete hazard classification and hydraulic calculations",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A002",
+          "sequence": 2,
+          "name": "Prepare sprinkler shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A003",
+          "sequence": 3,
+          "name": "Coordinate sprinkler locations with ceilings and obstructions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A004",
+          "sequence": 4,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A005",
+          "sequence": 5,
+          "name": "Procure sprinklers, valves and piping",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A006",
+          "sequence": 6,
+          "name": "Install risers and zone assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A007",
+          "sequence": 7,
+          "name": "Install mains and branch lines",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A008",
+          "sequence": 8,
+          "name": "Install sprinkler drops and heads",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A009",
+          "sequence": 9,
+          "name": "Install inspector's test and drains",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A010",
+          "sequence": 10,
+          "name": "Install alarms and supervisory devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test and flush system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A012",
+          "sequence": 12,
+          "name": "Perform flow and alarm testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A013",
+          "sequence": 13,
+          "name": "Adjust final sprinkler elevations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A014",
+          "sequence": 14,
+          "name": "Coordinate ceiling close-in and final inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211000-A015",
+          "sequence": 15,
+          "name": "Submit test certificates and turnover records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211100",
+      "section_code": "21 11 00",
+      "title": "Facility Fire-Suppression Water-Service Piping",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211100-A001",
+          "sequence": 1,
+          "name": "Coordinate fire-service connection and utility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A002",
+          "sequence": 2,
+          "name": "Submit underground piping and backflow assemblies",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A003",
+          "sequence": 3,
+          "name": "Obtain permits and utility approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A004",
+          "sequence": 4,
+          "name": "Lay out service route",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A005",
+          "sequence": 5,
+          "name": "Excavate and prepare bedding",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A006",
+          "sequence": 6,
+          "name": "Install underground fire-service piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A007",
+          "sequence": 7,
+          "name": "Install valves, hydrants and backflow prevention",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A008",
+          "sequence": 8,
+          "name": "Provide thrust restraint",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A009",
+          "sequence": 9,
+          "name": "Hydrostatically test and flush piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A010",
+          "sequence": 10,
+          "name": "Disinfect when required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A011",
+          "sequence": 11,
+          "name": "Coordinate municipal acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A012",
+          "sequence": 12,
+          "name": "Backfill and restore site",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A013",
+          "sequence": 13,
+          "name": "Connect building fire service",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211100-A014",
+          "sequence": 14,
+          "name": "Submit test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211200",
+      "section_code": "21 12 00",
+      "title": "Fire-Suppression Standpipes",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211200-A001",
+          "sequence": 1,
+          "name": "Prepare standpipe hydraulic calculations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A002",
+          "sequence": 2,
+          "name": "Coordinate riser and hose-valve locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A003",
+          "sequence": 3,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A004",
+          "sequence": 4,
+          "name": "Install standpipe risers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A005",
+          "sequence": 5,
+          "name": "Install floor control and isolation valves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A006",
+          "sequence": 6,
+          "name": "Install hose valves and cabinets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A007",
+          "sequence": 7,
+          "name": "Install fire-department connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A008",
+          "sequence": 8,
+          "name": "Install drains and test headers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A009",
+          "sequence": 9,
+          "name": "Hydrostatically test system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A010",
+          "sequence": 10,
+          "name": "Perform flow and pressure tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A011",
+          "sequence": 11,
+          "name": "Test alarms and supervisory devices",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A012",
+          "sequence": 12,
+          "name": "Coordinate fire-department inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A013",
+          "sequence": 13,
+          "name": "Label valves and outlets",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211200-A014",
+          "sequence": 14,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211300",
+      "section_code": "21 13 00",
+      "title": "Fire-Suppression Sprinkler Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211300-A001",
+          "sequence": 1,
+          "name": "Complete hazard classification and hydraulic calculations",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A002",
+          "sequence": 2,
+          "name": "Prepare sprinkler shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A003",
+          "sequence": 3,
+          "name": "Coordinate sprinkler locations with ceilings and obstructions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A004",
+          "sequence": 4,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A005",
+          "sequence": 5,
+          "name": "Procure sprinklers, valves and piping",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A006",
+          "sequence": 6,
+          "name": "Install risers and zone assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A007",
+          "sequence": 7,
+          "name": "Install mains and branch lines",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A008",
+          "sequence": 8,
+          "name": "Install sprinkler drops and heads",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A009",
+          "sequence": 9,
+          "name": "Install inspector's test and drains",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A010",
+          "sequence": 10,
+          "name": "Install alarms and supervisory devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test and flush system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A012",
+          "sequence": 12,
+          "name": "Perform flow and alarm testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A013",
+          "sequence": 13,
+          "name": "Adjust final sprinkler elevations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A014",
+          "sequence": 14,
+          "name": "Coordinate ceiling close-in and final inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211300-A015",
+          "sequence": 15,
+          "name": "Submit test certificates and turnover records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211313",
+      "section_code": "21 13 13",
+      "title": "Wet-Pipe Sprinkler Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211313-A001",
+          "sequence": 1,
+          "name": "Complete hazard classification and hydraulic calculations",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A002",
+          "sequence": 2,
+          "name": "Prepare sprinkler shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A003",
+          "sequence": 3,
+          "name": "Coordinate sprinkler locations with ceilings and obstructions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A004",
+          "sequence": 4,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A005",
+          "sequence": 5,
+          "name": "Procure sprinklers, valves and piping",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A006",
+          "sequence": 6,
+          "name": "Install risers and zone assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A007",
+          "sequence": 7,
+          "name": "Install mains and branch lines",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A008",
+          "sequence": 8,
+          "name": "Install sprinkler drops and heads",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A009",
+          "sequence": 9,
+          "name": "Install inspector's test and drains",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A010",
+          "sequence": 10,
+          "name": "Install alarms and supervisory devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test and flush system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A012",
+          "sequence": 12,
+          "name": "Perform flow and alarm testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A013",
+          "sequence": 13,
+          "name": "Adjust final sprinkler elevations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A014",
+          "sequence": 14,
+          "name": "Coordinate ceiling close-in and final inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211313-A015",
+          "sequence": 15,
+          "name": "Submit test certificates and turnover records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211316",
+      "section_code": "21 13 16",
+      "title": "Dry-Pipe Sprinkler Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211316-A001",
+          "sequence": 1,
+          "name": "Submit dry-system calculations and compressor data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A002",
+          "sequence": 2,
+          "name": "Coordinate low-point drains and heated spaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A003",
+          "sequence": 3,
+          "name": "Install dry valve and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A004",
+          "sequence": 4,
+          "name": "Install air compressor or nitrogen system",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A005",
+          "sequence": 5,
+          "name": "Pitch piping to drains",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A006",
+          "sequence": 6,
+          "name": "Install auxiliary drains",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A007",
+          "sequence": 7,
+          "name": "Install dry sprinklers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A008",
+          "sequence": 8,
+          "name": "Hydrostatically and pneumatically test system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A009",
+          "sequence": 9,
+          "name": "Trip-test dry valve",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A010",
+          "sequence": 10,
+          "name": "Measure water-delivery time",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A011",
+          "sequence": 11,
+          "name": "Test supervisory alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A012",
+          "sequence": 12,
+          "name": "Correct trapped-water conditions",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211316-A013",
+          "sequence": 13,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211319",
+      "section_code": "21 13 19",
+      "title": "Preaction Sprinkler Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211319-A001",
+          "sequence": 1,
+          "name": "Submit preaction sequence and releasing diagrams",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A002",
+          "sequence": 2,
+          "name": "Coordinate detection and fire-alarm interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A003",
+          "sequence": 3,
+          "name": "Install preaction valve and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A004",
+          "sequence": 4,
+          "name": "Install supervised piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A005",
+          "sequence": 5,
+          "name": "Install detection devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A006",
+          "sequence": 6,
+          "name": "Connect releasing panel and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A007",
+          "sequence": 7,
+          "name": "Pressure-test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A008",
+          "sequence": 8,
+          "name": "Program single- or double-interlock sequence",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A009",
+          "sequence": 9,
+          "name": "Test detection and valve release",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A010",
+          "sequence": 10,
+          "name": "Test alarms, aborts and supervisory signals",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A011",
+          "sequence": 11,
+          "name": "Measure water-delivery performance",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A012",
+          "sequence": 12,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211319-A013",
+          "sequence": 13,
+          "name": "Coordinate integrated acceptance testing",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211326",
+      "section_code": "21 13 26",
+      "title": "Deluge Fire-Suppression Sprinkler Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211326-A001",
+          "sequence": 1,
+          "name": "Complete deluge or spray-system hydraulic calculations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A002",
+          "sequence": 2,
+          "name": "Prepare nozzle and coverage layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A003",
+          "sequence": 3,
+          "name": "Install deluge valve and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A004",
+          "sequence": 4,
+          "name": "Install open sprinklers or spray nozzles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A005",
+          "sequence": 5,
+          "name": "Install detection and release devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A006",
+          "sequence": 6,
+          "name": "Connect controls and alarms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A007",
+          "sequence": 7,
+          "name": "Flush and pressure-test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A008",
+          "sequence": 8,
+          "name": "Program release sequence",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A009",
+          "sequence": 9,
+          "name": "Perform full-flow discharge test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A010",
+          "sequence": 10,
+          "name": "Verify spray pattern and coverage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A011",
+          "sequence": 11,
+          "name": "Test emergency shutdown and alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A012",
+          "sequence": 12,
+          "name": "Correct blocked or inadequate coverage",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211326-A013",
+          "sequence": 13,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211329",
+      "section_code": "21 13 29",
+      "title": "Water-Spray Fixed Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211329-A001",
+          "sequence": 1,
+          "name": "Complete deluge or spray-system hydraulic calculations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A002",
+          "sequence": 2,
+          "name": "Prepare nozzle and coverage layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A003",
+          "sequence": 3,
+          "name": "Install deluge valve and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A004",
+          "sequence": 4,
+          "name": "Install open sprinklers or spray nozzles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A005",
+          "sequence": 5,
+          "name": "Install detection and release devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A006",
+          "sequence": 6,
+          "name": "Connect controls and alarms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A007",
+          "sequence": 7,
+          "name": "Flush and pressure-test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A008",
+          "sequence": 8,
+          "name": "Program release sequence",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A009",
+          "sequence": 9,
+          "name": "Perform full-flow discharge test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A010",
+          "sequence": 10,
+          "name": "Verify spray pattern and coverage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A011",
+          "sequence": 11,
+          "name": "Test emergency shutdown and alarms",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A012",
+          "sequence": 12,
+          "name": "Correct blocked or inadequate coverage",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211329-A013",
+          "sequence": 13,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S211339",
+      "section_code": "21 13 39",
+      "title": "Foam-Water Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S211339-A001",
+          "sequence": 1,
+          "name": "Submit foam concentrate and proportioning design",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A002",
+          "sequence": 2,
+          "name": "Coordinate storage, piping and discharge devices",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A003",
+          "sequence": 3,
+          "name": "Install concentrate tank and proportioner",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A004",
+          "sequence": 4,
+          "name": "Install foam solution piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A005",
+          "sequence": 5,
+          "name": "Install foam chambers, makers or sprinklers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A006",
+          "sequence": 6,
+          "name": "Connect detection and releasing controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A007",
+          "sequence": 7,
+          "name": "Flush and pressure-test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A008",
+          "sequence": 8,
+          "name": "Calibrate proportioning equipment",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A009",
+          "sequence": 9,
+          "name": "Perform concentration testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A010",
+          "sequence": 10,
+          "name": "Conduct discharge or simulated performance test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A011",
+          "sequence": 11,
+          "name": "Test alarms and interlocks",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A012",
+          "sequence": 12,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S211339-A013",
+          "sequence": 13,
+          "name": "Submit foam-system certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S212000",
+      "section_code": "21 20 00",
+      "title": "Fire-Extinguishing Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S212000-A001",
+          "sequence": 1,
+          "name": "Complete special-suppression hazard analysis",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A002",
+          "sequence": 2,
+          "name": "Prepare agent quantity and nozzle calculations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A003",
+          "sequence": 3,
+          "name": "Coordinate enclosure integrity and pressure relief",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A004",
+          "sequence": 4,
+          "name": "Submit releasing and alarm sequences",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A005",
+          "sequence": 5,
+          "name": "Procure cylinders, piping and controls",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A006",
+          "sequence": 6,
+          "name": "Install agent containers and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A007",
+          "sequence": 7,
+          "name": "Install distribution piping and nozzles",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A008",
+          "sequence": 8,
+          "name": "Install detection and releasing controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A009",
+          "sequence": 9,
+          "name": "Install warning signs and abort devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A010",
+          "sequence": 10,
+          "name": "Pressure-test and clean piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A011",
+          "sequence": 11,
+          "name": "Perform room integrity test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A012",
+          "sequence": 12,
+          "name": "Test releasing logic without discharge",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A013",
+          "sequence": 13,
+          "name": "Verify alarms, shutdowns and interlocks",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A014",
+          "sequence": 14,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212000-A015",
+          "sequence": 15,
+          "name": "Train owner and submit certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S212100",
+      "section_code": "21 21 00",
+      "title": "Carbon-Dioxide Fire-Extinguishing Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S212100-A001",
+          "sequence": 1,
+          "name": "Complete special-suppression hazard analysis",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A002",
+          "sequence": 2,
+          "name": "Prepare agent quantity and nozzle calculations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A003",
+          "sequence": 3,
+          "name": "Coordinate enclosure integrity and pressure relief",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A004",
+          "sequence": 4,
+          "name": "Submit releasing and alarm sequences",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A005",
+          "sequence": 5,
+          "name": "Procure cylinders, piping and controls",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A006",
+          "sequence": 6,
+          "name": "Install agent containers and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A007",
+          "sequence": 7,
+          "name": "Install distribution piping and nozzles",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A008",
+          "sequence": 8,
+          "name": "Install detection and releasing controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A009",
+          "sequence": 9,
+          "name": "Install warning signs and abort devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A010",
+          "sequence": 10,
+          "name": "Pressure-test and clean piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A011",
+          "sequence": 11,
+          "name": "Perform room integrity test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A012",
+          "sequence": 12,
+          "name": "Test releasing logic without discharge",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A013",
+          "sequence": 13,
+          "name": "Verify alarms, shutdowns and interlocks",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A014",
+          "sequence": 14,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212100-A015",
+          "sequence": 15,
+          "name": "Train owner and submit certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S212200",
+      "section_code": "21 22 00",
+      "title": "Clean-Agent Fire-Extinguishing Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S212200-A001",
+          "sequence": 1,
+          "name": "Complete special-suppression hazard analysis",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A002",
+          "sequence": 2,
+          "name": "Prepare agent quantity and nozzle calculations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A003",
+          "sequence": 3,
+          "name": "Coordinate enclosure integrity and pressure relief",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A004",
+          "sequence": 4,
+          "name": "Submit releasing and alarm sequences",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A005",
+          "sequence": 5,
+          "name": "Procure cylinders, piping and controls",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A006",
+          "sequence": 6,
+          "name": "Install agent containers and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A007",
+          "sequence": 7,
+          "name": "Install distribution piping and nozzles",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A008",
+          "sequence": 8,
+          "name": "Install detection and releasing controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A009",
+          "sequence": 9,
+          "name": "Install warning signs and abort devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A010",
+          "sequence": 10,
+          "name": "Pressure-test and clean piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A011",
+          "sequence": 11,
+          "name": "Perform room integrity test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A012",
+          "sequence": 12,
+          "name": "Test releasing logic without discharge",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A013",
+          "sequence": 13,
+          "name": "Verify alarms, shutdowns and interlocks",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A014",
+          "sequence": 14,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212200-A015",
+          "sequence": 15,
+          "name": "Train owner and submit certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S212300",
+      "section_code": "21 23 00",
+      "title": "Wet-Chemical Fire-Extinguishing Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S212300-A001",
+          "sequence": 1,
+          "name": "Submit chemical system and appliance layouts",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A002",
+          "sequence": 2,
+          "name": "Coordinate hoods, ducts, fuel and electrical shutdowns",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A003",
+          "sequence": 3,
+          "name": "Install agent tanks and piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A004",
+          "sequence": 4,
+          "name": "Install nozzles and detection links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A005",
+          "sequence": 5,
+          "name": "Install manual pull stations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A006",
+          "sequence": 6,
+          "name": "Connect fuel, power and fan interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A007",
+          "sequence": 7,
+          "name": "Label protected equipment",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A008",
+          "sequence": 8,
+          "name": "Pressure-test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A009",
+          "sequence": 9,
+          "name": "Perform system functional test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A010",
+          "sequence": 10,
+          "name": "Test automatic and manual release",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A011",
+          "sequence": 11,
+          "name": "Verify appliance shutdown and alarm signals",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A012",
+          "sequence": 12,
+          "name": "Coordinate fire-authority and health inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A013",
+          "sequence": 13,
+          "name": "Train kitchen staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212300-A014",
+          "sequence": 14,
+          "name": "Submit inspection records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S212400",
+      "section_code": "21 24 00",
+      "title": "Dry-Chemical Fire-Extinguishing Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S212400-A001",
+          "sequence": 1,
+          "name": "Submit chemical system and appliance layouts",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A002",
+          "sequence": 2,
+          "name": "Coordinate hoods, ducts, fuel and electrical shutdowns",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A003",
+          "sequence": 3,
+          "name": "Install agent tanks and piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A004",
+          "sequence": 4,
+          "name": "Install nozzles and detection links",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A005",
+          "sequence": 5,
+          "name": "Install manual pull stations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A006",
+          "sequence": 6,
+          "name": "Connect fuel, power and fan interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A007",
+          "sequence": 7,
+          "name": "Label protected equipment",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A008",
+          "sequence": 8,
+          "name": "Pressure-test piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A009",
+          "sequence": 9,
+          "name": "Perform system functional test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A010",
+          "sequence": 10,
+          "name": "Test automatic and manual release",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A011",
+          "sequence": 11,
+          "name": "Verify appliance shutdown and alarm signals",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A012",
+          "sequence": 12,
+          "name": "Coordinate fire-authority and health inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A013",
+          "sequence": 13,
+          "name": "Train kitchen staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212400-A014",
+          "sequence": 14,
+          "name": "Submit inspection records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S212500",
+      "section_code": "21 25 00",
+      "title": "Condensed-Aerosol Fire-Extinguishing Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S212500-A001",
+          "sequence": 1,
+          "name": "Complete special-suppression hazard analysis",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A002",
+          "sequence": 2,
+          "name": "Prepare agent quantity and nozzle calculations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A003",
+          "sequence": 3,
+          "name": "Coordinate enclosure integrity and pressure relief",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A004",
+          "sequence": 4,
+          "name": "Submit releasing and alarm sequences",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A005",
+          "sequence": 5,
+          "name": "Procure cylinders, piping and controls",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A006",
+          "sequence": 6,
+          "name": "Install agent containers and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A007",
+          "sequence": 7,
+          "name": "Install distribution piping and nozzles",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A008",
+          "sequence": 8,
+          "name": "Install detection and releasing controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A009",
+          "sequence": 9,
+          "name": "Install warning signs and abort devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A010",
+          "sequence": 10,
+          "name": "Pressure-test and clean piping",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A011",
+          "sequence": 11,
+          "name": "Perform room integrity test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A012",
+          "sequence": 12,
+          "name": "Test releasing logic without discharge",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A013",
+          "sequence": 13,
+          "name": "Verify alarms, shutdowns and interlocks",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A014",
+          "sequence": 14,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S212500-A015",
+          "sequence": 15,
+          "name": "Train owner and submit certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S213000",
+      "section_code": "21 30 00",
+      "title": "Fire Pumps",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S213000-A001",
+          "sequence": 1,
+          "name": "Submit fire-pump calculations and certified curves",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A002",
+          "sequence": 2,
+          "name": "Coordinate pump room, foundations, power and fuel",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A003",
+          "sequence": 3,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A004",
+          "sequence": 4,
+          "name": "Procure pump, driver and controller",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A005",
+          "sequence": 5,
+          "name": "Install housekeeping pads and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A006",
+          "sequence": 6,
+          "name": "Set fire pump, jockey pump and drivers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A007",
+          "sequence": 7,
+          "name": "Install suction and discharge piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A008",
+          "sequence": 8,
+          "name": "Install controllers, test header and flow meter",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A009",
+          "sequence": 9,
+          "name": "Connect normal and emergency power",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A010",
+          "sequence": 10,
+          "name": "Align pump and driver",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A011",
+          "sequence": 11,
+          "name": "Flush suction piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A012",
+          "sequence": 12,
+          "name": "Start and churn-test pumps",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A013",
+          "sequence": 13,
+          "name": "Perform rated and peak-flow acceptance test",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A014",
+          "sequence": 14,
+          "name": "Test alarms, transfer and automatic start",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A015",
+          "sequence": 15,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A016",
+          "sequence": 16,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213000-A017",
+          "sequence": 17,
+          "name": "Submit certified test report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S213100",
+      "section_code": "21 31 00",
+      "title": "Centrifugal Fire Pumps",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S213100-A001",
+          "sequence": 1,
+          "name": "Submit fire-pump calculations and certified curves",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A002",
+          "sequence": 2,
+          "name": "Coordinate pump room, foundations, power and fuel",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A003",
+          "sequence": 3,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A004",
+          "sequence": 4,
+          "name": "Procure pump, driver and controller",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A005",
+          "sequence": 5,
+          "name": "Install housekeeping pads and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A006",
+          "sequence": 6,
+          "name": "Set fire pump, jockey pump and drivers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A007",
+          "sequence": 7,
+          "name": "Install suction and discharge piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A008",
+          "sequence": 8,
+          "name": "Install controllers, test header and flow meter",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A009",
+          "sequence": 9,
+          "name": "Connect normal and emergency power",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A010",
+          "sequence": 10,
+          "name": "Align pump and driver",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A011",
+          "sequence": 11,
+          "name": "Flush suction piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A012",
+          "sequence": 12,
+          "name": "Start and churn-test pumps",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A013",
+          "sequence": 13,
+          "name": "Perform rated and peak-flow acceptance test",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A014",
+          "sequence": 14,
+          "name": "Test alarms, transfer and automatic start",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A015",
+          "sequence": 15,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A016",
+          "sequence": 16,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213100-A017",
+          "sequence": 17,
+          "name": "Submit certified test report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S213200",
+      "section_code": "21 32 00",
+      "title": "Vertical-Turbine Fire Pumps",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S213200-A001",
+          "sequence": 1,
+          "name": "Submit fire-pump calculations and certified curves",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A002",
+          "sequence": 2,
+          "name": "Coordinate pump room, foundations, power and fuel",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A003",
+          "sequence": 3,
+          "name": "Obtain fire-authority approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A004",
+          "sequence": 4,
+          "name": "Procure pump, driver and controller",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A005",
+          "sequence": 5,
+          "name": "Install housekeeping pads and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A006",
+          "sequence": 6,
+          "name": "Set fire pump, jockey pump and drivers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A007",
+          "sequence": 7,
+          "name": "Install suction and discharge piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A008",
+          "sequence": 8,
+          "name": "Install controllers, test header and flow meter",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A009",
+          "sequence": 9,
+          "name": "Connect normal and emergency power",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A010",
+          "sequence": 10,
+          "name": "Align pump and driver",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A011",
+          "sequence": 11,
+          "name": "Flush suction piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A012",
+          "sequence": 12,
+          "name": "Start and churn-test pumps",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A013",
+          "sequence": 13,
+          "name": "Perform rated and peak-flow acceptance test",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A014",
+          "sequence": 14,
+          "name": "Test alarms, transfer and automatic start",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A015",
+          "sequence": 15,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A016",
+          "sequence": 16,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S213200-A017",
+          "sequence": 17,
+          "name": "Submit certified test report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S214000",
+      "section_code": "21 40 00",
+      "title": "Fire-Suppression Water Storage",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S214000-A001",
+          "sequence": 1,
+          "name": "Submit tank engineering and capacity calculations",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A002",
+          "sequence": 2,
+          "name": "Coordinate foundation, access, heating and level controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A003",
+          "sequence": 3,
+          "name": "Obtain authority approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A004",
+          "sequence": 4,
+          "name": "Construct tank foundation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A005",
+          "sequence": 5,
+          "name": "Fabricate tank components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A006",
+          "sequence": 6,
+          "name": "Erect or set tank",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A007",
+          "sequence": 7,
+          "name": "Install liners, coatings and insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A008",
+          "sequence": 8,
+          "name": "Install fill, suction, overflow and drain piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A009",
+          "sequence": 9,
+          "name": "Install level monitoring and heating",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A010",
+          "sequence": 10,
+          "name": "Perform weld and coating inspections",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test tank",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A012",
+          "sequence": 12,
+          "name": "Clean and fill tank",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A013",
+          "sequence": 13,
+          "name": "Test level alarms and refill controls",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A014",
+          "sequence": 14,
+          "name": "Coordinate fire-pump integration",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214000-A015",
+          "sequence": 15,
+          "name": "Complete authority inspection and turnover",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D21-S214100",
+      "section_code": "21 41 00",
+      "title": "Storage Tanks for Fire-Suppression Water",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D21-S214100-A001",
+          "sequence": 1,
+          "name": "Submit tank engineering and capacity calculations",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A002",
+          "sequence": 2,
+          "name": "Coordinate foundation, access, heating and level controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A003",
+          "sequence": 3,
+          "name": "Obtain authority approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A004",
+          "sequence": 4,
+          "name": "Construct tank foundation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A005",
+          "sequence": 5,
+          "name": "Fabricate tank components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A006",
+          "sequence": 6,
+          "name": "Erect or set tank",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A007",
+          "sequence": 7,
+          "name": "Install liners, coatings and insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A008",
+          "sequence": 8,
+          "name": "Install fill, suction, overflow and drain piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A009",
+          "sequence": 9,
+          "name": "Install level monitoring and heating",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A010",
+          "sequence": 10,
+          "name": "Perform weld and coating inspections",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A011",
+          "sequence": 11,
+          "name": "Hydrostatically test tank",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A012",
+          "sequence": 12,
+          "name": "Clean and fill tank",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A013",
+          "sequence": 13,
+          "name": "Test level alarms and refill controls",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A014",
+          "sequence": 14,
+          "name": "Coordinate fire-pump integration",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D21-S214100-A015",
+          "sequence": 15,
+          "name": "Complete authority inspection and turnover",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

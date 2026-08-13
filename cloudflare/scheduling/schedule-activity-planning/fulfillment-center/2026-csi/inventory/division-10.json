@@ -1,0 +1,5918 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D10",
+    "division_number": "10",
+    "title": "Specialties",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-10/MASTER_DIVISION_10_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 47,
+    "activities": 619
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D10-S100100",
+      "section_code": "10 01 00",
+      "title": "Maintenance of Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S100100-A001",
+          "sequence": 1,
+          "name": "Survey existing specialty items",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A002",
+          "sequence": 2,
+          "name": "Document damage, missing components and operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A003",
+          "sequence": 3,
+          "name": "Verify original materials and mounting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A004",
+          "sequence": 4,
+          "name": "Prepare repair or replacement plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A005",
+          "sequence": 5,
+          "name": "Approve repair sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A006",
+          "sequence": 6,
+          "name": "Remove failed components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A007",
+          "sequence": 7,
+          "name": "Repair substrates and anchors",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A008",
+          "sequence": 8,
+          "name": "Repair or replace specialty items",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A009",
+          "sequence": 9,
+          "name": "Match finishes and profiles",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A010",
+          "sequence": 10,
+          "name": "Test operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A011",
+          "sequence": 11,
+          "name": "Clean and protect repaired work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100100-A012",
+          "sequence": 12,
+          "name": "Complete punch and closeout",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S100600",
+      "section_code": "10 06 00",
+      "title": "Schedules for Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S100600-A001",
+          "sequence": 1,
+          "name": "Reconcile specialty plans and schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A002",
+          "sequence": 2,
+          "name": "Verify item designations and locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A003",
+          "sequence": 3,
+          "name": "Coordinate mounting heights and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A004",
+          "sequence": 4,
+          "name": "Coordinate blocking, power and data",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A005",
+          "sequence": 5,
+          "name": "Resolve schedule conflicts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A006",
+          "sequence": 6,
+          "name": "Issue approved specialty schedule",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A007",
+          "sequence": 7,
+          "name": "Release procurement packages",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A008",
+          "sequence": 8,
+          "name": "Track substitutions and revisions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A009",
+          "sequence": 9,
+          "name": "Verify installed items by location",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S100600-A010",
+          "sequence": 10,
+          "name": "Update record schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101000",
+      "section_code": "10 10 00",
+      "title": "Information Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101000-A001",
+          "sequence": 1,
+          "name": "Prepare layout and mounting drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A002",
+          "sequence": 2,
+          "name": "Submit surface and frame samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A003",
+          "sequence": 3,
+          "name": "Coordinate blocking and electrical requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A004",
+          "sequence": 4,
+          "name": "Approve samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A006",
+          "sequence": 6,
+          "name": "Procure and fabricate units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A007",
+          "sequence": 7,
+          "name": "Deliver and protect units",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A008",
+          "sequence": 8,
+          "name": "Lay out mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A009",
+          "sequence": 9,
+          "name": "Install frames and units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A010",
+          "sequence": 10,
+          "name": "Install accessories and inserts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A011",
+          "sequence": 11,
+          "name": "Check alignment and operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A012",
+          "sequence": 12,
+          "name": "Clean surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101000-A013",
+          "sequence": 13,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101100",
+      "section_code": "10 11 00",
+      "title": "Visual Display Units",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101100-A001",
+          "sequence": 1,
+          "name": "Prepare layout and mounting drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A002",
+          "sequence": 2,
+          "name": "Submit surface and frame samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A003",
+          "sequence": 3,
+          "name": "Coordinate blocking and electrical requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A004",
+          "sequence": 4,
+          "name": "Approve samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A006",
+          "sequence": 6,
+          "name": "Procure and fabricate units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A007",
+          "sequence": 7,
+          "name": "Deliver and protect units",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A008",
+          "sequence": 8,
+          "name": "Lay out mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A009",
+          "sequence": 9,
+          "name": "Install frames and units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A010",
+          "sequence": 10,
+          "name": "Install accessories and inserts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A011",
+          "sequence": 11,
+          "name": "Check alignment and operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A012",
+          "sequence": 12,
+          "name": "Clean surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101100-A013",
+          "sequence": 13,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101200",
+      "section_code": "10 12 00",
+      "title": "Display Cases",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101200-A001",
+          "sequence": 1,
+          "name": "Prepare fabrication shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A002",
+          "sequence": 2,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A003",
+          "sequence": 3,
+          "name": "Coordinate blocking, lighting and security",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A004",
+          "sequence": 4,
+          "name": "Approve material and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A005",
+          "sequence": 5,
+          "name": "Fabricate display cases",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A006",
+          "sequence": 6,
+          "name": "Factory install glazing and hardware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A007",
+          "sequence": 7,
+          "name": "Deliver and protect cases",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A008",
+          "sequence": 8,
+          "name": "Install supports and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A009",
+          "sequence": 9,
+          "name": "Set and level cases",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A010",
+          "sequence": 10,
+          "name": "Connect lighting and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A011",
+          "sequence": 11,
+          "name": "Install shelves and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A012",
+          "sequence": 12,
+          "name": "Adjust doors and locks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A013",
+          "sequence": 13,
+          "name": "Clean glazing and finishes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101200-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101300",
+      "section_code": "10 13 00",
+      "title": "Directories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101300-A001",
+          "sequence": 1,
+          "name": "Prepare signage schedule and message list",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A002",
+          "sequence": 2,
+          "name": "Verify room names, numbers and code requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A003",
+          "sequence": 3,
+          "name": "Coordinate accessibility and wayfinding",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A004",
+          "sequence": 4,
+          "name": "Submit sign layouts and typography",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A005",
+          "sequence": 5,
+          "name": "Approve colors, materials and samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A006",
+          "sequence": 6,
+          "name": "Prepare full-size proofs",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A007",
+          "sequence": 7,
+          "name": "Fabricate signs",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A008",
+          "sequence": 8,
+          "name": "Verify mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A009",
+          "sequence": 9,
+          "name": "Install interior and exterior signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A010",
+          "sequence": 10,
+          "name": "Install tactile and braille signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A011",
+          "sequence": 11,
+          "name": "Install posts and foundations where required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A012",
+          "sequence": 12,
+          "name": "Inspect content, height and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A013",
+          "sequence": 13,
+          "name": "Correct message or mounting errors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101300-A014",
+          "sequence": 14,
+          "name": "Complete final signage audit",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101400",
+      "section_code": "10 14 00",
+      "title": "Signage",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101400-A001",
+          "sequence": 1,
+          "name": "Prepare signage schedule and message list",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A002",
+          "sequence": 2,
+          "name": "Verify room names, numbers and code requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A003",
+          "sequence": 3,
+          "name": "Coordinate accessibility and wayfinding",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A004",
+          "sequence": 4,
+          "name": "Submit sign layouts and typography",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A005",
+          "sequence": 5,
+          "name": "Approve colors, materials and samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A006",
+          "sequence": 6,
+          "name": "Prepare full-size proofs",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A007",
+          "sequence": 7,
+          "name": "Fabricate signs",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A008",
+          "sequence": 8,
+          "name": "Verify mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A009",
+          "sequence": 9,
+          "name": "Install interior and exterior signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A010",
+          "sequence": 10,
+          "name": "Install tactile and braille signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A011",
+          "sequence": 11,
+          "name": "Install posts and foundations where required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A012",
+          "sequence": 12,
+          "name": "Inspect content, height and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A013",
+          "sequence": 13,
+          "name": "Correct message or mounting errors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101400-A014",
+          "sequence": 14,
+          "name": "Complete final signage audit",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101453",
+      "section_code": "10 14 53",
+      "title": "Traffic Signage",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101453-A001",
+          "sequence": 1,
+          "name": "Prepare signage schedule and message list",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A002",
+          "sequence": 2,
+          "name": "Verify room names, numbers and code requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A003",
+          "sequence": 3,
+          "name": "Coordinate accessibility and wayfinding",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A004",
+          "sequence": 4,
+          "name": "Submit sign layouts and typography",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A005",
+          "sequence": 5,
+          "name": "Approve colors, materials and samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A006",
+          "sequence": 6,
+          "name": "Prepare full-size proofs",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A007",
+          "sequence": 7,
+          "name": "Fabricate signs",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A008",
+          "sequence": 8,
+          "name": "Verify mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A009",
+          "sequence": 9,
+          "name": "Install interior and exterior signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A010",
+          "sequence": 10,
+          "name": "Install tactile and braille signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A011",
+          "sequence": 11,
+          "name": "Install posts and foundations where required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A012",
+          "sequence": 12,
+          "name": "Inspect content, height and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A013",
+          "sequence": 13,
+          "name": "Correct message or mounting errors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101453-A014",
+          "sequence": 14,
+          "name": "Complete final signage audit",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S101800",
+      "section_code": "10 18 00",
+      "title": "Information Kiosks",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S101800-A001",
+          "sequence": 1,
+          "name": "Submit kiosk system and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A002",
+          "sequence": 2,
+          "name": "Coordinate power, data and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A003",
+          "sequence": 3,
+          "name": "Approve materials and interface layout",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A004",
+          "sequence": 4,
+          "name": "Fabricate kiosk enclosure",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A005",
+          "sequence": 5,
+          "name": "Configure hardware and software",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A006",
+          "sequence": 6,
+          "name": "Verify floor and wall supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A007",
+          "sequence": 7,
+          "name": "Deliver and install kiosk",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A008",
+          "sequence": 8,
+          "name": "Connect power and network",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A009",
+          "sequence": 9,
+          "name": "Load content",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A010",
+          "sequence": 10,
+          "name": "Test display, controls and accessibility",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A011",
+          "sequence": 11,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S101800-A012",
+          "sequence": 12,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102000",
+      "section_code": "10 20 00",
+      "title": "Interior Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102000-A001",
+          "sequence": 1,
+          "name": "Prepare specialty-item submittals",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A002",
+          "sequence": 2,
+          "name": "Verify quantities and locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A003",
+          "sequence": 3,
+          "name": "Coordinate backing, supports and utilities",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A004",
+          "sequence": 4,
+          "name": "Approve materials, colors and finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A006",
+          "sequence": 6,
+          "name": "Procure specialty items",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A007",
+          "sequence": 7,
+          "name": "Receive, inventory and protect items",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A008",
+          "sequence": 8,
+          "name": "Conduct preparatory quality-control review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A009",
+          "sequence": 9,
+          "name": "Lay out installation locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A010",
+          "sequence": 10,
+          "name": "Install specialty items",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A011",
+          "sequence": 11,
+          "name": "Inspect anchorage, alignment and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A012",
+          "sequence": 12,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102000-A013",
+          "sequence": 13,
+          "name": "Complete punch and turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102100",
+      "section_code": "10 21 00",
+      "title": "Compartments and Cubicles",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102100-A001",
+          "sequence": 1,
+          "name": "Prepare partition layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A003",
+          "sequence": 3,
+          "name": "Coordinate structural supports and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A004",
+          "sequence": 4,
+          "name": "Approve panel, hardware and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and supports",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A006",
+          "sequence": 6,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A007",
+          "sequence": 7,
+          "name": "Lay out partitions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A008",
+          "sequence": 8,
+          "name": "Install pilasters, tracks and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A009",
+          "sequence": 9,
+          "name": "Install panels and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A010",
+          "sequence": 10,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A011",
+          "sequence": 11,
+          "name": "Adjust doors and clearances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A012",
+          "sequence": 12,
+          "name": "Inspect stability, alignment and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102100-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102113",
+      "section_code": "10 21 13",
+      "title": "Toilet Compartments",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102113-A001",
+          "sequence": 1,
+          "name": "Prepare partition layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A003",
+          "sequence": 3,
+          "name": "Coordinate structural supports and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A004",
+          "sequence": 4,
+          "name": "Approve panel, hardware and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and supports",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A006",
+          "sequence": 6,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A007",
+          "sequence": 7,
+          "name": "Lay out partitions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A008",
+          "sequence": 8,
+          "name": "Install pilasters, tracks and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A009",
+          "sequence": 9,
+          "name": "Install panels and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A010",
+          "sequence": 10,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A011",
+          "sequence": 11,
+          "name": "Adjust doors and clearances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A012",
+          "sequence": 12,
+          "name": "Inspect stability, alignment and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102113-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102123",
+      "section_code": "10 21 23",
+      "title": "Cubicles",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102123-A001",
+          "sequence": 1,
+          "name": "Prepare partition layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A003",
+          "sequence": 3,
+          "name": "Coordinate structural supports and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A004",
+          "sequence": 4,
+          "name": "Approve panel, hardware and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and supports",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A006",
+          "sequence": 6,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A007",
+          "sequence": 7,
+          "name": "Lay out partitions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A008",
+          "sequence": 8,
+          "name": "Install pilasters, tracks and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A009",
+          "sequence": 9,
+          "name": "Install panels and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A010",
+          "sequence": 10,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A011",
+          "sequence": 11,
+          "name": "Adjust doors and clearances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A012",
+          "sequence": 12,
+          "name": "Inspect stability, alignment and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102123-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102200",
+      "section_code": "10 22 00",
+      "title": "Partitions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102200-A001",
+          "sequence": 1,
+          "name": "Prepare partition layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A003",
+          "sequence": 3,
+          "name": "Coordinate structural supports and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A004",
+          "sequence": 4,
+          "name": "Approve panel, hardware and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and supports",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A006",
+          "sequence": 6,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A007",
+          "sequence": 7,
+          "name": "Lay out partitions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A008",
+          "sequence": 8,
+          "name": "Install pilasters, tracks and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A009",
+          "sequence": 9,
+          "name": "Install panels and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A010",
+          "sequence": 10,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A011",
+          "sequence": 11,
+          "name": "Adjust doors and clearances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A012",
+          "sequence": 12,
+          "name": "Inspect stability, alignment and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102200-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102213",
+      "section_code": "10 22 13",
+      "title": "Wire Mesh Partitions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102213-A001",
+          "sequence": 1,
+          "name": "Prepare partition layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A003",
+          "sequence": 3,
+          "name": "Coordinate structural supports and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A004",
+          "sequence": 4,
+          "name": "Approve panel, hardware and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and supports",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A006",
+          "sequence": 6,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A007",
+          "sequence": 7,
+          "name": "Lay out partitions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A008",
+          "sequence": 8,
+          "name": "Install pilasters, tracks and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A009",
+          "sequence": 9,
+          "name": "Install panels and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A010",
+          "sequence": 10,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A011",
+          "sequence": 11,
+          "name": "Adjust doors and clearances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A012",
+          "sequence": 12,
+          "name": "Inspect stability, alignment and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102213-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102219",
+      "section_code": "10 22 19",
+      "title": "Demountable Partitions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102219-A001",
+          "sequence": 1,
+          "name": "Prepare partition layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A003",
+          "sequence": 3,
+          "name": "Coordinate structural supports and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A004",
+          "sequence": 4,
+          "name": "Approve panel, hardware and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and supports",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A006",
+          "sequence": 6,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A007",
+          "sequence": 7,
+          "name": "Lay out partitions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A008",
+          "sequence": 8,
+          "name": "Install pilasters, tracks and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A009",
+          "sequence": 9,
+          "name": "Install panels and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A010",
+          "sequence": 10,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A011",
+          "sequence": 11,
+          "name": "Adjust doors and clearances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A012",
+          "sequence": 12,
+          "name": "Inspect stability, alignment and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A013",
+          "sequence": 13,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102219-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102239",
+      "section_code": "10 22 39",
+      "title": "Folding Panel Partitions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102239-A001",
+          "sequence": 1,
+          "name": "Complete delegated design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A002",
+          "sequence": 2,
+          "name": "Prepare track, support and panel drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A003",
+          "sequence": 3,
+          "name": "Coordinate structural reinforcement and power",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A004",
+          "sequence": 4,
+          "name": "Approve panel and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A005",
+          "sequence": 5,
+          "name": "Fabricate tracks and panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A006",
+          "sequence": 6,
+          "name": "Verify overhead supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A007",
+          "sequence": 7,
+          "name": "Install tracks and pockets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A008",
+          "sequence": 8,
+          "name": "Install operable panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A009",
+          "sequence": 9,
+          "name": "Install seals, hardware and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A010",
+          "sequence": 10,
+          "name": "Adjust stacking and alignment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A011",
+          "sequence": 11,
+          "name": "Perform operational and acoustic testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A012",
+          "sequence": 12,
+          "name": "Train owner personnel",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102239-A013",
+          "sequence": 13,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102243",
+      "section_code": "10 22 43",
+      "title": "Operable Partitions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102243-A001",
+          "sequence": 1,
+          "name": "Complete delegated design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A002",
+          "sequence": 2,
+          "name": "Prepare track, support and panel drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A003",
+          "sequence": 3,
+          "name": "Coordinate structural reinforcement and power",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A004",
+          "sequence": 4,
+          "name": "Approve panel and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A005",
+          "sequence": 5,
+          "name": "Fabricate tracks and panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A006",
+          "sequence": 6,
+          "name": "Verify overhead supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A007",
+          "sequence": 7,
+          "name": "Install tracks and pockets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A008",
+          "sequence": 8,
+          "name": "Install operable panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A009",
+          "sequence": 9,
+          "name": "Install seals, hardware and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A010",
+          "sequence": 10,
+          "name": "Adjust stacking and alignment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A011",
+          "sequence": 11,
+          "name": "Perform operational and acoustic testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A012",
+          "sequence": 12,
+          "name": "Train owner personnel",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102243-A013",
+          "sequence": 13,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102500",
+      "section_code": "10 25 00",
+      "title": "Service Walls",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102500-A001",
+          "sequence": 1,
+          "name": "Prepare service-wall coordination drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A002",
+          "sequence": 2,
+          "name": "Coordinate plumbing, electrical and accessories",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A003",
+          "sequence": 3,
+          "name": "Verify structural supports and backing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A004",
+          "sequence": 4,
+          "name": "Approve finishes and components",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A005",
+          "sequence": 5,
+          "name": "Fabricate service-wall assemblies",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A006",
+          "sequence": 6,
+          "name": "Install framing and carriers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A007",
+          "sequence": 7,
+          "name": "Install panels and access components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A008",
+          "sequence": 8,
+          "name": "Connect utilities",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A009",
+          "sequence": 9,
+          "name": "Install fixtures and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A010",
+          "sequence": 10,
+          "name": "Test utilities and access",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A011",
+          "sequence": 11,
+          "name": "Inspect alignment and sealing",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102500-A012",
+          "sequence": 12,
+          "name": "Complete punch and turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102600",
+      "section_code": "10 26 00",
+      "title": "Wall and Door Protection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102600-A001",
+          "sequence": 1,
+          "name": "Prepare wall-protection layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A002",
+          "sequence": 2,
+          "name": "Approve profiles, colors and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A003",
+          "sequence": 3,
+          "name": "Verify substrates and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A004",
+          "sequence": 4,
+          "name": "Measure field conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A005",
+          "sequence": 5,
+          "name": "Fabricate rails, guards and coverings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A006",
+          "sequence": 6,
+          "name": "Lay out elevations and joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A007",
+          "sequence": 7,
+          "name": "Install clips and retainers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A008",
+          "sequence": 8,
+          "name": "Install corner guards and rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A009",
+          "sequence": 9,
+          "name": "Install protective wall covering",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A010",
+          "sequence": 10,
+          "name": "Seal joints and edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A011",
+          "sequence": 11,
+          "name": "Inspect attachment and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A012",
+          "sequence": 12,
+          "name": "Repair damaged surfaces",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102600-A013",
+          "sequence": 13,
+          "name": "Clean and protect completed work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102613",
+      "section_code": "10 26 13",
+      "title": "Corner Guards",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102613-A001",
+          "sequence": 1,
+          "name": "Prepare wall-protection layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A002",
+          "sequence": 2,
+          "name": "Approve profiles, colors and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A003",
+          "sequence": 3,
+          "name": "Verify substrates and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A004",
+          "sequence": 4,
+          "name": "Measure field conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A005",
+          "sequence": 5,
+          "name": "Fabricate rails, guards and coverings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A006",
+          "sequence": 6,
+          "name": "Lay out elevations and joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A007",
+          "sequence": 7,
+          "name": "Install clips and retainers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A008",
+          "sequence": 8,
+          "name": "Install corner guards and rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A009",
+          "sequence": 9,
+          "name": "Install protective wall covering",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A010",
+          "sequence": 10,
+          "name": "Seal joints and edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A011",
+          "sequence": 11,
+          "name": "Inspect attachment and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A012",
+          "sequence": 12,
+          "name": "Repair damaged surfaces",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102613-A013",
+          "sequence": 13,
+          "name": "Clean and protect completed work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102616",
+      "section_code": "10 26 16",
+      "title": "Bumper Rails",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102616-A001",
+          "sequence": 1,
+          "name": "Prepare wall-protection layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A002",
+          "sequence": 2,
+          "name": "Approve profiles, colors and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A003",
+          "sequence": 3,
+          "name": "Verify substrates and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A004",
+          "sequence": 4,
+          "name": "Measure field conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A005",
+          "sequence": 5,
+          "name": "Fabricate rails, guards and coverings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A006",
+          "sequence": 6,
+          "name": "Lay out elevations and joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A007",
+          "sequence": 7,
+          "name": "Install clips and retainers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A008",
+          "sequence": 8,
+          "name": "Install corner guards and rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A009",
+          "sequence": 9,
+          "name": "Install protective wall covering",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A010",
+          "sequence": 10,
+          "name": "Seal joints and edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A011",
+          "sequence": 11,
+          "name": "Inspect attachment and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A012",
+          "sequence": 12,
+          "name": "Repair damaged surfaces",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102616-A013",
+          "sequence": 13,
+          "name": "Clean and protect completed work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102623",
+      "section_code": "10 26 23",
+      "title": "Protective Wall Covering",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102623-A001",
+          "sequence": 1,
+          "name": "Prepare wall-protection layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A002",
+          "sequence": 2,
+          "name": "Approve profiles, colors and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A003",
+          "sequence": 3,
+          "name": "Verify substrates and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A004",
+          "sequence": 4,
+          "name": "Measure field conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A005",
+          "sequence": 5,
+          "name": "Fabricate rails, guards and coverings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A006",
+          "sequence": 6,
+          "name": "Lay out elevations and joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A007",
+          "sequence": 7,
+          "name": "Install clips and retainers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A008",
+          "sequence": 8,
+          "name": "Install corner guards and rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A009",
+          "sequence": 9,
+          "name": "Install protective wall covering",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A010",
+          "sequence": 10,
+          "name": "Seal joints and edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A011",
+          "sequence": 11,
+          "name": "Inspect attachment and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A012",
+          "sequence": 12,
+          "name": "Repair damaged surfaces",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102623-A013",
+          "sequence": 13,
+          "name": "Clean and protect completed work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S102800",
+      "section_code": "10 28 00",
+      "title": "Toilet, Bath, and Laundry Accessories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S102800-A001",
+          "sequence": 1,
+          "name": "Prepare accessory schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A002",
+          "sequence": 2,
+          "name": "Verify quantities, types and mounting heights",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A003",
+          "sequence": 3,
+          "name": "Coordinate accessibility clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A004",
+          "sequence": 4,
+          "name": "Coordinate blocking and in-wall supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A005",
+          "sequence": 5,
+          "name": "Submit product and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A006",
+          "sequence": 6,
+          "name": "Procure accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A007",
+          "sequence": 7,
+          "name": "Receive and inventory items",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A008",
+          "sequence": 8,
+          "name": "Lay out each accessory",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A009",
+          "sequence": 9,
+          "name": "Install toilet, bath and laundry accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A010",
+          "sequence": 10,
+          "name": "Install mirrors, dispensers and grab bars",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A011",
+          "sequence": 11,
+          "name": "Inspect anchorage and accessibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A012",
+          "sequence": 12,
+          "name": "Correct missing or damaged items",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S102800-A013",
+          "sequence": 13,
+          "name": "Clean and complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S103000",
+      "section_code": "10 30 00",
+      "title": "Fireplaces and Stoves",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S103000-A001",
+          "sequence": 1,
+          "name": "Submit fireplace system and listing information",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A002",
+          "sequence": 2,
+          "name": "Coordinate foundations, framing and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A003",
+          "sequence": 3,
+          "name": "Coordinate flues, gas and electrical services",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A004",
+          "sequence": 4,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A005",
+          "sequence": 5,
+          "name": "Verify rough openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A006",
+          "sequence": 6,
+          "name": "Install firebox and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A007",
+          "sequence": 7,
+          "name": "Install flue and vent components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A008",
+          "sequence": 8,
+          "name": "Install hearth and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A009",
+          "sequence": 9,
+          "name": "Connect gas and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A010",
+          "sequence": 10,
+          "name": "Verify combustible clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A011",
+          "sequence": 11,
+          "name": "Perform draft, ignition and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A012",
+          "sequence": 12,
+          "name": "Complete required inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103000-A014",
+          "sequence": 14,
+          "name": "Submit operation records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S103100",
+      "section_code": "10 31 00",
+      "title": "Manufactured Fireplaces",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S103100-A001",
+          "sequence": 1,
+          "name": "Submit fireplace system and listing information",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A002",
+          "sequence": 2,
+          "name": "Coordinate foundations, framing and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A003",
+          "sequence": 3,
+          "name": "Coordinate flues, gas and electrical services",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A004",
+          "sequence": 4,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A005",
+          "sequence": 5,
+          "name": "Verify rough openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A006",
+          "sequence": 6,
+          "name": "Install firebox and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A007",
+          "sequence": 7,
+          "name": "Install flue and vent components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A008",
+          "sequence": 8,
+          "name": "Install hearth and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A009",
+          "sequence": 9,
+          "name": "Connect gas and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A010",
+          "sequence": 10,
+          "name": "Verify combustible clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A011",
+          "sequence": 11,
+          "name": "Perform draft, ignition and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A012",
+          "sequence": 12,
+          "name": "Complete required inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S103100-A014",
+          "sequence": 14,
+          "name": "Submit operation records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S104000",
+      "section_code": "10 40 00",
+      "title": "Safety Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S104000-A001",
+          "sequence": 1,
+          "name": "Prepare safety-specialty schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A002",
+          "sequence": 2,
+          "name": "Verify code-required locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A003",
+          "sequence": 3,
+          "name": "Coordinate backing, visibility and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A004",
+          "sequence": 4,
+          "name": "Submit products and identification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A005",
+          "sequence": 5,
+          "name": "Procure equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A006",
+          "sequence": 6,
+          "name": "Lay out mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A007",
+          "sequence": 7,
+          "name": "Install cabinets, stations and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A008",
+          "sequence": 8,
+          "name": "Install identification signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A009",
+          "sequence": 9,
+          "name": "Inspect access and mounting heights",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A010",
+          "sequence": 10,
+          "name": "Test operable components",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104000-A012",
+          "sequence": 12,
+          "name": "Document final locations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S104100",
+      "section_code": "10 41 00",
+      "title": "Emergency Access and Information Cabinets",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S104100-A001",
+          "sequence": 1,
+          "name": "Prepare safety-specialty schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A002",
+          "sequence": 2,
+          "name": "Verify code-required locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A003",
+          "sequence": 3,
+          "name": "Coordinate backing, visibility and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A004",
+          "sequence": 4,
+          "name": "Submit products and identification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A005",
+          "sequence": 5,
+          "name": "Procure equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A006",
+          "sequence": 6,
+          "name": "Lay out mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A007",
+          "sequence": 7,
+          "name": "Install cabinets, stations and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A008",
+          "sequence": 8,
+          "name": "Install identification signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A009",
+          "sequence": 9,
+          "name": "Inspect access and mounting heights",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A010",
+          "sequence": 10,
+          "name": "Test operable components",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104100-A012",
+          "sequence": 12,
+          "name": "Document final locations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S104300",
+      "section_code": "10 43 00",
+      "title": "Emergency Aid Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S104300-A001",
+          "sequence": 1,
+          "name": "Prepare safety-specialty schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A002",
+          "sequence": 2,
+          "name": "Verify code-required locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A003",
+          "sequence": 3,
+          "name": "Coordinate backing, visibility and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A004",
+          "sequence": 4,
+          "name": "Submit products and identification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A005",
+          "sequence": 5,
+          "name": "Procure equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A006",
+          "sequence": 6,
+          "name": "Lay out mounting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A007",
+          "sequence": 7,
+          "name": "Install cabinets, stations and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A008",
+          "sequence": 8,
+          "name": "Install identification signs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A009",
+          "sequence": 9,
+          "name": "Inspect access and mounting heights",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A010",
+          "sequence": 10,
+          "name": "Test operable components",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104300-A012",
+          "sequence": 12,
+          "name": "Document final locations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S104400",
+      "section_code": "10 44 00",
+      "title": "Fire Protection Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S104400-A001",
+          "sequence": 1,
+          "name": "Prepare fire-protection specialty schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A002",
+          "sequence": 2,
+          "name": "Coordinate fire extinguisher types and ratings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A003",
+          "sequence": 3,
+          "name": "Verify cabinet and bracket locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A004",
+          "sequence": 4,
+          "name": "Submit cabinet and extinguisher data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A005",
+          "sequence": 5,
+          "name": "Approve finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A006",
+          "sequence": 6,
+          "name": "Procure cabinets and extinguishers",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A007",
+          "sequence": 7,
+          "name": "Install recessed and surface cabinets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A008",
+          "sequence": 8,
+          "name": "Install brackets and extinguishers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A009",
+          "sequence": 9,
+          "name": "Install signage and identification",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A010",
+          "sequence": 10,
+          "name": "Verify accessibility and fire-marshal requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A011",
+          "sequence": 11,
+          "name": "Inspect seals, gauges and tags",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A012",
+          "sequence": 12,
+          "name": "Complete authority inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104400-A013",
+          "sequence": 13,
+          "name": "Provide owner inventory and training",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S104413",
+      "section_code": "10 44 13",
+      "title": "Fire Protection Cabinets",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S104413-A001",
+          "sequence": 1,
+          "name": "Prepare fire-protection specialty schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A002",
+          "sequence": 2,
+          "name": "Coordinate fire extinguisher types and ratings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A003",
+          "sequence": 3,
+          "name": "Verify cabinet and bracket locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A004",
+          "sequence": 4,
+          "name": "Submit cabinet and extinguisher data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A005",
+          "sequence": 5,
+          "name": "Approve finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A006",
+          "sequence": 6,
+          "name": "Procure cabinets and extinguishers",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A007",
+          "sequence": 7,
+          "name": "Install recessed and surface cabinets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A008",
+          "sequence": 8,
+          "name": "Install brackets and extinguishers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A009",
+          "sequence": 9,
+          "name": "Install signage and identification",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A010",
+          "sequence": 10,
+          "name": "Verify accessibility and fire-marshal requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A011",
+          "sequence": 11,
+          "name": "Inspect seals, gauges and tags",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A012",
+          "sequence": 12,
+          "name": "Complete authority inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104413-A013",
+          "sequence": 13,
+          "name": "Provide owner inventory and training",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S104416",
+      "section_code": "10 44 16",
+      "title": "Fire Extinguishers",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S104416-A001",
+          "sequence": 1,
+          "name": "Prepare fire-protection specialty schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A002",
+          "sequence": 2,
+          "name": "Coordinate fire extinguisher types and ratings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A003",
+          "sequence": 3,
+          "name": "Verify cabinet and bracket locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A004",
+          "sequence": 4,
+          "name": "Submit cabinet and extinguisher data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A005",
+          "sequence": 5,
+          "name": "Approve finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A006",
+          "sequence": 6,
+          "name": "Procure cabinets and extinguishers",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A007",
+          "sequence": 7,
+          "name": "Install recessed and surface cabinets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A008",
+          "sequence": 8,
+          "name": "Install brackets and extinguishers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A009",
+          "sequence": 9,
+          "name": "Install signage and identification",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A010",
+          "sequence": 10,
+          "name": "Verify accessibility and fire-marshal requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A011",
+          "sequence": 11,
+          "name": "Inspect seals, gauges and tags",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A012",
+          "sequence": 12,
+          "name": "Complete authority inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S104416-A013",
+          "sequence": 13,
+          "name": "Provide owner inventory and training",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S105000",
+      "section_code": "10 50 00",
+      "title": "Storage Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S105000-A001",
+          "sequence": 1,
+          "name": "Prepare storage layouts and elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A003",
+          "sequence": 3,
+          "name": "Coordinate floor and wall supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A004",
+          "sequence": 4,
+          "name": "Submit load data and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A005",
+          "sequence": 5,
+          "name": "Fabricate or procure storage units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A006",
+          "sequence": 6,
+          "name": "Deliver and inventory components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A007",
+          "sequence": 7,
+          "name": "Lay out units",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A008",
+          "sequence": 8,
+          "name": "Install lockers, shelving or storage assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A009",
+          "sequence": 9,
+          "name": "Anchor and brace units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A010",
+          "sequence": 10,
+          "name": "Install doors, locks and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A011",
+          "sequence": 11,
+          "name": "Adjust operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A012",
+          "sequence": 12,
+          "name": "Inspect alignment, stability and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A013",
+          "sequence": 13,
+          "name": "Number and label units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105000-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S105100",
+      "section_code": "10 51 00",
+      "title": "Lockers",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S105100-A001",
+          "sequence": 1,
+          "name": "Prepare storage layouts and elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A003",
+          "sequence": 3,
+          "name": "Coordinate floor and wall supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A004",
+          "sequence": 4,
+          "name": "Submit load data and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A005",
+          "sequence": 5,
+          "name": "Fabricate or procure storage units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A006",
+          "sequence": 6,
+          "name": "Deliver and inventory components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A007",
+          "sequence": 7,
+          "name": "Lay out units",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A008",
+          "sequence": 8,
+          "name": "Install lockers, shelving or storage assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A009",
+          "sequence": 9,
+          "name": "Anchor and brace units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A010",
+          "sequence": 10,
+          "name": "Install doors, locks and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A011",
+          "sequence": 11,
+          "name": "Adjust operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A012",
+          "sequence": 12,
+          "name": "Inspect alignment, stability and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A013",
+          "sequence": 13,
+          "name": "Number and label units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105100-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S105500",
+      "section_code": "10 55 00",
+      "title": "Postal Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S105500-A001",
+          "sequence": 1,
+          "name": "Prepare mailbox and postal-specialty layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A002",
+          "sequence": 2,
+          "name": "Coordinate USPS or carrier requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A003",
+          "sequence": 3,
+          "name": "Verify quantities and tenant numbering",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A004",
+          "sequence": 4,
+          "name": "Submit products and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A005",
+          "sequence": 5,
+          "name": "Coordinate wall openings and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A006",
+          "sequence": 6,
+          "name": "Procure postal equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A007",
+          "sequence": 7,
+          "name": "Install mailbox assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A008",
+          "sequence": 8,
+          "name": "Install parcel lockers and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A009",
+          "sequence": 9,
+          "name": "Install locks and labels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A010",
+          "sequence": 10,
+          "name": "Verify accessibility and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A011",
+          "sequence": 11,
+          "name": "Coordinate postal inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A012",
+          "sequence": 12,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105500-A013",
+          "sequence": 13,
+          "name": "Turn over keys and records",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S105600",
+      "section_code": "10 56 00",
+      "title": "Storage Assemblies",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S105600-A001",
+          "sequence": 1,
+          "name": "Prepare storage layouts and elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A003",
+          "sequence": 3,
+          "name": "Coordinate floor and wall supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A004",
+          "sequence": 4,
+          "name": "Submit load data and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A005",
+          "sequence": 5,
+          "name": "Fabricate or procure storage units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A006",
+          "sequence": 6,
+          "name": "Deliver and inventory components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A007",
+          "sequence": 7,
+          "name": "Lay out units",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A008",
+          "sequence": 8,
+          "name": "Install lockers, shelving or storage assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A009",
+          "sequence": 9,
+          "name": "Anchor and brace units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A010",
+          "sequence": 10,
+          "name": "Install doors, locks and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A011",
+          "sequence": 11,
+          "name": "Adjust operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A012",
+          "sequence": 12,
+          "name": "Inspect alignment, stability and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A013",
+          "sequence": 13,
+          "name": "Number and label units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105600-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S105700",
+      "section_code": "10 57 00",
+      "title": "Wardrobe and Closet Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S105700-A001",
+          "sequence": 1,
+          "name": "Prepare storage layouts and elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A002",
+          "sequence": 2,
+          "name": "Verify room dimensions and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A003",
+          "sequence": 3,
+          "name": "Coordinate floor and wall supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A004",
+          "sequence": 4,
+          "name": "Submit load data and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A005",
+          "sequence": 5,
+          "name": "Fabricate or procure storage units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A006",
+          "sequence": 6,
+          "name": "Deliver and inventory components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A007",
+          "sequence": 7,
+          "name": "Lay out units",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A008",
+          "sequence": 8,
+          "name": "Install lockers, shelving or storage assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A009",
+          "sequence": 9,
+          "name": "Anchor and brace units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A010",
+          "sequence": 10,
+          "name": "Install doors, locks and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A011",
+          "sequence": 11,
+          "name": "Adjust operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A012",
+          "sequence": 12,
+          "name": "Inspect alignment, stability and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A013",
+          "sequence": 13,
+          "name": "Number and label units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S105700-A014",
+          "sequence": 14,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S107000",
+      "section_code": "10 70 00",
+      "title": "Exterior Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S107000-A001",
+          "sequence": 1,
+          "name": "Complete exterior-specialty engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication and anchorage drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A003",
+          "sequence": 3,
+          "name": "Coordinate structure, drainage and waterproofing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A004",
+          "sequence": 4,
+          "name": "Approve finish samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A006",
+          "sequence": 6,
+          "name": "Fabricate assemblies",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A007",
+          "sequence": 7,
+          "name": "Apply shop finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A008",
+          "sequence": 8,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A009",
+          "sequence": 9,
+          "name": "Install supports and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A010",
+          "sequence": 10,
+          "name": "Erect exterior specialty assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A011",
+          "sequence": 11,
+          "name": "Install flashing and sealants",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A012",
+          "sequence": 12,
+          "name": "Test drainage, operation and wind resistance as required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A013",
+          "sequence": 13,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107000-A014",
+          "sequence": 14,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S107100",
+      "section_code": "10 71 00",
+      "title": "Exterior Sun Control Devices",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S107100-A001",
+          "sequence": 1,
+          "name": "Complete exterior-specialty engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication and anchorage drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A003",
+          "sequence": 3,
+          "name": "Coordinate structure, drainage and waterproofing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A004",
+          "sequence": 4,
+          "name": "Approve finish samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A006",
+          "sequence": 6,
+          "name": "Fabricate assemblies",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A007",
+          "sequence": 7,
+          "name": "Apply shop finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A008",
+          "sequence": 8,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A009",
+          "sequence": 9,
+          "name": "Install supports and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A010",
+          "sequence": 10,
+          "name": "Erect exterior specialty assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A011",
+          "sequence": 11,
+          "name": "Install flashing and sealants",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A012",
+          "sequence": 12,
+          "name": "Test drainage, operation and wind resistance as required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A013",
+          "sequence": 13,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107100-A014",
+          "sequence": 14,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S107300",
+      "section_code": "10 73 00",
+      "title": "Protective Covers",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S107300-A001",
+          "sequence": 1,
+          "name": "Complete exterior-specialty engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication and anchorage drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A003",
+          "sequence": 3,
+          "name": "Coordinate structure, drainage and waterproofing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A004",
+          "sequence": 4,
+          "name": "Approve finish samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A006",
+          "sequence": 6,
+          "name": "Fabricate assemblies",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A007",
+          "sequence": 7,
+          "name": "Apply shop finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A008",
+          "sequence": 8,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A009",
+          "sequence": 9,
+          "name": "Install supports and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A010",
+          "sequence": 10,
+          "name": "Erect exterior specialty assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A011",
+          "sequence": 11,
+          "name": "Install flashing and sealants",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A012",
+          "sequence": 12,
+          "name": "Test drainage, operation and wind resistance as required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A013",
+          "sequence": 13,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107300-A014",
+          "sequence": 14,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S107400",
+      "section_code": "10 74 00",
+      "title": "Manufactured Exterior Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S107400-A001",
+          "sequence": 1,
+          "name": "Complete exterior-specialty engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication and anchorage drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A003",
+          "sequence": 3,
+          "name": "Coordinate structure, drainage and waterproofing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A004",
+          "sequence": 4,
+          "name": "Approve finish samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A006",
+          "sequence": 6,
+          "name": "Fabricate assemblies",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A007",
+          "sequence": 7,
+          "name": "Apply shop finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A008",
+          "sequence": 8,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A009",
+          "sequence": 9,
+          "name": "Install supports and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A010",
+          "sequence": 10,
+          "name": "Erect exterior specialty assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A011",
+          "sequence": 11,
+          "name": "Install flashing and sealants",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A012",
+          "sequence": 12,
+          "name": "Test drainage, operation and wind resistance as required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A013",
+          "sequence": 13,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107400-A014",
+          "sequence": 14,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S107500",
+      "section_code": "10 75 00",
+      "title": "Flagpoles",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S107500-A001",
+          "sequence": 1,
+          "name": "Submit flagpole, flag and banner products",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A002",
+          "sequence": 2,
+          "name": "Complete foundation and wind-load coordination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A004",
+          "sequence": 4,
+          "name": "Verify underground utilities",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A005",
+          "sequence": 5,
+          "name": "Construct foundations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A006",
+          "sequence": 6,
+          "name": "Install anchor bolts or sleeves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A007",
+          "sequence": 7,
+          "name": "Deliver and stage poles",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A008",
+          "sequence": 8,
+          "name": "Erect flagpoles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A009",
+          "sequence": 9,
+          "name": "Install halyards, fittings and flags",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A010",
+          "sequence": 10,
+          "name": "Plumb and secure poles",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A011",
+          "sequence": 11,
+          "name": "Test operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A012",
+          "sequence": 12,
+          "name": "Inspect finish and foundations",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S107500-A013",
+          "sequence": 13,
+          "name": "Train owner and turn over accessories",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S108000",
+      "section_code": "10 80 00",
+      "title": "Other Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S108000-A001",
+          "sequence": 1,
+          "name": "Prepare specialty-item submittals",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A002",
+          "sequence": 2,
+          "name": "Verify quantities and locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A003",
+          "sequence": 3,
+          "name": "Coordinate backing, supports and utilities",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A004",
+          "sequence": 4,
+          "name": "Approve materials, colors and finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A006",
+          "sequence": 6,
+          "name": "Procure specialty items",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A007",
+          "sequence": 7,
+          "name": "Receive, inventory and protect items",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A008",
+          "sequence": 8,
+          "name": "Conduct preparatory quality-control review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A009",
+          "sequence": 9,
+          "name": "Lay out installation locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A010",
+          "sequence": 10,
+          "name": "Install specialty items",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A011",
+          "sequence": 11,
+          "name": "Inspect anchorage, alignment and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A012",
+          "sequence": 12,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108000-A013",
+          "sequence": 13,
+          "name": "Complete punch and turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S108100",
+      "section_code": "10 81 00",
+      "title": "Pest Control Devices",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S108100-A001",
+          "sequence": 1,
+          "name": "Submit pest-control devices",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A002",
+          "sequence": 2,
+          "name": "Coordinate locations and service access",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A003",
+          "sequence": 3,
+          "name": "Verify power requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A004",
+          "sequence": 4,
+          "name": "Procure devices",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A005",
+          "sequence": 5,
+          "name": "Install insect, bird or rodent-control devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A006",
+          "sequence": 6,
+          "name": "Install barriers, spikes, netting or traps",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A007",
+          "sequence": 7,
+          "name": "Seal interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A008",
+          "sequence": 8,
+          "name": "Connect powered devices",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A009",
+          "sequence": 9,
+          "name": "Test operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A010",
+          "sequence": 10,
+          "name": "Inspect coverage and safety",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A011",
+          "sequence": 11,
+          "name": "Provide maintenance instructions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108100-A012",
+          "sequence": 12,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S108200",
+      "section_code": "10 82 00",
+      "title": "Grilles and Screens",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S108200-A001",
+          "sequence": 1,
+          "name": "Submit grille and screen system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A002",
+          "sequence": 2,
+          "name": "Prepare layout and attachment details",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A003",
+          "sequence": 3,
+          "name": "Approve material and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A004",
+          "sequence": 4,
+          "name": "Verify openings and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A005",
+          "sequence": 5,
+          "name": "Fabricate frames and panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A006",
+          "sequence": 6,
+          "name": "Deliver and protect assemblies",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A007",
+          "sequence": 7,
+          "name": "Install frames and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A008",
+          "sequence": 8,
+          "name": "Install grilles or screens",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A009",
+          "sequence": 9,
+          "name": "Install removable access panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A010",
+          "sequence": 10,
+          "name": "Align joints and patterns",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A011",
+          "sequence": 11,
+          "name": "Inspect attachment and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108200-A012",
+          "sequence": 12,
+          "name": "Repair damaged components",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S108300",
+      "section_code": "10 83 00",
+      "title": "Flags and Banners",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S108300-A001",
+          "sequence": 1,
+          "name": "Submit flagpole, flag and banner products",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A002",
+          "sequence": 2,
+          "name": "Complete foundation and wind-load coordination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A004",
+          "sequence": 4,
+          "name": "Verify underground utilities",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A005",
+          "sequence": 5,
+          "name": "Construct foundations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A006",
+          "sequence": 6,
+          "name": "Install anchor bolts or sleeves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A007",
+          "sequence": 7,
+          "name": "Deliver and stage poles",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A008",
+          "sequence": 8,
+          "name": "Erect flagpoles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A009",
+          "sequence": 9,
+          "name": "Install halyards, fittings and flags",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A010",
+          "sequence": 10,
+          "name": "Plumb and secure poles",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A011",
+          "sequence": 11,
+          "name": "Test operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A012",
+          "sequence": 12,
+          "name": "Inspect finish and foundations",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108300-A013",
+          "sequence": 13,
+          "name": "Train owner and turn over accessories",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D10-S108600",
+      "section_code": "10 86 00",
+      "title": "Safety and Security Mirrors",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D10-S108600-A001",
+          "sequence": 1,
+          "name": "Submit mirror types and mounting hardware",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A002",
+          "sequence": 2,
+          "name": "Verify sightlines and locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A003",
+          "sequence": 3,
+          "name": "Coordinate backing and accessibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A004",
+          "sequence": 4,
+          "name": "Approve samples and sizes",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A005",
+          "sequence": 5,
+          "name": "Fabricate mirrors",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A006",
+          "sequence": 6,
+          "name": "Deliver and protect units",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A007",
+          "sequence": 7,
+          "name": "Install brackets and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A008",
+          "sequence": 8,
+          "name": "Set mirror angles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A009",
+          "sequence": 9,
+          "name": "Adjust convex or security mirrors",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A010",
+          "sequence": 10,
+          "name": "Inspect visibility and attachment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A011",
+          "sequence": 11,
+          "name": "Clean surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D10-S108600-A012",
+          "sequence": 12,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

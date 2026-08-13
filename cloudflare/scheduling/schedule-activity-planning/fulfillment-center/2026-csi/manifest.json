@@ -1,0 +1,329 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "source_root": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections",
+  "totals": {
+    "divisions": 35,
+    "sections": 3138,
+    "activities": 47620
+  },
+  "divisions": [
+    {
+      "division_id": "SSX-2026-D00",
+      "division_number": "00",
+      "title": "SSX 2026 CSI Division 00 Activities — Procurement and Contracting Requirements",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-00/MASTER_DIVISION_00_ACTIVITIES.md",
+      "sections": 8,
+      "activities": 160,
+      "file": "inventory/division-00.json"
+    },
+    {
+      "division_id": "SSX-2026-D01",
+      "division_number": "01",
+      "title": "SSX 2026 CSI Division 01 Activities — General Requirements",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-01/MASTER_DIVISION_01_ACTIVITIES.md",
+      "sections": 50,
+      "activities": 700,
+      "file": "inventory/division-01.json"
+    },
+    {
+      "division_id": "SSX-2026-D02",
+      "division_number": "02",
+      "title": "SSX 2026 CSI Division 02 Activities — Existing Conditions",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-02/MASTER_DIVISION_02_ACTIVITIES.md",
+      "sections": 30,
+      "activities": 495,
+      "file": "inventory/division-02.json"
+    },
+    {
+      "division_id": "SSX-2026-D03",
+      "division_number": "03",
+      "title": "Concrete",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-03/MASTER_DIVISION_03_ACTIVITIES.md",
+      "sections": 27,
+      "activities": 427,
+      "file": "inventory/division-03.json"
+    },
+    {
+      "division_id": "SSX-2026-D04",
+      "division_number": "04",
+      "title": "Masonry",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-04/MASTER_DIVISION_04_ACTIVITIES.md",
+      "sections": 31,
+      "activities": 451,
+      "file": "inventory/division-04.json"
+    },
+    {
+      "division_id": "SSX-2026-D05",
+      "division_number": "05",
+      "title": "Metals",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-05/MASTER_DIVISION_05_ACTIVITIES.md",
+      "sections": 35,
+      "activities": 473,
+      "file": "inventory/division-05.json"
+    },
+    {
+      "division_id": "SSX-2026-D06",
+      "division_number": "06",
+      "title": "Wood, Plastics, and Composites",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-06/MASTER_DIVISION_06_ACTIVITIES.md",
+      "sections": 34,
+      "activities": 439,
+      "file": "inventory/division-06.json"
+    },
+    {
+      "division_id": "SSX-2026-D07",
+      "division_number": "07",
+      "title": "Thermal and Moisture Protection",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-07/MASTER_DIVISION_07_ACTIVITIES.md",
+      "sections": 49,
+      "activities": 575,
+      "file": "inventory/division-07.json"
+    },
+    {
+      "division_id": "SSX-2026-D08",
+      "division_number": "08",
+      "title": "Openings",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-08/MASTER_DIVISION_08_ACTIVITIES.md",
+      "sections": 50,
+      "activities": 761,
+      "file": "inventory/division-08.json"
+    },
+    {
+      "division_id": "SSX-2026-D09",
+      "division_number": "09",
+      "title": "Finishes",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-09/MASTER_DIVISION_09_ACTIVITIES.md",
+      "sections": 52,
+      "activities": 734,
+      "file": "inventory/division-09.json"
+    },
+    {
+      "division_id": "SSX-2026-D10",
+      "division_number": "10",
+      "title": "Specialties",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-10/MASTER_DIVISION_10_ACTIVITIES.md",
+      "sections": 47,
+      "activities": 619,
+      "file": "inventory/division-10.json"
+    },
+    {
+      "division_id": "SSX-2026-D11",
+      "division_number": "11",
+      "title": "Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-11/MASTER_DIVISION_11_ACTIVITIES.md",
+      "sections": 49,
+      "activities": 676,
+      "file": "inventory/division-11.json"
+    },
+    {
+      "division_id": "SSX-2026-D12",
+      "division_number": "12",
+      "title": "Furnishings",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-12/MASTER_DIVISION_12_ACTIVITIES.md",
+      "sections": 47,
+      "activities": 665,
+      "file": "inventory/division-12.json"
+    },
+    {
+      "division_id": "SSX-2026-D13",
+      "division_number": "13",
+      "title": "Special Construction",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-13/MASTER_DIVISION_13_ACTIVITIES.md",
+      "sections": 51,
+      "activities": 720,
+      "file": "inventory/division-13.json"
+    },
+    {
+      "division_id": "SSX-2026-D14",
+      "division_number": "14",
+      "title": "Conveying Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-14/MASTER_DIVISION_14_ACTIVITIES.md",
+      "sections": 41,
+      "activities": 620,
+      "file": "inventory/division-14.json"
+    },
+    {
+      "division_id": "SSX-2026-D21",
+      "division_number": "21",
+      "title": "Fire Suppression",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-21/MASTER_DIVISION_21_ACTIVITIES.md",
+      "sections": 35,
+      "activities": 468,
+      "file": "inventory/division-21.json"
+    },
+    {
+      "division_id": "SSX-2026-D22",
+      "division_number": "22",
+      "title": "Plumbing",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-22/MASTER_DIVISION_22_ACTIVITIES.md",
+      "sections": 59,
+      "activities": 772,
+      "file": "inventory/division-22.json"
+    },
+    {
+      "division_id": "SSX-2026-D23",
+      "division_number": "23",
+      "title": "Heating, Ventilating, and Air Conditioning",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-23/MASTER_DIVISION_23_ACTIVITIES.md",
+      "sections": 96,
+      "activities": 1289,
+      "file": "inventory/division-23.json"
+    },
+    {
+      "division_id": "SSX-2026-D25",
+      "division_number": "25",
+      "title": "Integrated Automation",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-25/MASTER_DIVISION_25_ACTIVITIES.md",
+      "sections": 21,
+      "activities": 281,
+      "file": "inventory/division-25.json"
+    },
+    {
+      "division_id": "SSX-2026-D26",
+      "division_number": "26",
+      "title": "Electrical",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-26/MASTER_DIVISION_26_ACTIVITIES.md",
+      "sections": 65,
+      "activities": 872,
+      "file": "inventory/division-26.json"
+    },
+    {
+      "division_id": "SSX-2026-D27",
+      "division_number": "27",
+      "title": "Communications",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-27/MASTER_DIVISION_27_ACTIVITIES.md",
+      "sections": 52,
+      "activities": 686,
+      "file": "inventory/division-27.json"
+    },
+    {
+      "division_id": "SSX-2026-D28",
+      "division_number": "28",
+      "title": "Electronic Safety and Security",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-28/MASTER_DIVISION_28_ACTIVITIES.md",
+      "sections": 32,
+      "activities": 411,
+      "file": "inventory/division-28.json"
+    },
+    {
+      "division_id": "SSX-2026-D31",
+      "division_number": "31",
+      "title": "Earthwork",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-31/MASTER_DIVISION_31_ACTIVITIES.md",
+      "sections": 73,
+      "activities": 873,
+      "file": "inventory/division-31.json"
+    },
+    {
+      "division_id": "SSX-2026-D32",
+      "division_number": "32",
+      "title": "Exterior Improvements",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-32/MASTER_DIVISION_32_ACTIVITIES.md",
+      "sections": 136,
+      "activities": 1927,
+      "file": "inventory/division-32.json"
+    },
+    {
+      "division_id": "SSX-2026-D33",
+      "division_number": "33",
+      "title": "Utilities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-33/MASTER_DIVISION_33_ACTIVITIES.md",
+      "sections": 250,
+      "activities": 3292,
+      "file": "inventory/division-33.json"
+    },
+    {
+      "division_id": "SSX-2026-D34",
+      "division_number": "34",
+      "title": "Transportation",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-34/MASTER_DIVISION_34_ACTIVITIES.md",
+      "sections": 170,
+      "activities": 2656,
+      "file": "inventory/division-34.json"
+    },
+    {
+      "division_id": "SSX-2026-D35",
+      "division_number": "35",
+      "title": "Waterway and Marine Construction",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-35/MASTER_DIVISION_35_ACTIVITIES.md",
+      "sections": 128,
+      "activities": 2521,
+      "file": "inventory/division-35.json"
+    },
+    {
+      "division_id": "SSX-2026-D40",
+      "division_number": "40",
+      "title": "Process Interconnections",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-40/MASTER_DIVISION_40_ACTIVITIES.md",
+      "sections": 340,
+      "activities": 5911,
+      "file": "inventory/division-40.json"
+    },
+    {
+      "division_id": "SSX-2026-D41",
+      "division_number": "41",
+      "title": "Material Processing and Handling Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-41/MASTER_DIVISION_41_ACTIVITIES.md",
+      "sections": 224,
+      "activities": 4844,
+      "file": "inventory/division-41.json"
+    },
+    {
+      "division_id": "SSX-2026-D42",
+      "division_number": "42",
+      "title": "Process Heating, Cooling, and Drying Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-42/MASTER_DIVISION_42_ACTIVITIES.md",
+      "sections": 80,
+      "activities": 996,
+      "file": "inventory/division-42.json"
+    },
+    {
+      "division_id": "SSX-2026-D43",
+      "division_number": "43",
+      "title": "Process Gas and Liquid Handling, Purification, and Storage Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-43/MASTER_DIVISION_43_ACTIVITIES.md",
+      "sections": 182,
+      "activities": 4092,
+      "file": "inventory/division-43.json"
+    },
+    {
+      "division_id": "SSX-2026-D44",
+      "division_number": "44",
+      "title": "Pollution and Waste Control Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-44/MASTER_DIVISION_44_ACTIVITIES.md",
+      "sections": 167,
+      "activities": 2016,
+      "file": "inventory/division-44.json"
+    },
+    {
+      "division_id": "SSX-2026-D45",
+      "division_number": "45",
+      "title": "Industry-Specific Manufacturing Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-45/MASTER_DIVISION_45_ACTIVITIES.md",
+      "sections": 105,
+      "activities": 1260,
+      "file": "inventory/division-45.json"
+    },
+    {
+      "division_id": "SSX-2026-D46",
+      "division_number": "46",
+      "title": "Water and Wastewater Equipment",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-46/MASTER_DIVISION_46_ACTIVITIES.md",
+      "sections": 264,
+      "activities": 3175,
+      "file": "inventory/division-46.json"
+    },
+    {
+      "division_id": "SSX-2026-D48",
+      "division_number": "48",
+      "title": "Electrical Power Generation",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-48/MASTER_DIVISION_48_ACTIVITIES.md",
+      "sections": 58,
+      "activities": 763,
+      "file": "inventory/division-48.json"
+    }
+  ]
+}

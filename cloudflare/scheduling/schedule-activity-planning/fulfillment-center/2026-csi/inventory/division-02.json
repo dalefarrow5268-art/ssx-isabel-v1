@@ -1,0 +1,4683 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D02",
+    "division_number": "02",
+    "title": "SSX 2026 CSI Division 02 Activities — Existing Conditions",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-02/MASTER_DIVISION_02_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 30,
+    "activities": 495
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D02-S022000",
+      "section_code": "02 20 00",
+      "title": "Assessment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S022000-A001",
+          "sequence": 1,
+          "name": "Collect record drawings and prior reports",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A002",
+          "sequence": 2,
+          "name": "Define assessment scope",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A003",
+          "sequence": 3,
+          "name": "Identify access requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A004",
+          "sequence": 4,
+          "name": "Prepare investigation plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A005",
+          "sequence": 5,
+          "name": "Coordinate occupied areas",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A006",
+          "sequence": 6,
+          "name": "Obtain permits and shutdown approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A007",
+          "sequence": 7,
+          "name": "Conduct visual assessment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A008",
+          "sequence": 8,
+          "name": "Conduct destructive probes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A009",
+          "sequence": 9,
+          "name": "Record dimensions and conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A010",
+          "sequence": 10,
+          "name": "Photograph and scan conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A011",
+          "sequence": 11,
+          "name": "Sample materials when required",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A012",
+          "sequence": 12,
+          "name": "Analyze results",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A013",
+          "sequence": 13,
+          "name": "Issue assessment report",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A014",
+          "sequence": 14,
+          "name": "Identify immediate hazards",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A015",
+          "sequence": 15,
+          "name": "Develop repair/removal recommendations",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022000-A016",
+          "sequence": 16,
+          "name": "Update design and schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S022100",
+      "section_code": "02 21 00",
+      "title": "Surveys",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S022100-A001",
+          "sequence": 1,
+          "name": "Establish survey control",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A002",
+          "sequence": 2,
+          "name": "Verify property and easement information",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A003",
+          "sequence": 3,
+          "name": "Conduct boundary survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A004",
+          "sequence": 4,
+          "name": "Conduct topographic survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A005",
+          "sequence": 5,
+          "name": "Conduct utility survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A006",
+          "sequence": 6,
+          "name": "Conduct building survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A007",
+          "sequence": 7,
+          "name": "Conduct floor-level survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A008",
+          "sequence": 8,
+          "name": "Conduct facade survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A009",
+          "sequence": 9,
+          "name": "Conduct roof survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A010",
+          "sequence": 10,
+          "name": "Conduct accessibility survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A011",
+          "sequence": 11,
+          "name": "Conduct tree/vegetation survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A012",
+          "sequence": 12,
+          "name": "Mark survey findings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A013",
+          "sequence": 13,
+          "name": "Issue certified survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A014",
+          "sequence": 14,
+          "name": "Resolve discrepancies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022100-A015",
+          "sequence": 15,
+          "name": "Preserve benchmarks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S022200",
+      "section_code": "02 22 00",
+      "title": "Existing Conditions Assessment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S022200-A001",
+          "sequence": 1,
+          "name": "Define building and system areas",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A002",
+          "sequence": 2,
+          "name": "Review maintenance history",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A003",
+          "sequence": 3,
+          "name": "Interview owner operations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A004",
+          "sequence": 4,
+          "name": "Inspect structural conditions",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A005",
+          "sequence": 5,
+          "name": "Inspect envelope conditions",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A006",
+          "sequence": 6,
+          "name": "Inspect interior conditions",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A007",
+          "sequence": 7,
+          "name": "Inspect plumbing systems",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A008",
+          "sequence": 8,
+          "name": "Inspect HVAC systems",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A009",
+          "sequence": 9,
+          "name": "Inspect electrical systems",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A010",
+          "sequence": 10,
+          "name": "Inspect fire/life-safety systems",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A011",
+          "sequence": 11,
+          "name": "Inspect technology/security systems",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A012",
+          "sequence": 12,
+          "name": "Rate condition and remaining life",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A013",
+          "sequence": 13,
+          "name": "Identify active leaks or failures",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A014",
+          "sequence": 14,
+          "name": "Identify code concerns",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A015",
+          "sequence": 15,
+          "name": "Issue condition assessment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022200-A016",
+          "sequence": 16,
+          "name": "Incorporate findings into work plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S022400",
+      "section_code": "02 24 00",
+      "title": "Environmental Assessment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S022400-A001",
+          "sequence": 1,
+          "name": "Perform records review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A002",
+          "sequence": 2,
+          "name": "Conduct site reconnaissance",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A003",
+          "sequence": 3,
+          "name": "Identify recognized environmental conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A004",
+          "sequence": 4,
+          "name": "Review current and historical site use",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A005",
+          "sequence": 5,
+          "name": "Review storage tanks and chemical areas",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A006",
+          "sequence": 6,
+          "name": "Review spills and releases",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A007",
+          "sequence": 7,
+          "name": "Review wetlands and protected resources",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A008",
+          "sequence": 8,
+          "name": "Define sampling plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A009",
+          "sequence": 9,
+          "name": "Collect soil, groundwater or building samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A010",
+          "sequence": 10,
+          "name": "Maintain chain of custody",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A011",
+          "sequence": 11,
+          "name": "Receive laboratory results",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A012",
+          "sequence": 12,
+          "name": "Evaluate findings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A013",
+          "sequence": 13,
+          "name": "Notify required parties",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A014",
+          "sequence": 14,
+          "name": "Prepare environmental report",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022400-A015",
+          "sequence": 15,
+          "name": "Develop remediation scope",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S022500",
+      "section_code": "02 25 00",
+      "title": "Existing Material Assessment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S022500-A001",
+          "sequence": 1,
+          "name": "Identify suspect materials",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A002",
+          "sequence": 2,
+          "name": "Prepare sampling plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A003",
+          "sequence": 3,
+          "name": "Establish safe access",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A004",
+          "sequence": 4,
+          "name": "Collect representative samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A005",
+          "sequence": 5,
+          "name": "Test coatings",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A006",
+          "sequence": 6,
+          "name": "Test flooring and adhesives",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A007",
+          "sequence": 7,
+          "name": "Test insulation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A008",
+          "sequence": 8,
+          "name": "Test sealants",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A009",
+          "sequence": 9,
+          "name": "Test roofing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A010",
+          "sequence": 10,
+          "name": "Test masonry and concrete",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A011",
+          "sequence": 11,
+          "name": "Test soil or fill",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A012",
+          "sequence": 12,
+          "name": "Record exact sample locations",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A013",
+          "sequence": 13,
+          "name": "Review laboratory results",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A014",
+          "sequence": 14,
+          "name": "Map affected materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A015",
+          "sequence": 15,
+          "name": "Issue material assessment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022500-A016",
+          "sequence": 16,
+          "name": "Update demolition/abatement documents",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S022600",
+      "section_code": "02 26 00",
+      "title": "Hazardous Material Assessment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S022600-A001",
+          "sequence": 1,
+          "name": "Review prior hazardous-material surveys",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A002",
+          "sequence": 2,
+          "name": "Identify regulated materials",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A003",
+          "sequence": 3,
+          "name": "Engage qualified inspector",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A004",
+          "sequence": 4,
+          "name": "Conduct asbestos survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A005",
+          "sequence": 5,
+          "name": "Conduct lead survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A006",
+          "sequence": 6,
+          "name": "Conduct PCB survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A007",
+          "sequence": 7,
+          "name": "Conduct mercury survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A008",
+          "sequence": 8,
+          "name": "Conduct mold/moisture survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A009",
+          "sequence": 9,
+          "name": "Conduct hazardous chemical inventory",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A010",
+          "sequence": 10,
+          "name": "Sample and test",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A011",
+          "sequence": 11,
+          "name": "Prepare quantity estimates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A012",
+          "sequence": 12,
+          "name": "Identify occupied-area risk",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A013",
+          "sequence": 13,
+          "name": "Prepare hazardous-material report",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A014",
+          "sequence": 14,
+          "name": "Define abatement limits",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S022600-A015",
+          "sequence": 15,
+          "name": "Establish notification and permit requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S023000",
+      "section_code": "02 30 00",
+      "title": "Subsurface Investigation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S023000-A001",
+          "sequence": 1,
+          "name": "Define geotechnical and environmental objectives",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A002",
+          "sequence": 2,
+          "name": "Locate utilities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A003",
+          "sequence": 3,
+          "name": "Obtain drilling/excavation permits",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A004",
+          "sequence": 4,
+          "name": "Mobilize drilling or probing equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A005",
+          "sequence": 5,
+          "name": "Establish test locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A006",
+          "sequence": 6,
+          "name": "Drill borings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A007",
+          "sequence": 7,
+          "name": "Excavate test pits",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A008",
+          "sequence": 8,
+          "name": "Conduct cone penetration testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A009",
+          "sequence": 9,
+          "name": "Conduct geophysical investigation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A010",
+          "sequence": 10,
+          "name": "Log soil and rock",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A011",
+          "sequence": 11,
+          "name": "Sample soil and groundwater",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A012",
+          "sequence": 12,
+          "name": "Install monitoring wells",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A013",
+          "sequence": 13,
+          "name": "Conduct in-situ testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A014",
+          "sequence": 14,
+          "name": "Complete laboratory testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A015",
+          "sequence": 15,
+          "name": "Abandon or protect borings/wells",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A016",
+          "sequence": 16,
+          "name": "Restore investigation areas",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023000-A017",
+          "sequence": 17,
+          "name": "Issue report",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S023200",
+      "section_code": "02 32 00",
+      "title": "Geotechnical Investigations",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S023200-A001",
+          "sequence": 1,
+          "name": "Review foundation concept",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A002",
+          "sequence": 2,
+          "name": "Prepare exploration program",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A003",
+          "sequence": 3,
+          "name": "Mark boring locations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A004",
+          "sequence": 4,
+          "name": "Clear utilities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A005",
+          "sequence": 5,
+          "name": "Mobilize geotechnical team",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A006",
+          "sequence": 6,
+          "name": "Perform borings and rock coring",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A007",
+          "sequence": 7,
+          "name": "Measure groundwater",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A008",
+          "sequence": 8,
+          "name": "Conduct test pits",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A009",
+          "sequence": 9,
+          "name": "Conduct field tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A010",
+          "sequence": 10,
+          "name": "Conduct laboratory classification",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A011",
+          "sequence": 11,
+          "name": "Conduct strength and consolidation tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A012",
+          "sequence": 12,
+          "name": "Evaluate bearing and settlement",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A013",
+          "sequence": 13,
+          "name": "Evaluate excavation and dewatering",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A014",
+          "sequence": 14,
+          "name": "Evaluate pavement sections",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A015",
+          "sequence": 15,
+          "name": "Issue geotechnical report",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A016",
+          "sequence": 16,
+          "name": "Respond to design questions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S023200-A017",
+          "sequence": 17,
+          "name": "Provide construction observation when required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024000",
+      "section_code": "02 40 00",
+      "title": "Demolition and Structure Moving",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024000-A001",
+          "sequence": 1,
+          "name": "Define demolition limits",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A002",
+          "sequence": 2,
+          "name": "Verify owner salvage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A003",
+          "sequence": 3,
+          "name": "Verify hazardous-material clearance",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A004",
+          "sequence": 4,
+          "name": "Verify utility disconnects",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A005",
+          "sequence": 5,
+          "name": "Obtain demolition permit",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A006",
+          "sequence": 6,
+          "name": "Prepare engineering and means/methods",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A007",
+          "sequence": 7,
+          "name": "Prepare demolition sequence",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A008",
+          "sequence": 8,
+          "name": "Prepare temporary-support plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A009",
+          "sequence": 9,
+          "name": "Install protection and barriers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A010",
+          "sequence": 10,
+          "name": "Conduct pre-demolition survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A011",
+          "sequence": 11,
+          "name": "Conduct preparatory meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A012",
+          "sequence": 12,
+          "name": "Execute demolition",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A013",
+          "sequence": 13,
+          "name": "Sort salvage and waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A014",
+          "sequence": 14,
+          "name": "Inspect remaining construction",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A015",
+          "sequence": 15,
+          "name": "Complete patching and restoration",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024000-A016",
+          "sequence": 16,
+          "name": "Obtain demolition acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024100",
+      "section_code": "02 41 00",
+      "title": "Demolition",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024100-A001",
+          "sequence": 1,
+          "name": "Submit demolition plan",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A002",
+          "sequence": 2,
+          "name": "Submit engineering for temporary stability",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A003",
+          "sequence": 3,
+          "name": "Coordinate utility shutdowns",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A004",
+          "sequence": 4,
+          "name": "Disconnect and cap utilities",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A005",
+          "sequence": 5,
+          "name": "Remove hazardous materials",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A006",
+          "sequence": 6,
+          "name": "Install dust, noise and vibration controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A007",
+          "sequence": 7,
+          "name": "Install public protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A008",
+          "sequence": 8,
+          "name": "Salvage designated items",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A009",
+          "sequence": 9,
+          "name": "Perform interior selective demolition",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A010",
+          "sequence": 10,
+          "name": "Perform structural demolition",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A011",
+          "sequence": 11,
+          "name": "Remove foundations when required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A012",
+          "sequence": 12,
+          "name": "Remove paving and site features",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A013",
+          "sequence": 13,
+          "name": "Load and haul debris",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A014",
+          "sequence": 14,
+          "name": "Track disposal and recycling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A015",
+          "sequence": 15,
+          "name": "Survey final limits",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A016",
+          "sequence": 16,
+          "name": "Correct over-demolition",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024100-A017",
+          "sequence": 17,
+          "name": "Release area for new work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024113",
+      "section_code": "02 41 13",
+      "title": "Selective Site Demolition",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024113-A001",
+          "sequence": 1,
+          "name": "Verify site removal limits",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A002",
+          "sequence": 2,
+          "name": "Identify underground utilities",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A003",
+          "sequence": 3,
+          "name": "Protect trees and retained improvements",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A004",
+          "sequence": 4,
+          "name": "Remove paving",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A005",
+          "sequence": 5,
+          "name": "Remove curbs and walks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A006",
+          "sequence": 6,
+          "name": "Remove site furnishings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A007",
+          "sequence": 7,
+          "name": "Remove fences and gates",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A008",
+          "sequence": 8,
+          "name": "Remove landscape/irrigation elements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A009",
+          "sequence": 9,
+          "name": "Remove abandoned utilities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A010",
+          "sequence": 10,
+          "name": "Remove foundations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A011",
+          "sequence": 11,
+          "name": "Backfill voids",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A012",
+          "sequence": 12,
+          "name": "Grade and stabilize",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A013",
+          "sequence": 13,
+          "name": "Dispose/recycle materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A014",
+          "sequence": 14,
+          "name": "Restore affected access",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024113-A015",
+          "sequence": 15,
+          "name": "Inspect completed site",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024119",
+      "section_code": "02 41 19",
+      "title": "Selective Building Demolition",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024119-A001",
+          "sequence": 1,
+          "name": "Conduct room-by-room survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A002",
+          "sequence": 2,
+          "name": "Mark items to remain",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A003",
+          "sequence": 3,
+          "name": "Mark salvage",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A004",
+          "sequence": 4,
+          "name": "Isolate occupied areas",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A005",
+          "sequence": 5,
+          "name": "Shut down and make safe MEP systems",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A006",
+          "sequence": 6,
+          "name": "Install temporary partitions",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A007",
+          "sequence": 7,
+          "name": "Remove finishes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A008",
+          "sequence": 8,
+          "name": "Remove ceilings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A009",
+          "sequence": 9,
+          "name": "Remove partitions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A010",
+          "sequence": 10,
+          "name": "Remove doors and equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A011",
+          "sequence": 11,
+          "name": "Remove MEP components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A012",
+          "sequence": 12,
+          "name": "Cut structural openings under approved plan",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A013",
+          "sequence": 13,
+          "name": "Protect substrates and adjacent finishes",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A014",
+          "sequence": 14,
+          "name": "Patch temporary damage",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024119-A015",
+          "sequence": 15,
+          "name": "Clean and release area",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024200",
+      "section_code": "02 42 00",
+      "title": "Removal and Salvage",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024200-A001",
+          "sequence": 1,
+          "name": "Identify items for owner retention",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A002",
+          "sequence": 2,
+          "name": "Tag and inventory items",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A003",
+          "sequence": 3,
+          "name": "Photograph pre-removal condition",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A004",
+          "sequence": 4,
+          "name": "Develop careful-removal procedure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A005",
+          "sequence": 5,
+          "name": "Disconnect utilities",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A006",
+          "sequence": 6,
+          "name": "Remove without damage",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A007",
+          "sequence": 7,
+          "name": "Clean salvaged item",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A008",
+          "sequence": 8,
+          "name": "Package and label",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A009",
+          "sequence": 9,
+          "name": "Transport to designated storage",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A010",
+          "sequence": 10,
+          "name": "Obtain owner receipt",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A011",
+          "sequence": 11,
+          "name": "Track items for reinstallation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A012",
+          "sequence": 12,
+          "name": "Repair salvage damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A013",
+          "sequence": 13,
+          "name": "Reinstall when scheduled",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024200-A014",
+          "sequence": 14,
+          "name": "Update final inventory",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024291",
+      "section_code": "02 42 91",
+      "title": "Historic Material Removal and Salvage",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024291-A001",
+          "sequence": 1,
+          "name": "Coordinate preservation authority",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A002",
+          "sequence": 2,
+          "name": "Document historic condition",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A003",
+          "sequence": 3,
+          "name": "Prepare salvage plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A004",
+          "sequence": 4,
+          "name": "Establish mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A005",
+          "sequence": 5,
+          "name": "Identify and number components",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A006",
+          "sequence": 6,
+          "name": "Use approved removal tools",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A007",
+          "sequence": 7,
+          "name": "Protect adjacent historic fabric",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A008",
+          "sequence": 8,
+          "name": "Remove component",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A009",
+          "sequence": 9,
+          "name": "Clean using approved method",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A010",
+          "sequence": 10,
+          "name": "Package with archival labeling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A011",
+          "sequence": 11,
+          "name": "Store in controlled conditions",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A012",
+          "sequence": 12,
+          "name": "Repair under approved procedure",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A013",
+          "sequence": 13,
+          "name": "Reinstall in original location",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024291-A014",
+          "sequence": 14,
+          "name": "Document completed restoration",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S024300",
+      "section_code": "02 43 00",
+      "title": "Structure Moving",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S024300-A001",
+          "sequence": 1,
+          "name": "Survey structure and route",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A002",
+          "sequence": 2,
+          "name": "Assess structure condition",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A003",
+          "sequence": 3,
+          "name": "Engineer temporary reinforcement",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A004",
+          "sequence": 4,
+          "name": "Design lifting and transport system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A005",
+          "sequence": 5,
+          "name": "Coordinate utilities and overhead conflicts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A006",
+          "sequence": 6,
+          "name": "Obtain transport and closure permits",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A007",
+          "sequence": 7,
+          "name": "Prepare receiving foundation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A008",
+          "sequence": 8,
+          "name": "Disconnect structure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A009",
+          "sequence": 9,
+          "name": "Install temporary bracing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A010",
+          "sequence": 10,
+          "name": "Lift structure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A011",
+          "sequence": 11,
+          "name": "Transport structure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A012",
+          "sequence": 12,
+          "name": "Set on foundation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A013",
+          "sequence": 13,
+          "name": "Reconnect structure and utilities",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A014",
+          "sequence": 14,
+          "name": "Repair movement damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A015",
+          "sequence": 15,
+          "name": "Survey final position",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S024300-A016",
+          "sequence": 16,
+          "name": "Obtain final acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S025000",
+      "section_code": "02 50 00",
+      "title": "Site Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S025000-A001",
+          "sequence": 1,
+          "name": "Confirm contaminant and limits",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A002",
+          "sequence": 2,
+          "name": "Prepare remediation work plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A003",
+          "sequence": 3,
+          "name": "Prepare health and safety plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A004",
+          "sequence": 4,
+          "name": "Obtain regulatory approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A005",
+          "sequence": 5,
+          "name": "Establish exclusion and decontamination zones",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A006",
+          "sequence": 6,
+          "name": "Mobilize treatment/removal equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A007",
+          "sequence": 7,
+          "name": "Excavate or treat affected media",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A008",
+          "sequence": 8,
+          "name": "Segregate material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A009",
+          "sequence": 9,
+          "name": "Sample confirmation areas",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A010",
+          "sequence": 10,
+          "name": "Characterize waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A011",
+          "sequence": 11,
+          "name": "Transport to approved facility",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A012",
+          "sequence": 12,
+          "name": "Track manifests",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A013",
+          "sequence": 13,
+          "name": "Backfill and restore",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A014",
+          "sequence": 14,
+          "name": "Conduct verification sampling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A015",
+          "sequence": 15,
+          "name": "Submit completion report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025000-A016",
+          "sequence": 16,
+          "name": "Obtain regulatory closure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S025100",
+      "section_code": "02 51 00",
+      "title": "Physical Decontamination",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S025100-A001",
+          "sequence": 1,
+          "name": "Define decontamination standard",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A002",
+          "sequence": 2,
+          "name": "Prepare methods and waste plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A003",
+          "sequence": 3,
+          "name": "Establish containment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A004",
+          "sequence": 4,
+          "name": "Remove loose contamination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A005",
+          "sequence": 5,
+          "name": "Pressure wash or mechanically clean",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A006",
+          "sequence": 6,
+          "name": "Capture wash water and debris",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A007",
+          "sequence": 7,
+          "name": "Inspect surfaces",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A008",
+          "sequence": 8,
+          "name": "Sample verification areas",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A009",
+          "sequence": 9,
+          "name": "Repeat cleaning if required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A010",
+          "sequence": 10,
+          "name": "Dispose of generated waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A011",
+          "sequence": 11,
+          "name": "Remove containment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025100-A012",
+          "sequence": 12,
+          "name": "Issue decontamination report",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S025300",
+      "section_code": "02 53 00",
+      "title": "Contaminated Site Material Removal",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S025300-A001",
+          "sequence": 1,
+          "name": "Delineate contaminated material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A002",
+          "sequence": 2,
+          "name": "Mark excavation limits",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A003",
+          "sequence": 3,
+          "name": "Establish dust/vapor controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A004",
+          "sequence": 4,
+          "name": "Establish worker protection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A005",
+          "sequence": 5,
+          "name": "Excavate in controlled lifts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A006",
+          "sequence": 6,
+          "name": "Field-screen material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A007",
+          "sequence": 7,
+          "name": "Segregate stockpiles",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A008",
+          "sequence": 8,
+          "name": "Cover and contain",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A009",
+          "sequence": 9,
+          "name": "Collect characterization samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A010",
+          "sequence": 10,
+          "name": "Approve disposal facility",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A011",
+          "sequence": 11,
+          "name": "Load and manifest",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A012",
+          "sequence": 12,
+          "name": "Transport and dispose",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A013",
+          "sequence": 13,
+          "name": "Conduct confirmation sampling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A014",
+          "sequence": 14,
+          "name": "Backfill and compact",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A015",
+          "sequence": 15,
+          "name": "Restore area",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025300-A016",
+          "sequence": 16,
+          "name": "Obtain closure documentation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S025400",
+      "section_code": "02 54 00",
+      "title": "Removal and Treatment of Contaminated Soils",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S025400-A001",
+          "sequence": 1,
+          "name": "Select treatment technology",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A002",
+          "sequence": 2,
+          "name": "Conduct treatability study",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A003",
+          "sequence": 3,
+          "name": "Prepare treatment pad or system",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A004",
+          "sequence": 4,
+          "name": "Excavate or treat in place",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A005",
+          "sequence": 5,
+          "name": "Control water and emissions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A006",
+          "sequence": 6,
+          "name": "Monitor treatment parameters",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A007",
+          "sequence": 7,
+          "name": "Sample treated material",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A008",
+          "sequence": 8,
+          "name": "Repeat treatment if required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A009",
+          "sequence": 9,
+          "name": "Approve reuse or disposal",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A010",
+          "sequence": 10,
+          "name": "Place treated soil",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A011",
+          "sequence": 11,
+          "name": "Compact and grade",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A012",
+          "sequence": 12,
+          "name": "Close treatment system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025400-A013",
+          "sequence": 13,
+          "name": "Submit final analytical results",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S025600",
+      "section_code": "02 56 00",
+      "title": "Contaminated Site Material Containment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S025600-A001",
+          "sequence": 1,
+          "name": "Prepare containment design",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A002",
+          "sequence": 2,
+          "name": "Verify subgrade",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A003",
+          "sequence": 3,
+          "name": "Install compacted clay",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A004",
+          "sequence": 4,
+          "name": "Install geomembrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A005",
+          "sequence": 5,
+          "name": "Install geosynthetic clay liner",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A006",
+          "sequence": 6,
+          "name": "Install drainage layer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A007",
+          "sequence": 7,
+          "name": "Install protection layer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A008",
+          "sequence": 8,
+          "name": "Complete seam testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A009",
+          "sequence": 9,
+          "name": "Complete destructive and nondestructive tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A010",
+          "sequence": 10,
+          "name": "Repair liner defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A011",
+          "sequence": 11,
+          "name": "Survey installed elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A012",
+          "sequence": 12,
+          "name": "Place cover material",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A013",
+          "sequence": 13,
+          "name": "Establish vegetation/protection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S025600-A014",
+          "sequence": 14,
+          "name": "Submit construction quality-assurance report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S026000",
+      "section_code": "02 60 00",
+      "title": "Contaminated Site Material Removal and Disposal",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S026000-A001",
+          "sequence": 1,
+          "name": "Classify material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A002",
+          "sequence": 2,
+          "name": "Obtain waste profile approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A003",
+          "sequence": 3,
+          "name": "Select licensed transporter",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A004",
+          "sequence": 4,
+          "name": "Select approved disposal facility",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A005",
+          "sequence": 5,
+          "name": "Prepare manifests",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A006",
+          "sequence": 6,
+          "name": "Schedule hauling",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A007",
+          "sequence": 7,
+          "name": "Inspect containers and trucks",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A008",
+          "sequence": 8,
+          "name": "Load safely",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A009",
+          "sequence": 9,
+          "name": "Decontaminate vehicles",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A010",
+          "sequence": 10,
+          "name": "Track each shipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A011",
+          "sequence": 11,
+          "name": "Obtain facility receipts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A012",
+          "sequence": 12,
+          "name": "Reconcile quantities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A013",
+          "sequence": 13,
+          "name": "Resolve rejected loads",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026000-A014",
+          "sequence": 14,
+          "name": "Submit final disposal record",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S026500",
+      "section_code": "02 65 00",
+      "title": "Underground Storage Tank Removal",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S026500-A001",
+          "sequence": 1,
+          "name": "Review tank records",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A002",
+          "sequence": 2,
+          "name": "Locate tank and piping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A003",
+          "sequence": 3,
+          "name": "Notify regulator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A004",
+          "sequence": 4,
+          "name": "Obtain closure permit",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A005",
+          "sequence": 5,
+          "name": "Prepare fire/safety plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A006",
+          "sequence": 6,
+          "name": "Remove product",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A007",
+          "sequence": 7,
+          "name": "Clean and inert tank",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A008",
+          "sequence": 8,
+          "name": "Disconnect piping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A009",
+          "sequence": 9,
+          "name": "Excavate tank",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A010",
+          "sequence": 10,
+          "name": "Inspect for release",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A011",
+          "sequence": 11,
+          "name": "Sample soil and groundwater",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A012",
+          "sequence": 12,
+          "name": "Remove contaminated soil if required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A013",
+          "sequence": 13,
+          "name": "Dispose/recycle tank",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A014",
+          "sequence": 14,
+          "name": "Backfill and compact",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A015",
+          "sequence": 15,
+          "name": "Submit closure report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S026500-A016",
+          "sequence": 16,
+          "name": "Obtain regulatory acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S027000",
+      "section_code": "02 70 00",
+      "title": "Water Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S027000-A001",
+          "sequence": 1,
+          "name": "Characterize affected water",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A002",
+          "sequence": 2,
+          "name": "Design treatment system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A003",
+          "sequence": 3,
+          "name": "Obtain discharge permit",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A004",
+          "sequence": 4,
+          "name": "Install wells, pumps or collection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A005",
+          "sequence": 5,
+          "name": "Install treatment equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A006",
+          "sequence": 6,
+          "name": "Conduct startup",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A007",
+          "sequence": 7,
+          "name": "Sample influent and effluent",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A008",
+          "sequence": 8,
+          "name": "Adjust treatment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A009",
+          "sequence": 9,
+          "name": "Manage residual waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A010",
+          "sequence": 10,
+          "name": "Monitor discharge",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A011",
+          "sequence": 11,
+          "name": "Maintain system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A012",
+          "sequence": 12,
+          "name": "Demonstrate cleanup endpoint",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A013",
+          "sequence": 13,
+          "name": "Decommission system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A014",
+          "sequence": 14,
+          "name": "Abandon wells as required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S027000-A015",
+          "sequence": 15,
+          "name": "Submit final report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S028000",
+      "section_code": "02 80 00",
+      "title": "Facility Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S028000-A001",
+          "sequence": 1,
+          "name": "Confirm building material survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A002",
+          "sequence": 2,
+          "name": "Define regulated work areas",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A003",
+          "sequence": 3,
+          "name": "Prepare abatement design",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A004",
+          "sequence": 4,
+          "name": "Notify regulators",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A005",
+          "sequence": 5,
+          "name": "Obtain permits",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A006",
+          "sequence": 6,
+          "name": "Engage licensed contractor",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A007",
+          "sequence": 7,
+          "name": "Establish containment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A008",
+          "sequence": 8,
+          "name": "Establish negative pressure",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A009",
+          "sequence": 9,
+          "name": "Conduct worker decontamination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A010",
+          "sequence": 10,
+          "name": "Remove regulated material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A011",
+          "sequence": 11,
+          "name": "Package and label waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A012",
+          "sequence": 12,
+          "name": "Conduct air/clearance testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A013",
+          "sequence": 13,
+          "name": "Remove containment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A014",
+          "sequence": 14,
+          "name": "Restore finishes",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028000-A015",
+          "sequence": 15,
+          "name": "Submit closeout records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S028100",
+      "section_code": "02 81 00",
+      "title": "Transportation and Disposal of Hazardous Materials",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S028100-A001",
+          "sequence": 1,
+          "name": "Classify waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A002",
+          "sequence": 2,
+          "name": "Obtain generator identification",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A003",
+          "sequence": 3,
+          "name": "Prepare waste profile",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A004",
+          "sequence": 4,
+          "name": "Approve facility",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A005",
+          "sequence": 5,
+          "name": "Approve transporter",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A006",
+          "sequence": 6,
+          "name": "Select containers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A007",
+          "sequence": 7,
+          "name": "Package and label",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A008",
+          "sequence": 8,
+          "name": "Prepare manifest",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A009",
+          "sequence": 9,
+          "name": "Schedule shipment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A010",
+          "sequence": 10,
+          "name": "Inspect load",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A011",
+          "sequence": 11,
+          "name": "Track transport",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A012",
+          "sequence": 12,
+          "name": "Obtain signed manifest",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A013",
+          "sequence": 13,
+          "name": "Resolve discrepancy",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028100-A014",
+          "sequence": 14,
+          "name": "Archive disposal certificates",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S028200",
+      "section_code": "02 82 00",
+      "title": "Asbestos Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S028200-A001",
+          "sequence": 1,
+          "name": "Conduct regulated survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A002",
+          "sequence": 2,
+          "name": "Define asbestos-containing materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A003",
+          "sequence": 3,
+          "name": "Prepare abatement plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A004",
+          "sequence": 4,
+          "name": "Submit notifications",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A005",
+          "sequence": 5,
+          "name": "Establish containment and negative air",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A006",
+          "sequence": 6,
+          "name": "Conduct baseline air sampling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A007",
+          "sequence": 7,
+          "name": "Remove or encapsulate material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A008",
+          "sequence": 8,
+          "name": "Conduct daily air monitoring",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A009",
+          "sequence": 9,
+          "name": "Package and label waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A010",
+          "sequence": 10,
+          "name": "Transport and dispose",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A011",
+          "sequence": 11,
+          "name": "Conduct visual inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A012",
+          "sequence": 12,
+          "name": "Conduct clearance sampling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A013",
+          "sequence": 13,
+          "name": "Remove containment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028200-A014",
+          "sequence": 14,
+          "name": "Issue final abatement report",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S028300",
+      "section_code": "02 83 00",
+      "title": "Lead Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S028300-A001",
+          "sequence": 1,
+          "name": "Conduct lead survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A002",
+          "sequence": 2,
+          "name": "Determine regulated activity",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A003",
+          "sequence": 3,
+          "name": "Prepare lead-compliance plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A004",
+          "sequence": 4,
+          "name": "Establish containment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A005",
+          "sequence": 5,
+          "name": "Protect workers and occupants",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A006",
+          "sequence": 6,
+          "name": "Remove, stabilize or encapsulate coatings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A007",
+          "sequence": 7,
+          "name": "Control dust and debris",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A008",
+          "sequence": 8,
+          "name": "Conduct cleaning verification",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A009",
+          "sequence": 9,
+          "name": "Sample clearance areas when required",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A010",
+          "sequence": 10,
+          "name": "Package and dispose of waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A011",
+          "sequence": 11,
+          "name": "Remove containment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A012",
+          "sequence": 12,
+          "name": "Restore surfaces",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028300-A013",
+          "sequence": 13,
+          "name": "Submit final records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S028400",
+      "section_code": "02 84 00",
+      "title": "Polychlorinated Biphenyl Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S028400-A001",
+          "sequence": 1,
+          "name": "Identify PCB-containing materials",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A002",
+          "sequence": 2,
+          "name": "Sample and classify",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A003",
+          "sequence": 3,
+          "name": "Notify required agencies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A004",
+          "sequence": 4,
+          "name": "Prepare removal plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A005",
+          "sequence": 5,
+          "name": "Establish containment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A006",
+          "sequence": 6,
+          "name": "Remove caulk, coatings, equipment or soil",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A007",
+          "sequence": 7,
+          "name": "Prevent cross-contamination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A008",
+          "sequence": 8,
+          "name": "Package and label waste",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A009",
+          "sequence": 9,
+          "name": "Transport to approved facility",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A010",
+          "sequence": 10,
+          "name": "Conduct verification sampling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A011",
+          "sequence": 11,
+          "name": "Clean adjacent surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028400-A012",
+          "sequence": 12,
+          "name": "Submit manifests and final report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S028500",
+      "section_code": "02 85 00",
+      "title": "Mold Remediation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S028500-A001",
+          "sequence": 1,
+          "name": "Identify moisture source",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A002",
+          "sequence": 2,
+          "name": "Correct active water intrusion",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A003",
+          "sequence": 3,
+          "name": "Conduct mold assessment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A004",
+          "sequence": 4,
+          "name": "Define containment level",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A005",
+          "sequence": 5,
+          "name": "Prepare remediation plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A006",
+          "sequence": 6,
+          "name": "Establish containment and pressure control",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A007",
+          "sequence": 7,
+          "name": "Remove damaged porous material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A008",
+          "sequence": 8,
+          "name": "Clean remaining surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A009",
+          "sequence": 9,
+          "name": "Use HEPA filtration/cleaning",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A010",
+          "sequence": 10,
+          "name": "Dry area",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A011",
+          "sequence": 11,
+          "name": "Conduct post-remediation verification",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A012",
+          "sequence": 12,
+          "name": "Remove containment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A013",
+          "sequence": 13,
+          "name": "Restore materials",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A014",
+          "sequence": 14,
+          "name": "Monitor for recurrence",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S028500-A015",
+          "sequence": 15,
+          "name": "Issue closeout report",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D02-S029000",
+      "section_code": "02 90 00",
+      "title": "Monitoring and Verification",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D02-S029000-A001",
+          "sequence": 1,
+          "name": "Establish baseline monitoring",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A002",
+          "sequence": 2,
+          "name": "Install dust/noise/vibration monitors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A003",
+          "sequence": 3,
+          "name": "Install air monitors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A004",
+          "sequence": 4,
+          "name": "Install groundwater monitors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A005",
+          "sequence": 5,
+          "name": "Establish action levels",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A006",
+          "sequence": 6,
+          "name": "Collect routine readings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A007",
+          "sequence": 7,
+          "name": "Calibrate instruments",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A008",
+          "sequence": 8,
+          "name": "Report exceedance",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A009",
+          "sequence": 9,
+          "name": "Stop or modify work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A010",
+          "sequence": 10,
+          "name": "Conduct corrective action",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A011",
+          "sequence": 11,
+          "name": "Verify remediation limits",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A012",
+          "sequence": 12,
+          "name": "Perform clearance testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A013",
+          "sequence": 13,
+          "name": "Submit final monitoring record",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A014",
+          "sequence": 14,
+          "name": "Preconstruction condition survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A015",
+          "sequence": 15,
+          "name": "Adjacent-property survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A016",
+          "sequence": 16,
+          "name": "Existing-crack mapping",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A017",
+          "sequence": 17,
+          "name": "Utility-locate record",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A018",
+          "sequence": 18,
+          "name": "Fixed-view photographs",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A019",
+          "sequence": 19,
+          "name": "Video survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A020",
+          "sequence": 20,
+          "name": "360-degree capture",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A021",
+          "sequence": 21,
+          "name": "Laser scan",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A022",
+          "sequence": 22,
+          "name": "Vibration baseline",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A023",
+          "sequence": 23,
+          "name": "Noise baseline",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A024",
+          "sequence": 24,
+          "name": "Settlement baseline",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A025",
+          "sequence": 25,
+          "name": "Occupied-area condition record",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A026",
+          "sequence": 26,
+          "name": "Post-work comparison",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A027",
+          "sequence": 27,
+          "name": "Owner acknowledgment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A028",
+          "sequence": 28,
+          "name": "Complete demolition and abatement punch",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A029",
+          "sequence": 29,
+          "name": "Confirm utilities safely capped or restored",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A030",
+          "sequence": 30,
+          "name": "Confirm final grades and temporary stabilization",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A031",
+          "sequence": 31,
+          "name": "Confirm salvage delivered",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A032",
+          "sequence": 32,
+          "name": "Confirm disposal manifests",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A033",
+          "sequence": 33,
+          "name": "Confirm clearance testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A034",
+          "sequence": 34,
+          "name": "Confirm regulatory closure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A035",
+          "sequence": 35,
+          "name": "Confirm record surveys",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A036",
+          "sequence": 36,
+          "name": "Update record documents",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A037",
+          "sequence": 37,
+          "name": "Transfer monitoring requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A038",
+          "sequence": 38,
+          "name": "Restore affected property",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A039",
+          "sequence": 39,
+          "name": "Release area to successor work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A040",
+          "sequence": 40,
+          "name": "Archive investigation and remediation records",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A041",
+          "sequence": 41,
+          "name": "Records review → survey and assessment",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A042",
+          "sequence": 42,
+          "name": "Assessment → sampling and investigation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A043",
+          "sequence": 43,
+          "name": "Results → design, permits and work plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A044",
+          "sequence": 44,
+          "name": "Hazardous-material clearance → demolition",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A045",
+          "sequence": 45,
+          "name": "Utility disconnect → demolition/removal",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A046",
+          "sequence": 46,
+          "name": "Removal → verification/clearance testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A047",
+          "sequence": 47,
+          "name": "Accepted clearance → new construction",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A048",
+          "sequence": 48,
+          "name": "Remediation → confirmation sampling",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A049",
+          "sequence": 49,
+          "name": "Regulatory acceptance → backfill/restoration",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A050",
+          "sequence": 50,
+          "name": "Final records → Division 02 closeout",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A051",
+          "sequence": 51,
+          "name": "Link every removal activity to the exact area and successor work.",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A052",
+          "sequence": 52,
+          "name": "Complete hazardous-material assessment before disturbing suspect materials.",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A053",
+          "sequence": 53,
+          "name": "Separate utility shutdown, disconnect, removal and restoration activities.",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A054",
+          "sequence": 54,
+          "name": "Include containment setup, monitoring, clearance and teardown.",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A055",
+          "sequence": 55,
+          "name": "Track salvage separately from demolition waste.",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A056",
+          "sequence": 56,
+          "name": "Preserve manifests, disposal receipts and chain-of-custody records.",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A057",
+          "sequence": 57,
+          "name": "Identify hold points for owner, consultant and regulator review.",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A058",
+          "sequence": 58,
+          "name": "Record unknown conditions immediately and connect them to change management.",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A059",
+          "sequence": 59,
+          "name": "Protect occupied areas and adjacent property.",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A060",
+          "sequence": 60,
+          "name": "Do not release areas until required clearance and acceptance are documented.",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A061",
+          "sequence": 61,
+          "name": "CSI MasterFormat 2026 identifies Division 02 as Existing Conditions and reports that its structure remained largely stable.",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D02-S029000-A062",
+          "sequence": 62,
+          "name": "The active 2026 UFGS Division 02 public library was used to validate common investigation, demolition, contaminated-material, storage-tank and facility-remediation scopes.",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

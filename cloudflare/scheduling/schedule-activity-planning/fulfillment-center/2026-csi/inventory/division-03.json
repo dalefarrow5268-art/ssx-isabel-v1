@@ -1,0 +1,4050 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D03",
+    "division_number": "03",
+    "title": "Concrete",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-03/MASTER_DIVISION_03_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 27,
+    "activities": 427
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D03-S030100",
+      "section_code": "03 01 00",
+      "title": "Maintenance of Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S030100-A001",
+          "sequence": 1,
+          "name": "Survey existing concrete",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A002",
+          "sequence": 2,
+          "name": "Map cracks, spalls and delamination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A003",
+          "sequence": 3,
+          "name": "Perform sounding and testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A004",
+          "sequence": 4,
+          "name": "Prepare repair submittal",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A005",
+          "sequence": 5,
+          "name": "Approve repair materials and procedures",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A006",
+          "sequence": 6,
+          "name": "Construct repair mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A007",
+          "sequence": 7,
+          "name": "Remove unsound concrete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A008",
+          "sequence": 8,
+          "name": "Clean and prepare reinforcing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A009",
+          "sequence": 9,
+          "name": "Replace supplemental reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A010",
+          "sequence": 10,
+          "name": "Patch and restore concrete",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A011",
+          "sequence": 11,
+          "name": "Inject cracks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A012",
+          "sequence": 12,
+          "name": "Apply protective treatment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A013",
+          "sequence": 13,
+          "name": "Inspect repaired areas",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A014",
+          "sequence": 14,
+          "name": "Test repairs",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S030100-A015",
+          "sequence": 15,
+          "name": "Complete punch and closeout",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S031000",
+      "section_code": "03 10 00",
+      "title": "Concrete Forming and Accessories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S031000-A001",
+          "sequence": 1,
+          "name": "Prepare formwork shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A002",
+          "sequence": 2,
+          "name": "Complete formwork engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A003",
+          "sequence": 3,
+          "name": "Submit form-release materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A004",
+          "sequence": 4,
+          "name": "Procure formwork",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A005",
+          "sequence": 5,
+          "name": "Fabricate forms",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A006",
+          "sequence": 6,
+          "name": "Install footing forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A007",
+          "sequence": 7,
+          "name": "Install wall forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A008",
+          "sequence": 8,
+          "name": "Install column forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A009",
+          "sequence": 9,
+          "name": "Install beam and slab forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A010",
+          "sequence": 10,
+          "name": "Install blockouts and reveals",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A011",
+          "sequence": 11,
+          "name": "Install form liners",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A012",
+          "sequence": 12,
+          "name": "Install waterstops",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A013",
+          "sequence": 13,
+          "name": "Install construction-joint accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A014",
+          "sequence": 14,
+          "name": "Inspect forms and dimensions",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A015",
+          "sequence": 15,
+          "name": "Correct formwork deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A016",
+          "sequence": 16,
+          "name": "Strip forms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A017",
+          "sequence": 17,
+          "name": "Clean and repair forms",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031000-A018",
+          "sequence": 18,
+          "name": "Remove forms from site",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S031100",
+      "section_code": "03 11 00",
+      "title": "Concrete Forming",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S031100-A001",
+          "sequence": 1,
+          "name": "Complete forming layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A002",
+          "sequence": 2,
+          "name": "Verify survey control",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A003",
+          "sequence": 3,
+          "name": "Set footing forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A004",
+          "sequence": 4,
+          "name": "Set foundation-wall forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A005",
+          "sequence": 5,
+          "name": "Set grade-beam forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A006",
+          "sequence": 6,
+          "name": "Set column and pier forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A007",
+          "sequence": 7,
+          "name": "Set elevated-slab forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A008",
+          "sequence": 8,
+          "name": "Set stair forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A009",
+          "sequence": 9,
+          "name": "Set equipment-pad forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A010",
+          "sequence": 10,
+          "name": "Set housekeeping-pad forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A011",
+          "sequence": 11,
+          "name": "Verify lines, grades and dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A012",
+          "sequence": 12,
+          "name": "Inspect form stability",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A013",
+          "sequence": 13,
+          "name": "Release forms for placement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031100-A014",
+          "sequence": 14,
+          "name": "Strip and patch tie holes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S031500",
+      "section_code": "03 15 00",
+      "title": "Concrete Accessories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S031500-A001",
+          "sequence": 1,
+          "name": "Submit joint accessories",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A002",
+          "sequence": 2,
+          "name": "Submit waterstops",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A003",
+          "sequence": 3,
+          "name": "Submit vapor barriers",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A004",
+          "sequence": 4,
+          "name": "Submit curing materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A005",
+          "sequence": 5,
+          "name": "Procure accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A006",
+          "sequence": 6,
+          "name": "Install expansion-joint materials",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A007",
+          "sequence": 7,
+          "name": "Install waterstops",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A008",
+          "sequence": 8,
+          "name": "Install dowels and sleeves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A009",
+          "sequence": 9,
+          "name": "Install vapor barrier",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A010",
+          "sequence": 10,
+          "name": "Install underslab protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A011",
+          "sequence": 11,
+          "name": "Install screed rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A012",
+          "sequence": 12,
+          "name": "Inspect accessories before placement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S031500-A013",
+          "sequence": 13,
+          "name": "Protect installed accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S032000",
+      "section_code": "03 20 00",
+      "title": "Concrete Reinforcing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S032000-A001",
+          "sequence": 1,
+          "name": "Prepare reinforcing shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A002",
+          "sequence": 2,
+          "name": "Review reinforcing schedules",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A003",
+          "sequence": 3,
+          "name": "Submit mill certificates",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A004",
+          "sequence": 4,
+          "name": "Procure reinforcing steel",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A005",
+          "sequence": 5,
+          "name": "Fabricate reinforcing",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A006",
+          "sequence": 6,
+          "name": "Deliver and inspect reinforcing",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A007",
+          "sequence": 7,
+          "name": "Store reinforcing",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A008",
+          "sequence": 8,
+          "name": "Install footing reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A009",
+          "sequence": 9,
+          "name": "Install wall reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A010",
+          "sequence": 10,
+          "name": "Install column reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A011",
+          "sequence": 11,
+          "name": "Install slab reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A012",
+          "sequence": 12,
+          "name": "Install welded-wire reinforcement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A013",
+          "sequence": 13,
+          "name": "Install dowels and mechanical couplers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A014",
+          "sequence": 14,
+          "name": "Install chairs and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A015",
+          "sequence": 15,
+          "name": "Verify size, spacing, laps and cover",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A016",
+          "sequence": 16,
+          "name": "Conduct reinforcing inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A017",
+          "sequence": 17,
+          "name": "Correct reinforcing deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032000-A018",
+          "sequence": 18,
+          "name": "Release reinforcing for placement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S032300",
+      "section_code": "03 23 00",
+      "title": "Stressed Tendon Reinforcing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S032300-A001",
+          "sequence": 1,
+          "name": "Complete post-tensioning design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A002",
+          "sequence": 2,
+          "name": "Prepare tendon shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A003",
+          "sequence": 3,
+          "name": "Submit stressing procedures",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A004",
+          "sequence": 4,
+          "name": "Submit tendon and anchorage data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A005",
+          "sequence": 5,
+          "name": "Fabricate tendon system",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A006",
+          "sequence": 6,
+          "name": "Deliver and inspect tendons",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A007",
+          "sequence": 7,
+          "name": "Install tendons and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A008",
+          "sequence": 8,
+          "name": "Install bursting reinforcement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A009",
+          "sequence": 9,
+          "name": "Verify tendon profiles",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A010",
+          "sequence": 10,
+          "name": "Inspect before concrete placement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A011",
+          "sequence": 11,
+          "name": "Place concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A012",
+          "sequence": 12,
+          "name": "Verify required concrete strength",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A013",
+          "sequence": 13,
+          "name": "Stress tendons",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A014",
+          "sequence": 14,
+          "name": "Record elongations and forces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A015",
+          "sequence": 15,
+          "name": "Resolve stressing discrepancies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A016",
+          "sequence": 16,
+          "name": "Cut tendon tails",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A017",
+          "sequence": 17,
+          "name": "Grout pockets and ducts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032300-A018",
+          "sequence": 18,
+          "name": "Submit stressing report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S032400",
+      "section_code": "03 24 00",
+      "title": "Fibrous Reinforcing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S032400-A001",
+          "sequence": 1,
+          "name": "Submit fiber product data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A002",
+          "sequence": 2,
+          "name": "Approve dosage",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A003",
+          "sequence": 3,
+          "name": "Procure fiber reinforcement",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A004",
+          "sequence": 4,
+          "name": "Verify batch-plant procedure",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A005",
+          "sequence": 5,
+          "name": "Add fibers to concrete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A006",
+          "sequence": 6,
+          "name": "Verify mixing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A007",
+          "sequence": 7,
+          "name": "Place fiber-reinforced concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A008",
+          "sequence": 8,
+          "name": "Inspect dispersion and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A009",
+          "sequence": 9,
+          "name": "Test concrete",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S032400-A010",
+          "sequence": 10,
+          "name": "Correct defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S033000",
+      "section_code": "03 30 00",
+      "title": "Cast-in-Place Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S033000-A001",
+          "sequence": 1,
+          "name": "Submit concrete mix designs",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A002",
+          "sequence": 2,
+          "name": "Review mix designs",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A003",
+          "sequence": 3,
+          "name": "Approve mix designs",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A004",
+          "sequence": 4,
+          "name": "Conduct preplacement conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A005",
+          "sequence": 5,
+          "name": "Verify batch plant",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A006",
+          "sequence": 6,
+          "name": "Schedule testing agency",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A007",
+          "sequence": 7,
+          "name": "Complete pre-pour inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A008",
+          "sequence": 8,
+          "name": "Place footings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A009",
+          "sequence": 9,
+          "name": "Place foundation walls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A010",
+          "sequence": 10,
+          "name": "Place grade beams",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A011",
+          "sequence": 11,
+          "name": "Place slabs on grade",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A012",
+          "sequence": 12,
+          "name": "Place columns",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A013",
+          "sequence": 13,
+          "name": "Place elevated slabs and beams",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A014",
+          "sequence": 14,
+          "name": "Place stairs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A015",
+          "sequence": 15,
+          "name": "Place site concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A016",
+          "sequence": 16,
+          "name": "Place equipment pads",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A017",
+          "sequence": 17,
+          "name": "Test slump, air, temperature and unit weight",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A018",
+          "sequence": 18,
+          "name": "Cast concrete test specimens",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A019",
+          "sequence": 19,
+          "name": "Consolidate concrete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A020",
+          "sequence": 20,
+          "name": "Finish concrete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A021",
+          "sequence": 21,
+          "name": "Cure concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A022",
+          "sequence": 22,
+          "name": "Protect concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A023",
+          "sequence": 23,
+          "name": "Review strength-test results",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A024",
+          "sequence": 24,
+          "name": "Correct concrete defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033000-A025",
+          "sequence": 25,
+          "name": "Obtain final acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S033100",
+      "section_code": "03 31 00",
+      "title": "Structural Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S033100-A001",
+          "sequence": 1,
+          "name": "Complete structural concrete coordination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A002",
+          "sequence": 2,
+          "name": "Approve structural mix designs",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A003",
+          "sequence": 3,
+          "name": "Approve placing sequence",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A004",
+          "sequence": 4,
+          "name": "Verify shoring and reshoring",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A005",
+          "sequence": 5,
+          "name": "Verify reinforcing and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A006",
+          "sequence": 6,
+          "name": "Conduct structural pre-pour inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A007",
+          "sequence": 7,
+          "name": "Place structural concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A008",
+          "sequence": 8,
+          "name": "Monitor placement rate",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A009",
+          "sequence": 9,
+          "name": "Monitor formwork movement",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A010",
+          "sequence": 10,
+          "name": "Monitor cold and construction joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A011",
+          "sequence": 11,
+          "name": "Cure structural concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A012",
+          "sequence": 12,
+          "name": "Test structural concrete",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A013",
+          "sequence": 13,
+          "name": "Review strength results",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A014",
+          "sequence": 14,
+          "name": "Release forms and reshoring",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A015",
+          "sequence": 15,
+          "name": "Survey structural elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A016",
+          "sequence": 16,
+          "name": "Repair structural defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033100-A017",
+          "sequence": 17,
+          "name": "Obtain engineer acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S033300",
+      "section_code": "03 33 00",
+      "title": "Architectural Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S033300-A001",
+          "sequence": 1,
+          "name": "Submit architectural mix and finish",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A002",
+          "sequence": 2,
+          "name": "Construct finish mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A003",
+          "sequence": 3,
+          "name": "Approve mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A004",
+          "sequence": 4,
+          "name": "Approve form liner and tie pattern",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A005",
+          "sequence": 5,
+          "name": "Coordinate joints and reveals",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A006",
+          "sequence": 6,
+          "name": "Install architectural forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A007",
+          "sequence": 7,
+          "name": "Inspect forms",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A008",
+          "sequence": 8,
+          "name": "Place architectural concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A009",
+          "sequence": 9,
+          "name": "Control color and batch consistency",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A010",
+          "sequence": 10,
+          "name": "Strip forms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A011",
+          "sequence": 11,
+          "name": "Inspect appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A012",
+          "sequence": 12,
+          "name": "Patch approved defects",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A013",
+          "sequence": 13,
+          "name": "Clean concrete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A014",
+          "sequence": 14,
+          "name": "Apply sealer or protective coating",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A015",
+          "sequence": 15,
+          "name": "Protect completed surfaces",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033300-A016",
+          "sequence": 16,
+          "name": "Complete final appearance inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S033500",
+      "section_code": "03 35 00",
+      "title": "Concrete Finishing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S033500-A001",
+          "sequence": 1,
+          "name": "Submit finish procedures",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A002",
+          "sequence": 2,
+          "name": "Construct finish sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A003",
+          "sequence": 3,
+          "name": "Approve sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A004",
+          "sequence": 4,
+          "name": "Establish floor-flatness requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A005",
+          "sequence": 5,
+          "name": "Establish floor-levelness requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A006",
+          "sequence": 6,
+          "name": "Place and strike concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A007",
+          "sequence": 7,
+          "name": "Float and trowel concrete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A008",
+          "sequence": 8,
+          "name": "Apply broom finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A009",
+          "sequence": 9,
+          "name": "Apply exposed-aggregate finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A010",
+          "sequence": 10,
+          "name": "Apply dry-shake hardener",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A011",
+          "sequence": 11,
+          "name": "Apply curing compound",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A012",
+          "sequence": 12,
+          "name": "Saw control joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A013",
+          "sequence": 13,
+          "name": "Measure floor flatness and levelness",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A014",
+          "sequence": 14,
+          "name": "Grind high areas",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A015",
+          "sequence": 15,
+          "name": "Repair finish defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A016",
+          "sequence": 16,
+          "name": "Protect finished concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033500-A017",
+          "sequence": 17,
+          "name": "Complete finish inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S033700",
+      "section_code": "03 37 00",
+      "title": "Specialty Placed Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S033700-A001",
+          "sequence": 1,
+          "name": "Submit placement method",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A002",
+          "sequence": 2,
+          "name": "Approve equipment and materials",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A003",
+          "sequence": 3,
+          "name": "Prepare test panel",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A004",
+          "sequence": 4,
+          "name": "Approve test panel",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A005",
+          "sequence": 5,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A006",
+          "sequence": 6,
+          "name": "Install reinforcement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A007",
+          "sequence": 7,
+          "name": "Place shotcrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A008",
+          "sequence": 8,
+          "name": "Place preplaced-aggregate concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A009",
+          "sequence": 9,
+          "name": "Place tremie concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A010",
+          "sequence": 10,
+          "name": "Place pumped specialty concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A011",
+          "sequence": 11,
+          "name": "Inspect thickness and consolidation",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A012",
+          "sequence": 12,
+          "name": "Prepare test specimens",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A013",
+          "sequence": 13,
+          "name": "Cure specialty concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A014",
+          "sequence": 14,
+          "name": "Test and inspect",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S033700-A015",
+          "sequence": 15,
+          "name": "Repair deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S034000",
+      "section_code": "03 40 00",
+      "title": "Precast Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S034000-A001",
+          "sequence": 1,
+          "name": "Complete precast design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A002",
+          "sequence": 2,
+          "name": "Prepare precast shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A003",
+          "sequence": 3,
+          "name": "Submit calculations",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A004",
+          "sequence": 4,
+          "name": "Approve finishes and samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A005",
+          "sequence": 5,
+          "name": "Construct precast mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A006",
+          "sequence": 6,
+          "name": "Approve mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A007",
+          "sequence": 7,
+          "name": "Procure materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A008",
+          "sequence": 8,
+          "name": "Fabricate precast units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A009",
+          "sequence": 9,
+          "name": "Conduct plant inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A010",
+          "sequence": 10,
+          "name": "Test precast concrete",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A011",
+          "sequence": 11,
+          "name": "Cure units",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A012",
+          "sequence": 12,
+          "name": "Inspect finished units",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A013",
+          "sequence": 13,
+          "name": "Repair plant defects",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A014",
+          "sequence": 14,
+          "name": "Release units for shipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A015",
+          "sequence": 15,
+          "name": "Deliver and inspect units",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A016",
+          "sequence": 16,
+          "name": "Erect precast units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A017",
+          "sequence": 17,
+          "name": "Install temporary bracing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A018",
+          "sequence": 18,
+          "name": "Complete connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A019",
+          "sequence": 19,
+          "name": "Grout bearings and joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A020",
+          "sequence": 20,
+          "name": "Weld and inspect connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A021",
+          "sequence": 21,
+          "name": "Align and survey units",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A022",
+          "sequence": 22,
+          "name": "Seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A023",
+          "sequence": 23,
+          "name": "Remove bracing",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034000-A024",
+          "sequence": 24,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S034100",
+      "section_code": "03 41 00",
+      "title": "Structural Precast Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S034100-A001",
+          "sequence": 1,
+          "name": "Complete structural precast engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A002",
+          "sequence": 2,
+          "name": "Coordinate embeds and connections",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A003",
+          "sequence": 3,
+          "name": "Fabricate columns and beams",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A004",
+          "sequence": 4,
+          "name": "Fabricate wall panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A005",
+          "sequence": 5,
+          "name": "Fabricate hollow-core units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A006",
+          "sequence": 6,
+          "name": "Fabricate double tees",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A007",
+          "sequence": 7,
+          "name": "Fabricate stairs",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A008",
+          "sequence": 8,
+          "name": "Conduct plant testing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A009",
+          "sequence": 9,
+          "name": "Deliver in erection sequence",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A010",
+          "sequence": 10,
+          "name": "Erect structural precast",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A011",
+          "sequence": 11,
+          "name": "Install bearings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A012",
+          "sequence": 12,
+          "name": "Complete welded and bolted connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A013",
+          "sequence": 13,
+          "name": "Install topping reinforcement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A014",
+          "sequence": 14,
+          "name": "Place composite topping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A015",
+          "sequence": 15,
+          "name": "Survey alignment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A016",
+          "sequence": 16,
+          "name": "Complete connection inspection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034100-A017",
+          "sequence": 17,
+          "name": "Obtain structural acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S034500",
+      "section_code": "03 45 00",
+      "title": "Precast Architectural Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S034500-A001",
+          "sequence": 1,
+          "name": "Approve color and texture samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A002",
+          "sequence": 2,
+          "name": "Construct architectural mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A003",
+          "sequence": 3,
+          "name": "Approve mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A004",
+          "sequence": 4,
+          "name": "Coordinate panel joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A005",
+          "sequence": 5,
+          "name": "Coordinate anchors and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A006",
+          "sequence": 6,
+          "name": "Fabricate architectural panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A007",
+          "sequence": 7,
+          "name": "Inspect color and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A008",
+          "sequence": 8,
+          "name": "Deliver panels",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A009",
+          "sequence": 9,
+          "name": "Erect panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A010",
+          "sequence": 10,
+          "name": "Align panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A011",
+          "sequence": 11,
+          "name": "Complete anchors and connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A012",
+          "sequence": 12,
+          "name": "Patch approved defects",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A013",
+          "sequence": 13,
+          "name": "Clean panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A014",
+          "sequence": 14,
+          "name": "Seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A015",
+          "sequence": 15,
+          "name": "Protect completed panels",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034500-A016",
+          "sequence": 16,
+          "name": "Complete facade inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S034700",
+      "section_code": "03 47 00",
+      "title": "Site-Cast Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S034700-A001",
+          "sequence": 1,
+          "name": "Submit site-casting plan",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A002",
+          "sequence": 2,
+          "name": "Prepare casting beds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A003",
+          "sequence": 3,
+          "name": "Install forms and reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A004",
+          "sequence": 4,
+          "name": "Install lifting inserts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A005",
+          "sequence": 5,
+          "name": "Place concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A006",
+          "sequence": 6,
+          "name": "Cure units",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A007",
+          "sequence": 7,
+          "name": "Test lifting strength",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A008",
+          "sequence": 8,
+          "name": "Strip units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A009",
+          "sequence": 9,
+          "name": "Inspect units",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A010",
+          "sequence": 10,
+          "name": "Lift and erect units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A011",
+          "sequence": 11,
+          "name": "Brace units",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A012",
+          "sequence": 12,
+          "name": "Complete connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A013",
+          "sequence": 13,
+          "name": "Patch and finish",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A014",
+          "sequence": 14,
+          "name": "Remove casting beds",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034700-A015",
+          "sequence": 15,
+          "name": "Restore casting area",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S034800",
+      "section_code": "03 48 00",
+      "title": "Precast Concrete Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S034800-A001",
+          "sequence": 1,
+          "name": "Submit specialty precast shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A002",
+          "sequence": 2,
+          "name": "Approve samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A003",
+          "sequence": 3,
+          "name": "Fabricate site furnishings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A004",
+          "sequence": 4,
+          "name": "Fabricate pavers",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A005",
+          "sequence": 5,
+          "name": "Fabricate splash blocks",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A006",
+          "sequence": 6,
+          "name": "Fabricate wheel stops",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A007",
+          "sequence": 7,
+          "name": "Fabricate trench units",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A008",
+          "sequence": 8,
+          "name": "Deliver and inspect",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A009",
+          "sequence": 9,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A010",
+          "sequence": 10,
+          "name": "Install specialty precast",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A011",
+          "sequence": 11,
+          "name": "Align and anchor",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A012",
+          "sequence": 12,
+          "name": "Grout joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A013",
+          "sequence": 13,
+          "name": "Inspect completed work",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034800-A014",
+          "sequence": 14,
+          "name": "Correct damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S034900",
+      "section_code": "03 49 00",
+      "title": "Glass-Fiber-Reinforced Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S034900-A001",
+          "sequence": 1,
+          "name": "Complete GFRC design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A002",
+          "sequence": 2,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A003",
+          "sequence": 3,
+          "name": "Submit calculations",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A004",
+          "sequence": 4,
+          "name": "Approve color and texture samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A005",
+          "sequence": 5,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A006",
+          "sequence": 6,
+          "name": "Fabricate GFRC panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A007",
+          "sequence": 7,
+          "name": "Inspect panels",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A008",
+          "sequence": 8,
+          "name": "Deliver and store panels",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A009",
+          "sequence": 9,
+          "name": "Install supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A010",
+          "sequence": 10,
+          "name": "Erect panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A011",
+          "sequence": 11,
+          "name": "Align and anchor panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A012",
+          "sequence": 12,
+          "name": "Seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A013",
+          "sequence": 13,
+          "name": "Repair approved defects",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A014",
+          "sequence": 14,
+          "name": "Clean and protect",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S034900-A015",
+          "sequence": 15,
+          "name": "Complete final inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S035000",
+      "section_code": "03 50 00",
+      "title": "Cast Decks and Underlayment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S035000-A001",
+          "sequence": 1,
+          "name": "Submit deck and underlayment materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A002",
+          "sequence": 2,
+          "name": "Approve mix and thickness",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A003",
+          "sequence": 3,
+          "name": "Verify substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A004",
+          "sequence": 4,
+          "name": "Install edge forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A005",
+          "sequence": 5,
+          "name": "Install reinforcement",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A006",
+          "sequence": 6,
+          "name": "Place cementitious deck",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A007",
+          "sequence": 7,
+          "name": "Place gypsum deck",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A008",
+          "sequence": 8,
+          "name": "Place concrete topping",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A009",
+          "sequence": 9,
+          "name": "Place bonded underlayment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A010",
+          "sequence": 10,
+          "name": "Finish and cure",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A011",
+          "sequence": 11,
+          "name": "Test moisture",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A012",
+          "sequence": 12,
+          "name": "Test bond",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A013",
+          "sequence": 13,
+          "name": "Verify elevations and slopes",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A014",
+          "sequence": 14,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035000-A015",
+          "sequence": 15,
+          "name": "Release for finishes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S035200",
+      "section_code": "03 52 00",
+      "title": "Lightweight Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S035200-A001",
+          "sequence": 1,
+          "name": "Submit lightweight mix design",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A002",
+          "sequence": 2,
+          "name": "Approve aggregate and density",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A003",
+          "sequence": 3,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A004",
+          "sequence": 4,
+          "name": "Install forms and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A005",
+          "sequence": 5,
+          "name": "Place lightweight structural concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A006",
+          "sequence": 6,
+          "name": "Place insulating concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A007",
+          "sequence": 7,
+          "name": "Verify thickness and slope",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A008",
+          "sequence": 8,
+          "name": "Test wet and dry density",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A009",
+          "sequence": 9,
+          "name": "Cure concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A010",
+          "sequence": 10,
+          "name": "Test strength",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A011",
+          "sequence": 11,
+          "name": "Inspect surface",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035200-A012",
+          "sequence": 12,
+          "name": "Repair deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S035400",
+      "section_code": "03 54 00",
+      "title": "Cast Underlayment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S035400-A001",
+          "sequence": 1,
+          "name": "Submit underlayment product",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A002",
+          "sequence": 2,
+          "name": "Verify substrate moisture",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A003",
+          "sequence": 3,
+          "name": "Prepare and prime substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A004",
+          "sequence": 4,
+          "name": "Install perimeter isolation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A005",
+          "sequence": 5,
+          "name": "Mix underlayment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A006",
+          "sequence": 6,
+          "name": "Pump and place underlayment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A007",
+          "sequence": 7,
+          "name": "Verify thickness and elevation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A008",
+          "sequence": 8,
+          "name": "Cure underlayment",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A009",
+          "sequence": 9,
+          "name": "Test moisture and hardness",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A010",
+          "sequence": 10,
+          "name": "Sand or repair surface",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S035400-A011",
+          "sequence": 11,
+          "name": "Release for flooring",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S036000",
+      "section_code": "03 60 00",
+      "title": "Grouting",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S036000-A001",
+          "sequence": 1,
+          "name": "Submit grout materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A002",
+          "sequence": 2,
+          "name": "Approve grout mix",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A003",
+          "sequence": 3,
+          "name": "Prepare grout-placement plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A004",
+          "sequence": 4,
+          "name": "Verify bearing surfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A005",
+          "sequence": 5,
+          "name": "Install forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A006",
+          "sequence": 6,
+          "name": "Mix grout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A007",
+          "sequence": 7,
+          "name": "Place nonshrink grout",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A008",
+          "sequence": 8,
+          "name": "Grout base plates",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A009",
+          "sequence": 9,
+          "name": "Grout equipment bases",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A010",
+          "sequence": 10,
+          "name": "Grout precast connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A011",
+          "sequence": 11,
+          "name": "Grout dowels and anchors",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A012",
+          "sequence": 12,
+          "name": "Consolidate grout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A013",
+          "sequence": 13,
+          "name": "Cure grout",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A014",
+          "sequence": 14,
+          "name": "Test grout",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A015",
+          "sequence": 15,
+          "name": "Inspect completed grouting",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A016",
+          "sequence": 16,
+          "name": "Repair voids",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036000-A017",
+          "sequence": 17,
+          "name": "Release equipment or structure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S036200",
+      "section_code": "03 62 00",
+      "title": "Non-Shrink Grouting",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S036200-A001",
+          "sequence": 1,
+          "name": "Submit non-shrink grout",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A002",
+          "sequence": 2,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A003",
+          "sequence": 3,
+          "name": "Set forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A004",
+          "sequence": 4,
+          "name": "Precondition surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A005",
+          "sequence": 5,
+          "name": "Mix grout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A006",
+          "sequence": 6,
+          "name": "Place under base plates",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A007",
+          "sequence": 7,
+          "name": "Place under bearing plates",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A008",
+          "sequence": 8,
+          "name": "Place around anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A009",
+          "sequence": 9,
+          "name": "Maintain grout head",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A010",
+          "sequence": 10,
+          "name": "Cure grout",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A011",
+          "sequence": 11,
+          "name": "Test grout strength",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A012",
+          "sequence": 12,
+          "name": "Inspect bearing",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A013",
+          "sequence": 13,
+          "name": "Remove forms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036200-A014",
+          "sequence": 14,
+          "name": "Patch edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S036300",
+      "section_code": "03 63 00",
+      "title": "Epoxy Grouting",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S036300-A001",
+          "sequence": 1,
+          "name": "Submit epoxy-grout system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A002",
+          "sequence": 2,
+          "name": "Verify temperature and moisture",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A003",
+          "sequence": 3,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A004",
+          "sequence": 4,
+          "name": "Install sealed forms",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A005",
+          "sequence": 5,
+          "name": "Mix epoxy grout",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A006",
+          "sequence": 6,
+          "name": "Place epoxy grout",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A007",
+          "sequence": 7,
+          "name": "Control exotherm",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A008",
+          "sequence": 8,
+          "name": "Cure grout",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A009",
+          "sequence": 9,
+          "name": "Inspect for voids",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A010",
+          "sequence": 10,
+          "name": "Test when required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A011",
+          "sequence": 11,
+          "name": "Remove forms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A012",
+          "sequence": 12,
+          "name": "Finish edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S036300-A013",
+          "sequence": 13,
+          "name": "Release equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S037000",
+      "section_code": "03 70 00",
+      "title": "Mass Concrete",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S037000-A001",
+          "sequence": 1,
+          "name": "Prepare mass-concrete thermal-control plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A002",
+          "sequence": 2,
+          "name": "Approve mass-concrete mix",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A003",
+          "sequence": 3,
+          "name": "Install temperature sensors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A004",
+          "sequence": 4,
+          "name": "Install cooling system when required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A005",
+          "sequence": 5,
+          "name": "Conduct preplacement meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A006",
+          "sequence": 6,
+          "name": "Place mass concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A007",
+          "sequence": 7,
+          "name": "Monitor concrete temperature",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A008",
+          "sequence": 8,
+          "name": "Monitor temperature differential",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A009",
+          "sequence": 9,
+          "name": "Apply insulation and protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A010",
+          "sequence": 10,
+          "name": "Operate cooling system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A011",
+          "sequence": 11,
+          "name": "Cure concrete",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A012",
+          "sequence": 12,
+          "name": "Review strength tests",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A013",
+          "sequence": 13,
+          "name": "Continue thermal monitoring",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A014",
+          "sequence": 14,
+          "name": "Remove protection",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A015",
+          "sequence": 15,
+          "name": "Inspect cracking",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A016",
+          "sequence": 16,
+          "name": "Repair deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S037000-A017",
+          "sequence": 17,
+          "name": "Submit thermal-control report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S038000",
+      "section_code": "03 80 00",
+      "title": "Concrete Cutting and Coring",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S038000-A001",
+          "sequence": 1,
+          "name": "Survey cutting locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A002",
+          "sequence": 2,
+          "name": "Scan concrete for reinforcing and utilities",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A003",
+          "sequence": 3,
+          "name": "Obtain structural approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A004",
+          "sequence": 4,
+          "name": "Establish dust and water controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A005",
+          "sequence": 5,
+          "name": "Sawcut slabs and walls",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A006",
+          "sequence": 6,
+          "name": "Core openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A007",
+          "sequence": 7,
+          "name": "Remove cut material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A008",
+          "sequence": 8,
+          "name": "Protect reinforcing",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A009",
+          "sequence": 9,
+          "name": "Install supplemental reinforcing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A010",
+          "sequence": 10,
+          "name": "Patch unused openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A011",
+          "sequence": 11,
+          "name": "Firestop penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S038000-A012",
+          "sequence": 12,
+          "name": "Inspect completed openings",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D03-S039000",
+      "section_code": "03 90 00",
+      "title": "Concrete Testing and Acceptance",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D03-S039000-A001",
+          "sequence": 1,
+          "name": "Approve testing agency",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A002",
+          "sequence": 2,
+          "name": "Verify technician qualifications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A003",
+          "sequence": 3,
+          "name": "Verify equipment calibration",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A004",
+          "sequence": 4,
+          "name": "Review delivery tickets",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A005",
+          "sequence": 5,
+          "name": "Test slump",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A006",
+          "sequence": 6,
+          "name": "Test air content",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A007",
+          "sequence": 7,
+          "name": "Test temperature",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A008",
+          "sequence": 8,
+          "name": "Test unit weight",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A009",
+          "sequence": 9,
+          "name": "Cast cylinders or beams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A010",
+          "sequence": 10,
+          "name": "Perform floor-flatness testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A011",
+          "sequence": 11,
+          "name": "Perform maturity testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A012",
+          "sequence": 12,
+          "name": "Perform pullout or in-place testing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A013",
+          "sequence": 13,
+          "name": "Break test specimens",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A014",
+          "sequence": 14,
+          "name": "Report results",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A015",
+          "sequence": 15,
+          "name": "Investigate low strength",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A016",
+          "sequence": 16,
+          "name": "Core concrete when required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A017",
+          "sequence": 17,
+          "name": "Approve corrective action",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A018",
+          "sequence": 18,
+          "name": "Repair and retest",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D03-S039000-A019",
+          "sequence": 19,
+          "name": "Obtain final concrete acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

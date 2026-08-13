@@ -1,0 +1,1514 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D00",
+    "division_number": "00",
+    "title": "SSX 2026 CSI Division 00 Activities — Procurement and Contracting Requirements",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-00/MASTER_DIVISION_00_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 8,
+    "activities": 160
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D00-S001113",
+      "section_code": "00 11 13",
+      "title": "Advertisement or Invitation for Bids",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S001113-A001",
+          "sequence": 1,
+          "name": "Confirm project scope and bid packages",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A002",
+          "sequence": 2,
+          "name": "Confirm bidder qualification requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A003",
+          "sequence": 3,
+          "name": "Confirm issue date and bid due date",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A004",
+          "sequence": 4,
+          "name": "Confirm prebid meeting and site visit",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A005",
+          "sequence": 5,
+          "name": "Prepare invitation to bid",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A006",
+          "sequence": 6,
+          "name": "Approve bidder list",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A007",
+          "sequence": 7,
+          "name": "Publish or distribute invitation",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A008",
+          "sequence": 8,
+          "name": "Confirm bidder receipt",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A009",
+          "sequence": 9,
+          "name": "Track bidding/not bidding responses",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A010",
+          "sequence": 10,
+          "name": "Add replacement bidders",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A011",
+          "sequence": 11,
+          "name": "Issue reminder notices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S001113-A012",
+          "sequence": 12,
+          "name": "Close invitation period",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S002113",
+      "section_code": "00 21 13",
+      "title": "Instructions to Bidders",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S002113-A001",
+          "sequence": 1,
+          "name": "Draft bidding instructions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A002",
+          "sequence": 2,
+          "name": "Define electronic or sealed bid procedure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A003",
+          "sequence": 3,
+          "name": "Define questions and substitution deadlines",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A004",
+          "sequence": 4,
+          "name": "Define addendum cutoff",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A005",
+          "sequence": 5,
+          "name": "Define bid-security requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A006",
+          "sequence": 6,
+          "name": "Define alternates, allowances and unit prices",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A007",
+          "sequence": 7,
+          "name": "Define acknowledgment requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A008",
+          "sequence": 8,
+          "name": "Define bid-validity period",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A009",
+          "sequence": 9,
+          "name": "Conduct legal and owner review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A010",
+          "sequence": 10,
+          "name": "Issue final instructions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A011",
+          "sequence": 11,
+          "name": "Respond to procedural questions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S002113-A012",
+          "sequence": 12,
+          "name": "Document approved exceptions",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S003100",
+      "section_code": "00 31 00",
+      "title": "Available Project Information",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S003100-A001",
+          "sequence": 1,
+          "name": "Assemble surveys",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A002",
+          "sequence": 2,
+          "name": "Assemble geotechnical information",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A003",
+          "sequence": 3,
+          "name": "Assemble environmental reports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A004",
+          "sequence": 4,
+          "name": "Assemble hazardous-material reports",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A005",
+          "sequence": 5,
+          "name": "Assemble existing-condition information",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A006",
+          "sequence": 6,
+          "name": "Assemble utility information",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A007",
+          "sequence": 7,
+          "name": "Assemble record documents",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A008",
+          "sequence": 8,
+          "name": "Establish disclaimer and reliance terms",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A009",
+          "sequence": 9,
+          "name": "Upload bidder information",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A010",
+          "sequence": 10,
+          "name": "Confirm readable files",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A011",
+          "sequence": 11,
+          "name": "Issue revised information",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A012",
+          "sequence": 12,
+          "name": "Record bidder access",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S003100-A013",
+          "sequence": 13,
+          "name": "Preserve issued package",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S004100",
+      "section_code": "00 41 00",
+      "title": "Bid Forms",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S004100-A001",
+          "sequence": 1,
+          "name": "Prepare base bid form",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A002",
+          "sequence": 2,
+          "name": "Prepare trade or package breakdown",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A003",
+          "sequence": 3,
+          "name": "Prepare alternates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A004",
+          "sequence": 4,
+          "name": "Prepare allowances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A005",
+          "sequence": 5,
+          "name": "Prepare unit prices",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A006",
+          "sequence": 6,
+          "name": "Prepare subcontractor listing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A007",
+          "sequence": 7,
+          "name": "Prepare schedule and duration acknowledgment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A008",
+          "sequence": 8,
+          "name": "Prepare addenda acknowledgment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A009",
+          "sequence": 9,
+          "name": "Prepare signature and authority fields",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A010",
+          "sequence": 10,
+          "name": "Review form completeness",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A011",
+          "sequence": 11,
+          "name": "Issue bid form",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A012",
+          "sequence": 12,
+          "name": "Receive bid",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A013",
+          "sequence": 13,
+          "name": "Conduct completeness check",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A014",
+          "sequence": 14,
+          "name": "Request permitted clarification",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A015",
+          "sequence": 15,
+          "name": "Preserve original submission",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A016",
+          "sequence": 16,
+          "name": "Prepare bid bond form",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A017",
+          "sequence": 17,
+          "name": "Prepare qualifications statement",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A018",
+          "sequence": 18,
+          "name": "Prepare experience requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A019",
+          "sequence": 19,
+          "name": "Prepare proposed subcontractor list",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A020",
+          "sequence": 20,
+          "name": "Prepare manpower and schedule information",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A021",
+          "sequence": 21,
+          "name": "Prepare safety and quality history request",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A022",
+          "sequence": 22,
+          "name": "Prepare insurance information",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A023",
+          "sequence": 23,
+          "name": "Prepare financial-capacity information",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A024",
+          "sequence": 24,
+          "name": "Receive supplements",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A025",
+          "sequence": 25,
+          "name": "Review completeness",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A026",
+          "sequence": 26,
+          "name": "Verify references",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A027",
+          "sequence": 27,
+          "name": "Conduct bidder interview",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A028",
+          "sequence": 28,
+          "name": "Resolve qualifications",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S004100-A029",
+          "sequence": 29,
+          "name": "Approve responsive bidder",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S005200",
+      "section_code": "00 52 00",
+      "title": "Agreement Forms",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S005200-A001",
+          "sequence": 1,
+          "name": "Select contract form",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A002",
+          "sequence": 2,
+          "name": "Insert parties and project information",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A003",
+          "sequence": 3,
+          "name": "Insert contract sum",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A004",
+          "sequence": 4,
+          "name": "Insert contract time and milestones",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A005",
+          "sequence": 5,
+          "name": "Insert liquidated-damages provisions when applicable",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A006",
+          "sequence": 6,
+          "name": "Insert retainage and payment terms",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A007",
+          "sequence": 7,
+          "name": "Incorporate alternates and allowances",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A008",
+          "sequence": 8,
+          "name": "Incorporate accepted clarifications",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A009",
+          "sequence": 9,
+          "name": "Conduct legal review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A010",
+          "sequence": 10,
+          "name": "Conduct owner review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A011",
+          "sequence": 11,
+          "name": "Issue for signature",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A012",
+          "sequence": 12,
+          "name": "Contractor signs",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A013",
+          "sequence": 13,
+          "name": "Owner signs",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A014",
+          "sequence": 14,
+          "name": "Distribute executed agreement",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A015",
+          "sequence": 15,
+          "name": "Record effective date",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A016",
+          "sequence": 16,
+          "name": "Confirm performance-bond requirement",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A017",
+          "sequence": 17,
+          "name": "Confirm payment-bond requirement",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A018",
+          "sequence": 18,
+          "name": "Confirm bid bond",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A019",
+          "sequence": 19,
+          "name": "Confirm consent of surety",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A020",
+          "sequence": 20,
+          "name": "Obtain insurance certificates",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A021",
+          "sequence": 21,
+          "name": "Verify coverage and limits",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A022",
+          "sequence": 22,
+          "name": "Verify additional insured requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A023",
+          "sequence": 23,
+          "name": "Verify builder’s risk",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A024",
+          "sequence": 24,
+          "name": "Verify professional liability when applicable",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A025",
+          "sequence": 25,
+          "name": "Review bond forms",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A026",
+          "sequence": 26,
+          "name": "Review surety authorization",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A027",
+          "sequence": 27,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A028",
+          "sequence": 28,
+          "name": "Obtain final bonds",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A029",
+          "sequence": 29,
+          "name": "Obtain final certificates",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S005200-A030",
+          "sequence": 30,
+          "name": "Release notice to proceed prerequisite",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S007200",
+      "section_code": "00 72 00",
+      "title": "General Conditions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S007200-A001",
+          "sequence": 1,
+          "name": "Select general conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A002",
+          "sequence": 2,
+          "name": "Review owner-contractor responsibilities",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A003",
+          "sequence": 3,
+          "name": "Review architect/engineer authority",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A004",
+          "sequence": 4,
+          "name": "Review payment procedure",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A005",
+          "sequence": 5,
+          "name": "Review changes procedure",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A006",
+          "sequence": 6,
+          "name": "Review claims and dispute procedure",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A007",
+          "sequence": 7,
+          "name": "Review time and delay provisions",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A008",
+          "sequence": 8,
+          "name": "Review inspections and correction",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A009",
+          "sequence": 9,
+          "name": "Review termination and suspension",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A010",
+          "sequence": 10,
+          "name": "Review insurance and bonds",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A011",
+          "sequence": 11,
+          "name": "Review substantial and final completion",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A012",
+          "sequence": 12,
+          "name": "Coordinate with agreement",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A013",
+          "sequence": 13,
+          "name": "Coordinate with supplementary conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007200-A014",
+          "sequence": 14,
+          "name": "Approve and issue general conditions",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S007300",
+      "section_code": "00 73 00",
+      "title": "Supplementary Conditions",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S007300-A001",
+          "sequence": 1,
+          "name": "Identify project-specific modifications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A002",
+          "sequence": 2,
+          "name": "Modify owner requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A003",
+          "sequence": 3,
+          "name": "Modify insurance and bond requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A004",
+          "sequence": 4,
+          "name": "Define scheduling requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A005",
+          "sequence": 5,
+          "name": "Define payment and lien-waiver requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A006",
+          "sequence": 6,
+          "name": "Define background screening and site access",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A007",
+          "sequence": 7,
+          "name": "Define prevailing wage or workforce reporting",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A008",
+          "sequence": 8,
+          "name": "Define sustainability requirements",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A009",
+          "sequence": 9,
+          "name": "Define electronic document system",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A010",
+          "sequence": 10,
+          "name": "Define testing and inspection responsibility",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A011",
+          "sequence": 11,
+          "name": "Define owner-furnished information or equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A012",
+          "sequence": 12,
+          "name": "Define weather and delay procedures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A013",
+          "sequence": 13,
+          "name": "Conduct legal review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S007300-A014",
+          "sequence": 14,
+          "name": "Issue final supplementary conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D00-S009100",
+      "section_code": "00 91 00",
+      "title": "Addenda",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D00-S009100-A001",
+          "sequence": 1,
+          "name": "Receive bidder question",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A002",
+          "sequence": 2,
+          "name": "Determine need for addendum",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A003",
+          "sequence": 3,
+          "name": "Prepare drawing revision",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A004",
+          "sequence": 4,
+          "name": "Prepare specification revision",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A005",
+          "sequence": 5,
+          "name": "Prepare bid-form revision",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A006",
+          "sequence": 6,
+          "name": "Coordinate all disciplines",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A007",
+          "sequence": 7,
+          "name": "Obtain owner approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A008",
+          "sequence": 8,
+          "name": "Issue addendum",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A009",
+          "sequence": 9,
+          "name": "Confirm bidder receipt",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A010",
+          "sequence": 10,
+          "name": "Extend bid date when required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A011",
+          "sequence": 11,
+          "name": "Require acknowledgment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A012",
+          "sequence": 12,
+          "name": "Evaluate bid using issued addenda",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A013",
+          "sequence": 13,
+          "name": "Issue post-bid clarification when permitted",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A014",
+          "sequence": 14,
+          "name": "Preserve final procurement record",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A015",
+          "sequence": 15,
+          "name": "Bid documents approved",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A016",
+          "sequence": 16,
+          "name": "Bid documents issued",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A017",
+          "sequence": 17,
+          "name": "Prebid conference complete",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A018",
+          "sequence": 18,
+          "name": "Bidder questions due",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A019",
+          "sequence": 19,
+          "name": "Final addendum issued",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A020",
+          "sequence": 20,
+          "name": "Bids due",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A021",
+          "sequence": 21,
+          "name": "Bid leveling complete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A022",
+          "sequence": 22,
+          "name": "Scope interviews complete",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A023",
+          "sequence": 23,
+          "name": "Recommendation issued",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A024",
+          "sequence": 24,
+          "name": "Owner award approved",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A025",
+          "sequence": 25,
+          "name": "Bonds and insurance accepted",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A026",
+          "sequence": 26,
+          "name": "Agreement executed",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A027",
+          "sequence": 27,
+          "name": "Notice to proceed issued",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A028",
+          "sequence": 28,
+          "name": "Procurement strategy → bid-package preparation",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A029",
+          "sequence": 29,
+          "name": "Approved documents → invitation to bid",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A030",
+          "sequence": 30,
+          "name": "Invitation → prebid meeting and questions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A031",
+          "sequence": 31,
+          "name": "Questions → addenda",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A032",
+          "sequence": 32,
+          "name": "Final addendum → bid submission",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A033",
+          "sequence": 33,
+          "name": "Bids → leveling and scope review",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A034",
+          "sequence": 34,
+          "name": "Recommendation → owner approval",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A035",
+          "sequence": 35,
+          "name": "Approval → agreement, bonds and insurance",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D00-S009100-A036",
+          "sequence": 36,
+          "name": "Executed agreement and prerequisites → notice to proceed",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

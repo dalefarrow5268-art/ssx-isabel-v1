@@ -1,0 +1,4207 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D06",
+    "division_number": "06",
+    "title": "Wood, Plastics, and Composites",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-06/MASTER_DIVISION_06_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 34,
+    "activities": 439
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D06-S060100",
+      "section_code": "06 01 00",
+      "title": "Maintenance of Wood, Plastics, and Composites",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S060100-A001",
+          "sequence": 1,
+          "name": "Survey existing work",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A002",
+          "sequence": 2,
+          "name": "Document decay, damage and movement",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A003",
+          "sequence": 3,
+          "name": "Test moisture and material condition",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A004",
+          "sequence": 4,
+          "name": "Prepare repair plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A005",
+          "sequence": 5,
+          "name": "Construct repair mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A006",
+          "sequence": 6,
+          "name": "Remove deteriorated material",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A007",
+          "sequence": 7,
+          "name": "Repair or replace damaged components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A008",
+          "sequence": 8,
+          "name": "Match existing profiles and finishes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A009",
+          "sequence": 9,
+          "name": "Treat concealed deterioration",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A010",
+          "sequence": 10,
+          "name": "Refinish repaired work",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A011",
+          "sequence": 11,
+          "name": "Inspect repairs",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060100-A012",
+          "sequence": 12,
+          "name": "Complete closeout documentation",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S060500",
+      "section_code": "06 05 00",
+      "title": "Common Work Results for Wood, Plastics, and Composites",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S060500-A001",
+          "sequence": 1,
+          "name": "Conduct preinstallation conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A002",
+          "sequence": 2,
+          "name": "Submit product data and certifications",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A003",
+          "sequence": 3,
+          "name": "Submit shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A004",
+          "sequence": 4,
+          "name": "Submit samples and finish selections",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A005",
+          "sequence": 5,
+          "name": "Coordinate blocking, supports and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A006",
+          "sequence": 6,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A007",
+          "sequence": 7,
+          "name": "Procure materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A008",
+          "sequence": 8,
+          "name": "Receive and inspect materials",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A009",
+          "sequence": 9,
+          "name": "Store materials dry and ventilated",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A010",
+          "sequence": 10,
+          "name": "Acclimate materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A011",
+          "sequence": 11,
+          "name": "Complete preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060500-A012",
+          "sequence": 12,
+          "name": "Protect completed work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S060523",
+      "section_code": "06 05 23",
+      "title": "Wood, Plastic, and Composite Fastenings",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S060523-A001",
+          "sequence": 1,
+          "name": "Submit fasteners and connectors",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A002",
+          "sequence": 2,
+          "name": "Verify corrosion resistance and compatibility",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A003",
+          "sequence": 3,
+          "name": "Coordinate concealed fasteners",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A004",
+          "sequence": 4,
+          "name": "Procure fasteners",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A005",
+          "sequence": 5,
+          "name": "Lay out connections",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A006",
+          "sequence": 6,
+          "name": "Install bolts, screws and nails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A007",
+          "sequence": 7,
+          "name": "Install adhesives",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A008",
+          "sequence": 8,
+          "name": "Set fastener depth and spacing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A009",
+          "sequence": 9,
+          "name": "Inspect connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060523-A010",
+          "sequence": 10,
+          "name": "Correct loose, split or damaged work",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S060573",
+      "section_code": "06 05 73",
+      "title": "Wood Treatment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S060573-A001",
+          "sequence": 1,
+          "name": "Submit preservative and fire-retardant treatment data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A002",
+          "sequence": 2,
+          "name": "Identify members requiring treatment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A003",
+          "sequence": 3,
+          "name": "Procure treated materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A004",
+          "sequence": 4,
+          "name": "Verify treatment certifications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A005",
+          "sequence": 5,
+          "name": "Field-treat cuts and holes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A006",
+          "sequence": 6,
+          "name": "Apply insect and decay protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A007",
+          "sequence": 7,
+          "name": "Allow treated wood to dry",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A008",
+          "sequence": 8,
+          "name": "Test moisture content",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A009",
+          "sequence": 9,
+          "name": "Inspect coverage and identification",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S060573-A010",
+          "sequence": 10,
+          "name": "Protect treated materials",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061000",
+      "section_code": "06 10 00",
+      "title": "Rough Carpentry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061000-A001",
+          "sequence": 1,
+          "name": "Prepare rough-carpentry submittals",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A002",
+          "sequence": 2,
+          "name": "Coordinate dimensions and loads",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A003",
+          "sequence": 3,
+          "name": "Procure lumber and panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A004",
+          "sequence": 4,
+          "name": "Verify moisture content",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A005",
+          "sequence": 5,
+          "name": "Lay out framing and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A006",
+          "sequence": 6,
+          "name": "Install wood framing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A007",
+          "sequence": 7,
+          "name": "Install sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A008",
+          "sequence": 8,
+          "name": "Install blocking and nailers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A009",
+          "sequence": 9,
+          "name": "Install curbs and sleepers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A010",
+          "sequence": 10,
+          "name": "Install equipment backing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A011",
+          "sequence": 11,
+          "name": "Install rough openings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A012",
+          "sequence": 12,
+          "name": "Inspect fastening and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A013",
+          "sequence": 13,
+          "name": "Correct damaged or wet materials",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061000-A014",
+          "sequence": 14,
+          "name": "Release work for concealment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061100",
+      "section_code": "06 11 00",
+      "title": "Wood Framing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061100-A001",
+          "sequence": 1,
+          "name": "Submit lumber grades and connectors",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A002",
+          "sequence": 2,
+          "name": "Prepare framing layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A003",
+          "sequence": 3,
+          "name": "Verify foundations and bearing surfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A004",
+          "sequence": 4,
+          "name": "Lay out walls and floors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A005",
+          "sequence": 5,
+          "name": "Frame floors",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A006",
+          "sequence": 6,
+          "name": "Frame walls",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A007",
+          "sequence": 7,
+          "name": "Frame roofs",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A008",
+          "sequence": 8,
+          "name": "Install headers and beams",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A009",
+          "sequence": 9,
+          "name": "Install bracing and blocking",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A010",
+          "sequence": 10,
+          "name": "Install connectors and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A011",
+          "sequence": 11,
+          "name": "Frame openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A012",
+          "sequence": 12,
+          "name": "Check plumb, level and square",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A013",
+          "sequence": 13,
+          "name": "Inspect framing",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061100-A014",
+          "sequence": 14,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061113",
+      "section_code": "06 11 13",
+      "title": "Engineered Wood Products",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061113-A001",
+          "sequence": 1,
+          "name": "Submit engineered-wood calculations",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A002",
+          "sequence": 2,
+          "name": "Prepare placement drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A003",
+          "sequence": 3,
+          "name": "Approve fabrication release",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A004",
+          "sequence": 4,
+          "name": "Procure engineered members",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A005",
+          "sequence": 5,
+          "name": "Verify storage and handling",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A006",
+          "sequence": 6,
+          "name": "Install laminated veneer lumber",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A007",
+          "sequence": 7,
+          "name": "Install parallel-strand lumber",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A008",
+          "sequence": 8,
+          "name": "Install wood I-joists",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A009",
+          "sequence": 9,
+          "name": "Install rim boards and blocking",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A010",
+          "sequence": 10,
+          "name": "Install hangers and connectors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A011",
+          "sequence": 11,
+          "name": "Coordinate penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A012",
+          "sequence": 12,
+          "name": "Inspect bearing and fastening",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061113-A013",
+          "sequence": 13,
+          "name": "Repair only with approved details",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061200",
+      "section_code": "06 12 00",
+      "title": "Structural Panels",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061200-A001",
+          "sequence": 1,
+          "name": "Submit panel grades and span ratings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A002",
+          "sequence": 2,
+          "name": "Procure plywood and OSB",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A003",
+          "sequence": 3,
+          "name": "Verify dry substrate and framing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A004",
+          "sequence": 4,
+          "name": "Lay out panel joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A005",
+          "sequence": 5,
+          "name": "Install wall sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A006",
+          "sequence": 6,
+          "name": "Install roof sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A007",
+          "sequence": 7,
+          "name": "Install subfloor panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A008",
+          "sequence": 8,
+          "name": "Stagger and gap joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A009",
+          "sequence": 9,
+          "name": "Fasten panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A010",
+          "sequence": 10,
+          "name": "Install panel edge blocking",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A011",
+          "sequence": 11,
+          "name": "Inspect nailing patterns",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061200-A012",
+          "sequence": 12,
+          "name": "Replace swollen or damaged panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061300",
+      "section_code": "06 13 00",
+      "title": "Heavy Timber Construction",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061300-A001",
+          "sequence": 1,
+          "name": "Submit timber grades and species",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A002",
+          "sequence": 2,
+          "name": "Prepare timber shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A003",
+          "sequence": 3,
+          "name": "Verify connection engineering",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A004",
+          "sequence": 4,
+          "name": "Procure heavy timbers",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A005",
+          "sequence": 5,
+          "name": "Fabricate and prefit timbers",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A006",
+          "sequence": 6,
+          "name": "Apply treatment and finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A007",
+          "sequence": 7,
+          "name": "Deliver and protect timbers",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A008",
+          "sequence": 8,
+          "name": "Verify supports and anchors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A009",
+          "sequence": 9,
+          "name": "Erect posts and beams",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A010",
+          "sequence": 10,
+          "name": "Install timber connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A011",
+          "sequence": 11,
+          "name": "Install decking",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A012",
+          "sequence": 12,
+          "name": "Check frame alignment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A013",
+          "sequence": 13,
+          "name": "Inspect connections and appearance",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061300-A014",
+          "sequence": 14,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061313",
+      "section_code": "06 13 13",
+      "title": "Heavy Timber Framing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061313-A001",
+          "sequence": 1,
+          "name": "Prepare framing erection drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A002",
+          "sequence": 2,
+          "name": "Approve timber samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A003",
+          "sequence": 3,
+          "name": "Fabricate columns, beams and trusses",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A004",
+          "sequence": 4,
+          "name": "Drill and fit connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A005",
+          "sequence": 5,
+          "name": "Shop assemble complex joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A006",
+          "sequence": 6,
+          "name": "Deliver by erection sequence",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A007",
+          "sequence": 7,
+          "name": "Erect heavy-timber frame",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A008",
+          "sequence": 8,
+          "name": "Install concealed connectors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A009",
+          "sequence": 9,
+          "name": "Install temporary and permanent bracing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A010",
+          "sequence": 10,
+          "name": "Tighten connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A011",
+          "sequence": 11,
+          "name": "Survey alignment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A012",
+          "sequence": 12,
+          "name": "Inspect checks and damage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061313-A013",
+          "sequence": 13,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061316",
+      "section_code": "06 13 16",
+      "title": "Pole Construction",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061316-A001",
+          "sequence": 1,
+          "name": "Submit pole materials and treatment",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A002",
+          "sequence": 2,
+          "name": "Prepare pole layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A003",
+          "sequence": 3,
+          "name": "Verify utilities and excavation locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A004",
+          "sequence": 4,
+          "name": "Excavate pole holes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A005",
+          "sequence": 5,
+          "name": "Set poles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A006",
+          "sequence": 6,
+          "name": "Plumb and brace poles",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A007",
+          "sequence": 7,
+          "name": "Place backfill or concrete",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A008",
+          "sequence": 8,
+          "name": "Install girts and framing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A009",
+          "sequence": 9,
+          "name": "Install connectors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A010",
+          "sequence": 10,
+          "name": "Inspect embedment and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061316-A011",
+          "sequence": 11,
+          "name": "Correct settlement or movement",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061400",
+      "section_code": "06 14 00",
+      "title": "Treated Wood Foundations",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061400-A001",
+          "sequence": 1,
+          "name": "Submit treated-foundation system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A002",
+          "sequence": 2,
+          "name": "Verify treatment certifications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A003",
+          "sequence": 3,
+          "name": "Prepare foundation layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A004",
+          "sequence": 4,
+          "name": "Excavate and prepare base",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A005",
+          "sequence": 5,
+          "name": "Install drainage layer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A006",
+          "sequence": 6,
+          "name": "Install treated footings and wall framing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A007",
+          "sequence": 7,
+          "name": "Install sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A008",
+          "sequence": 8,
+          "name": "Install waterproofing membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A009",
+          "sequence": 9,
+          "name": "Install drainage and backfill",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A010",
+          "sequence": 10,
+          "name": "Inspect treatment and connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A011",
+          "sequence": 11,
+          "name": "Test moisture protection",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061400-A012",
+          "sequence": 12,
+          "name": "Complete foundation survey",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061500",
+      "section_code": "06 15 00",
+      "title": "Wood Decking",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061500-A001",
+          "sequence": 1,
+          "name": "Submit decking species, grade and finish",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A002",
+          "sequence": 2,
+          "name": "Approve appearance sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A003",
+          "sequence": 3,
+          "name": "Verify support spacing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A004",
+          "sequence": 4,
+          "name": "Acclimate decking",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A005",
+          "sequence": 5,
+          "name": "Lay out boards and joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A006",
+          "sequence": 6,
+          "name": "Install plank decking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A007",
+          "sequence": 7,
+          "name": "Install tongue-and-groove decking",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A008",
+          "sequence": 8,
+          "name": "Install fasteners",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A009",
+          "sequence": 9,
+          "name": "Provide ventilation and drainage gaps",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A010",
+          "sequence": 10,
+          "name": "Sand and finish exposed decking",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A011",
+          "sequence": 11,
+          "name": "Inspect alignment and surface",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061500-A012",
+          "sequence": 12,
+          "name": "Replace damaged boards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061600",
+      "section_code": "06 16 00",
+      "title": "Sheathing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061600-A001",
+          "sequence": 1,
+          "name": "Submit sheathing products",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A002",
+          "sequence": 2,
+          "name": "Coordinate air-barrier and cladding requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A003",
+          "sequence": 3,
+          "name": "Verify framing readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A004",
+          "sequence": 4,
+          "name": "Install wall sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A005",
+          "sequence": 5,
+          "name": "Install roof sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A006",
+          "sequence": 6,
+          "name": "Install gypsum sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A007",
+          "sequence": 7,
+          "name": "Install cementitious sheathing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A008",
+          "sequence": 8,
+          "name": "Fasten and gap panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A009",
+          "sequence": 9,
+          "name": "Treat joints when required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A010",
+          "sequence": 10,
+          "name": "Inspect attachment and continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A011",
+          "sequence": 11,
+          "name": "Replace wet or damaged panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061600-A012",
+          "sequence": 12,
+          "name": "Release for enclosure",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061700",
+      "section_code": "06 17 00",
+      "title": "Shop-Fabricated Structural Wood",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061700-A001",
+          "sequence": 1,
+          "name": "Complete delegated design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication and erection drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A003",
+          "sequence": 3,
+          "name": "Approve connection details",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A004",
+          "sequence": 4,
+          "name": "Procure graded lumber",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A005",
+          "sequence": 5,
+          "name": "Fabricate trusses or assemblies",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A006",
+          "sequence": 6,
+          "name": "Install connector plates and hardware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A007",
+          "sequence": 7,
+          "name": "Perform plant quality control",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A008",
+          "sequence": 8,
+          "name": "Deliver and stage assemblies",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A009",
+          "sequence": 9,
+          "name": "Verify bearings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A010",
+          "sequence": 10,
+          "name": "Erect assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A011",
+          "sequence": 11,
+          "name": "Install bracing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061700-A012",
+          "sequence": 12,
+          "name": "Inspect connections and alignment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061713",
+      "section_code": "06 17 13",
+      "title": "Laminated Veneer Lumber",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061713-A001",
+          "sequence": 1,
+          "name": "Submit LVL design data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A002",
+          "sequence": 2,
+          "name": "Prepare member schedules",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A003",
+          "sequence": 3,
+          "name": "Approve fabrication release",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A004",
+          "sequence": 4,
+          "name": "Procure LVL members",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A005",
+          "sequence": 5,
+          "name": "Protect from moisture",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A006",
+          "sequence": 6,
+          "name": "Install beams and headers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A007",
+          "sequence": 7,
+          "name": "Install hangers and connectors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A008",
+          "sequence": 8,
+          "name": "Provide required bearing",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A009",
+          "sequence": 9,
+          "name": "Coordinate allowable holes",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A010",
+          "sequence": 10,
+          "name": "Inspect fastening and damage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061713-A011",
+          "sequence": 11,
+          "name": "Implement approved repairs",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061733",
+      "section_code": "06 17 33",
+      "title": "Wood I-Joists",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061733-A001",
+          "sequence": 1,
+          "name": "Submit I-joist layouts",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A002",
+          "sequence": 2,
+          "name": "Coordinate loads and penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A003",
+          "sequence": 3,
+          "name": "Procure joists and accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A004",
+          "sequence": 4,
+          "name": "Verify bearing conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A005",
+          "sequence": 5,
+          "name": "Install joists",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A006",
+          "sequence": 6,
+          "name": "Install rim boards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A007",
+          "sequence": 7,
+          "name": "Install web stiffeners",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A008",
+          "sequence": 8,
+          "name": "Install blocking and squash blocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A009",
+          "sequence": 9,
+          "name": "Frame openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A010",
+          "sequence": 10,
+          "name": "Install hangers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A011",
+          "sequence": 11,
+          "name": "Inspect spacing and bearing",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061733-A012",
+          "sequence": 12,
+          "name": "Repair damaged joists with approved details",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061753",
+      "section_code": "06 17 53",
+      "title": "Shop-Fabricated Wood Trusses",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061753-A001",
+          "sequence": 1,
+          "name": "Complete truss engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A002",
+          "sequence": 2,
+          "name": "Prepare truss placement drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A003",
+          "sequence": 3,
+          "name": "Coordinate loads and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A004",
+          "sequence": 4,
+          "name": "Approve fabrication release",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A005",
+          "sequence": 5,
+          "name": "Fabricate trusses",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A006",
+          "sequence": 6,
+          "name": "Perform plant inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A007",
+          "sequence": 7,
+          "name": "Deliver and stage trusses",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A008",
+          "sequence": 8,
+          "name": "Verify bearings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A009",
+          "sequence": 9,
+          "name": "Erect trusses",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A010",
+          "sequence": 10,
+          "name": "Install temporary bracing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A011",
+          "sequence": 11,
+          "name": "Install permanent bracing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A012",
+          "sequence": 12,
+          "name": "Install truss connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061753-A013",
+          "sequence": 13,
+          "name": "Inspect alignment and damage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S061800",
+      "section_code": "06 18 00",
+      "title": "Glued-Laminated Construction",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S061800-A001",
+          "sequence": 1,
+          "name": "Submit glulam engineering and appearance grade",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A002",
+          "sequence": 2,
+          "name": "Prepare shop and erection drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A003",
+          "sequence": 3,
+          "name": "Approve finish sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A004",
+          "sequence": 4,
+          "name": "Fabricate glulam members",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A005",
+          "sequence": 5,
+          "name": "Apply sealer and finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A006",
+          "sequence": 6,
+          "name": "Protect members for shipment",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A007",
+          "sequence": 7,
+          "name": "Deliver by erection sequence",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A008",
+          "sequence": 8,
+          "name": "Verify supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A009",
+          "sequence": 9,
+          "name": "Erect beams and arches",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A010",
+          "sequence": 10,
+          "name": "Install connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A011",
+          "sequence": 11,
+          "name": "Provide temporary bracing",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A012",
+          "sequence": 12,
+          "name": "Survey alignment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A013",
+          "sequence": 13,
+          "name": "Repair approved surface damage",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S061800-A014",
+          "sequence": 14,
+          "name": "Complete appearance inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S062000",
+      "section_code": "06 20 00",
+      "title": "Finish Carpentry",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S062000-A001",
+          "sequence": 1,
+          "name": "Prepare finish-carpentry shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A002",
+          "sequence": 2,
+          "name": "Submit wood and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A003",
+          "sequence": 3,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A004",
+          "sequence": 4,
+          "name": "Coordinate backing and substrates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A005",
+          "sequence": 5,
+          "name": "Procure finish lumber and trim",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A006",
+          "sequence": 6,
+          "name": "Acclimate materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A007",
+          "sequence": 7,
+          "name": "Fabricate trim components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A008",
+          "sequence": 8,
+          "name": "Install interior trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A009",
+          "sequence": 9,
+          "name": "Install exterior trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A010",
+          "sequence": 10,
+          "name": "Install wood paneling and shelving",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A011",
+          "sequence": 11,
+          "name": "Fit joints and intersections",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A012",
+          "sequence": 12,
+          "name": "Sand and finish work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A013",
+          "sequence": 13,
+          "name": "Inspect appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A014",
+          "sequence": 14,
+          "name": "Repair or replace damaged work",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062000-A015",
+          "sequence": 15,
+          "name": "Protect completed carpentry",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S062200",
+      "section_code": "06 22 00",
+      "title": "Millwork",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S062200-A001",
+          "sequence": 1,
+          "name": "Prepare millwork shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A002",
+          "sequence": 2,
+          "name": "Submit material and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A003",
+          "sequence": 3,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A004",
+          "sequence": 4,
+          "name": "Coordinate utilities and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A005",
+          "sequence": 5,
+          "name": "Approve mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A006",
+          "sequence": 6,
+          "name": "Fabricate millwork",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A007",
+          "sequence": 7,
+          "name": "Apply shop finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A008",
+          "sequence": 8,
+          "name": "Perform shop quality control",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A009",
+          "sequence": 9,
+          "name": "Deliver and acclimate millwork",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A010",
+          "sequence": 10,
+          "name": "Install cabinets and counters",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A011",
+          "sequence": 11,
+          "name": "Scribe and fit to construction",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A012",
+          "sequence": 12,
+          "name": "Install hardware",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A013",
+          "sequence": 13,
+          "name": "Adjust doors and drawers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A014",
+          "sequence": 14,
+          "name": "Clean and protect millwork",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062200-A015",
+          "sequence": 15,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S062500",
+      "section_code": "06 25 00",
+      "title": "Prefinished Paneling",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S062500-A001",
+          "sequence": 1,
+          "name": "Submit panel layouts and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A002",
+          "sequence": 2,
+          "name": "Approve control sample",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A003",
+          "sequence": 3,
+          "name": "Verify substrate condition",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A004",
+          "sequence": 4,
+          "name": "Acclimate panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A005",
+          "sequence": 5,
+          "name": "Lay out seams and grain direction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A006",
+          "sequence": 6,
+          "name": "Install furring and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A007",
+          "sequence": 7,
+          "name": "Install prefinished panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A008",
+          "sequence": 8,
+          "name": "Install trim and reveals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A009",
+          "sequence": 9,
+          "name": "Coordinate outlets and penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A010",
+          "sequence": 10,
+          "name": "Clean finished surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A011",
+          "sequence": 11,
+          "name": "Inspect alignment and color",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S062500-A012",
+          "sequence": 12,
+          "name": "Replace damaged panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S064000",
+      "section_code": "06 40 00",
+      "title": "Architectural Woodwork",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S064000-A001",
+          "sequence": 1,
+          "name": "Conduct architectural-woodwork conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A002",
+          "sequence": 2,
+          "name": "Submit shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A003",
+          "sequence": 3,
+          "name": "Submit veneer, lumber and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A004",
+          "sequence": 4,
+          "name": "Prepare mockups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A005",
+          "sequence": 5,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A006",
+          "sequence": 6,
+          "name": "Coordinate utilities and equipment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A007",
+          "sequence": 7,
+          "name": "Approve fabrication release",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A008",
+          "sequence": 8,
+          "name": "Procure wood and veneer",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A009",
+          "sequence": 9,
+          "name": "Fabricate architectural woodwork",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A010",
+          "sequence": 10,
+          "name": "Apply shop finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A011",
+          "sequence": 11,
+          "name": "Perform quality certification inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A012",
+          "sequence": 12,
+          "name": "Deliver and acclimate work",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A013",
+          "sequence": 13,
+          "name": "Install casework and paneling",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A014",
+          "sequence": 14,
+          "name": "Install countertops and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A015",
+          "sequence": 15,
+          "name": "Adjust hardware",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A016",
+          "sequence": 16,
+          "name": "Touch up finishes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064000-A017",
+          "sequence": 17,
+          "name": "Complete final inspection and punch",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S064100",
+      "section_code": "06 41 00",
+      "title": "Architectural Wood Casework",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S064100-A001",
+          "sequence": 1,
+          "name": "Prepare casework elevations and details",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A002",
+          "sequence": 2,
+          "name": "Submit finish and hardware samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A003",
+          "sequence": 3,
+          "name": "Verify room dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A004",
+          "sequence": 4,
+          "name": "Coordinate plumbing and electrical services",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A005",
+          "sequence": 5,
+          "name": "Fabricate base and wall cabinets",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A006",
+          "sequence": 6,
+          "name": "Apply shop finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A007",
+          "sequence": 7,
+          "name": "Deliver and acclimate casework",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A008",
+          "sequence": 8,
+          "name": "Lay out cabinet locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A009",
+          "sequence": 9,
+          "name": "Install and level cabinets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A010",
+          "sequence": 10,
+          "name": "Anchor casework",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A011",
+          "sequence": 11,
+          "name": "Install fillers and scribes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A012",
+          "sequence": 12,
+          "name": "Install hardware and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A013",
+          "sequence": 13,
+          "name": "Adjust doors and drawers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064100-A014",
+          "sequence": 14,
+          "name": "Inspect and protect casework",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S064200",
+      "section_code": "06 42 00",
+      "title": "Wood Paneling",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S064200-A001",
+          "sequence": 1,
+          "name": "Prepare panel layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A002",
+          "sequence": 2,
+          "name": "Approve veneer sequence and finish",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A003",
+          "sequence": 3,
+          "name": "Construct panel mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A004",
+          "sequence": 4,
+          "name": "Verify substrate and room conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A005",
+          "sequence": 5,
+          "name": "Fabricate panels and trim",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A006",
+          "sequence": 6,
+          "name": "Sequence and label panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A007",
+          "sequence": 7,
+          "name": "Apply shop finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A008",
+          "sequence": 8,
+          "name": "Deliver and acclimate panels",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A009",
+          "sequence": 9,
+          "name": "Install grounds and furring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A010",
+          "sequence": 10,
+          "name": "Install panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A011",
+          "sequence": 11,
+          "name": "Align grain, joints and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A012",
+          "sequence": 12,
+          "name": "Install trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A013",
+          "sequence": 13,
+          "name": "Touch up finish",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064200-A014",
+          "sequence": 14,
+          "name": "Inspect appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S064300",
+      "section_code": "06 43 00",
+      "title": "Wood Stairs and Railings",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S064300-A001",
+          "sequence": 1,
+          "name": "Complete stair and railing design",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A002",
+          "sequence": 2,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A003",
+          "sequence": 3,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A004",
+          "sequence": 4,
+          "name": "Submit species and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A005",
+          "sequence": 5,
+          "name": "Fabricate stair components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A006",
+          "sequence": 6,
+          "name": "Shop finish components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A007",
+          "sequence": 7,
+          "name": "Install stringers and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A008",
+          "sequence": 8,
+          "name": "Install treads and risers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A009",
+          "sequence": 9,
+          "name": "Install newels, balusters and rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A010",
+          "sequence": 10,
+          "name": "Set code-required dimensions",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A011",
+          "sequence": 11,
+          "name": "Sand and finish joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A012",
+          "sequence": 12,
+          "name": "Inspect anchorage and appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064300-A013",
+          "sequence": 13,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S064400",
+      "section_code": "06 44 00",
+      "title": "Ornamental Woodwork",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S064400-A001",
+          "sequence": 1,
+          "name": "Develop ornamental details",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A002",
+          "sequence": 2,
+          "name": "Submit carving and profile samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A003",
+          "sequence": 3,
+          "name": "Construct appearance mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A004",
+          "sequence": 4,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A005",
+          "sequence": 5,
+          "name": "Select and match wood",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A006",
+          "sequence": 6,
+          "name": "Fabricate ornamental components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A007",
+          "sequence": 7,
+          "name": "Carve and shape profiles",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A008",
+          "sequence": 8,
+          "name": "Shop assemble work",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A009",
+          "sequence": 9,
+          "name": "Apply finish",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A010",
+          "sequence": 10,
+          "name": "Deliver and protect pieces",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A011",
+          "sequence": 11,
+          "name": "Install concealed supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A012",
+          "sequence": 12,
+          "name": "Install ornamental work",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A013",
+          "sequence": 13,
+          "name": "Touch up and clean",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S064400-A014",
+          "sequence": 14,
+          "name": "Complete appearance inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S065000",
+      "section_code": "06 50 00",
+      "title": "Structural Plastics",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S065000-A001",
+          "sequence": 1,
+          "name": "Complete structural-plastic engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A002",
+          "sequence": 2,
+          "name": "Submit resin and reinforcement data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A003",
+          "sequence": 3,
+          "name": "Prepare fabrication drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A004",
+          "sequence": 4,
+          "name": "Approve samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A005",
+          "sequence": 5,
+          "name": "Fabricate structural-plastic members",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A006",
+          "sequence": 6,
+          "name": "Perform factory quality tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A007",
+          "sequence": 7,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A008",
+          "sequence": 8,
+          "name": "Verify supports and anchors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A009",
+          "sequence": 9,
+          "name": "Install structural-plastic framing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A010",
+          "sequence": 10,
+          "name": "Install connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A011",
+          "sequence": 11,
+          "name": "Isolate incompatible materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A012",
+          "sequence": 12,
+          "name": "Inspect alignment and damage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S065000-A013",
+          "sequence": 13,
+          "name": "Submit test records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S066000",
+      "section_code": "06 60 00",
+      "title": "Plastic Fabrications",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S066000-A001",
+          "sequence": 1,
+          "name": "Submit plastic materials and colors",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A003",
+          "sequence": 3,
+          "name": "Approve samples and mockups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A004",
+          "sequence": 4,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A005",
+          "sequence": 5,
+          "name": "Fabricate plastic components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A006",
+          "sequence": 6,
+          "name": "Machine and form pieces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A007",
+          "sequence": 7,
+          "name": "Polish exposed edges",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A008",
+          "sequence": 8,
+          "name": "Deliver with protective film",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A009",
+          "sequence": 9,
+          "name": "Install supports and fasteners",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A010",
+          "sequence": 10,
+          "name": "Install plastic fabrications",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A011",
+          "sequence": 11,
+          "name": "Seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A012",
+          "sequence": 12,
+          "name": "Remove protection and clean",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A013",
+          "sequence": 13,
+          "name": "Inspect scratches and fit",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066000-A014",
+          "sequence": 14,
+          "name": "Replace damaged work",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S066100",
+      "section_code": "06 61 00",
+      "title": "Simulated Stone Fabrications",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S066100-A001",
+          "sequence": 1,
+          "name": "Submit simulated-stone samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A002",
+          "sequence": 2,
+          "name": "Approve color, pattern and edge profiles",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A004",
+          "sequence": 4,
+          "name": "Template field conditions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A005",
+          "sequence": 5,
+          "name": "Fabricate components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A006",
+          "sequence": 6,
+          "name": "Form cutouts and seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A007",
+          "sequence": 7,
+          "name": "Perform shop inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A008",
+          "sequence": 8,
+          "name": "Deliver and protect pieces",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A009",
+          "sequence": 9,
+          "name": "Prepare supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A010",
+          "sequence": 10,
+          "name": "Install components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A011",
+          "sequence": 11,
+          "name": "Join and finish seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A012",
+          "sequence": 12,
+          "name": "Install backsplashes and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A013",
+          "sequence": 13,
+          "name": "Clean and polish surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S066100-A014",
+          "sequence": 14,
+          "name": "Inspect and repair approved defects",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S067000",
+      "section_code": "06 70 00",
+      "title": "Structural Composites",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S067000-A001",
+          "sequence": 1,
+          "name": "Complete composite engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A002",
+          "sequence": 2,
+          "name": "Submit resin, fiber and fire-performance data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A004",
+          "sequence": 4,
+          "name": "Approve samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A005",
+          "sequence": 5,
+          "name": "Fabricate composite members",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A006",
+          "sequence": 6,
+          "name": "Perform factory testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A007",
+          "sequence": 7,
+          "name": "Deliver and protect composites",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A008",
+          "sequence": 8,
+          "name": "Verify attachment conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A009",
+          "sequence": 9,
+          "name": "Install composite structural members",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A010",
+          "sequence": 10,
+          "name": "Install connections",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A011",
+          "sequence": 11,
+          "name": "Inspect deflection and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A012",
+          "sequence": 12,
+          "name": "Repair only with approved procedures",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067000-A013",
+          "sequence": 13,
+          "name": "Submit quality records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S067300",
+      "section_code": "06 73 00",
+      "title": "Composite Decking",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S067300-A001",
+          "sequence": 1,
+          "name": "Submit composite-decking products",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A002",
+          "sequence": 2,
+          "name": "Approve colors and textures",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A003",
+          "sequence": 3,
+          "name": "Prepare decking layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A004",
+          "sequence": 4,
+          "name": "Verify framing spacing and ventilation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A005",
+          "sequence": 5,
+          "name": "Procure decking and fasteners",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A006",
+          "sequence": 6,
+          "name": "Acclimate materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A007",
+          "sequence": 7,
+          "name": "Install decking boards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A008",
+          "sequence": 8,
+          "name": "Install concealed fasteners",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A009",
+          "sequence": 9,
+          "name": "Provide expansion gaps",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A010",
+          "sequence": 10,
+          "name": "Install fascia and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A011",
+          "sequence": 11,
+          "name": "Inspect alignment and surface",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A012",
+          "sequence": 12,
+          "name": "Replace damaged boards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067300-A013",
+          "sequence": 13,
+          "name": "Clean and protect deck",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S067400",
+      "section_code": "06 74 00",
+      "title": "Composite Paneling",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S067400-A001",
+          "sequence": 1,
+          "name": "Submit composite-panel system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A002",
+          "sequence": 2,
+          "name": "Prepare panel layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A003",
+          "sequence": 3,
+          "name": "Approve color and texture samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A004",
+          "sequence": 4,
+          "name": "Verify substrate and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A005",
+          "sequence": 5,
+          "name": "Fabricate and label panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A006",
+          "sequence": 6,
+          "name": "Deliver and protect panels",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A007",
+          "sequence": 7,
+          "name": "Install clips and subframing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A008",
+          "sequence": 8,
+          "name": "Install composite panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A009",
+          "sequence": 9,
+          "name": "Align joints and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A010",
+          "sequence": 10,
+          "name": "Coordinate penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A011",
+          "sequence": 11,
+          "name": "Seal interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A012",
+          "sequence": 12,
+          "name": "Clean panels",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S067400-A013",
+          "sequence": 13,
+          "name": "Inspect finish and attachment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D06-S068000",
+      "section_code": "06 80 00",
+      "title": "Composite Fabrications",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D06-S068000-A001",
+          "sequence": 1,
+          "name": "Submit composite materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A002",
+          "sequence": 2,
+          "name": "Prepare fabrication drawings",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A003",
+          "sequence": 3,
+          "name": "Approve samples and prototypes",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A004",
+          "sequence": 4,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A005",
+          "sequence": 5,
+          "name": "Fabricate composite components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A006",
+          "sequence": 6,
+          "name": "Perform factory quality control",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A007",
+          "sequence": 7,
+          "name": "Deliver and protect fabrications",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A008",
+          "sequence": 8,
+          "name": "Install anchors and supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A009",
+          "sequence": 9,
+          "name": "Install composite assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A010",
+          "sequence": 10,
+          "name": "Join and seal components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A011",
+          "sequence": 11,
+          "name": "Inspect fit and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D06-S068000-A012",
+          "sequence": 12,
+          "name": "Correct damaged or defective work",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

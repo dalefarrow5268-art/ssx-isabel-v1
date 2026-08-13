@@ -1,0 +1,5536 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D07",
+    "division_number": "07",
+    "title": "Thermal and Moisture Protection",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-07/MASTER_DIVISION_07_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 49,
+    "activities": 575
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D07-S070100",
+      "section_code": "07 01 00",
+      "title": "Maintenance of Thermal and Moisture Protection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S070100-A001",
+          "sequence": 1,
+          "name": "Survey existing enclosure",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A002",
+          "sequence": 2,
+          "name": "Document leaks, deterioration and trapped moisture",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A003",
+          "sequence": 3,
+          "name": "Perform probes and testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A004",
+          "sequence": 4,
+          "name": "Prepare repair plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A005",
+          "sequence": 5,
+          "name": "Construct repair mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A006",
+          "sequence": 6,
+          "name": "Remove failed materials",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A007",
+          "sequence": 7,
+          "name": "Dry and repair substrates",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A008",
+          "sequence": 8,
+          "name": "Install replacement materials",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A009",
+          "sequence": 9,
+          "name": "Restore flashings and transitions",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A010",
+          "sequence": 10,
+          "name": "Water-test repairs",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070100-A011",
+          "sequence": 11,
+          "name": "Inspect and close out",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S070500",
+      "section_code": "07 05 00",
+      "title": "Common Work Results for Thermal and Moisture Protection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S070500-A001",
+          "sequence": 1,
+          "name": "Conduct enclosure preinstallation conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A002",
+          "sequence": 2,
+          "name": "Submit product data and certifications",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A003",
+          "sequence": 3,
+          "name": "Submit shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A004",
+          "sequence": 4,
+          "name": "Submit samples and mockups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A005",
+          "sequence": 5,
+          "name": "Coordinate enclosure interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A006",
+          "sequence": 6,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A007",
+          "sequence": 7,
+          "name": "Develop sequencing and weather-protection plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A008",
+          "sequence": 8,
+          "name": "Procure materials",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A009",
+          "sequence": 9,
+          "name": "Receive, store and protect materials",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A010",
+          "sequence": 10,
+          "name": "Complete preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070500-A011",
+          "sequence": 11,
+          "name": "Document concealed work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S070553",
+      "section_code": "07 05 53",
+      "title": "Fire and Smoke Assembly Identification",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S070553-A001",
+          "sequence": 1,
+          "name": "Submit identification system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A002",
+          "sequence": 2,
+          "name": "Coordinate rated assembly locations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A003",
+          "sequence": 3,
+          "name": "Prepare label schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A004",
+          "sequence": 4,
+          "name": "Verify substrates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A005",
+          "sequence": 5,
+          "name": "Install labels and markings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A006",
+          "sequence": 6,
+          "name": "Coordinate above-ceiling identification",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A007",
+          "sequence": 7,
+          "name": "Inspect legibility and continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S070553-A008",
+          "sequence": 8,
+          "name": "Replace missing or damaged identification",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071000",
+      "section_code": "07 10 00",
+      "title": "Dampproofing and Waterproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071000-A001",
+          "sequence": 1,
+          "name": "Submit system and details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A002",
+          "sequence": 2,
+          "name": "Approve installer",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A003",
+          "sequence": 3,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A004",
+          "sequence": 4,
+          "name": "Verify substrate condition",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A005",
+          "sequence": 5,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A006",
+          "sequence": 6,
+          "name": "Prime surfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A007",
+          "sequence": 7,
+          "name": "Install membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A008",
+          "sequence": 8,
+          "name": "Treat corners and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A009",
+          "sequence": 9,
+          "name": "Install flashings and terminations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A010",
+          "sequence": 10,
+          "name": "Perform adhesion checks",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A011",
+          "sequence": 11,
+          "name": "Water-test system",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A012",
+          "sequence": 12,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A013",
+          "sequence": 13,
+          "name": "Install protection course",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071000-A014",
+          "sequence": 14,
+          "name": "Document before concealment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071100",
+      "section_code": "07 11 00",
+      "title": "Dampproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071100-A001",
+          "sequence": 1,
+          "name": "Submit dampproofing materials",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A002",
+          "sequence": 2,
+          "name": "Verify cured and dry substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A003",
+          "sequence": 3,
+          "name": "Patch voids and tie holes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A004",
+          "sequence": 4,
+          "name": "Apply primer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A005",
+          "sequence": 5,
+          "name": "Apply dampproofing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A006",
+          "sequence": 6,
+          "name": "Treat penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A007",
+          "sequence": 7,
+          "name": "Inspect coverage and thickness",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A008",
+          "sequence": 8,
+          "name": "Repair holidays",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A009",
+          "sequence": 9,
+          "name": "Install protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071100-A010",
+          "sequence": 10,
+          "name": "Approve before backfill",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071200",
+      "section_code": "07 12 00",
+      "title": "Built-Up Bituminous Waterproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071200-A001",
+          "sequence": 1,
+          "name": "Submit membrane system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A002",
+          "sequence": 2,
+          "name": "Construct sample area",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A003",
+          "sequence": 3,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A004",
+          "sequence": 4,
+          "name": "Install primer",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A005",
+          "sequence": 5,
+          "name": "Apply bitumen and reinforcing plies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A006",
+          "sequence": 6,
+          "name": "Install cant strips and flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A007",
+          "sequence": 7,
+          "name": "Seal penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A008",
+          "sequence": 8,
+          "name": "Inspect ply count and adhesion",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A009",
+          "sequence": 9,
+          "name": "Flood-test waterproofing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A010",
+          "sequence": 10,
+          "name": "Repair leaks",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071200-A011",
+          "sequence": 11,
+          "name": "Install protection board",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071300",
+      "section_code": "07 13 00",
+      "title": "Sheet Waterproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071300-A001",
+          "sequence": 1,
+          "name": "Submit sheet-membrane system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A002",
+          "sequence": 2,
+          "name": "Prepare membrane layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A003",
+          "sequence": 3,
+          "name": "Verify substrate moisture",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A004",
+          "sequence": 4,
+          "name": "Prime substrate",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A005",
+          "sequence": 5,
+          "name": "Install sheet membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A006",
+          "sequence": 6,
+          "name": "Roll and seal laps",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A007",
+          "sequence": 7,
+          "name": "Detail corners and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A008",
+          "sequence": 8,
+          "name": "Install terminations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A009",
+          "sequence": 9,
+          "name": "Perform seam and adhesion testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A010",
+          "sequence": 10,
+          "name": "Flood-test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A011",
+          "sequence": 11,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071300-A012",
+          "sequence": 12,
+          "name": "Install drainage and protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071400",
+      "section_code": "07 14 00",
+      "title": "Fluid-Applied Waterproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071400-A001",
+          "sequence": 1,
+          "name": "Submit fluid-applied system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A002",
+          "sequence": 2,
+          "name": "Prepare wet-film mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A003",
+          "sequence": 3,
+          "name": "Test substrate moisture",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A004",
+          "sequence": 4,
+          "name": "Prepare and prime substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A005",
+          "sequence": 5,
+          "name": "Reinforce cracks and transitions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A006",
+          "sequence": 6,
+          "name": "Apply membrane coats",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A007",
+          "sequence": 7,
+          "name": "Measure wet and dry film thickness",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A008",
+          "sequence": 8,
+          "name": "Perform adhesion and holiday testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A009",
+          "sequence": 9,
+          "name": "Repair thin or damaged areas",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A010",
+          "sequence": 10,
+          "name": "Flood-test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071400-A011",
+          "sequence": 11,
+          "name": "Install protection course",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071600",
+      "section_code": "07 16 00",
+      "title": "Cementitious and Reactive Waterproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071600-A001",
+          "sequence": 1,
+          "name": "Submit waterproofing compound",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A002",
+          "sequence": 2,
+          "name": "Prepare test area",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A003",
+          "sequence": 3,
+          "name": "Clean and dampen substrate",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A004",
+          "sequence": 4,
+          "name": "Repair cracks and honeycombs",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A005",
+          "sequence": 5,
+          "name": "Mix waterproofing",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A006",
+          "sequence": 6,
+          "name": "Apply required coats",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A007",
+          "sequence": 7,
+          "name": "Treat joints and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A008",
+          "sequence": 8,
+          "name": "Cure application",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A009",
+          "sequence": 9,
+          "name": "Inspect coverage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A010",
+          "sequence": 10,
+          "name": "Perform water test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071600-A011",
+          "sequence": 11,
+          "name": "Repair deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071700",
+      "section_code": "07 17 00",
+      "title": "Bentonite Waterproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071700-A001",
+          "sequence": 1,
+          "name": "Submit bentonite system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A002",
+          "sequence": 2,
+          "name": "Verify excavation and substrate readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A003",
+          "sequence": 3,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A004",
+          "sequence": 4,
+          "name": "Install bentonite sheets or panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A005",
+          "sequence": 5,
+          "name": "Overlap and fasten seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A006",
+          "sequence": 6,
+          "name": "Detail penetrations and corners",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A007",
+          "sequence": 7,
+          "name": "Install waterstops",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A008",
+          "sequence": 8,
+          "name": "Protect from premature hydration",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A009",
+          "sequence": 9,
+          "name": "Inspect before backfill",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071700-A010",
+          "sequence": 10,
+          "name": "Repair damaged material",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071800",
+      "section_code": "07 18 00",
+      "title": "Traffic Coatings",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071800-A001",
+          "sequence": 1,
+          "name": "Submit traffic-coating system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A002",
+          "sequence": 2,
+          "name": "Approve color and texture",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A003",
+          "sequence": 3,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A004",
+          "sequence": 4,
+          "name": "Perform substrate moisture testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A005",
+          "sequence": 5,
+          "name": "Prepare concrete",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A006",
+          "sequence": 6,
+          "name": "Prime substrate",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A007",
+          "sequence": 7,
+          "name": "Treat cracks and joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A008",
+          "sequence": 8,
+          "name": "Apply base coat",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A009",
+          "sequence": 9,
+          "name": "Broadcast aggregate",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A010",
+          "sequence": 10,
+          "name": "Apply wear and top coats",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A011",
+          "sequence": 11,
+          "name": "Measure thickness",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A012",
+          "sequence": 12,
+          "name": "Perform adhesion and slip-resistance testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A013",
+          "sequence": 13,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071800-A014",
+          "sequence": 14,
+          "name": "Restrict traffic through cure",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S071900",
+      "section_code": "07 19 00",
+      "title": "Water Repellents",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S071900-A001",
+          "sequence": 1,
+          "name": "Submit water-repellent product",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A002",
+          "sequence": 2,
+          "name": "Perform compatibility testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A003",
+          "sequence": 3,
+          "name": "Construct application mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A004",
+          "sequence": 4,
+          "name": "Clean and dry substrate",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A005",
+          "sequence": 5,
+          "name": "Protect adjacent work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A006",
+          "sequence": 6,
+          "name": "Apply water repellent",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A007",
+          "sequence": 7,
+          "name": "Monitor coverage rate",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A008",
+          "sequence": 8,
+          "name": "Remove overspray",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A009",
+          "sequence": 9,
+          "name": "Perform water-penetration check",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A010",
+          "sequence": 10,
+          "name": "Inspect appearance",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S071900-A011",
+          "sequence": 11,
+          "name": "Reapply deficient areas",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072000",
+      "section_code": "07 20 00",
+      "title": "Thermal Protection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072000-A001",
+          "sequence": 1,
+          "name": "Submit insulation systems",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A002",
+          "sequence": 2,
+          "name": "Verify thermal-performance requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A003",
+          "sequence": 3,
+          "name": "Coordinate vapor control and air barrier",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A004",
+          "sequence": 4,
+          "name": "Procure insulation",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A005",
+          "sequence": 5,
+          "name": "Verify substrates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A006",
+          "sequence": 6,
+          "name": "Install insulation continuously",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A007",
+          "sequence": 7,
+          "name": "Fit around penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A008",
+          "sequence": 8,
+          "name": "Seal gaps and joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A009",
+          "sequence": 9,
+          "name": "Inspect thickness and continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A010",
+          "sequence": 10,
+          "name": "Correct compressed or wet insulation",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072000-A011",
+          "sequence": 11,
+          "name": "Document concealed installation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072100",
+      "section_code": "07 21 00",
+      "title": "Thermal Insulation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072100-A001",
+          "sequence": 1,
+          "name": "Submit insulation types and R-values",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A002",
+          "sequence": 2,
+          "name": "Verify fire and smoke requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A003",
+          "sequence": 3,
+          "name": "Prepare sample installation",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A004",
+          "sequence": 4,
+          "name": "Inspect cavities and substrates",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A005",
+          "sequence": 5,
+          "name": "Install batt insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A006",
+          "sequence": 6,
+          "name": "Install board insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A007",
+          "sequence": 7,
+          "name": "Install loose-fill insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A008",
+          "sequence": 8,
+          "name": "Fit around services",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A009",
+          "sequence": 9,
+          "name": "Install retainers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A010",
+          "sequence": 10,
+          "name": "Inspect continuity and thickness",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072100-A011",
+          "sequence": 11,
+          "name": "Replace wet or damaged insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072113",
+      "section_code": "07 21 13",
+      "title": "Board Insulation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072113-A001",
+          "sequence": 1,
+          "name": "Submit board insulation and fasteners",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A002",
+          "sequence": 2,
+          "name": "Prepare layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A003",
+          "sequence": 3,
+          "name": "Verify substrate flatness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A004",
+          "sequence": 4,
+          "name": "Install boards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A005",
+          "sequence": 5,
+          "name": "Stagger and tightly fit joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A006",
+          "sequence": 6,
+          "name": "Install mechanical fasteners or adhesive",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A007",
+          "sequence": 7,
+          "name": "Fit at openings and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A008",
+          "sequence": 8,
+          "name": "Coordinate flashings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A009",
+          "sequence": 9,
+          "name": "Seal joints when required",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072113-A010",
+          "sequence": 10,
+          "name": "Inspect attachment and continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072116",
+      "section_code": "07 21 16",
+      "title": "Blanket Insulation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072116-A001",
+          "sequence": 1,
+          "name": "Submit blanket insulation",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A002",
+          "sequence": 2,
+          "name": "Verify cavity depth and facing orientation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A003",
+          "sequence": 3,
+          "name": "Cut and fit batts",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A004",
+          "sequence": 4,
+          "name": "Install supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A005",
+          "sequence": 5,
+          "name": "Fit behind obstructions",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A006",
+          "sequence": 6,
+          "name": "Seal faced-insulation joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A007",
+          "sequence": 7,
+          "name": "Avoid compression and voids",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A008",
+          "sequence": 8,
+          "name": "Inspect coverage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072116-A009",
+          "sequence": 9,
+          "name": "Replace wet or displaced batts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072119",
+      "section_code": "07 21 19",
+      "title": "Foamed-in-Place Insulation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072119-A001",
+          "sequence": 1,
+          "name": "Submit foam system and safety data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A002",
+          "sequence": 2,
+          "name": "Approve installer",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A003",
+          "sequence": 3,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A004",
+          "sequence": 4,
+          "name": "Verify temperature and moisture conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A005",
+          "sequence": 5,
+          "name": "Protect adjacent work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A006",
+          "sequence": 6,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A007",
+          "sequence": 7,
+          "name": "Apply foam in lifts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A008",
+          "sequence": 8,
+          "name": "Control thickness and density",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A009",
+          "sequence": 9,
+          "name": "Trim excess foam",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A010",
+          "sequence": 10,
+          "name": "Perform adhesion and density testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A011",
+          "sequence": 11,
+          "name": "Inspect voids",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072119-A012",
+          "sequence": 12,
+          "name": "Repair deficient areas",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072200",
+      "section_code": "07 22 00",
+      "title": "Roof and Deck Insulation",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072200-A001",
+          "sequence": 1,
+          "name": "Submit insulation and fastening plan",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A002",
+          "sequence": 2,
+          "name": "Prepare tapered-insulation layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A003",
+          "sequence": 3,
+          "name": "Verify roof deck readiness",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A004",
+          "sequence": 4,
+          "name": "Install vapor retarder when required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A005",
+          "sequence": 5,
+          "name": "Install base insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A006",
+          "sequence": 6,
+          "name": "Install tapered insulation and crickets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A007",
+          "sequence": 7,
+          "name": "Stagger joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A008",
+          "sequence": 8,
+          "name": "Fasten or adhere insulation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A009",
+          "sequence": 9,
+          "name": "Coordinate drains and curbs",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A010",
+          "sequence": 10,
+          "name": "Inspect slope, attachment and dryness",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A011",
+          "sequence": 11,
+          "name": "Protect from weather",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072200-A012",
+          "sequence": 12,
+          "name": "Replace wet insulation",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072400",
+      "section_code": "07 24 00",
+      "title": "Exterior Insulation and Finish Systems",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072400-A001",
+          "sequence": 1,
+          "name": "Submit EIFS system and details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A002",
+          "sequence": 2,
+          "name": "Approve installer",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A003",
+          "sequence": 3,
+          "name": "Construct performance mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A004",
+          "sequence": 4,
+          "name": "Verify sheathing and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A005",
+          "sequence": 5,
+          "name": "Install air/water-resistive barrier",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A006",
+          "sequence": 6,
+          "name": "Install flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A007",
+          "sequence": 7,
+          "name": "Attach insulation boards",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A008",
+          "sequence": 8,
+          "name": "Rasp and level boards",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A009",
+          "sequence": 9,
+          "name": "Install reinforcing mesh and base coat",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A010",
+          "sequence": 10,
+          "name": "Install finish coat",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A011",
+          "sequence": 11,
+          "name": "Seal interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A012",
+          "sequence": 12,
+          "name": "Perform adhesion and drainage testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A013",
+          "sequence": 13,
+          "name": "Repair deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072400-A014",
+          "sequence": 14,
+          "name": "Protect finish",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072500",
+      "section_code": "07 25 00",
+      "title": "Weather Barriers",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072500-A001",
+          "sequence": 1,
+          "name": "Submit weather-barrier system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A002",
+          "sequence": 2,
+          "name": "Prepare transition details",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A003",
+          "sequence": 3,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A004",
+          "sequence": 4,
+          "name": "Verify sheathing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A005",
+          "sequence": 5,
+          "name": "Install sheet or fluid barrier",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A006",
+          "sequence": 6,
+          "name": "Seal joints and fasteners",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A007",
+          "sequence": 7,
+          "name": "Flash openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A008",
+          "sequence": 8,
+          "name": "Treat penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A009",
+          "sequence": 9,
+          "name": "Connect to roof and foundation systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A010",
+          "sequence": 10,
+          "name": "Perform adhesion and continuity inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A011",
+          "sequence": 11,
+          "name": "Water-test transitions",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A012",
+          "sequence": 12,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072500-A013",
+          "sequence": 13,
+          "name": "Document before cladding",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072600",
+      "section_code": "07 26 00",
+      "title": "Vapor Retarders",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072600-A001",
+          "sequence": 1,
+          "name": "Submit vapor-retarder system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A002",
+          "sequence": 2,
+          "name": "Coordinate enclosure location",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A003",
+          "sequence": 3,
+          "name": "Verify substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A004",
+          "sequence": 4,
+          "name": "Install membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A005",
+          "sequence": 5,
+          "name": "Seal laps and seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A006",
+          "sequence": 6,
+          "name": "Seal penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A007",
+          "sequence": 7,
+          "name": "Connect to adjacent air and moisture-control layers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A008",
+          "sequence": 8,
+          "name": "Repair punctures",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A009",
+          "sequence": 9,
+          "name": "Inspect continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072600-A010",
+          "sequence": 10,
+          "name": "Document before concealment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S072700",
+      "section_code": "07 27 00",
+      "title": "Air Barriers",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S072700-A001",
+          "sequence": 1,
+          "name": "Submit air-barrier materials and details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A002",
+          "sequence": 2,
+          "name": "Complete enclosure coordination",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A003",
+          "sequence": 3,
+          "name": "Construct wall mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A004",
+          "sequence": 4,
+          "name": "Test substrate adhesion",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A005",
+          "sequence": 5,
+          "name": "Prepare substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A006",
+          "sequence": 6,
+          "name": "Install air barrier",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A007",
+          "sequence": 7,
+          "name": "Seal joints, transitions and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A008",
+          "sequence": 8,
+          "name": "Integrate windows and doors",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A009",
+          "sequence": 9,
+          "name": "Connect roof and below-grade barriers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A010",
+          "sequence": 10,
+          "name": "Perform adhesion and smoke testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A011",
+          "sequence": 11,
+          "name": "Conduct whole-building air test when required",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A012",
+          "sequence": 12,
+          "name": "Repair leakage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S072700-A013",
+          "sequence": 13,
+          "name": "Retest",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S073000",
+      "section_code": "07 30 00",
+      "title": "Steep-Slope Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S073000-A001",
+          "sequence": 1,
+          "name": "Conduct roofing preinstallation conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A002",
+          "sequence": 2,
+          "name": "Submit roofing system and warranty requirements",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A004",
+          "sequence": 4,
+          "name": "Approve samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A005",
+          "sequence": 5,
+          "name": "Verify deck and slope",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A006",
+          "sequence": 6,
+          "name": "Install underlayment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A007",
+          "sequence": 7,
+          "name": "Install ice and water protection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A008",
+          "sequence": 8,
+          "name": "Install roofing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A009",
+          "sequence": 9,
+          "name": "Install flashings and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A010",
+          "sequence": 10,
+          "name": "Coordinate penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A011",
+          "sequence": 11,
+          "name": "Inspect fastening and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A012",
+          "sequence": 12,
+          "name": "Perform water testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A013",
+          "sequence": 13,
+          "name": "Complete manufacturer inspection",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073000-A014",
+          "sequence": 14,
+          "name": "Protect and warrant roof",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S073100",
+      "section_code": "07 31 00",
+      "title": "Shingles and Shakes",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S073100-A001",
+          "sequence": 1,
+          "name": "Submit shingles or shakes",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A002",
+          "sequence": 2,
+          "name": "Approve color blend",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A003",
+          "sequence": 3,
+          "name": "Verify roof deck",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A004",
+          "sequence": 4,
+          "name": "Install underlayment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A005",
+          "sequence": 5,
+          "name": "Install starter courses",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A006",
+          "sequence": 6,
+          "name": "Lay out courses",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A007",
+          "sequence": 7,
+          "name": "Install shingles or shakes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A008",
+          "sequence": 8,
+          "name": "Install valleys, hips and ridges",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A009",
+          "sequence": 9,
+          "name": "Flash penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A010",
+          "sequence": 10,
+          "name": "Inspect fastening and exposure",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A011",
+          "sequence": 11,
+          "name": "Replace damaged units",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073100-A012",
+          "sequence": 12,
+          "name": "Clean roof and gutters",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S073200",
+      "section_code": "07 32 00",
+      "title": "Roof Tiles",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S073200-A001",
+          "sequence": 1,
+          "name": "Submit roof tiles and attachment design",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A002",
+          "sequence": 2,
+          "name": "Approve tile range and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A003",
+          "sequence": 3,
+          "name": "Verify structural supports and deck",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A004",
+          "sequence": 4,
+          "name": "Install underlayment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A005",
+          "sequence": 5,
+          "name": "Install battens",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A006",
+          "sequence": 6,
+          "name": "Install flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A007",
+          "sequence": 7,
+          "name": "Lay out tile courses",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A008",
+          "sequence": 8,
+          "name": "Install field tiles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A009",
+          "sequence": 9,
+          "name": "Install ridge, hip and specialty tiles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A010",
+          "sequence": 10,
+          "name": "Secure wind-zone attachments",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A011",
+          "sequence": 11,
+          "name": "Inspect alignment and breakage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S073200-A012",
+          "sequence": 12,
+          "name": "Replace damaged tiles",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S074000",
+      "section_code": "07 40 00",
+      "title": "Roofing and Siding Panels",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S074000-A001",
+          "sequence": 1,
+          "name": "Submit panel system and engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A002",
+          "sequence": 2,
+          "name": "Prepare panel layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A003",
+          "sequence": 3,
+          "name": "Approve color and finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A004",
+          "sequence": 4,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A005",
+          "sequence": 5,
+          "name": "Verify framing and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A006",
+          "sequence": 6,
+          "name": "Fabricate panels and trim",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A007",
+          "sequence": 7,
+          "name": "Install underlayment or air barrier",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A008",
+          "sequence": 8,
+          "name": "Install clips and subframing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A009",
+          "sequence": 9,
+          "name": "Install roof or wall panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A010",
+          "sequence": 10,
+          "name": "Install flashings and closures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A011",
+          "sequence": 11,
+          "name": "Seal penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A012",
+          "sequence": 12,
+          "name": "Inspect seams and fasteners",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A013",
+          "sequence": 13,
+          "name": "Water-test assembly",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074000-A014",
+          "sequence": 14,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S074100",
+      "section_code": "07 41 00",
+      "title": "Roof Panels",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S074100-A001",
+          "sequence": 1,
+          "name": "Submit roof-panel engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A002",
+          "sequence": 2,
+          "name": "Coordinate roof openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A003",
+          "sequence": 3,
+          "name": "Approve panel layout",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A004",
+          "sequence": 4,
+          "name": "Fabricate panels",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A005",
+          "sequence": 5,
+          "name": "Verify deck and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A006",
+          "sequence": 6,
+          "name": "Install clips",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A007",
+          "sequence": 7,
+          "name": "Install roof panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A008",
+          "sequence": 8,
+          "name": "Form seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A009",
+          "sequence": 9,
+          "name": "Install ridges, valleys and eaves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A010",
+          "sequence": 10,
+          "name": "Install curbs and penetration flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A011",
+          "sequence": 11,
+          "name": "Perform seam inspection and water testing",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074100-A012",
+          "sequence": 12,
+          "name": "Repair damaged coatings",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S074200",
+      "section_code": "07 42 00",
+      "title": "Wall Panels",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S074200-A001",
+          "sequence": 1,
+          "name": "Submit wall-panel system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A002",
+          "sequence": 2,
+          "name": "Prepare elevations and joint layouts",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A003",
+          "sequence": 3,
+          "name": "Approve samples and mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A004",
+          "sequence": 4,
+          "name": "Verify backup wall and air barrier",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A005",
+          "sequence": 5,
+          "name": "Install girts and clips",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A006",
+          "sequence": 6,
+          "name": "Install panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A007",
+          "sequence": 7,
+          "name": "Align joints and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A008",
+          "sequence": 8,
+          "name": "Install corners and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A009",
+          "sequence": 9,
+          "name": "Flash openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A010",
+          "sequence": 10,
+          "name": "Seal interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A011",
+          "sequence": 11,
+          "name": "Water-test wall",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A012",
+          "sequence": 12,
+          "name": "Inspect attachment and finish",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074200-A013",
+          "sequence": 13,
+          "name": "Replace damaged panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S074400",
+      "section_code": "07 44 00",
+      "title": "Faced Panels",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S074400-A001",
+          "sequence": 1,
+          "name": "Submit faced-panel system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A002",
+          "sequence": 2,
+          "name": "Approve facing and core samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A003",
+          "sequence": 3,
+          "name": "Prepare panel layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A004",
+          "sequence": 4,
+          "name": "Verify supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A005",
+          "sequence": 5,
+          "name": "Install clips and framing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A006",
+          "sequence": 6,
+          "name": "Install faced panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A007",
+          "sequence": 7,
+          "name": "Treat joints and corners",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A008",
+          "sequence": 8,
+          "name": "Coordinate penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A009",
+          "sequence": 9,
+          "name": "Seal interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A010",
+          "sequence": 10,
+          "name": "Inspect flatness and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074400-A011",
+          "sequence": 11,
+          "name": "Clean and protect panels",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S074600",
+      "section_code": "07 46 00",
+      "title": "Siding",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S074600-A001",
+          "sequence": 1,
+          "name": "Submit siding materials and accessories",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A002",
+          "sequence": 2,
+          "name": "Approve color and texture",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A003",
+          "sequence": 3,
+          "name": "Construct sample area",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A004",
+          "sequence": 4,
+          "name": "Verify weather barrier and flashings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A005",
+          "sequence": 5,
+          "name": "Install furring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A006",
+          "sequence": 6,
+          "name": "Lay out courses",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A007",
+          "sequence": 7,
+          "name": "Install siding",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A008",
+          "sequence": 8,
+          "name": "Install corners and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A009",
+          "sequence": 9,
+          "name": "Flash openings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A010",
+          "sequence": 10,
+          "name": "Provide ventilation and drainage",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A011",
+          "sequence": 11,
+          "name": "Inspect fastening and alignment",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S074600-A012",
+          "sequence": 12,
+          "name": "Repair damaged finish",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075000",
+      "section_code": "07 50 00",
+      "title": "Membrane Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075000-A001",
+          "sequence": 1,
+          "name": "Conduct membrane-roofing conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A002",
+          "sequence": 2,
+          "name": "Submit system, fastening plan and warranty",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A003",
+          "sequence": 3,
+          "name": "Prepare roof plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A004",
+          "sequence": 4,
+          "name": "Construct mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A005",
+          "sequence": 5,
+          "name": "Verify deck and moisture conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A006",
+          "sequence": 6,
+          "name": "Install vapor retarder",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A007",
+          "sequence": 7,
+          "name": "Install insulation and cover board",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A008",
+          "sequence": 8,
+          "name": "Install membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A009",
+          "sequence": 9,
+          "name": "Complete seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A010",
+          "sequence": 10,
+          "name": "Install base flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A011",
+          "sequence": 11,
+          "name": "Flash curbs and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A012",
+          "sequence": 12,
+          "name": "Perform seam testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A013",
+          "sequence": 13,
+          "name": "Flood or electronic leak test",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A014",
+          "sequence": 14,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075000-A015",
+          "sequence": 15,
+          "name": "Complete manufacturer inspection",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075100",
+      "section_code": "07 51 00",
+      "title": "Built-Up Bituminous Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075100-A001",
+          "sequence": 1,
+          "name": "Submit built-up roof system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A002",
+          "sequence": 2,
+          "name": "Verify deck and weather conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A003",
+          "sequence": 3,
+          "name": "Install insulation and cover board",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A004",
+          "sequence": 4,
+          "name": "Apply bitumen and roofing felts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A005",
+          "sequence": 5,
+          "name": "Install required plies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A006",
+          "sequence": 6,
+          "name": "Install aggregate or cap sheet",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A007",
+          "sequence": 7,
+          "name": "Install flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A008",
+          "sequence": 8,
+          "name": "Inspect bitumen temperature and application rate",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A009",
+          "sequence": 9,
+          "name": "Perform moisture survey and leak testing",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A010",
+          "sequence": 10,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075100-A011",
+          "sequence": 11,
+          "name": "Complete warranty inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075200",
+      "section_code": "07 52 00",
+      "title": "Modified Bituminous Membrane Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075200-A001",
+          "sequence": 1,
+          "name": "Submit modified-bitumen system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A002",
+          "sequence": 2,
+          "name": "Prepare membrane layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A003",
+          "sequence": 3,
+          "name": "Verify substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A004",
+          "sequence": 4,
+          "name": "Install base sheet",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A005",
+          "sequence": 5,
+          "name": "Install modified-bitumen plies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A006",
+          "sequence": 6,
+          "name": "Torch, adhere or hot-apply sheets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A007",
+          "sequence": 7,
+          "name": "Roll and seal laps",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A008",
+          "sequence": 8,
+          "name": "Install flashings and terminations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A009",
+          "sequence": 9,
+          "name": "Inspect seams",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A010",
+          "sequence": 10,
+          "name": "Perform leak testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A011",
+          "sequence": 11,
+          "name": "Repair blisters and open seams",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075200-A012",
+          "sequence": 12,
+          "name": "Complete manufacturer inspection",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075300",
+      "section_code": "07 53 00",
+      "title": "Elastomeric Membrane Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075300-A001",
+          "sequence": 1,
+          "name": "Submit elastomeric membrane system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A002",
+          "sequence": 2,
+          "name": "Verify compatible materials",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A003",
+          "sequence": 3,
+          "name": "Install insulation and cover board",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A004",
+          "sequence": 4,
+          "name": "Position membrane sheets",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A005",
+          "sequence": 5,
+          "name": "Adhere or mechanically fasten membrane",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A006",
+          "sequence": 6,
+          "name": "Complete heat-welded or adhered seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A007",
+          "sequence": 7,
+          "name": "Install flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A008",
+          "sequence": 8,
+          "name": "Seal penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A009",
+          "sequence": 9,
+          "name": "Probe seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A010",
+          "sequence": 10,
+          "name": "Perform electronic leak detection",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A011",
+          "sequence": 11,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075300-A012",
+          "sequence": 12,
+          "name": "Complete warranty inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075400",
+      "section_code": "07 54 00",
+      "title": "Thermoplastic Membrane Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075400-A001",
+          "sequence": 1,
+          "name": "Submit thermoplastic roofing system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A002",
+          "sequence": 2,
+          "name": "Prepare fastening and layout plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A003",
+          "sequence": 3,
+          "name": "Verify deck",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A004",
+          "sequence": 4,
+          "name": "Install insulation and cover board",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A005",
+          "sequence": 5,
+          "name": "Install membrane sheets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A006",
+          "sequence": 6,
+          "name": "Heat-weld seams",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A007",
+          "sequence": 7,
+          "name": "Install reinforced corners and flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A008",
+          "sequence": 8,
+          "name": "Flash penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A009",
+          "sequence": 9,
+          "name": "Probe and test seams",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A010",
+          "sequence": 10,
+          "name": "Perform leak detection",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A011",
+          "sequence": 11,
+          "name": "Repair failed welds",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075400-A012",
+          "sequence": 12,
+          "name": "Complete manufacturer inspection",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075500",
+      "section_code": "07 55 00",
+      "title": "Protected Membrane Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075500-A001",
+          "sequence": 1,
+          "name": "Submit protected-membrane system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A002",
+          "sequence": 2,
+          "name": "Verify structural and drainage requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A003",
+          "sequence": 3,
+          "name": "Install waterproofing membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A004",
+          "sequence": 4,
+          "name": "Test membrane",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A005",
+          "sequence": 5,
+          "name": "Install protection course",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A006",
+          "sequence": 6,
+          "name": "Install insulation above membrane",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A007",
+          "sequence": 7,
+          "name": "Install filter fabric",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A008",
+          "sequence": 8,
+          "name": "Install ballast or pavers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A009",
+          "sequence": 9,
+          "name": "Coordinate drains and edges",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A010",
+          "sequence": 10,
+          "name": "Inspect coverage and drainage",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075500-A011",
+          "sequence": 11,
+          "name": "Protect completed assembly",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S075600",
+      "section_code": "07 56 00",
+      "title": "Fluid-Applied Roofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S075600-A001",
+          "sequence": 1,
+          "name": "Submit fluid-applied roof system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A002",
+          "sequence": 2,
+          "name": "Perform adhesion tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A003",
+          "sequence": 3,
+          "name": "Prepare roof substrate",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A004",
+          "sequence": 4,
+          "name": "Repair cracks and seams",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A005",
+          "sequence": 5,
+          "name": "Prime substrate",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A006",
+          "sequence": 6,
+          "name": "Install reinforcing at transitions",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A007",
+          "sequence": 7,
+          "name": "Apply fluid membrane coats",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A008",
+          "sequence": 8,
+          "name": "Measure thickness",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A009",
+          "sequence": 9,
+          "name": "Apply surfacing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A010",
+          "sequence": 10,
+          "name": "Perform holiday and leak testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A011",
+          "sequence": 11,
+          "name": "Repair defects",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S075600-A012",
+          "sequence": 12,
+          "name": "Complete manufacturer inspection",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S076000",
+      "section_code": "07 60 00",
+      "title": "Flashing and Sheet Metal",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S076000-A001",
+          "sequence": 1,
+          "name": "Submit sheet-metal materials and details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A002",
+          "sequence": 2,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A003",
+          "sequence": 3,
+          "name": "Approve finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A004",
+          "sequence": 4,
+          "name": "Verify field dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A005",
+          "sequence": 5,
+          "name": "Fabricate flashings and trim",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A006",
+          "sequence": 6,
+          "name": "Install underlayments and cleats",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A007",
+          "sequence": 7,
+          "name": "Install through-wall and roof flashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A008",
+          "sequence": 8,
+          "name": "Install copings and edge metal",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A009",
+          "sequence": 9,
+          "name": "Install gutters and downspouts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A010",
+          "sequence": 10,
+          "name": "Solder or seal joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A011",
+          "sequence": 11,
+          "name": "Test drainage and watertightness",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A012",
+          "sequence": 12,
+          "name": "Repair finish damage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076000-A013",
+          "sequence": 13,
+          "name": "Inspect completed work",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S076200",
+      "section_code": "07 62 00",
+      "title": "Sheet Metal Flashing and Trim",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S076200-A001",
+          "sequence": 1,
+          "name": "Prepare flashing shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A002",
+          "sequence": 2,
+          "name": "Coordinate membrane terminations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A003",
+          "sequence": 3,
+          "name": "Fabricate sheet-metal pieces",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A004",
+          "sequence": 4,
+          "name": "Install cleats and splice plates",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A005",
+          "sequence": 5,
+          "name": "Install copings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A006",
+          "sequence": 6,
+          "name": "Install counterflashings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A007",
+          "sequence": 7,
+          "name": "Install fascia and trim",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A008",
+          "sequence": 8,
+          "name": "Install expansion joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A009",
+          "sequence": 9,
+          "name": "Seal laps and penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A010",
+          "sequence": 10,
+          "name": "Check slopes and drainage",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S076200-A011",
+          "sequence": 11,
+          "name": "Inspect joints and finishes",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S077000",
+      "section_code": "07 70 00",
+      "title": "Roof and Wall Specialties and Accessories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S077000-A001",
+          "sequence": 1,
+          "name": "Submit specialties and accessories",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A002",
+          "sequence": 2,
+          "name": "Coordinate openings and structural supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A003",
+          "sequence": 3,
+          "name": "Prepare shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A004",
+          "sequence": 4,
+          "name": "Verify curbs and blocking",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A005",
+          "sequence": 5,
+          "name": "Procure accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A006",
+          "sequence": 6,
+          "name": "Install roof hatches and vents",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A007",
+          "sequence": 7,
+          "name": "Install manufactured curbs",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A008",
+          "sequence": 8,
+          "name": "Install equipment supports",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A009",
+          "sequence": 9,
+          "name": "Install wall accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A010",
+          "sequence": 10,
+          "name": "Flash and seal assemblies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A011",
+          "sequence": 11,
+          "name": "Operate and adjust accessories",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A012",
+          "sequence": 12,
+          "name": "Water-test interfaces",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077000-A013",
+          "sequence": 13,
+          "name": "Complete punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S077100",
+      "section_code": "07 71 00",
+      "title": "Roof Specialties",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S077100-A001",
+          "sequence": 1,
+          "name": "Submit roof-specialty products",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A002",
+          "sequence": 2,
+          "name": "Verify roof layout",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A003",
+          "sequence": 3,
+          "name": "Install fascia and edge systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A004",
+          "sequence": 4,
+          "name": "Install copings",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A005",
+          "sequence": 5,
+          "name": "Install gutters and downspouts",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A006",
+          "sequence": 6,
+          "name": "Install snow guards",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A007",
+          "sequence": 7,
+          "name": "Install roof expansion joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A008",
+          "sequence": 8,
+          "name": "Install scuppers and drainage accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A009",
+          "sequence": 9,
+          "name": "Coordinate lightning protection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A010",
+          "sequence": 10,
+          "name": "Inspect attachment and water shedding",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077100-A011",
+          "sequence": 11,
+          "name": "Repair finishes",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S077200",
+      "section_code": "07 72 00",
+      "title": "Roof Accessories",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S077200-A001",
+          "sequence": 1,
+          "name": "Submit roof-accessory shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A002",
+          "sequence": 2,
+          "name": "Coordinate curbs and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A003",
+          "sequence": 3,
+          "name": "Verify structural supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A004",
+          "sequence": 4,
+          "name": "Install roof hatches",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A005",
+          "sequence": 5,
+          "name": "Install smoke vents",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A006",
+          "sequence": 6,
+          "name": "Install equipment curbs",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A007",
+          "sequence": 7,
+          "name": "Install walkway systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A008",
+          "sequence": 8,
+          "name": "Install safety anchors where specified",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A009",
+          "sequence": 9,
+          "name": "Flash all penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A010",
+          "sequence": 10,
+          "name": "Test operation and watertightness",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S077200-A011",
+          "sequence": 11,
+          "name": "Complete inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S078000",
+      "section_code": "07 80 00",
+      "title": "Fire and Smoke Protection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S078000-A001",
+          "sequence": 1,
+          "name": "Submit fire-resistance systems",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A002",
+          "sequence": 2,
+          "name": "Coordinate rated assemblies",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A003",
+          "sequence": 3,
+          "name": "Verify listings and engineering judgments",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A004",
+          "sequence": 4,
+          "name": "Conduct preparatory conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A005",
+          "sequence": 5,
+          "name": "Prepare mockups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A006",
+          "sequence": 6,
+          "name": "Install fireproofing, firestopping and smoke seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A007",
+          "sequence": 7,
+          "name": "Inspect thickness and continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A008",
+          "sequence": 8,
+          "name": "Perform adhesion and density tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A009",
+          "sequence": 9,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A010",
+          "sequence": 10,
+          "name": "Reinspect",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A011",
+          "sequence": 11,
+          "name": "Document each location",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078000-A012",
+          "sequence": 12,
+          "name": "Submit final reports",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S078100",
+      "section_code": "07 81 00",
+      "title": "Applied Fireproofing",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S078100-A001",
+          "sequence": 1,
+          "name": "Submit fireproofing materials and thickness schedule",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A002",
+          "sequence": 2,
+          "name": "Approve installer and testing agency",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A003",
+          "sequence": 3,
+          "name": "Verify substrates and primers",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A004",
+          "sequence": 4,
+          "name": "Mask adjacent work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A005",
+          "sequence": 5,
+          "name": "Install clips and accessories",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A006",
+          "sequence": 6,
+          "name": "Apply fireproofing",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A007",
+          "sequence": 7,
+          "name": "Control thickness and density",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A008",
+          "sequence": 8,
+          "name": "Perform adhesion and cohesion tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A009",
+          "sequence": 9,
+          "name": "Patch damaged areas",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A010",
+          "sequence": 10,
+          "name": "Reinspect repaired work",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078100-A011",
+          "sequence": 11,
+          "name": "Submit inspection reports",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S078400",
+      "section_code": "07 84 00",
+      "title": "Firestopping",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S078400-A001",
+          "sequence": 1,
+          "name": "Submit listed firestop systems",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A002",
+          "sequence": 2,
+          "name": "Prepare penetration and joint matrix",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A003",
+          "sequence": 3,
+          "name": "Coordinate trades and access",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A004",
+          "sequence": 4,
+          "name": "Construct mockups",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A005",
+          "sequence": 5,
+          "name": "Verify opening conditions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A006",
+          "sequence": 6,
+          "name": "Install through-penetration firestops",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A007",
+          "sequence": 7,
+          "name": "Install membrane-penetration firestops",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A008",
+          "sequence": 8,
+          "name": "Install fire-resistive joint systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A009",
+          "sequence": 9,
+          "name": "Install perimeter fire containment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A010",
+          "sequence": 10,
+          "name": "Inspect each system",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A011",
+          "sequence": 11,
+          "name": "Perform destructive testing when required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A012",
+          "sequence": 12,
+          "name": "Correct and reinspect deficiencies",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A013",
+          "sequence": 13,
+          "name": "Label installations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078400-A014",
+          "sequence": 14,
+          "name": "Submit firestop records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S078700",
+      "section_code": "07 87 00",
+      "title": "Smoke Containment Barriers",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S078700-A001",
+          "sequence": 1,
+          "name": "Submit smoke-barrier system",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A002",
+          "sequence": 2,
+          "name": "Coordinate barrier continuity",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A003",
+          "sequence": 3,
+          "name": "Verify substrates and penetrations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A004",
+          "sequence": 4,
+          "name": "Install barrier materials",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A005",
+          "sequence": 5,
+          "name": "Seal joints and interfaces",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A006",
+          "sequence": 6,
+          "name": "Seal penetrations",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A007",
+          "sequence": 7,
+          "name": "Integrate doors and dampers",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A008",
+          "sequence": 8,
+          "name": "Inspect continuity",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A009",
+          "sequence": 9,
+          "name": "Perform smoke or pressure testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A010",
+          "sequence": 10,
+          "name": "Repair leakage",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S078700-A011",
+          "sequence": 11,
+          "name": "Document concealed work",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S079000",
+      "section_code": "07 90 00",
+      "title": "Joint Protection",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S079000-A001",
+          "sequence": 1,
+          "name": "Submit joint systems and sealants",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A002",
+          "sequence": 2,
+          "name": "Prepare joint schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A003",
+          "sequence": 3,
+          "name": "Test adhesion and compatibility",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A004",
+          "sequence": 4,
+          "name": "Construct sealant mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A005",
+          "sequence": 5,
+          "name": "Verify joint dimensions",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A006",
+          "sequence": 6,
+          "name": "Prepare and clean joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A007",
+          "sequence": 7,
+          "name": "Install backer rods and bond breakers",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A008",
+          "sequence": 8,
+          "name": "Apply sealant",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A009",
+          "sequence": 9,
+          "name": "Tool joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079000-A010",
+          "sequence": 10,
+          "name": "Install expansion-joint covers;Cure and protect joints;Perform adhesion and water testing;Repair failed joints;Complete final inspection",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S079200",
+      "section_code": "07 92 00",
+      "title": "Joint Sealants",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S079200-A001",
+          "sequence": 1,
+          "name": "Submit sealant colors and products",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A002",
+          "sequence": 2,
+          "name": "Perform field adhesion tests",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A003",
+          "sequence": 3,
+          "name": "Approve sealant mockup",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A004",
+          "sequence": 4,
+          "name": "Verify joint width and depth",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A005",
+          "sequence": 5,
+          "name": "Clean and prime joints",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A006",
+          "sequence": 6,
+          "name": "Install backer rod",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A007",
+          "sequence": 7,
+          "name": "Apply sealant",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A008",
+          "sequence": 8,
+          "name": "Tool sealant profile",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A009",
+          "sequence": 9,
+          "name": "Cure and protect joints",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A010",
+          "sequence": 10,
+          "name": "Inspect for voids and adhesion",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A011",
+          "sequence": 11,
+          "name": "Perform water testing where required",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079200-A012",
+          "sequence": 12,
+          "name": "Cut out and replace failed sealant",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D07-S079500",
+      "section_code": "07 95 00",
+      "title": "Expansion Control",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D07-S079500-A001",
+          "sequence": 1,
+          "name": "Submit expansion-control assemblies",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A002",
+          "sequence": 2,
+          "name": "Prepare joint layout drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A003",
+          "sequence": 3,
+          "name": "Coordinate structural movement joints",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A004",
+          "sequence": 4,
+          "name": "Verify joint widths",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A005",
+          "sequence": 5,
+          "name": "Approve exposed finish samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A006",
+          "sequence": 6,
+          "name": "Install frames and anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A007",
+          "sequence": 7,
+          "name": "Install covers and seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A008",
+          "sequence": 8,
+          "name": "Integrate fire and waterproofing systems",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A009",
+          "sequence": 9,
+          "name": "Check movement and alignment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A010",
+          "sequence": 10,
+          "name": "Water-test exterior joints",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A011",
+          "sequence": 11,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D07-S079500-A012",
+          "sequence": 12,
+          "name": "Protect completed assemblies",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

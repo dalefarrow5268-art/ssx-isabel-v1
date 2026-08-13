@@ -1,0 +1,5885 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Fulfillment Center",
+  "standard": "CSI MasterFormat 2026",
+  "generated_on": "2026-08-13",
+  "division": {
+    "division_id": "SSX-2026-D14",
+    "division_number": "14",
+    "title": "Conveying Equipment",
+    "source_path": "cloudflare/scheduling/schedule-activity-planning/construction-divisions-and-sections/division-14/MASTER_DIVISION_14_ACTIVITIES.md"
+  },
+  "counts": {
+    "sections": 41,
+    "activities": 620
+  },
+  "sections": [
+    {
+      "section_id": "SSX-2026-D14-S140100",
+      "section_code": "14 01 00",
+      "title": "Maintenance of Conveying Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S140100-A001",
+          "sequence": 1,
+          "name": "Survey existing conveying equipment",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A002",
+          "sequence": 2,
+          "name": "Review maintenance and callback records",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A003",
+          "sequence": 3,
+          "name": "Perform condition and code assessment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A004",
+          "sequence": 4,
+          "name": "Document worn, obsolete and unsafe components",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A005",
+          "sequence": 5,
+          "name": "Prepare modernization or repair plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A006",
+          "sequence": 6,
+          "name": "Submit shutdown and phasing plan",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A007",
+          "sequence": 7,
+          "name": "Provide temporary access or service",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A008",
+          "sequence": 8,
+          "name": "Repair or replace equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A009",
+          "sequence": 9,
+          "name": "Upgrade controls and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A010",
+          "sequence": 10,
+          "name": "Perform adjustment and testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A011",
+          "sequence": 11,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A012",
+          "sequence": 12,
+          "name": "Return equipment to service",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140100-A013",
+          "sequence": 13,
+          "name": "Submit updated maintenance records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S140500",
+      "section_code": "14 05 00",
+      "title": "Common Work Results for Conveying Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S140500-A001",
+          "sequence": 1,
+          "name": "Conduct conveying-equipment coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A002",
+          "sequence": 2,
+          "name": "Prepare coordinated equipment and hoistway schedule",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A003",
+          "sequence": 3,
+          "name": "Submit product data, engineering and certifications",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A004",
+          "sequence": 4,
+          "name": "Coordinate hoistways, pits, machine spaces and overhead clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A005",
+          "sequence": 5,
+          "name": "Coordinate structural supports, embeds and openings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A006",
+          "sequence": 6,
+          "name": "Coordinate power, communications, fire alarm and security interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A007",
+          "sequence": 7,
+          "name": "Plan long-lead procurement",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A008",
+          "sequence": 8,
+          "name": "Plan delivery, rigging and temporary use",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A009",
+          "sequence": 9,
+          "name": "Complete preparatory quality-control meeting",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A010",
+          "sequence": 10,
+          "name": "Coordinate inspection and acceptance requirements",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140500-A011",
+          "sequence": 11,
+          "name": "Protect equipment and finished work",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S140800",
+      "section_code": "14 08 00",
+      "title": "Commissioning of Conveying Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S140800-A001",
+          "sequence": 1,
+          "name": "Prepare conveying-equipment commissioning plan",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A002",
+          "sequence": 2,
+          "name": "Review approved sequences and interfaces",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A003",
+          "sequence": 3,
+          "name": "Complete prefunctional checklists",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A004",
+          "sequence": 4,
+          "name": "Verify power and emergency systems",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A005",
+          "sequence": 5,
+          "name": "Start up equipment",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A006",
+          "sequence": 6,
+          "name": "Test normal operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A007",
+          "sequence": 7,
+          "name": "Test rated load and speed",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A008",
+          "sequence": 8,
+          "name": "Test doors, brakes and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A009",
+          "sequence": 9,
+          "name": "Test fire-recall and emergency modes",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A010",
+          "sequence": 10,
+          "name": "Test communications and security interfaces",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A011",
+          "sequence": 11,
+          "name": "Document deficiencies",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A012",
+          "sequence": 12,
+          "name": "Correct and retest equipment",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A013",
+          "sequence": 13,
+          "name": "Coordinate authority acceptance",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A014",
+          "sequence": 14,
+          "name": "Train owner personnel",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S140800-A015",
+          "sequence": 15,
+          "name": "Submit final commissioning report",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S141000",
+      "section_code": "14 10 00",
+      "title": "Dumbwaiters",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S141000-A001",
+          "sequence": 1,
+          "name": "Submit dumbwaiter engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A002",
+          "sequence": 2,
+          "name": "Coordinate shaft, pit, overhead and access doors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A003",
+          "sequence": 3,
+          "name": "Coordinate power, fire rating and interlocks",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A004",
+          "sequence": 4,
+          "name": "Procure dumbwaiter equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A005",
+          "sequence": 5,
+          "name": "Verify shaft dimensions and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A006",
+          "sequence": 6,
+          "name": "Install guide rails and machine components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A007",
+          "sequence": 7,
+          "name": "Install car and counterweight",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A008",
+          "sequence": 8,
+          "name": "Install landing doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A011",
+          "sequence": 11,
+          "name": "Perform load, door and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A012",
+          "sequence": 12,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141000-A014",
+          "sequence": 14,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S141200",
+      "section_code": "14 12 00",
+      "title": "Dumbwaiters",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S141200-A001",
+          "sequence": 1,
+          "name": "Submit dumbwaiter engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A002",
+          "sequence": 2,
+          "name": "Coordinate shaft, pit, overhead and access doors",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A003",
+          "sequence": 3,
+          "name": "Coordinate power, fire rating and interlocks",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A004",
+          "sequence": 4,
+          "name": "Procure dumbwaiter equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A005",
+          "sequence": 5,
+          "name": "Verify shaft dimensions and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A006",
+          "sequence": 6,
+          "name": "Install guide rails and machine components",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A007",
+          "sequence": 7,
+          "name": "Install car and counterweight",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A008",
+          "sequence": 8,
+          "name": "Install landing doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A011",
+          "sequence": 11,
+          "name": "Perform load, door and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A012",
+          "sequence": 12,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S141200-A014",
+          "sequence": 14,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142000",
+      "section_code": "14 20 00",
+      "title": "Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142000-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142000-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142100",
+      "section_code": "14 21 00",
+      "title": "Electric Traction Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142100-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142100-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142113",
+      "section_code": "14 21 13",
+      "title": "Electric Traction Freight Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142113-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142113-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142123",
+      "section_code": "14 21 23",
+      "title": "Electric Traction Passenger Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142123-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142123-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142400",
+      "section_code": "14 24 00",
+      "title": "Hydraulic Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142400-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142400-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142413",
+      "section_code": "14 24 13",
+      "title": "Hydraulic Freight Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142413-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142413-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142423",
+      "section_code": "14 24 23",
+      "title": "Hydraulic Passenger Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142423-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142423-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142433",
+      "section_code": "14 24 33",
+      "title": "Hydraulic Residential Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142433-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142433-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142443",
+      "section_code": "14 24 43",
+      "title": "Hydraulic Service Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142443-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142443-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142500",
+      "section_code": "14 25 00",
+      "title": "Rack and Pinion Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142500-A001",
+          "sequence": 1,
+          "name": "Conduct elevator coordination conference",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A002",
+          "sequence": 2,
+          "name": "Submit elevator engineering and shop drawings",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A003",
+          "sequence": 3,
+          "name": "Coordinate hoistway, pit, overhead and machine-room requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A004",
+          "sequence": 4,
+          "name": "Coordinate entrances, power, fire alarm, security and communications",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A005",
+          "sequence": 5,
+          "name": "Release long-lead elevator equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A006",
+          "sequence": 6,
+          "name": "Verify hoistway dimensions and embeds",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A007",
+          "sequence": 7,
+          "name": "Install rails and brackets",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A008",
+          "sequence": 8,
+          "name": "Install machinery, cylinders or traction equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A009",
+          "sequence": 9,
+          "name": "Install cab platform and enclosure",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A010",
+          "sequence": 10,
+          "name": "Install entrances and doors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A011",
+          "sequence": 11,
+          "name": "Install wiring and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A012",
+          "sequence": 12,
+          "name": "Install cab finishes and fixtures",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A013",
+          "sequence": 13,
+          "name": "Start up and adjust elevator",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A014",
+          "sequence": 14,
+          "name": "Perform load, speed, leveling and safety tests",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A015",
+          "sequence": 15,
+          "name": "Test fire-service and emergency operation",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A016",
+          "sequence": 16,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142500-A017",
+          "sequence": 17,
+          "name": "Train owner and complete turnover",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142600",
+      "section_code": "14 26 00",
+      "title": "Limited-Use/Limited-Application Elevators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142600-A001",
+          "sequence": 1,
+          "name": "Submit lift engineering, loads and clearances",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A002",
+          "sequence": 2,
+          "name": "Coordinate pit, supports, landings and gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A003",
+          "sequence": 3,
+          "name": "Verify accessibility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A004",
+          "sequence": 4,
+          "name": "Coordinate power, controls and fire alarm",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A005",
+          "sequence": 5,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A006",
+          "sequence": 6,
+          "name": "Prepare supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A007",
+          "sequence": 7,
+          "name": "Install rails, platform and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A008",
+          "sequence": 8,
+          "name": "Install gates, doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A011",
+          "sequence": 11,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A012",
+          "sequence": 12,
+          "name": "Test emergency lowering and communication",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A013",
+          "sequence": 13,
+          "name": "Coordinate accessibility and authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142600-A015",
+          "sequence": 15,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142700",
+      "section_code": "14 27 00",
+      "title": "Custom Elevator Cabs and Doors",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142700-A001",
+          "sequence": 1,
+          "name": "Prepare cab and entrance finish drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A002",
+          "sequence": 2,
+          "name": "Verify dimensions and weight limitations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A003",
+          "sequence": 3,
+          "name": "Approve finish, panel, ceiling and flooring samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A004",
+          "sequence": 4,
+          "name": "Coordinate fixtures, doors and protection pads",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A005",
+          "sequence": 5,
+          "name": "Fabricate cab panels and doors",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A006",
+          "sequence": 6,
+          "name": "Inspect shop finishes",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A007",
+          "sequence": 7,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A008",
+          "sequence": 8,
+          "name": "Install cab enclosure and finish panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A009",
+          "sequence": 9,
+          "name": "Install ceilings, lighting, rails and flooring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A010",
+          "sequence": 10,
+          "name": "Install doors and operators",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A011",
+          "sequence": 11,
+          "name": "Align panels and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A012",
+          "sequence": 12,
+          "name": "Adjust door operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A013",
+          "sequence": 13,
+          "name": "Clean and protect finishes",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142700-A014",
+          "sequence": 14,
+          "name": "Complete appearance punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142713",
+      "section_code": "14 27 13",
+      "title": "Custom Elevator Cab Finishes",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142713-A001",
+          "sequence": 1,
+          "name": "Prepare cab and entrance finish drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A002",
+          "sequence": 2,
+          "name": "Verify dimensions and weight limitations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A003",
+          "sequence": 3,
+          "name": "Approve finish, panel, ceiling and flooring samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A004",
+          "sequence": 4,
+          "name": "Coordinate fixtures, doors and protection pads",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A005",
+          "sequence": 5,
+          "name": "Fabricate cab panels and doors",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A006",
+          "sequence": 6,
+          "name": "Inspect shop finishes",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A007",
+          "sequence": 7,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A008",
+          "sequence": 8,
+          "name": "Install cab enclosure and finish panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A009",
+          "sequence": 9,
+          "name": "Install ceilings, lighting, rails and flooring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A010",
+          "sequence": 10,
+          "name": "Install doors and operators",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A011",
+          "sequence": 11,
+          "name": "Align panels and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A012",
+          "sequence": 12,
+          "name": "Adjust door operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A013",
+          "sequence": 13,
+          "name": "Clean and protect finishes",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142713-A014",
+          "sequence": 14,
+          "name": "Complete appearance punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142716",
+      "section_code": "14 27 16",
+      "title": "Custom Elevator Doors",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142716-A001",
+          "sequence": 1,
+          "name": "Prepare cab and entrance finish drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A002",
+          "sequence": 2,
+          "name": "Verify dimensions and weight limitations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A003",
+          "sequence": 3,
+          "name": "Approve finish, panel, ceiling and flooring samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A004",
+          "sequence": 4,
+          "name": "Coordinate fixtures, doors and protection pads",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A005",
+          "sequence": 5,
+          "name": "Fabricate cab panels and doors",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A006",
+          "sequence": 6,
+          "name": "Inspect shop finishes",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A007",
+          "sequence": 7,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A008",
+          "sequence": 8,
+          "name": "Install cab enclosure and finish panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A009",
+          "sequence": 9,
+          "name": "Install ceilings, lighting, rails and flooring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A010",
+          "sequence": 10,
+          "name": "Install doors and operators",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A011",
+          "sequence": 11,
+          "name": "Align panels and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A012",
+          "sequence": 12,
+          "name": "Adjust door operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A013",
+          "sequence": 13,
+          "name": "Clean and protect finishes",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142716-A014",
+          "sequence": 14,
+          "name": "Complete appearance punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142800",
+      "section_code": "14 28 00",
+      "title": "Elevator Equipment and Controls",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142800-A001",
+          "sequence": 1,
+          "name": "Submit control architecture and sequence documentation",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A002",
+          "sequence": 2,
+          "name": "Coordinate power, fire alarm, communications and security interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A003",
+          "sequence": 3,
+          "name": "Procure controllers and drive equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A004",
+          "sequence": 4,
+          "name": "Install controllers, drives and wiring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A005",
+          "sequence": 5,
+          "name": "Install position, door and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A006",
+          "sequence": 6,
+          "name": "Install dispatch and destination controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A007",
+          "sequence": 7,
+          "name": "Program operating sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A008",
+          "sequence": 8,
+          "name": "Configure emergency and standby-power modes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A009",
+          "sequence": 9,
+          "name": "Test communications and monitoring",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A010",
+          "sequence": 10,
+          "name": "Perform integrated fire-recall testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A011",
+          "sequence": 11,
+          "name": "Tune ride performance and leveling",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A012",
+          "sequence": 12,
+          "name": "Document software and settings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A013",
+          "sequence": 13,
+          "name": "Train maintenance staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142800-A014",
+          "sequence": 14,
+          "name": "Complete functional testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142813",
+      "section_code": "14 28 13",
+      "title": "Elevator Doors",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142813-A001",
+          "sequence": 1,
+          "name": "Prepare cab and entrance finish drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A002",
+          "sequence": 2,
+          "name": "Verify dimensions and weight limitations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A003",
+          "sequence": 3,
+          "name": "Approve finish, panel, ceiling and flooring samples",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A004",
+          "sequence": 4,
+          "name": "Coordinate fixtures, doors and protection pads",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A005",
+          "sequence": 5,
+          "name": "Fabricate cab panels and doors",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A006",
+          "sequence": 6,
+          "name": "Inspect shop finishes",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A007",
+          "sequence": 7,
+          "name": "Deliver and protect components",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A008",
+          "sequence": 8,
+          "name": "Install cab enclosure and finish panels",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A009",
+          "sequence": 9,
+          "name": "Install ceilings, lighting, rails and flooring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A010",
+          "sequence": 10,
+          "name": "Install doors and operators",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A011",
+          "sequence": 11,
+          "name": "Align panels and reveals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A012",
+          "sequence": 12,
+          "name": "Adjust door operation",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A013",
+          "sequence": 13,
+          "name": "Clean and protect finishes",
+          "category": "protection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142813-A014",
+          "sequence": 14,
+          "name": "Complete appearance punch list",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S142816",
+      "section_code": "14 28 16",
+      "title": "Elevator Controls",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S142816-A001",
+          "sequence": 1,
+          "name": "Submit control architecture and sequence documentation",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A002",
+          "sequence": 2,
+          "name": "Coordinate power, fire alarm, communications and security interfaces",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A003",
+          "sequence": 3,
+          "name": "Procure controllers and drive equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A004",
+          "sequence": 4,
+          "name": "Install controllers, drives and wiring",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A005",
+          "sequence": 5,
+          "name": "Install position, door and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A006",
+          "sequence": 6,
+          "name": "Install dispatch and destination controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A007",
+          "sequence": 7,
+          "name": "Program operating sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A008",
+          "sequence": 8,
+          "name": "Configure emergency and standby-power modes",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A009",
+          "sequence": 9,
+          "name": "Test communications and monitoring",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A010",
+          "sequence": 10,
+          "name": "Perform integrated fire-recall testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A011",
+          "sequence": 11,
+          "name": "Tune ride performance and leveling",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A012",
+          "sequence": 12,
+          "name": "Document software and settings",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A013",
+          "sequence": 13,
+          "name": "Train maintenance staff",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S142816-A014",
+          "sequence": 14,
+          "name": "Complete functional testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S143000",
+      "section_code": "14 30 00",
+      "title": "Escalators and Moving Walks",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S143000-A001",
+          "sequence": 1,
+          "name": "Submit escalator or moving-walk engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A002",
+          "sequence": 2,
+          "name": "Coordinate truss openings, pits, supports and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A003",
+          "sequence": 3,
+          "name": "Coordinate power, fire alarm and drainage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A004",
+          "sequence": 4,
+          "name": "Procure truss and drive components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A005",
+          "sequence": 5,
+          "name": "Verify support elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A006",
+          "sequence": 6,
+          "name": "Deliver and rig truss sections",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A007",
+          "sequence": 7,
+          "name": "Set and align trusses",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A008",
+          "sequence": 8,
+          "name": "Install tracks, steps or pallets and handrails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A009",
+          "sequence": 9,
+          "name": "Install balustrades and finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A010",
+          "sequence": 10,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A011",
+          "sequence": 11,
+          "name": "Adjust speed, tracking and handrails",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A012",
+          "sequence": 12,
+          "name": "Test brakes, comb plates, sensors and emergency stops",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A013",
+          "sequence": 13,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143000-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S143100",
+      "section_code": "14 31 00",
+      "title": "Escalators",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S143100-A001",
+          "sequence": 1,
+          "name": "Submit escalator or moving-walk engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A002",
+          "sequence": 2,
+          "name": "Coordinate truss openings, pits, supports and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A003",
+          "sequence": 3,
+          "name": "Coordinate power, fire alarm and drainage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A004",
+          "sequence": 4,
+          "name": "Procure truss and drive components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A005",
+          "sequence": 5,
+          "name": "Verify support elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A006",
+          "sequence": 6,
+          "name": "Deliver and rig truss sections",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A007",
+          "sequence": 7,
+          "name": "Set and align trusses",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A008",
+          "sequence": 8,
+          "name": "Install tracks, steps or pallets and handrails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A009",
+          "sequence": 9,
+          "name": "Install balustrades and finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A010",
+          "sequence": 10,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A011",
+          "sequence": 11,
+          "name": "Adjust speed, tracking and handrails",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A012",
+          "sequence": 12,
+          "name": "Test brakes, comb plates, sensors and emergency stops",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A013",
+          "sequence": 13,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143100-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S143200",
+      "section_code": "14 32 00",
+      "title": "Moving Walks",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S143200-A001",
+          "sequence": 1,
+          "name": "Submit escalator or moving-walk engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A002",
+          "sequence": 2,
+          "name": "Coordinate truss openings, pits, supports and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A003",
+          "sequence": 3,
+          "name": "Coordinate power, fire alarm and drainage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A004",
+          "sequence": 4,
+          "name": "Procure truss and drive components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A005",
+          "sequence": 5,
+          "name": "Verify support elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A006",
+          "sequence": 6,
+          "name": "Deliver and rig truss sections",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A007",
+          "sequence": 7,
+          "name": "Set and align trusses",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A008",
+          "sequence": 8,
+          "name": "Install tracks, steps or pallets and handrails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A009",
+          "sequence": 9,
+          "name": "Install balustrades and finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A010",
+          "sequence": 10,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A011",
+          "sequence": 11,
+          "name": "Adjust speed, tracking and handrails",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A012",
+          "sequence": 12,
+          "name": "Test brakes, comb plates, sensors and emergency stops",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A013",
+          "sequence": 13,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143200-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S143300",
+      "section_code": "14 33 00",
+      "title": "Moving Ramps",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S143300-A001",
+          "sequence": 1,
+          "name": "Submit escalator or moving-walk engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A002",
+          "sequence": 2,
+          "name": "Coordinate truss openings, pits, supports and clearances",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A003",
+          "sequence": 3,
+          "name": "Coordinate power, fire alarm and drainage",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A004",
+          "sequence": 4,
+          "name": "Procure truss and drive components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A005",
+          "sequence": 5,
+          "name": "Verify support elevations",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A006",
+          "sequence": 6,
+          "name": "Deliver and rig truss sections",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A007",
+          "sequence": 7,
+          "name": "Set and align trusses",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A008",
+          "sequence": 8,
+          "name": "Install tracks, steps or pallets and handrails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A009",
+          "sequence": 9,
+          "name": "Install balustrades and finishes",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A010",
+          "sequence": 10,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A011",
+          "sequence": 11,
+          "name": "Adjust speed, tracking and handrails",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A012",
+          "sequence": 12,
+          "name": "Test brakes, comb plates, sensors and emergency stops",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A013",
+          "sequence": 13,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S143300-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S144000",
+      "section_code": "14 40 00",
+      "title": "Lifts",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S144000-A001",
+          "sequence": 1,
+          "name": "Submit lift engineering, loads and clearances",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A002",
+          "sequence": 2,
+          "name": "Coordinate pit, supports, landings and gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A003",
+          "sequence": 3,
+          "name": "Verify accessibility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A004",
+          "sequence": 4,
+          "name": "Coordinate power, controls and fire alarm",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A005",
+          "sequence": 5,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A006",
+          "sequence": 6,
+          "name": "Prepare supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A007",
+          "sequence": 7,
+          "name": "Install rails, platform and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A008",
+          "sequence": 8,
+          "name": "Install gates, doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A011",
+          "sequence": 11,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A012",
+          "sequence": 12,
+          "name": "Test emergency lowering and communication",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A013",
+          "sequence": 13,
+          "name": "Coordinate accessibility and authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144000-A015",
+          "sequence": 15,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S144100",
+      "section_code": "14 41 00",
+      "title": "People Lifts",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S144100-A001",
+          "sequence": 1,
+          "name": "Submit lift engineering, loads and clearances",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A002",
+          "sequence": 2,
+          "name": "Coordinate pit, supports, landings and gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A003",
+          "sequence": 3,
+          "name": "Verify accessibility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A004",
+          "sequence": 4,
+          "name": "Coordinate power, controls and fire alarm",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A005",
+          "sequence": 5,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A006",
+          "sequence": 6,
+          "name": "Prepare supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A007",
+          "sequence": 7,
+          "name": "Install rails, platform and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A008",
+          "sequence": 8,
+          "name": "Install gates, doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A011",
+          "sequence": 11,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A012",
+          "sequence": 12,
+          "name": "Test emergency lowering and communication",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A013",
+          "sequence": 13,
+          "name": "Coordinate accessibility and authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144100-A015",
+          "sequence": 15,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S144200",
+      "section_code": "14 42 00",
+      "title": "Wheelchair Lifts",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S144200-A001",
+          "sequence": 1,
+          "name": "Submit lift engineering, loads and clearances",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A002",
+          "sequence": 2,
+          "name": "Coordinate pit, supports, landings and gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A003",
+          "sequence": 3,
+          "name": "Verify accessibility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A004",
+          "sequence": 4,
+          "name": "Coordinate power, controls and fire alarm",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A005",
+          "sequence": 5,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A006",
+          "sequence": 6,
+          "name": "Prepare supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A007",
+          "sequence": 7,
+          "name": "Install rails, platform and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A008",
+          "sequence": 8,
+          "name": "Install gates, doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A011",
+          "sequence": 11,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A012",
+          "sequence": 12,
+          "name": "Test emergency lowering and communication",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A013",
+          "sequence": 13,
+          "name": "Coordinate accessibility and authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144200-A015",
+          "sequence": 15,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S144300",
+      "section_code": "14 43 00",
+      "title": "Platform Lifts",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S144300-A001",
+          "sequence": 1,
+          "name": "Submit lift engineering, loads and clearances",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A002",
+          "sequence": 2,
+          "name": "Coordinate pit, supports, landings and gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A003",
+          "sequence": 3,
+          "name": "Verify accessibility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A004",
+          "sequence": 4,
+          "name": "Coordinate power, controls and fire alarm",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A005",
+          "sequence": 5,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A006",
+          "sequence": 6,
+          "name": "Prepare supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A007",
+          "sequence": 7,
+          "name": "Install rails, platform and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A008",
+          "sequence": 8,
+          "name": "Install gates, doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A011",
+          "sequence": 11,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A012",
+          "sequence": 12,
+          "name": "Test emergency lowering and communication",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A013",
+          "sequence": 13,
+          "name": "Coordinate accessibility and authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144300-A015",
+          "sequence": 15,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S144400",
+      "section_code": "14 44 00",
+      "title": "Sidewalk Lifts",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S144400-A001",
+          "sequence": 1,
+          "name": "Submit lift engineering, loads and clearances",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A002",
+          "sequence": 2,
+          "name": "Coordinate pit, supports, landings and gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A003",
+          "sequence": 3,
+          "name": "Verify accessibility requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A004",
+          "sequence": 4,
+          "name": "Coordinate power, controls and fire alarm",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A005",
+          "sequence": 5,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A006",
+          "sequence": 6,
+          "name": "Prepare supporting construction",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A007",
+          "sequence": 7,
+          "name": "Install rails, platform and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A008",
+          "sequence": 8,
+          "name": "Install gates, doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A010",
+          "sequence": 10,
+          "name": "Adjust travel and leveling",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A011",
+          "sequence": 11,
+          "name": "Perform rated-load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A012",
+          "sequence": 12,
+          "name": "Test emergency lowering and communication",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A013",
+          "sequence": 13,
+          "name": "Coordinate accessibility and authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A014",
+          "sequence": 14,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144400-A015",
+          "sequence": 15,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S144500",
+      "section_code": "14 45 00",
+      "title": "Vehicle Lifts",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S144500-A001",
+          "sequence": 1,
+          "name": "Submit vehicle-lift engineering and rated capacities",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A002",
+          "sequence": 2,
+          "name": "Coordinate pits, foundations, clearances and ventilation",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A003",
+          "sequence": 3,
+          "name": "Coordinate power, hydraulics and controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A004",
+          "sequence": 4,
+          "name": "Procure lift equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A005",
+          "sequence": 5,
+          "name": "Construct foundations and install embeds",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A006",
+          "sequence": 6,
+          "name": "Set columns, platforms and drive equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A007",
+          "sequence": 7,
+          "name": "Install gates, guards and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A008",
+          "sequence": 8,
+          "name": "Connect hydraulic and electrical systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A009",
+          "sequence": 9,
+          "name": "Adjust travel and synchronization",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A010",
+          "sequence": 10,
+          "name": "Perform proof-load testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A011",
+          "sequence": 11,
+          "name": "Test safety locks and emergency stops",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A012",
+          "sequence": 12,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A013",
+          "sequence": 13,
+          "name": "Train operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S144500-A014",
+          "sequence": 14,
+          "name": "Submit certification",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S147000",
+      "section_code": "14 70 00",
+      "title": "Turntables",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S147000-A001",
+          "sequence": 1,
+          "name": "Complete turntable engineering and load analysis",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A002",
+          "sequence": 2,
+          "name": "Prepare foundation, pit and equipment drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A003",
+          "sequence": 3,
+          "name": "Coordinate drainage, power and controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A004",
+          "sequence": 4,
+          "name": "Procure turntable assembly",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A005",
+          "sequence": 5,
+          "name": "Construct pit and foundations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A006",
+          "sequence": 6,
+          "name": "Install bearings, drive and support rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A007",
+          "sequence": 7,
+          "name": "Set turntable platform",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A008",
+          "sequence": 8,
+          "name": "Install guards, finishes and perimeter seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A010",
+          "sequence": 10,
+          "name": "Program position and operating sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A011",
+          "sequence": 11,
+          "name": "Test rotation, stopping and interlocks",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A012",
+          "sequence": 12,
+          "name": "Perform rated-load testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147000-A014",
+          "sequence": 14,
+          "name": "Complete certification and turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S147100",
+      "section_code": "14 71 00",
+      "title": "Turntables",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S147100-A001",
+          "sequence": 1,
+          "name": "Complete turntable engineering and load analysis",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A002",
+          "sequence": 2,
+          "name": "Prepare foundation, pit and equipment drawings",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A003",
+          "sequence": 3,
+          "name": "Coordinate drainage, power and controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A004",
+          "sequence": 4,
+          "name": "Procure turntable assembly",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A005",
+          "sequence": 5,
+          "name": "Construct pit and foundations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A006",
+          "sequence": 6,
+          "name": "Install bearings, drive and support rails",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A007",
+          "sequence": 7,
+          "name": "Set turntable platform",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A008",
+          "sequence": 8,
+          "name": "Install guards, finishes and perimeter seals",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A010",
+          "sequence": 10,
+          "name": "Program position and operating sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A011",
+          "sequence": 11,
+          "name": "Test rotation, stopping and interlocks",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A012",
+          "sequence": 12,
+          "name": "Perform rated-load testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S147100-A014",
+          "sequence": 14,
+          "name": "Complete certification and turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S148000",
+      "section_code": "14 80 00",
+      "title": "Scaffolding",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S148000-A001",
+          "sequence": 1,
+          "name": "Submit permanent-access equipment engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A002",
+          "sequence": 2,
+          "name": "Coordinate roof or facade supports and davits",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A003",
+          "sequence": 3,
+          "name": "Verify loads and fall-protection requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A004",
+          "sequence": 4,
+          "name": "Procure platforms, hoists and rigging",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A005",
+          "sequence": 5,
+          "name": "Install anchors, tracks and support equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A006",
+          "sequence": 6,
+          "name": "Install suspended platform or access assembly",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A007",
+          "sequence": 7,
+          "name": "Install lifelines and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A008",
+          "sequence": 8,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A009",
+          "sequence": 9,
+          "name": "Perform proof-load and drop testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A010",
+          "sequence": 10,
+          "name": "Inspect ropes, brakes and anchors",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A011",
+          "sequence": 11,
+          "name": "Coordinate safety certification",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A012",
+          "sequence": 12,
+          "name": "Train operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148000-A013",
+          "sequence": 13,
+          "name": "Submit inspection and maintenance records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S148100",
+      "section_code": "14 81 00",
+      "title": "Suspended Scaffolding",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S148100-A001",
+          "sequence": 1,
+          "name": "Submit permanent-access equipment engineering",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A002",
+          "sequence": 2,
+          "name": "Coordinate roof or facade supports and davits",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A003",
+          "sequence": 3,
+          "name": "Verify loads and fall-protection requirements",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A004",
+          "sequence": 4,
+          "name": "Procure platforms, hoists and rigging",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A005",
+          "sequence": 5,
+          "name": "Install anchors, tracks and support equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A006",
+          "sequence": 6,
+          "name": "Install suspended platform or access assembly",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A007",
+          "sequence": 7,
+          "name": "Install lifelines and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A008",
+          "sequence": 8,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A009",
+          "sequence": 9,
+          "name": "Perform proof-load and drop testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A010",
+          "sequence": 10,
+          "name": "Inspect ropes, brakes and anchors",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A011",
+          "sequence": 11,
+          "name": "Coordinate safety certification",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A012",
+          "sequence": 12,
+          "name": "Train operators",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148100-A013",
+          "sequence": 13,
+          "name": "Submit inspection and maintenance records",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S148400",
+      "section_code": "14 84 00",
+      "title": "Temporary Hoisting Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S148400-A001",
+          "sequence": 1,
+          "name": "Prepare temporary-hoist plan and engineering",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A002",
+          "sequence": 2,
+          "name": "Coordinate foundations, ties and landing gates",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A003",
+          "sequence": 3,
+          "name": "Obtain permits and authority approvals",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A004",
+          "sequence": 4,
+          "name": "Procure hoist and tower components",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A005",
+          "sequence": 5,
+          "name": "Construct base and install anchors",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A006",
+          "sequence": 6,
+          "name": "Erect tower and tie-ins",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A007",
+          "sequence": 7,
+          "name": "Install car, drive and landing gates",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A008",
+          "sequence": 8,
+          "name": "Connect temporary power and communications",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A009",
+          "sequence": 9,
+          "name": "Perform load and safety testing",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A010",
+          "sequence": 10,
+          "name": "Place hoist in service",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A011",
+          "sequence": 11,
+          "name": "Conduct periodic inspections",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A012",
+          "sequence": 12,
+          "name": "Raise or modify hoist with construction",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A013",
+          "sequence": 13,
+          "name": "Remove hoist and supports",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A014",
+          "sequence": 14,
+          "name": "Repair building tie locations",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S148400-A015",
+          "sequence": 15,
+          "name": "Close permits",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S149000",
+      "section_code": "14 90 00",
+      "title": "Other Conveying Equipment",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S149000-A001",
+          "sequence": 1,
+          "name": "Complete conveying-system engineering",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A002",
+          "sequence": 2,
+          "name": "Submit equipment layouts and performance data",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A003",
+          "sequence": 3,
+          "name": "Coordinate structure, access, power and controls",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A004",
+          "sequence": 4,
+          "name": "Procure specialty equipment",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A005",
+          "sequence": 5,
+          "name": "Prepare foundations and supports",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A006",
+          "sequence": 6,
+          "name": "Deliver and rig equipment",
+          "category": "delivery",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A007",
+          "sequence": 7,
+          "name": "Install mechanical assemblies",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A008",
+          "sequence": 8,
+          "name": "Install guards and safety devices",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A009",
+          "sequence": 9,
+          "name": "Connect power and controls",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A010",
+          "sequence": 10,
+          "name": "Program operating sequences",
+          "category": "field-work",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A011",
+          "sequence": 11,
+          "name": "Perform operational and load testing",
+          "category": "testing",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A012",
+          "sequence": 12,
+          "name": "Correct deficiencies",
+          "category": "repair",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A013",
+          "sequence": 13,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149000-A014",
+          "sequence": 14,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S149100",
+      "section_code": "14 91 00",
+      "title": "Facility Chutes",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S149100-A001",
+          "sequence": 1,
+          "name": "Submit chute layouts and fire-rated assembly details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A002",
+          "sequence": 2,
+          "name": "Coordinate floor openings, supports and discharge rooms",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A003",
+          "sequence": 3,
+          "name": "Coordinate fire doors, sprinklers, ventilation and washdown",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A004",
+          "sequence": 4,
+          "name": "Approve chute and intake-door finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A005",
+          "sequence": 5,
+          "name": "Fabricate chute sections and accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A006",
+          "sequence": 6,
+          "name": "Install support frames and sleeves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A007",
+          "sequence": 7,
+          "name": "Install chute sections by floor",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A008",
+          "sequence": 8,
+          "name": "Seal and connect joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A009",
+          "sequence": 9,
+          "name": "Install intake doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A010",
+          "sequence": 10,
+          "name": "Install roof vents and discharge equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A011",
+          "sequence": 11,
+          "name": "Install washdown and sanitizing systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A012",
+          "sequence": 12,
+          "name": "Perform alignment and obstruction inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A013",
+          "sequence": 13,
+          "name": "Test doors, alarms and fire-safety interfaces",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149100-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S149113",
+      "section_code": "14 91 13",
+      "title": "Trash Chutes",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S149113-A001",
+          "sequence": 1,
+          "name": "Submit chute layouts and fire-rated assembly details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A002",
+          "sequence": 2,
+          "name": "Coordinate floor openings, supports and discharge rooms",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A003",
+          "sequence": 3,
+          "name": "Coordinate fire doors, sprinklers, ventilation and washdown",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A004",
+          "sequence": 4,
+          "name": "Approve chute and intake-door finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A005",
+          "sequence": 5,
+          "name": "Fabricate chute sections and accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A006",
+          "sequence": 6,
+          "name": "Install support frames and sleeves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A007",
+          "sequence": 7,
+          "name": "Install chute sections by floor",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A008",
+          "sequence": 8,
+          "name": "Seal and connect joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A009",
+          "sequence": 9,
+          "name": "Install intake doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A010",
+          "sequence": 10,
+          "name": "Install roof vents and discharge equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A011",
+          "sequence": 11,
+          "name": "Install washdown and sanitizing systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A012",
+          "sequence": 12,
+          "name": "Perform alignment and obstruction inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A013",
+          "sequence": 13,
+          "name": "Test doors, alarms and fire-safety interfaces",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149113-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    },
+    {
+      "section_id": "SSX-2026-D14-S149123",
+      "section_code": "14 91 23",
+      "title": "Linen Chutes",
+      "activities": [
+        {
+          "activity_id": "SSX-2026-D14-S149123-A001",
+          "sequence": 1,
+          "name": "Submit chute layouts and fire-rated assembly details",
+          "category": "submittal",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A002",
+          "sequence": 2,
+          "name": "Coordinate floor openings, supports and discharge rooms",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A003",
+          "sequence": 3,
+          "name": "Coordinate fire doors, sprinklers, ventilation and washdown",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A004",
+          "sequence": 4,
+          "name": "Approve chute and intake-door finishes",
+          "category": "approval",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A005",
+          "sequence": 5,
+          "name": "Fabricate chute sections and accessories",
+          "category": "procurement",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A006",
+          "sequence": 6,
+          "name": "Install support frames and sleeves",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A007",
+          "sequence": 7,
+          "name": "Install chute sections by floor",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A008",
+          "sequence": 8,
+          "name": "Seal and connect joints",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A009",
+          "sequence": 9,
+          "name": "Install intake doors and interlocks",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A010",
+          "sequence": 10,
+          "name": "Install roof vents and discharge equipment",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A011",
+          "sequence": 11,
+          "name": "Install washdown and sanitizing systems",
+          "category": "installation",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A012",
+          "sequence": 12,
+          "name": "Perform alignment and obstruction inspection",
+          "category": "inspection",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A013",
+          "sequence": 13,
+          "name": "Test doors, alarms and fire-safety interfaces",
+          "category": "safety",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A014",
+          "sequence": 14,
+          "name": "Coordinate authority inspection",
+          "category": "planning",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A015",
+          "sequence": 15,
+          "name": "Train owner",
+          "category": "training",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        },
+        {
+          "activity_id": "SSX-2026-D14-S149123-A016",
+          "sequence": 16,
+          "name": "Complete turnover",
+          "category": "closeout",
+          "default_duration": null,
+          "duration_unit": null,
+          "project_specific": true
+        }
+      ]
+    }
+  ]
+}

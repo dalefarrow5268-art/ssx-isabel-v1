@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "identifiers": {
+    "division": "SSX-2026-D##",
+    "section": "SSX-2026-D##-S######",
+    "activity": "SSX-2026-D##-S######-A###"
+  },
+  "rules": {
+    "source_preservation": "Original Markdown activity libraries remain authoritative and unchanged.",
+    "selection": "Mason Forge creates project pick lists from plan-detected scope and pulls only matching master records.",
+    "project_copy": "Project records reference master IDs and store project-specific quantities, durations, calendars, locations and dates separately.",
+    "duration": "Master activity duration is null until calculated from project quantity, production, crew, calendar, weather and constraints.",
+    "visual_layer": "Web cards render project data; visual components are not the master knowledge store."
+  },
+  "activity_categories": [
+    "submittal",
+    "approval",
+    "procurement",
+    "delivery",
+    "planning",
+    "safety",
+    "installation",
+    "inspection",
+    "testing",
+    "training",
+    "closeout",
+    "protection",
+    "repair",
+    "field-work"
+  ]
+}

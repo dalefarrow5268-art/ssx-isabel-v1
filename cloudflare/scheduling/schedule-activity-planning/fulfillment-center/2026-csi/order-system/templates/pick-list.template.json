@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "mason-forge-pick-list",
+  "project_id": "SSX-PROJ-REQUIRED",
+  "catalog_version": "CSI-2026-1.0.0",
+  "status": "draft | awaiting-review | approved | picked | validated | released",
+  "picks": [
+    {
+      "pick_id": "PICK-0001",
+      "scope_id": "SCOPE-0001",
+      "division_id": "SSX-2026-D##",
+      "section_id": "SSX-2026-D##-S######",
+      "activity_selection": {
+        "mode": "all-section-activities | selected-activities | kit-with-exceptions",
+        "activity_ids": [],
+        "excluded_activity_ids": [],
+        "added_project_activity_ids": []
+      },
+      "reason": "plan-detected | spec-detected | contract-required | municipal-required | intake-confirmed | derived-required-step | user-added",
+      "evidence_refs": [],
+      "locations": [],
+      "estimate_links": [],
+      "status": "requested | located | picked | exception | review-required",
+      "exceptions": []
+    }
+  ],
+  "validation": {
+    "checks": [],
+    "blocking_count": 0
+  }
+}

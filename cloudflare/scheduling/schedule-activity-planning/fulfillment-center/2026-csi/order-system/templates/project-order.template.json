@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "mason-forge-project-order",
+  "project": {
+    "project_id": "SSX-PROJ-REQUIRED",
+    "name": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "postal_code": null,
+      "latitude": null,
+      "longitude": null
+    },
+    "timezone": null,
+    "project_type": null,
+    "buildings": [],
+    "floors": null,
+    "phases": []
+  },
+  "source_documents": [
+    {
+      "document_id": "DOC-0001",
+      "file_name": null,
+      "document_type": "plan | specification | addendum | contract | intake | municipal | geotechnical | report | other",
+      "discipline": null,
+      "revision": null,
+      "issue_date": null,
+      "status": "current | superseded | duplicate | unreadable | password-protected | needs-review",
+      "sha256": null
+    }
+  ],
+  "project_rules": {
+    "labor": {
+      "classification": "union | non-union | mixed | PLA | unknown",
+      "prevailing_wage": false,
+      "davis_bacon": false,
+      "trade_rules": [],
+      "evidence_refs": []
+    },
+    "working_calendars": [
+      {
+        "calendar_id": "CAL-0001",
+        "name": "General Construction",
+        "timezone": null,
+        "weekly_windows": [
+          {
+            "day": "monday",
+            "start": null,
+            "finish": null,
+            "break_minutes": 0
+          }
+        ],
+        "restrictions": [],
+        "evidence_refs": []
+      }
+    ],
+    "holidays": {
+      "master_calendar_reference": "REQUIRED: SSX stored 20-year holiday calendar",
+      "project_treatment": [
+        {
+          "holiday_id": null,
+          "treatment": "nonworking | reduced-hours | working | continuous-work-only",
+          "calendar_ids": [],
+          "evidence_refs": []
+        }
+      ]
+    },
+    "weather_and_hazards": {
+      "weather_center_project_id": null,
+      "model_status": "pending | modeled | approved",
+      "weather_profile_reference": null,
+      "earthquake_profile_reference": null,
+      "other_hazard_references": []
+    }
+  },
+  "detected_scope": [
+    {
+      "scope_id": "SCOPE-0001",
+      "division_number": null,
+      "section_code": null,
+      "description": null,
+      "locations": [],
+      "quantity": null,
+      "unit": null,
+      "evidence_refs": [],
+      "confidence": null,
+      "decision": "include | exclude | allowance | alternate | clarification-required | review-required"
+    }
+  ],
+  "review_queue": [
+    {
+      "review_id": "REV-0001",
+      "severity": "information | attention | blocking",
+      "question": null,
+      "related_scope_ids": [],
+      "status": "open | answered | resolved",
+      "resolution": null
+    }
+  ]
+}

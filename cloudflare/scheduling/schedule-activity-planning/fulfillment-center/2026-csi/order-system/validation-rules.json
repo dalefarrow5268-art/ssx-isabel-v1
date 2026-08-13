@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "release_policy": "No package may be released with blocking validation failures.",
+  "rules": [
+    {
+      "rule_id": "MF-VAL-001",
+      "name": "Every included detected scope has a located section",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-002",
+      "name": "Every picked section exists in the CSI 2026 inventory",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-003",
+      "name": "Every master activity barcode resolves to one inventory item",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-004",
+      "name": "Every estimate scope has schedule coverage or an approved no-schedule exception",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-005",
+      "name": "Every scheduled scope has estimate coverage or an approved no-cost exception",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-006",
+      "name": "Every activity duration is calculated, user-set, or explicitly pending review",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-007",
+      "name": "Every activity has an applicable working calendar",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-008",
+      "name": "Holiday treatment references the stored 20-year holiday calendar",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-009",
+      "name": "Union, non-union, mixed, PLA, and wage rules are confirmed or flagged",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-010",
+      "name": "Weather-sensitive activities reference an approved Weather Center profile",
+      "severity": "warning"
+    },
+    {
+      "rule_id": "MF-VAL-011",
+      "name": "Earthquake and location hazard profiles are linked when applicable",
+      "severity": "warning"
+    },
+    {
+      "rule_id": "MF-VAL-012",
+      "name": "Required inspections, tests, submittals, procurement, safety, training, commissioning and closeout are covered",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-013",
+      "name": "No excluded or unsupported inventory item was silently added",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-014",
+      "name": "Low-confidence detections and document conflicts are in the review queue",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-015",
+      "name": "Every released item traces to source evidence and its master barcode",
+      "severity": "blocking"
+    },
+    {
+      "rule_id": "MF-VAL-016",
+      "name": "No source document or master inventory record was modified during assembly",
+      "severity": "blocking"
+    }
+  ]
+}

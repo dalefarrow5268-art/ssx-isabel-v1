@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "mason-forge-project-package",
+  "project_id": "SSX-PROJ-REQUIRED",
+  "source_order": null,
+  "source_pick_list": null,
+  "estimate": {
+    "scope_items": [
+      {
+        "estimate_item_id": "EST-0001",
+        "scope_id": "SCOPE-0001",
+        "section_id": "SSX-2026-D##-S######",
+        "description": null,
+        "quantity": null,
+        "unit": null,
+        "labor_hours": null,
+        "material_cost": null,
+        "equipment_cost": null,
+        "subcontract_cost": null
+      }
+    ]
+  },
+  "schedule": {
+    "activities": [
+      {
+        "project_activity_id": "PA-0001",
+        "master_activity_id": "SSX-2026-D##-S######-A###",
+        "section_id": "SSX-2026-D##-S######",
+        "estimate_item_ids": [
+          "EST-0001"
+        ],
+        "location": null,
+        "calendar_id": "CAL-0001",
+        "quantity": null,
+        "production_rate": null,
+        "crew_size": null,
+        "duration": {
+          "value": null,
+          "unit": "hours | working-days | calendar-days | weeks | milestone",
+          "calculation_status": "calculated | user-set | pending-input"
+        },
+        "planned_start": null,
+        "planned_finish": null,
+        "weather_rule_refs": [],
+        "predecessors": [],
+        "status": "not-started | active | complete | blocked | late"
+      }
+    ]
+  },
+  "traceability": [
+    {
+      "scope_id": "SCOPE-0001",
+      "document_evidence": [],
+      "estimate_item_ids": [
+        "EST-0001"
+      ],
+      "project_activity_ids": [
+        "PA-0001"
+      ]
+    }
+  ]
+}

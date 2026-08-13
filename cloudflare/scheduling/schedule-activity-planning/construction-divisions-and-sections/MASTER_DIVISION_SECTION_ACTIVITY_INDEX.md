@@ -70,7 +70,7 @@ Each applicable section activity library will include:
 | 39 | Reserved | No trade activities unless project-defined |
 | 40 | [Process Interconnections](./division-40/MASTER_DIVISION_40_ACTIVITIES.md) | Activity list created |
 | 41 | [Material Processing and Handling Equipment](./division-41/MASTER_DIVISION_41_ACTIVITIES.md) | Activity list created |
-| 42 | Process Heating, Cooling, and Drying Equipment | Queued |
+| 42 | [Process Heating, Cooling, and Drying Equipment](./division-42/MASTER_DIVISION_42_ACTIVITIES.md) | Activity list created |
 | 43 | Process Gas and Liquid Handling, Purification, and Storage Equipment | Queued |
 | 44 | Pollution and Waste Control Equipment | Queued |
 | 45 | Industry-Specific Manufacturing Equipment | Queued |

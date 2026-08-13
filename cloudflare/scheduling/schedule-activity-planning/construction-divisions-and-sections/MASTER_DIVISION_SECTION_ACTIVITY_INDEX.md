@@ -68,7 +68,7 @@ Each applicable section activity library will include:
 | 37 | Reserved | No trade activities unless project-defined |
 | 38 | Reserved | No trade activities unless project-defined |
 | 39 | Reserved | No trade activities unless project-defined |
-| 40 | Process Integration | Queued |
+| 40 | [Process Interconnections](./division-40/MASTER_DIVISION_40_ACTIVITIES.md) | Activity list created |
 | 41 | Material Processing and Handling Equipment | Queued |
 | 42 | Process Heating, Cooling, and Drying Equipment | Queued |
 | 43 | Process Gas and Liquid Handling, Purification, and Storage Equipment | Queued |
@@ -161,7 +161,7 @@ Roadways, railways, bridges, transportation signaling, airfield and marine trans
 ### 35 — Waterway and Marine Construction
 Waterway construction, shoreline protection, marine structures, dredging, dams and water-control structures.
 
-### 40 — Process Integration
+### 40 — Process Interconnections
 Process controls, piping, equipment integration, instrumentation, testing and process commissioning.
 
 ### 41 — Material Processing and Handling Equipment

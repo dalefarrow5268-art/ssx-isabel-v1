@@ -61,7 +61,7 @@ Each applicable section activity library will include:
 | 30 | Reserved | No trade activities unless project-defined |
 | 31 | [Earthwork](./division-31/MASTER_DIVISION_31_ACTIVITIES.md) | Activity list created |
 | 32 | [Exterior Improvements](./division-32/MASTER_DIVISION_32_ACTIVITIES.md) | Activity list created |
-| 33 | Utilities | Queued |
+| 33 | [Utilities](./division-33/MASTER_DIVISION_33_ACTIVITIES.md) | Activity list created |
 | 34 | Transportation | Queued |
 | 35 | Waterway and Marine Construction | Queued |
 | 36 | Reserved | No trade activities unless project-defined |

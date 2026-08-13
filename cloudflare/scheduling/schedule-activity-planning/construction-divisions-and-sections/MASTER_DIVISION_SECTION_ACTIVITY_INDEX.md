@@ -74,7 +74,7 @@ Each applicable section activity library will include:
 | 43 | [Process Gas and Liquid Handling, Purification, and Storage Equipment](./division-43/MASTER_DIVISION_43_ACTIVITIES.md) | Activity list created |
 | 44 | [Pollution and Waste Control Equipment](./division-44/MASTER_DIVISION_44_ACTIVITIES.md) | Activity list created |
 | 45 | [Industry-Specific Manufacturing Equipment](./division-45/MASTER_DIVISION_45_ACTIVITIES.md) | Activity list created |
-| 46 | Water and Wastewater Equipment | Queued |
+| 46 | [Water and Wastewater Equipment](./division-46/MASTER_DIVISION_46_ACTIVITIES.md) | Activity list created |
 | 47 | Reserved | No trade activities unless project-defined |
 | 48 | Electrical Power Generation | Queued |
 

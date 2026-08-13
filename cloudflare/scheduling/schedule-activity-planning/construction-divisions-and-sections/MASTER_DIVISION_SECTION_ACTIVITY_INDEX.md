@@ -56,7 +56,7 @@ Each applicable section activity library will include:
 | 25 | [Integrated Automation](./division-25/MASTER_DIVISION_25_ACTIVITIES.md) | Activity list created |
 | 26 | [Electrical](./division-26/MASTER_DIVISION_26_ACTIVITIES.md) | Activity list created |
 | 27 | [Communications](./division-27/MASTER_DIVISION_27_ACTIVITIES.md) | Activity list created |
-| 28 | Electronic Safety and Security | Queued |
+| 28 | [Electronic Safety and Security](./division-28/MASTER_DIVISION_28_ACTIVITIES.md) | Activity list created |
 | 29 | Reserved | No trade activities unless project-defined |
 | 30 | Reserved | No trade activities unless project-defined |
 | 31 | Earthwork | Queued |

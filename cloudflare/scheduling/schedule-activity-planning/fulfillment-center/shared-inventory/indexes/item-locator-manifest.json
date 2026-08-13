@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0.0",
+  "strategy": "department-partitioned",
+  "total_items": 16114,
+  "departments": [
+    {
+      "department_id": "SSX-SUP-CHANGE-MANAGEMENT",
+      "slug": "change-management",
+      "item_count": 485,
+      "inventory_file": "departments/change-management.json"
+    },
+    {
+      "department_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS",
+      "slug": "cost-and-payment-controls",
+      "item_count": 621,
+      "inventory_file": "departments/cost-and-payment-controls.json"
+    },
+    {
+      "department_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION",
+      "slug": "daily-reporting-and-documentation",
+      "item_count": 649,
+      "inventory_file": "departments/daily-reporting-and-documentation.json"
+    },
+    {
+      "department_id": "SSX-SUP-DELIVERIES",
+      "slug": "deliveries",
+      "item_count": 405,
+      "inventory_file": "departments/deliveries.json"
+    },
+    {
+      "department_id": "SSX-SUP-DESIGN-AND-ENGINEERING",
+      "slug": "design-and-engineering",
+      "item_count": 650,
+      "inventory_file": "departments/design-and-engineering.json"
+    },
+    {
+      "department_id": "SSX-SUP-HOLIDAY-CALENDARS",
+      "slug": "holiday-calendars",
+      "item_count": 266,
+      "inventory_file": "departments/holiday-calendars.json"
+    },
+    {
+      "department_id": "SSX-SUP-INSPECTIONS",
+      "slug": "inspections",
+      "item_count": 603,
+      "inventory_file": "departments/inspections.json"
+    },
+    {
+      "department_id": "SSX-SUP-JURISDICTION-AND-AHJ",
+      "slug": "jurisdiction-and-ahj",
+      "item_count": 638,
+      "inventory_file": "departments/jurisdiction-and-ahj.json"
+    },
+    {
+      "department_id": "SSX-SUP-MEETINGS-AND-COORDINATION",
+      "slug": "meetings-and-coordination",
+      "item_count": 707,
+      "inventory_file": "departments/meetings-and-coordination.json"
+    },
+    {
+      "department_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES",
+      "slug": "mobilization-and-temporary-facilities",
+      "item_count": 616,
+      "inventory_file": "departments/mobilization-and-temporary-facilities.json"
+    },
+    {
+      "department_id": "SSX-SUP-MOCKUPS",
+      "slug": "mockups",
+      "item_count": 653,
+      "inventory_file": "departments/mockups.json"
+    },
+    {
+      "department_id": "SSX-SUP-OWNER-DECISIONS",
+      "slug": "owner-decisions",
+      "item_count": 713,
+      "inventory_file": "departments/owner-decisions.json"
+    },
+    {
+      "department_id": "SSX-SUP-PERMITS-AND-LICENSES",
+      "slug": "permits-and-licenses",
+      "item_count": 727,
+      "inventory_file": "departments/permits-and-licenses.json"
+    },
+    {
+      "department_id": "SSX-SUP-PROCUREMENT-AND-LONG-LEAD",
+      "slug": "procurement-and-long-lead",
+      "item_count": 566,
+      "inventory_file": "departments/procurement-and-long-lead.json"
+    },
+    {
+      "department_id": "SSX-SUP-QUALITY-CONTROL",
+      "slug": "quality-control",
+      "item_count": 859,
+      "inventory_file": "departments/quality-control.json"
+    },
+    {
+      "department_id": "SSX-SUP-SAFETY",
+      "slug": "safety",
+      "item_count": 189,
+      "inventory_file": "departments/safety.json"
+    },
+    {
+      "department_id": "SSX-SUP-SCHEDULE-MANAGEMENT",
+      "slug": "schedule-management",
+      "item_count": 700,
+      "inventory_file": "departments/schedule-management.json"
+    },
+    {
+      "department_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS",
+      "slug": "security-and-site-access",
+      "item_count": 527,
+      "inventory_file": "departments/security-and-site-access.json"
+    },
+    {
+      "department_id": "SSX-SUP-SITE-LOGISTICS-AND-MATERIAL-HANDLING",
+      "slug": "site-logistics-and-material-handling",
+      "item_count": 582,
+      "inventory_file": "departments/site-logistics-and-material-handling.json"
+    },
+    {
+      "department_id": "SSX-SUP-STARTUP-AND-COMMISSIONING",
+      "slug": "startup-and-commissioning",
+      "item_count": 759,
+      "inventory_file": "departments/startup-and-commissioning.json"
+    },
+    {
+      "department_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS",
+      "slug": "submittals-and-approvals",
+      "item_count": 808,
+      "inventory_file": "departments/submittals-and-approvals.json"
+    },
+    {
+      "department_id": "SSX-SUP-SUSTAINABILITY-AND-GREEN-BUILDING",
+      "slug": "sustainability-and-green-building",
+      "item_count": 516,
+      "inventory_file": "departments/sustainability-and-green-building.json"
+    },
+    {
+      "department_id": "SSX-SUP-TESTING",
+      "slug": "testing",
+      "item_count": 130,
+      "inventory_file": "departments/testing.json"
+    },
+    {
+      "department_id": "SSX-SUP-TRAINING",
+      "slug": "training",
+      "item_count": 189,
+      "inventory_file": "departments/training.json"
+    },
+    {
+      "department_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT",
+      "slug": "turnover-and-closeout",
+      "item_count": 732,
+      "inventory_file": "departments/turnover-and-closeout.json"
+    },
+    {
+      "department_id": "SSX-SUP-UTILITY-COMPANY-ACTIVITIES",
+      "slug": "utility-company-activities",
+      "item_count": 666,
+      "inventory_file": "departments/utility-company-activities.json"
+    },
+    {
+      "department_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS",
+      "slug": "weather-and-environmental-events",
+      "item_count": 644,
+      "inventory_file": "departments/weather-and-environmental-events.json"
+    },
+    {
+      "department_id": "SSX-SUP-WORKFORCE-AND-LABOR",
+      "slug": "workforce-and-labor",
+      "item_count": 514,
+      "inventory_file": "departments/workforce-and-labor.json"
+    }
+  ]
+}

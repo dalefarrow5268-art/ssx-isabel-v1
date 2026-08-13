@@ -1,0 +1,3201 @@
+{
+  "department_id": "SSX-SUP-DELIVERIES",
+  "slug": "deliveries",
+  "title": "Deliveries",
+  "document_title": "SSX Master Construction Deliveries",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/deliveries/MASTER_DELIVERIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 32,
+    "items": 405
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Mobilization and Temporary Facilities",
+      "path": [
+        "Mobilization and Temporary Facilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0I1NOHP",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "trailers",
+          "source_line": 7
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KYWLTF",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "portable offices",
+          "source_line": 8
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0TOAN6Y",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "storage containers",
+          "source_line": 9
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WYI1EL",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "fencing",
+          "source_line": 10
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FOG57J",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "gates",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0LBF50L",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "barricades",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I09M7FFG",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "temporary stairs/ramps/walkways",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KIU9VT",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "signs",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1C9XO3X",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "toilets",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I11GVNES",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "handwash stations",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I06T5T4G",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "dumpsters",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I153MZF3",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "generators",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1BK5GA5",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "transformers",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WJJ0QE",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "panels",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1GX290D",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "lighting",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1820J30",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "water",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0NJ2B3L",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "heating/cooling",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1866Y4X",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "fire equipment",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0HWV7YN",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "security cameras",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I07342RD",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "access control and jobsite furniture",
+          "source_line": 26
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Survey and Monitoring",
+      "path": [
+        "Survey and Monitoring"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I04MORC3",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "survey stakes",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0WF3ZTO",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "monuments",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0X3AGI5",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "total stations",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1BQ7DLI",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "GPS",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1MB77EA",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "lasers",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1JM5XP1",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "scanners",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0HCXBEO",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "settlement points",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MCN3J4",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "crack gauges",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1QE5HDZ",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "vibration/noise/weather monitors and drones",
+          "source_line": 38
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Erosion and Sediment Control",
+      "path": [
+        "Erosion and Sediment Control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1VS0D14",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "silt fence",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1C1SOV6",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "sediment barriers",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I071S2DC",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "posts",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1U1I313",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "wattles",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1PMGIQE",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "filter socks",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1UT8PS2",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "erosion blankets",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1THBBRZ",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "geotextile",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I079SF1I",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "inlet protection",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0OZK1JA",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "dewatering bags",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1SSJ630",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "turbidity curtains",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0RZOTQN",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "riprap",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0VEU821",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "stabilized entrance stone",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0LRR86G",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "seeding",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1FZWGZ2",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "mulch and washout containers",
+          "source_line": 55
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Demolition and Abatement",
+      "path": [
+        "Demolition and Abatement"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0N2ZKYZ",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "demolition equipment",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1QM4BU0",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "breakers",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1U4SK1C",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "cutting/coring equipment",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I12BWQ5X",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "dust controls",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1C6PWR7",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "negative-air machines",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0JEF3QI",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "HEPA units",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I11W5M9N",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "containment",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1S1UOBR",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "decontamination units",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DZP66B",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "hazardous-waste containers",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MKXN20",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "dumpsters",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0RHPNVL",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "shoring and protection materials",
+          "source_line": 69
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Earthwork and Excavation",
+      "path": [
+        "Earthwork and Excavation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0LS8EON",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "excavators",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1OME5OQ",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "dozers",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1SS7R9F",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "loaders",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1VRFWUR",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "graders",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1XST248",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "compactors",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I04661JX",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "trenchers",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0P2Q7LE",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "trench boxes",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1U8VRF9",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "shoring",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13TLNZ7",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "sheet piling",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0HNIPW4",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "dewatering pumps",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0U1HDTL",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "imported/common/select fill",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0HA4NXF",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "sand",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1J0W88Q",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "gravel",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1P5RS8Q",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "stone",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1QL1NYE",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "flowable fill",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0GFTQIB",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "topsoil",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I08GLBOY",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "stabilization materials",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0QDNMSV",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "geogrid and geofoam",
+          "source_line": 90
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Deep Foundations",
+      "path": [
+        "Deep Foundations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1OPJG2W",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "timber/steel/concrete/helical piles",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I19Z3QXS",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "micropile casing",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ILM6WY",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "reinforcing cages",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1NKSYIB",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "drilled-shaft casing",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I08SVBGU",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "slurry",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1C75RFI",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "grout",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1U1G5GK",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "pile-driving/drilling rigs",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I021OP0C",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "hammers and load-test equipment",
+          "source_line": 101
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Underground Utilities",
+      "path": [
+        "Underground Utilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0QSWAPA",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "sanitary/storm/water/fire/gas/process pipe",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1LEN2XO",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "fittings",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FMU1FN",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "valves",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1W3K0ON",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "hydrants",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1OB4GH3",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "manholes",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MJJDXJ",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "catch basins",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0X0DYI9",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "inlets",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1V8LZ88",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "interceptors",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0I4A2N6",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "lift stations",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0GK6DJ5",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "tanks",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ZC4T50",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "infiltration chambers",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1AK6E19",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "vaults",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0UUV8U6",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "meters",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1GZPL05",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "drains and bedding",
+          "source_line": 118
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Underground Electrical and Communications",
+      "path": [
+        "Underground Electrical and Communications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I162OR4M",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "conduit",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1FVXNGW",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "innerduct",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I01ZWVR3",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "duct-bank materials",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I157UH92",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "pull boxes",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I00LREVC",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "handholes",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FLON2Z",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "manholes",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15KMYL5",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "vaults",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DMKUYA",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "cables",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MDPJ8H",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "grounding",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1ES51OB",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "transformer pads",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1Q7X11L",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "pole bases and warning/tracer materials",
+          "source_line": 132
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Foundations and Structural Concrete",
+      "path": [
+        "Foundations and Structural Concrete"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1LXDFI3",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "forms",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1767YSK",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "shoring/reshoring",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0VG0AND",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "reinforcing steel",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I12DRL9Y",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "wire mesh",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0G7LN3Z",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "couplers",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0UP9OX6",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "anchors",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0N03K2U",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "embeds",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1Q29K5X",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "sleeves",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1Y8WYFK",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "waterstops",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0T206JB",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "ready-mix concrete",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1OGMSVO",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "admixtures",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15ANP83",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "grout",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I06CHJ0Y",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "curing",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FE51CM",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "vapor barriers",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I059HOYA",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "insulation",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1X576HE",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "waterproofing and precast components",
+          "source_line": 151
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Structural Steel and Metals",
+      "path": [
+        "Structural Steel and Metals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1X4F54T",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "columns",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0A121QM",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "beams",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I18PVQSC",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "girders",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0Z3D8VX",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "trusses",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1MNTITW",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "joists",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I061Q2IA",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "metal deck",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1QWB7UY",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "angles",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I19V6RY0",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "bridging",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1V2F07B",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "plates",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0VF7C1I",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "bolts",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1ORMH7L",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "studs",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0WNY4H3",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "welding material",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0T88JDK",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "stairs",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I07HT1C7",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "ladders",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I04OAJPJ",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "railings",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1S21TNM",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "platforms",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0K3JFN4",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "dunnage",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I14DFOWG",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "catwalks",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FND2QF",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "bollards",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I10F4WKC",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "cranes and rigging",
+          "source_line": 174
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Masonry",
+      "path": [
+        "Masonry"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I14UTNQT",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "CMU",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I11H9IQJ",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "brick",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I06OUOKN",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "stone",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1QYTBOO",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "cast stone",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I07XOOKZ",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "mortar",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0L7NX7L",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "grout",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I19RNSMG",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "reinforcing",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MFSOUD",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "ties",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0IOSVBC",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "anchors",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ARA1K8",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "flashing",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0PB642G",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "weeps",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15CRZOJ",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "lintels",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0QIWL36",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "shelf angles",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1JQXXL8",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "joint materials",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0DZEYH6",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "cleaners and scaffolding",
+          "source_line": 192
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Wood and Mass Timber",
+      "path": [
+        "Wood and Mass Timber"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1W325TF",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "lumber",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0NDNP9D",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "plywood/OSB",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0EKHZMM",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "treated wood",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0EPEATF",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "blocking",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1D64FWU",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "engineered joists",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0D91QYA",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "LVL",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0YIJIM0",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "glulam",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1HVA7U7",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "trusses",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I03ZZ2TR",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "CLT/NLT panels",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0SWMPB2",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "connectors and fasteners",
+          "source_line": 205
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Roofing",
+      "path": [
+        "Roofing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1XCWD8E",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "vapor retarder",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13C7RVP",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "insulation",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0U8S21I",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "cover board",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0B1AYJE",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "membrane",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0YD8JD3",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "bitumen",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1YCMQ4I",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "ballast",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1P4I1AI",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "pavers",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0Z9HOAF",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "tile",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0WX5KW8",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "metal roofing",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KHILGD",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "flashing",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1O7I7EP",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "coping",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13J49EO",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "drains",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0UTTHZK",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "scuppers",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1VR8ASH",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "gutters",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0LNYSEC",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "curbs",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1YLR8JB",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "hatches",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1JD0MCD",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "skylights",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ILT5SB",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "anchors",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1XXCPF4",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "davits",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WD9EE9",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "screens and vegetated-roof materials",
+          "source_line": 228
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Exterior Envelope",
+      "path": [
+        "Exterior Envelope"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0SNN628",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "air/vapor barriers",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0NQZO8I",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "sheathing",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1GAQKDH",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "insulation",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I09B8B9Z",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "weather barriers",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1N8E8YL",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "flashing",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1YXVBOW",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "sealants",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0PMK0VS",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "masonry/stone/terracotta/fiber-cement/metal/precast/GFRC/EIFS/stucco cladding",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I01QOVTZ",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "louvers",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KAN069",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "sunshades",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WZM9D2",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "canopies and soffits",
+          "source_line": 241
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Curtain Wall, Windows and Exterior Doors",
+      "path": [
+        "Curtain Wall, Windows and Exterior Doors"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I020G1N0",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "curtain wall",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0UHZEMU",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "storefront",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0672RO3",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "windows",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I084EZCM",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "insulated/laminated/tempered/fire/security glass",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1HBCRUE",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "skylights",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I03PUPIQ",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "gaskets",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WWDPOU",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "silicone",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1FC63Z0",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "flashing",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WCQTVG",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "entrance/revolving/overhead/loading-dock doors",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13FJUAS",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "frames",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1VMWZPM",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "hardware",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15FYK5Z",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "operators",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0JJMXJM",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "levelers and restraints",
+          "source_line": 257
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Interior Framing and Openings",
+      "path": [
+        "Interior Framing and Openings"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WFK17F",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "metal studs",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1MK24AT",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "tracks",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1OJ67I7",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "gypsum/shaft/cement/lead-lined boards",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DRW4NB",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "insulation",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0HV5WXF",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "sound clips",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1RRH2TD",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "firestop",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13GWB2T",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "joint systems",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0G45VLQ",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "access panels",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0YTZ87Q",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "doors",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1P8M6FR",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "frames",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0BD6B4E",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "glass and architectural/electrified hardware",
+          "source_line": 271
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Interior Finishes",
+      "path": [
+        "Interior Finishes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0JKA9WP",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "plaster",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WTD9SA",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "tile",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I064EEM1",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "terrazzo",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DKE5WL",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "resilient/carpet/wood/athletic/raised flooring",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0I3KGBU",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "underlayment",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0CZKCE7",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "moisture mitigation",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1V1KYLC",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "coatings",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0R4QQVZ",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "wall panels/protection/covering",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0M92GUA",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "paint",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I100QUUA",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "ceilings",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0N298R1",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "expansion covers and entrance mats",
+          "source_line": 285
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Casework, Furnishings and Specialties",
+      "path": [
+        "Casework, Furnishings and Specialties"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1EIICZE",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "millwork",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0686DKO",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "casework",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I051Q72K",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "counters",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0UT2JHT",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "shelving",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0O99IQE",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "lockers",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1GXZP4H",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "furniture",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I05723PE",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "partitions",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1LZKULE",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "window treatments",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0QLY0HQ",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "toilet partitions/accessories",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I17MMNQ7",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "mirrors",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I024W7EV",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "grab bars",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ZEFGJL",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "signs",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0K59M8S",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "boards",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1NOAIM6",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "cubicle tracks",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1JCCDV7",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "wire partitions and storage",
+          "source_line": 303
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Food Service and Specialty Equipment",
+      "path": [
+        "Food Service and Specialty Equipment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15P6Y5U",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "commercial kitchen/refrigeration/hood/suppression equipment",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1W1TKZE",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "laundry",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WHEAHC",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "linen/trash chutes",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0AH2AKK",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "compactors",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0HRF7BK",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "laboratory/medical/imaging/MRI/sterilizer",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1GN3717",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "fitness",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I035OFIE",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "theater",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I155F924",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "library",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0OW0YPL",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "detention and maintenance equipment",
+          "source_line": 315
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Plumbing",
+      "path": [
+        "Plumbing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MU4QH5",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "fixtures",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I150S7ZU",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "carriers",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0EKPDMN",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "domestic/sanitary/vent/storm pipe",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13D6DOC",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "valves",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KX28PV",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "backflow devices",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1HN9APH",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "meters",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I12NYVLJ",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "heaters",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0B8BRAG",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "tanks",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0C4HT42",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "pumps",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1MUCY4M",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "ejectors",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I09YPVPZ",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "interceptors",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1USEFJT",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "insulation",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1KLMUGR",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "supports and restraints",
+          "source_line": 331
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "HVAC and Controls",
+      "path": [
+        "HVAC and Controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I01AT2UZ",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "AHUs",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1071SM8",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "RTUs",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0O5726J",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "DOAS",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I03XE6O6",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "ERVs",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0OEZWSV",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "fan coils",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FUJ3Z0",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "VRF",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KO7N5Z",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "heat pumps",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1ACXHK4",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "chillers",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1JJ0EG4",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "towers",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1L6GEYS",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "boilers",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0U8V8BH",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "pumps",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15FX440",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "fans",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I107OIWN",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "CRAC",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1B16UCJ",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "humidifiers",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MMDCFZ",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "ductwork",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ZT2LAW",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "dampers",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1AMCPB7",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "terminals",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0INWXX1",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "hydronic/refrigerant piping",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1N6NCXS",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "insulation",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I10IJN04",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "controls",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1Q2ZDNX",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "sensors",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0PFCS66",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "actuators",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I19J8U9R",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "VFDs",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0DT0WUH",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "meters and servers",
+          "source_line": 358
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Electrical, Lighting and Emergency Power",
+      "path": [
+        "Electrical, Lighting and Emergency Power"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I10D9QQK",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "transformers",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1CDQO8Z",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "switchgear",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0R7I2UX",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "switchboards",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1QFNJ83",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "panels",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0E4BV9Y",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "MCCs",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1Q8222X",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "breakers",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I02Y5J6X",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "busway",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I115KOFA",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "ATS",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DGGTBI",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "generators",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I159NU8E",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "fuel systems",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1N7FW3W",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "UPS/batteries",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1Q47H7A",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "conduit",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1CMKEUT",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "cable",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I12QGRYS",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "tray",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1WW6P0H",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "grounding",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1KBV1D5",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "lightning protection",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I03MKIBS",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "interior/exterior/emergency lighting and lighting controls",
+          "source_line": 378
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Fire Protection and Alarm",
+      "path": [
+        "Fire Protection and Alarm"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1XLEKXA",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "fire pipe",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0NC85VP",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "sprinkler heads/valves",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1HRP09M",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "standpipe",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0VU4BRZ",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "pumps/controllers",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I164KJKW",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "water tanks",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I09PBBL2",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "bracing",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1AMN4AU",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "foam/mist/clean-agent/kitchen systems",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I10X82PU",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "alarm panels",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I19PXV3H",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "detectors",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I15QQGU6",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "pull stations",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0JDK1T5",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "notification",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1EC04DK",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "voice/mass notification",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0K3DU4V",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "modules",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I02MJB71",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "batteries and responder radio systems",
+          "source_line": 395
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Technology, AV and Security",
+      "path": [
+        "Technology, AV and Security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0A09MOS",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "telecom racks",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0S8WPNI",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "patch panels",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I07WQUPV",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "copper/fiber",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0NH8814",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Wi-Fi/network/server equipment",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1EZU4HD",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "PA/intercom/clock/nurse-call/AV/display systems",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I04TICXK",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "access control",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1LI33O2",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "locks/readers",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0CMLNVD",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "cameras",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1AK7PE8",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "intrusion",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1N499I3",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "duress",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DX936E",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "turnstiles",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0F2B16X",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "gates and crash barriers",
+          "source_line": 410
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Elevators and Conveying",
+      "path": [
+        "Elevators and Conveying"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1APRUWW",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "elevator rails/entrances/machines/cars/controllers/fixtures",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1KHLYOU",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "escalators",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1IUNANZ",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "moving walks",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1HO8JCY",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "platform/material lifts",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1N5X7GC",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "dumbwaiters and construction hoists",
+          "source_line": 418
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Renewable and Sustainable Systems",
+      "path": [
+        "Renewable and Sustainable Systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MOM7CT",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "PV panels/mounts/inverters",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I02QLVWB",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "batteries",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0OF10AC",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "solar thermal",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I11K74HA",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "geothermal",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0SYCRWE",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "rainwater/graywater",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0FK5KMW",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "EV chargers",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1NJUECM",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "green-roof",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0Q4B2TF",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "bicycle and energy-monitoring equipment",
+          "source_line": 429
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Site and Landscaping",
+      "path": [
+        "Site and Landscaping"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1K3MQ5O",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "curb/sidewalk/paving materials",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I100OX1U",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "pavers",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0I8HHAR",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "markings",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1R3AHQ7",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "signs",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1TZ0ZNY",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "bollards",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I18EHONT",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "guardrails",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0II5ZF3",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "fencing",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0JS1FAB",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "retaining walls",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I097ML61",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "stairs",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I120M90R",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "furnishings",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1BYLBZF",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "playground/athletic equipment",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1TLT8HT",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "topsoil",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ZLE02H",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "plants",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I02238K3",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "sod",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1DRIZJ9",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "irrigation and landscape lighting",
+          "source_line": 447
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Owner-Furnished and FF&E",
+      "path": [
+        "Owner-Furnished and FF&E"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1YXV98E",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "owner fixtures/equipment/furniture/technology/appliances/art/signage/security/AV",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1MX39NO",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "salvaged/relocated items",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0CWERXH",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "guest room/office/classroom/healthcare furniture",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0OM6QBG",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "linens",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I13T93QS",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "operating supplies and loose equipment",
+          "source_line": 455
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Prefabricated and Modular",
+      "path": [
+        "Prefabricated and Modular"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MNVA7L",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "wall panels",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0ACYSGC",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "bathroom pods",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1A3MR9W",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "MEP racks",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0SPXQXX",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "pipe/duct assemblies",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0L3N18N",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "modular electrical/data rooms",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1SU0727",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "volumetric modules",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0NIM6DP",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "headwalls",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I03UCNCO",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "risers",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0EMW6RU",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "balconies",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1OA48WL",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "roof assemblies and equipment skids",
+          "source_line": 468
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Testing, Startup and Closeout",
+      "path": [
+        "Testing, Startup and Closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KGF5V5",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "testing instruments",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I14KRK0L",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "TAB kits",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1GMUZ22",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "load banks",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MYJYCK",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "commissioning equipment",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1JVUWH2",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "attic stock",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I17XFPOU",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "spare finishes/parts",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I159UVYV",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "special tools",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0N3NLFT",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "keys",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I06NX7ZW",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "manuals",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I04XGWAD",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "warranties",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KZ3CCC",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "reports",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I01YACSF",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "record drawings",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1W07ZRC",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "BIM files",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1KS8H90",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "training materials and final certificates",
+          "source_line": 485
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Delivery event types",
+      "path": [
+        "Delivery event types"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0P5J9SA",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Initial, partial, phased, floor/area/zone, just-in-time, recurring, bulk, flatbed, lowboy, dump truck, tanker, crane-assisted, rooftop/hoisted, barge, rail, air-freight, courier, secure, climate-controlled, hazardous, oversized, after-hours, street-closure, police-escort, owner-furnished, direct-to-installation, warehouse, fabrication facility, consolidation center, laydown yard, inspection-required, testing-required, replacement, rejected and final-balance delivery.",
+          "source_line": 489
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DELIVERIES-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Long-lead delivery milestones",
+      "path": [
+        "Long-lead delivery milestones"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I04F87AE",
+          "sequence": 394,
+          "type": "numbered",
+          "text": "Design information and selection",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0MSCWB6",
+          "sequence": 395,
+          "type": "numbered",
+          "text": "Submittal preparation/review/approval",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0KIUWZ4",
+          "sequence": 396,
+          "type": "numbered",
+          "text": "Finish selection and field verification",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1AK645F",
+          "sequence": 397,
+          "type": "numbered",
+          "text": "Release for fabrication",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0M489SY",
+          "sequence": 398,
+          "type": "numbered",
+          "text": "Procurement and manufacturing",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I09YPME5",
+          "sequence": 399,
+          "type": "numbered",
+          "text": "Factory testing",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1XWLIQ5",
+          "sequence": 400,
+          "type": "numbered",
+          "text": "Ready to ship and freight booked",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0YXKVZO",
+          "sequence": 401,
+          "type": "numbered",
+          "text": "Departure/customs/tracking",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0K53BX9",
+          "sequence": 402,
+          "type": "numbered",
+          "text": "Delivery appointment/logistics/crane approval",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I12ZMBLG",
+          "sequence": 403,
+          "type": "numbered",
+          "text": "Receipt, quantity and condition inspection",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I1J0R9NP",
+          "sequence": 404,
+          "type": "numbered",
+          "text": "Acceptance/rejection, storage and protection",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-DELIVERIES-I0J3U0QJ",
+          "sequence": 405,
+          "type": "numbered",
+          "text": "Installation, startup, testing and closeout spares",
+          "source_line": 504
+        }
+      ]
+    }
+  ]
+}

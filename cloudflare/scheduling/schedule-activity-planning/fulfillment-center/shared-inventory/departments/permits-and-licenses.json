@@ -1,0 +1,5449 @@
+{
+  "department_id": "SSX-SUP-PERMITS-AND-LICENSES",
+  "slug": "permits-and-licenses",
+  "title": "Permits And Licenses",
+  "document_title": "SSX Master Construction Permits and Licenses",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/permits-and-licenses/MASTER_PERMITS_AND_LICENSES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 31,
+    "items": 727
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00IAHUJ",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project, jurisdiction and issuing authority",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I066EBPM",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Permit or license name and classification",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KCWD3H",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Application, permit and revision number",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1S7M6E6",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Related building, phase, area, system and CSI division",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0W0A9YE",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Applicant, permit holder and responsible person",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NOBZTF",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Required preparer, signer, licensed professional or contractor",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SDLVGI",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Governing code, ordinance, statute or contract requirement",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1HTJPME",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Submission prerequisites",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0THYE9K",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Required drawings, calculations, reports and certifications",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19LG0OS",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Fees, bonds, deposits and insurance",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OXTNHT",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Planned and actual application dates",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1X82XZ0",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Completeness-review duration",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DEI4QP",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Technical-review duration",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1GI4PNI",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Comment-response duration",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DB59DP",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Resubmission and approval dates",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TQFM73",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Required public notice, hearing or board dates",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1RNNUUQ",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Issuance date",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TGHUO8",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Effective date and expiration date",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TCVQ27",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Renewal or extension deadline",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10XO8HK",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Required inspections and closeout documents",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0H47LVT",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Work authorized and work prohibited",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JVM2A7",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Conditions of approval",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LS2TMQ",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Posting and jobsite-copy requirements",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XB2ZOU",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Status, aging and escalation owner",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HTUKZG",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Linked submittals, procurement, inspections and schedule activities",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07OQ5BX",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Whether it blocks mobilization, work, utility activation, occupancy or closeout",
+          "source_line": 36
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Standard permit workflow",
+      "path": [
+        "Standard permit workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NUFCOP",
+          "sequence": 27,
+          "type": "numbered",
+          "text": "Identify applicable authority and authorization",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YTAK9I",
+          "sequence": 28,
+          "type": "numbered",
+          "text": "Confirm permit or license classification",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0JXG6VC",
+          "sequence": 29,
+          "type": "numbered",
+          "text": "Hold pre-application or pre-permit meeting when appropriate",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EQ3HP2",
+          "sequence": 30,
+          "type": "numbered",
+          "text": "Confirm submission requirements and current forms",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07V2DWU",
+          "sequence": 31,
+          "type": "numbered",
+          "text": "Confirm design completion and prerequisite approvals",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QGL4HR",
+          "sequence": 32,
+          "type": "numbered",
+          "text": "Assign applicant and responsible permit manager",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VWCDT0",
+          "sequence": 33,
+          "type": "numbered",
+          "text": "Prepare application package",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YCAYQC",
+          "sequence": 34,
+          "type": "numbered",
+          "text": "Obtain required signatures and professional seals",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Q5PGI0",
+          "sequence": 35,
+          "type": "numbered",
+          "text": "Obtain owner authorization",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14QDGJP",
+          "sequence": 36,
+          "type": "numbered",
+          "text": "Submit application",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1NYBFK5",
+          "sequence": 37,
+          "type": "numbered",
+          "text": "Pay application and review fees",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E2XBU6",
+          "sequence": 38,
+          "type": "numbered",
+          "text": "Complete administrative completeness review",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02G2APZ",
+          "sequence": 39,
+          "type": "numbered",
+          "text": "Respond to completeness comments",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0QX4XL4",
+          "sequence": 40,
+          "type": "numbered",
+          "text": "Enter technical review",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1B7K79U",
+          "sequence": 41,
+          "type": "numbered",
+          "text": "Coordinate parallel agency reviews",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HUYEGY",
+          "sequence": 42,
+          "type": "numbered",
+          "text": "Receive review comments",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0APD4VU",
+          "sequence": 43,
+          "type": "numbered",
+          "text": "Prepare comment-response matrix",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LKQ4UV",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Revise drawings, calculations and documents",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OW6212",
+          "sequence": 45,
+          "type": "numbered",
+          "text": "Resubmit",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YGLC8I",
+          "sequence": 46,
+          "type": "numbered",
+          "text": "Complete additional review cycles",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LO7HO1",
+          "sequence": 47,
+          "type": "numbered",
+          "text": "Obtain planning, zoning, board or public-hearing approval when required",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VA6KST",
+          "sequence": 48,
+          "type": "numbered",
+          "text": "Obtain conditional approval",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OLXNTR",
+          "sequence": 49,
+          "type": "numbered",
+          "text": "Satisfy pre-issuance conditions",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BUHNGK",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Pay permit, impact and connection fees",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0A6VX4T",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Post bond, deposit or insurance",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0T3JQK7",
+          "sequence": 52,
+          "type": "numbered",
+          "text": "Receive permit or license",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1FVZTM0",
+          "sequence": 53,
+          "type": "numbered",
+          "text": "Verify authorized scope and conditions",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EGS3XQ",
+          "sequence": 54,
+          "type": "numbered",
+          "text": "Post permit and approved plans onsite",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XU9FZ5",
+          "sequence": 55,
+          "type": "numbered",
+          "text": "Schedule prerequisite and progressive inspections",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OHMVL9",
+          "sequence": 56,
+          "type": "numbered",
+          "text": "Submit revisions, deferred submittals and supplemental permits",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VAELQZ",
+          "sequence": 57,
+          "type": "numbered",
+          "text": "Renew or extend before expiration",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LC1LRR",
+          "sequence": 58,
+          "type": "numbered",
+          "text": "Complete final inspections",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1US7DE5",
+          "sequence": 59,
+          "type": "numbered",
+          "text": "Submit closeout records and certifications",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I153BMLV",
+          "sequence": 60,
+          "type": "numbered",
+          "text": "Obtain final acceptance, TCO, CO or operational license",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0AI27MM",
+          "sequence": 61,
+          "type": "numbered",
+          "text": "Close permit and release bonds or deposits",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ZUON6N",
+          "sequence": 62,
+          "type": "numbered",
+          "text": "Archive final permit record",
+          "source_line": 75
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Permit planning and controls",
+      "path": [
+        "Permit planning and controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11KPAGG",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Prepare permit and license matrix",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JI0Y1R",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Identify lead agency and all reviewing agencies",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MH5AK3",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Identify separate, phased and deferred permits",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0X46767",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Identify professional and contractor license requirements",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0PUUVVC",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Identify required pre-application meetings",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I090G3AI",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Identify public-notice and hearing lead times",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0S79WFD",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Identify submission deadlines for review-board agendas",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UYNA4I",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Identify environmental survey windows",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1J8ODJQ",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Identify utility design and connection lead times",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04AJQIG",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Identify permit-dependent procurement and mobilization",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TCAQ8J",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Identify inspection notice requirements",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0G8D3SY",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Identify permit expiration and work-commencement rules",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KDX8T5",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Identify renewal limits",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0X4FAE7",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Identify closeout and bond-release requirements",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XU76QU",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Baseline permit milestones",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1HEQ2VZ",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Review permit status weekly",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1064F32",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Escalate overdue reviews",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KAINYS",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Track reviewer comments by discipline",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I143P8EX",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Update construction schedule after each agency response",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01WFC3L",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Preserve issued permits, stamped plans and revisions",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DRPXLW",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Verify field teams use the current approved set",
+          "source_line": 99
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Early planning, entitlement and land-use approvals",
+      "path": [
+        "Early planning, entitlement and land-use approvals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1ILWE3N",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Pre-application conference",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OS2689",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Concept-plan review",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VKH754",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Development review",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MMCK93",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Site-plan approval",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I004N5WH",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Planned development approval",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0FWQR9E",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Special-use or conditional-use permit",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1WY5AIT",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Zoning verification",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1O9J1AV",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Zoning map amendment",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14WLN74",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Variance",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OFN67C",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Administrative adjustment",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11O961W",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Density or height approval",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0V2UH7X",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Setback approval",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TB5VT0",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Floor-area-ratio approval",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03OXEHM",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Parking reduction or shared-parking approval",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0WBU68T",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Subdivision plat",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XEACQN",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Replat",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I18VW4HC",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Lot consolidation or lot split",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0WCDT9K",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Annexation",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1T0US7K",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Development agreement",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00WOPEF",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Design-review board approval",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0JW5W2M",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Architectural-review board approval",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LKQH6A",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Historic-preservation approval",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BDG4WR",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Certificate of appropriateness",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MDMVDU",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Planning commission approval",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EOE98D",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Zoning board approval",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NPC3E1",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "City council or county board approval",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0IZA25M",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Public-hearing approval",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1X1F0MJ",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Neighborhood or community review",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TJZMND",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "School, transportation or public-service concurrency approval",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SPP25Q",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Development-impact-fee assessment",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0N3J6UF",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Affordable-housing or inclusionary approval",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I070OZ33",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Transfer of development rights",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0E4G380",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Easement, covenant and deed-restriction approval",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10NZG7I",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Address assignment",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11G7S40",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Parcel and legal-description approval",
+          "source_line": 137
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Building and construction permits",
+      "path": [
+        "Building and construction permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HNVR9H",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Master building permit",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0PWNZ1J",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "New-construction permit",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1AU0RCV",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Addition permit",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0S73W9M",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Alteration or renovation permit",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0R4A114",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Tenant-improvement permit",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QO0RWJ",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Interior buildout permit",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10MHMWP",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Shell permit",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01I1NLZ",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Core-and-shell permit",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0O9L4JX",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Foundation-only permit",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TGHUNH",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Early-start permit",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0URALS5",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Excavation permit",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MC5767",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Superstructure permit",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I074D8LE",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Phased building permit",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M5VPUK",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Partial permit",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I192SVQI",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Deferred-submittal permit",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09QP9ZX",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Supplemental permit",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01T7NAO",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Permit revision",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05RAO8Y",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Field-change authorization",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OCIC4H",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Change-of-contractor permit",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0E93SH0",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Change-of-design-professional permit",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TOQTTP",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Change-of-occupancy permit",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DS07HF",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Change-of-use permit",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01MM2K2",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Temporary-structure permit",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EC5QLY",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Construction-trailer permit",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E9UVZK",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Temporary certificate of occupancy",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QY589V",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Phased occupancy permit",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0E1E0PT",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Certificate of occupancy",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0B4VYGY",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Certificate of completion",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CAQ1D9",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Final permit closeout",
+          "source_line": 169
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Demolition, relocation and existing buildings",
+      "path": [
+        "Demolition, relocation and existing buildings"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TMA3HT",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Full demolition permit",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1BBJOTT",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Selective-demolition permit",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I157HL1G",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Interior demolition permit",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02TLDZ6",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Structure-moving permit",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BWKI70",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Building relocation permit",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GHIST2",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Deconstruction permit",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LE4SCT",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Salvage approval",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1936DVN",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Utility disconnect releases",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OU31H8",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Rat or pest abatement certification",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Q72FZ7",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Asbestos survey and notification",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ENBBXF",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Lead abatement authorization",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0E27NQS",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Hazardous-material abatement permit",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0S1R473",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Underground-storage-tank closure permit",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0006QGQ",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Demolition waste-management approval",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0F9QXQP",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Historic demolition approval",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0JWED8B",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Tree-removal approval",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1061YRR",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Dust, noise and vibration authorization",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04Q6HEO",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Sidewalk and public-protection permit",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0QDWFR9",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Demolition completion certification",
+          "source_line": 191
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Civil, grading and sitework permits",
+      "path": [
+        "Civil, grading and sitework permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XD4RGF",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Land-disturbance permit",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DSP6W9",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Clearing and grubbing permit",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BAGRGF",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Grading permit",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I035SGMC",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Earthwork permit",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1L6OVHW",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Fill permit",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I082QAP1",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Excavation permit",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1R18EVX",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Blasting permit",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1179Q1V",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Rock-removal permit",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NMSAQT",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Dewatering permit",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15PD00I",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Groundwater-discharge permit",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08AH1R0",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Soil-stabilization approval",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19QSV01",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Retaining-wall permit",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03D7G4E",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Site-development permit",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1WNB9VO",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Storm-drainage permit",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03IBAMR",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Floodplain-development permit",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1W5NU3I",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Floodway permit",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XLJZNX",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Wetland-impact permit",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XMDSJ2",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Stream-crossing permit",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LXHA3U",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Shoreline or coastal permit",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1X1VQ4E",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Coastal-construction-control approval",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0F6XHDO",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Tree-removal permit",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y5RI88",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Landscape permit",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LN7GNJ",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Irrigation permit",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I027QZD5",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Site-lighting permit",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15R2LYM",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Fence and gate permit",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I16VAT4T",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Swimming-pool permit",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NDM6YW",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Playground permit",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03DXE2K",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Athletic-field approval",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I145RRJL",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Sitework final acceptance",
+          "source_line": 223
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Stormwater and environmental permits",
+      "path": [
+        "Stormwater and environmental permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06I5ZKL",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Construction stormwater permit",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15H3UBI",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "NPDES construction coverage",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QTK30U",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Notice of Intent",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11D7LC2",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "SWPPP approval",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10KAML3",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Erosion and sediment-control permit",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1A9LEJA",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Silt-fence and sediment-barrier approval",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I081XQ01",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Municipal separate storm sewer system approval",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19S494O",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Dewatering discharge authorization",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XW6VXB",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Industrial stormwater permit",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09ZTLIM",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Notice of Termination",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OS3R20",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Wetlands permit",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19XWL9R",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Clean Water Act Section 404 permit",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UC8BI0",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Water-quality certification",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07TJV6C",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Floodplain and floodway approval",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15EPW4M",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Coastal-zone consistency approval",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TIZNRM",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Endangered-species consultation",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1STRBOR",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Migratory-bird or nesting-season authorization",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0I9XY5K",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Cultural-resource or archaeological approval",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0F5TAHX",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Environmental assessment",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M775O4",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Environmental impact statement",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I18PFKGV",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "State environmental-policy review",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RGWQIB",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Air-emissions permit",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VP1492",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Dust-control permit",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DVATCC",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Open-burning permit",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RLAK8I",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Noise variance",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YHUU2Y",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Vibration permit",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ZSTZI8",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Contaminated-soil management approval",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00HJ0FX",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Brownfield remediation approval",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TIX2A8",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Hazardous-waste generator identification",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EZF0BS",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Spill-prevention plan approval",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IJLY4E",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Fuel-storage permit",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EJCN99",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Aboveground-storage-tank permit",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GH9TJM",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Underground-storage-tank permit",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07EFNUM",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Well installation or abandonment permit",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MINFKA",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Septic-system permit",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MYLMAH",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Water-withdrawal permit",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1V4E6OK",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Environmental closeout and stabilization acceptance",
+          "source_line": 263
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Right-of-way, street and transportation permits",
+      "path": [
+        "Right-of-way, street and transportation permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MU8UTW",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Right-of-way use permit",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I121UZJH",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Street-opening permit",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0AB1P0U",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Pavement-cut permit",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I12FQ5OP",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Sidewalk-closure permit",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Q3G01P",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Lane-closure permit",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0B5W70M",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Full-street-closure permit",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05ZBDQ0",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Traffic-control permit",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EZJ70Y",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Maintenance-of-traffic approval",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UNC9QS",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Pedestrian-detour approval",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00987ZG",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Construction access permit",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DZSDXY",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Driveway permit",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1COOYFO",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Curb-cut permit",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y20W2H",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Haul-route permit",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0F6A6DP",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Oversize and overweight hauling permit",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1RXVLQB",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Construction-parking permit",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YX1KCF",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Meter-bagging or parking-space reservation",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0A4Z45S",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Loading-zone permit",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XDT4UR",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Crane-in-right-of-way permit",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0P068O9",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Mobile-crane permit",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0DPDNHP",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Tower-crane air-rights or swing permit",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02WWVA1",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Scaffold permit",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0056LKA",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Sidewalk-shed permit",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19IH3B2",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Temporary walkway permit",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I034Y38F",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Dumpster or container permit",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0840604",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Material-staging permit",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0D8ABF7",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Utility-road-crossing permit",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I059KSAZ",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Railroad crossing or flagging permit",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I106SMJ4",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Transit-agency approval",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02IXCE4",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Airport or aviation-height approval",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JBZDJ4",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "FAA obstruction evaluation",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UH4YXN",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Traffic-signal approval",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1RMAM9D",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Street-lighting approval",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04FCC3I",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Pavement-restoration acceptance",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I18GTHE2",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Right-of-way closeout",
+          "source_line": 300
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Utility permits and authorizations",
+      "path": [
+        "Utility permits and authorizations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BSFMM9",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Utility availability confirmation",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1BNYUDL",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Electric service application",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0SABWMK",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Electrical utility design approval",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08DCIRL",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Transformer and switchgear approval",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0D3GML1",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Electrical service permit",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1BZA41Q",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Temporary power authorization",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UIBNDR",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Permanent power authorization",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1D88VZ4",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Meter-set authorization",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0K7F5C9",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Energization release",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01H6POJ",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Distributed-generation interconnection",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NHNLVF",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Photovoltaic interconnection",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LRAK5M",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Battery-storage interconnection",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EBOWDY",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "EV-charging service approval",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09ZWPH5",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Natural-gas service application",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YFSQMT",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Gas utility design approval",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M5Q4DM",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Gas piping permit",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08AAE1T",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Gas meter and service activation",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05Z9K7B",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Water service application",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1FTEZ5I",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Water tap permit",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CHBJCM",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Water meter permit",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YA0RSV",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Backflow approval",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15H4NWM",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Fire-service connection permit",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Q0YX0O",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Fire hydrant permit",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03KPFXS",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Sewer connection permit",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19ZAC91",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Sewer tap permit",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07X6D60",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Industrial-discharge permit",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RBYLTM",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Grease interceptor approval",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1BX0DE2",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Septic or private treatment permit",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1R3W14P",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Storm sewer connection permit",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0SLK5LS",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Telecommunications service authorization",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08BR0CM",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Cable or fiber right-of-way permit",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YL3PDC",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Utility easement approval",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07HB5GW",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Utility shutdown approval",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17UI3OU",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Utility crossing approval",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MTB0QJ",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Utility inspection and acceptance",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0WJ26QA",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Utility account activation",
+          "source_line": 339
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Trade permits",
+      "path": [
+        "Trade permits"
+      ],
+      "items": []
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G012",
+      "sequence": 12,
+      "level": 3,
+      "title": "Structural and architectural",
+      "path": [
+        "Trade permits",
+        "Structural and architectural"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11X15ZV",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Foundation permit",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1H6F3CP",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Structural permit",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0JX00RO",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Steel erection permit where required",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TLJ1JN",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Concrete permit where required",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15WE0ZL",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Masonry permit where required",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0PRN6QC",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Roofing permit",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GA5YU6",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Exterior cladding permit",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0JH30FV",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Window and glazing permit",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ISC4G7",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Door and storefront permit",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Q6MYQJ",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Sign permit",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1W6KXLX",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Awning and canopy permit",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UU3CL1",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Fence permit",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KOK6QQ",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Retaining-wall permit",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I13WGWSG",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Shoring permit",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0G61OAY",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Scaffold permit",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17Q5IH3",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Temporary-structure permit",
+          "source_line": 360
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G013",
+      "sequence": 13,
+      "level": 3,
+      "title": "Plumbing and gas",
+      "path": [
+        "Trade permits",
+        "Plumbing and gas"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01LG145",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Plumbing permit",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I043BZ0V",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Plumbing plan review",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0C10CR4",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Underground plumbing permit",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0PSUJ1O",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Medical-gas permit",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17XYTM1",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Fuel-gas permit",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I026RN7K",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Propane or LPG permit",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NE3QUY",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Boiler permit",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1CYH0U9",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Pressure-vessel permit",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M3FSU8",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Water-heater permit",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BFGYV1",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Backflow-device permit",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RNUO4S",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Cross-connection approval",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1KNIA8M",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Grease-interceptor permit",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UNRJ0N",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Pool plumbing permit",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JW0O9H",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Irrigation permit",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1X09J25",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Plumbing final approval",
+          "source_line": 378
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G014",
+      "sequence": 14,
+      "level": 3,
+      "title": "Mechanical",
+      "path": [
+        "Trade permits",
+        "Mechanical"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05QOXHD",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Mechanical permit",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1GMCFLU",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "HVAC permit",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1NODQFB",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Refrigeration permit",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y76HRZ",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Boiler permit",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1WPAYD2",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Pressure-vessel permit",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IIGCNP",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Chiller permit",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XFVFM7",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Cooling-tower permit",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09DPJ7A",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Fuel-burning equipment permit",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0F3PW0F",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Kitchen hood and grease-duct permit",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1R4Z6BW",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Commercial exhaust permit",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JRH7E1",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Smoke-control permit",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14Y4495",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Laboratory exhaust permit",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1FN1JAP",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Refrigerant-system permit",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Z0VG1D",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Mechanical final approval",
+          "source_line": 395
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G015",
+      "sequence": 15,
+      "level": 3,
+      "title": "Electrical",
+      "path": [
+        "Trade permits",
+        "Electrical"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KZPURL",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Electrical permit",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02AGFPY",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Temporary electrical permit",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1K8Q4T4",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Electrical service permit",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OWK6I0",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Generator permit",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M8NAIS",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Emergency-power permit",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HMPZ4O",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Fire-pump electrical permit",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0E3OZS1",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Photovoltaic permit",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y7P2BH",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Energy-storage-system permit",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RDFGD3",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "EV-charger permit",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00QATKW",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Sign electrical permit",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0FPUAC4",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Low-voltage permit where required",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1PQ0H69",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Lightning-protection approval",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ETT6R5",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Electrical final approval",
+          "source_line": 411
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G016",
+      "sequence": 16,
+      "level": 3,
+      "title": "Fire protection and life safety",
+      "path": [
+        "Trade permits",
+        "Fire protection and life safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14DF9X8",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Fire-department site-access approval",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E1Z4A2",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Underground fire-main permit",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06TW43R",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Fire sprinkler permit",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0FWVGW3",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Standpipe permit",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0A951EK",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Fire-pump permit",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CXJ1D8",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Fire-water-tank permit",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08JVDWF",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Fire-alarm permit",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y8YIC0",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Clean-agent permit",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QQLGYF",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Preaction or deluge permit",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0V3AQQ0",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Foam or water-mist permit",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0R8HOOQ",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Kitchen suppression permit",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I13DNMW4",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Smoke-control permit",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0N3Z7K7",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Emergency responder radio permit",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11SMHTJ",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Mass-notification approval",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UC5CRG",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "High-piled-storage permit",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MIL0P4",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Hazardous-material permit",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0V8GQ6R",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Flammable and combustible liquids permit",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I139S2ZS",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Compressed-gas permit",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0JB72HD",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Hot-work permit program approval",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19Z87ZT",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Fireworks or pyrotechnics permit",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0U45SGM",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Fire Marshal construction approval",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0I6EOKH",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Fire Marshal final approval",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I182MDLZ",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Operational fire permit",
+          "source_line": 437
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G017",
+      "sequence": 17,
+      "level": 3,
+      "title": "Elevators and conveying",
+      "path": [
+        "Trade permits",
+        "Elevators and conveying"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1D8JCZ5",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Elevator installation permit",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0H8M1S6",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Elevator alteration permit",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OI2DKV",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Escalator permit",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0865YPU",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Platform-lift permit",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MLVA88",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Material-lift permit",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11IO16T",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Dumbwaiter permit",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JZ6ZRU",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Construction-hoist permit",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06SGR6S",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Temporary-use authorization",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XACNJD",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "State elevator inspection",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1KJV834",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Certificate to operate",
+          "source_line": 450
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Specialty occupancy and operational permits",
+      "path": [
+        "Specialty occupancy and operational permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M9COUS",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Health-department plan review",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ND791M",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Food-service establishment permit",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TN0CRQ",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Commercial kitchen operating permit",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0WXF4H6",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Hotel or lodging license",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LLL7FM",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Apartment or rental license",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0DK2BV7",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "School or daycare license",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QFBCUT",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Assisted-living license",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0B9DMW3",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Nursing-home license",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07ARW0V",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Hospital license",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0H0KS2H",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Ambulatory-surgery-center license",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1CIGD2O",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Pharmacy license",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1K4P9KW",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Laboratory license",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1WM36QW",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Medical imaging and radiation permit",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I046JI1T",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "MRI or radiation-producing equipment registration",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1GQSK2R",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Pool and spa operating permit",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0R1Z5A1",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Public-assembly permit",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YSFNXN",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Entertainment license",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GWU3JD",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Liquor license",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I038CI40",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Retail food license",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10765B4",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Fuel-dispensing permit",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07GCPKA",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Parking-garage operating permit",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I088ONMW",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Marina or waterfront permit",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0I34Z9Y",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Helipad permit",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I103Y5E7",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Industrial process permit",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0V3M6JI",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Air permit to operate",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E5CBII",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Wastewater discharge permit",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1ARNX83",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Hazardous-material operating permit",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15BAFV9",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "High-piled storage operational permit",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XNY99V",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Flammable-liquid operational permit",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07NF04T",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Boiler certificate to operate",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QSJEDH",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Pressure-vessel certificate",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0DO7XQ4",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Elevator certificate to operate",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06HUMWJ",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Fire-system operational permit",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I150S4FZ",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Business license",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I16Z1199",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Sign operating approval where applicable",
+          "source_line": 488
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Temporary work permits and authorizations",
+      "path": [
+        "Temporary work permits and authorizations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19NTSBH",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Temporary building permit",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I032M54K",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Construction trailer permit",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0604N1Q",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Temporary power permit",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0IEE6F4",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Temporary water permit",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08KO44C",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Temporary sanitary permit",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11LS1MB",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Temporary heating permit",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TS9JSY",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Temporary generator permit",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I171IRRP",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Temporary fuel-storage permit",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I029DG3P",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Temporary fire-alarm permit",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MHF5IP",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Temporary standpipe approval",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1PJJU5O",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Temporary egress approval",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IY9QQA",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Temporary occupancy permit",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1F6A8T9",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Temporary event permit",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HRDINT",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "After-hours work permit",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I18SJZNO",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Weekend work permit",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OOSAGM",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Night-work permit",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1L5FLNA",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Noise variance",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I064J4YR",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Hot-work permit",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EFO2SR",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Confined-space permit",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LMVJYX",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Excavation or dig permit",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01QSDP6",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Energized-electrical-work permit",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MYZYJK",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Lockout/tagout authorization",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1J66NYF",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Critical-lift permit",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OT790O",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Personnel-hoisting permit",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05F1L2I",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Pressure-test permit",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0P4Q8CU",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Fire-system impairment permit",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0C3FJ6X",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Utility-shutdown permit",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0DKI83R",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Road or lane-closure permit",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1WQUY64",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Radiography permit",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00IATQ4",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Blasting permit",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VMFT3E",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Return-to-service authorization",
+          "source_line": 522
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Contractor, company and professional licenses",
+      "path": [
+        "Contractor, company and professional licenses"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1RAZTXG",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "General contractor license",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1KE83OR",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Construction manager license where required",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1CAC2LD",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Home-improvement or specialty contractor license",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1PK4L2A",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Electrical contractor license",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17MUVN0",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Plumbing contractor license",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1KPQLRM",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Mechanical or HVAC contractor license",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0DM0M58",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Fire sprinkler contractor license",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XREZ5R",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Fire alarm contractor license",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0L73J3F",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Low-voltage contractor license",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1AF9KI2",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Elevator contractor license",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15VLSEY",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Roofing contractor license",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0SEVZR0",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Asbestos contractor license",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09E6WI9",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Lead abatement contractor license",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YGRTQA",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Mold remediation license",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MLDRDR",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Underground utility contractor license",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LACE10",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Well contractor license",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y5TDBI",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Blasting contractor license",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0699CKS",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Security-system contractor license",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0POGU4Z",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Landscape contractor license",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LXBUX0",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Irrigation contractor license",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08FSYOF",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Sign contractor license",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1N4ZDM4",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Waste hauler license",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07KQ7UN",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Hazardous-waste transporter license",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UWVKHJ",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Business registration",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MPVAY4",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Foreign entity registration",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DUJ4H8",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Local business license",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IVL76C",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Minority, women, veteran or disadvantaged business certification",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HOBLS4",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Architect license",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0T0VK03",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Professional engineer license",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I182OUXX",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Landscape architect license",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1HUV8G8",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Surveyor license",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19050X4",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Geologist or geotechnical professional license",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SLVD40",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Special inspector certification",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UOHHWZ",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Testing laboratory accreditation",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DTEGT2",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Commissioning-provider qualification",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TL4F0I",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Energy-code professional credential",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XJIATJ",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Threshold or structural inspector qualification",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LNL19Z",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Responsible managing employee designation",
+          "source_line": 563
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Individual trade licenses and certifications",
+      "path": [
+        "Individual trade licenses and certifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1HMR5LF",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Master electrician license",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0PJZRFP",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Journeyman electrician license",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Z48569",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Master plumber license",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1N6KIZ7",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Journeyman plumber license",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1KP5BXI",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "HVAC or refrigeration license",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I089ZOBP",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Boiler operator license",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E5VDC1",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Stationary engineer license",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19EP0QO",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Fire sprinkler fitter license",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HFPF1B",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Fire alarm technician license",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0J0VRYT",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Backflow tester certification",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GARVTG",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Medical-gas installer certification",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0WSTHKI",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Medical-gas verifier certification",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0668CWI",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Brazing certification",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ZB0FQA",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Elevator mechanic license",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1PVCFQQ",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Crane operator certification",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07U5FJH",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Rigger and signal-person qualification",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E2XIF7",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Blaster license",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01U5DQU",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Asbestos supervisor and worker certification",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04FT0U8",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Lead supervisor and worker certification",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07KMWTA",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Mold assessor and remediator license",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QNLIE9",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Pesticide applicator license",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0N7CBM1",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Pool operator certification",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HU52N6",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Water-treatment operator license",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I184FN61",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Wastewater operator license",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EP3T2L",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Refrigerant EPA Section 608 certification",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VKIEQP",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Welder qualification",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03YTR5X",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Special inspector certification",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YGCS47",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Erosion-control or SWPPP inspector qualification",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y5OP7D",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Traffic-control supervisor or flagger certification",
+          "source_line": 595
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Federal and government project authorizations",
+      "path": [
+        "Federal and government project authorizations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04X8JT3",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Federal agency design approval",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1M0L0ZA",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "National Environmental Policy Act review",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14G3WK3",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Section 106 historic review",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ZUTOSE",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Federal wetlands authorization",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SNHIQV",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "U.S. Army Corps permit",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1B7I6LF",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Federal Aviation Administration approval",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08CS9MP",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Federal Highway Administration approval",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1H1HZ0Q",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Federal Railroad Administration approval",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OXF7MV",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Environmental Protection Agency permit coverage",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10K8ZN2",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Occupational safety notifications where required",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EAVNEL",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Davis-Bacon wage compliance registration",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0E3M8SR",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "E-Verify or federal contractor registration",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1ORVV79",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "System for Award Management registration",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1L37OW3",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Security clearance and badging",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0IWQ1UE",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Buy America or Buy American compliance",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GKDQDO",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Domestic-preference waiver",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I00ZT95Y",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Government-furnished property authorization",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XLAUM9",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Base or installation access permit",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UIX906",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Federal fire and life-safety approval",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0W9SEG9",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Agency beneficial occupancy approval",
+          "source_line": 618
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Permit revisions and changes",
+      "path": [
+        "Permit revisions and changes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1N9QE5I",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Determine whether field change requires revision",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GW8XR5",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Prepare revision narrative",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I014HX9Y",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Prepare clouded drawings and calculations",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06HGPWH",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Obtain design-professional seal",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I16BI89J",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Submit permit revision",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EU0WL8",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Pay revision fee",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TH8EKP",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Complete agency review",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EUN6F9",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Respond to comments",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1CF924Y",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Obtain approved revision",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I130N4BJ",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Update onsite approved set",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UJ9UDH",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Distribute revision to trades",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11XDX71",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Update related inspections and procurement",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0SA30CM",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Record superseded sheets",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TL4VX6",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Obtain after-the-fact approval only when legally permitted",
+          "source_line": 635
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Inspections tied to permits",
+      "path": [
+        "Inspections tied to permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Y89C5V",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Preconstruction meeting",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19HTPXZ",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Erosion-control initial inspection",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MC84EA",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Footing and foundation inspection",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0W55UUJ",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Underground utility inspection",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1W59VBA",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Reinforcement and pre-pour inspection",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DWPQZ3",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Structural framing inspection",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05ZRJZX",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Building-envelope inspection",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15GXEVT",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Rough plumbing inspection",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M24PNW",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Rough mechanical inspection",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OMFR87",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Rough electrical inspection",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OQANKD",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Above-ceiling inspection",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GOINSO",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Fire sprinkler and alarm inspection",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RXZGL2",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Energy-code inspection",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0WGMFRG",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Accessibility inspection",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0BGQ8IG",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Utility inspection",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I01XS492",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Fire Marshal inspection",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I16U5TQ9",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Trade finals",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I093GMI6",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Building final",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05NN0LX",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Health-department inspection",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03262JU",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Elevator inspection",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CEDUPL",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Special inspection final report",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XKHF06",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "TCO inspection",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0QFJXP2",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "CO inspection",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0C1CGZX",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Reinspection after correction",
+          "source_line": 662
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Temporary and final occupancy milestones",
+      "path": [
+        "Temporary and final occupancy milestones"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0G0TUQ5",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Establish occupancy plan",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CBSNSI",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Identify phased occupancy areas",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17DHSFY",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Submit TCO or phased-occupancy application",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UJM0IM",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Complete life-safety systems",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08K74AQ",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Complete accessible route",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0T84VXK",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Complete required utilities",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0NF18KK",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Complete fire-department access",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TF8NBZ",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Complete required inspections",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0USOOIE",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Submit special-inspection final report",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XMHW4W",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Submit commissioning and testing records",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04DACZU",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Submit elevator certificates",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0ZB4Q72",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Submit health-department approval",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1GOLIAR",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Submit fire-system acceptance documents",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Y1V39X",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Submit code-required closeout documents",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1GL36PP",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Complete TCO inspection",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02J1QL1",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Correct TCO deficiencies",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JYDACR",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Obtain Temporary Certificate of Occupancy",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I18VNB71",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Track TCO conditions and expiration",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0C8GXS5",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Renew TCO when permitted",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0HUAKM8",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Complete remaining work",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07S77PO",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Complete final inspections",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0F7DOYB",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Submit Certificate of Occupancy application",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I15ANMVM",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Obtain Certificate of Occupancy",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0G057TE",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Obtain Certificate of Completion when applicable",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CLDOIB",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Obtain operational licenses",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0D8HA5W",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Release building for owner use",
+          "source_line": 691
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Permit closeout and bond release",
+      "path": [
+        "Permit closeout and bond release"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QRK4H8",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Complete all required inspections",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1AZZT7I",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Resolve open violations",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1WV0RPC",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Close supplemental permits",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1L5V349",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Submit final surveys",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UXKY12",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Submit record drawings",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09V2KFS",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Submit engineer and architect certifications",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0EYWXYK",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Submit special-inspection final report",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VJJRQZ",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Submit testing and commissioning reports",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1FHJFSZ",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Submit environmental stabilization documentation",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OTDPO3",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "File Notice of Termination",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I10SZYZA",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Obtain public-works acceptance",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0I84OBE",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Obtain utility acceptance",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OUC4FU",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Obtain planning and zoning closeout",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UBYZ1E",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Obtain Fire Marshal acceptance",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1BMQR91",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Obtain building final",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EUE930",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Obtain TCO or CO",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1PSHPMY",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Close permit record",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0MUVAJA",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Request bond or deposit release",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XZMKX8",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Complete warranty or maintenance period",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1ENK4S8",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Perform final agency inspection",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SQ980H",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Receive bond release",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1NEMN2F",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Archive permit package",
+          "source_line": 716
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Typical permit schedule logic",
+      "path": [
+        "Typical permit schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1H4GPMJ",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Design criteria → permit drawings",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E9VXY2",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Permit drawings → application",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07ZZQU0",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Application → completeness review",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I043DWGU",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Completeness acceptance → technical review",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YUSZL8",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Review comments → design revisions",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CP05ZR",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Design revisions → resubmission",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0M2XF7X",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Approval → fee payment and issuance",
+          "source_line": 726
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I100GZVW",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Issuance → mobilization or permitted work",
+          "source_line": 727
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IVWZDR",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Permitted work → progressive inspections",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SN0LML",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Progressive inspections → trade finals",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1E8GFJH",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Trade finals → building and Fire Marshal finals",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XUXFRT",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Final approvals → TCO or CO",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1L5G95U",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Stabilization and record documents → permit closeout",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I056MRML",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Closeout → bond and deposit release",
+          "source_line": 733
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Common permit hold points",
+      "path": [
+        "Common permit hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YTMQ61",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "No land disturbance before environmental and grading authorization",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YD9Y3M",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "No demolition before permit and utility disconnect releases",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0GUCGQQ",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "No work in public right-of-way before approved traffic control and right-of-way permit",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1YYRD4R",
+          "sequence": 650,
+          "type": "bullet",
+          "text": "No foundation work before foundation or building permit",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1XDD1E9",
+          "sequence": 651,
+          "type": "bullet",
+          "text": "No trade work before required trade permit",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0XFM3HM",
+          "sequence": 652,
+          "type": "bullet",
+          "text": "No concealment before required inspection",
+          "source_line": 742
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I080L6AJ",
+          "sequence": 653,
+          "type": "bullet",
+          "text": "No utility connection before utility authorization",
+          "source_line": 743
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17PIG8B",
+          "sequence": 654,
+          "type": "bullet",
+          "text": "No energization before electrical and utility release",
+          "source_line": 744
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I075SNNW",
+          "sequence": 655,
+          "type": "bullet",
+          "text": "No system operation before required certificate or operational permit",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OHCY7C",
+          "sequence": 656,
+          "type": "bullet",
+          "text": "No occupancy before TCO or CO",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07S8KT2",
+          "sequence": 657,
+          "type": "bullet",
+          "text": "No final closeout before all permits and violations are closed",
+          "source_line": 747
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0LVCYFC",
+          "sequence": 658,
+          "type": "bullet",
+          "text": "Not applicable",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1N2LAAF",
+          "sequence": 659,
+          "type": "bullet",
+          "text": "Identified",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Z1OTCZ",
+          "sequence": 660,
+          "type": "bullet",
+          "text": "Requirements research",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1R0XGAO",
+          "sequence": 661,
+          "type": "bullet",
+          "text": "Pre-application",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CJDDYZ",
+          "sequence": 662,
+          "type": "bullet",
+          "text": "Package preparation",
+          "source_line": 755
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I11XS6X6",
+          "sequence": 663,
+          "type": "bullet",
+          "text": "Awaiting prerequisite",
+          "source_line": 756
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14P3BH6",
+          "sequence": 664,
+          "type": "bullet",
+          "text": "Ready to submit",
+          "source_line": 757
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EY3T8R",
+          "sequence": 665,
+          "type": "bullet",
+          "text": "Submitted",
+          "source_line": 758
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1JH1EB6",
+          "sequence": 666,
+          "type": "bullet",
+          "text": "Completeness review",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RGGO7I",
+          "sequence": 667,
+          "type": "bullet",
+          "text": "In technical review",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1VUM4OS",
+          "sequence": 668,
+          "type": "bullet",
+          "text": "Agency comments received",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0YAX4SP",
+          "sequence": 669,
+          "type": "bullet",
+          "text": "Revision in progress",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0QUXHZK",
+          "sequence": 670,
+          "type": "bullet",
+          "text": "Resubmitted",
+          "source_line": 763
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LJMETP",
+          "sequence": 671,
+          "type": "bullet",
+          "text": "Public notice",
+          "source_line": 764
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CFO8WD",
+          "sequence": 672,
+          "type": "bullet",
+          "text": "Hearing scheduled",
+          "source_line": 765
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0TIJWP1",
+          "sequence": 673,
+          "type": "bullet",
+          "text": "Conditional approval",
+          "source_line": 766
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0IRGMYD",
+          "sequence": 674,
+          "type": "bullet",
+          "text": "Pre-issuance conditions",
+          "source_line": 767
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I05SA9J1",
+          "sequence": 675,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 768
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0X8I48X",
+          "sequence": 676,
+          "type": "bullet",
+          "text": "Fees due",
+          "source_line": 769
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0C89G9B",
+          "sequence": 677,
+          "type": "bullet",
+          "text": "Issued",
+          "source_line": 770
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1A8P4F8",
+          "sequence": 678,
+          "type": "bullet",
+          "text": "Active",
+          "source_line": 771
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1S5CZMP",
+          "sequence": 679,
+          "type": "bullet",
+          "text": "Inspection required",
+          "source_line": 772
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I17F1VL7",
+          "sequence": 680,
+          "type": "bullet",
+          "text": "Correction required",
+          "source_line": 773
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06P8SRG",
+          "sequence": 681,
+          "type": "bullet",
+          "text": "Revision required",
+          "source_line": 774
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MFLNA7",
+          "sequence": 682,
+          "type": "bullet",
+          "text": "Renewal required",
+          "source_line": 775
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0UQEJ37",
+          "sequence": 683,
+          "type": "bullet",
+          "text": "Expired",
+          "source_line": 776
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04GTYXB",
+          "sequence": 684,
+          "type": "bullet",
+          "text": "Suspended",
+          "source_line": 777
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09UG2VW",
+          "sequence": 685,
+          "type": "bullet",
+          "text": "Revoked",
+          "source_line": 778
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1SIYOSG",
+          "sequence": 686,
+          "type": "bullet",
+          "text": "Final inspection",
+          "source_line": 779
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LBUSJ5",
+          "sequence": 687,
+          "type": "bullet",
+          "text": "TCO issued",
+          "source_line": 780
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0OXVD1T",
+          "sequence": 688,
+          "type": "bullet",
+          "text": "CO issued",
+          "source_line": 781
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07Q2GG9",
+          "sequence": 689,
+          "type": "bullet",
+          "text": "Closeout pending",
+          "source_line": 782
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0Z145BI",
+          "sequence": 690,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 783
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KYVR2L",
+          "sequence": 691,
+          "type": "bullet",
+          "text": "Bond release pending",
+          "source_line": 784
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0RURC3I",
+          "sequence": 692,
+          "type": "bullet",
+          "text": "Bond released",
+          "source_line": 785
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "SSX permit classifications",
+      "path": [
+        "SSX permit classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I02JN8T9",
+          "sequence": 693,
+          "type": "bullet",
+          "text": "Entitlement",
+          "source_line": 789
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1EEBOSJ",
+          "sequence": 694,
+          "type": "bullet",
+          "text": "Planning and zoning",
+          "source_line": 790
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I13961LM",
+          "sequence": 695,
+          "type": "bullet",
+          "text": "Environmental",
+          "source_line": 791
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I007JY4J",
+          "sequence": 696,
+          "type": "bullet",
+          "text": "Site and civil",
+          "source_line": 792
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I14M30LA",
+          "sequence": 697,
+          "type": "bullet",
+          "text": "Building",
+          "source_line": 793
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I09CII80",
+          "sequence": 698,
+          "type": "bullet",
+          "text": "Demolition",
+          "source_line": 794
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1CU1DNS",
+          "sequence": 699,
+          "type": "bullet",
+          "text": "Trade",
+          "source_line": 795
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I13DJIIB",
+          "sequence": 700,
+          "type": "bullet",
+          "text": "Fire and life safety",
+          "source_line": 796
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I08WUF26",
+          "sequence": 701,
+          "type": "bullet",
+          "text": "Utility",
+          "source_line": 797
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I07H8A2K",
+          "sequence": 702,
+          "type": "bullet",
+          "text": "Right-of-way",
+          "source_line": 798
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I16B6K9Q",
+          "sequence": 703,
+          "type": "bullet",
+          "text": "Temporary work",
+          "source_line": 799
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1FOMITU",
+          "sequence": 704,
+          "type": "bullet",
+          "text": "Operational",
+          "source_line": 800
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1LSHJXR",
+          "sequence": 705,
+          "type": "bullet",
+          "text": "Occupancy",
+          "source_line": 801
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1Q9NWGM",
+          "sequence": 706,
+          "type": "bullet",
+          "text": "Contractor license",
+          "source_line": 802
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I06ZXC66",
+          "sequence": 707,
+          "type": "bullet",
+          "text": "Professional license",
+          "source_line": 803
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0J2KPV7",
+          "sequence": 708,
+          "type": "bullet",
+          "text": "Individual certification",
+          "source_line": 804
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1DI4EFM",
+          "sequence": 709,
+          "type": "bullet",
+          "text": "Federal authorization",
+          "source_line": 805
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1TAOPG6",
+          "sequence": 710,
+          "type": "bullet",
+          "text": "State authorization",
+          "source_line": 806
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1J6NSNL",
+          "sequence": 711,
+          "type": "bullet",
+          "text": "County authorization",
+          "source_line": 807
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0AUKHYV",
+          "sequence": 712,
+          "type": "bullet",
+          "text": "Municipal authorization",
+          "source_line": 808
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0CLKVP6",
+          "sequence": 713,
+          "type": "bullet",
+          "text": "Renewal",
+          "source_line": 809
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1OSKBOZ",
+          "sequence": 714,
+          "type": "bullet",
+          "text": "Revision",
+          "source_line": 810
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1MZDTYI",
+          "sequence": 715,
+          "type": "bullet",
+          "text": "Closeout",
+          "source_line": 811
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-PERMITS-AND-LICENSES-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1NWCII9",
+          "sequence": 716,
+          "type": "bullet",
+          "text": "Verify requirements directly with the current governing authority.",
+          "source_line": 815
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0QAW52E",
+          "sequence": 717,
+          "type": "bullet",
+          "text": "Use realistic agency durations and required hearing dates.",
+          "source_line": 816
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I04OAQV6",
+          "sequence": 718,
+          "type": "bullet",
+          "text": "Separate application, review, comment response, resubmission and issuance.",
+          "source_line": 817
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I0KOMDV8",
+          "sequence": 719,
+          "type": "bullet",
+          "text": "Link permit dates to the first activity legally requiring authorization.",
+          "source_line": 818
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I166MRFT",
+          "sequence": 720,
+          "type": "bullet",
+          "text": "Track fees, bonds and prerequisite approvals as schedule activities when they can delay issuance.",
+          "source_line": 819
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1RDK7G9",
+          "sequence": 721,
+          "type": "bullet",
+          "text": "Track revisions and deferred submittals separately from the master permit.",
+          "source_line": 820
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IY63N8",
+          "sequence": 722,
+          "type": "bullet",
+          "text": "Flag expirations and renewals well before their deadlines.",
+          "source_line": 821
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1IMP505",
+          "sequence": 723,
+          "type": "bullet",
+          "text": "Preserve conditions of approval and link them to responsible activities.",
+          "source_line": 822
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I03PYZUC",
+          "sequence": 724,
+          "type": "bullet",
+          "text": "Do not treat submission as approval or approval as issuance.",
+          "source_line": 823
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1QQY7TT",
+          "sequence": 725,
+          "type": "bullet",
+          "text": "Do not treat permit issuance as authorization for work outside its stated scope.",
+          "source_line": 824
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I19XJ7CN",
+          "sequence": 726,
+          "type": "bullet",
+          "text": "Confirm field crews use the current stamped plans.",
+          "source_line": 825
+        },
+        {
+          "item_id": "SSX-SUP-PERMITS-AND-LICENSES-I1UH42DX",
+          "sequence": 727,
+          "type": "bullet",
+          "text": "Verify every permit is closed before final project closeout.",
+          "source_line": 826
+        }
+      ]
+    }
+  ]
+}

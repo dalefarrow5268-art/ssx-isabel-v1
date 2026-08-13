@@ -1,0 +1,5390 @@
+{
+  "department_id": "SSX-SUP-OWNER-DECISIONS",
+  "slug": "owner-decisions",
+  "title": "Owner Decisions",
+  "document_title": "SSX Master Construction Owner Decisions",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/owner-decisions/MASTER_OWNER_DECISIONS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 35,
+    "items": 713
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ETHZHV",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project, phase, building, floor, area, room and system",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0667Y7I",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Decision title, category and description",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JZKA0A",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Decision number and revision",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0G6WRMK",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Requestor and coordinator",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1YCIEUY",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Decision authority and required approvers",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1D2GDQ3",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Consulted stakeholders",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HX966X",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Required design, cost, schedule and operational information",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MFWWIS",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Options and recommended option",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MGZO2Z",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Budget, contingency and funding impact",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QI86RT",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Schedule activities and milestones affected",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10SH7O2",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Required decision date",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I160KTUQ",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Forecast decision date",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1B40XWP",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Actual decision date",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DZWX77",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Float and days overdue",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I002E77F",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Consequence if late",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02Y0WCJ",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Escalation date and level",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VRGXT5",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Decision status and disposition",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0INFRXY",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Conditions, qualifications and follow-up actions",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19D8KFF",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Linked RFI, submittal, change, allowance, procurement and drawing",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HSW7UA",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Required written authorization",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I13NDIRM",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Final decision record and attachment",
+          "source_line": 31
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Standard owner-decision workflow",
+      "path": [
+        "Standard owner-decision workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GFL1IT",
+          "sequence": 22,
+          "type": "numbered",
+          "text": "Identify decision required",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PR1AVV",
+          "sequence": 23,
+          "type": "numbered",
+          "text": "Define the exact question",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Q68D7T",
+          "sequence": 24,
+          "type": "numbered",
+          "text": "Identify decision authority",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LFNS58",
+          "sequence": 25,
+          "type": "numbered",
+          "text": "Identify consulted stakeholders",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I005EADK",
+          "sequence": 26,
+          "type": "numbered",
+          "text": "Identify affected design, procurement and construction",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0722CJ6",
+          "sequence": 27,
+          "type": "numbered",
+          "text": "Determine the first downstream need date",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DUFM3B",
+          "sequence": 28,
+          "type": "numbered",
+          "text": "Back-calculate review and decision deadline",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17BUI1W",
+          "sequence": 29,
+          "type": "numbered",
+          "text": "Gather supporting information",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01DTHRA",
+          "sequence": 30,
+          "type": "numbered",
+          "text": "Develop feasible options",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CESBZT",
+          "sequence": 31,
+          "type": "numbered",
+          "text": "Quantify cost, schedule, quality, risk and operational impacts",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NP077E",
+          "sequence": 32,
+          "type": "numbered",
+          "text": "Provide recommendation",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1EAV3E8",
+          "sequence": 33,
+          "type": "numbered",
+          "text": "Issue decision request",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06S717Y",
+          "sequence": 34,
+          "type": "numbered",
+          "text": "Conduct review meeting when required",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IB9HMN",
+          "sequence": 35,
+          "type": "numbered",
+          "text": "Answer questions and provide supplemental information",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I087A874",
+          "sequence": 36,
+          "type": "numbered",
+          "text": "Obtain formal decision",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0UT984G",
+          "sequence": 37,
+          "type": "numbered",
+          "text": "Record conditions and qualifications",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BCU55H",
+          "sequence": 38,
+          "type": "numbered",
+          "text": "Obtain change authorization when required",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KR4BPP",
+          "sequence": 39,
+          "type": "numbered",
+          "text": "Update drawings, specifications and models",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I083TWTK",
+          "sequence": 40,
+          "type": "numbered",
+          "text": "Update submittals and procurement",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GTP94A",
+          "sequence": 41,
+          "type": "numbered",
+          "text": "Update budget and schedule",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HR280T",
+          "sequence": 42,
+          "type": "numbered",
+          "text": "Notify affected parties",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0PU6Y27",
+          "sequence": 43,
+          "type": "numbered",
+          "text": "Verify implementation",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LYAAR7",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Close decision item",
+          "source_line": 57
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Decision classifications",
+      "path": [
+        "Decision classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VHWQ43",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Program",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I140RV4Z",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Scope",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1S49IXZ",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Design",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0C5AT7K",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Budget",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0X3Q6BE",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Funding",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GYBZPG",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Schedule",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WY6KKD",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Procurement",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OY5HBX",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Allowance",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1706GBP",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Alternate",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0LCALWO",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Substitution",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1402C1H",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Value engineering",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1F9MOQ0",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Finish selection",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0C2GB31",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Equipment selection",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0D7SK8U",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Owner-furnished item",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZK3HC7",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Technology",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02TKUUR",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Security",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MJ90DJ",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Operations",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AM25ZS",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Sustainability",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BC2R42",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Permit and occupancy",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1E36N00",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Commissioning",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1U5QUHB",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Training",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1G8NJK0",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Move-in",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WNXF74",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Turnover",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I038FMZP",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Warranty",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DOQZTK",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Change authorization",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1M30AT5",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Risk acceptance",
+          "source_line": 86
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Owner decision planning",
+      "path": [
+        "Owner decision planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I175FX6R",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Establish owner governance structure",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05O0IFC",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Identify authorized decision makers",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0A4OOIU",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Identify signature and spending authority",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1XKU7ZS",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Identify user groups and consultants",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0LWJAHG",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Establish decision-request format",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VPK8NJ",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Establish decision log",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JB5P9V",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Establish standard response duration",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SVFY5Q",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Establish escalation thresholds",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TY4THV",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Establish meeting cadence",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0L1UAOV",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Establish allowance and contingency approval rules",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0CFJD5H",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Establish electronic approval method",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZF53RQ",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Establish written-directive requirements",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06QTZSJ",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Establish emergency decision procedure",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HOLT6U",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Integrate decisions into design and construction schedules",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I171P477",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Review critical decisions weekly",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1P5OLXW",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Forecast upcoming decisions",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0C0120K",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Escalate overdue decisions before float is consumed",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BQNIYI",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Archive superseded and final decisions",
+          "source_line": 107
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Project definition and program decisions",
+      "path": [
+        "Project definition and program decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MIJFXG",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Project mission and objectives",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I08P0XRF",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Business case approval",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1EE0LUM",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Project delivery method",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18ARF0P",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Contracting strategy",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BW889V",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Site selection",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WP6CF2",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Building program",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0N9YG3L",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Occupancy type",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CR1EBO",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Space program",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QMMAKV",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Gross and net area targets",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17EZYGD",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Unit, room, bed, key, seat or workstation count",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JRHB2K",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Program adjacency",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1A3XIWG",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Public and private area allocation",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VZIKTK",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Future expansion",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18LHC9Y",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Shell space",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1W9BBYR",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Phasing strategy",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VIV9S7",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Renovation versus replacement",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WJ9694",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Demolition scope",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0CJTDZ5",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Historic preservation approach",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IUT0KJ",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Owner standards",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TN0AFX",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Brand standards",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1L9AKNE",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Accessibility goals",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HRNKCB",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Resilience goals",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I045G1AR",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Sustainability goals",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02Z6PJQ",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Certification targets",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1W4TD1T",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Operational hours",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DW6YMU",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Security level",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LXROH8",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Technology vision",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1Q90QHD",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Budget and schedule targets",
+          "source_line": 138
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Site and civil decisions",
+      "path": [
+        "Site and civil decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1ASXG4E",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Site plan",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1R8LFJ0",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Building location and orientation",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LZHDHB",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Site access",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0EYURWQ",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Primary and secondary entrances",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BGPN4O",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Service and loading access",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XUVET1",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Emergency access",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BP6U0U",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Parking quantity and layout",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I078BY90",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Structured versus surface parking",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0G3SREM",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Accessible parking",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I054TGZW",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Drop-off and passenger loading",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0NJR50I",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Traffic circulation",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1FKDDLQ",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Pedestrian and bicycle circulation",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0I6AA8A",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Utility service points",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KETHPD",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Stormwater strategy",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1P410HR",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Flood protection",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0U14HIR",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Finished floor elevation",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GZUZAU",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Retaining walls",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Y2GT6J",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Site grading",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01CR8P5",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Landscape concept",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I168C8LI",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Plant palette",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DPMA60",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Irrigation",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1E8M8VT",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Site furnishings",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LDCJZR",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Playground and athletic amenities",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1G02PB1",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Site lighting",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TXR4RV",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Signage and wayfinding",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CAFI83",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Fencing and gates",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1YXANZI",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Security barriers",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BYU4TK",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Public art",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10UTWKQ",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Snow storage",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZT1QA3",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Future expansion area",
+          "source_line": 171
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Architectural design decisions",
+      "path": [
+        "Architectural design decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1H1YLIC",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Building massing",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1EV66DS",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Exterior appearance",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1K1H5A4",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Facade materials",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10Z4LCT",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Window and glazing appearance",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QZJLU8",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Entrance design",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MLY93P",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Canopies and sunshades",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10Y2EI8",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Roofing type and color",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1SCD2BT",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Parapets and roof screening",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03AS0VV",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Floor-to-floor heights",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01N62R6",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Lobby design",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I142WA3G",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Public-space design",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CTXKZQ",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Circulation and wayfinding",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1U3VPCN",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Stair configuration",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I021HA11",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Elevator quantity and location",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OW5G5Z",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Restroom quantity and layout",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QR8JH9",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Door types",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0T8SUJ9",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Hardware functions",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JHD9XO",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Ceiling concepts",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Y0F2J8",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Interior partition systems",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SHTHMX",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Acoustic requirements",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0L76M0B",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Accessibility features",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I049PTLS",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Specialty rooms",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0TIGT06",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Amenity spaces",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I045B71X",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Back-of-house layouts",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1P1T9LH",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Service areas",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OUPL7V",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Waste and recycling areas",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VAE533",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Maintenance access",
+          "source_line": 201
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Exterior envelope decisions",
+      "path": [
+        "Exterior envelope decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RXV39N",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Curtain-wall system",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00W2J8O",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Window system",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0TULDVH",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Glass color and performance",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1UNNZ7I",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Vision-to-spandrel ratio",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0K7REMS",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Operable versus fixed windows",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0F8CTPP",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Exterior cladding",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1N61WHS",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Masonry and stone selection",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1FZWGPY",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Metal-panel profile and color",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I183CE3Y",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Precast finish",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0S0K4RO",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Sealant color",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FB5L1S",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Air-barrier strategy",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02TE2CQ",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Insulation strategy",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0B3M09U",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Waterproofing systems",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZU5188",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Roofing system",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QKM3WS",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Roof pavers and amenity surfaces",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0M4NTLO",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Exterior doors",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1YBFF6G",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Storefront system",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0AFQ3FJ",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Louvers",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OHHHR9",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Skylights",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0TP1ROR",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Canopies",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0V48AMP",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Building-maintenance and fall-protection systems",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1N02X4P",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Envelope mockup approval",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1KKLPIT",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Performance-test acceptance",
+          "source_line": 227
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Interior finish selections",
+      "path": [
+        "Interior finish selections"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Z91GN2",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Overall interior design direction",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0AZB734",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Finish palette",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RXWSX5",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Paint colors and sheens",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1KO7EMM",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Wall coverings",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XNMFGV",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Wall protection",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I107VO29",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Tile type, color, size and pattern",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03LJ16G",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Grout color",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I08KDK8D",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Stone",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I098NEWF",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Terrazzo",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03A0DKF",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Resilient flooring",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DI8S9F",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Carpet",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1XS1HVX",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Wood flooring",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LIM2J6",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Athletic flooring",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GFGHVH",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Base",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Y79QMP",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Ceiling types and colors",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CMMV7Q",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Acoustic panels",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GMRTH5",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Decorative panels",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TE9DAI",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Millwork veneer and stain",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CTKF0B",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Laminate",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VEGJG4",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Countertops",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I15U1A7C",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Cabinet hardware",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00AAHR5",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Door veneer and finish",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1P22FAM",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Metal finishes",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0N8JHHG",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Glass",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JL572C",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Plumbing fixture finish",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0YPZ25L",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Accessory finish",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OPQY1C",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Lighting fixture finish",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VQDKXL",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Window treatments",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QDXJ56",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Signage appearance",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0WRJJJC",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Artwork",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09LG6FU",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Furniture",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0O7S5GQ",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Sample-board approval",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06FF0R9",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Full-room mockup approval",
+          "source_line": 263
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Structural and building-system decisions",
+      "path": [
+        "Structural and building-system decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0OVV2U3",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Structural system",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0X6NNPS",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Foundation type",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I11BN8HE",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Floor system",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LT30ED",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Column grid",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VM4D2A",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Long-span requirements",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I075TNC2",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Vibration criteria",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05GBWRJ",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Live-load criteria",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17J0RZN",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Future equipment loads",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1B6SADK",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Roof equipment zones",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RBAC1B",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Expansion joints",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1G6LCLQ",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Seismic performance goals",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I08PTH2S",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Wind and storm resilience",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05T1R80",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Tornado or safe-room requirements",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IWXYH0",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Progressive-collapse requirements",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LZ6YZ6",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Blast or security hardening",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PCKYGN",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Exposed structural elements",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CLNA39",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Mass timber versus conventional structure",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0RD9TC4",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Prefabrication approach",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I14P10O6",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Modular construction",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00EUAST",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Equipment anchorage standards",
+          "source_line": 286
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Plumbing decisions",
+      "path": [
+        "Plumbing decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VHF755",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Plumbing fixture types",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I12642NZ",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Fixture quantities",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1J8UMD1",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Fixture finishes",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0AEZ8D8",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Low-flow goals",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0AOXDVX",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Touchless fixtures",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I194HU0H",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Domestic hot-water strategy",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19MQ2UA",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Central versus local water heating",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1N4TYVY",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Water-treatment strategy",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I08E08IM",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Legionella-control strategy",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XYVCXF",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Water-pressure zones",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0O6B4M1",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Booster-pump strategy",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VW4KQ9",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Rainwater harvesting",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IMIH2X",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Graywater reuse",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18GTC0J",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Irrigation water source",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DWCN5X",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Drinking-water treatment",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RFXR42",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Bottle fillers",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FR194X",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Commercial kitchen plumbing",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I001DD0G",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Laundry systems",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1S6T6PU",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Medical-gas systems",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RQK7JE",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Pool and spa systems",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BSNJLV",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Owner metering and submetering",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I183TYHG",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Maintenance and redundancy requirements",
+          "source_line": 311
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "HVAC and controls decisions",
+      "path": [
+        "HVAC and controls decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0LG59QZ",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "HVAC system type",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IZMAOR",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Central plant versus distributed systems",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I14T2DXB",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Heating and cooling source",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DPBME5",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Chiller selection",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OQ0AVX",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Boiler selection",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0N8A5MM",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Heat-pump strategy",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0V9Z3YX",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "VRF strategy",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SO5RMJ",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Dedicated outdoor-air system",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I039SAC3",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Energy-recovery strategy",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VWGIMX",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Ventilation and filtration levels",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0474PHO",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Humidity criteria",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0YD5BKS",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Indoor-air-quality goals",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1SCTJ3E",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Acoustic criteria",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0S04CF3",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Redundancy level",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I192LZSL",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Equipment location",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QY4P3J",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Controls platform",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FCPP3E",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "BAS integration",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JKTGEJ",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Owner controls standards",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I147YY1Q",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "User adjustability",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Y12N8X",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Metering and trending",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1ROACEI",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Demand-response participation",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00XP893",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "After-hours operation",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KRZ5WC",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Smoke-control strategy",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BHDYFU",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Kitchen and laboratory exhaust",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I04OF1F6",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Equipment-maintenance access",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VNEAG1",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Temporary conditioning strategy",
+          "source_line": 340
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Electrical and lighting decisions",
+      "path": [
+        "Electrical and lighting decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0EFU4TI",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Electrical service size",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JE672P",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Service voltage",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1EERF0Q",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Utility configuration",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XI1S41",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Redundancy and dual-feed requirements",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I086U6OX",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Emergency-power scope",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0UIUU46",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Generator capacity and fuel",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QL770A",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "UPS scope",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1E3SGH6",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Battery-storage system",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QXOZ2C",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Renewable-energy goals",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BI0GJ3",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Photovoltaic system",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0AONXS6",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "EV charging",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ESXWUQ",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Lighting design",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KJO1MG",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Lighting fixture selections",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VUJGVT",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Lighting color temperature",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0M9BNH5",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Lighting-control strategy",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0B2AYN8",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Daylight controls",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1J45APE",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Decorative lighting",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09523JX",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Site lighting",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I024CNO7",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Metering and submetering",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GINQCZ",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Power-quality requirements",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HPUPB9",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Spare capacity",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1D8S0PM",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Future expansion",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DCZFRH",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Owner electrical standards",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I08P9WUI",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Maintenance and testing requirements",
+          "source_line": 367
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Fire and life-safety decisions",
+      "path": [
+        "Fire and life-safety decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0WMOYXJ",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Fire-protection system strategy",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19FLATZ",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Fire-pump redundancy",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18ASOSU",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Water-storage requirements",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I11IZRRX",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Clean-agent protected spaces",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17WLGS3",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Preaction protected spaces",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I131EK7E",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Fire-alarm platform",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JD79XA",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Voice evacuation",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JZ5ATU",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Mass notification",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IQUAP9",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Smoke-control strategy",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1XZF8B6",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Fire-command-center features",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I13NEJCQ",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Emergency responder radio system",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10AUZL5",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Stair and elevator emergency operation",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IBJBUO",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Door-release and egress functions",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I07881IL",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Phased occupancy life-safety strategy",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I07P6LTT",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Operational fire-permit responsibilities",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1Q6TJID",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Owner monitoring provider",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NZR7LJ",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Fire and life-safety training requirements",
+          "source_line": 387
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Technology and communications decisions",
+      "path": [
+        "Technology and communications decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0G5LNX3",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Owner IT standards",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10AL57K",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Network architecture",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RYV6GN",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Telecom service providers",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VYQH5J",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Telecom room standards",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MMCMQP",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Wi-Fi coverage",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0WJJSES",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Cellular and DAS coverage",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I152JQGK",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Public-safety radio coverage",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0NMSF9J",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Data-center or server-room scope",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18JFTCP",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Telephone and unified communications",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I13UY26J",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Audiovisual standards",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IOVXB3",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Displays and digital signage",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1600KTI",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Conferencing systems",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1V4839N",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Paging and intercom",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05IJHML",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Master clock",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I058B8DI",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Nurse call",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0R3C1NC",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Building applications",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10Q2YP7",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Digital twin",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QI760K",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Smart-building platform",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0A2VHX7",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Systems integration",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GLZXW8",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Cybersecurity requirements",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1EXNEUF",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Data ownership and retention",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IG4TWG",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Software licensing",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I180RO1U",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Owner support model",
+          "source_line": 413
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Security decisions",
+      "path": [
+        "Security decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QPG8F2",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Security risk level",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HF9X09",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Security operations concept",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1KJVVYC",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Access-control platform",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1P7NQG6",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Credential type",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MTS036",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Door access levels",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0088LCT",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Keying hierarchy",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GWOL4I",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Visitor management",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0UGXQFJ",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Video-surveillance platform",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MQ6ALH",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Camera coverage and retention",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TFWKJ3",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Intrusion detection",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I15OGDUD",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Duress systems",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JETL6O",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Intercom",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SEYVJM",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Turnstiles",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OOM9QL",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Vehicle gates",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01J7QF2",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Crash barriers",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06PMQ79",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Security command center",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1UVOYK5",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Remote monitoring",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I16FZZ9B",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Emergency lockdown",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SIVJ3H",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Elevator security",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QNO2X1",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Parking security",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SM722J",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Cybersecurity and network separation",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JV3JC8",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Privacy and data-retention rules",
+          "source_line": 438
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Vertical transportation decisions",
+      "path": [
+        "Vertical transportation decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1D5GWWW",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Elevator quantity",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05LL051",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Elevator type",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0PB84RR",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Capacity and speed",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TIJ0EU",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Service elevator",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0G556TA",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Freight elevator",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00JDECB",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Destination dispatch",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1F2BPOV",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Elevator controls",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I15ANZMQ",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Cab size and finishes",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1KJEDRQ",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Entrance finishes",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1FMDNO1",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Security integration",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0I816TS",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Emergency-power coverage",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SFGPFA",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Fire-service operation",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03FOV2Y",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Maintenance contract",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I14WKUNK",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Escalators",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I171HHKH",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Moving walks",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0I2UYC4",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Platform lifts",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0Q8E8SA",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Material lifts",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09IEHNO",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Future elevator provisions",
+          "source_line": 459
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Equipment, specialties and FF&E decisions",
+      "path": [
+        "Equipment, specialties and FF&E decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03LOY9P",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Commercial kitchen equipment",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00A26HY",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Refrigeration equipment",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JP0EJ0",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Laundry equipment",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09N3PH8",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Trash and linen chutes",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HOC4ZF",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Waste equipment",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IU5R7V",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Loading-dock equipment",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17WB4D6",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Laboratory equipment",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I04212WQ",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Medical equipment",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1F35EJ3",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Imaging equipment",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09HATLV",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Sterilizers",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0R0ORRL",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Fitness equipment",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MN0RU3",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Athletic equipment",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1T7W1LN",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Theater and stage equipment",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1UC8ZQW",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Library and storage systems",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FN8B2I",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Operable partitions",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0K24PW6",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Toilet partitions and accessories",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01XNLX8",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Lockers",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0NQAICT",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Signage",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1R52P97",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Furniture",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NZ5YHF",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Appliances",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BBR9MU",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Artwork and accessories",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1FX8DLR",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Owner-furnished versus contractor-furnished responsibility",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IX34L9",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Installation and utility-connection responsibility",
+          "source_line": 485
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Procurement and commercial decisions",
+      "path": [
+        "Procurement and commercial decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19P0NVD",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Bid-package strategy",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AO1O68",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Early-release authorization",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WP7TC2",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Supplier and manufacturer selection",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GGYHKM",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Sole-source approval",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0M6EES8",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Long-lead release",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I13HZR5V",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Letter of intent",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XXO1OX",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Purchase-order authorization",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17ZTT1O",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Imported product acceptance",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1L5EBWQ",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Substitution approval",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1H9NKO4",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Value-engineering acceptance",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09CVVF7",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Alternate acceptance",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HWBLN6",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Allowance selection",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0YDZXAX",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Unit-price authorization",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HHJCLG",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Premium freight",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0563S7N",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Expediting",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0N486ME",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Acceleration",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0B1TJSQ",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Material storage",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1FYH4SP",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Phased delivery",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01BHGNL",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Temporary equipment",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XXG2AX",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Rental versus purchase",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0RU95LT",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Extended warranty",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JMW4PD",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Service agreement",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MUT99J",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Spare-parts quantity",
+          "source_line": 511
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Budget, funding and change decisions",
+      "path": [
+        "Budget, funding and change decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DL5U1U",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Initial project budget",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0F3QXOX",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Design contingency",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HXAVLE",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Construction contingency",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19XOSCW",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Owner contingency",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FK2IGF",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Escalation allowance",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1U291RS",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Allowance values",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I14BG6KR",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Alternates",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I15T38RX",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Funding releases",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VV9C38",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Loan draw",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1722HGR",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Grant or tax-credit compliance",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09OT2KD",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Value-engineering targets",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AR48I6",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Scope reductions",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0NHGEA9",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Scope additions",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AM6359",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Change proposal approval",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0OY8D60",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Change-order authorization",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02GB46I",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Construction change directive",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NIBF3V",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Use of contingency",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BKE0IL",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Cost overrun response",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AOW0DM",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Schedule acceleration funding",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I07QYJ4W",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Claims settlement",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1N4NU9I",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Final account settlement",
+          "source_line": 535
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Schedule and phasing decisions",
+      "path": [
+        "Schedule and phasing decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RAYHL0",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Notice to proceed",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05835Z8",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Site possession date",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1YLA0GA",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Required completion date",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HNI5OU",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Interim milestones",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17LMJ8L",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Phased turnover",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I075FKAD",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Early occupancy",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02C59YL",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Temporary Certificate of Occupancy",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IR2VQV",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Owner move-in",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I07E2PAZ",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Work hours",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19J1LEY",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Weekend and night work",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I04APUEI",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Shutdown windows",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FVHDGI",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Utility tie-in windows",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0PDTB7T",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Occupied-area access",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IXD8X5",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Seasonal constraints",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1R8ZHBS",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Holiday shutdowns",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DKP955",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Acceleration",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RE5HCD",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Recovery plan",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0LSVDWA",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Beneficial use",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I053JUU7",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Substantial completion",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1ID5R1V",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Final completion",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0JHRY69",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Warranty start by phase",
+          "source_line": 559
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Permit, utility and jurisdiction decisions",
+      "path": [
+        "Permit, utility and jurisdiction decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1A3C38G",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Entitlement strategy",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1UU5LOJ",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Permit phasing",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0I62XZV",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Early foundation permit",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1V9ZAGN",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Deferred submittals",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1XO6T30",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Alternate code method",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ENDYNM",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Variance request",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0YKO7DL",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Utility service capacity",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0EC0VWX",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Utility provider",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18IL09Z",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Utility easements",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01RFDTW",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Transformer or service option",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0TXATCZ",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Renewable interconnection",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QGBAXU",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Right-of-way scope",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QBOIDV",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Environmental mitigation",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1YKVRVN",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Flood protection",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SJD2CY",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Historic-preservation approach",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DVUAXJ",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "TCO strategy",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1W5IS2Z",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "CO strategy",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ICQBHT",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Operating-license holder",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1EHQH1W",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Permit and fee responsibility",
+          "source_line": 581
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Sustainability and resilience decisions",
+      "path": [
+        "Sustainability and resilience decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CLCU4B",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Certification system and target",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1UF6PDF",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Energy-use target",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LQU046",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Carbon target",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FI8L15",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Electrification",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IWJLB3",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Renewable energy",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1RIM6C0",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Battery storage",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10HYRKQ",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Water-use target",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1F8JFUE",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Rainwater and graywater reuse",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MXG9O8",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Low-emitting materials",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1KVIUEY",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Responsible sourcing",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0M5Y4B7",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Waste-diversion target",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1B5U0FB",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Indoor-air-quality target",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BKVEDU",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Resilience standard",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BJBYYD",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Flood resilience",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MN6YEX",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Wind and hurricane resilience",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VQ0QIQ",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Tornado resilience",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05AEN54",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Seismic resilience",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KG64KU",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Backup-power duration",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I04U8IG1",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Climate-risk assumptions",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0J8QVS1",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Monitoring and reporting",
+          "source_line": 604
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Mockup and sample decisions",
+      "path": [
+        "Mockup and sample decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I13CGYRY",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Mockup scope",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PIWN9L",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Mockup location",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NQDQHX",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Sample panel",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1BM4U9P",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Color range",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I183AXE8",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Finish selection",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WVNEUL",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Workmanship acceptance",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JBLBLZ",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Full-room mockup",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1I4XBAO",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Guest-room mockup",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0W6J61H",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Apartment-unit mockup",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZGL12P",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Patient-room mockup",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XHKQQR",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Laboratory mockup",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KO11K7",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Building-envelope mockup",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GFRVMF",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Performance-test acceptance",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06CIN0V",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Repair acceptance",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10V4P7J",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Benchmark approval",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00TLN87",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Production release",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NZT8SY",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Mockup removal",
+          "source_line": 624
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Construction operations decisions",
+      "path": [
+        "Construction operations decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00RPXLC",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Site logistics",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0LJQ1QX",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Construction access",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZMFVAM",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Delivery routes",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1138F6D",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Crane locations",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PW62UN",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Hoist locations",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0LQSE9O",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Laydown areas",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SI4Y3U",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Temporary offices",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0PNYIJN",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Temporary utilities",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HJB7ME",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Security requirements",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0CL171J",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Public and neighbor communications",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1FUOOB6",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Owner representative onsite",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0TD0U9C",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Shutdown procedures",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0V2O1KV",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Occupied-building protections",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1P9ETON",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Infection-control requirements",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1W9ST7G",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Owner inspections",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I167FAQT",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Photography and camera permissions",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1W7YALE",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Drone permissions",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1U9DX7C",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Salvage and reuse",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I02TZHLO",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Work-area release",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TN8M9C",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Owner-furnished material storage",
+          "source_line": 647
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Commissioning and training decisions",
+      "path": [
+        "Commissioning and training decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I117KLLW",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Commissioning scope",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1Y5CP83",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Commissioned systems",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0U5XNDN",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Sampling rates",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0CC6DQ9",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Owner witness requirements",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0A30CKQ",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Functional-test acceptance",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QWX70S",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Integrated-test scenarios",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I131PBGJ",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Failure-mode testing",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VGFUWL",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Seasonal testing",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I104SSWI",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Deferred testing",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XG0Z1W",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Owner training audience",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03E6OMU",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Training dates",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0U8QKZE",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Training format",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I01Z64YT",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Training recordings",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0R3JWCS",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Competency requirements",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MR3I1O",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Systems manual format",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IUR7E6",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "BAS trending requirements",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0RZD9DA",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Warranty commissioning",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1T7UVAU",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Monitoring-based commissioning",
+          "source_line": 668
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Turnover and occupancy decisions",
+      "path": [
+        "Turnover and occupancy decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0KAHLXE",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Turnover zones",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I13T83PP",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Area acceptance criteria",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1UJDLOP",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Punch participation",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1ART8QY",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Owner inspection authority",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PRQ7UW",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Substantial-completion acceptance",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZFEN6B",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Open-item acceptance",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I086FP99",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Beneficial-use acceptance",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05QYVV1",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "TCO acceptance",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10KHXJC",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Move-in sequence",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0E1T35A",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Furniture installation",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0P7EZD1",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Owner equipment installation",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I18SQRIN",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "IT activation",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0B4J4P6",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Security activation",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DILHJ2",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Key and credential transfer",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06YD2NX",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Utility-account transfer",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I03WAYVE",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Cleaning acceptance",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JEUSV5",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Asset-data requirements",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1T0FW1Z",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "O&M format",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BPLYVL",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Spare-parts storage",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MIPNPL",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Warranty contact process",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1JUIOAL",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Final completion acceptance",
+          "source_line": 692
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Risk acceptance decisions",
+      "path": [
+        "Risk acceptance decisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IM4T3Y",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Accept design risk",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0W84OWX",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Accept code interpretation risk",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I15VEMJG",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Accept procurement risk",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FCYJ3B",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Accept manufacturer risk",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I10N07ZF",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Accept schedule risk",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ORLB9U",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Accept weather risk",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MMP871",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Accept temporary condition",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1V7Q1VS",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Accept phased occupancy risk",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0QV7ASO",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Accept incomplete noncritical work",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VCJGW2",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Accept alternate material",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PVFRW0",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Accept reduced redundancy",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FDPCEP",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Accept operational limitation",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I163YDEF",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Accept warranty limitation",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19YL8CC",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Accept insurance requirement",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1F6JGK9",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Accept cost exposure",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0VLJBG9",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Accept delay exposure",
+          "source_line": 711
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Decision package requirements",
+      "path": [
+        "Decision package requirements"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1S1VUFS",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Clear decision statement",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I14AWISG",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Background",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1PY6A56",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Options",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0PYHJMN",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Recommendation",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1DPFYHV",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Required decision date",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0GM6GT9",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Basis for need date",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1277MTT",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Cost impact",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CL86AP",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Schedule impact",
+          "source_line": 726
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DVNXSG",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Quality and performance impact",
+          "source_line": 727
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0F8Y7T6",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Operational impact",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CH91X2",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Safety and code impact",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I178LVLD",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Sustainability impact",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1THUPGS",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Risks and opportunities",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0E0S6Y8",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Required follow-up",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I003U6YE",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Attachments and drawings",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0BKZ29H",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Approval signature or electronic record",
+          "source_line": 734
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Decision need-by calculation",
+      "path": [
+        "Decision need-by calculation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0E451V3",
+          "sequence": 637,
+          "type": "numbered",
+          "text": "Installation or occupancy date",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0MBXK4T",
+          "sequence": 638,
+          "type": "numbered",
+          "text": "Delivery and site-logistics duration",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1XVHHO7",
+          "sequence": 639,
+          "type": "numbered",
+          "text": "Shipping duration",
+          "source_line": 742
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0SBC8F9",
+          "sequence": 640,
+          "type": "numbered",
+          "text": "Fabrication duration",
+          "source_line": 743
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0U47BPI",
+          "sequence": 641,
+          "type": "numbered",
+          "text": "Vendor engineering duration",
+          "source_line": 744
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0IGTATB",
+          "sequence": 642,
+          "type": "numbered",
+          "text": "Approved-submittal requirement",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0B4E6UP",
+          "sequence": 643,
+          "type": "numbered",
+          "text": "Design-team review duration",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0H1W270",
+          "sequence": 644,
+          "type": "numbered",
+          "text": "Contractor review duration",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I028CIL3",
+          "sequence": 645,
+          "type": "numbered",
+          "text": "Sample or mockup duration",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1IZB49N",
+          "sequence": 646,
+          "type": "numbered",
+          "text": "Owner evaluation and decision duration",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1R3NQAC",
+          "sequence": 647,
+          "type": "numbered",
+          "text": "Contingency for revision or rejection",
+          "source_line": 750
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Escalation workflow",
+      "path": [
+        "Escalation workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1F2EEQS",
+          "sequence": 648,
+          "type": "numbered",
+          "text": "Issue upcoming-decision notice",
+          "source_line": 756
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I06NBVMG",
+          "sequence": 649,
+          "type": "numbered",
+          "text": "Confirm required information is complete",
+          "source_line": 757
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0TWPV3Q",
+          "sequence": 650,
+          "type": "numbered",
+          "text": "Issue decision request",
+          "source_line": 758
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OGFHQV",
+          "sequence": 651,
+          "type": "numbered",
+          "text": "Send reminder before need date",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NC2AB9",
+          "sequence": 652,
+          "type": "numbered",
+          "text": "Mark at risk",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0AICJY3",
+          "sequence": 653,
+          "type": "numbered",
+          "text": "Quantify current schedule impact",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0NTMYAE",
+          "sequence": 654,
+          "type": "numbered",
+          "text": "Escalate to authorized owner representative",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1QNLTSA",
+          "sequence": 655,
+          "type": "numbered",
+          "text": "Escalate to executive decision authority",
+          "source_line": 763
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0PFA2JY",
+          "sequence": 656,
+          "type": "numbered",
+          "text": "Document direction or lack of direction",
+          "source_line": 764
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XHNZ8D",
+          "sequence": 657,
+          "type": "numbered",
+          "text": "Implement authorized mitigation",
+          "source_line": 765
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I19EGSO8",
+          "sequence": 658,
+          "type": "numbered",
+          "text": "Preserve notice and cost records",
+          "source_line": 766
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0YWJ3HT",
+          "sequence": 659,
+          "type": "numbered",
+          "text": "Update schedule and decision log",
+          "source_line": 767
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HRWDPT",
+          "sequence": 660,
+          "type": "bullet",
+          "text": "Program decision → design",
+          "source_line": 771
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DTTN2I",
+          "sequence": 661,
+          "type": "bullet",
+          "text": "Design decision → permit documents",
+          "source_line": 772
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NFMKK5",
+          "sequence": 662,
+          "type": "bullet",
+          "text": "Finish selection → submittal and mockup",
+          "source_line": 773
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I08YIEDR",
+          "sequence": 663,
+          "type": "bullet",
+          "text": "Mockup approval → production release",
+          "source_line": 774
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0EFWS2U",
+          "sequence": 664,
+          "type": "bullet",
+          "text": "Equipment selection → utility coordination",
+          "source_line": 775
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I15YF2D8",
+          "sequence": 665,
+          "type": "bullet",
+          "text": "Owner-furnished equipment decision → rough-in",
+          "source_line": 776
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I16XUFYQ",
+          "sequence": 666,
+          "type": "bullet",
+          "text": "Substitution decision → procurement",
+          "source_line": 777
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0FAHVZ7",
+          "sequence": 667,
+          "type": "bullet",
+          "text": "Change authorization → changed work",
+          "source_line": 778
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I16YWC54",
+          "sequence": 668,
+          "type": "bullet",
+          "text": "TCO decision → phased occupancy plan",
+          "source_line": 779
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I00N5O1Q",
+          "sequence": 669,
+          "type": "bullet",
+          "text": "Training decision → turnover",
+          "source_line": 780
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GP6TZ3",
+          "sequence": 670,
+          "type": "bullet",
+          "text": "Acceptance decision → substantial or final completion",
+          "source_line": 781
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Common hold points",
+      "path": [
+        "Common hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0D1IHMD",
+          "sequence": 671,
+          "type": "bullet",
+          "text": "No design freeze before program and system decisions",
+          "source_line": 785
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0W4JMR2",
+          "sequence": 672,
+          "type": "bullet",
+          "text": "No permit submission before required owner approvals",
+          "source_line": 786
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I09Z3QZT",
+          "sequence": 673,
+          "type": "bullet",
+          "text": "No custom material release before finish selection",
+          "source_line": 787
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I04H9LL2",
+          "sequence": 674,
+          "type": "bullet",
+          "text": "No fabrication before approved configuration",
+          "source_line": 788
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AS4L90",
+          "sequence": 675,
+          "type": "bullet",
+          "text": "No change work without proper authorization",
+          "source_line": 789
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0DRWOGQ",
+          "sequence": 676,
+          "type": "bullet",
+          "text": "No owner-furnished rough-in before final equipment data",
+          "source_line": 790
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I002IGR0",
+          "sequence": 677,
+          "type": "bullet",
+          "text": "No mockup production release before written acceptance",
+          "source_line": 791
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VGRVEI",
+          "sequence": 678,
+          "type": "bullet",
+          "text": "No occupancy before authorized TCO or CO",
+          "source_line": 792
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZNZ5VG",
+          "sequence": 679,
+          "type": "bullet",
+          "text": "No risk transfer without explicit written acceptance",
+          "source_line": 793
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1GLF1VM",
+          "sequence": 680,
+          "type": "bullet",
+          "text": "No final turnover before owner acceptance requirements are met",
+          "source_line": 794
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0C2HKPB",
+          "sequence": 681,
+          "type": "bullet",
+          "text": "Identified",
+          "source_line": 798
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0RVN8AD",
+          "sequence": 682,
+          "type": "bullet",
+          "text": "Information gathering",
+          "source_line": 799
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NYPCZN",
+          "sequence": 683,
+          "type": "bullet",
+          "text": "Options developing",
+          "source_line": 800
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1MGDUL9",
+          "sequence": 684,
+          "type": "bullet",
+          "text": "Ready for owner",
+          "source_line": 801
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I05XCHW3",
+          "sequence": 685,
+          "type": "bullet",
+          "text": "Submitted",
+          "source_line": 802
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1478M0O",
+          "sequence": 686,
+          "type": "bullet",
+          "text": "Under review",
+          "source_line": 803
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1LL5M5Q",
+          "sequence": 687,
+          "type": "bullet",
+          "text": "Questions received",
+          "source_line": 804
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0EKDEF6",
+          "sequence": 688,
+          "type": "bullet",
+          "text": "Additional information required",
+          "source_line": 805
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HMU0A8",
+          "sequence": 689,
+          "type": "bullet",
+          "text": "Meeting scheduled",
+          "source_line": 806
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1TFHOF6",
+          "sequence": 690,
+          "type": "bullet",
+          "text": "At risk",
+          "source_line": 807
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0HQW87C",
+          "sequence": 691,
+          "type": "bullet",
+          "text": "Due",
+          "source_line": 808
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1YFFR1E",
+          "sequence": 692,
+          "type": "bullet",
+          "text": "Overdue",
+          "source_line": 809
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1AOOPMQ",
+          "sequence": 693,
+          "type": "bullet",
+          "text": "Escalated",
+          "source_line": 810
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I12ROB7T",
+          "sequence": 694,
+          "type": "bullet",
+          "text": "Deferred",
+          "source_line": 811
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1N72S6D",
+          "sequence": 695,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 812
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CCNHCN",
+          "sequence": 696,
+          "type": "bullet",
+          "text": "Approved with conditions",
+          "source_line": 813
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1OCJ36G",
+          "sequence": 697,
+          "type": "bullet",
+          "text": "Rejected",
+          "source_line": 814
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0ZFSUG1",
+          "sequence": 698,
+          "type": "bullet",
+          "text": "No decision",
+          "source_line": 815
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1WG3COE",
+          "sequence": 699,
+          "type": "bullet",
+          "text": "Superseded",
+          "source_line": 816
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0S0WUE2",
+          "sequence": 700,
+          "type": "bullet",
+          "text": "Implemented",
+          "source_line": 817
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I17Z4EJQ",
+          "sequence": 701,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 818
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-OWNER-DECISIONS-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0UP907R",
+          "sequence": 702,
+          "type": "bullet",
+          "text": "Assign every decision a true need-by date.",
+          "source_line": 822
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I172KT8W",
+          "sequence": 703,
+          "type": "bullet",
+          "text": "Tie the need-by date to the first affected downstream activity.",
+          "source_line": 823
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VGOZY4",
+          "sequence": 704,
+          "type": "bullet",
+          "text": "Identify one authorized decision authority.",
+          "source_line": 824
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0NQJBZN",
+          "sequence": 705,
+          "type": "bullet",
+          "text": "Provide complete options and impacts before requesting a decision.",
+          "source_line": 825
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1VF4MN5",
+          "sequence": 706,
+          "type": "bullet",
+          "text": "Separate recommendation, approval and change authorization.",
+          "source_line": 826
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1CKY22P",
+          "sequence": 707,
+          "type": "bullet",
+          "text": "Track owner decisions independently from RFIs and submittals.",
+          "source_line": 827
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0XXRNU3",
+          "sequence": 708,
+          "type": "bullet",
+          "text": "Record decisions in writing.",
+          "source_line": 828
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1NT67T4",
+          "sequence": 709,
+          "type": "bullet",
+          "text": "Update design, procurement, budget and schedule immediately.",
+          "source_line": 829
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1HUSVW8",
+          "sequence": 710,
+          "type": "bullet",
+          "text": "Escalate before float is exhausted.",
+          "source_line": 830
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I1I1M7H9",
+          "sequence": 711,
+          "type": "bullet",
+          "text": "Preserve superseded decisions and revision history.",
+          "source_line": 831
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0U8JYHJ",
+          "sequence": 712,
+          "type": "bullet",
+          "text": "Verify the decision was implemented.",
+          "source_line": 832
+        },
+        {
+          "item_id": "SSX-SUP-OWNER-DECISIONS-I0P7XX4Y",
+          "sequence": 713,
+          "type": "bullet",
+          "text": "Do not assume silence means approval.",
+          "source_line": 833
+        }
+      ]
+    }
+  ]
+}

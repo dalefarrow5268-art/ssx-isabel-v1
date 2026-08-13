@@ -1,0 +1,4598 @@
+{
+  "department_id": "SSX-SUP-INSPECTIONS",
+  "slug": "inspections",
+  "title": "Inspections",
+  "document_title": "SSX Master Construction Project Inspection List",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/inspections/MASTER_INSPECTIONS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 33,
+    "items": 603
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1WWLBNU",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project phase and CSI division",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1HVG93F",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Inspection name and category",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I135H397",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Governing authority or specification",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1H8DPKN",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Responsible requester",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14KPHRR",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Required inspector, agency, or competent person",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1T75KZ2",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Prerequisite work and required documents",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1C9S5HR",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Required notice period",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0XEVS8F",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Hold point / work that cannot be concealed",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1K64H5T",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Scheduled date and actual date",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0QBS1BC",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Result: pending, passed, passed with comments, failed, or canceled",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1IVPR9Y",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Deficiencies and corrective actions",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I16GYLEI",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Reinspection requirement and date",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EB34QS",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Report, certificate, photographs, and attachments",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0OKJA0C",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Cost responsibility",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1AIXIU4",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Whether it blocks successor work, occupancy, or closeout",
+          "source_line": 27
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "1. Preconstruction and permits",
+      "path": [
+        "1. Preconstruction and permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02JXJT2",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Existing-conditions inspection",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I16G99AF",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Adjacent-property condition survey",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1IQUMGO",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Preconstruction photographic survey",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IOGGJD",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Existing-building structural assessment",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PUDNYR",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Hazardous-material survey",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10MBO7G",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Asbestos-containing material inspection",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GCMTMS",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Lead-based paint inspection",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0PMFLLR",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Mold and moisture inspection",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LZUNLO",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Underground storage tank inspection",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1FDMVXM",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Existing utility verification",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BL5XFY",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Utility locate inspection",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1UI7HEN",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Subsurface utility engineering verification",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I083HKQ0",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Geotechnical investigation",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0M965GC",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Soil boring observation",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EG1CIK",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Test-pit inspection",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DXOKJM",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Groundwater investigation",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0YIBND1",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Environmental site assessment",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DGPGIM",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Wetlands delineation",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01VDTLP",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Floodplain compliance inspection",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BHU1NW",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Historic-preservation review",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CVM3NB",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Demolition permit inspection",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0U4C84G",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Tree-protection inspection",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VLUCIB",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Site access and fire-department access review",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DQ0LGA",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Construction fence and pedestrian-protection inspection",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1MKSD9S",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Temporary facilities inspection",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I196XNF2",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Temporary power inspection",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1JQLHXC",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Temporary water and sanitary inspection",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NIWO1E",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Temporary fire-protection plan inspection",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0T5BX6E",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Construction staging and logistics inspection",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1NMPP7T",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Erosion and sediment-control preconstruction inspection",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1U1QD76",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "SWPPP initial inspection",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0T7CE1V",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Permit posting and approved-plan inspection",
+          "source_line": 62
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "2. Demolition and abatement",
+      "path": [
+        "2. Demolition and abatement"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0AFTX3M",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Utility disconnect inspection",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01J3FWN",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Electrical service disconnect inspection",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15MI1TJ",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Gas disconnect inspection",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UGSHUU",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Water and sewer disconnect inspection",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DD0HX6",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Fire-protection impairment inspection",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1OZGDUT",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Selective-demolition inspection",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0XU24ZH",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Structural demolition sequencing inspection",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0K7FCKO",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Temporary shoring and bracing inspection",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1LLJ7IA",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Demolition dust-control inspection",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LI2IMG",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Asbestos-abatement containment inspection",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I120AI9I",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Asbestos-abatement clearance inspection",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I071J7TE",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Lead-abatement inspection",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0V9TQVV",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Hazardous-material removal inspection",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I160PXID",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Contaminated-soil removal inspection",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12ILOWL",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Underground tank removal inspection",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0RX65DB",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Tank closure inspection",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RROSRD",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Demolition waste and recycling inspection",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I001OVJA",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Final demolition inspection",
+          "source_line": 83
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "3. Sitework and environmental controls",
+      "path": [
+        "3. Sitework and environmental controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WMOQ9J",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Construction entrance inspection",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0625W7P",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Stabilized entrance inspection",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0T5Z3UE",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Perimeter erosion-control inspection",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19PZ9UK",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Silt-fence inspection",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14K83H0",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Inlet-protection inspection",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1QWZGJX",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Sediment-basin inspection",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NXXYRG",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Soil-stockpile inspection",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WRQNCA",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Dewatering discharge inspection",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CEYJ1U",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Concrete washout inspection",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VP8UWP",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Fuel and chemical-storage inspection",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1J6Q59R",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Spill-prevention inspection",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I051ICWO",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Dust-control inspection",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I124UMMI",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Track-out and street-cleaning inspection",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0X89F0U",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "SWPPP routine inspection",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0O98OTV",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "SWPPP rain-event inspection",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1D4Q4BT",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Post-storm erosion-control inspection",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0CI31F4",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Corrective-action follow-up inspection",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15WQMEP",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Final stabilization inspection",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TC7NOJ",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Notice-of-Termination inspection",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0T6BMBJ",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Protected-tree inspection",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RA9PV6",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Wetland-buffer inspection",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19ITFQE",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Noise-control inspection",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0619407",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Air-quality or emissions inspection",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0125NP0",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Imported-soil certification",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1QBV9K5",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Contaminated-soil inspection",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I04TZ1OR",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Archaeological monitoring, when required",
+          "source_line": 112
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "4. Earthwork and excavation",
+      "path": [
+        "4. Earthwork and excavation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1Q4VJ8S",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Clearing and grubbing inspection",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0BTXCUB",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Stripping and topsoil inspection",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1903SL8",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Proof-roll inspection",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1OCNAQC",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Unsuitable-soil removal inspection",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NK0YL5",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Subgrade inspection",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1W556BK",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Excavation-bottom inspection",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I05VZ739",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Foundation-bearing soil inspection",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0D85AVW",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Geotechnical bearing-capacity verification",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15HAQG5",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Rock excavation inspection",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CA3O48",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Blasting pre-inspection",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1L4F3DW",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Blasting monitoring",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PX47KA",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Excavation safety inspection",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I08E9S2U",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Trench safety inspection",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01SP2HS",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Shoring inspection",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1Q7GCF6",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Shielding and trench-box inspection",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1816CZ9",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Sloping and benching inspection",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1C0EWYA",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Excavation access and egress inspection",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1U412WU",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Hazardous-atmosphere inspection",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1F9CB14",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Dewatering inspection",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10OK24W",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Groundwater-control inspection",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1OLBZNN",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Underpinning inspection",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1YFWZDQ",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Settlement-monitoring inspection",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12DINMN",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Backfill material inspection",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0J5G11O",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Lift-thickness inspection",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1865S6V",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Moisture-density inspection",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZS8GD8",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Soil compaction testing",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02GLJOR",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Controlled low-strength material inspection",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1W3UTJU",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Final grading inspection",
+          "source_line": 143
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "5. Underground utilities and site drainage",
+      "path": [
+        "5. Underground utilities and site drainage"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0GZQJF8",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Underground utility trench inspection",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I123AE9C",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Bedding inspection",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1OEOXKQ",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Pipe material inspection",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1IAJP2U",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Pipe slope and alignment inspection",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LQQ0KN",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Utility separation inspection",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I00H6ND5",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Thrust-block inspection",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0KC9PDE",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Joint and connection inspection",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IIGDXQ",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Tracer-wire inspection",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1K66JEI",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Warning-tape inspection",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LJW9IE",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Sewer lateral inspection",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1A65084",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Sanitary sewer inspection",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0GVHTVI",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Sanitary sewer air test",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0AFNOON",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Sanitary sewer water test",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1X1OA10",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Sewer mandrel test",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TXX56G",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Sewer camera inspection",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I141BUZ3",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Manhole inspection",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0FDL5BK",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Storm sewer inspection",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0VMFK1J",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Storm-pipe leakage test",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0QCG65O",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Storm-drain camera inspection",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10J3T58",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Catch-basin inspection",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1LBKGMX",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Area-drain inspection",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1XZ05TS",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Culvert inspection",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1KLKVIK",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Underdrain and subdrain inspection",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CB06CV",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Detention and retention system inspection",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0O5X0SP",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Underground infiltration-system inspection",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1KPSABM",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Oil-water separator inspection",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0F6YNAN",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Grease interceptor inspection",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0GCEEEO",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Domestic-water service inspection",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IOINX5",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Water-main pressure test",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0VP1N14",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Water-main flushing and disinfection",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0577G32",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Bacteriological water testing",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1I9DWEG",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Fire-water service inspection",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0FERT0S",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Fire-line hydrostatic test",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I09VCPRG",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Fire hydrant inspection and flow test",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0R2ALRZ",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Gas service inspection and pressure test",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BU78X6",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Underground electrical conduit inspection",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1XN6183",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Underground communications conduit inspection",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1G1WQWF",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Duct-bank and concrete encasement inspection",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1UEZRES",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Grounding-electrode inspection",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I00D04CL",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Utility backfill and compaction testing",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1P5J6ML",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Underground utility as-built survey",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NISKV2",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Municipal utility acceptance inspection",
+          "source_line": 188
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "6. Foundations",
+      "path": [
+        "6. Foundations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02FDAN8",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Building layout and setback inspection",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07JUBUD",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Surveyor's foundation layout verification",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DSLZD7",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Excavation and bearing inspection",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14L5O3K",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Footing, foundation wall, pier, grade-beam, and pile-cap reinforcement inspections",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0T3X6NC",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Anchor-bolt and embedded-item inspection",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0CXM4LH",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Concrete formwork and pre-pour inspection",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07IYFVV",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Concrete placement, temperature, slump, air-content, and unit-weight testing",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1O288OS",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Concrete cylinder sampling and strength testing",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WIGCYH",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Cold-weather and hot-weather concrete inspection",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NVMGWR",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Post-installed and epoxy-anchor inspection",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WWOGQM",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Drilled-pier and caisson inspection",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0N1C2MV",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Helical-pile installation inspection",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1J4F76H",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Driven-pile installation monitoring",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I09RBY10",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Pile load and integrity testing",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I03RQ6C8",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Micropile inspection",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1V6YF4A",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Tieback-anchor inspection and testing",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1UHYLIT",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Underpinning inspection",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1FGLC8D",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Foundation dampproofing and waterproofing inspection",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EK1G8F",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Drainage-board and foundation-drain inspection",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11X8VNO",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Underslab vapor barrier and insulation inspection",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19L1G7R",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Underslab termite-treatment inspection",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Z2J03X",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Underslab plumbing and electrical inspection",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1MBXLQM",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Slab reinforcement and slab-on-grade pre-pour inspection",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1ISB702",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Foundation elevation survey",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14LS5KR",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Foundation final inspection",
+          "source_line": 216
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "7. Structural concrete",
+      "path": [
+        "7. Structural concrete"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0FTSLEE",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Formwork and reshoring inspection",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0VLBKEC",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Reinforcing-steel size, spacing, cover, and lap inspection",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I03PG2LU",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Mechanical and welded reinforcing splice inspection",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1SM905C",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Prestressing and post-tensioning inspection",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1KZDHOU",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Post-tensioning stressing and elongation verification",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IGUGRI",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Tendon grouting inspection",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1N2VPEX",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Embedded plate and insert inspection",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RS5EC1",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Construction-joint and waterstop inspection",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I06TN1MQ",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Concrete pre-pour and placement inspection",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1HL2XEG",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Concrete field sampling and compressive-strength testing",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VY4Q4A",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Concrete curing and repair inspection",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1Q22GXQ",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Concrete surface tolerance inspection",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I06BCEIX",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Floor-flatness and floor-levelness testing",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1451R0Y",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Structural slab opening inspection",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0RF1KNF",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Post-installed anchor inspection",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1U85NED",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Concrete scanning before cutting or coring",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0M1XXX7",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Shotcrete placement and core testing",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0L04YKH",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Precast fabrication, erection, connection, and grouting inspections",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0XLJ03U",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Tilt-up panel erection and bracing inspection",
+          "source_line": 238
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "8. Structural steel and metals",
+      "path": [
+        "8. Structural steel and metals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VNGTMO",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Structural-steel fabrication inspection",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1FMUMI1",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Shop welding inspection",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1695GKI",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Welder qualification and welding procedure verification",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I021SD7E",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Material certification review",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DPMVOH",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Steel erection inspection",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19IVPWC",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "High-strength bolt, pretension, and slip-critical connection inspection",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I115S7D7",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Structural welding and visual weld inspection",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TN5K32",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Magnetic-particle, dye-penetrant, ultrasonic, and radiographic testing",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0R5AQRV",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Shear-stud inspection",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02A0VDO",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Metal-deck attachment and welding inspection",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14RID6G",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Steel joist and bridging inspection",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0QBG1IZ",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Open-web joist inspection",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1V1GNV0",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Structural cold-formed framing inspection",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I16GTH2L",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Light-gauge framing connection inspection",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1AZ28J5",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Steel stair, railing, and guard inspection",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I13CR4UC",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Miscellaneous-metals inspection",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I06Z1DFE",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Embed and anchor inspection",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0GA08OM",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Spray-applied fireproofing substrate, thickness, and density inspection",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1JUO7QO",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Mastic or intumescent fireproofing inspection",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I04QKVBD",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Structural steel final inspection",
+          "source_line": 261
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "9. Masonry",
+      "path": [
+        "9. Masonry"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1AQ45O3",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Masonry material, unit, mortar, and grout inspection",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I104V4QM",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Reinforcing-steel, lap-splice, anchor, and tie inspection",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0VWB4N5",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Lintel and control-joint inspection",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DK5BDG",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Cleanout and grout-space inspection",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1R9ZLLJ",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Grout-placement and lift-height inspection",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15AS95G",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Mortar, grout, and prism testing",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UI42L1",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Masonry wall bracing inspection",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WGTV9J",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "High-lift grouting inspection",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BB5FS6",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Veneer anchor inspection",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CU4TBI",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Flashing and weep inspection",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I06J1VNZ",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Masonry final inspection",
+          "source_line": 275
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "10. Wood, mass timber, and cold-formed framing",
+      "path": [
+        "10. Wood, mass timber, and cold-formed framing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NV8BY5",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Lumber grade and species inspection",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Z83LN2",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Preservative-treated and fire-retardant-treated wood inspection",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I17XUBC4",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Wood framing, shear-wall, and sheathing fastening inspection",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EL21SU",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Hold-down, anchor-bolt, connector, and hanger inspection",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZB8PFQ",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Truss delivery, certification, and bracing inspection",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0C061Y9",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Roof and floor framing inspection",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1P6VXSM",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Engineered lumber and glulam inspection",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19ZWVAU",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Mass-timber fabrication, erection, connection, and moisture inspection",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I18GKETS",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Concealed-space fireblocking and draftstopping inspection",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MRXNEL",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Cold-formed steel framing, shear-wall, and truss inspection",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02LU48X",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Diaphragm inspection",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0BC8L2I",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Framing final inspection",
+          "source_line": 290
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "11. Building envelope",
+      "path": [
+        "11. Building envelope"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19GOHZG",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Building-envelope mockup inspection",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Y4WEWN",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Laboratory and field mockup testing",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0SZ2L3J",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Air-barrier substrate, installation, transition, and continuity inspection",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I16990HP",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Whole-building air-leakage testing",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1O04GNW",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Vapor-retarder inspection",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MWEXTA",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Exterior and continuous insulation inspection",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1ROZOFT",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Cavity-wall inspection",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1G64B8U",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Masonry and through-wall flashing inspection",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0YVO37V",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Shelf-angle and expansion-joint inspection",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0JZQTTJ",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Sealant preparation, adhesion testing, and installation inspection",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01F25QT",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Exterior wall water-spray testing",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RQNB1Q",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Infrared thermographic inspection",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I13R3EGT",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Curtain-wall anchor and installation inspection",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1JXT3RS",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Curtain-wall air, static-water, dynamic-water, and structural testing",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CYLPLI",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Storefront installation inspection",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1NP61G0",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Window anchorage, flashing, air, and water testing",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1WFB4JK",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Exterior door installation and water testing",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I17LE47P",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Louver and penetration inspection",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1H11X6N",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Exterior cladding fastening inspection",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RK2EYK",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Metal-panel, EIFS, stucco, stone, and brick veneer inspection",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GL8Y0O",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Exterior wall final inspection",
+          "source_line": 314
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "12. Roofing",
+      "path": [
+        "12. Roofing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0V3D3YX",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Roof-deck and substrate inspection",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GKQSFV",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Roof-deck moisture testing",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0V9V2DJ",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Roof vapor-retarder inspection",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1K3NBM6",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Roof insulation, attachment, and slope inspection",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I06SAYQ1",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Cover-board inspection",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I08LTF1J",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Roofing membrane and seam inspection",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TRPYJV",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Flashing, penetration, curb, drain, overflow, and scupper inspection",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DUIBJR",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Edge-metal and roof anchorage inspection",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1YK931C",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Wind-uplift inspection",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15VMBYP",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Electronic leak-detection and flood testing",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0KZOXQO",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Infrared roof survey",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I133MSWY",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Roof warranty and final inspection",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I00JLM55",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Vegetated-roof inspection",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07VMNU1",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Rooftop fall-protection inspection",
+          "source_line": 331
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "13. Interior partitions and rated construction",
+      "path": [
+        "13. Interior partitions and rated construction"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1AX391W",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Interior partition layout and framing inspection",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0JZMCQE",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Above-ceiling framing inspection",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0RMW44E",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Shaft-wall inspection",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MIAZ49",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Fire-rated assembly and joint inspection",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I056LSLJ",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Head-of-wall and perimeter fire-containment inspection",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15LQDCC",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Penetration and membrane-penetration firestop inspection",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12ZRK4C",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Fireblocking and draftstopping inspection",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0OV8ENX",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Smoke-partition, smoke-barrier, and corridor wall inspection",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DXJNHE",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Horizontal assembly and ceiling membrane inspection",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WZA7BB",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Access-panel rating inspection",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PN8M70",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Lead-lined wall and radiation-shielding inspection",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0FGCE57",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Acoustic partition and insulation inspection",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1R24IQR",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Drywall screw-pattern and layer inspection",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I08CZW6D",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "In-wall inspection before closing",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01MFZ3K",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Above-ceiling inspection before closing",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I16ISCDX",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Ceiling grid and seismic-bracing inspection",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I165N2VS",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Interior finish flame-spread compliance inspection",
+          "source_line": 351
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "14. Doors, frames, hardware, and glazing",
+      "path": [
+        "14. Doors, frames, hardware, and glazing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TKCWO3",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Door-frame anchorage inspection",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0GNAGME",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Fire-door frame, label, installation, and operational inspection",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02NVE5Q",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Smoke-door and egress-door inspection",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Z1BKW4",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Door swing, clearance, force, and threshold inspection",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1W7PRRQ",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Panic and fire-exit hardware inspection",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01DV58H",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Electrified hardware and access-control interface inspection",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WMAJE7",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Delayed-egress and controlled-egress locking inspection",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NS4TZN",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Stair-door unlocking inspection",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0T5PVOV",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Accessibility hardware inspection",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11R47UD",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Automatic-door inspection",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15PWU0P",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Security, safety, fire-rated, and guard-glazing inspection",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1XQK48W",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Interior glass and storefront inspection",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0M2IMG7",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Window fall-prevention inspection",
+          "source_line": 367
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "15. Plumbing",
+      "path": [
+        "15. Plumbing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1UEFQ09",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Underground, rough-in, and top-out inspection",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12X9J7Z",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Water-pipe pressure test",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15KHH3C",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Sanitary, waste-and-vent, and storm drainage testing",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0FY6IAK",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Medical-gas rough-in, pressure, purity, and cross-connection testing",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Q77V9F",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Fuel-gas piping inspection and pressure test",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1OS89TX",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Grease-waste and acid-waste inspection",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DS5WXB",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Interceptor inspection",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0JA6JXJ",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Backflow preventer inspection and certification",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MPFLM8",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Cross-connection control inspection",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0EXFPGZ",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Water-heater and boiler inspection",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0A08C4W",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Plumbing insulation and penetration firestop inspection",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NFYDL6",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Plumbing fixture and fixture-accessibility inspection",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0R5ZHST",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Domestic-water flushing, disinfection, and potability testing",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UWZ6XU",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Domestic hot-water balancing",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WBPGOA",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Plumbing final inspection",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0E3FGBP",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Health-department plumbing inspection",
+          "source_line": 386
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "16. Mechanical and HVAC",
+      "path": [
+        "16. Mechanical and HVAC"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19QDITI",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Equipment housekeeping-pad inspection",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PHU4VR",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Mechanical rough-in inspection",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0W11155",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Ductwork, duct seal, leakage, cleanliness, and insulation inspection",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1D2WO2J",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Pipe welding inspection",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0XWATT3",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Hydronic and refrigerant piping pressure testing",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1S7UND3",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Refrigerant evacuation and charging inspection",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12FUQNI",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Condensate drainage inspection",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12DXJ30",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Mechanical insulation inspection",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LQ1DY9",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Equipment anchorage, vibration isolation, and seismic restraint inspection",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0JJTQ3Y",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Rooftop equipment curb inspection",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GU25FH",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Outside-air intake and exhaust-discharge separation inspection",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0RX0ZZ2",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Kitchen exhaust and grease-duct weld inspection",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0URJZYZ",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Grease-duct leakage test",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07RJLPP",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Dryer and laboratory exhaust inspection",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GJ5WT6",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Smoke-control duct inspection",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19XPI96",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Fire, smoke, and combination damper inspection and testing",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BPWC38",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Stair pressurization and smoke-control testing",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1HN02SJ",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Mechanical penetration firestop inspection",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZZGMXI",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Controls point-to-point inspection",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MQ46VM",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Equipment startup inspection",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WNFW5W",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Testing, adjusting, and balancing",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1OJAHE4",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Indoor air-quality testing",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CGWF3Z",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Building flush-out verification",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DXQPVI",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Mechanical final inspection",
+          "source_line": 413
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "17. Electrical",
+      "path": [
+        "17. Electrical"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I183FRW3",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Temporary electrical inspection",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1UKP4K5",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Electrical underground and rough-in inspection",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0AZN100",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Concrete-encased electrode, grounding-electrode, and ground-grid inspection",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0L5NWUB",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Underground conduit inspection",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0HBEZVQ",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Service equipment, transformer, switchgear, and panelboard inspection",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12TMQJI",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Feeder and branch-circuit inspection",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1WV8L05",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Conductor insulation-resistance testing",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EDTXI9",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Torque verification",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0P27CFZ",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Grounding and bonding inspection",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1F4LS8W",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Ground-fault protection, GFCI, and arc-fault testing",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GQ5OXY",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Emergency power inspection",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DJXM07",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Generator installation and load-bank testing",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VM8AYU",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Automatic transfer switch testing",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0U4T84G",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Battery and UPS inspection",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WDO5RE",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Emergency lighting and exit-sign inspection",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LC7AAX",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Lighting-control and energy-code lighting inspection",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1AOC6NB",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Daylight-control and lighting-power-density verification",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14HHQVB",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Lightning-protection inspection and certification",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LEWCQ9",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Photovoltaic, energy-storage, and EV charging inspection",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1V19HCX",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Electrical penetration firestop inspection",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TYMKIP",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Infrared electrical inspection",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DMNZ1K",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Electrical final inspection",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0W6GNPS",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Utility service release inspection",
+          "source_line": 439
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "18. Communications, security, and low voltage",
+      "path": [
+        "18. Communications, security, and low voltage"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0WZOT63",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Telecommunications rough-in inspection",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GPE0FF",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Cable tray, pathway, and sleeve inspection",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1XOHLOP",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Structured-cabling inspection",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I00XDGF3",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Fiber-optic testing and copper-cable certification",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02PZDKE",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Grounding and bonding inspection",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PVQP5Q",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Public-safety and emergency responder radio coverage testing",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TBIYZC",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Distributed antenna system inspection",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1KM4ULG",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Security, access-control, intrusion, and video-surveillance inspection",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0XU8S56",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Intercom, public-address, master-clock, and nurse-call inspection",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1L43G9W",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Duress and audio-visual system inspection",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0NYFORH",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Low-voltage penetration firestop inspection",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1K8LGBL",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Low-voltage final acceptance testing",
+          "source_line": 454
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "19. Fire and life safety",
+      "path": [
+        "19. Fire and life safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0VBJS4L",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Fire department access and fire-lane inspection",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11R8TQ7",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Fire-service water supply inspection",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VW9ODB",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Fire hydrant flow test",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0U5M0S4",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Fire-department connection inspection",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IRE9VC",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Underground fire-main visual, hydrostatic, and flushing tests",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15MYFWE",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Aboveground sprinkler rough-in inspection",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19547YZ",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Sprinkler hanger, bracing, hydrostatic, main-drain, and inspector's tests",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CFW6AK",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Standpipe rough-in, hydrostatic, and flow tests",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0C01HM6",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Fire-pump installation and acceptance test",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I09U5BXD",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Fire-water tank inspection",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BS6QWE",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Foam, clean-agent, preaction, and deluge system inspection",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TA5F6U",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Kitchen hood suppression inspection",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PUFVYV",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Fire-extinguisher inspection",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15AM7O8",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Fire-alarm rough-in, device, and acceptance inspection",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UTY9WM",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Notification-appliance, supervisory, trouble, and monitoring transmission tests",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UGGV3I",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Elevator recall and shunt-trip tests",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1D71YOS",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Door-release, smoke-control, HVAC shutdown, and emergency-generator interface tests",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07EG04R",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Mass-notification and emergency responder radio tests",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LWBC2L",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Fire-command-center inspection",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19I179A",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Fire and smoke damper testing",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0B9DPKO",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Firestopping and fireproofing inspection",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I09EF327",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Means-of-egress and exit-discharge inspection",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I03TISZT",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Emergency lighting and exit-sign inspection",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0F9D213",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Occupant-load posting inspection",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I000KT0C",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Fire/life-safety integrated systems test",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RGM4AZ",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Fire marshal final inspection",
+          "source_line": 483
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "20. Conveying equipment",
+      "path": [
+        "20. Conveying equipment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1MOIGWK",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Elevator pit, shaft, overhead-clearance, rail, and machine-room inspection",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0C4O9TQ",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Elevator electrical inspection",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1SON867",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Hydraulic-pressure, load, and safety tests",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07GX7QS",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Emergency-power, recall, communication, and accessibility tests",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UNY9PB",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Elevator final state inspection",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I135UYZP",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Escalator installation and safety inspection",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I143IZPM",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Platform-lift, material-lift, dumbwaiter, and hoist inspection",
+          "source_line": 493
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "21. Commercial kitchens and health department",
+      "path": [
+        "21. Commercial kitchens and health department"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RTEXKG",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Kitchen plumbing and grease interceptor inspection",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UXLX04",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Food-service equipment and clearance inspection",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0L6CYZ3",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Sanitation and cleanability inspection",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PNKG44",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Walk-in cooler/freezer and refrigeration inspection",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TWM4F0",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Kitchen hood and grease-duct inspection",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BCY36T",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Hood exhaust balancing and makeup-air inspection",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1SI6KLB",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Kitchen fire-suppression test",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1QH0HA3",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Gas appliance inspection",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PZ27YH",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Health-department plan-compliance and preopening inspection",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I06LUAOD",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Food-service operating permit inspection",
+          "source_line": 506
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "22. Pools, spas, and water features",
+      "path": [
+        "22. Pools, spas, and water features"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1AO5EVK",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Pool excavation, reinforcement, bonding, and plumbing inspection",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0L7VDOK",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Pool pressure, shell, and waterproofing inspection",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Z9O47K",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Pool barrier, gate, and accessibility inspection",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0VVG1XI",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Pool equipment, electrical, and lighting inspection",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01NJJ8J",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Drain entrapment-protection inspection",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1T9PK6W",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Water chemistry and health-department inspection",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11UM549",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Pool final inspection",
+          "source_line": 516
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "23. Accessibility",
+      "path": [
+        "23. Accessibility"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19YQHI0",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Accessible route and site arrival-point inspection",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1T7O3T5",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Accessible parking and passenger loading-zone inspection",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1G5IOWR",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Curb-ramp, ramp slope, landing, stair, and handrail inspection",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0GUS64Y",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Door width, clearance, force, and threshold inspection",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0P2Q4GL",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Accessible restroom, toilet, grab-bar, lavatory, and bathing-room inspection",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PHH062",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Drinking-fountain inspection",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01BBMYI",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Accessible seating and assistive-listening inspection",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0QI4R91",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Signage and Braille inspection",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0SFAF5F",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Elevator and platform-lift accessibility inspection",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZJQNT3",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Accessible kitchen, guest-room, and dwelling-unit inspection",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I08RLMH0",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Fair Housing accessibility inspection",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UZ0U8J",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "ADA or state accessibility final inspection",
+          "source_line": 531
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "24. Energy code and sustainability",
+      "path": [
+        "24. Energy code and sustainability"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CG6IWH",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Building thermal-envelope inspection",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0E8638A",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Insulation R-value and installation-quality inspection",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I08GMDAL",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Air-barrier and fenestration performance verification",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0I5ZPNU",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Window-to-wall ratio verification",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I129Y0MR",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Roof, slab-edge, and continuous insulation inspection",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ANNMD9",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Duct leakage and mechanical insulation inspection",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0UX8IRN",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Equipment-efficiency and economizer inspection",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12SDYKQ",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "HVAC controls, demand-control ventilation, and energy-recovery inspection",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1UZZR4S",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Lighting power and lighting-control functional testing",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I17WYIR0",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Automatic receptacle-control inspection",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CFGTBG",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Metering and submetering inspection",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1QX228I",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Air-leakage, blower-door, and whole-building pressure testing",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RL475K",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Renewable-energy system inspection",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EMUJSH",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Energy-code final inspection",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TBSW6R",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "LEED, Green Globes, WELL, or other sustainability verification",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01YCPIP",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Local benchmarking-system inspection",
+          "source_line": 550
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "25. Specialty occupancies and systems",
+      "path": [
+        "25. Specialty occupancies and systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ONUWBL",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Hospital or healthcare licensing inspection",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0RS8SGW",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Pharmacy inspection",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1V256C4",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Medical-gas certification",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZFND2L",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Radiation shielding survey",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0OZ0M85",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "MRI shielding and quench-system inspection",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1F59BPJ",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Laboratory biosafety and fume-hood testing",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I07PJ3J1",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Cleanroom certification",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VSMDDA",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Data-center integrated systems testing",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12GGXY5",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Generator and UPS load testing",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1XW8CXF",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Fuel-storage inspection",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1HJFGPF",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "School, daycare, assisted-living, nursing-home, or hotel licensing inspection",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1PMC19T",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Industrial process inspection",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TMCN8T",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "High-piled storage and rack-storage inspection",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12PFIPO",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Hazardous-material inventory inspection",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DKPRRM",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Flammable-liquid and compressed-gas storage inspection",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1H8WYA6",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Ammonia refrigeration inspection",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VHBCXP",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Spray-booth and paint-booth fire-suppression inspection",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GIF0EY",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Dust-collection and explosion-control inspection",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12ED0HK",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Storm-shelter, tornado shelter, and safe-room inspection",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0B9T6Y6",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Parking garage ventilation and carbon-monoxide detection inspection",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1S6AD0Z",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Helipad, marina, or waterfront inspection",
+          "source_line": 574
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "26. Site improvements and landscaping",
+      "path": [
+        "26. Site improvements and landscaping"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1NSWUOZ",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Curb, gutter, and sidewalk inspection",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZZTJLB",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Accessible sidewalk inspection",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0EMB1SI",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Pavement subgrade and aggregate-base inspection",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1S80PNX",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Asphalt temperature, density, and thickness testing",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0824P2V",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Concrete paving inspection",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1YIN992",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Pavement striping, accessible markings, and signage inspection",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IDQ22T",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Site-lighting inspection",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0501IVP",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Retaining-wall and soil-reinforcement inspection",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I132TYEK",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Guardrail, fence, gate, and automatic vehicle-gate inspection",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0XWS87V",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Irrigation and backflow inspection",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RV9UEU",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Landscape material, tree, planting, and soil-depth inspection",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1MOS98P",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Playground, athletic-field, and site-furnishing inspection",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1HDDDXF",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Final grading and drainage inspection",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1TRYP08",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Landscape final inspection",
+          "source_line": 591
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "27. Contractor safety and operational inspections",
+      "path": [
+        "27. Contractor safety and operational inspections"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10YJ0QS",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Daily and weekly site safety inspection",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I09Y7TNF",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Excavation competent-person inspection",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1SM8YSV",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Scaffold competent-person inspection",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1V6Q1F0",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Ladder inspection",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1EH4SXD",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Fall-protection and personal fall-arrest equipment inspection",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10SKBO1",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Crane pre-shift, monthly, annual, post-assembly, and post-repair inspection",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1ULOD2K",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Rigging and wire-rope inspection",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RDKYND",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Material-hoist, personnel-hoist, aerial-lift, and forklift inspection",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1LU71ZQ",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Heavy-equipment inspection",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0N0FQOR",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Temporary platform, stair, and handrail inspection",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I03NVC1T",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Temporary electrical and GFCI inspection",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1QHKAUE",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Assured equipment grounding inspection",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I163AM5D",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Confined-space pre-entry inspection",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Q4COT2",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Silica-control and respiratory-protection inspection",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Z1Z5JX",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Hot-work permit and fire-watch inspection",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1FCDPB8",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Temporary-heating inspection",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0U6OMWN",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Housekeeping and emergency-egress inspection",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I045OHOS",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "First-aid and emergency-equipment inspection",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MI81FV",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Severe-weather preparedness inspection",
+          "source_line": 613
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "28. Testing, balancing, and commissioning",
+      "path": [
+        "28. Testing, balancing, and commissioning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VNKY4J",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Owner's Project Requirements and Basis of Design review",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I079X8N4",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Commissioning design and submittal review",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1ENNN64",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Pre-functional checklist inspection",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1NTZEDR",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Equipment startup verification",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1FXCCWJ",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "HVAC, plumbing, and electrical functional performance testing",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DEY8J2",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Domestic hot-water testing",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0QLLQ5D",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Emergency-power functional and load-bank testing",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Z35QY3",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Automatic transfer switch testing",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1SHPET0",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Lighting-control functional testing",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11P501X",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Building automation point-to-point and sequence testing",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0MRA33N",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Testing, adjusting, and balancing verification",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RQN3NG",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Indoor-air-quality, acoustic, sound, and vibration testing",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I02CU6YD",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Envelope commissioning and air/water testing",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1GPQYDS",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Fire/life-safety commissioning and integrated systems testing",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IKHC0J",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Smoke-control, security, communications, and elevator emergency-operation testing",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11ZD709",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Seasonal and deferred testing",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1KOVQMJ",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Owner training and systems-manual verification",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1VCLLO8",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Final commissioning report",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RJJVBW",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Warranty-period commissioning review",
+          "source_line": 635
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "29. Substantial completion and final approvals",
+      "path": [
+        "29. Substantial completion and final approvals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1O0GOSB",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Contractor, architect, engineer, owner, accessibility, and life-safety punch inspections",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0R187XP",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Above-ceiling closeout inspection",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15687C5",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Final building, electrical, plumbing, mechanical, and fire-protection inspections",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DZCSAS",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Fire marshal inspection",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1CQ3Z85",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Elevator certificate inspection",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10K1VES",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Health-department and environmental closeout inspection",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1775DOQ",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Site, landscape, public-works, utility, planning, and zoning final inspections",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1IHWBHA",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Temporary Certificate of Occupancy inspection",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0D860W6",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Phased occupancy inspection",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0V7C4TT",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Certificate of Occupancy inspection",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DN1N7H",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Punch-list reinspection and final correction inspection",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I04V0IO5",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Record-drawing verification",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LW5Z2M",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Operations and maintenance manual review",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TNRW6P",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Attic-stock and spare-parts inspection",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1BLR6WK",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Owner training confirmation",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I19RNKEB",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Keying and access-control turnover inspection",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LXI412",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Warranty documentation review",
+          "source_line": 655
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "30. Post-occupancy and warranty",
+      "path": [
+        "30. Post-occupancy and warranty"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I11PNRWB",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "30-day, 90-day, six-month, eleven-month, and one-year inspections",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1JQ4CMH",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Seasonal commissioning inspection",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TDKBAG",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Roof and envelope leak warranty inspection",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I17JCTS5",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Indoor-air-quality follow-up",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0EDC6QY",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Building automation trend and energy-performance review",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0CX5NMD",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Settlement, movement, and expansion-joint inspection",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0IVS37F",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Pavement and landscape establishment inspection",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1LK9Y7F",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Recurring fire/life-safety inspection",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I158OGBP",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Recurring elevator inspection",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TSJDWO",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Boiler and pressure-vessel inspection",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I17K0ZZ6",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Annual backflow inspection",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0OQI4EO",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Generator recurring test",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01PVGPW",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Fire-door recurring inspection",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0LIRKJS",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Fire/smoke damper recurring inspection",
+          "source_line": 672
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "IBC Chapter 17 special-inspection categories",
+      "path": [
+        "IBC Chapter 17 special-inspection categories"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DMA8ZT",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Fabricated structural items",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I15VYF8W",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Structural steel construction",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0DXN0V5",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Concrete construction",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0SUGU0V",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Masonry construction",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0FNXLSN",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Wood construction",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I186PFQE",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Soils and foundations",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I10GY0XV",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Driven deep foundations",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I18QBZSA",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Cast-in-place deep foundations",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I069S5S1",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Helical pile foundations",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0J1X5PB",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Sprayed fire-resistant materials",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0YLX4PA",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Mastic and intumescent fire-resistant coatings",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I005CUMD",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Exterior insulation and finish systems",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01KYI7H",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Fire-resistant penetrations and joints",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1RN9OPA",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Smoke-control systems",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0HW5JF6",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Wind-resisting components",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0TEBM7Z",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Seismic-resisting components",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I01MUTV7",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Architectural components requiring seismic inspection",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0YVC982",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Mechanical and electrical seismic components",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZFL6FW",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Storage racks",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0YA5Z4C",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Seismic isolation systems",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0ZQ65WY",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Cold-formed steel special-bolted moment frames",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1C75U4U",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Designated structural systems",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1DSZZWV",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Structural observations",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0M2WSLA",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Special cases designated by the building official",
+          "source_line": 701
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-INSPECTIONS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Authoritative references",
+      "path": [
+        "Authoritative references"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1KQQQ0M",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "[International Building Code Chapter 17 — Special Inspections and Tests](https://codes.iccsafe.org/content/IBC2021P2/chapter-17-special-inspections-and-tests)",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1MXWYCX",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "[ICC Special Inspector Certifications](https://www.iccsafe.org/professional-development/certifications-and-testing/special-inspector-exams/)",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I022YBOH",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "[EPA Stormwater Discharges from Construction Activities](https://www.epa.gov/npdes/stormwater-discharges-construction-activities)",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I12RMLD7",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "[EPA Construction General Permit Resources and SWPPP Templates](https://www.epa.gov/npdes/construction-general-permit-resources-tools-and-templates)",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I05YL5XR",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "[OSHA Excavation Requirements](https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.651)",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0Q2DKVI",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "[OSHA Scaffold Inspection Requirements](https://www.osha.gov/training/library/scaffolds/summary)",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I0C01NC4",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "[OSHA Cranes and Derricks in Construction](https://www.osha.gov/cranes-derricks-construction/faq)",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I14XXE0P",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "[NFPA 3 — Commissioning of Fire Protection and Life Safety Systems](https://www.nfpa.org/product/nfpa-3-standard/p0003code/nfpa-3-standard-2027/327)",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-INSPECTIONS-I1J4D8FL",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "[NFPA 25 — Water-Based Fire Protection Systems](https://www.nfpa.org/codes-and-standards/nfpa-25-standard-development/25)",
+          "source_line": 713
+        }
+      ]
+    }
+  ]
+}

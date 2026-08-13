@@ -1,0 +1,3340 @@
+{
+  "department_id": "SSX-SUP-HOLIDAY-CALENDARS",
+  "slug": "holiday-calendars",
+  "title": "Holiday Calendars",
+  "document_title": "SSX United States Holiday Calendars — 2026–2045",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/holiday-calendars/US_FEDERAL_HOLIDAYS_2026_2045.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 24,
+    "items": 266
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Calendar rules",
+      "path": [
+        "Calendar rules"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1KRR9Z1",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "The base calendar contains the 11 federal holidays established by U.S. law.",
+          "source_line": 7
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1QBIQMW",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Dates shown in the first column are the standard observed dates for a Monday-through-Friday workweek.",
+          "source_line": 8
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0G17YL5",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "When a fixed-date federal holiday falls on Saturday, the observed date is the preceding Friday.",
+          "source_line": 9
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1H3TG7P",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "When a fixed-date federal holiday falls on Sunday, the observed date is the following Monday.",
+          "source_line": 10
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YUT33W",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "The actual calendar date is retained when it differs from the observed date.",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0436FJS",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Private construction projects are not automatically closed on federal holidays. Confirm the contract, collective-bargaining agreements, project work rules, owner restrictions, subcontractor calendars and local practice.",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1M5H199",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "The day after Thanksgiving, Christmas Eve and New Year’s Eve are included as planning flags only. They are not federal holidays and should be activated only when the project calendar requires them.",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1W34GH1",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "State, territorial, municipal, tribal, religious, cultural and company-specific holidays require project or jurisdiction add-ons.",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0FCUNVI",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Presidential Inauguration Day is not included in the nationwide base calendar because it applies only to certain federal employees in the Washington, DC, metropolitan area.",
+          "source_line": 15
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "SSX calendar classifications",
+      "path": [
+        "SSX calendar classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0C3E7KH",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Federal Holiday — Observed",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1DZ1ES9",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Federal Holiday — Actual Date",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1OE2452",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Common Construction Shutdown — Optional",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0FU1BIP",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "State or Local Holiday — Project Add-on",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1UFUPKS",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Union or Labor Agreement Holiday — Project Add-on",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YBQ597",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Owner or Company Holiday — Project Add-on",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I141DNG0",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Religious or Cultural Holiday — Planning Awareness",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0U9XO2Q",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Weather or Emergency Closure — Project Event",
+          "source_line": 26
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Schedule implementation guidance",
+      "path": [
+        "Schedule implementation guidance"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0W6YJJ4",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Load the observed dates as nonwork days only when required by the project’s assigned work calendar.",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1260434",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Keep actual and observed dates linked so weekend field operations are handled correctly.",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1C98DJ8",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Create separate calendars for office review work, field work, six-day workweeks, seven-day work, utility work, AHJ inspections and owner operations.",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I10OJANW",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Do not assume design teams, permit offices, testing agencies, suppliers and field crews use identical holiday calendars.",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1SC5H9S",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Add a schedule note when a holiday affects deliveries, inspections, concrete placement, shutdowns, testing, startup or critical-path work.",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0CGHVAP",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Review future calendars annually because laws, executive orders, contracts and company policies can change.",
+          "source_line": 35
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "2026",
+      "path": [
+        "2026"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1423P32",
+          "sequence": 24,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 39,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0YWYAAO",
+          "sequence": 25,
+          "type": "table-row",
+          "text": "Thursday, January 01, 2026 | New Year’s Day | Same as observed",
+          "source_line": 41,
+          "cells": [
+            "Thursday, January 01, 2026",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0P0R1AW",
+          "sequence": 26,
+          "type": "table-row",
+          "text": "Monday, January 19, 2026 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 42,
+          "cells": [
+            "Monday, January 19, 2026",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1X2I8NY",
+          "sequence": 27,
+          "type": "table-row",
+          "text": "Monday, February 16, 2026 | Washington’s Birthday | Same as observed",
+          "source_line": 43,
+          "cells": [
+            "Monday, February 16, 2026",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0VTWVI6",
+          "sequence": 28,
+          "type": "table-row",
+          "text": "Monday, May 25, 2026 | Memorial Day | Same as observed",
+          "source_line": 44,
+          "cells": [
+            "Monday, May 25, 2026",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0CF5FHL",
+          "sequence": 29,
+          "type": "table-row",
+          "text": "Friday, June 19, 2026 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 45,
+          "cells": [
+            "Friday, June 19, 2026",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1UZ43MD",
+          "sequence": 30,
+          "type": "table-row",
+          "text": "Friday, July 03, 2026 | Independence Day | Saturday, July 04, 2026",
+          "source_line": 46,
+          "cells": [
+            "Friday, July 03, 2026",
+            "Independence Day",
+            "Saturday, July 04, 2026"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1LTQTYO",
+          "sequence": 31,
+          "type": "table-row",
+          "text": "Monday, September 07, 2026 | Labor Day | Same as observed",
+          "source_line": 47,
+          "cells": [
+            "Monday, September 07, 2026",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1PKQ9N7",
+          "sequence": 32,
+          "type": "table-row",
+          "text": "Monday, October 12, 2026 | Columbus Day | Same as observed",
+          "source_line": 48,
+          "cells": [
+            "Monday, October 12, 2026",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1BMWZIE",
+          "sequence": 33,
+          "type": "table-row",
+          "text": "Wednesday, November 11, 2026 | Veterans Day | Same as observed",
+          "source_line": 49,
+          "cells": [
+            "Wednesday, November 11, 2026",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1KXQKWR",
+          "sequence": 34,
+          "type": "table-row",
+          "text": "Thursday, November 26, 2026 | Thanksgiving Day | Same as observed",
+          "source_line": 50,
+          "cells": [
+            "Thursday, November 26, 2026",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0K5GP61",
+          "sequence": 35,
+          "type": "table-row",
+          "text": "Friday, December 25, 2026 | Christmas Day | Same as observed",
+          "source_line": 51,
+          "cells": [
+            "Friday, December 25, 2026",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "2027",
+      "path": [
+        "2027"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1225WZL",
+          "sequence": 36,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 57,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1V26BYZ",
+          "sequence": 37,
+          "type": "table-row",
+          "text": "Friday, January 01, 2027 | New Year’s Day | Same as observed",
+          "source_line": 59,
+          "cells": [
+            "Friday, January 01, 2027",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I05RN2H3",
+          "sequence": 38,
+          "type": "table-row",
+          "text": "Monday, January 18, 2027 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 60,
+          "cells": [
+            "Monday, January 18, 2027",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I05DSOPL",
+          "sequence": 39,
+          "type": "table-row",
+          "text": "Monday, February 15, 2027 | Washington’s Birthday | Same as observed",
+          "source_line": 61,
+          "cells": [
+            "Monday, February 15, 2027",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0F7KIZX",
+          "sequence": 40,
+          "type": "table-row",
+          "text": "Monday, May 31, 2027 | Memorial Day | Same as observed",
+          "source_line": 62,
+          "cells": [
+            "Monday, May 31, 2027",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I19ISLDI",
+          "sequence": 41,
+          "type": "table-row",
+          "text": "Friday, June 18, 2027 | Juneteenth National Independence Day | Saturday, June 19, 2027",
+          "source_line": 63,
+          "cells": [
+            "Friday, June 18, 2027",
+            "Juneteenth National Independence Day",
+            "Saturday, June 19, 2027"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1XO8O4M",
+          "sequence": 42,
+          "type": "table-row",
+          "text": "Monday, July 05, 2027 | Independence Day | Sunday, July 04, 2027",
+          "source_line": 64,
+          "cells": [
+            "Monday, July 05, 2027",
+            "Independence Day",
+            "Sunday, July 04, 2027"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I15MA6NJ",
+          "sequence": 43,
+          "type": "table-row",
+          "text": "Monday, September 06, 2027 | Labor Day | Same as observed",
+          "source_line": 65,
+          "cells": [
+            "Monday, September 06, 2027",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1GZMY28",
+          "sequence": 44,
+          "type": "table-row",
+          "text": "Monday, October 11, 2027 | Columbus Day | Same as observed",
+          "source_line": 66,
+          "cells": [
+            "Monday, October 11, 2027",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0LTUS30",
+          "sequence": 45,
+          "type": "table-row",
+          "text": "Thursday, November 11, 2027 | Veterans Day | Same as observed",
+          "source_line": 67,
+          "cells": [
+            "Thursday, November 11, 2027",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I04J1O86",
+          "sequence": 46,
+          "type": "table-row",
+          "text": "Thursday, November 25, 2027 | Thanksgiving Day | Same as observed",
+          "source_line": 68,
+          "cells": [
+            "Thursday, November 25, 2027",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1LCNZMU",
+          "sequence": 47,
+          "type": "table-row",
+          "text": "Friday, December 24, 2027 | Christmas Day | Saturday, December 25, 2027",
+          "source_line": 69,
+          "cells": [
+            "Friday, December 24, 2027",
+            "Christmas Day",
+            "Saturday, December 25, 2027"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "2028",
+      "path": [
+        "2028"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0QWZT4G",
+          "sequence": 48,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 75,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0W5FOGQ",
+          "sequence": 49,
+          "type": "table-row",
+          "text": "Friday, December 31, 2027 | New Year’s Day | Saturday, January 01, 2028",
+          "source_line": 77,
+          "cells": [
+            "Friday, December 31, 2027",
+            "New Year’s Day",
+            "Saturday, January 01, 2028"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1L5BFI6",
+          "sequence": 50,
+          "type": "table-row",
+          "text": "Monday, January 17, 2028 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 78,
+          "cells": [
+            "Monday, January 17, 2028",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0US65WC",
+          "sequence": 51,
+          "type": "table-row",
+          "text": "Monday, February 21, 2028 | Washington’s Birthday | Same as observed",
+          "source_line": 79,
+          "cells": [
+            "Monday, February 21, 2028",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1FYXZ16",
+          "sequence": 52,
+          "type": "table-row",
+          "text": "Monday, May 29, 2028 | Memorial Day | Same as observed",
+          "source_line": 80,
+          "cells": [
+            "Monday, May 29, 2028",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1A9TOP8",
+          "sequence": 53,
+          "type": "table-row",
+          "text": "Monday, June 19, 2028 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 81,
+          "cells": [
+            "Monday, June 19, 2028",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I075LY63",
+          "sequence": 54,
+          "type": "table-row",
+          "text": "Tuesday, July 04, 2028 | Independence Day | Same as observed",
+          "source_line": 82,
+          "cells": [
+            "Tuesday, July 04, 2028",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0POY1Q7",
+          "sequence": 55,
+          "type": "table-row",
+          "text": "Monday, September 04, 2028 | Labor Day | Same as observed",
+          "source_line": 83,
+          "cells": [
+            "Monday, September 04, 2028",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1A8Y9DZ",
+          "sequence": 56,
+          "type": "table-row",
+          "text": "Monday, October 09, 2028 | Columbus Day | Same as observed",
+          "source_line": 84,
+          "cells": [
+            "Monday, October 09, 2028",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I017WXFF",
+          "sequence": 57,
+          "type": "table-row",
+          "text": "Friday, November 10, 2028 | Veterans Day | Saturday, November 11, 2028",
+          "source_line": 85,
+          "cells": [
+            "Friday, November 10, 2028",
+            "Veterans Day",
+            "Saturday, November 11, 2028"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0N0EF74",
+          "sequence": 58,
+          "type": "table-row",
+          "text": "Thursday, November 23, 2028 | Thanksgiving Day | Same as observed",
+          "source_line": 86,
+          "cells": [
+            "Thursday, November 23, 2028",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0BXF81Q",
+          "sequence": 59,
+          "type": "table-row",
+          "text": "Monday, December 25, 2028 | Christmas Day | Same as observed",
+          "source_line": 87,
+          "cells": [
+            "Monday, December 25, 2028",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "2029",
+      "path": [
+        "2029"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YFX0JN",
+          "sequence": 60,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 93,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1AMY484",
+          "sequence": 61,
+          "type": "table-row",
+          "text": "Monday, January 01, 2029 | New Year’s Day | Same as observed",
+          "source_line": 95,
+          "cells": [
+            "Monday, January 01, 2029",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0T02A7Y",
+          "sequence": 62,
+          "type": "table-row",
+          "text": "Monday, January 15, 2029 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 96,
+          "cells": [
+            "Monday, January 15, 2029",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1C2ONHL",
+          "sequence": 63,
+          "type": "table-row",
+          "text": "Monday, February 19, 2029 | Washington’s Birthday | Same as observed",
+          "source_line": 97,
+          "cells": [
+            "Monday, February 19, 2029",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0HZEVQR",
+          "sequence": 64,
+          "type": "table-row",
+          "text": "Monday, May 28, 2029 | Memorial Day | Same as observed",
+          "source_line": 98,
+          "cells": [
+            "Monday, May 28, 2029",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YX3H67",
+          "sequence": 65,
+          "type": "table-row",
+          "text": "Tuesday, June 19, 2029 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 99,
+          "cells": [
+            "Tuesday, June 19, 2029",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0FJVON4",
+          "sequence": 66,
+          "type": "table-row",
+          "text": "Wednesday, July 04, 2029 | Independence Day | Same as observed",
+          "source_line": 100,
+          "cells": [
+            "Wednesday, July 04, 2029",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I15EH2NQ",
+          "sequence": 67,
+          "type": "table-row",
+          "text": "Monday, September 03, 2029 | Labor Day | Same as observed",
+          "source_line": 101,
+          "cells": [
+            "Monday, September 03, 2029",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1J1J0KM",
+          "sequence": 68,
+          "type": "table-row",
+          "text": "Monday, October 08, 2029 | Columbus Day | Same as observed",
+          "source_line": 102,
+          "cells": [
+            "Monday, October 08, 2029",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0J3EX4W",
+          "sequence": 69,
+          "type": "table-row",
+          "text": "Monday, November 12, 2029 | Veterans Day | Sunday, November 11, 2029",
+          "source_line": 103,
+          "cells": [
+            "Monday, November 12, 2029",
+            "Veterans Day",
+            "Sunday, November 11, 2029"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1P5U83J",
+          "sequence": 70,
+          "type": "table-row",
+          "text": "Thursday, November 22, 2029 | Thanksgiving Day | Same as observed",
+          "source_line": 104,
+          "cells": [
+            "Thursday, November 22, 2029",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1N524LZ",
+          "sequence": 71,
+          "type": "table-row",
+          "text": "Tuesday, December 25, 2029 | Christmas Day | Same as observed",
+          "source_line": 105,
+          "cells": [
+            "Tuesday, December 25, 2029",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "2030",
+      "path": [
+        "2030"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0DE0WZD",
+          "sequence": 72,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 111,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0ELFI1T",
+          "sequence": 73,
+          "type": "table-row",
+          "text": "Tuesday, January 01, 2030 | New Year’s Day | Same as observed",
+          "source_line": 113,
+          "cells": [
+            "Tuesday, January 01, 2030",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0OGRN23",
+          "sequence": 74,
+          "type": "table-row",
+          "text": "Monday, January 21, 2030 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 114,
+          "cells": [
+            "Monday, January 21, 2030",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0XLA27K",
+          "sequence": 75,
+          "type": "table-row",
+          "text": "Monday, February 18, 2030 | Washington’s Birthday | Same as observed",
+          "source_line": 115,
+          "cells": [
+            "Monday, February 18, 2030",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1B9LZZ6",
+          "sequence": 76,
+          "type": "table-row",
+          "text": "Monday, May 27, 2030 | Memorial Day | Same as observed",
+          "source_line": 116,
+          "cells": [
+            "Monday, May 27, 2030",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I01YF61Q",
+          "sequence": 77,
+          "type": "table-row",
+          "text": "Wednesday, June 19, 2030 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 117,
+          "cells": [
+            "Wednesday, June 19, 2030",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I131TTFK",
+          "sequence": 78,
+          "type": "table-row",
+          "text": "Thursday, July 04, 2030 | Independence Day | Same as observed",
+          "source_line": 118,
+          "cells": [
+            "Thursday, July 04, 2030",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I071O40R",
+          "sequence": 79,
+          "type": "table-row",
+          "text": "Monday, September 02, 2030 | Labor Day | Same as observed",
+          "source_line": 119,
+          "cells": [
+            "Monday, September 02, 2030",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0F9GCKB",
+          "sequence": 80,
+          "type": "table-row",
+          "text": "Monday, October 14, 2030 | Columbus Day | Same as observed",
+          "source_line": 120,
+          "cells": [
+            "Monday, October 14, 2030",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1WYG77A",
+          "sequence": 81,
+          "type": "table-row",
+          "text": "Monday, November 11, 2030 | Veterans Day | Same as observed",
+          "source_line": 121,
+          "cells": [
+            "Monday, November 11, 2030",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1JGTVQ5",
+          "sequence": 82,
+          "type": "table-row",
+          "text": "Thursday, November 28, 2030 | Thanksgiving Day | Same as observed",
+          "source_line": 122,
+          "cells": [
+            "Thursday, November 28, 2030",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0N9NKDG",
+          "sequence": 83,
+          "type": "table-row",
+          "text": "Wednesday, December 25, 2030 | Christmas Day | Same as observed",
+          "source_line": 123,
+          "cells": [
+            "Wednesday, December 25, 2030",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "2031",
+      "path": [
+        "2031"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1I1HW46",
+          "sequence": 84,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 129,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I09AKQF6",
+          "sequence": 85,
+          "type": "table-row",
+          "text": "Wednesday, January 01, 2031 | New Year’s Day | Same as observed",
+          "source_line": 131,
+          "cells": [
+            "Wednesday, January 01, 2031",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1LVRISK",
+          "sequence": 86,
+          "type": "table-row",
+          "text": "Monday, January 20, 2031 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 132,
+          "cells": [
+            "Monday, January 20, 2031",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1IM68R3",
+          "sequence": 87,
+          "type": "table-row",
+          "text": "Monday, February 17, 2031 | Washington’s Birthday | Same as observed",
+          "source_line": 133,
+          "cells": [
+            "Monday, February 17, 2031",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1T3FGOZ",
+          "sequence": 88,
+          "type": "table-row",
+          "text": "Monday, May 26, 2031 | Memorial Day | Same as observed",
+          "source_line": 134,
+          "cells": [
+            "Monday, May 26, 2031",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0XB1ZLI",
+          "sequence": 89,
+          "type": "table-row",
+          "text": "Thursday, June 19, 2031 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 135,
+          "cells": [
+            "Thursday, June 19, 2031",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1CY6RSZ",
+          "sequence": 90,
+          "type": "table-row",
+          "text": "Friday, July 04, 2031 | Independence Day | Same as observed",
+          "source_line": 136,
+          "cells": [
+            "Friday, July 04, 2031",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0G45V2A",
+          "sequence": 91,
+          "type": "table-row",
+          "text": "Monday, September 01, 2031 | Labor Day | Same as observed",
+          "source_line": 137,
+          "cells": [
+            "Monday, September 01, 2031",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0FQAE24",
+          "sequence": 92,
+          "type": "table-row",
+          "text": "Monday, October 13, 2031 | Columbus Day | Same as observed",
+          "source_line": 138,
+          "cells": [
+            "Monday, October 13, 2031",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1EWD8ZN",
+          "sequence": 93,
+          "type": "table-row",
+          "text": "Tuesday, November 11, 2031 | Veterans Day | Same as observed",
+          "source_line": 139,
+          "cells": [
+            "Tuesday, November 11, 2031",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I06MLI0C",
+          "sequence": 94,
+          "type": "table-row",
+          "text": "Thursday, November 27, 2031 | Thanksgiving Day | Same as observed",
+          "source_line": 140,
+          "cells": [
+            "Thursday, November 27, 2031",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1T59VUK",
+          "sequence": 95,
+          "type": "table-row",
+          "text": "Thursday, December 25, 2031 | Christmas Day | Same as observed",
+          "source_line": 141,
+          "cells": [
+            "Thursday, December 25, 2031",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "2032",
+      "path": [
+        "2032"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0Q0593B",
+          "sequence": 96,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 147,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0VBU2DQ",
+          "sequence": 97,
+          "type": "table-row",
+          "text": "Thursday, January 01, 2032 | New Year’s Day | Same as observed",
+          "source_line": 149,
+          "cells": [
+            "Thursday, January 01, 2032",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I112DIY2",
+          "sequence": 98,
+          "type": "table-row",
+          "text": "Monday, January 19, 2032 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 150,
+          "cells": [
+            "Monday, January 19, 2032",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0NN6OPA",
+          "sequence": 99,
+          "type": "table-row",
+          "text": "Monday, February 16, 2032 | Washington’s Birthday | Same as observed",
+          "source_line": 151,
+          "cells": [
+            "Monday, February 16, 2032",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1LYZOE9",
+          "sequence": 100,
+          "type": "table-row",
+          "text": "Monday, May 31, 2032 | Memorial Day | Same as observed",
+          "source_line": 152,
+          "cells": [
+            "Monday, May 31, 2032",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I00SQI08",
+          "sequence": 101,
+          "type": "table-row",
+          "text": "Friday, June 18, 2032 | Juneteenth National Independence Day | Saturday, June 19, 2032",
+          "source_line": 153,
+          "cells": [
+            "Friday, June 18, 2032",
+            "Juneteenth National Independence Day",
+            "Saturday, June 19, 2032"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1PVJ6T4",
+          "sequence": 102,
+          "type": "table-row",
+          "text": "Monday, July 05, 2032 | Independence Day | Sunday, July 04, 2032",
+          "source_line": 154,
+          "cells": [
+            "Monday, July 05, 2032",
+            "Independence Day",
+            "Sunday, July 04, 2032"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1AA6TE7",
+          "sequence": 103,
+          "type": "table-row",
+          "text": "Monday, September 06, 2032 | Labor Day | Same as observed",
+          "source_line": 155,
+          "cells": [
+            "Monday, September 06, 2032",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I15ZJPG8",
+          "sequence": 104,
+          "type": "table-row",
+          "text": "Monday, October 11, 2032 | Columbus Day | Same as observed",
+          "source_line": 156,
+          "cells": [
+            "Monday, October 11, 2032",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0R7BXNK",
+          "sequence": 105,
+          "type": "table-row",
+          "text": "Thursday, November 11, 2032 | Veterans Day | Same as observed",
+          "source_line": 157,
+          "cells": [
+            "Thursday, November 11, 2032",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1CTJZVM",
+          "sequence": 106,
+          "type": "table-row",
+          "text": "Thursday, November 25, 2032 | Thanksgiving Day | Same as observed",
+          "source_line": 158,
+          "cells": [
+            "Thursday, November 25, 2032",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1EE2C5K",
+          "sequence": 107,
+          "type": "table-row",
+          "text": "Friday, December 24, 2032 | Christmas Day | Saturday, December 25, 2032",
+          "source_line": 159,
+          "cells": [
+            "Friday, December 24, 2032",
+            "Christmas Day",
+            "Saturday, December 25, 2032"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "2033",
+      "path": [
+        "2033"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0MPBOMC",
+          "sequence": 108,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 165,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1IQK1CO",
+          "sequence": 109,
+          "type": "table-row",
+          "text": "Friday, December 31, 2032 | New Year’s Day | Saturday, January 01, 2033",
+          "source_line": 167,
+          "cells": [
+            "Friday, December 31, 2032",
+            "New Year’s Day",
+            "Saturday, January 01, 2033"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1II0OD6",
+          "sequence": 110,
+          "type": "table-row",
+          "text": "Monday, January 17, 2033 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 168,
+          "cells": [
+            "Monday, January 17, 2033",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YXR1WO",
+          "sequence": 111,
+          "type": "table-row",
+          "text": "Monday, February 21, 2033 | Washington’s Birthday | Same as observed",
+          "source_line": 169,
+          "cells": [
+            "Monday, February 21, 2033",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1680ZE0",
+          "sequence": 112,
+          "type": "table-row",
+          "text": "Monday, May 30, 2033 | Memorial Day | Same as observed",
+          "source_line": 170,
+          "cells": [
+            "Monday, May 30, 2033",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I041R1WC",
+          "sequence": 113,
+          "type": "table-row",
+          "text": "Monday, June 20, 2033 | Juneteenth National Independence Day | Sunday, June 19, 2033",
+          "source_line": 171,
+          "cells": [
+            "Monday, June 20, 2033",
+            "Juneteenth National Independence Day",
+            "Sunday, June 19, 2033"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I07M6RHQ",
+          "sequence": 114,
+          "type": "table-row",
+          "text": "Monday, July 04, 2033 | Independence Day | Same as observed",
+          "source_line": 172,
+          "cells": [
+            "Monday, July 04, 2033",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1CIM94Y",
+          "sequence": 115,
+          "type": "table-row",
+          "text": "Monday, September 05, 2033 | Labor Day | Same as observed",
+          "source_line": 173,
+          "cells": [
+            "Monday, September 05, 2033",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1AYLY01",
+          "sequence": 116,
+          "type": "table-row",
+          "text": "Monday, October 10, 2033 | Columbus Day | Same as observed",
+          "source_line": 174,
+          "cells": [
+            "Monday, October 10, 2033",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I05IRWKZ",
+          "sequence": 117,
+          "type": "table-row",
+          "text": "Friday, November 11, 2033 | Veterans Day | Same as observed",
+          "source_line": 175,
+          "cells": [
+            "Friday, November 11, 2033",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I046YMAH",
+          "sequence": 118,
+          "type": "table-row",
+          "text": "Thursday, November 24, 2033 | Thanksgiving Day | Same as observed",
+          "source_line": 176,
+          "cells": [
+            "Thursday, November 24, 2033",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0710WBP",
+          "sequence": 119,
+          "type": "table-row",
+          "text": "Monday, December 26, 2033 | Christmas Day | Sunday, December 25, 2033",
+          "source_line": 177,
+          "cells": [
+            "Monday, December 26, 2033",
+            "Christmas Day",
+            "Sunday, December 25, 2033"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "2034",
+      "path": [
+        "2034"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I15RUZ6T",
+          "sequence": 120,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 183,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I01574YJ",
+          "sequence": 121,
+          "type": "table-row",
+          "text": "Monday, January 02, 2034 | New Year’s Day | Sunday, January 01, 2034",
+          "source_line": 185,
+          "cells": [
+            "Monday, January 02, 2034",
+            "New Year’s Day",
+            "Sunday, January 01, 2034"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0L6WTT5",
+          "sequence": 122,
+          "type": "table-row",
+          "text": "Monday, January 16, 2034 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 186,
+          "cells": [
+            "Monday, January 16, 2034",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0TPU01H",
+          "sequence": 123,
+          "type": "table-row",
+          "text": "Monday, February 20, 2034 | Washington’s Birthday | Same as observed",
+          "source_line": 187,
+          "cells": [
+            "Monday, February 20, 2034",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1XNS5ZW",
+          "sequence": 124,
+          "type": "table-row",
+          "text": "Monday, May 29, 2034 | Memorial Day | Same as observed",
+          "source_line": 188,
+          "cells": [
+            "Monday, May 29, 2034",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0LDX5OG",
+          "sequence": 125,
+          "type": "table-row",
+          "text": "Monday, June 19, 2034 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 189,
+          "cells": [
+            "Monday, June 19, 2034",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0E275P5",
+          "sequence": 126,
+          "type": "table-row",
+          "text": "Tuesday, July 04, 2034 | Independence Day | Same as observed",
+          "source_line": 190,
+          "cells": [
+            "Tuesday, July 04, 2034",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I04OVQAL",
+          "sequence": 127,
+          "type": "table-row",
+          "text": "Monday, September 04, 2034 | Labor Day | Same as observed",
+          "source_line": 191,
+          "cells": [
+            "Monday, September 04, 2034",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0R9E3EX",
+          "sequence": 128,
+          "type": "table-row",
+          "text": "Monday, October 09, 2034 | Columbus Day | Same as observed",
+          "source_line": 192,
+          "cells": [
+            "Monday, October 09, 2034",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1NR7XMM",
+          "sequence": 129,
+          "type": "table-row",
+          "text": "Friday, November 10, 2034 | Veterans Day | Saturday, November 11, 2034",
+          "source_line": 193,
+          "cells": [
+            "Friday, November 10, 2034",
+            "Veterans Day",
+            "Saturday, November 11, 2034"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0GYQH84",
+          "sequence": 130,
+          "type": "table-row",
+          "text": "Thursday, November 23, 2034 | Thanksgiving Day | Same as observed",
+          "source_line": 194,
+          "cells": [
+            "Thursday, November 23, 2034",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I19NZ402",
+          "sequence": 131,
+          "type": "table-row",
+          "text": "Monday, December 25, 2034 | Christmas Day | Same as observed",
+          "source_line": 195,
+          "cells": [
+            "Monday, December 25, 2034",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "2035",
+      "path": [
+        "2035"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1QWB6EA",
+          "sequence": 132,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 201,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0ZUTF92",
+          "sequence": 133,
+          "type": "table-row",
+          "text": "Monday, January 01, 2035 | New Year’s Day | Same as observed",
+          "source_line": 203,
+          "cells": [
+            "Monday, January 01, 2035",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0QENGOG",
+          "sequence": 134,
+          "type": "table-row",
+          "text": "Monday, January 15, 2035 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 204,
+          "cells": [
+            "Monday, January 15, 2035",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0MMVS8H",
+          "sequence": 135,
+          "type": "table-row",
+          "text": "Monday, February 19, 2035 | Washington’s Birthday | Same as observed",
+          "source_line": 205,
+          "cells": [
+            "Monday, February 19, 2035",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1V5CFMX",
+          "sequence": 136,
+          "type": "table-row",
+          "text": "Monday, May 28, 2035 | Memorial Day | Same as observed",
+          "source_line": 206,
+          "cells": [
+            "Monday, May 28, 2035",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1EJY0LL",
+          "sequence": 137,
+          "type": "table-row",
+          "text": "Tuesday, June 19, 2035 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 207,
+          "cells": [
+            "Tuesday, June 19, 2035",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I10WNA1E",
+          "sequence": 138,
+          "type": "table-row",
+          "text": "Wednesday, July 04, 2035 | Independence Day | Same as observed",
+          "source_line": 208,
+          "cells": [
+            "Wednesday, July 04, 2035",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0HS2FC0",
+          "sequence": 139,
+          "type": "table-row",
+          "text": "Monday, September 03, 2035 | Labor Day | Same as observed",
+          "source_line": 209,
+          "cells": [
+            "Monday, September 03, 2035",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I011OAB0",
+          "sequence": 140,
+          "type": "table-row",
+          "text": "Monday, October 08, 2035 | Columbus Day | Same as observed",
+          "source_line": 210,
+          "cells": [
+            "Monday, October 08, 2035",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0DMOYAP",
+          "sequence": 141,
+          "type": "table-row",
+          "text": "Monday, November 12, 2035 | Veterans Day | Sunday, November 11, 2035",
+          "source_line": 211,
+          "cells": [
+            "Monday, November 12, 2035",
+            "Veterans Day",
+            "Sunday, November 11, 2035"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0U9Y0SZ",
+          "sequence": 142,
+          "type": "table-row",
+          "text": "Thursday, November 22, 2035 | Thanksgiving Day | Same as observed",
+          "source_line": 212,
+          "cells": [
+            "Thursday, November 22, 2035",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I057CGU5",
+          "sequence": 143,
+          "type": "table-row",
+          "text": "Tuesday, December 25, 2035 | Christmas Day | Same as observed",
+          "source_line": 213,
+          "cells": [
+            "Tuesday, December 25, 2035",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "2036",
+      "path": [
+        "2036"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I10JKWYB",
+          "sequence": 144,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 219,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1639ZO5",
+          "sequence": 145,
+          "type": "table-row",
+          "text": "Tuesday, January 01, 2036 | New Year’s Day | Same as observed",
+          "source_line": 221,
+          "cells": [
+            "Tuesday, January 01, 2036",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I02KQ34Z",
+          "sequence": 146,
+          "type": "table-row",
+          "text": "Monday, January 21, 2036 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 222,
+          "cells": [
+            "Monday, January 21, 2036",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1OF6AS0",
+          "sequence": 147,
+          "type": "table-row",
+          "text": "Monday, February 18, 2036 | Washington’s Birthday | Same as observed",
+          "source_line": 223,
+          "cells": [
+            "Monday, February 18, 2036",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1KIZNVL",
+          "sequence": 148,
+          "type": "table-row",
+          "text": "Monday, May 26, 2036 | Memorial Day | Same as observed",
+          "source_line": 224,
+          "cells": [
+            "Monday, May 26, 2036",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0XMFOJI",
+          "sequence": 149,
+          "type": "table-row",
+          "text": "Thursday, June 19, 2036 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 225,
+          "cells": [
+            "Thursday, June 19, 2036",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0UXTLVF",
+          "sequence": 150,
+          "type": "table-row",
+          "text": "Friday, July 04, 2036 | Independence Day | Same as observed",
+          "source_line": 226,
+          "cells": [
+            "Friday, July 04, 2036",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0AX2H10",
+          "sequence": 151,
+          "type": "table-row",
+          "text": "Monday, September 01, 2036 | Labor Day | Same as observed",
+          "source_line": 227,
+          "cells": [
+            "Monday, September 01, 2036",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0CO9FI2",
+          "sequence": 152,
+          "type": "table-row",
+          "text": "Monday, October 13, 2036 | Columbus Day | Same as observed",
+          "source_line": 228,
+          "cells": [
+            "Monday, October 13, 2036",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1TN0MH1",
+          "sequence": 153,
+          "type": "table-row",
+          "text": "Tuesday, November 11, 2036 | Veterans Day | Same as observed",
+          "source_line": 229,
+          "cells": [
+            "Tuesday, November 11, 2036",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0OR3K5O",
+          "sequence": 154,
+          "type": "table-row",
+          "text": "Thursday, November 27, 2036 | Thanksgiving Day | Same as observed",
+          "source_line": 230,
+          "cells": [
+            "Thursday, November 27, 2036",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0OKZOU8",
+          "sequence": 155,
+          "type": "table-row",
+          "text": "Thursday, December 25, 2036 | Christmas Day | Same as observed",
+          "source_line": 231,
+          "cells": [
+            "Thursday, December 25, 2036",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "2037",
+      "path": [
+        "2037"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I05FMI0W",
+          "sequence": 156,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 237,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0OC3VZ4",
+          "sequence": 157,
+          "type": "table-row",
+          "text": "Thursday, January 01, 2037 | New Year’s Day | Same as observed",
+          "source_line": 239,
+          "cells": [
+            "Thursday, January 01, 2037",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0LI2EOK",
+          "sequence": 158,
+          "type": "table-row",
+          "text": "Monday, January 19, 2037 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 240,
+          "cells": [
+            "Monday, January 19, 2037",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0DFXJRM",
+          "sequence": 159,
+          "type": "table-row",
+          "text": "Monday, February 16, 2037 | Washington’s Birthday | Same as observed",
+          "source_line": 241,
+          "cells": [
+            "Monday, February 16, 2037",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I05IHGYY",
+          "sequence": 160,
+          "type": "table-row",
+          "text": "Monday, May 25, 2037 | Memorial Day | Same as observed",
+          "source_line": 242,
+          "cells": [
+            "Monday, May 25, 2037",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1P04T5L",
+          "sequence": 161,
+          "type": "table-row",
+          "text": "Friday, June 19, 2037 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 243,
+          "cells": [
+            "Friday, June 19, 2037",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0C5XT4F",
+          "sequence": 162,
+          "type": "table-row",
+          "text": "Friday, July 03, 2037 | Independence Day | Saturday, July 04, 2037",
+          "source_line": 244,
+          "cells": [
+            "Friday, July 03, 2037",
+            "Independence Day",
+            "Saturday, July 04, 2037"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0RL8FK0",
+          "sequence": 163,
+          "type": "table-row",
+          "text": "Monday, September 07, 2037 | Labor Day | Same as observed",
+          "source_line": 245,
+          "cells": [
+            "Monday, September 07, 2037",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1INU3P3",
+          "sequence": 164,
+          "type": "table-row",
+          "text": "Monday, October 12, 2037 | Columbus Day | Same as observed",
+          "source_line": 246,
+          "cells": [
+            "Monday, October 12, 2037",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0V0QUJY",
+          "sequence": 165,
+          "type": "table-row",
+          "text": "Wednesday, November 11, 2037 | Veterans Day | Same as observed",
+          "source_line": 247,
+          "cells": [
+            "Wednesday, November 11, 2037",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0R4ND6Z",
+          "sequence": 166,
+          "type": "table-row",
+          "text": "Thursday, November 26, 2037 | Thanksgiving Day | Same as observed",
+          "source_line": 248,
+          "cells": [
+            "Thursday, November 26, 2037",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1SFI7QH",
+          "sequence": 167,
+          "type": "table-row",
+          "text": "Friday, December 25, 2037 | Christmas Day | Same as observed",
+          "source_line": 249,
+          "cells": [
+            "Friday, December 25, 2037",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "2038",
+      "path": [
+        "2038"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1F36HCH",
+          "sequence": 168,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 255,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0JV1GKB",
+          "sequence": 169,
+          "type": "table-row",
+          "text": "Friday, January 01, 2038 | New Year’s Day | Same as observed",
+          "source_line": 257,
+          "cells": [
+            "Friday, January 01, 2038",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I08XKC5R",
+          "sequence": 170,
+          "type": "table-row",
+          "text": "Monday, January 18, 2038 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 258,
+          "cells": [
+            "Monday, January 18, 2038",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0VK6GE9",
+          "sequence": 171,
+          "type": "table-row",
+          "text": "Monday, February 15, 2038 | Washington’s Birthday | Same as observed",
+          "source_line": 259,
+          "cells": [
+            "Monday, February 15, 2038",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1EB8SPH",
+          "sequence": 172,
+          "type": "table-row",
+          "text": "Monday, May 31, 2038 | Memorial Day | Same as observed",
+          "source_line": 260,
+          "cells": [
+            "Monday, May 31, 2038",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1L8OQLQ",
+          "sequence": 173,
+          "type": "table-row",
+          "text": "Friday, June 18, 2038 | Juneteenth National Independence Day | Saturday, June 19, 2038",
+          "source_line": 261,
+          "cells": [
+            "Friday, June 18, 2038",
+            "Juneteenth National Independence Day",
+            "Saturday, June 19, 2038"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1S7ZM06",
+          "sequence": 174,
+          "type": "table-row",
+          "text": "Monday, July 05, 2038 | Independence Day | Sunday, July 04, 2038",
+          "source_line": 262,
+          "cells": [
+            "Monday, July 05, 2038",
+            "Independence Day",
+            "Sunday, July 04, 2038"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0ZR03Q7",
+          "sequence": 175,
+          "type": "table-row",
+          "text": "Monday, September 06, 2038 | Labor Day | Same as observed",
+          "source_line": 263,
+          "cells": [
+            "Monday, September 06, 2038",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I06QMPBC",
+          "sequence": 176,
+          "type": "table-row",
+          "text": "Monday, October 11, 2038 | Columbus Day | Same as observed",
+          "source_line": 264,
+          "cells": [
+            "Monday, October 11, 2038",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0HE93T4",
+          "sequence": 177,
+          "type": "table-row",
+          "text": "Thursday, November 11, 2038 | Veterans Day | Same as observed",
+          "source_line": 265,
+          "cells": [
+            "Thursday, November 11, 2038",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1AVCFX2",
+          "sequence": 178,
+          "type": "table-row",
+          "text": "Thursday, November 25, 2038 | Thanksgiving Day | Same as observed",
+          "source_line": 266,
+          "cells": [
+            "Thursday, November 25, 2038",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0BUCII2",
+          "sequence": 179,
+          "type": "table-row",
+          "text": "Friday, December 24, 2038 | Christmas Day | Saturday, December 25, 2038",
+          "source_line": 267,
+          "cells": [
+            "Friday, December 24, 2038",
+            "Christmas Day",
+            "Saturday, December 25, 2038"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "2039",
+      "path": [
+        "2039"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1VVKZKE",
+          "sequence": 180,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 273,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I061CJK6",
+          "sequence": 181,
+          "type": "table-row",
+          "text": "Friday, December 31, 2038 | New Year’s Day | Saturday, January 01, 2039",
+          "source_line": 275,
+          "cells": [
+            "Friday, December 31, 2038",
+            "New Year’s Day",
+            "Saturday, January 01, 2039"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I07JHZ82",
+          "sequence": 182,
+          "type": "table-row",
+          "text": "Monday, January 17, 2039 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 276,
+          "cells": [
+            "Monday, January 17, 2039",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I12EDC4S",
+          "sequence": 183,
+          "type": "table-row",
+          "text": "Monday, February 21, 2039 | Washington’s Birthday | Same as observed",
+          "source_line": 277,
+          "cells": [
+            "Monday, February 21, 2039",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0THAKTK",
+          "sequence": 184,
+          "type": "table-row",
+          "text": "Monday, May 30, 2039 | Memorial Day | Same as observed",
+          "source_line": 278,
+          "cells": [
+            "Monday, May 30, 2039",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1061W9E",
+          "sequence": 185,
+          "type": "table-row",
+          "text": "Monday, June 20, 2039 | Juneteenth National Independence Day | Sunday, June 19, 2039",
+          "source_line": 279,
+          "cells": [
+            "Monday, June 20, 2039",
+            "Juneteenth National Independence Day",
+            "Sunday, June 19, 2039"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0R7V65Q",
+          "sequence": 186,
+          "type": "table-row",
+          "text": "Monday, July 04, 2039 | Independence Day | Same as observed",
+          "source_line": 280,
+          "cells": [
+            "Monday, July 04, 2039",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0POMG9Y",
+          "sequence": 187,
+          "type": "table-row",
+          "text": "Monday, September 05, 2039 | Labor Day | Same as observed",
+          "source_line": 281,
+          "cells": [
+            "Monday, September 05, 2039",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0E27W0L",
+          "sequence": 188,
+          "type": "table-row",
+          "text": "Monday, October 10, 2039 | Columbus Day | Same as observed",
+          "source_line": 282,
+          "cells": [
+            "Monday, October 10, 2039",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I15V1FLF",
+          "sequence": 189,
+          "type": "table-row",
+          "text": "Friday, November 11, 2039 | Veterans Day | Same as observed",
+          "source_line": 283,
+          "cells": [
+            "Friday, November 11, 2039",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I14DK1BH",
+          "sequence": 190,
+          "type": "table-row",
+          "text": "Thursday, November 24, 2039 | Thanksgiving Day | Same as observed",
+          "source_line": 284,
+          "cells": [
+            "Thursday, November 24, 2039",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1VF4VBJ",
+          "sequence": 191,
+          "type": "table-row",
+          "text": "Monday, December 26, 2039 | Christmas Day | Sunday, December 25, 2039",
+          "source_line": 285,
+          "cells": [
+            "Monday, December 26, 2039",
+            "Christmas Day",
+            "Sunday, December 25, 2039"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "2040",
+      "path": [
+        "2040"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I00Z8ZVI",
+          "sequence": 192,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 291,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1X2YU62",
+          "sequence": 193,
+          "type": "table-row",
+          "text": "Monday, January 02, 2040 | New Year’s Day | Sunday, January 01, 2040",
+          "source_line": 293,
+          "cells": [
+            "Monday, January 02, 2040",
+            "New Year’s Day",
+            "Sunday, January 01, 2040"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1I24347",
+          "sequence": 194,
+          "type": "table-row",
+          "text": "Monday, January 16, 2040 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 294,
+          "cells": [
+            "Monday, January 16, 2040",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1H5PAJD",
+          "sequence": 195,
+          "type": "table-row",
+          "text": "Monday, February 20, 2040 | Washington’s Birthday | Same as observed",
+          "source_line": 295,
+          "cells": [
+            "Monday, February 20, 2040",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I18Q1MZ1",
+          "sequence": 196,
+          "type": "table-row",
+          "text": "Monday, May 28, 2040 | Memorial Day | Same as observed",
+          "source_line": 296,
+          "cells": [
+            "Monday, May 28, 2040",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I17KSGKP",
+          "sequence": 197,
+          "type": "table-row",
+          "text": "Tuesday, June 19, 2040 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 297,
+          "cells": [
+            "Tuesday, June 19, 2040",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I11ZX12U",
+          "sequence": 198,
+          "type": "table-row",
+          "text": "Wednesday, July 04, 2040 | Independence Day | Same as observed",
+          "source_line": 298,
+          "cells": [
+            "Wednesday, July 04, 2040",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I17WFOIO",
+          "sequence": 199,
+          "type": "table-row",
+          "text": "Monday, September 03, 2040 | Labor Day | Same as observed",
+          "source_line": 299,
+          "cells": [
+            "Monday, September 03, 2040",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0A3FF5W",
+          "sequence": 200,
+          "type": "table-row",
+          "text": "Monday, October 08, 2040 | Columbus Day | Same as observed",
+          "source_line": 300,
+          "cells": [
+            "Monday, October 08, 2040",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0DBYLGP",
+          "sequence": 201,
+          "type": "table-row",
+          "text": "Monday, November 12, 2040 | Veterans Day | Sunday, November 11, 2040",
+          "source_line": 301,
+          "cells": [
+            "Monday, November 12, 2040",
+            "Veterans Day",
+            "Sunday, November 11, 2040"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I198RLD7",
+          "sequence": 202,
+          "type": "table-row",
+          "text": "Thursday, November 22, 2040 | Thanksgiving Day | Same as observed",
+          "source_line": 302,
+          "cells": [
+            "Thursday, November 22, 2040",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0PINT3T",
+          "sequence": 203,
+          "type": "table-row",
+          "text": "Tuesday, December 25, 2040 | Christmas Day | Same as observed",
+          "source_line": 303,
+          "cells": [
+            "Tuesday, December 25, 2040",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "2041",
+      "path": [
+        "2041"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0BVH2CH",
+          "sequence": 204,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 309,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0GYK0YL",
+          "sequence": 205,
+          "type": "table-row",
+          "text": "Tuesday, January 01, 2041 | New Year’s Day | Same as observed",
+          "source_line": 311,
+          "cells": [
+            "Tuesday, January 01, 2041",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0CUZNJR",
+          "sequence": 206,
+          "type": "table-row",
+          "text": "Monday, January 21, 2041 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 312,
+          "cells": [
+            "Monday, January 21, 2041",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1T1SMIW",
+          "sequence": 207,
+          "type": "table-row",
+          "text": "Monday, February 18, 2041 | Washington’s Birthday | Same as observed",
+          "source_line": 313,
+          "cells": [
+            "Monday, February 18, 2041",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0JX8GVQ",
+          "sequence": 208,
+          "type": "table-row",
+          "text": "Monday, May 27, 2041 | Memorial Day | Same as observed",
+          "source_line": 314,
+          "cells": [
+            "Monday, May 27, 2041",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0F2LONY",
+          "sequence": 209,
+          "type": "table-row",
+          "text": "Wednesday, June 19, 2041 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 315,
+          "cells": [
+            "Wednesday, June 19, 2041",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0VVKWGO",
+          "sequence": 210,
+          "type": "table-row",
+          "text": "Thursday, July 04, 2041 | Independence Day | Same as observed",
+          "source_line": 316,
+          "cells": [
+            "Thursday, July 04, 2041",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0EWZ6QN",
+          "sequence": 211,
+          "type": "table-row",
+          "text": "Monday, September 02, 2041 | Labor Day | Same as observed",
+          "source_line": 317,
+          "cells": [
+            "Monday, September 02, 2041",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I10GDIZN",
+          "sequence": 212,
+          "type": "table-row",
+          "text": "Monday, October 14, 2041 | Columbus Day | Same as observed",
+          "source_line": 318,
+          "cells": [
+            "Monday, October 14, 2041",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1L05HI6",
+          "sequence": 213,
+          "type": "table-row",
+          "text": "Monday, November 11, 2041 | Veterans Day | Same as observed",
+          "source_line": 319,
+          "cells": [
+            "Monday, November 11, 2041",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1BRQ8SX",
+          "sequence": 214,
+          "type": "table-row",
+          "text": "Thursday, November 28, 2041 | Thanksgiving Day | Same as observed",
+          "source_line": 320,
+          "cells": [
+            "Thursday, November 28, 2041",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1TS7PYO",
+          "sequence": 215,
+          "type": "table-row",
+          "text": "Wednesday, December 25, 2041 | Christmas Day | Same as observed",
+          "source_line": 321,
+          "cells": [
+            "Wednesday, December 25, 2041",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "2042",
+      "path": [
+        "2042"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1RY2V4C",
+          "sequence": 216,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 327,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1GY43XA",
+          "sequence": 217,
+          "type": "table-row",
+          "text": "Wednesday, January 01, 2042 | New Year’s Day | Same as observed",
+          "source_line": 329,
+          "cells": [
+            "Wednesday, January 01, 2042",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1V254WS",
+          "sequence": 218,
+          "type": "table-row",
+          "text": "Monday, January 20, 2042 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 330,
+          "cells": [
+            "Monday, January 20, 2042",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I050ZA4F",
+          "sequence": 219,
+          "type": "table-row",
+          "text": "Monday, February 17, 2042 | Washington’s Birthday | Same as observed",
+          "source_line": 331,
+          "cells": [
+            "Monday, February 17, 2042",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1PWT4ZF",
+          "sequence": 220,
+          "type": "table-row",
+          "text": "Monday, May 26, 2042 | Memorial Day | Same as observed",
+          "source_line": 332,
+          "cells": [
+            "Monday, May 26, 2042",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I194GORE",
+          "sequence": 221,
+          "type": "table-row",
+          "text": "Thursday, June 19, 2042 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 333,
+          "cells": [
+            "Thursday, June 19, 2042",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0YI4YMJ",
+          "sequence": 222,
+          "type": "table-row",
+          "text": "Friday, July 04, 2042 | Independence Day | Same as observed",
+          "source_line": 334,
+          "cells": [
+            "Friday, July 04, 2042",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1AJH2QU",
+          "sequence": 223,
+          "type": "table-row",
+          "text": "Monday, September 01, 2042 | Labor Day | Same as observed",
+          "source_line": 335,
+          "cells": [
+            "Monday, September 01, 2042",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0LOUG10",
+          "sequence": 224,
+          "type": "table-row",
+          "text": "Monday, October 13, 2042 | Columbus Day | Same as observed",
+          "source_line": 336,
+          "cells": [
+            "Monday, October 13, 2042",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YXEY9F",
+          "sequence": 225,
+          "type": "table-row",
+          "text": "Tuesday, November 11, 2042 | Veterans Day | Same as observed",
+          "source_line": 337,
+          "cells": [
+            "Tuesday, November 11, 2042",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I18YF5WK",
+          "sequence": 226,
+          "type": "table-row",
+          "text": "Thursday, November 27, 2042 | Thanksgiving Day | Same as observed",
+          "source_line": 338,
+          "cells": [
+            "Thursday, November 27, 2042",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I07BM3G0",
+          "sequence": 227,
+          "type": "table-row",
+          "text": "Thursday, December 25, 2042 | Christmas Day | Same as observed",
+          "source_line": 339,
+          "cells": [
+            "Thursday, December 25, 2042",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "2043",
+      "path": [
+        "2043"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I19CEK3Z",
+          "sequence": 228,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 345,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I07SNLNQ",
+          "sequence": 229,
+          "type": "table-row",
+          "text": "Thursday, January 01, 2043 | New Year’s Day | Same as observed",
+          "source_line": 347,
+          "cells": [
+            "Thursday, January 01, 2043",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I011FCRE",
+          "sequence": 230,
+          "type": "table-row",
+          "text": "Monday, January 19, 2043 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 348,
+          "cells": [
+            "Monday, January 19, 2043",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1RMZLJQ",
+          "sequence": 231,
+          "type": "table-row",
+          "text": "Monday, February 16, 2043 | Washington’s Birthday | Same as observed",
+          "source_line": 349,
+          "cells": [
+            "Monday, February 16, 2043",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0ZPO48S",
+          "sequence": 232,
+          "type": "table-row",
+          "text": "Monday, May 25, 2043 | Memorial Day | Same as observed",
+          "source_line": 350,
+          "cells": [
+            "Monday, May 25, 2043",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1X7FCVX",
+          "sequence": 233,
+          "type": "table-row",
+          "text": "Friday, June 19, 2043 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 351,
+          "cells": [
+            "Friday, June 19, 2043",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1K65FCK",
+          "sequence": 234,
+          "type": "table-row",
+          "text": "Friday, July 03, 2043 | Independence Day | Saturday, July 04, 2043",
+          "source_line": 352,
+          "cells": [
+            "Friday, July 03, 2043",
+            "Independence Day",
+            "Saturday, July 04, 2043"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1J5C4JU",
+          "sequence": 235,
+          "type": "table-row",
+          "text": "Monday, September 07, 2043 | Labor Day | Same as observed",
+          "source_line": 353,
+          "cells": [
+            "Monday, September 07, 2043",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1PTGCX5",
+          "sequence": 236,
+          "type": "table-row",
+          "text": "Monday, October 12, 2043 | Columbus Day | Same as observed",
+          "source_line": 354,
+          "cells": [
+            "Monday, October 12, 2043",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0AEPDU0",
+          "sequence": 237,
+          "type": "table-row",
+          "text": "Wednesday, November 11, 2043 | Veterans Day | Same as observed",
+          "source_line": 355,
+          "cells": [
+            "Wednesday, November 11, 2043",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1MODUDF",
+          "sequence": 238,
+          "type": "table-row",
+          "text": "Thursday, November 26, 2043 | Thanksgiving Day | Same as observed",
+          "source_line": 356,
+          "cells": [
+            "Thursday, November 26, 2043",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1UBYLM9",
+          "sequence": 239,
+          "type": "table-row",
+          "text": "Friday, December 25, 2043 | Christmas Day | Same as observed",
+          "source_line": 357,
+          "cells": [
+            "Friday, December 25, 2043",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "2044",
+      "path": [
+        "2044"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I12AMGTM",
+          "sequence": 240,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 363,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0ODVBDD",
+          "sequence": 241,
+          "type": "table-row",
+          "text": "Friday, January 01, 2044 | New Year’s Day | Same as observed",
+          "source_line": 365,
+          "cells": [
+            "Friday, January 01, 2044",
+            "New Year’s Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0X0FQ5P",
+          "sequence": 242,
+          "type": "table-row",
+          "text": "Monday, January 18, 2044 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 366,
+          "cells": [
+            "Monday, January 18, 2044",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0XD52WT",
+          "sequence": 243,
+          "type": "table-row",
+          "text": "Monday, February 15, 2044 | Washington’s Birthday | Same as observed",
+          "source_line": 367,
+          "cells": [
+            "Monday, February 15, 2044",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1Y8HCOW",
+          "sequence": 244,
+          "type": "table-row",
+          "text": "Monday, May 30, 2044 | Memorial Day | Same as observed",
+          "source_line": 368,
+          "cells": [
+            "Monday, May 30, 2044",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I15AVW2I",
+          "sequence": 245,
+          "type": "table-row",
+          "text": "Monday, June 20, 2044 | Juneteenth National Independence Day | Sunday, June 19, 2044",
+          "source_line": 369,
+          "cells": [
+            "Monday, June 20, 2044",
+            "Juneteenth National Independence Day",
+            "Sunday, June 19, 2044"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0ME2DPM",
+          "sequence": 246,
+          "type": "table-row",
+          "text": "Monday, July 04, 2044 | Independence Day | Same as observed",
+          "source_line": 370,
+          "cells": [
+            "Monday, July 04, 2044",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1ECWQ8I",
+          "sequence": 247,
+          "type": "table-row",
+          "text": "Monday, September 05, 2044 | Labor Day | Same as observed",
+          "source_line": 371,
+          "cells": [
+            "Monday, September 05, 2044",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1GQLXSH",
+          "sequence": 248,
+          "type": "table-row",
+          "text": "Monday, October 10, 2044 | Columbus Day | Same as observed",
+          "source_line": 372,
+          "cells": [
+            "Monday, October 10, 2044",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0URN3T3",
+          "sequence": 249,
+          "type": "table-row",
+          "text": "Friday, November 11, 2044 | Veterans Day | Same as observed",
+          "source_line": 373,
+          "cells": [
+            "Friday, November 11, 2044",
+            "Veterans Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1ST20ZD",
+          "sequence": 250,
+          "type": "table-row",
+          "text": "Thursday, November 24, 2044 | Thanksgiving Day | Same as observed",
+          "source_line": 374,
+          "cells": [
+            "Thursday, November 24, 2044",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1J8WHAB",
+          "sequence": 251,
+          "type": "table-row",
+          "text": "Monday, December 26, 2044 | Christmas Day | Sunday, December 25, 2044",
+          "source_line": 375,
+          "cells": [
+            "Monday, December 26, 2044",
+            "Christmas Day",
+            "Sunday, December 25, 2044"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "2045",
+      "path": [
+        "2045"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1BF6XZH",
+          "sequence": 252,
+          "type": "table-row",
+          "text": "Observed date | Holiday | Actual date",
+          "source_line": 381,
+          "cells": [
+            "Observed date",
+            "Holiday",
+            "Actual date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0JUH1UR",
+          "sequence": 253,
+          "type": "table-row",
+          "text": "Monday, January 02, 2045 | New Year’s Day | Sunday, January 01, 2045",
+          "source_line": 383,
+          "cells": [
+            "Monday, January 02, 2045",
+            "New Year’s Day",
+            "Sunday, January 01, 2045"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I01QWTLT",
+          "sequence": 254,
+          "type": "table-row",
+          "text": "Monday, January 16, 2045 | Birthday of Martin Luther King, Jr. | Same as observed",
+          "source_line": 384,
+          "cells": [
+            "Monday, January 16, 2045",
+            "Birthday of Martin Luther King, Jr.",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1YSC36L",
+          "sequence": 255,
+          "type": "table-row",
+          "text": "Monday, February 20, 2045 | Washington’s Birthday | Same as observed",
+          "source_line": 385,
+          "cells": [
+            "Monday, February 20, 2045",
+            "Washington’s Birthday",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1UYYVX0",
+          "sequence": 256,
+          "type": "table-row",
+          "text": "Monday, May 29, 2045 | Memorial Day | Same as observed",
+          "source_line": 386,
+          "cells": [
+            "Monday, May 29, 2045",
+            "Memorial Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0QQYFJ8",
+          "sequence": 257,
+          "type": "table-row",
+          "text": "Monday, June 19, 2045 | Juneteenth National Independence Day | Same as observed",
+          "source_line": 387,
+          "cells": [
+            "Monday, June 19, 2045",
+            "Juneteenth National Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I03VDLL9",
+          "sequence": 258,
+          "type": "table-row",
+          "text": "Tuesday, July 04, 2045 | Independence Day | Same as observed",
+          "source_line": 388,
+          "cells": [
+            "Tuesday, July 04, 2045",
+            "Independence Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I154RVED",
+          "sequence": 259,
+          "type": "table-row",
+          "text": "Monday, September 04, 2045 | Labor Day | Same as observed",
+          "source_line": 389,
+          "cells": [
+            "Monday, September 04, 2045",
+            "Labor Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1NK5WDX",
+          "sequence": 260,
+          "type": "table-row",
+          "text": "Monday, October 09, 2045 | Columbus Day | Same as observed",
+          "source_line": 390,
+          "cells": [
+            "Monday, October 09, 2045",
+            "Columbus Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0GDPFHM",
+          "sequence": 261,
+          "type": "table-row",
+          "text": "Friday, November 10, 2045 | Veterans Day | Saturday, November 11, 2045",
+          "source_line": 391,
+          "cells": [
+            "Friday, November 10, 2045",
+            "Veterans Day",
+            "Saturday, November 11, 2045"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I13I7OS4",
+          "sequence": 262,
+          "type": "table-row",
+          "text": "Thursday, November 23, 2045 | Thanksgiving Day | Same as observed",
+          "source_line": 392,
+          "cells": [
+            "Thursday, November 23, 2045",
+            "Thanksgiving Day",
+            "Same as observed"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I1G4PYWI",
+          "sequence": 263,
+          "type": "table-row",
+          "text": "Monday, December 25, 2045 | Christmas Day | Same as observed",
+          "source_line": 393,
+          "cells": [
+            "Monday, December 25, 2045",
+            "Christmas Day",
+            "Same as observed"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-HOLIDAY-CALENDARS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Authoritative references",
+      "path": [
+        "Authoritative references"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0T61GX4",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "U.S. Office of Personnel Management — Federal Holidays",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I18NWR6F",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "U.S. Office of Personnel Management — Federal Holidays “In Lieu Of” Determination",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-HOLIDAY-CALENDARS-I0MTPPUY",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "5 U.S.C. § 6103 — Holidays",
+          "source_line": 401
+        }
+      ]
+    }
+  ]
+}

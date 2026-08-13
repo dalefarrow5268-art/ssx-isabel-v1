@@ -1,0 +1,4821 @@
+{
+  "department_id": "SSX-SUP-JURISDICTION-AND-AHJ",
+  "slug": "jurisdiction-and-ahj",
+  "title": "Jurisdiction And Ahj",
+  "document_title": "SSX Master Construction Jurisdiction and AHJ Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/jurisdiction-and-ahj/MASTER_JURISDICTION_AND_AHJ_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 31,
+    "items": 638
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0OKZARL",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Authority and department",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CCHOOS",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Jurisdiction level",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0RCW6MG",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Reviewer, inspector and contact",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ZWKH9Q",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Application, permit, case and inspection number",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08NXA4O",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Project, phase, building, floor, area and system",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SNQD3B",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Activity and review classification",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0789W5T",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Governing code, ordinance, standard and adopted edition",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0U8G2XN",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Required application, drawings, calculations and certifications",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UH53Q6",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Required licensed professional or contractor",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0261EJO",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Submission prerequisites",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I095X7FU",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Public notice, hearing and board dates",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00RWN2W",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Planned, forecast and actual submission dates",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1C6NEVW",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Completeness, review and response durations",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NQ4LRW",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Inspection request and notice period",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HQKYGJ",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Planned and actual inspection dates",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GUKBMS",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Result, comments and corrections",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UL3X1D",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Reinspection and approval dates",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01P3MUB",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Fees, bonds, deposits and penalties",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0YPXR81",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Conditions of approval",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0RJMYYG",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Expiration, renewal and closeout dates",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0MMMMO3",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Linked permit, utility, construction and occupancy activities",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1RQCS6J",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Whether it blocks work, concealment, activation, occupancy or payment",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I001NGC9",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Final approval record and attachment",
+          "source_line": 33
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "AHJ classifications",
+      "path": [
+        "AHJ classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I040P7VH",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Federal",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10KJG11",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "State",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1HZ9H82",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "County",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1F6YAOK",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Municipal",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I02GXZW4",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Tribal",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Y9NZ1N",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Territorial",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14IVGER",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Special district",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0XB12N1",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Planning and zoning",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1X87HBP",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Historic preservation",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ON44XK",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Building",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I125PRKX",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Fire and life safety",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I15T3IH3",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Public works",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11FEAY6",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Transportation",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0LIPJIC",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Environmental",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I033VQ0C",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Water and sewer",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1V5GDIU",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Health",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07KRU74",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Accessibility",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1A5IZD0",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Energy",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08MGZYJ",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Elevator and conveying",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1I8C2RV",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Boiler and pressure vessel",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07ES888",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Occupational or facility licensing",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0IIM0PF",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Utility regulator",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DNTWWD",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Airport, railroad or transit",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0KW5A4A",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Floodplain, coastal or wetlands",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0VXU8ME",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Occupancy and operations",
+          "source_line": 61
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Standard AHJ workflow",
+      "path": [
+        "Standard AHJ workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14XNTET",
+          "sequence": 49,
+          "type": "numbered",
+          "text": "Identify every authority having jurisdiction",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0VU2HE4",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Confirm adopted codes and local amendments",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0X0CEYY",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Confirm required approvals, permits and inspections",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07THVYI",
+          "sequence": 52,
+          "type": "numbered",
+          "text": "Establish AHJ contacts",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10DL18Y",
+          "sequence": 53,
+          "type": "numbered",
+          "text": "Hold pre-application meeting when appropriate",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0YA9EOX",
+          "sequence": 54,
+          "type": "numbered",
+          "text": "Confirm submission forms and requirements",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1ASET0P",
+          "sequence": 55,
+          "type": "numbered",
+          "text": "Prepare and submit application",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CU7ZHK",
+          "sequence": 56,
+          "type": "numbered",
+          "text": "Pay review fees",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I089GR3O",
+          "sequence": 57,
+          "type": "numbered",
+          "text": "Complete administrative completeness review",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PL0NY1",
+          "sequence": 58,
+          "type": "numbered",
+          "text": "Respond to completeness comments",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UAM4M7",
+          "sequence": 59,
+          "type": "numbered",
+          "text": "Complete technical review",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Y1CO7T",
+          "sequence": 60,
+          "type": "numbered",
+          "text": "Coordinate parallel department reviews",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DN28E8",
+          "sequence": 61,
+          "type": "numbered",
+          "text": "Receive review comments",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0H9VIFO",
+          "sequence": 62,
+          "type": "numbered",
+          "text": "Prepare response matrix",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I04QF2KH",
+          "sequence": 63,
+          "type": "numbered",
+          "text": "Revise and resubmit",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0VBHGMD",
+          "sequence": 64,
+          "type": "numbered",
+          "text": "Attend hearing, board or code meeting when required",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12W8DY0",
+          "sequence": 65,
+          "type": "numbered",
+          "text": "Obtain conditional or final approval",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BQGFD9",
+          "sequence": 66,
+          "type": "numbered",
+          "text": "Satisfy pre-issuance conditions",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05AMCHK",
+          "sequence": 67,
+          "type": "numbered",
+          "text": "Pay permit fees and post bonds",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12PM6TB",
+          "sequence": 68,
+          "type": "numbered",
+          "text": "Receive permit and approved plans",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0C0VCO5",
+          "sequence": 69,
+          "type": "numbered",
+          "text": "Hold preconstruction meeting",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00N706A",
+          "sequence": 70,
+          "type": "numbered",
+          "text": "Request progressive inspections",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0LEK3KK",
+          "sequence": 71,
+          "type": "numbered",
+          "text": "Correct deficiencies and obtain reinspections",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1B9L04L",
+          "sequence": 72,
+          "type": "numbered",
+          "text": "Submit revisions and deferred submittals",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0AFLYQT",
+          "sequence": 73,
+          "type": "numbered",
+          "text": "Complete acceptance testing",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00WIRCV",
+          "sequence": 74,
+          "type": "numbered",
+          "text": "Complete trade and agency final inspections",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11R2ZO6",
+          "sequence": 75,
+          "type": "numbered",
+          "text": "Obtain Fire Marshal and building finals",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1C2QGN6",
+          "sequence": 76,
+          "type": "numbered",
+          "text": "Obtain TCO, CO and operating approvals",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PQ2V7L",
+          "sequence": 77,
+          "type": "numbered",
+          "text": "Close permits and release bonds",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0SAR14M",
+          "sequence": 78,
+          "type": "numbered",
+          "text": "Archive approved records",
+          "source_line": 94
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Jurisdiction research and planning",
+      "path": [
+        "Jurisdiction research and planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05I8J7L",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Confirm project address and parcel",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0X18C42",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Confirm municipal and county jurisdiction",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0XY013M",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Confirm extraterritorial jurisdiction",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1D4M896",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Confirm tribal, state or federal land status",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1JU939K",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Confirm special districts",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GWR1S9",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Confirm utility authorities",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10ZEKO7",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Confirm floodplain and coastal jurisdiction",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0XTD62S",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Confirm wetlands and environmental jurisdiction",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1ILUUDG",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Confirm airport, railroad and transit jurisdiction",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0EY23DY",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Confirm fire district",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0G1DX28",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Confirm health department",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BTAAKD",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Confirm elevator and boiler authority",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I09FZCOX",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Confirm accessibility review authority",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13J55HH",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Confirm energy-code enforcement authority",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17KHPKZ",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Confirm licensing agencies",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GV9INI",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Identify adopted building and fire codes",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0J7ZYWT",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Identify local amendments",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1K29RHJ",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Identify permit expiration rules",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1ENNA9L",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Identify required third-party reviewers",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1PV84JU",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Identify delegated inspection programs",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0E0G7AH",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Prepare AHJ responsibility matrix",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I073GUW5",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Integrate AHJ milestones into baseline schedule",
+          "source_line": 119
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Pre-application and interpretation activities",
+      "path": [
+        "Pre-application and interpretation activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CC062T",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Request zoning verification",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17AVZ2J",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Request code summary confirmation",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YPGZF7",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Hold development-review conference",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0E1FFJF",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Hold permit pre-application meeting",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GUNWBS",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Hold building-code consultation",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0A2T9U6",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Hold Fire Marshal consultation",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SDBNQM",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Hold public-works consultation",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11X1PQA",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Hold environmental consultation",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ZVKCSN",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Hold health-department consultation",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0KN4CDA",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Hold accessibility consultation",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CD5OV1",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Hold utility authority consultation",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1VWWD20",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Submit code interpretation request",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0NJY97Y",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Submit alternate materials and methods request",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10HKT0H",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Submit equivalency request",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1U68RE9",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Submit modification or variance request",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13VH26J",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Submit appeal",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GBHE6R",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Obtain formal written interpretation",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I04H3G4D",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Record conditions and expiration",
+          "source_line": 140
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Planning and zoning authority activities",
+      "path": [
+        "Planning and zoning authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0T8R75N",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Concept-plan review",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13J6Z8A",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Site-plan review",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11I2T1Q",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Development-plan review",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0WJXWU3",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Zoning verification",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14UXXIB",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Rezoning application",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1LAANZI",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Conditional-use or special-use permit",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18F0F08",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Variance application",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1PK3ZZA",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Administrative adjustment",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WKT6RH",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Subdivision plat review",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Q8ARMZ",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Replat review",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MF7T0E",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Lot consolidation or lot split",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I15NU53C",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Planned development review",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I015FGOQ",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Design-review board",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I020P3BH",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Architectural-review board",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13XN6Y7",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Historic-preservation review",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0U055A1",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Certificate of appropriateness",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0E2D2S6",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Landscape-plan review",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1REV4Q1",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Parking and traffic review",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00LV5NL",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Signage review",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YHIXQK",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Public notice",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MWNSKC",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Neighborhood meeting",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0Y92JN9",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Planning commission hearing",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PULEW8",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Zoning board hearing",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1G0O7VU",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "City council or county board action",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1QZS7D6",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Conditions-of-approval tracking",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ZTCE7S",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Planning and zoning final inspection",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08NRQB2",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Release for building permit",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17T6Z6G",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Final zoning closeout",
+          "source_line": 171
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Building department plan review",
+      "path": [
+        "Building department plan review"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0XPITFU",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Building permit intake",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05RVJJX",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Administrative completeness review",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12CKXOG",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Architectural review",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1QRN8EO",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Structural review",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I09353L2",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Civil and site review",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1AJ8MLF",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Accessibility review",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0YH12UP",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Energy-code review",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NKT67X",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Plumbing review",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08UVI9O",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Mechanical review",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0B17UAR",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Electrical review",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UAHU5P",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Fuel-gas review",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17I9V8Z",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Fire-protection review",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DWWCS1",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Fire-alarm review",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1IC58KA",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Life-safety review",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0Z05HPS",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Elevator coordination",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0LINUZ9",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Health review routing",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ED6AUQ",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Planning and zoning routing",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14VKGVF",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Public-works routing",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0H1HAIF",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Utility routing",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1R7EITE",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Review-comment issuance",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I15H5SZ9",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Comment-response meeting",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0161ULY",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Resubmission review",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SHFPR4",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Deferred-submittal review",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0A5YDJF",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Permit revision review",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0AMRNJF",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Approval and permit issuance",
+          "source_line": 199
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Building inspection activities",
+      "path": [
+        "Building inspection activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0OXZM15",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Permit posting verification",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16R0OY3",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Approved-plan verification",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01XZXA4",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Site and setback inspection",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0534X9X",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Footing inspection",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00AV33W",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Foundation inspection",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I040K5WU",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Reinforcement inspection",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0YAUEKO",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Concrete pre-pour inspection",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UK4US7",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Slab inspection",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16XSXB8",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Under-slab inspection",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1O5PBCG",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Foundation wall inspection",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17U313M",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Waterproofing inspection",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PGFV0J",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Framing inspection",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0190W07",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Structural steel inspection",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0140QJS",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Masonry inspection",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0R9STST",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Shear-wall and diaphragm inspection",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0EKOTLF",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Roofing inspection",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1M54R5E",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Exterior-envelope inspection",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10X10L1",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Insulation inspection",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0IHQL7N",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Air-barrier inspection",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UWJNII",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Rough plumbing inspection",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I163W74R",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Rough mechanical inspection",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16K60F8",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Rough electrical inspection",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0U7570F",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Fuel-gas inspection",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BXS4RF",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "In-wall inspection",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GXCUUO",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Above-ceiling inspection",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YUCCIZ",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Energy-code inspection",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0E6NBZP",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Accessibility inspection",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I02Y411J",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Final building inspection",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CIDXAJ",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Correction inspection",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1BJYVPG",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Reinspection",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0C1SBE9",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Certificate-of-completion inspection",
+          "source_line": 233
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Statement of Special Inspections and structural oversight",
+      "path": [
+        "Statement of Special Inspections and structural oversight"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HINPG5",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Submit Statement of Special Inspections",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CPZPVX",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Approve special-inspection agency",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1U9Y3DP",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Approve special inspectors",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0R3FOJM",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Conduct special-inspection kickoff",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01HII4K",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Submit fabricator qualifications",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10UL0E1",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Submit periodic special-inspection reports",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1OOWLVF",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Notify building official of deficiencies",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ZZWCIE",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Resolve special-inspection deficiencies",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BNP7RN",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Submit structural observations",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1IQTIM0",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Submit geotechnical reports",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1C4710Q",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Submit testing reports",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0Y9PPK2",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Submit fabricator certificates",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17K5NV3",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Submit final special-inspection report",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1N290CI",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Submit final structural observation letter",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1LT5MX8",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Building official accepts final reports",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1RXJFU4",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Release structural permit closeout",
+          "source_line": 252
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Fire department and Fire Marshal activities",
+      "path": [
+        "Fire department and Fire Marshal activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1OQCQVJ",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Fire-department access review",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0JHLHEC",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Fire apparatus route review",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0H5RO4J",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Fire-lane review",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QXW38C",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Hydrant and fire-flow review",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KVM2NM",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Fire-service connection review",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1QK1LZ9",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Fire sprinkler plan review",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0NSZ9M9",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Standpipe plan review",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0MJOL74",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Fire-pump plan review",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PQL2QY",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Fire-water tank review",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WYU6YL",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Fire-alarm plan review",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I178FXRV",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Smoke-control review",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0TL9DTQ",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Fire-command-center review",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GAX4SS",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Emergency responder radio review",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WR5LXO",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Mass-notification review",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0JD626H",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Kitchen suppression review",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10FU9EF",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Clean-agent and special-suppression review",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0XVFLT3",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Hazardous-material review",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1M4C3WJ",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "High-piled-storage review",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16R33KY",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Occupant-load review",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I034YSNF",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Egress and life-safety review",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I15688EG",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Fire-department preconstruction meeting",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YH14SZ",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Underground fire-main inspection",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0C90FPG",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Underground flush witness",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0YYDSUL",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Sprinkler rough inspection",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12Z51M3",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Sprinkler hydrostatic witness",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NT0ME3",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Standpipe test witness",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WM6DVS",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Fire-pump acceptance",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12V90ZV",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Fire-alarm acceptance",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0RE63OW",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Smoke-control acceptance",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0RVME3C",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Fire and smoke damper verification",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CY0RAD",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Elevator recall and shunt-trip witness",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SXQCDM",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Door-release and access-control witness",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I19W2PC4",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Emergency generator interface witness",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1T7RAJV",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Emergency responder radio acceptance",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1A68EFV",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Integrated systems testing",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1W5KEL0",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Fire Marshal final inspection",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0WYC87K",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Fire operational permits",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12X5XXL",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Release for TCO or CO",
+          "source_line": 293
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Public works and engineering authority activities",
+      "path": [
+        "Public works and engineering authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16CKFA9",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Civil plan review",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1HWFMWT",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Grading review",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1P7JXTC",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Drainage review",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12I96TB",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Stormwater review",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1266GJ1",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Water and sewer review",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1D9M27E",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Utility plan review",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KEY5LL",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Right-of-way review",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YCNLE2",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Traffic-control review",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1QOCNZD",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Street and lane-closure review",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1PEFXCC",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Driveway and curb-cut review",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0O5GTOY",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Sidewalk and accessibility review",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NIKS9V",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Street-lighting review",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BPFZ97",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Traffic-signal review",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0I1GO01",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Haul-route review",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1ABUNAR",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Erosion-control preconstruction meeting",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01CWV5A",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Public-works construction inspection",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UJJ5BZ",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Utility trench inspection",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07D7QSC",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Water and sewer testing witness",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CWN7JP",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Storm-drain inspection",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YAO3LE",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Pavement and sidewalk inspection",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I09HTASJ",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Right-of-way restoration inspection",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0L6MXA6",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "As-built survey review",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ZHN86P",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Maintenance bond inspection",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MUP5K2",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Public-works acceptance",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0F9T7C6",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Bond and deposit release",
+          "source_line": 321
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Environmental and stormwater authority activities",
+      "path": [
+        "Environmental and stormwater authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0W2B6E5",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Environmental permit consultation",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1H727L4",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Construction stormwater coverage",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1HR1XC9",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "SWPPP review",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QH99NT",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Erosion-control plan review",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0OEON95",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Notice of Intent acceptance",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08XXNQU",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Preconstruction erosion-control inspection",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0EEVDLB",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Silt-fence inspection",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NDR0RC",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Stabilized entrance inspection",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WVPVPJ",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Inlet-protection inspection",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1U7M4SA",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Routine compliance inspection",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00UULNI",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Rain-event inspection",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08O2KXC",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Dewatering-discharge review",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I04EE5EJ",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Turbidity inspection",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0SIQAIU",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Concrete-washout inspection",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0I2YHPB",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Spill inspection",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KXK20V",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Dust and air-emissions inspection",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18ZFZK3",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Noise inspection",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QVQFJ0",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Wetlands and buffer inspection",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0J9VITD",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Tree-protection inspection",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18TG5V1",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Contaminated-soil oversight",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1BJIRC7",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Hazardous-waste inspection",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I192LCZ8",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Corrective-action notice",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0MAEQKM",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Enforcement reinspection",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0RV9704",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Final stabilization inspection",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I09L9E5T",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Notice of Termination acceptance",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CKS4JS",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Environmental permit closeout",
+          "source_line": 350
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Floodplain, coastal and water-resource authorities",
+      "path": [
+        "Floodplain, coastal and water-resource authorities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BCAZ7S",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Floodplain development review",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0B18HFS",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Floodway analysis review",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1OG9Z6R",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Base-flood elevation confirmation",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0FZEUVB",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Floodproofing design review",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00DL5A5",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Elevation certificate review",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1TKRLU1",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Floodplain inspection",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I03RR4MF",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Coastal construction review",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08UAN23",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Coastal-zone consistency review",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I189YMRE",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Shoreline or seawall review",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1O1JM5Y",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Dune and vegetation review",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I193CGL4",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Wetlands delineation acceptance",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12BEODQ",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Wetlands permit review",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I035L9PW",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Stream-crossing review",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1EN8SUA",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Water-quality certification",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1980PYE",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Dam-safety review",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1JG4YLG",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Water-withdrawal review",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1E1BFYU",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Final floodproofing certificate",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CVK7KR",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Final elevation certificate",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GA6M54",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Coastal or wetlands compliance closeout",
+          "source_line": 372
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Health department activities",
+      "path": [
+        "Health department activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0SKHSP6",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Food-service plan review",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12QGKVL",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Commercial kitchen review",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1TI9RF3",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Plumbing and fixture review",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I15V8SIG",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Grease-interceptor review",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0IUR95H",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Water and sewer review",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CPHBWL",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Equipment layout review",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0V1QX2R",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Finish and sanitation review",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1A0UG4S",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Walk-in cooler and freezer review",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CP3DR6",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Kitchen hood coordination",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1U4RO45",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Pool and spa plan review",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Y9412K",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Pool barrier review",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0L2QM95",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Pool equipment review",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I04CWT51",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Healthcare facility review",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I190LDMX",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Hospital licensing review",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I06CJPLX",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Assisted-living review",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DE0PKD",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Nursing-home review",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1C9FJN8",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Daycare review",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1V9TYP0",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Well and septic review",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I06DRRYH",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Health-department rough inspection",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0S76X1C",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Food-service preopening inspection",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0VSMP7F",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Pool final inspection",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MMG35W",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Water-quality testing",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0DCQMIP",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Operational permit issuance",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14YX407",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Health-license closeout",
+          "source_line": 399
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Accessibility authority activities",
+      "path": [
+        "Accessibility authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0P1U0EV",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Accessibility plan review",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1XHYWGW",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "State accessibility registration",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I144CXML",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Accessibility consultant review",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CCH1PN",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Accessible route review",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PTLG6W",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Parking and loading-zone review",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0WZB790",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Entrance review",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13J7VWP",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Ramp, stair and handrail review",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MHE5VD",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Door clearance and hardware review",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1BZ64QL",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Restroom and bathing-room review",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0X60DIT",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Drinking-fountain review",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1LY4KPE",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Elevator and lift review",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I194AZ7I",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Signage and Braille review",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SF916F",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Accessible unit or guest-room review",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05E4V0P",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Fair Housing review",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0C2X7WC",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Field accessibility inspection",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1AFTOG8",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Correction inspection",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05HLEW9",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Final accessibility acceptance",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10HUO22",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Filing of final report",
+          "source_line": 420
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Energy-code authority activities",
+      "path": [
+        "Energy-code authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0LHACEN",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Energy-code compliance submission",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WJ537I",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Envelope calculations review",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DU4HIE",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Mechanical compliance review",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13NHE5K",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Lighting-power review",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0TEGSXR",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Lighting-controls review",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0I6DYEU",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Commissioning plan review",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10CO6LO",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Air-barrier inspection",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0VEEMBS",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Insulation inspection",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SBZVFF",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Fenestration verification",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1BO5KXZ",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Duct and pipe insulation inspection",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I142CL77",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Mechanical equipment efficiency verification",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0N25W1D",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "HVAC controls functional testing",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0X2FVUF",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Lighting controls functional testing",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17Q0D4S",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Receptacle controls testing",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12FY1V8",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Air-leakage testing witness",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1TY4X9P",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Commissioning report submission",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BPO0S4",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Energy-code final inspection",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0J0Q1E4",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Final compliance certificate",
+          "source_line": 441
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Elevator and conveying authority activities",
+      "path": [
+        "Elevator and conveying authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0MPH1DE",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Elevator permit application",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01LFWOR",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Shop drawing review",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1FDC22T",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Hoistway and pit inspection",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0EASSXV",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Machine-room or control-space inspection",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ERD0K2",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Temporary-use inspection",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BY79DS",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Electrical inspection coordination",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I15P3EA7",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Acceptance-test scheduling",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1O6KAWH",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Rated-load test witness",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1EBDEID",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Safety and governor test witness",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UAIFXG",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Fire-service test witness",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18R14LZ",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Emergency-power test witness",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UDQ4CL",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Accessibility inspection",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17D51EB",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Correction and retest",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0KOLS07",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Certificate to operate",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1P332WG",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Escalator acceptance",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Y13LN5",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Platform-lift acceptance",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08SE6DV",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Material-lift acceptance",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07MS9EC",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Dumbwaiter acceptance",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1BM7WVR",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Annual inspection setup",
+          "source_line": 463
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Boiler and pressure-vessel authority activities",
+      "path": [
+        "Boiler and pressure-vessel authority activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0176ML0",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Boiler permit application",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I19OX2BN",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Pressure-vessel registration",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0P1IGD0",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Design and data-report review",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1K35HSW",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Installation inspection",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PV78J0",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Pressure test witness",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0EC28FU",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Combustion and safety testing",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0VOBPFX",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Certificate inspection",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18TIT82",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Correction and reinspection",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UD51LE",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Certificate to operate",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0NHFLY7",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Periodic inspection scheduling",
+          "source_line": 476
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Transportation, railroad, transit and aviation authorities",
+      "path": [
+        "Transportation, railroad, transit and aviation authorities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14ODNJH",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Department of transportation review",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PPB6TE",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Highway access permit",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1JE99LH",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Right-of-way permit",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I172EL9D",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Lane-closure approval",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08HR7YX",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Oversize-load permit",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I03LLCCQ",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Railroad crossing agreement",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11VB9OE",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Railroad flagging coordination",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1VEBI8F",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Transit-agency review",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1PAPVD0",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Bus-stop relocation approval",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18QHF80",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Airport zoning review",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MPXNSC",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "FAA obstruction evaluation",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0441DTI",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Crane-height approval",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0DXFYTV",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Helipad review",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08HBFGN",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Traffic-signal acceptance",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1O3A6VH",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Roadway and bridge inspection",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0C6MH7D",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Final transportation acceptance",
+          "source_line": 495
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "State and federal agency activities",
+      "path": [
+        "State and federal agency activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SXY7GQ",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "State environmental review",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11BVO9Q",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "State fire review",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1EZC308",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "State health review",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0D9YX3E",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "State accessibility review",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0AUFNMO",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "State elevator review",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YC68NX",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "State boiler review",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1S3Q0F2",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "State licensing review",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I19YBBT2",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Federal environmental review",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1B57191",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "NEPA review",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UTHHP6",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Section 106 historic review",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0P2IDBW",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "U.S. Army Corps permit review",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GVEBC3",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Federal Aviation Administration review",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PKL5OR",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Federal Highway Administration review",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00AJQ6M",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Federal Railroad Administration review",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GV1IX4",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Agency design review",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NM8CHO",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Government security review",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HY35PS",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Government fire and life-safety review",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0F6DABK",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Federal beneficial-occupancy inspection",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0W3I4CL",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Agency final acceptance",
+          "source_line": 517
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Temporary conditions and phased construction approvals",
+      "path": [
+        "Temporary conditions and phased construction approvals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I007HC4B",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Temporary construction office approval",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1H37F7W",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Temporary power inspection",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KQEUZQ",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Temporary water and sanitation approval",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1S0L8UW",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Temporary heating permit",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16LPNC4",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Temporary fire-alarm approval",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1TU9QPN",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Temporary sprinkler or standpipe approval",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14TQVFP",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Temporary egress approval",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1TB35YQ",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Temporary pedestrian protection approval",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0G2DZXQ",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Temporary street or lane closure",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08MO6VG",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Temporary structure inspection",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I06OGYLT",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Construction hoist approval",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DFU0D3",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Phased permit approval",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08720RK",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Partial inspection approval",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18PGFGJ",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Temporary use approval",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0P5JPCK",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Phased occupancy review",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UDDASG",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Temporary Certificate of Occupancy",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07BFCEW",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "TCO condition tracking",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UMOKYE",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "TCO renewal",
+          "source_line": 538
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "AHJ inspection request workflow",
+      "path": [
+        "AHJ inspection request workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18WBIVW",
+          "sequence": 469,
+          "type": "numbered",
+          "text": "Confirm work complete and accessible",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I19Q43ZM",
+          "sequence": 470,
+          "type": "numbered",
+          "text": "Confirm approved permit drawings onsite",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GC2HS2",
+          "sequence": 471,
+          "type": "numbered",
+          "text": "Complete contractor quality inspection",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1VF1LO4",
+          "sequence": 472,
+          "type": "numbered",
+          "text": "Confirm prerequisite tests and reports",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1HPLHPO",
+          "sequence": 473,
+          "type": "numbered",
+          "text": "Confirm required special inspector report",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I19JHV8W",
+          "sequence": 474,
+          "type": "numbered",
+          "text": "Submit inspection request within required notice",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1IGGTRS",
+          "sequence": 475,
+          "type": "numbered",
+          "text": "Confirm date, time and inspector",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I08KSGWG",
+          "sequence": 476,
+          "type": "numbered",
+          "text": "Coordinate access and responsible trade",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0W6KOSR",
+          "sequence": 477,
+          "type": "numbered",
+          "text": "Conduct inspection",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0S61BJ6",
+          "sequence": 478,
+          "type": "numbered",
+          "text": "Record result and comments",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1VBPWMC",
+          "sequence": 479,
+          "type": "numbered",
+          "text": "Protect approved work",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I157NLK6",
+          "sequence": 480,
+          "type": "numbered",
+          "text": "Correct deficiencies",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KWAV0D",
+          "sequence": 481,
+          "type": "numbered",
+          "text": "Request reinspection",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WF5NTC",
+          "sequence": 482,
+          "type": "numbered",
+          "text": "Obtain written pass",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BWVUVL",
+          "sequence": 483,
+          "type": "numbered",
+          "text": "Release successor work",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1EG16SQ",
+          "sequence": 484,
+          "type": "numbered",
+          "text": "Archive inspection record",
+          "source_line": 557
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Failed inspection and enforcement workflow",
+      "path": [
+        "Failed inspection and enforcement workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1OT1E6Z",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Record failed inspection",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1VANEC6",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Identify exact code or plan deficiency",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0KN4HJC",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Notify responsible trade",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0NF6BZR",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Determine work affected",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I04E8YU6",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Stop or protect affected work",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07NDIUY",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Develop corrective action",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1V85NWF",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Obtain design clarification or revision when needed",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0V8NNXK",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Complete correction",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1DRPXR6",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Obtain special-inspector or engineer verification",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0N1MA4R",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Pay reinspection fee when required",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01MR6AZ",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Request reinspection",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GRWX3H",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Obtain approval",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0SJ8WRT",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Update schedule and deficiency log",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1LMPL0B",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Resolve notice of violation",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Y3OVCR",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Resolve stop-work order",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SDXYMC",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Document release of enforcement action",
+          "source_line": 576
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "TCO readiness activities",
+      "path": [
+        "TCO readiness activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0V0AJUQ",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Define requested occupancy area",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18IKYEO",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Submit phased occupancy plan",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16OD4CD",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Complete fire-department access",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0YIGLHB",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Complete required means of egress",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0UL5UTN",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Complete accessible route",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0S090A2",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Complete required fire protection",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0AV5QFE",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Complete required fire alarm",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KX69Y8",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Complete emergency lighting and exit signs",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0OC2AGT",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Complete required utilities",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0TBW9BE",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Complete elevators required for occupancy",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18UABWV",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Complete health and sanitation requirements",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0D26T7K",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Complete life-safety integrated testing",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HKLUSS",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Submit special-inspection final or interim report",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1M947S7",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Submit commissioning and testing records",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0G4GA3C",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Complete TCO inspection",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ZIQK1U",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Correct TCO deficiencies",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0PLZQX9",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Obtain Fire Marshal release",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1OBSRA6",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Obtain building official approval",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0K8KWUE",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Receive TCO",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1F8M5PE",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Track conditions and expiration",
+          "source_line": 599
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "CO readiness activities",
+      "path": [
+        "CO readiness activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0ODJNT4",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Complete all permitted work",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0KRO0BP",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Complete trade final inspections",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10P51TY",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Complete building final inspection",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I06YD3MM",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Complete Fire Marshal final",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I171SGES",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Complete accessibility final",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0RG6EAU",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Complete energy-code final",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0D358MD",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Complete elevator acceptance",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0KKHUBI",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Complete health-department approval",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13REQD5",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Complete public-works acceptance",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1W42T8V",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Complete utility acceptance",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1QV1CRD",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Complete planning and zoning final",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1AR8MM0",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Complete environmental closeout",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QCE9KD",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Submit final special-inspection report",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HYDZ6W",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Submit final structural observation letter",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05IZ2ZW",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Submit required as-builts and surveys",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1D86GXF",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Submit required commissioning report",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1I2BBMT",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Submit CO application",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I161B87K",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Correct final deficiencies",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GHOZ4B",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Obtain Certificate of Occupancy",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I02YNAJ2",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Obtain operational licenses",
+          "source_line": 622
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Permit and AHJ closeout",
+      "path": [
+        "Permit and AHJ closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1FP3U2P",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Reconcile open permits",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1ILAZYA",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Reconcile open inspections",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QUL44C",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Resolve correction notices",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0R82LFK",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Resolve notices of violation",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0R5B7VM",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Resolve stop-work orders",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I18A63MR",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Close revisions and deferred submittals",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1K1JCQ5",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Submit final reports and certificates",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SEGAQ1",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Submit as-built surveys",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UIHMJG",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Submit environmental stabilization records",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1LKHRPP",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Close trade permits",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0FLNXKW",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Close temporary permits",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1N3IT47",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Close right-of-way permits",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0OFWMUO",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Close building permit",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05CC6XJ",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Obtain TCO or CO",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0I2AVRP",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Obtain certificates to operate",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0GL8EN0",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Obtain operational permits",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16COEQ0",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Release bonds and deposits",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HT24KZ",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Archive final approved plans and records",
+          "source_line": 643
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "AHJ delay and escalation activities",
+      "path": [
+        "AHJ delay and escalation activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01VNEZF",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Confirm application completeness",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GWNTRC",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Confirm assigned reviewer",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05QS8IT",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Request status update",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1IFNGOG",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Respond to comments promptly",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I11I71YT",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Request comment-resolution meeting",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10IMNGH",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Request concurrent review",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0G3WRX0",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Request phased or partial permit",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I01QOR67",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Request expedited review when available",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I075GM28",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Escalate to supervisor",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1OFXOOJ",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Escalate through owner or public agency liaison",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I12ERRVQ",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Document promised dates",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05QYL8B",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Quantify schedule impact",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I17OZ9RH",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Implement resequencing",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CJ5GOF",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Preserve notices and records",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QOLKRE",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Update forecast and recovery plan",
+          "source_line": 661
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1YPH79A",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Jurisdiction research → pre-application meeting",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16V3ZO2",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Pre-application → permit documents",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14XNWF5",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Application → completeness review",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1X7QD1H",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Completeness approval → technical review",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0NDJ7CO",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Review comments → revision and resubmission",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10U5RX4",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Approval → permit issuance",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1X0W1WV",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Permit issuance → authorized work",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1XH7MLV",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Construction phase → progressive inspections",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1L2OA7L",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Inspection pass → concealment or successor work",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CR6UV1",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "System completion → acceptance testing",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CIP4ZC",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Trade finals → building and Fire Marshal finals",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0DB2AXW",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Final approvals → TCO or CO",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CKM4QM",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Stabilization and records → permit closeout",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BIWYJ8",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Closeout → bond and deposit release",
+          "source_line": 678
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Common hold points",
+      "path": [
+        "Common hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1P1WPDJ",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "No regulated work before permit issuance",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0A5I6DZ",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "No land disturbance before environmental authorization",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1BR6XSF",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "No concealment before required inspection",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0Z4R3S0",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "No utility activation before required releases",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0MFCHAN",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "No life-safety system use before acceptance",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0CNXF08",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "No equipment operation before required certificate",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0NKRHJX",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "No occupancy before TCO or CO",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I122CQC6",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "No final permit closeout before reports and violations are resolved",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0HZAIZR",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "No bond release before required maintenance and final acceptance",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1JXUDF4",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "No assumption that one authority’s approval replaces another’s",
+          "source_line": 691
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0V55X0Y",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Authority research",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1EQLQXY",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Pre-application",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I14V159V",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Application preparation",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0BIMCY1",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Submitted",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1XEOESG",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Completeness review",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I126Z3G0",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "In technical review",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1CA7587",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Comments issued",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I16KSOCJ",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Revision in progress",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I010P73E",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Resubmitted",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1GW5POV",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Hearing scheduled",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1UGBMRZ",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Conditional approval",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I13S1HD7",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1RU63YK",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Permit issued",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1VR2EWE",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Inspection requested",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1KP8U55",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Inspection scheduled",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I05MNS3G",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Passed",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I096SZ8X",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Failed",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I159ZINM",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Correction in progress",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0MXQ22J",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Reinspection",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1S7PSHI",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Final inspection",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SSZNLT",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "TCO pending",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10UGILF",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "TCO issued",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I00TKCL1",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "CO pending",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07OY1RZ",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "CO issued",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1SBSRW5",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Permit closeout",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0F5P9E4",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1S2WTJU",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Delayed",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0DT2JFS",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Escalated",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1LE6S9I",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Stop-work",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07BQB89",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Violation open",
+          "source_line": 724
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-JURISDICTION-AND-AHJ-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1Q40U91",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Identify every authority early.",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0QP1QCQ",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Confirm current codes, amendments, forms and review durations.",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1NSRBRD",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Separate administrative review, technical review, response and resubmission.",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0S8PHF9",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Schedule hearings and board deadlines explicitly.",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1WL9D46",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Link progressive inspections to concealment and successor work.",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I10V1K33",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Include failed-inspection correction and reinspection time.",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I04SYOB3",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Track Fire Marshal activities independently from building-department activities.",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0JI8DTH",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Tie TCO and CO to every required authority and certificate.",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I1MF8MYD",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Track permit expiration, TCO conditions and operational-license renewals.",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I0SQ7ZWL",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Preserve final approvals and stamped documents.",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-JURISDICTION-AND-AHJ-I07BHTS6",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Do not treat submission as approval or one department’s approval as final jurisdictional acceptance.",
+          "source_line": 738
+        }
+      ]
+    }
+  ]
+}

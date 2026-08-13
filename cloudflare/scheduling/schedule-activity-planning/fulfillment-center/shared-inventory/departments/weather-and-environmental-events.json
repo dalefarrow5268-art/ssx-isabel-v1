@@ -1,0 +1,4907 @@
+{
+  "department_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS",
+  "slug": "weather-and-environmental-events",
+  "title": "Weather And Environmental Events",
+  "document_title": "SSX Master Construction Weather and Environmental Events",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/weather-and-environmental-events/MASTER_WEATHER_AND_ENVIRONMENTAL_EVENTS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 35,
+    "items": 644
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0VJ491M",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project, location, phase, building, floor, area and work activity",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I00COO99",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Event or condition type",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04FAE3T",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Forecast source and observation source",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I103R44Q",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Forecast issue time and affected period",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1YMKH2R",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Measured temperature, wind, precipitation, humidity or other condition",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1P6UZBL",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Alert, watch or warning classification",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PZB960",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Project-specific action threshold",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CWSP1D",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Responsible monitor and decision authority",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AY6LGV",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Trades, crews, equipment and materials affected",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JM1Z4G",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Planned protective or response action",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0SUSLZR",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Planned and actual suspension dates and times",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JZ3H4L",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Work hours lost",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0IMBZJ0",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Calendar days affected",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01Y9V1K",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Recovery and remediation duration",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AB2M5P",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Predecessors and successors affected",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01PFZ08",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Schedule, cost and productivity impact",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DZBEIL",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Required notice and documentation",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I115HAWI",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Photographs, logs, reports and official records",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18AQ00B",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Insurance, force-majeure or claim status",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0I1MVBW",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Restart inspection and authorization",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1VCSQLU",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Status and corrective action",
+          "source_line": 31
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Event classifications",
+      "path": [
+        "Event classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0N1T1W6",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Forecast monitoring",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1PZMAWA",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Seasonal planning",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1U6L9PV",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Weather preparedness",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1ET1ZH6",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Weather protection",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05SBZ36",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Work restriction",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Q17PBZ",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Reduced productivity",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18G1X64",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Partial shutdown",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MTSO02",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Full shutdown",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1UBU7ZP",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Emergency response",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I16SVC4E",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Natural hazard",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AFMYP7",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Environmental incident",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09OF3O1",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Permit compliance event",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0VI0CKU",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Damage assessment",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I07HPGRY",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Recovery and remediation",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JSEHMU",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Delay documentation",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KG5CHK",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Restart and reinspection",
+          "source_line": 50
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Standard weather-event workflow",
+      "path": [
+        "Standard weather-event workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1J3XQSJ",
+          "sequence": 38,
+          "type": "numbered",
+          "text": "Monitor forecast and official alerts",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03TMX9T",
+          "sequence": 39,
+          "type": "numbered",
+          "text": "Identify exposed work, personnel, equipment and materials",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MKDDT7",
+          "sequence": 40,
+          "type": "numbered",
+          "text": "Compare forecast with project-specific thresholds",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I091OQMO",
+          "sequence": 41,
+          "type": "numbered",
+          "text": "Notify responsible parties",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05DYXEL",
+          "sequence": 42,
+          "type": "numbered",
+          "text": "Adjust work plan and deliveries",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NQAM42",
+          "sequence": 43,
+          "type": "numbered",
+          "text": "Install or verify protective measures",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I17QVZO9",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Secure cranes, hoists, scaffolds and temporary works",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1YR37XR",
+          "sequence": 45,
+          "type": "numbered",
+          "text": "Suspend affected work when required",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1K6K1T3",
+          "sequence": 46,
+          "type": "numbered",
+          "text": "Protect life safety and maintain emergency access",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0F11DKD",
+          "sequence": 47,
+          "type": "numbered",
+          "text": "Record actual site conditions",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05W1HXI",
+          "sequence": 48,
+          "type": "numbered",
+          "text": "Inspect during and after event when safe",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QT7K2J",
+          "sequence": 49,
+          "type": "numbered",
+          "text": "Document damage and delay",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DLWGQS",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Complete cleanup, drying, repair or remediation",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NDOYN1",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Verify temporary and permanent work",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KGTU4T",
+          "sequence": 52,
+          "type": "numbered",
+          "text": "Obtain required reinspections",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1UQ85Z3",
+          "sequence": 53,
+          "type": "numbered",
+          "text": "Authorize restart",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JI49NN",
+          "sequence": 54,
+          "type": "numbered",
+          "text": "Resequence or recover schedule",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NWS04Y",
+          "sequence": 55,
+          "type": "numbered",
+          "text": "Preserve contract and insurance records",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MIO2B3",
+          "sequence": 56,
+          "type": "numbered",
+          "text": "Close event",
+          "source_line": 72
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Weather planning and controls",
+      "path": [
+        "Weather planning and controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MAFZAK",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Prepare weather and natural-hazard risk register",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08BW1ZJ",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Identify normal seasonal conditions",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KXZKLA",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Identify contract weather-day allowances",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I14XCJAX",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Identify climate-sensitive activities",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MQVG7A",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Identify manufacturer temperature and moisture limits",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BYU9G4",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Identify engineered wind limits",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I07Z1BQQ",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Identify lightning shutdown requirements",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I142BGUQ",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Identify flood and drainage vulnerabilities",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1130C0J",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Identify heat and cold stress plans",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FPB70L",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Identify hurricane, tornado and severe-storm plans",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0OXJPSV",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Identify snow and ice responsibilities",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0LTUJHF",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Identify wildfire and smoke exposure",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18Q4YDU",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Identify air-quality requirements",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04PWD6T",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Identify wetland, wildlife and environmental windows",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JGP4L7",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Establish approved forecast sources",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I114BH3C",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Install onsite weather station when appropriate",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1BZ39UQ",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Establish daily weather log",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YSJE9R",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Establish alert distribution",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MFN0T7",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Establish emergency decision authority",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WZH4CJ",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Establish shutdown and restart procedures",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0CDAAJF",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Include seasonal protection and recovery activities in baseline schedule",
+          "source_line": 96
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Weather monitoring activities",
+      "path": [
+        "Weather monitoring activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I011HRAF",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Daily forecast review",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0A18PYJ",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Morning weather briefing",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0XA9L1B",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Afternoon forecast update",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0STSNM6",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Multi-day look-ahead review",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0IF45VH",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Weekly seasonal outlook review",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0J9FFM1",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Severe-weather watch",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12AU7U1",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Radar monitoring",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I15OU92U",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Lightning detection monitoring",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0B8KJTV",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Wind-speed monitoring",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1VUJMSF",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Temperature monitoring",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GGGGCE",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Heat-index or heat-stress monitoring",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18714MM",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Cold-stress monitoring",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0M0Q7J2",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Humidity and dew-point monitoring",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1UICIJR",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Rain-gauge monitoring",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I15XMQ8V",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Snowfall and snow-depth monitoring",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0H6644O",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "River, stream and tide monitoring",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MRKVUW",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Flood-stage monitoring",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LLC7KL",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Air-quality monitoring",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BQC0MN",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Wildfire and smoke monitoring",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1BPC8UX",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Hurricane and tropical-cyclone monitoring",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I030RB8H",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Freeze-warning monitoring",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1E7VP56",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Official alert documentation",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I10UMP3U",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Actual site-condition documentation",
+          "source_line": 122
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Daily weather log",
+      "path": [
+        "Daily weather log"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0A0271E",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Date and shift",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12TJDE8",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Forecast conditions",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JXXQYQ",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Actual temperature range",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1O6GUSL",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Humidity and dew point",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0B0PBVZ",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Wind speed and gusts",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KTZE7X",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Precipitation type and amount",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BA7DX0",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Snow and ice conditions",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1GG42HT",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Ground and access conditions",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I11Q4FX5",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Official alerts",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05XXSHH",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Work activities planned",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0LLKD6Q",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Work activities completed",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0QZ7OCD",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Activities restricted or stopped",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1XELFQA",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Crews and equipment affected",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09Z555U",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Start and stop times",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02XLFHL",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Protective measures",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1Q6NC98",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1W9PTZZ",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Superintendent narrative",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NFG3SQ",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Recovery action",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1I64PT8",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Schedule impact",
+          "source_line": 144
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Heat and high-temperature events",
+      "path": [
+        "Heat and high-temperature events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0O02TXI",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Heat-season planning",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I15KA6GQ",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Heat illness prevention plan",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0EFWZMY",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Acclimatization planning",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NC46Q0",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Hydration stations",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I14DXJI4",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Shade and cooling areas",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1GZD3T3",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Work-rest scheduling",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0LZUVG0",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Early-shift or night-shift planning",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Z4O0I1",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Worker monitoring",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RW3AGT",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Medical response readiness",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1IGR8AL",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Hot-surface and burn protection",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I19H2S0L",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Equipment overheating inspection",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1BGSC8G",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Temporary power and cooling protection",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I15AK68G",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Concrete hot-weather placement plan",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OU7EME",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Concrete material cooling",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1N7TMLV",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Reduced concrete haul and placement time",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JYURJ1",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Concrete curing protection",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1YIGRQD",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Asphalt temperature control",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Y6L7GT",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Roofing hot-work restrictions",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02P3TPE",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Coating and adhesive temperature review",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I148QCFJ",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Sealant application review",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1XPVO8G",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Interior temperature and humidity control",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CIDUN0",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Heat-related partial shutdown",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AZHH1Q",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Post-event equipment inspection",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RQTOZ1",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Document heat-related productivity loss",
+          "source_line": 171
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Cold, freeze and low-temperature events",
+      "path": [
+        "Cold, freeze and low-temperature events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06V5GU8",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Cold-weather safety plan",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CDYJE1",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Warming shelters",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QLSZAC",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Heated break areas",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RTW34Y",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Cold-weather PPE",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02N3AOF",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Freeze-protection inspection",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QVLRGZ",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Temporary heating",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PAI4E1",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Enclosures and ground thawing",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1I97IW4",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Protect temporary and permanent water systems",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0H86XNF",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Drain exposed piping",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05H2D4B",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Protect fire-protection systems",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1396OEV",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Protect pumps and equipment",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06FLJK0",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Winterize stored materials",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05L5IEZ",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Cold-weather concrete plan",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0UFMRMT",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Heat concrete materials",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1U3C1KC",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Maintain placement and curing temperatures",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ULC2DJ",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Masonry cold-weather plan",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I10ZIAHW",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Mortar and grout protection",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NLCPDA",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Roofing and waterproofing temperature review",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I040O6YP",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Coating, adhesive and sealant review",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08ERJKI",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Soil and subgrade freeze inspection",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1AQNGJC",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Frozen-ground excavation restriction",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1YNDRND",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Ice removal",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Y3TVRX",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Freeze-thaw damage inspection",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0D8KYCB",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Post-freeze leak inspection",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04JB23L",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Restart after safe temperature and condition verification",
+          "source_line": 199
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Rain and wet-weather events",
+      "path": [
+        "Rain and wet-weather events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GIGHCI",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Rain forecast review",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FI9DZY",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Pre-rain site inspection",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MPF5ON",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Cover exposed work",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ZGXM0V",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Cover stored materials",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PEGRMC",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Secure roof and wall openings",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NBGKX3",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Verify temporary roofing",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ZNZNUH",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Verify pumps and drainage",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1XR95YT",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Verify erosion and sediment controls",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06Y2OEX",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Protect excavations",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0V0YC76",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Protect concrete placement",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NKIWHA",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Reschedule earthwork",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I17L680G",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Reschedule paving",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0844SM9",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Reschedule roofing and waterproofing",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0LSXBF5",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Reschedule exterior coatings and sealants",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06R9QHY",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Suspend crane or electrical work when affected",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0S9CP1U",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Monitor rainfall",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I094VY8E",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Conduct during-event inspection when safe",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ETZLSQ",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Conduct post-rain SWPPP inspection",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MQK9KQ",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Pump and dewater",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I000UUKY",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Remove mud and track-out",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I186SVK0",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Test soil moisture",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PLPZ4E",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Recompact or stabilize subgrade",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0S95TTY",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Dry building materials",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YRZUXN",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Inspect water intrusion",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0G5Z9JA",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Remediate wet insulation, gypsum or finishes",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1F6H3OC",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Complete moisture testing before finishes",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1W4U1VF",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Document lost work and recovery",
+          "source_line": 229
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Thunderstorm and lightning events",
+      "path": [
+        "Thunderstorm and lightning events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DJN3M9",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Monitor thunderstorm forecast",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I19V9S61",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Activate lightning detection",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KSVD4Q",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Notify crews",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MW58DM",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Suspend crane and hoisting operations",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FMZYXV",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Suspend roofing and elevated work",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01DOGMM",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Suspend work in open fields",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I077XGOQ",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Suspend work near conductive systems",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Y1LQD0",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Suspend blasting or explosive handling",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KA2DA2",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Move workers to approved shelter",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OXH30Z",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Secure materials and equipment",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1R3FUZM",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Maintain emergency communications",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0CAGCCQ",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Record alert and all-clear times",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0B2SI5U",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Inspect for storm damage",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1X2PCAN",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Restart only after project-defined all-clear criteria",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B9VEAE",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Document shutdown duration",
+          "source_line": 247
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Wind and high-wind events",
+      "path": [
+        "Wind and high-wind events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YVF7V6",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Monitor sustained wind and gusts",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RYFA4G",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Review equipment manufacturer limits",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CD6860",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Review engineered temporary-work limits",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0IMTS7L",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Secure cranes and booms",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18UXXBJ",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Weathervane tower cranes as required",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08DY81M",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Lower or secure aerial lifts",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0C17QKU",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Suspend hoisting",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06F4RPS",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Suspend panel, glass and sheet-material handling",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LJJWYV",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Suspend roofing membrane placement",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WJPLQF",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Suspend scaffold and mast-climber work",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BUSJKO",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Secure scaffolds, screens and enclosures",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0D11TX8",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Secure temporary fencing and signs",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WDH54Y",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Secure loose materials and debris",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HIAMRG",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Secure tarps and temporary roofing",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CQYTJU",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Secure trailers and temporary structures",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1UH5RQ4",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Inspect tower-crane ties and foundations",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DPKQ3A",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Inspect hoists and loading platforms",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1P6SPG4",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Establish falling-object exclusion zones",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18J1XES",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Conduct post-wind inspection",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I14QEKHY",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Obtain required equipment reinspection",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JJLMSP",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Authorize restart",
+          "source_line": 271
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Severe thunderstorms, hail and straight-line winds",
+      "path": [
+        "Severe thunderstorms, hail and straight-line winds"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0S48WWN",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Monitor official watches and warnings",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QSV2DX",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Secure site",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ODDLOL",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Protect glazing and finished surfaces",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1E9Y2MH",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Move equipment to safe storage",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FENSQ2",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Suspend exposed work",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YDL85K",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Shelter workforce",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1YB5XH4",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Protect temporary roofs and openings",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MLAIK0",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Inspect roofing and cladding after hail",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0K5KT9J",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Inspect vehicles and equipment",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MXM6OO",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Inspect cranes, scaffolds and temporary structures",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WWFHWM",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Remove fallen debris",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GBCOGV",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Document damage",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I096R557",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Notify insurer when applicable",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I034CHLH",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Repair and retest affected work",
+          "source_line": 288
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Tornado events",
+      "path": [
+        "Tornado events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YXUEP1",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Prepare tornado action plan",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CN8UOD",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Identify approved shelters",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0OJIJU5",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Post shelter routes",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I17P4URM",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Establish warning system",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0I4UW3Q",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Conduct tornado drill",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0OFK79V",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Monitor watches and warnings",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QX0UEG",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Stop work and evacuate to shelter",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I19MO9GY",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Account for workforce",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0EK9WZ3",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Maintain emergency communications",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KO7ZKH",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Restrict reentry",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MLMQKD",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Conduct damage and structural assessment",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04V2CCJ",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Inspect cranes, scaffolds and temporary works",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0O4JJ64",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Inspect utilities and hazardous materials",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HVHNI8",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Coordinate emergency authorities",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0L7GAG2",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Clear debris",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I065BMXS",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Restore access and emergency routes",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BD7X7D",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Obtain restart authorization",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YKAJ18",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Document event and impact",
+          "source_line": 309
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Tropical storms and hurricanes",
+      "path": [
+        "Tropical storms and hurricanes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1Q7ADTU",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Prepare hurricane plan",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I11662AE",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Identify storm responsibilities and trigger levels",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0XW48FH",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Monitor tropical outlooks",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NQ0TN7",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Conduct seasonal readiness review",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0W3UPGC",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Inventory protection materials",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I001EFJV",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Confirm emergency contacts",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1A1TXQU",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Confirm evacuation and shelter plans",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18PU6A9",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Confirm generator and fuel",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JXASQL",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Confirm pumps and dewatering",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FOTUHR",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Accelerate dry-in",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03OSR2X",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Protect building openings",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18CPMDD",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Secure roofing and envelope",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01NKTO9",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Secure cranes and hoists",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0XFQYVC",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Secure trailers and temporary structures",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12WHGET",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Secure fencing, signs and loose materials",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12NDT7F",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Relocate equipment from flood-prone areas",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I021K7P4",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Protect documents and electronics",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1RPIDF0",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Shut down temporary utilities safely",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0UYCXVY",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Remove hazardous materials",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09ITUE9",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Suspend deliveries",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1STOK3Y",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Evacuate site",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0B3OXWS",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Maintain remote monitoring",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12O58ZB",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Conduct post-storm access assessment",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1G5F8NB",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Conduct structural and temporary-works inspection",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1H6Z7RC",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Conduct utility and environmental inspection",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PPSE38",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Pump, dry and clean",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RJ5GCX",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Repair damage",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12RH8ET",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Obtain AHJ and engineer releases",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DF0TCD",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Restart work",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DHYBU9",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Document weather delay and recovery",
+          "source_line": 342
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Flooding, storm surge and high water",
+      "path": [
+        "Flooding, storm surge and high water"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WP671O",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Monitor flood and river forecasts",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04M9UE9",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Monitor tide and storm surge",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0A6OLQG",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Install flood barriers",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1X6IV0V",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Protect entrances and openings",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KWY0WH",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Relocate materials and equipment",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1EQFC49",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Elevate electrical equipment",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0CCAWWA",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Protect fuel and chemical storage",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DV1MI4",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Secure tanks and containers",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I084RTW2",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Stop excavation and underground work",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I00RSHTS",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Stop dewatering discharge when required",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AJ3LDL",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Maintain pumps and backup power",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KDAE5B",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Evacuate low areas",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I14MQP22",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Close flooded access routes",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AEJ8ZZ",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Coordinate emergency authorities",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1JM82EY",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Inspect erosion, scour and settlement",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I16LZSRE",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Inspect foundations and shoring",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1U58ZBT",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Inspect electrical and mechanical equipment",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RFOW3X",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Test contaminated floodwater",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JPCF7Q",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Remove water and sediment",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BDKH3A",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Dry and disinfect",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DPJSSX",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Remediate mold",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0D0C13H",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Repair erosion and washout",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0P70TBI",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Reinspect environmental controls",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DVV292",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Obtain restart approval",
+          "source_line": 369
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Snow, sleet and ice",
+      "path": [
+        "Snow, sleet and ice"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FES95O",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Monitor winter-weather forecasts",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1M5I8BW",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Pre-treat access routes",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KFJ3J8",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Stage snow-removal equipment",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1H4ICBD",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Stock deicing materials",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I106BPEO",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Protect materials and equipment",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WWYKAK",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Secure temporary heat",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Y8SBRH",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Remove snow from access and emergency routes",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WIZM3P",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Clear roofs when engineered limits require",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MH4F64",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Clear scaffolds and work platforms",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WWVRYD",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Remove ice from stairs and walkways",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0U22FE6",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Inspect overhead ice hazards",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0CEAV60",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Suspend unsafe travel and elevated work",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1RLUB78",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Inspect frozen excavations and slopes",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1E8B6DS",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Protect concrete and masonry",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1J565LZ",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Protect piping and fire systems",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FLDXA5",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Inspect temporary roofs and structures",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1E2397Q",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Document snow and ice removal",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02EEEXM",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Restart after access and work surfaces are safe",
+          "source_line": 390
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Fog and reduced visibility",
+      "path": [
+        "Fog and reduced visibility"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1Y7MVUJ",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Monitor visibility",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I066NWIP",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Restrict vehicle and equipment movement",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NZFO5Y",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Increase lighting and spotters",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NJDKHS",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Suspend crane or hoisting activity when visibility is inadequate",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0VL4THC",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Suspend aerial or drone operations",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0X7V5NX",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Restrict work near traffic",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WIZ1AG",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Delay deliveries",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04399AS",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Adjust work zones and pedestrian controls",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01CR2SU",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Resume after adequate visibility is verified",
+          "source_line": 402
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Dust, drought and dry conditions",
+      "path": [
+        "Dust, drought and dry conditions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0IZZBRR",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Monitor drought restrictions",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I036RES0",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Monitor fire danger",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06CFDG6",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Increase dust suppression",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WLSH2E",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Maintain stabilized entrances",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1Q4KNRP",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Cover stockpiles",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0L8Y74E",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Limit vehicle speeds",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NXSOJ8",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Suspend dust-producing work when controls fail",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08PGYBH",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Protect neighboring properties",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0H3MI2K",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Inspect air intakes",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1J87AD5",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Modify earthwork moisture conditioning",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1W4R1QP",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Confirm water availability",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1J6T8LP",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Restrict open flame and hot work",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1W321JT",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Maintain fire watch",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FVKX7G",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Comply with burn bans",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0B9D9W5",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Document dust and water-control activities",
+          "source_line": 420
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Wildfire and smoke",
+      "path": [
+        "Wildfire and smoke"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NX62JW",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Monitor wildfire location and official alerts",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1GELOCV",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Monitor air quality and smoke",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1L8FLMK",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Prepare evacuation routes",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I05H5548",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Limit outdoor work under project criteria",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1IJOMA5",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Provide respiratory protection under approved program",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KABPH0",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Protect building air intakes",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I002LJHB",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Operate temporary filtration",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0D746G4",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Close openings when appropriate",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ZGQGUC",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Suspend hot work",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I10ZIG2Q",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Remove combustible debris",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1L9F9T0",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Maintain defensible space",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06IM9OM",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Protect fuel and gas cylinders",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09JBWRA",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Evacuate when directed",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0XWPVDE",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Inspect ash and smoke contamination",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1RQ62W5",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Clean equipment and building interiors",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I15O4LDJ",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Replace filters",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09MGY95",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Conduct indoor-air-quality verification",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KJAGQF",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Coordinate emergency and environmental authorities",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1VMKWNE",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Document delay and remediation",
+          "source_line": 442
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Air-quality and pollution events",
+      "path": [
+        "Air-quality and pollution events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I00ACW55",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Monitor air-quality alerts",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0K35755",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Monitor ozone",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1L43VI3",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Monitor particulate matter",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0IKX9HZ",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Monitor smoke",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0M4BIME",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Monitor dust",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PTU5EY",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Monitor diesel exhaust",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03PEF9H",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Monitor nearby industrial release",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I13IOI5O",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Adjust outdoor work",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1SH7YEV",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Adjust respiratory controls",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1SRCLQY",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Modify ventilation and air-intake operation",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1G7AMF5",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Suspend affected work",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0I2LJI0",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Shelter or evacuate",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I16WJ7VH",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Conduct air sampling",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DL4TWB",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Clean and replace filters",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1W21OIB",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Document exposure and work restrictions",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1ABONE9",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Obtain environmental or industrial-hygiene clearance",
+          "source_line": 461
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Earthquake and seismic events",
+      "path": [
+        "Earthquake and seismic events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1K7A886",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Establish earthquake response plan where applicable",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0L34UCT",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Stop work after significant shaking",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JEY888",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Account for workforce",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0US3LGX",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Check emergency access",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0O159FP",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Inspect cranes and hoists",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I19SWXBD",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Inspect scaffolds and temporary structures",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B3Y400",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Inspect excavations and shoring",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YL5V3Q",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Inspect structural frame",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1D7FSRO",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Inspect utilities",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HCFC8Y",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Inspect fuel and hazardous materials",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0VMPNKF",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Inspect fire protection",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I00MTM5U",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Check settlement and movement monitors",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DBC4DK",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Restrict entry to damaged areas",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1SC66E0",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Obtain structural-engineer assessment",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JQ3WM7",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Coordinate AHJ",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1M1KV2H",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Repair and stabilize",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03FMMQ6",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Reinspect and authorize restart",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0R8P89I",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Document event and effects",
+          "source_line": 482
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Landslide, sinkhole and ground movement",
+      "path": [
+        "Landslide, sinkhole and ground movement"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KSFNX4",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Monitor slopes and retaining systems",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1BUBQUU",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Monitor settlement points",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ELSG3Z",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Monitor cracks and movement",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0L1M807",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Stop work in affected area",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1R58PT1",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Establish exclusion zone",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0UTLSLM",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Protect utilities and structures",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1J6WH21",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Engage geotechnical and structural professionals",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I16K4KDT",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Survey movement",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1SIA0HC",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Stabilize slope or ground",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OHYT8B",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Manage groundwater",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QK30XY",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Repair erosion",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B8TNA7",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Inspect foundations and shoring",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AM48H4",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Notify owner, insurer and AHJ",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12T9M6O",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Obtain design and permit approval",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I13Q2S78",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Complete corrective work",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1T78UVF",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Continue monitoring",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I12UN01Q",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Authorize restart",
+          "source_line": 502
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Environmental spills and releases",
+      "path": [
+        "Environmental spills and releases"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0UMCHYC",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Activate spill-response plan",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1GF3C6P",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Stop source",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1Y34EPG",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Protect drains and waterways",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0P77MIN",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Establish exclusion zone",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0SK97R3",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Deploy absorbents and containment",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1EMS47D",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Notify responsible parties",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ZPW1I9",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Notify authorities when required",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I17ANY64",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Recover released material",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I198VBKQ",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Remove contaminated soil or water",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CLFSW6",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Sample affected media",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FN6ONY",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Manage waste and manifests",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1I5O2N8",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Restore controls",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1EGA2WO",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Complete corrective-action report",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WPAQCL",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Conduct follow-up inspection",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WL1WNJ",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Obtain regulatory closeout",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1T3PVNK",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Document schedule impact",
+          "source_line": 521
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Hazardous-material discovery",
+      "path": [
+        "Hazardous-material discovery"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I13NA7RM",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Stop affected work",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0SHUCQZ",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Secure area",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1UW3Y23",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Notify owner and environmental professional",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WFO2F8",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Identify material",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MTSMKO",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Sample and test",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0R4R5Q4",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Develop abatement or management plan",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04LVVT7",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Notify authorities",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0XRIP2A",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Obtain permits",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RF68U9",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Mobilize qualified contractor",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FEBC7X",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Abate or remediate",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NT8R7N",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Conduct clearance testing",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0CZXRJ2",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Dispose with documentation",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Q3PQTK",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Obtain reoccupancy or restart clearance",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0YQNJ3S",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Update schedule and records",
+          "source_line": 538
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Protected species and environmental windows",
+      "path": [
+        "Protected species and environmental windows"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0Q9TA1Y",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Conduct preconstruction survey",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1L0XNI4",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Confirm nesting or migration season",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I053W6ZS",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Establish buffers",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QJVFPT",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Install exclusion fencing",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B7WQS5",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Conduct biological monitoring",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0QG7DX4",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Stop work upon protected-species discovery",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01MF4AW",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Notify environmental authority",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PSR7S3",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Relocate work or resequence",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FBPS70",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Obtain authorization",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02KYN6N",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Maintain no-work period",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I00L9H4W",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Document compliance",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1IF5390",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Resume after release",
+          "source_line": 553
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Wetlands and water-quality events",
+      "path": [
+        "Wetlands and water-quality events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I17W2LSD",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Inspect wetland buffers",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DR56SB",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Monitor turbidity",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1X6QZL1",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Monitor dewatering discharge",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LX2NC4",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Inspect turbidity curtains",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0OA112M",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Stop discharge upon exceedance",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RC6U5P",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Repair erosion controls",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0SZTKDV",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Contain sediment release",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DYVYZ0",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Sample water",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OB1OOC",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Notify authority when required",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PZ8NOO",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Complete corrective action",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0QEOR20",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Reinspect",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06EYZXD",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Document compliance and restart",
+          "source_line": 568
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Mold and moisture events",
+      "path": [
+        "Mold and moisture events"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1T4IF4I",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Identify water source",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RASD23",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Stop leak or intrusion",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18XE07Q",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Isolate affected area",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I19UVXOP",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Remove standing water",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RBYDC0",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Measure moisture",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FC6I31",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Dry materials",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NW24VF",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Remove non-salvageable porous materials",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PCISV3",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Engage remediation contractor",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HR58D4",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Conduct cleaning and treatment",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1EG9LFA",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Conduct clearance inspection",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NVUO86",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Verify moisture before enclosure or finishes",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I13A9WRO",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Replace materials",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1U4E5RI",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Document remediation",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0CJ1D2Z",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Monitor for recurrence",
+          "source_line": 585
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Weather-sensitive construction activities",
+      "path": [
+        "Weather-sensitive construction activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1T2QYYM",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Earthwork and compaction",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I19915ME",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Excavation and trenching",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0U8HO39",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Dewatering",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0JH7Q38",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Ground improvement",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I14OOH3O",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Concrete placement and curing",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0J8ZUW3",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Masonry installation and curing",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I14H38Y4",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Structural steel erection",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0M7IRZC",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Crane and hoisting operations",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1590BBZ",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Roofing",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QZ5K14",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Waterproofing",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I11XSNKR",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Air barriers",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OL9KSP",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Exterior cladding",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I194ZW48",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Curtain wall and glazing",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I16VTZXC",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Exterior sealants",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02U8IAL",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Fireproofing",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0J34I28",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Painting and coatings",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NJW8XK",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Flooring and adhesives",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I083UB8U",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Landscaping and irrigation",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CMQZN6",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Paving",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LLE10M",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Utility tie-ins",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1WNO17J",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Testing and balancing",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1902K7S",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Building flush-out",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B8TU07",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Envelope testing",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1N7QWLO",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Final cleaning",
+          "source_line": 612
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Seasonal planning activities",
+      "path": [
+        "Seasonal planning activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1PGDAN8",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Winter mobilization",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09SYFGQ",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Winter temporary heat",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1CW0C22",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Spring thaw planning",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1AQ2LPK",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Rainy-season planning",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HLWUE2",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Hurricane-season planning",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1A7TW2R",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Severe-storm season",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I114PCPV",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Tornado-season readiness",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I016M288",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Wildfire-season readiness",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I18050EG",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Extreme-heat season",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I10NDH99",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Snow-removal planning",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I15DYI09",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Freeze-protection installation",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0T1WU0D",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Temporary enclosure",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1H6KXOJ",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Building dry-in milestone",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03JHFJD",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Permanent heating availability",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06UHNZ6",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Permanent cooling availability",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LUYIV7",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Landscape planting windows",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MSSEBE",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Asphalt plant seasonal shutdown",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0EID7N1",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Roofing manufacturer seasonal limits",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1IQC4VP",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Utility seasonal restrictions",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1RGVDY0",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Environmental no-work windows",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08MD41P",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Seasonal commissioning",
+          "source_line": 636
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Post-event inspection and restart",
+      "path": [
+        "Post-event inspection and restart"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FHPQYW",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Confirm emergency authorities permit access",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1UL540J",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Account for workforce",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09Q6PO6",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Inspect access roads and emergency routes",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08NBIH6",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Inspect fences and public protection",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1F12JV1",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Inspect cranes, hoists and lifting equipment",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0EQWUKB",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Inspect scaffolds and aerial lifts",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LE4BJB",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Inspect excavations and shoring",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0LI9AOI",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Inspect temporary structures",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BHGIPC",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Inspect building structure",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I17LPPPW",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Inspect roofing and envelope",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1N3ZLRV",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Inspect temporary and permanent utilities",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1IOE67H",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Inspect fire and life-safety systems",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DAWHCR",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Inspect environmental controls",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08M9LE8",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Inspect stored materials",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1116MNC",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Inspect finished work",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OMIL7S",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Identify water and moisture damage",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ZEPGEA",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Identify hazardous conditions",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0MXHVYX",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Complete corrective actions",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0AX7DCM",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Obtain engineer, manufacturer or AHJ approval when required",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0SJW4J4",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Conduct restart briefing",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0WDJQMO",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Authorize phased or full restart",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1XSMDS5",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Document condition and release",
+          "source_line": 661
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Weather-delay documentation",
+      "path": [
+        "Weather-delay documentation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0LFSX67",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Record forecast source",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02WFURG",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Record official alert",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LO8YGN",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Record actual site observations",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DPENWM",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Record start and end time",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1C5Z435",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Record precipitation and temperature",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03DHO22",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Record wind and lightning data",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0O4OL3K",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Record affected activities",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I06WTX50",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Record crews and equipment idled",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B0CNJH",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Record work hours lost",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1B0STX5",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Record protective work",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I10EDL72",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Record damage",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0V2TFKB",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Record cleanup and recovery",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1NZRXHA",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Record photographs and video",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DOY9Z4",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Record daily report narrative",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0O59FAQ",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Record notices to owner",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1LBT7XM",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Record contract calendar comparison",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DG4UV4",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Record schedule fragnet or impact",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0QRER2K",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Record mitigation and resequencing",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1V4A2I2",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Preserve third-party records",
+          "source_line": 683
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Schedule impact and recovery",
+      "path": [
+        "Schedule impact and recovery"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I07Q80SH",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Identify stopped and reduced-productivity work",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0OB92AQ",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Identify material and equipment damage",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HBLCSE",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Identify inspection and testing cancellations",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0U7CL4X",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Identify delivery cancellations",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0FAJJTE",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Identify access restrictions",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0RJZ275",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Identify cure, drying or stabilization delays",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BWKTBY",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Identify successor activities affected",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02F8FPZ",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Update remaining durations",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I02X44Z1",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Add cleanup and repair activities",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0XEDTWR",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Add reinspection and retesting",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1RKL9AN",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Resequence unaffected work",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0BXU8IQ",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Add shifts or overtime when authorized",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I04ZIGAV",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Expedite replacement materials",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I019L3YQ",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Update critical path",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1E6L4RA",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Issue required notices",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0APRX3A",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Prepare recovery schedule",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GMRNP8",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Track recovery progress",
+          "source_line": 703
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Common hold points",
+      "path": [
+        "Common hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1W8OW1G",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "No exposed work during conditions outside approved limits",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I03D2JBK",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "No crane or lift operation above applicable engineered or manufacturer limits",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01SZJIB",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "No restart before post-event inspection",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GPLAY8",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "No concealment of wet or damaged materials",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0DSQ6RR",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "No electrical reenergization after flooding before inspection",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0F5O8WD",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "No concrete, masonry, coating, roofing or sealant work outside approved conditions",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OWS7AM",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "No environmental discharge after a permit exceedance until corrected",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I09NMFES",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "No entry into structurally suspect areas before professional release",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1TVV8GO",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "No assumption that forecast conditions equal actual site conditions",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ILAJBU",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "No weather-delay claim without contemporaneous records",
+          "source_line": 716
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1TDYQI5",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Seasonal planning",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GX122E",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Monitoring",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1KDQR07",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Advisory",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I053RS9Z",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Watch",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0KXI960",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Warning",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FT5NQC",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Preparedness active",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0ZIGTD9",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Protection in progress",
+          "source_line": 726
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0QXCL6Q",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Work restricted",
+          "source_line": 727
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1HE6KED",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Partial shutdown",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I07KN6DD",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Full shutdown",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1FLNWBC",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Emergency response",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0TIOVPG",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Event passed",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0QPDHVN",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Access restricted",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1S2Q1AT",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Damage assessment",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I08JHX20",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Cleanup",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0I4GD7F",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Drying or stabilization",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1VH8T29",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Repair",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1GE5RS3",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Reinspection",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1BEUPXW",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Restart pending",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1Q4T3TG",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Restart authorized",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0PT09A1",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Recovery in progress",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I01ZYS59",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Documentation pending",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0HX0K78",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 742
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1RCDGP6",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Use project-specific thresholds and official warnings.",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0GWR7KD",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Track forecast and actual conditions separately.",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1YO64IS",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Link weather-sensitive work to realistic seasonal calendars.",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0NCMA3R",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Include preparedness, shutdown, protection, inspection and recovery—not only lost time.",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1OHKH4B",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Preserve daily contemporaneous documentation.",
+          "source_line": 750
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1QTB0KV",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Track partial productivity loss as well as full shutdowns.",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1AO41WD",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Reinspect temporary works and concealed materials after significant events.",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1DDAADR",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Add drying, curing, stabilization, remediation and retesting durations.",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0SYPJXF",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Tie restart to responsible authorization.",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I0UNKNM3",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Update schedule logic and forecasts after every material event.",
+          "source_line": 755
+        },
+        {
+          "item_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS-I1MNAHU1",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Coordinate with the SSX Weather System when project-specific automation is developed.",
+          "source_line": 756
+        }
+      ]
+    }
+  ]
+}

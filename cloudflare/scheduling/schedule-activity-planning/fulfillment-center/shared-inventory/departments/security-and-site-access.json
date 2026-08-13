@@ -1,0 +1,4124 @@
+{
+  "department_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS",
+  "slug": "security-and-site-access",
+  "title": "Security And Site Access",
+  "document_title": "SSX Master Security and Site Access Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/security-and-site-access/MASTER_SECURITY_AND_SITE_ACCESS_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 35,
+    "items": 527
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Core security questions",
+      "path": [
+        "Core security questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0KG3J90",
+          "sequence": 1,
+          "type": "table-row",
+          "text": "Field | Required answer",
+          "source_line": 9,
+          "cells": [
+            "Field",
+            "Required answer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OFW8R3",
+          "sequence": 2,
+          "type": "table-row",
+          "text": "What is protected? | People, property, materials, equipment, information, occupied operations or critical infrastructure",
+          "source_line": 11,
+          "cells": [
+            "What is protected?",
+            "People, property, materials, equipment, information, occupied operations or critical infrastructure"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0C0WHWZ",
+          "sequence": 3,
+          "type": "table-row",
+          "text": "Where? | Perimeter, gate, building, floor, room, roof, laydown, office, utility area or digital system",
+          "source_line": 12,
+          "cells": [
+            "Where?",
+            "Perimeter, gate, building, floor, room, roof, laydown, office, utility area or digital system"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0IKTFJS",
+          "sequence": 4,
+          "type": "table-row",
+          "text": "From what risk? | Unauthorized entry, theft, vandalism, violence, trespass, sabotage, information loss or operational disruption",
+          "source_line": 13,
+          "cells": [
+            "From what risk?",
+            "Unauthorized entry, theft, vandalism, violence, trespass, sabotage, information loss or operational disruption"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WFQQNH",
+          "sequence": 5,
+          "type": "table-row",
+          "text": "Who may enter? | Worker, visitor, owner, inspector, delivery driver, emergency responder or authorized specialist",
+          "source_line": 14,
+          "cells": [
+            "Who may enter?",
+            "Worker, visitor, owner, inspector, delivery driver, emergency responder or authorized specialist"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I18W4SX5",
+          "sequence": 6,
+          "type": "table-row",
+          "text": "When? | Work hours, after hours, weekends, shutdowns, high-risk operations, turnover or occupancy",
+          "source_line": 15,
+          "cells": [
+            "When?",
+            "Work hours, after hours, weekends, shutdowns, high-risk operations, turnover or occupancy"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1K7KQ3H",
+          "sequence": 7,
+          "type": "table-row",
+          "text": "How is access controlled? | Guard, badge, roster, key, lock, escort, camera, alarm, turnstile or digital credential",
+          "source_line": 16,
+          "cells": [
+            "How is access controlled?",
+            "Guard, badge, roster, key, lock, escort, camera, alarm, turnstile or digital credential"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1XVACKE",
+          "sequence": 8,
+          "type": "table-row",
+          "text": "Who responds? | Security, superintendent, owner, police, fire department, emergency team or system administrator",
+          "source_line": 17,
+          "cells": [
+            "Who responds?",
+            "Security, superintendent, owner, police, fire department, emergency team or system administrator"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I07DNCT5",
+          "sequence": 9,
+          "type": "table-row",
+          "text": "What proves control? | Approved plan, access log, credential record, patrol log, video, incident report or turnover receipt",
+          "source_line": 18,
+          "cells": [
+            "What proves control?",
+            "Approved plan, access log, credential record, patrol log, video, incident report or turnover receipt"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11IZWFD",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Security activity ID",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HT7XWB",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Security zone and risk level",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0DCPYE9",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Building, floor, room and access point",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QUQTB4",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Responsible organization and person",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JOUYZJ",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Access type and hours",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HU0AV1",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Authorized person or group",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I01Q9FXW",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Screening prerequisites",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LYJMJY",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Badge, key or credential number",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11GNJNN",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Issue, activation and expiration dates",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1956LSU",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Escort requirement",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QT8M91",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Guard post and coverage",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I164BJQR",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Camera, alarm or device ID",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0VRJ1YZ",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Inspection and test dates",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0IZNQG1",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Incident or exception",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0X6EMFD",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SD1U7M",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Emergency contact",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17PN1Z3",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Phase transition",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11HRPAZ",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Deactivation and return",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0EIMVCV",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Record-retention class",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GDHX9K",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Status and attachments",
+          "source_line": 41
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Security activity classifications",
+      "path": [
+        "Security activity classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1707FYF",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Security planning",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1PU85WZ",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Perimeter security",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0ORRXJM",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Gate control",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ET65EG",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Worker access",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04ENSSC",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Visitor access",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1HIMSP2",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Delivery access",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YSNHJI",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Guard service",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1Q9CQQA",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Patrol",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0F7LFIQ",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Key control",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17L57S6",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Badge control",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0UTLP1U",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Restricted area",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0B02PH8",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Camera surveillance",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17CRHJH",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Alarm monitoring",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0T3G480",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Lighting",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1PW2MA7",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Asset protection",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0BAUYW8",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Information security",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RVROJL",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Incident response",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1P9645P",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Occupied-facility coordination",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VORQXZ",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Security turnover",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03NQHKS",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Closeout",
+          "source_line": 64
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Standard security workflow",
+      "path": [
+        "Standard security workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TSPUO0",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Assess site and operational risks",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I02XISNK",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Define security zones and authority",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ASTP9N",
+          "sequence": 52,
+          "type": "numbered",
+          "text": "Prepare security and access plan",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OS6YHN",
+          "sequence": 53,
+          "type": "numbered",
+          "text": "Coordinate emergency and owner requirements",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0VA6ELL",
+          "sequence": 54,
+          "type": "numbered",
+          "text": "Install perimeter, gates, lighting and monitoring",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13ZHS7V",
+          "sequence": 55,
+          "type": "numbered",
+          "text": "Establish screening and credential procedures",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I126MI9D",
+          "sequence": 56,
+          "type": "numbered",
+          "text": "Activate access and guard coverage",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I14TY3G6",
+          "sequence": 57,
+          "type": "numbered",
+          "text": "Monitor, patrol and audit",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10O2OH3",
+          "sequence": 58,
+          "type": "numbered",
+          "text": "Report and investigate incidents",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1MY0RTV",
+          "sequence": 59,
+          "type": "numbered",
+          "text": "Modify controls as construction phases",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I014KPOH",
+          "sequence": 60,
+          "type": "numbered",
+          "text": "Commission permanent security systems",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03DAGW4",
+          "sequence": 61,
+          "type": "numbered",
+          "text": "Transfer control to owner",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0AT7VWK",
+          "sequence": 62,
+          "type": "numbered",
+          "text": "Recover credentials and remove temporary systems",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WDZGUD",
+          "sequence": 63,
+          "type": "numbered",
+          "text": "Archive required records",
+          "source_line": 81
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Security planning",
+      "path": [
+        "Security planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IE6QMC",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Conduct threat and vulnerability assessment",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1NHU9BM",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Review owner security standards",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I00IJC5R",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Review adjacent uses",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0US9K7M",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Review crime and trespass exposure",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1EV6UXN",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Identify critical assets",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I05VOF9R",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Identify sensitive information",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0K1M0BN",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Identify occupied operations",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I07MT772",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Identify public interfaces",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1S9LPYU",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Identify emergency routes",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0292OAJ",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Define security zones",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I19KG3G9",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Define restricted areas",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1PX97DT",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Define access authority",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1U90BC7",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Define guard coverage",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I142A16C",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Define camera and alarm needs",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VUVRJ7",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Define incident response",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0SCU2QC",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Define law-enforcement coordination",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1I50BF3",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Prepare phase security plans",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1L5IORM",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Obtain owner approval",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QZFCA4",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Conduct security kickoff",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1HPJOXJ",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Update plan by phase",
+          "source_line": 104
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Perimeter security",
+      "path": [
+        "Perimeter security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SP6BB0",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Survey property limits",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PYYIAC",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Install construction fence",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0Q4NLLW",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Install anti-climb measures when required",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0G0ZNYW",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Install privacy screening",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I16CQJJS",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Install gates",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0DS1BFK",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Install locks",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1PTZYCA",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Install barriers and bollards",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0N6H2FQ",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Install warning signs",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I078CI0P",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Install perimeter lighting",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QRSYQW",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Install cameras",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1FYBELM",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Install intrusion detection",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LOPY9O",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Clear sight lines",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IA8MW9",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Inspect perimeter daily",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JCMWID",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Repair breach",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I07AIGMH",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Relocate perimeter",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13O1NYT",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Remove temporary perimeter",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0NM0HEO",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Restore affected property",
+          "source_line": 124
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Gate and entry control",
+      "path": [
+        "Gate and entry control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I19XSD5W",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Establish main gate",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WZWPZL",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Establish worker gate",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YAAU39",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Establish visitor gate",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04HJWI3",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Establish delivery gate",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04AIVQK",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Establish emergency gate",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I07A7KQP",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Install gatehouse",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LR2LSP",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Install turnstiles",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1J5CRKW",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Install vehicle barriers",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1Y2P11F",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Install intercom",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1X7K8IK",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Install credential reader",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1DB89M8",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Establish gate hours",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1775DKA",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Staff guard post",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11HTE7Y",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Verify incoming credentials",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RJVWOZ",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Screen outgoing vehicles when authorized",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03VSELL",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Maintain emergency access",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1T3I8XE",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Record exceptions",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1NEZYVS",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Inspect and test controls",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I00MRQ16",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Relocate or close gate",
+          "source_line": 145
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Worker access lifecycle",
+      "path": [
+        "Worker access lifecycle"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0SH059R",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Submit worker roster",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1MEL5YX",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Verify company and supervisor",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1U6401G",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Verify required screening",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JZQ59D",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Verify orientation",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0LD8D2S",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Verify training and certification",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13RM9KW",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Approve access zones",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1XC8Z3A",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Issue badge",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1PGIAFS",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Activate badge",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ABCHPO",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Test access",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0EUWD8X",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Record first entry",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03AAPB6",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Modify access for assignment",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QX38KO",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Suspend access",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LV6LGL",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Replace lost credential",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0SX34KK",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Investigate credential misuse",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10AI3EJ",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Deactivate at separation",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TT1CFX",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Recover badge",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0F28O58",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Audit active roster",
+          "source_line": 165
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Visitor access",
+      "path": [
+        "Visitor access"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I19U2TZX",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Pre-register visitor",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I061GJLO",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Identify host",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0RI4VB1",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Verify purpose",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1NUXEYQ",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Verify identification under approved policy",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0R58VNH",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Complete visitor orientation",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QKLEX7",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Issue temporary credential",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I02EDUDR",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Provide required PPE",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I07O9CH5",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Assign escort",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0U5Z8X3",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Restrict access zones",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0L33H3M",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Record arrival",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I169MQRZ",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Record departure",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RFNLPB",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Recover credential",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GUAWDG",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Escalate unapproved visitor",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1MMLRZQ",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Preserve visitor log",
+          "source_line": 182
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Delivery-driver and vendor access",
+      "path": [
+        "Delivery-driver and vendor access"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04W55YW",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Preapprove delivery",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1OEFQSO",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Confirm company and vehicle",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1PU2KV8",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Assign time window",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1105YOA",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Assign gate and route",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GHGJG0",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Verify load and destination",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PIU3U0",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Issue temporary access",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1DFRE7Z",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Provide route instructions",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IZ7JRE",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Provide escort or flagger",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1GH8FTX",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Restrict driver movement",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VJQHON",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Record arrival and departure",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0NHVCQ0",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Inspect exceptions",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04V2TXE",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Recover temporary credential",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08DHDUD",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Close delivery access record",
+          "source_line": 198
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Background screening and credential prerequisites",
+      "path": [
+        "Background screening and credential prerequisites"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08F79WP",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Define lawful project requirement",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I148ILHI",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Obtain required authorization",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0ZE9TKH",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Verify identity through approved process",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1BJGVZY",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Conduct background screening when required",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QCC86S",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Conduct drug testing when required",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I142HE4T",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Verify work authorization through employer process",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HATQPV",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Verify professional or trade license",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03F8MC3",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Verify operator qualification",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OSLGRS",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Record pass/fail access decision",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13UXZGH",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Restrict confidential results",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1L1NMN3",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Track rescreening or expiration",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TPC2PC",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Provide approved appeal or correction path",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0W3DZQ7",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Never place sensitive screening details in general site logs",
+          "source_line": 214
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Badges and electronic credentials",
+      "path": [
+        "Badges and electronic credentials"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OTPS8S",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Select credential technology",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0RECJAS",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Configure access-control system",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I15T56IB",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Create access groups",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I15PEJZW",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Define schedules",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1K5YUR6",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Enroll credential",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I064R8SN",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Issue badge",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1OHX00S",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Activate",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1P3V449",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Test",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QISWQU",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Monitor denied-access events",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1B1VC0B",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Modify permissions",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I139W107",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Suspend",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0S10MU7",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Replace",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1C036CF",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Deactivate",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I16KVMQ7",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Recover",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0V8F6TK",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Destroy or archive under policy",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0XTT9T0",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Reconcile active badges monthly",
+          "source_line": 233
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Keys, locks and cores",
+      "path": [
+        "Keys, locks and cores"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RKDTRI",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Prepare keying plan",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WHKL29",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Establish key-control cabinet",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I01FMBWR",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Assign key numbers",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1M0R4FF",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Maintain key log",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0BBE1IE",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Issue keys",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I106G436",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Obtain receipt",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03CWSKE",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Control master keys",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0Q7Y66K",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Control equipment keys",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0X7XIQR",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Control temporary locks",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0T6CMBC",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Change compromised lock",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1V3S0ZH",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Rekey by phase",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JALX1D",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Collect keys",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0FE994R",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Reconcile missing keys",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JBJJ8A",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Transfer permanent keys",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I18VS0QG",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Destroy temporary keys",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JTSFAG",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Close key log",
+          "source_line": 252
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Guard-force activities",
+      "path": [
+        "Guard-force activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0THJE1V",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Procure licensed guard service",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WDP6IE",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Establish post orders",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I02V2IHS",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Verify guard qualifications",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0CHIZ5B",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Conduct site orientation",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I044UULP",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Establish communication",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ODLSJF",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Establish escalation contacts",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I000Z121",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Staff fixed posts",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0LVM8CY",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Conduct mobile patrol",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1HT9DDD",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Monitor cameras and alarms",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HNS5XB",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Manage visitor access",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VI670P",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Manage after-hours access",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1M61CUO",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Record patrols",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0KQ9ONO",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Record incidents",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0S78BL4",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Conduct shift handoff",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1K9F88Z",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Audit performance",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SMUTAL",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Adjust coverage",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0RLLUB0",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Demobilize guard force",
+          "source_line": 272
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Patrols and inspections",
+      "path": [
+        "Patrols and inspections"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MWLVD9",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Opening patrol",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1KIGVQ4",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Perimeter patrol",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I067J6T3",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Building patrol",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1BLTK1D",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Roof patrol",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I05LWSPN",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Laydown patrol",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QTG13Z",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Office patrol",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OK29GL",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Fire-watch patrol when assigned",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QY3UG8",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Closing patrol",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MIWUPX",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "After-hours patrol",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10NK199",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Holiday patrol",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0BGZ2H1",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Check doors and gates",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I172EMLN",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Check lighting",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1FSXNS8",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Check alarms and cameras",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0S8O7N5",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Check high-value materials",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I130E1HW",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Document exceptions",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I080VTC0",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Correct or escalate",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IECL2X",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Preserve patrol log",
+          "source_line": 292
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Cameras and video surveillance",
+      "path": [
+        "Cameras and video surveillance"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RO38RM",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Prepare camera coverage plan",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1S7O4Y6",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Confirm privacy limitations",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0H11X9J",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Install temporary cameras",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04N3SL2",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Establish power and network",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08VJ2BB",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Aim and focus",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0DTX1R0",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Define retention",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1CZIMPO",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Configure user access",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1MMTEII",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Test recording",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1Q37ABK",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Test alerts",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I02RU4N0",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Post required notice",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I06WY3XW",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Monitor critical views",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I06SXBCW",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Relocate cameras by phase",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I033BTSI",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Preserve incident footage",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0ZZUDKL",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Prevent unauthorized export",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0J42JLW",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Transfer permanent cameras",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0RNWX6U",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Remove temporary cameras",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1N1R7OZ",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Archive or delete under policy",
+          "source_line": 312
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Alarm and intrusion systems",
+      "path": [
+        "Alarm and intrusion systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I06BQ9IU",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Install temporary alarm",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1KORICL",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Define zones",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1Y6T86A",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Configure contacts and sensors",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VGSFQF",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Configure monitoring",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JDJX2G",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Establish call list",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0BWDCE8",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Test alarm",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QKVYV4",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Train responders",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0SXR3RM",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Monitor events",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MF77GL",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Investigate alarm",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1GFKVOM",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Document false alarm",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0U29P4Q",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Repair device",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I07ZZDTA",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Modify zones by phase",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1NYZK7J",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Integrate permanent system",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MYC8IG",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Transfer monitoring",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I16HEA93",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Remove temporary system",
+          "source_line": 330
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Security lighting",
+      "path": [
+        "Security lighting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1W71510",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Prepare lighting plan",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0ST7ENL",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Illuminate perimeter",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I02IM0J6",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Illuminate gates",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1K9IIFZ",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Illuminate pedestrian routes",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I16C9FXQ",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Illuminate parking",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OPTVCC",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Illuminate laydown",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I12VV2KI",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Illuminate building entries",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RMMXA2",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Provide emergency backup",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0NY2L43",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Aim to limit glare and nuisance",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MY6F8N",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Conduct nighttime inspection",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0S4MKS3",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Replace failed lighting",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04YTNDV",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Relocate by phase",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0CHK0Y7",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Transfer permanent lighting",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JB2JL1",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Remove temporary lighting",
+          "source_line": 347
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Restricted and high-security areas",
+      "path": [
+        "Restricted and high-security areas"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0W5UT48",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Define restricted area",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0C4ZLCM",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Approve authorized roster",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OY112Y",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Install additional barrier",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17TXXN9",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Install access reader or lock",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I14ZT7UD",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Install camera or alarm",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GU9606",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Post restrictions",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1QZSQPR",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Establish escort rules",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0H1DNSE",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Control tools and devices when required",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I151T2HA",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Maintain entry log",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1E50T1Y",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Audit access",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PBQDC1",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Investigate exception",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I180K9KF",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Remove restrictions when released",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0VHH4E5",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Transfer to owner control",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1R43G4L",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Data and telecom rooms",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1K30MEJ",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Electrical rooms",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WMA64M",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Fire-command center",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0CUCII6",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Pharmacy or healthcare areas",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I05X1XWU",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Security-control room",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I14QFNYN",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Utility plants",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MHQ22O",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Roofs",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13DUY6P",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Owner equipment storage",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JUUCWB",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Evidence or records rooms",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SG029T",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "High-value finish storage",
+          "source_line": 375
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Asset and material protection",
+      "path": [
+        "Asset and material protection"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QAQDT6",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Identify high-value assets",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1WXCV66",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Establish secure storage",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I09YS4IC",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Record serial numbers",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I05JDDEQ",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Apply asset tags",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1R62DOR",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Restrict access",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1U0S4UF",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Install locks and cameras",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I05SSK61",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Conduct inventory",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I00RIVXR",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Secure tools at shift end",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0D67J9E",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Secure fuel",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1XJE72J",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Secure copper and cable",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TCF2TW",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Secure equipment after delivery",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0UG7COR",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Investigate shortage",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QH7EJ0",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Report theft",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I05JSS3I",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Recover or replace",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0DF8NLQ",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Update inventory",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11D68BR",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Release asset to installation",
+          "source_line": 394
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Tool and equipment control",
+      "path": [
+        "Tool and equipment control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TUYALI",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Register company equipment",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0X7W6NY",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Record worker-issued tools",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PRA491",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Control shared tools",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0NKO5WN",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Control keys",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03EJGW6",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Inspect outgoing property under approved policy",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1A34J6W",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Report missing tool",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1WIO6QB",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Investigate unauthorized possession",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0BVPMVG",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Recover tools at reassignment",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0W9Z96P",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Reconcile at demobilization",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11UGGSY",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Document loss or damage",
+          "source_line": 407
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Information and document security",
+      "path": [
+        "Information and document security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1M0NVJW",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Classify sensitive information",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1UY2HFX",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Restrict project-system access",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QB2AXF",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Use role-based permissions",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0J03BKJ",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Control drawing distribution",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I06GMS7E",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Protect security-system drawings",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YXKFLJ",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Protect personal information",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11VQO5O",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Protect bid and cost information",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0VKNYHO",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Control removable media",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1XRKF6M",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Control printing",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IKG6LO",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Use secure transmission",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TXWJLB",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Remove former-user access",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I06GDVMR",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Report suspected disclosure",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0M1JBNE",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Preserve audit logs",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1GTLF4Y",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Transfer and archive securely",
+          "source_line": 424
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Cybersecurity for site systems",
+      "path": [
+        "Cybersecurity for site systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0LV8JD9",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Inventory connected devices",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SZWTYW",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Change default credentials",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0A7QGNF",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Use unique accounts",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04S3AZB",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Apply least privilege",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LM7RAI",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Segment temporary networks",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0FD37GF",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Secure cameras and access controls",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0J0OKWH",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Update supported firmware",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1U010JP",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Protect wireless networks",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TEDJV6",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Control vendor remote access",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17MX9QV",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Back up configuration",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08D0J0R",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Monitor suspicious activity",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0B0R9S6",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Revoke access promptly",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1N9G9QW",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Coordinate permanent-system cybersecurity",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1BGAJXW",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Transfer credentials securely",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0RWMK6B",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Do not place secrets in general project records",
+          "source_line": 442
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Occupied-facility security",
+      "path": [
+        "Occupied-facility security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LHPU2Z",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Coordinate with owner security",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1V4CCOC",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Separate construction and public access",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SOXY5H",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Maintain patient, guest, tenant or staff routes",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1UUQOV2",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Establish temporary doors and barriers",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1II64LX",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Issue owner-compatible credentials",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1GVSAFQ",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Provide escorts",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ML75W4",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Schedule sensitive work",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0G2WCPT",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Control noise and disruption",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04XOXB4",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Maintain emergency operations",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0EC08XD",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Protect occupied-area information",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08GFRGE",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Conduct daily coordination",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I12BN34L",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Restore secured condition after each shift",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OHR9UF",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Transfer areas by phase",
+          "source_line": 458
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Emergency responder access",
+      "path": [
+        "Emergency responder access"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0DU2GOW",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Coordinate fire and police access",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I14GHD9L",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Maintain Knox Box or required access",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0WBFJ0D",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Maintain apparatus routes",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RNQDZH",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Maintain gate override",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IRNBN7",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Post emergency contacts",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QKBC4M",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Provide current logistics map",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1BV5XNF",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Conduct responder walkthrough",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I09LM62O",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Test emergency entry",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0NRLYMW",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Update after phase changes",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17U2KYI",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Document impairment",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1H9KLGN",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Restore access immediately",
+          "source_line": 472
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Incident response",
+      "path": [
+        "Incident response"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PSU58R",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Identify incident",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1SH9E8V",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Protect life and summon emergency assistance",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11OEOHV",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Secure area",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0IFZ7LD",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Notify superintendent and security",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1WQ69HG",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Notify owner when required",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JSMC4I",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Contact law enforcement when appropriate",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1EKJUB8",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Preserve evidence",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0BHUJRF",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Preserve relevant video and access logs",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GHDL2H",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Record witnesses",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1IYTI4F",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Document loss or damage",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1O0MLKM",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Issue required notices",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I133JHBN",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Conduct investigation",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I045XDYX",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Correct vulnerability",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0L08L3F",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Update security plan",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1HTCRSP",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Close incident",
+          "source_line": 490
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Lost credential or key response",
+      "path": [
+        "Lost credential or key response"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08VN7QW",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Report immediately",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1CWYRSY",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Identify affected access",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JRGDDB",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Deactivate credential",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1DQD6NX",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Notify security",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1UQNRV6",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Search and investigate",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YB4ILH",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Reissue credential",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10F05A1",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Rekey when risk requires",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0VLAIP5",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Document event",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JHLAEP",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Review access logs",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1UQR39L",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Correct control failure",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YXBY8Y",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Close incident",
+          "source_line": 504
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Security breaches and trespass",
+      "path": [
+        "Security breaches and trespass"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HH01XR",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Observe without unnecessary confrontation",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0541GB7",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Notify security or law enforcement",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0TUOJPH",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Protect workers and public",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LXR6S1",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Secure breach point",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0IGM9HK",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Preserve video and photographs",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0R3Q3ZD",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Record time and location",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I17K0GI6",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Identify affected assets",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0T2BP61",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Repair perimeter or access control",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0L0HE0V",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Increase patrol",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0UJRLIY",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Review root cause",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0SQVNGO",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Update controls",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0QKATD1",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Close report",
+          "source_line": 519
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Phase-transition security",
+      "path": [
+        "Phase-transition security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0XAI6DI",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Issue revised security map",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OJN2V0",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Change perimeter",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1MX7ILO",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Open or close gates",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PLT5Y1",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Change access groups",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10QVNK7",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Rekey areas",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TX5G9I",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Relocate guards",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1AYXDYW",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Relocate cameras",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0Q9MURC",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Relocate lighting",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1E9570K",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Transfer completed area to owner",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PRKYZL",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Establish construction separation",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0J0JMMA",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Notify workforce",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0T4599D",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Test new arrangement",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VPH8DI",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Audit active credentials",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1O45SDO",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Remove obsolete controls",
+          "source_line": 536
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Permanent security-system coordination",
+      "path": [
+        "Permanent security-system coordination"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0KD30LE",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Review approved security design",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YFBQGO",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Coordinate pathways and power",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0ZUTCP3",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Coordinate doors and hardware",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ODJ5VV",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Install access-control devices",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1NPNZEY",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Install cameras",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0APGXMS",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Install intrusion devices",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0A2DHIS",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Install intercom and duress",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10AKYEA",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Configure network and servers",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GVHF4V",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Program access groups",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0SSWIQ6",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Test point-to-point",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0AG4MVP",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Test alarms and video",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HJSOIQ",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Test emergency interfaces",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0HGPZWS",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Correct deficiencies",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I10LAWXC",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Conduct owner training",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0V2G4ET",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Deliver credentials and documentation",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1BUC1JC",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Obtain owner acceptance",
+          "source_line": 555
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Security meetings and audits",
+      "path": [
+        "Security meetings and audits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0TYDG1C",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Security kickoff",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I090C4WV",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Weekly security coordination",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1YRC89X",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Major-event security review",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JK87MH",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Phase-transition meeting",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I04OZUFW",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Occupied-facility meeting",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I19JHOA7",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Incident-review meeting",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I16UVROV",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Credential audit",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I03CWJ0R",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Key audit",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1DWMN9F",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Perimeter audit",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0PDTIYO",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Camera-coverage audit",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1II3TEQ",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Guard-performance audit",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1CQ32JL",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Information-access audit",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1GXKL21",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Correct findings",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1S1EBMC",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Close audit",
+          "source_line": 572
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Security status values",
+      "path": [
+        "Security status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0YU9H0Q",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Planned",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0G3X6KO",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Approval required",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I00THHN8",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Installation",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1LR9P4O",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Testing",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RZ6EK6",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Active",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0JOUQLX",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Restricted",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1N5LBVH",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Escort required",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0UHIRRY",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Credential pending",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0VG4BH1",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Access approved",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I02JNBJ5",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Access denied",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1E2A6XL",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Suspended",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1TC6VVY",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Incident open",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1JYLXWA",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0OKQR6Y",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Owner transfer",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0Q36G4Q",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Deactivated",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1MU5QOW",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Removed",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1OUUR6S",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 592
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Security closeout",
+      "path": [
+        "Security closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1WGL3RC",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Inventory temporary security assets",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1AA9KFO",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Recover badges",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0GVMCSW",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Recover keys",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1VH5IV6",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Deactivate accounts",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1ANJ8JW",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Close visitor credentials",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1UMTKAB",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Transfer permanent credentials",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0XECBPE",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Transfer keying records",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13ZFHXC",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Transfer cameras and alarms",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0F7I017",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Transfer monitoring",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0X4F427",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Train owner staff",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08TQYVR",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Remove temporary guards",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I094R678",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Remove temporary cameras and alarms",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1KMTF1U",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Remove temporary fences and gates",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I197SJQK",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Restore affected areas",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0AMCCZF",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Reconcile incidents",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1RG7236",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Apply retention requirements",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I01TRGYI",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Archive required logs",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I023ULOQ",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Confirm owner acceptance",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1L1H9OD",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Close security plan",
+          "source_line": 614
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1OEU7ZZ",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Risk assessment → security plan",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0MMYZGO",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Security plan → perimeter and systems",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0S21T54",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Screening and orientation → credential issue",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1B2UJSL",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Credential activation → site access",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0LU1CF9",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Phase change → revised access and security",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I194BTJX",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Permanent-system installation → testing",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I16UX74G",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Testing and training → owner security transfer",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I13PL639",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Badge/key recovery and temporary-system removal → security closeout",
+          "source_line": 625
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1OCZN7P",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Establish security before unrestricted mobilization and material delivery.",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0O8O46A",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Keep emergency access available regardless of security level.",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I08TIJDN",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Link credentials to screening, orientation and current work assignment.",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0UBQZMY",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Assign access by zone and time rather than granting unnecessary universal access.",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I06JTBJP",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Audit active badges, keys and accounts regularly.",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1BMC8C5",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Relocate cameras, lighting and guards as workfronts change.",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I11HWRTI",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Protect privacy and confidential screening results.",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0KOIXBN",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Preserve incident evidence under controlled access.",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1OVCKAS",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Integrate door hardware, access control, life safety and owner operations.",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0N8RS8G",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Recover credentials and deactivate digital access promptly.",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I0LJYC91",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Schedule permanent-system testing, training and transfer before occupancy.",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS-I1UG2IGI",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Remove temporary security and restore affected property at closeout.",
+          "source_line": 640
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1209 @@
+{
+  "department_id": "SSX-SUP-TESTING",
+  "slug": "testing",
+  "title": "Testing",
+  "document_title": "SSX Master Construction Testing Requirements",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/testing/MASTER_TESTING_REQUIREMENTS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 26,
+    "items": 130
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-TESTING-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Preconstruction and Existing Conditions",
+      "path": [
+        "Preconstruction and Existing Conditions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I06GQP8R",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Concrete core/compressive-strength, petrographic, carbonation, chloride, ultrasonic, rebound-hammer and impact-echo testing",
+          "source_line": 9
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I05KRFOM",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Ground-penetrating radar and reinforcing-steel scanning",
+          "source_line": 10
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I02L3B8K",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Existing masonry unit, prism and mortar testing",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I09H8DEZ",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Structural steel coupon and weld nondestructive testing",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0L0GPQ4",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Wood moisture, species, decay and fungal testing",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0B7MEJ5",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Lead, asbestos, mold, radon, soil and groundwater testing",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0GWX862",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Existing sewer camera, water-quality, hydrant-flow, electrical and HVAC testing",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1NJB3CS",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Baseline noise, vibration, settlement and indoor-air-quality testing",
+          "source_line": 16
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Geotechnical and Earthwork",
+      "path": [
+        "Geotechnical and Earthwork"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1UDVX11",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Soil classification, moisture, grain-size, sieve, hydrometer and Atterberg limits",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0QYQYE4",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Proctor, relative density, CBR, R-value, shear, consolidation, swell, collapse and permeability testing",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0PLMVNK",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Soil pH, sulfate, chloride, corrosivity, thermal/electrical resistivity and organic-content testing",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0WK4TRW",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Field density by nuclear gauge, sand cone, balloon or drive cylinder",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0HD0RTS",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Proof-roll, dynamic cone penetrometer, plate-load and lightweight deflectometer testing",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1P3STU0",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Fill, trench backfill, subgrade, retaining-wall backfill and stabilization verification",
+          "source_line": 25
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Deep Foundations and Anchors",
+      "path": [
+        "Deep Foundations and Anchors"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I14IVVWJ",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Static compression, tension and lateral pile load tests",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I04KBUFI",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Dynamic pile, PDA, low/high-strain integrity and crosshole sonic logging",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1203QQ1",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Thermal integrity profiling and drilled-shaft slurry testing",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1Q7N500",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Micropile, helical-pile, tieback, soil-nail and rock-anchor proof/performance/creep tests",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1SYHZQG",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Post-installed and adhesive anchor tension, torque and proof-load testing",
+          "source_line": 33
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Concrete",
+      "path": [
+        "Concrete"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0V0ANUO",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Mix qualification, trial batch, cement, aggregate, admixture and mixing-water testing",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I018V2YJ",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Temperature, slump/slump flow, air content, unit weight, yield and batch verification",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I150KQHR",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Cylinder/beam fabrication and compressive, flexural, tensile and early-age strength testing",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1SR3L2A",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Field-cured cylinders, maturity, pullout, penetration, rebound and concrete core testing",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I19FBFEG",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Shrinkage, creep, modulus, chloride permeability, resistivity, freeze-thaw and air-void testing",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1B87Q0L",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Floor flatness/levelness, moisture-vapor emission, relative humidity, pH, bond and coating adhesion testing",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0GVCRU8",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Shotcrete qualification panels, cores and nozzleman testing",
+          "source_line": 43
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Post-Tensioning and Precast",
+      "path": [
+        "Post-Tensioning and Precast"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1GNHKRD",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Jack calibration, stressing force, tendon elongation, friction and seating-loss testing",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1KL6MG9",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Grout flow, fluidity, bleed and compressive-strength testing",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0XF3VHM",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Duct leakage, vacuum-grouting and tendon watertightness verification",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1BJOQEC",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Precast release strength and member load testing",
+          "source_line": 50
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Masonry",
+      "path": [
+        "Masonry"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1SLS8L2",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Unit strength, absorption, dimensions and density",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I12IEFSS",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Mortar aggregate ratio, strength, air, water retention and consistency",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1203GQB",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Grout slump/strength and masonry prism/core testing",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I03JDWET",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Bond-wrench, shear, anchor pullout, veneer tie and water-penetration testing",
+          "source_line": 57
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Structural Steel and Metals",
+      "path": [
+        "Structural Steel and Metals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I07QPA35",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Steel chemical, tensile, yield, bend and Charpy testing",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0FUMO9K",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Welder/operator and welding-procedure qualification",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1I7E5S2",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Visual, magnetic-particle, liquid-penetrant, ultrasonic, phased-array and radiographic weld testing",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0VT3HRJ",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Bolt rotational capacity, pretension, Skidmore, torque and direct-tension-indicator verification",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1RO9MPP",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Shear-stud bend/ring tests",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0C3FJY8",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Coating thickness, holiday, adhesion and galvanizing tests",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0KWW6BM",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Member, railing, guard and crane runway load tests",
+          "source_line": 67
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Wood and Mass Timber",
+      "path": [
+        "Wood and Mass Timber"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I03EJ3GE",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Moisture, species, grade, preservative retention/penetration and fire-retardant testing",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1VIKI58",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Adhesive bond, glulam, finger-joint, delamination and structural composite lumber tests",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0I7R2VK",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Truss/shear-wall proof loads and fastener/connector pull tests",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0Y4HK6L",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Mass-timber moisture, bond, acoustic and fire-resistance testing",
+          "source_line": 74
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Fireproofing and Rated Construction",
+      "path": [
+        "Fireproofing and Rated Construction"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0YP69GU",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Sprayed fireproofing thickness, density and adhesion/cohesion",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1342FBG",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Intumescent dry-film thickness, adhesion and holiday testing",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0F1IQPH",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Firestop destructive, adhesion and depth verification",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0V4VMXJ",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Fire-resistive joint movement and perimeter containment testing",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1CH6XGF",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Fire/smoke door leakage, drop and operational testing",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0501GFW",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Fire/smoke damper and fire-curtain operational testing",
+          "source_line": 83
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Roofing, Waterproofing and Envelope",
+      "path": [
+        "Roofing, Waterproofing and Envelope"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0O0O64I",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Roof substrate moisture, membrane seam peel/shear/weld and fastener pullout testing",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1LFGIMU",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Roof wind uplift, vacuum, flood, electronic leak detection and infrared moisture survey",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I036B0QP",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Below-grade/plaza/balcony/shower/pool/tank waterproofing adhesion, thickness, holiday and flood tests",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I085ZV2F",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Laboratory/field curtain-wall structural, air, static/dynamic water, thermal and drift testing",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1HUJ6IZ",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Window, door, storefront and skylight air/water/structural testing",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0UYTVPI",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Air-barrier adhesion, thickness, smoke continuity, whole-building leakage and thermography",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0L21GPX",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Sealant adhesion, cladding pullout/bond, masonry spray and wall drainage testing",
+          "source_line": 93
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Interior Materials",
+      "path": [
+        "Interior Materials"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1PMV0G1",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Concrete moisture, RH, pH and vapor-emission testing",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1PNAYUG",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Flooring/tile/coating/paint/wall-covering adhesion and slip-resistance testing",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I02UWPM2",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Partition, operable partition, ceiling and room acoustical testing",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0C2ZBXC",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Raised-floor, guard, handrail, casework and athletic-floor load/performance testing",
+          "source_line": 100
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Pavement and Site",
+      "path": [
+        "Pavement and Site"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1D3P2B7",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Aggregate gradation, abrasion and soundness",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0610ING",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Asphalt mix, binder, gradation, temperature, density, air void, core thickness and smoothness",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I09GFSG2",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Concrete paving slump, air, strength, thickness and dowel alignment",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0O6YY8C",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Pavement deflection, skid resistance and drainage testing",
+          "source_line": 107
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Underground Utilities",
+      "path": [
+        "Underground Utilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I13GOB15",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Sewer air/water, infiltration/exfiltration, mandrel, deflection and camera testing",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0P8KDG2",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Manhole vacuum/leak testing and storm-pipe testing",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0QDKR0J",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Water/fire main hydrostatic, flushing, disinfection, bacteriological and flow testing",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0E8GUO6",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Gas/fuel piping pressure and leak testing",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0ML9LHR",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Duct-bank mandrel, conduit continuity/proofing and tracer-wire testing",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1XV7NS1",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Cathodic protection, detention infiltration and stormwater functional testing",
+          "source_line": 116
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Plumbing, Gas and Medical Gas",
+      "path": [
+        "Plumbing, Gas and Medical Gas"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I12FQZDP",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Domestic water pressure/flow, flushing, disinfection, potability and Legionella testing",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1N4BIFS",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Hot-water temperature/return balancing and fixture flow testing",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I192TGVB",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Sanitary, waste/vent, storm and roof-drain testing",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I11DBZI2",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Backflow, cross-connection, interceptor, sump, ejector, pump and heater functional testing",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I07X014U",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Fuel/process/steam/compressed-air piping hydrostatic, pneumatic, purity, cleaning and valve tests",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I17JUF6L",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Medical-gas pressure, leakage, blowdown, particulate, purity, cross-connection, alarm and identity testing",
+          "source_line": 125
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "HVAC and Mechanical",
+      "path": [
+        "HVAC and Mechanical"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1KQATSB",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Duct pressure/leakage, grease-duct leakage, cleanliness and light-leak testing",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1YD1YCQ",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Airflow/TAB, room pressure, air changes, stair/shaft pressurization and smoke visualization",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I14E7MHK",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Kitchen hood capture, laboratory fume hood, HEPA scan and filter leak testing",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0VPY53C",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Fan, pump and rotating-equipment vibration/sound testing",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1VDZJY1",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Hydronic/refrigerant pressure, flushing, treatment, glycol, balance and flow testing",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0407XQE",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Boiler combustion/efficiency/emissions, chiller/cooling tower/heat exchanger performance",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0PR2GX6",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Refrigerant leak, vacuum decay, evacuation, charge, detector and machinery-room testing",
+          "source_line": 135
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Building Automation",
+      "path": [
+        "Building Automation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0V279WN",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Point-to-point, sensor calibration, actuator stroke and control-loop testing",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I19VM1O9",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Sequences, alarms, trends, schedules, resets, staging and lead-lag testing",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I115FIGC",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Economizer, demand ventilation, energy recovery, smoke/fire interfaces and restart testing",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0DIJJ4Q",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "BACnet/network interoperability, metering, graphics, cybersecurity and failover testing",
+          "source_line": 142
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Electrical",
+      "path": [
+        "Electrical"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0HV9SCA",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Continuity, insulation resistance, megger, hi-pot/VLF, phasing and cable tests",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1LZV0SR",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Transformer ratio, winding resistance, power factor, oil and dissolved-gas tests",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0LXKYX0",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Switchgear contact/insulation, breaker primary/secondary injection and timing",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0TD2UN0",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Protective relay, coordination, ground-fault and arc-energy-reduction testing",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I10Q5RFA",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Grounding/bonding, ground resistance, busway, motor/VFD and torque testing",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I17Y2HSV",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Power quality, harmonics, phase balance, voltage drop, load and infrared thermography",
+          "source_line": 151
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Emergency Power, PV, Batteries and EV",
+      "path": [
+        "Emergency Power, PV, Batteries and EV"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0NWBD8F",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Generator factory/startup, load-bank, step-load, full-load, fuel, sound and emissions testing",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1JDGU5B",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "ATS, paralleling, load shed, blackout, duration and emergency-lighting testing",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1CKLTKQ",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "UPS and battery capacity, impedance, conductance and runtime testing",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1WEZ4UP",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "PV continuity, polarity, insulation, voltage/current, ground/arc fault, rapid shutdown and production tests",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0ZHK1AA",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Battery storage capacity/BMS/thermal detection/shutdown tests and EV charger/load-management tests",
+          "source_line": 159
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Fire Protection and Life Safety",
+      "path": [
+        "Fire Protection and Life Safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I08BGUVQ",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Fire-main, sprinkler and standpipe hydrostatic, flushing, flow, main-drain and trip testing",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I00TFAKZ",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Fire-pump churn, rated flow, 150% flow, controller, auto-start and emergency-power testing",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0459IHW",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Fire-alarm device, circuit, notification, voice intelligibility, monitoring and secondary-power testing",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0XO3Q23",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Elevator recall/shunt, door release/unlock, HVAC shutdown and smoke-control interfaces",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I10621BP",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Clean-agent enclosure integrity, retention, release, abort and shutdown testing",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0TZ0FNK",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Foam, water mist, dry/wet chemical and kitchen suppression testing",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0KBJXJ5",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Smoke-control pressure, airflow, damper, visualization and integrated sequence testing",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I01GF56X",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Emergency responder radio and mass-notification acceptance testing",
+          "source_line": 170
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Elevators and Conveying",
+      "path": [
+        "Elevators and Conveying"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1T9A36E",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Rated/no-load, governor, safety, buffer, brake, door, speed, leveling and ride tests",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1VT0CSC",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Fire service, emergency power, communication, hydraulic and battery-lowering tests",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0VFJSOO",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Escalator, platform lift, material lift and dumbwaiter load/safety tests",
+          "source_line": 176
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Technology, Security and AV",
+      "path": [
+        "Technology, Security and AV"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1CT083C",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Copper/fiber certification, OTDR, polarity, network throughput/latency and Wi-Fi coverage",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0LZFT9G",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "DAS/public-safety radio coverage, grounding, redundancy and failover testing",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0PI9P38",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Access control, door alarm/release, intrusion, duress, video coverage/retention and cybersecurity testing",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0YDV63K",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Audio frequency/SPL/intelligibility, video calibration, conferencing and emergency override testing",
+          "source_line": 183
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Specialty Systems",
+      "path": [
+        "Specialty Systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I006GCU1",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Kitchen exhaust/makeup air/suppression, refrigeration pull-down and sanitization tests",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1NZDJ1D",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Pool shell/piping/turnover/filter/chemistry/entrapment/bonding tests",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0RBIVSD",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Healthcare pressure, HEPA, particle, cleanroom, pharmacy, medical, shielding, MRI and sterilizer tests",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I080E5O8",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Industrial process FAT/SAT, vessel, gas detection, explosion, dust collection and safety-interlock tests",
+          "source_line": 190
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Environmental, Energy and Sustainability",
+      "path": [
+        "Environmental, Energy and Sustainability"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I1YDGU5R",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Stormwater turbidity, pH, suspended solids, discharge, groundwater and contamination testing",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1RYRJ0D",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Asbestos/lead/mold clearance, radon, dust, noise, vibration and IAQ testing",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0SGLKAA",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Whole-building air, duct, HVAC controls, lighting controls, receptacles and metering functional tests",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1XY6NQX",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "LEED/WELL air, water, lighting, acoustic, thermal comfort and performance verification",
+          "source_line": 197
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Commissioning, Acceptance and Warranty",
+      "path": [
+        "Commissioning, Acceptance and Warranty"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I05KHGUF",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Factory and site acceptance testing",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0ZXYZVG",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Pre-functional, startup and functional performance testing",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I1PUJNIR",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Failure-mode, redundancy, switchover, network/power loss and system recovery testing",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0UE0D42",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Integrated systems, seasonal, deferred and opposite-season testing",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I0JETJHZ",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "AHJ/utility/owner witnessed acceptance and retesting",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-TESTING-I06YT6P8",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "30-day through one-year warranty, roof moisture, infrared, water, IAQ and energy follow-up testing",
+          "source_line": 206
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "SSX test classifications",
+      "path": [
+        "SSX test classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TESTING-I0SMSMGI",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Qualification, mockup, factory acceptance, source QC, field QC, destructive, nondestructive, proof, pressure, leakage, load, startup, functional, performance, acceptance, integrated, commissioning, diagnostic, retest, seasonal, deferred, warranty and recurring operational test.",
+          "source_line": 210
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TESTING-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Required tracking",
+      "path": [
+        "Required tracking"
+      ],
+      "items": []
+    }
+  ]
+}

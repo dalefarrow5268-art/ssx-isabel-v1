@@ -1,0 +1,1546 @@
+{
+  "department_id": "SSX-SUP-SAFETY",
+  "slug": "safety",
+  "title": "Safety",
+  "document_title": "SSX Master Construction Safety Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/safety/MASTER_SAFETY_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 19,
+    "items": 189
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-SAFETY-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recurring Project Safety Activities",
+      "path": [
+        "Recurring Project Safety Activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I1KTQDE0",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "daily superintendent walk",
+          "source_line": 7
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0IMPENN",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "daily safety inspection",
+          "source_line": 8
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I01F15KF",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "daily subcontractor area inspection",
+          "source_line": 9
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1GVDFHA",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "daily pre-task/JHA review",
+          "source_line": 10
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0EQ8OA5",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "stretch and flex",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0L6H81L",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "housekeeping/access/weather review",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I145B4IS",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "weekly toolbox talk",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1T7UEA7",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "weekly documented inspection",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1QT5UO9",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "weekly coordination meeting",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1SEJZF9",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "monthly audit/committee/scorecard",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I03Q06M9",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "quarterly corporate audit",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I14OU9ZC",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "owner/insurance/OSHA consultation audit",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1GKTOZY",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "follow-up reinspection",
+          "source_line": 19
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Orientation and Planning",
+      "path": [
+        "Orientation and Planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I1LVMYX9",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "worker/visitor/delivery orientation",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I113AJ3J",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "badging",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1M14ERJ",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "credential verification",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1I6K9KE",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Activity/Job Hazard Analysis",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0FIHZ7R",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Pre-Task Plan",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0I9FXMK",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "high-risk planning",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1COS4F5",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "method statement",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0HHAU1I",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "simultaneous operations",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I12131NB",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "trade stacking",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1W8PQN7",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "occupied building",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0TT4Z53",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "shutdown and energization review",
+          "source_line": 33
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "PPE and Fall Protection",
+      "path": [
+        "PPE and Fall Protection"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I1L8R757",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "PPE compliance and equipment condition",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1GFPTEN",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "guardrails",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I04FY8V7",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "cables",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0A84LMK",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "holes",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I11OW5KF",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "skylights",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I09P8NVC",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "shafts",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1EMVPC8",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "warning lines",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I032UZUG",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "controlled zones",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1GGU98V",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "harnesses",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1WWSRSL",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "lanyards",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1NKNNIP",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "SRLs",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0LL09LY",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "lifelines",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0T2W6FI",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "rope grabs",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I182LNYP",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "anchors",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1X406ZX",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "nets",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I18YD4U9",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "rescue equipment and dropped-object controls",
+          "source_line": 52
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Ladders, Stairs and Scaffolds",
+      "path": [
+        "Ladders, Stairs and Scaffolds"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I1DFHHDU",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "portable/fixed/job-made ladder",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1QTYHCE",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "temporary stair and handrail",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0JHFNAD",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "supported/suspended/mobile/mast/pump-jack scaffold erection",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I047O4FM",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "pre-shift",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1SN31OY",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "post-alteration",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1CR1U3P",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "post-weather",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0TO2YK7",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "foundation",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I09H4RCY",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "planking",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0XUYMDY",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "bracing",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0U71I2S",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "tie",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ER4NIK",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "access",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1GC6JUQ",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "load",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1X5KVZL",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "guardrail and tag inspections",
+          "source_line": 68
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Excavation and Trenching",
+      "path": [
+        "Excavation and Trenching"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I02K5QI1",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "competent-person pre-shift/daily/post-rain inspection",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I01CWSG8",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "soil/protective system",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0VVFZPK",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "sloping",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1KKUOUM",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "shoring",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1GDWLSJ",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "trench box",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ERRC64",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "utilities",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I109IZDL",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "spoil",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1W4KTMA",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "access",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1BJ7MGC",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "adjacent structures",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I12G6CJZ",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "water",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I18SIQUG",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "atmosphere",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0UTYS68",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "barricades and rescue conditions",
+          "source_line": 83
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Cranes, Hoisting and Rigging",
+      "path": [
+        "Cranes, Hoisting and Rigging"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I149MYGZ",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "setup",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0QBIFCU",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "assembly",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0QVZ9EH",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "shift/monthly/annual/post-repair",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0RMBOAZ",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "tower foundation/tie/climb",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I00205HZ",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "outriggers/mats/level/load chart",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0QYU3IL",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "operational aids",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1HMI0YP",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "wire rope/hooks/blocks",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1S1OSU2",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "power-line clearance",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0MZTEMG",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "critical lift",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0K2RFBF",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "personnel platform/trial lift",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I11TLHMW",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "slings/shackles/spreader/hoists and rigging tags",
+          "source_line": 97
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Vehicles, Heavy Equipment and Lifts",
+      "path": [
+        "Vehicles, Heavy Equipment and Lifts"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0C7GRNF",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "daily excavator/dozer/loader/skid/backhoe/grader/roller/truck/forklift/telehandler inspection",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0HOLS92",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "alarms/cameras/seatbelts/ROPS/brakes/lights/tires/leaks",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1N2FUQP",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "pedestrian controls",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ZLOY09",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "aerial/scissor/boom/MEWP controls",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ENFW8G",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "gates",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I09YPTYO",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "emergency lowering",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1KPN2II",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "outriggers and fall attachment",
+          "source_line": 107
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Electrical and Hazardous Energy",
+      "path": [
+        "Electrical and Hazardous Energy"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0AA67PP",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "temporary power",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1PULH8Y",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "panels",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1N53NVE",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "GFCI/grounding",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ONE266",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "cords/tools/lighting/wiring",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1I6783X",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "clearances/guards/bonding",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0GL2LFB",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "energized permit",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I07AFIHA",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "arc flash PPE",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1UZXBUB",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "meters",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0TCBKJD",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "power lines",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1NNZSZ7",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "generators",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1RHYM1O",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "LOTO isolation/zero energy/locks/group lockbox/shift change",
+          "source_line": 121
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Confined Space",
+      "path": [
+        "Confined Space"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0VHXL6O",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "space inventory/classification",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I12KIR50",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "entry permit",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I194AVJ9",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "atmospheric tests",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1RB0PEQ",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "ventilation",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0RWTBM1",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "isolation",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I09809HW",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "entrant/attendant/supervisor",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1XM7TEI",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "communications",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1R89TAH",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "retrieval",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0HZVHOE",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "rescue equipment/team and permit closeout",
+          "source_line": 133
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Hot Work and Fire Prevention",
+      "path": [
+        "Hot Work and Fire Prevention"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0RXWRC6",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "hot-work permit/area",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1A4IGBU",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "welding/torch/cylinders/regulators",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0RG2UHJ",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "fire watch",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1H1XBFT",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "spark containment",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0WUB6QS",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "extinguishers",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I12HVH0R",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "flammable/LPG/fuel storage",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0NAW0AP",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "temporary heaters",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0SG53ZR",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "fire lanes/hydrants/egress",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0L6FDQT",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "temporary alarm/standpipe and impairment permit",
+          "source_line": 145
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Health Hazards",
+      "path": [
+        "Health Hazards"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I1LWDB6O",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "silica/dust controls",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1DDP24M",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "wet cutting",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0Z996MG",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "HEPA/local exhaust",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1LFA74B",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "regulated areas",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0YPMSTW",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "air monitoring",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1QDH3U6",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "respirators/fit/storage",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0M6BLH6",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "chemical/SDS/labels/storage/segregation",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ICWY55",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "lead/asbestos/chromium/isocyanate",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1G0L1U7",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "noise/hearing",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I15OGI1L",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "indoor air and diesel/welding fumes",
+          "source_line": 158
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Trade and Phase Safety",
+      "path": [
+        "Trade and Phase Safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0J7BJ10",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "demolition engineering/stability/utilities/shoring",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0AUDZM4",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "steel erection bracing/decking/connectors",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1QZWG7V",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "concrete formwork/shoring/pumps/rebar/post-tensioning",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1LNLFZS",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "masonry bracing/limited zones",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1OILL38",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "roofing edge/skylight/hot asphalt/torch and public traffic/pedestrian protection",
+          "source_line": 166
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Housekeeping, Storage and Environment",
+      "path": [
+        "Housekeeping, Storage and Environment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0JD2RNS",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "debris",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ZQ73OX",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "chutes",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0VRTCNC",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "aisles/exits",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0IZPYBQ",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "material stacking",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1B9NMJU",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "cylinders",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0E9J7CN",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "laydown",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I14K44WJ",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "floor loading",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1M1L9CN",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "heat/cold/lightning/wind/tornado/hurricane/flood/air quality",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I03AR6FZ",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "post-storm and restart inspection",
+          "source_line": 178
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "First Aid and Emergency",
+      "path": [
+        "First Aid and Emergency"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0J3PDLS",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "first aid/AED/eyewash/shower/water/sanitation supplies",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I096KLHR",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "responder coverage",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1VW4I7F",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "ambulance access",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I008BL4Z",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "evacuation/fire/severe weather/medical/confined space/fall/trench/spill drills",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I16HTGZ1",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "alarms/muster/routes/rescue equipment",
+          "source_line": 186
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Incidents and Corrective Action",
+      "path": [
+        "Incidents and Corrective Action"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I10OHXJD",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "scene inspection",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1D7ISNE",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "injury/near miss/property/environmental investigation",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0JP78L0",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "root cause",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0ZCGN0Y",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "evidence",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I140LU0V",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "corrective action/reinspection",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0CHGLPJ",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "lessons learned",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1FDRRHS",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "stand-down",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0EJVNL0",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "retraining",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1G8C0OH",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "reporting and trend analysis",
+          "source_line": 198
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Specialty Safety",
+      "path": [
+        "Specialty Safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0QWTDBV",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "work over water",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0AAV3GM",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "diving",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0KQUBXQ",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "blasting/explosives",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I11758II",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "radiation",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0KSNOWQ",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "laser",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1UG6IK3",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "drone",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I13DMDJI",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "helicopter",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0JVINFP",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "marine/railroad/tunnel/caisson/rope access",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1PE5Q5T",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "chainsaw",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1AUWJ4K",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "hydrostatic/pneumatic test exclusion",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0LYO7S2",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "live facility",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0PZ4OJ0",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "infection control and occupied building",
+          "source_line": 213
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Safety Permits",
+      "path": [
+        "Safety Permits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I0FBO4QN",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "hot work",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1MGTKND",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "confined space",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1AI2WNY",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "excavation/dig",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I01B4KLG",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "energized electrical",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1P6V8WN",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "LOTO",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0SZBMTF",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "critical lift",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1KYFGQE",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "personnel hoisting",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I00EAEFN",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "roof/work at height",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I179QGQE",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "line breaking",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I09ZFMJS",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "pressure testing",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I13V8MG3",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "fire impairment",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0MUDXAZ",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "utility/system shutdown",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I10VV69L",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "road/lane closure",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1QH6AR5",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "blasting",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I17ZF829",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "radiography",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1K6S8LX",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "hazardous material",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0D9CUM3",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "night/weekend/occupied work",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0N704HF",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "penetration/coring and return-to-service authorization",
+          "source_line": 234
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Frequency tags",
+      "path": [
+        "Frequency tags"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I06HAG5E",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Before mobilization, before access, before activity, before each shift, daily, weekly, monthly, quarterly, annually, before each use, after alteration/repair/relocation/weather/incident/change, continuous, phase completion, before energization, before occupancy, competent-person directed and manufacturer directed.",
+          "source_line": 238
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SAFETY-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "SSX safety activity types",
+      "path": [
+        "SSX safety activity types"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SAFETY-I048D6K1",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Safety Inspection",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0843LPG",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Safety Meeting / Toolbox Talk",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I0FMLH5G",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Safety Permit",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1F9Q95L",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Safety Training",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I09GPFC5",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Emergency Drill",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1PVQJZI",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Safety Audit",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I1OQTN6J",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Incident Investigation",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-SAFETY-I18ITDTZ",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Corrective-Action Reinspection",
+          "source_line": 249
+        }
+      ]
+    }
+  ]
+}

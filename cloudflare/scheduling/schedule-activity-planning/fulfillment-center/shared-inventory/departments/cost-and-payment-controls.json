@@ -1,0 +1,4880 @@
+{
+  "department_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS",
+  "slug": "cost-and-payment-controls",
+  "title": "Cost And Payment Controls",
+  "document_title": "SSX Master Cost and Payment Control Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/cost-and-payment-controls/MASTER_COST_AND_PAYMENT_CONTROL_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 37,
+    "items": 621
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Core cost and payment questions",
+      "path": [
+        "Core cost and payment questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1R1RCV6",
+          "sequence": 1,
+          "type": "table-row",
+          "text": "Field | Required answer",
+          "source_line": 9,
+          "cells": [
+            "Field",
+            "Required answer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01SM6PG",
+          "sequence": 2,
+          "type": "table-row",
+          "text": "What cost is involved? | Budget, estimate, commitment, invoice, change, allowance, contingency, stored material, payment or forecast",
+          "source_line": 11,
+          "cells": [
+            "What cost is involved?",
+            "Budget, estimate, commitment, invoice, change, allowance, contingency, stored material, payment or forecast"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0U3QHEX",
+          "sequence": 3,
+          "type": "table-row",
+          "text": "Who owns it? | Owner, contractor, subcontractor, supplier, consultant, lender, insurer or surety",
+          "source_line": 12,
+          "cells": [
+            "Who owns it?",
+            "Owner, contractor, subcontractor, supplier, consultant, lender, insurer or surety"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KDE5E6",
+          "sequence": 4,
+          "type": "table-row",
+          "text": "What scope does it cover? | WBS, cost code, CSI division, contract package, location, system or change",
+          "source_line": 13,
+          "cells": [
+            "What scope does it cover?",
+            "WBS, cost code, CSI division, contract package, location, system or change"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0U7ORIU",
+          "sequence": 5,
+          "type": "table-row",
+          "text": "When is it required? | Budget date, commitment date, billing cutoff, review date, funding date or payment date",
+          "source_line": 14,
+          "cells": [
+            "When is it required?",
+            "Budget date, commitment date, billing cutoff, review date, funding date or payment date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1RACEVD",
+          "sequence": 6,
+          "type": "table-row",
+          "text": "What supports it? | Contract, purchase order, quantity, invoice, delivery ticket, payroll, schedule progress, inspection or approval",
+          "source_line": 15,
+          "cells": [
+            "What supports it?",
+            "Contract, purchase order, quantity, invoice, delivery ticket, payroll, schedule progress, inspection or approval"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11T7QBD",
+          "sequence": 7,
+          "type": "table-row",
+          "text": "What must approve it? | Project manager, cost manager, architect, owner, lender, auditor or other contract authority",
+          "source_line": 16,
+          "cells": [
+            "What must approve it?",
+            "Project manager, cost manager, architect, owner, lender, auditor or other contract authority"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0TDEMG4",
+          "sequence": 8,
+          "type": "table-row",
+          "text": "What could hold payment? | Missing backup, disputed scope, deficient work, incomplete closeout, lien waiver, insurance, retainage or funding",
+          "source_line": 17,
+          "cells": [
+            "What could hold payment?",
+            "Missing backup, disputed scope, deficient work, incomplete closeout, lien waiver, insurance, retainage or funding"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0K551S4",
+          "sequence": 9,
+          "type": "table-row",
+          "text": "How is it closed? | Reconciled commitment, approved payment, final waiver, released retainage, final audit and archived records",
+          "source_line": 18,
+          "cells": [
+            "How is it closed?",
+            "Reconciled commitment, approved payment, final waiver, released retainage, final audit and archived records"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JDSGIJ",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Cost activity ID and title",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YZ8TZI",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Cost code, WBS and CSI division",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15VKOC9",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Contract or purchase-order number",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01X5GX1",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Vendor and responsible person",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I14RCCN1",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Original budget",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I147LPFT",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Current budget",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0M2JIBD",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Original commitment",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1W1IK5L",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Approved changes",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BQP1XR",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Pending changes",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0Q3V71P",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Current commitment",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15N9YG9",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Invoiced to date",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12S0CJ2",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Paid to date",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I068K2FT",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Retainage",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I06PJ0OY",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Stored-material amount",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CPG9GA",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Forecast to complete",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0MEAH0K",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Estimate at completion",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I137YLE0",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Variance",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1P9M62I",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Allowance and contingency usage",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0IFPMAL",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Funding source",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1UQ0X2R",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Billing period and cutoff",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I09KH0T9",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Submission date",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16Z6S5G",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Review and approval dates",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0IBAO0I",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Payment due and actual date",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0CJCRV2",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Schedule activity and percent complete",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0AS3UR7",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Quantity and unit",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I140J7ZK",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Required backup",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I05L8S2C",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Lien-waiver status",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1Y0FJFT",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Insurance and bond status",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0J5OHWT",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Disputed amount",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00OIVU3",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Final payment status",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02C0NFV",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Notes and attachments",
+          "source_line": 52
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Cost activity classifications",
+      "path": [
+        "Cost activity classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XTMCD2",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Budget",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1HEMMTL",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Estimate",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0128FLP",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Cost plan",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02OQXZE",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Bid package",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0JZYE37",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Buyout",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0H3HXXU",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Commitment",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IER7UK",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Purchase order",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I130BZVB",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Allowance",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02B8K8Q",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Contingency",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1SXBBUK",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Unit price",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1E61QBZ",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Change",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0W8RLK2",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Invoice",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1N2G6I1",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Pay application",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FA1661",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Stored material",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I007DBR1",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Retainage",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1G0E581",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Lien waiver",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I185XCNI",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Funding draw",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0LZL3QQ",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Audit",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I168EGUQ",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Forecast",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11H83AW",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Cash flow",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FF3BKK",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Cost report",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NVTG12",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Final account",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YZJCWN",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Final payment",
+          "source_line": 78
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Standard cost-control workflow",
+      "path": [
+        "Standard cost-control workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I192ZHUF",
+          "sequence": 64,
+          "type": "numbered",
+          "text": "Establish cost structure and responsibility",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I09DTSP2",
+          "sequence": 65,
+          "type": "numbered",
+          "text": "Develop project budget",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01ZCUOX",
+          "sequence": 66,
+          "type": "numbered",
+          "text": "Align cost codes with scope and schedule",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0C18IH8",
+          "sequence": 67,
+          "type": "numbered",
+          "text": "Estimate and validate costs",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NDGWEJ",
+          "sequence": 68,
+          "type": "numbered",
+          "text": "Procure and buy out work",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I154V0IK",
+          "sequence": 69,
+          "type": "numbered",
+          "text": "Issue commitments",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WJ7O5F",
+          "sequence": 70,
+          "type": "numbered",
+          "text": "Track allowances and contingency",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I095TXWU",
+          "sequence": 71,
+          "type": "numbered",
+          "text": "Record actual and accrued costs",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I10S5S8J",
+          "sequence": 72,
+          "type": "numbered",
+          "text": "Forecast remaining cost",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I04YX4PT",
+          "sequence": 73,
+          "type": "numbered",
+          "text": "Process changes",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0RWVVM5",
+          "sequence": 74,
+          "type": "numbered",
+          "text": "Measure physical progress",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1AJIMUZ",
+          "sequence": 75,
+          "type": "numbered",
+          "text": "Prepare pay applications",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I17RQEGH",
+          "sequence": 76,
+          "type": "numbered",
+          "text": "Review backup and compliance",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I122H16A",
+          "sequence": 77,
+          "type": "numbered",
+          "text": "Approve and fund payment",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ONG50P",
+          "sequence": 78,
+          "type": "numbered",
+          "text": "Issue downstream payments",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LWXDXO",
+          "sequence": 79,
+          "type": "numbered",
+          "text": "Collect lien waivers",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I08AUQ9J",
+          "sequence": 80,
+          "type": "numbered",
+          "text": "Reconcile commitments",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1C55JL8",
+          "sequence": 81,
+          "type": "numbered",
+          "text": "Release retainage",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1P9BRGF",
+          "sequence": 82,
+          "type": "numbered",
+          "text": "Complete final audit",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YS2GDQ",
+          "sequence": 83,
+          "type": "numbered",
+          "text": "Close final account",
+          "source_line": 101
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Cost-control setup",
+      "path": [
+        "Cost-control setup"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I057ZF1C",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Review contract payment requirements",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I14Z0PTS",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Establish chart of accounts",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02OLM35",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Establish project cost codes",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0A9W6IS",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Map cost codes to WBS",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02RBMSR",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Map cost codes to CSI divisions",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MC29OG",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Map cost codes to schedule activities",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GSJMH9",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Establish budget structure",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MEVYPP",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Establish commitment workflow",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GTGG99",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Establish invoice workflow",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XPOHM6",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Establish change workflow",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0J9C8QZ",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Establish allowance and contingency controls",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0S8NZQU",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Establish stored-material procedures",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GW0FHK",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Establish retainage rules",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I10SVICO",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Establish lien-waiver requirements",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LPP5PZ",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Establish reporting cycle",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IXUNNY",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Establish forecast cycle",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IOMZ63",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Establish approval authority",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0VD2DAS",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Establish audit trail",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I04XZE8I",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Conduct cost-control kickoff",
+          "source_line": 123
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Budget development",
+      "path": [
+        "Budget development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KR63QD",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Establish owner budget",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NJFUI5",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Establish construction budget",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0V36WVK",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Establish design budget",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1EA05E4",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Establish permit and utility budget",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I003FCNA",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Establish testing and commissioning budget",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0OW0MR7",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Establish general conditions",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00JO7B5",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Establish insurance and bond costs",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JQY3QW",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Establish escalation",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1R81LYI",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Establish taxes",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IRQJJ6",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Establish allowances",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1RQRWPW",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Establish contingency",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0V6FMJJ",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Establish owner-furnished items",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1EET4FJ",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Establish soft costs",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I10F5J4G",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Establish financing costs",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZRVZ6G",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Establish closeout and warranty reserve",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UTC1Z0",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Reconcile estimate to budget",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0U9GK5T",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Obtain budget approval",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0EJYSOZ",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Freeze original budget",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MSAW9X",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Maintain current budget",
+          "source_line": 145
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Estimates and cost plans",
+      "path": [
+        "Estimates and cost plans"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I06F2EOD",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Conceptual estimate",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15DKM0T",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Schematic-design estimate",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1I9MBU5",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Design-development estimate",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1DKZ4VE",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Construction-document estimate",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1012XQS",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Bid estimate",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1SKYGKQ",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Control estimate",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1KOMM5F",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Independent estimate",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15S1MTE",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Quantity takeoff",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1M9FH5X",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Labor pricing",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03736WO",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Material pricing",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OEO6EZ",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Equipment pricing",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1EE44FI",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Subcontractor pricing",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03EO8XW",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "General-conditions estimate",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MPHQ3K",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Escalation analysis",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1KUFP73",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Market-condition analysis",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00E76M5",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Risk-based contingency",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01S9RVU",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Estimate reconciliation",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KB6YZ8",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Value-engineering estimate",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12XI9S8",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Estimate approval",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0RB0N43",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Transfer estimate to control budget",
+          "source_line": 168
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Bid-package and buyout activities",
+      "path": [
+        "Bid-package and buyout activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1QCU5QL",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Develop bid-package scope",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NXZ8IH",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Issue bid invitation",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0JG5X5J",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Conduct prebid meeting",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0F972WB",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Respond to bidder questions",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TRYMQE",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Issue addenda",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZMMH61",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Receive bids",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TDBKC8",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Level bids",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15E98DO",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Verify exclusions",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BSV134",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Verify quantities",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1FKD2TI",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Verify alternates",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0D6W1WE",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Verify allowances",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I14JBHPB",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Verify unit prices",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I05EDOVN",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Verify schedule compliance",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XHBJAY",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Conduct scope review",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UXQA72",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Negotiate",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LMB75L",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Recommend award",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I039QIBZ",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Obtain owner approval",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OSXSWE",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Issue letter of intent",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GFQYRL",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Execute subcontract",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I189RKOE",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Transfer buyout savings or overrun",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I06Y4AB9",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Close bid package",
+          "source_line": 192
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Commitments and purchase orders",
+      "path": [
+        "Commitments and purchase orders"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0SNQNEI",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Prepare subcontract",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I060335X",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Prepare purchase order",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1RCJEAT",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Verify approved scope",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1S78QL2",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Verify insurance",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I08ZCOBB",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Verify bond",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0V508SR",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Verify tax status",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BU2DNP",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Verify schedule and milestones",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03O9MEJ",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Verify payment terms",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0W6D006",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Verify retainage",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0SUERJ5",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Verify allowances",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0LLDOCE",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Verify unit prices",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XRUJDQ",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Verify closeout requirements",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ABNHGT",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Obtain signatures",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1KH2VDJ",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Issue commitment",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00WUNE7",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Record commitment",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1A5GLZA",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Revise for approved changes",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1D2EQXQ",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Reconcile final commitment",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I033HFL6",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Close commitment",
+          "source_line": 213
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Schedule of values",
+      "path": [
+        "Schedule of values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CCEUTR",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Develop schedule of values",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0HT7CBF",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Align with contract scope",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0CWUMC6",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Align with cost codes",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1EU6B95",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Align with schedule activities",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0TTPSMR",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Separate mobilization and general conditions",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1X6A5S6",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Separate stored materials",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LNQ1R8",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Separate testing and closeout",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I19GQ19P",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Separate approved changes",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0K7GIBM",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Avoid front loading",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WRCE9K",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Review line-item values",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1PSMHD3",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Obtain architect or owner approval",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I07WT7EO",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Revise rejected values",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0WHLR9U",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Freeze approved schedule of values",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1DD6HP4",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Update only through authorized changes",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NFRG5Q",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Reconcile final values",
+          "source_line": 231
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Cost-loaded schedule",
+      "path": [
+        "Cost-loaded schedule"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1RRL6YM",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Assign budget to activities",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1M0LU3Z",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Verify full contract value",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1XZB7Q5",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Verify no duplicate costs",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1M7807N",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Verify no unassigned costs",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03VSQ3P",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Distribute general conditions",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1KUE21W",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Load approved changes",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0I5NT9L",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Calculate planned value",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TJVW88",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Calculate earned value",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BZOP4U",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Develop cash-flow curve",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BHIPFO",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Compare schedule and payment progress",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OAOXQ3",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Reconcile monthly",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1KI10L8",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Update forecast",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LY2KOA",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Preserve baseline cost loading",
+          "source_line": 247
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Recommended monthly payment calendar",
+      "path": [
+        "Recommended monthly payment calendar"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TNRDAD",
+          "sequence": 209,
+          "type": "table-row",
+          "text": "Typical timing | Activity | Required deliverables",
+          "source_line": 253,
+          "cells": [
+            "Typical timing",
+            "Activity",
+            "Required deliverables"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1UQKW2P",
+          "sequence": 210,
+          "type": "table-row",
+          "text": "15th–20th | Forecast current-month billing | Preliminary percent complete, stored materials, approved changes and expected month-end progress",
+          "source_line": 255,
+          "cells": [
+            "15th–20th",
+            "Forecast current-month billing",
+            "Preliminary percent complete, stored materials, approved changes and expected month-end progress"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0A2DYNT",
+          "sequence": 211,
+          "type": "table-row",
+          "text": "20th | Subcontractor draft invoice due | Draft payment application, continuation sheet, change breakdown and current conditional progress waiver",
+          "source_line": 256,
+          "cells": [
+            "20th",
+            "Subcontractor draft invoice due",
+            "Draft payment application, continuation sheet, change breakdown and current conditional progress waiver"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1W8UXML",
+          "sequence": 212,
+          "type": "table-row",
+          "text": "20th–23rd | Superintendent and project-manager review | Field-verified quantities, accepted work, deficiency holds and schedule-progress comparison",
+          "source_line": 257,
+          "cells": [
+            "20th–23rd",
+            "Superintendent and project-manager review",
+            "Field-verified quantities, accepted work, deficiency holds and schedule-progress comparison"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15MHQ6S",
+          "sequence": 213,
+          "type": "table-row",
+          "text": "23rd–25th | Pencil-draft billing review | Contractor, architect and owner reconcile projected values before formal submission",
+          "source_line": 258,
+          "cells": [
+            "23rd–25th",
+            "Pencil-draft billing review",
+            "Contractor, architect and owner reconcile projected values before formal submission"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1A6MPRJ",
+          "sequence": 214,
+          "type": "table-row",
+          "text": "25th | Subcontractor final invoice due | Corrected application, supplier invoices, stored-material proof, certified payroll and required lower-tier waivers",
+          "source_line": 259,
+          "cells": [
+            "25th",
+            "Subcontractor final invoice due",
+            "Corrected application, supplier invoices, stored-material proof, certified payroll and required lower-tier waivers"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0SORFRK",
+          "sequence": 215,
+          "type": "table-row",
+          "text": "25th–month end | Contractor compiles owner application | Approved subcontract values, contractor work, general conditions, stored materials, changes and retainage",
+          "source_line": 260,
+          "cells": [
+            "25th–month end",
+            "Contractor compiles owner application",
+            "Approved subcontract values, contractor work, general conditions, stored materials, changes and retainage"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1KUD621",
+          "sequence": 216,
+          "type": "table-row",
+          "text": "Last business day | Owner pay application submitted | Executed application, continuation sheets, schedule update, photographs, waivers and other required backup",
+          "source_line": 261,
+          "cells": [
+            "Last business day",
+            "Owner pay application submitted",
+            "Executed application, continuation sheets, schedule update, photographs, waivers and other required backup"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1T7M0Z7",
+          "sequence": 217,
+          "type": "table-row",
+          "text": "Days 1–7 after submission | Architect/owner/lender review | Certification, corrections, funding review and written withholding reasons",
+          "source_line": 262,
+          "cells": [
+            "Days 1–7 after submission",
+            "Architect/owner/lender review",
+            "Certification, corrections, funding review and written withholding reasons"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KP42CC",
+          "sequence": 218,
+          "type": "table-row",
+          "text": "Contract payment date, commonly 20–30 days after approval | Owner payment due | Certified undisputed amount less contractual withholding",
+          "source_line": 263,
+          "cells": [
+            "Contract payment date, commonly 20–30 days after approval",
+            "Owner payment due",
+            "Certified undisputed amount less contractual withholding"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FHXCUN",
+          "sequence": 219,
+          "type": "table-row",
+          "text": "Commonly within 7 days after contractor receipt, subject to contract and law | Subcontractor and supplier payments issued | Approved amount, retainage treatment and payment remittance",
+          "source_line": 264,
+          "cells": [
+            "Commonly within 7 days after contractor receipt, subject to contract and law",
+            "Subcontractor and supplier payments issued",
+            "Approved amount, retainage treatment and payment remittance"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0AKIXXR",
+          "sequence": 220,
+          "type": "table-row",
+          "text": "With each progress application | Conditional progress waiver submitted | Waiver limited to the billed amount and stated through-date",
+          "source_line": 265,
+          "cells": [
+            "With each progress application",
+            "Conditional progress waiver submitted",
+            "Waiver limited to the billed amount and stated through-date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1XKIM2R",
+          "sequence": 221,
+          "type": "table-row",
+          "text": "After payment clears | Unconditional progress waiver submitted | Waiver matching the amount actually received and correct through-date",
+          "source_line": 266,
+          "cells": [
+            "After payment clears",
+            "Unconditional progress waiver submitted",
+            "Waiver matching the amount actually received and correct through-date"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I086PNQA",
+          "sequence": 222,
+          "type": "table-row",
+          "text": "Final billing | Conditional final waiver submitted | Final amount due, pending payment",
+          "source_line": 267,
+          "cells": [
+            "Final billing",
+            "Conditional final waiver submitted",
+            "Final amount due, pending payment"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1M6G8U9",
+          "sequence": 223,
+          "type": "table-row",
+          "text": "After final funds clear | Unconditional final waiver submitted | Final amount actually received, with permitted exceptions identified",
+          "source_line": 268,
+          "cells": [
+            "After final funds clear",
+            "Unconditional final waiver submitted",
+            "Final amount actually received, with permitted exceptions identified"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G013",
+      "sequence": 13,
+      "level": 3,
+      "title": "Monthly cycle controls",
+      "path": [
+        "Recommended monthly payment calendar",
+        "Monthly cycle controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0CRNFZS",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Publish the complete billing calendar at project kickoff.",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FO0ROL",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Move dates falling on weekends or holidays to the contract-defined business day.",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I09S7THH",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Require subcontractors to forecast through month end without billing unsupported work.",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UO3VJZ",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Verify projected work again at month end and correct the next application when needed.",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1X59RBX",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Do not bill unapproved changes as approved contract value.",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NWTK2F",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Require stored-material invoices, proof of payment, insurance, photographs and location records.",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18VF5NZ",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Require lower-tier waivers when the contract or risk procedure calls for them.",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0JNM5AQ",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Match every waiver’s legal entity, amount and through-date to the associated payment.",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I019E5FZ",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Never request an unconditional waiver before the corresponding funds have cleared.",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0OH5R49",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Identify disputed or withheld amounts in writing while processing undisputed amounts.",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0Y1TW9U",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Track architect review, owner approval, lender funding, contractor receipt and downstream payment separately.",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PUIYPL",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Coordinate prompt-payment and lien-waiver procedures with project-specific legal requirements.",
+          "source_line": 283
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Progress measurement for payment",
+      "path": [
+        "Progress measurement for payment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0OXA0N3",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Define billing cutoff",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1F2YDOI",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Conduct joint progress walk",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I199Q29T",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Measure installed quantities",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LCNW5K",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Verify actual starts and finishes",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OTCEHG",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Verify physical percent complete",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18OFDI2",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Verify inspection acceptance",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1V9A8SN",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Verify testing status",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03KW514",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Verify stored materials",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1T6U0OS",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Verify off-site fabrication",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I122LNI3",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Compare daily reports",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NHCUEF",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Compare schedule update",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1144X5Y",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Compare prior billing",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1PREC1P",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Correct overbilling",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1AZBJIR",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Document accepted progress",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ABUXRX",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Approve billable quantity",
+          "source_line": 301
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Subcontractor payment applications",
+      "path": [
+        "Subcontractor payment applications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1FUHP1S",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Issue billing reminder",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JXZ436",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Receive draft application",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UAHFAR",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Verify correct billing period",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I08LWHYE",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Verify approved schedule of values",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15WJD7M",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Verify prior payments",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IAZ6RR",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Verify current work",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1AUR9VC",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Verify stored materials",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BZVNL3",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Verify approved changes",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0AX6XGZ",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Verify retainage",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0E6010Z",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Verify insurance",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KVQFS6",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Verify certified payroll when required",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0RSMQB7",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Verify lien waiver",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15FF7FV",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Verify lower-tier documentation",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1AAD9H3",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Verify quality deficiencies",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CHP6XP",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Verify closeout status",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1J0TDDS",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Review with superintendent",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0K09827",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Approve, revise or reject",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1FVU7ZI",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Include approved amount in owner billing",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01SAWZZ",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Issue payment",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I043KHKK",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Collect final waiver",
+          "source_line": 324
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Owner pay application",
+      "path": [
+        "Owner pay application"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0N6YQ4L",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Establish billing calendar",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1XLURT0",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Conduct pencil-draft review",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1EKF65I",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Update schedule of values",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02BQNOF",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Enter current work",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VIAOLC",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Enter stored materials",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0MHPFR3",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Enter approved changes",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1AR8QNL",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Calculate retainage",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XSL0V7",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Deduct prior payments",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1O1WV7N",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Attach continuation sheets",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I015SV28",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Attach schedule update",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11DK53O",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Attach progress photographs",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0Y3D98T",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Attach stored-material backup",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1J2PU33",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Attach certified payroll when required",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MG3ETN",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Attach lien waivers",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0EVSW22",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Attach insurance or bond documentation",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JVIFIZ",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Obtain contractor certification",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0K8NMSN",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Submit to architect or owner",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0U7U96V",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Respond to review comments",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0560GPX",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Revise application",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UQA2T8",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Obtain certification",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CW1VR4",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Submit funding draw",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18MJ1P1",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Receive owner payment",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JCKQR9",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Reconcile receipt",
+          "source_line": 350
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Stored-material payment",
+      "path": [
+        "Stored-material payment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0W7UVGZ",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Confirm contract permits stored-material billing",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XGRMZX",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Obtain advance approval",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LPIBOF",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Identify onsite or offsite location",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I05ILDPT",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Verify ownership",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IEJS74",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Verify insurance",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PEMPUK",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Verify secure storage",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1A1W95B",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Verify segregation and labeling",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16IRMEI",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Verify approved submittal",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03A9ACG",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Verify purchase invoice",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18OPZ7R",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Verify payment evidence",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I14JESB4",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Inspect material",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0M8VU2I",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Photograph material",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00VN0HD",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Verify quantity",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I086FO7C",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Verify no prior billing",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1D6HYFK",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Obtain title transfer when required",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BJMG5X",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Obtain bond or letter of credit when required",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0149SYI",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Include in pay application",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I19QKFIN",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Track delivery and installation",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15CU90S",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Convert stored material to installed work",
+          "source_line": 372
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Retainage management",
+      "path": [
+        "Retainage management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1430RLN",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Confirm retainage percentage",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01I3ZXS",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Apply retainage consistently",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0V8185F",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Track retainage by contract",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MI7ESN",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Review reduction eligibility",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VHV92A",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Obtain owner approval for reduction",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I092K1ET",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Reduce at defined completion stage",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15DPQNW",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Withhold for incomplete work",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WUYA1U",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Withhold for deficiencies",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WZ5Y7R",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Withhold for missing closeout",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0WJH509",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Release subcontractor retainage",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VPMW3O",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Release supplier retainage",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BE87BI",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Collect final waivers",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0AAN0A9",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Reconcile final retainage",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0W169H7",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Document final release",
+          "source_line": 389
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Lien-waiver and payment-document controls",
+      "path": [
+        "Lien-waiver and payment-document controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YB5RUF",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Identify required waiver form",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0OJD43R",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Collect conditional progress waiver",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1QAWSFU",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Collect unconditional progress waiver",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I082SEWU",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Collect conditional final waiver",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I086S0AD",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Collect unconditional final waiver",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0J8LM8J",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Collect lower-tier waivers",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GB5773",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Verify amount and period",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1THTU7B",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Verify legal entity",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0N7Y16Y",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Verify signature authority",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I09R9XTK",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Verify notarization when required",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WJDS0F",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Track exceptions",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0K3AJ7X",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Resolve disputed claims",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0MRAAG9",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Preserve waivers",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1S2R1OI",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Confirm statutory timing with project counsel or requirements",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I08G8ML5",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Release payment only under approved procedure",
+          "source_line": 407
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Insurance, bonds and compliance",
+      "path": [
+        "Insurance, bonds and compliance"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZHB0M9",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Verify certificate of insurance",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PRBWHX",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Verify coverage limits",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1XBDUWI",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Verify additional insured",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CBQRJ0",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Verify policy expiration",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12GTEVI",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Verify performance bond",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0IQD0VE",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Verify payment bond",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1A4609R",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Verify builder’s risk",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BRPQI5",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Verify professional liability",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UW5MHZ",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Verify subcontractor default insurance",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1O0QSMR",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Verify workers’ compensation",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0G2JODJ",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Verify certified payroll",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BWNOMU",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Verify prevailing wage",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0MH6LWL",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Verify minority or workforce reporting",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I04T04JW",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Place payment hold for expired documents",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0JV4PA7",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Cure compliance deficiency",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1QDD3UK",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Release hold",
+          "source_line": 426
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Allowance management",
+      "path": [
+        "Allowance management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NUDKBF",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Establish allowance value",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15HSGUM",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Define included scope",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PHELHG",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Establish selection need-by date",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1E6BM48",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Request pricing",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I05Q4BY2",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Review proposed use",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0N9W79I",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Obtain owner authorization",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0N7S0NX",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Issue commitment",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0F46LQV",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Track actual expenditure",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NRFJO0",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Track pending exposure",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NH0WZ0",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Track remaining balance",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0HSRGN0",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Prevent duplicate markup",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IG7PKV",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Reconcile unused balance",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I09CKRVT",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Transfer overrun or savings",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18AXORT",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Close allowance",
+          "source_line": 443
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Contingency management",
+      "path": [
+        "Contingency management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZO6B1M",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Establish contingency categories",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0K7QUYT",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Define approval authority",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11RYE3M",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Identify potential draw",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YANYSZ",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Document reason and risk",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I04FHU4K",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Estimate amount",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18YZUAI",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Obtain approval",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GNN2CA",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Transfer budget",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UQFXL3",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Track approved usage",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02PZSX1",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Track pending usage",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0WEVSUC",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Forecast remaining exposure",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0113F56",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Prevent double counting",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YPMAZX",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Replenish when authorized",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NQ4G4O",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Release unused contingency",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I17ADI69",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Close contingency",
+          "source_line": 460
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Unit-price activities",
+      "path": [
+        "Unit-price activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0OSPB10",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Establish contract unit rate",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12LOEPV",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Define measurement rules",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BYC4Q1",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Measure quantity jointly",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I05TIKA0",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Verify location and scope",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0D2IUKM",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Record supporting tickets",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03FX8DK",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Apply unit price",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1ASZPXR",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Review quantity variance",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1ASX8VX",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Obtain approval",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03RYHN7",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Include in change or payment",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XCG9AU",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Reconcile final quantity",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1O4X3V0",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Close unit-price item",
+          "source_line": 474
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Change-cost control",
+      "path": [
+        "Change-cost control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I07OMK9V",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Assign change ID",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ESZ3F0",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Establish potential-change budget",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NBNQFD",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Obtain subcontractor pricing",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FQYRRY",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Prepare independent estimate",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0VC0EQ1",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Review labor and material",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NNOS8B",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Review equipment",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1M63HHA",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Review markups",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YA93DT",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Review credits",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NG5GNB",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Review schedule-related cost",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZVAJQP",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Negotiate",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0T2H75M",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Track pending exposure",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1U9W853",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Record approved change",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KWFQ04",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Revise commitment",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GN4WEQ",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Revise owner contract",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1I5FI0F",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Update budget",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GAY5FB",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Update forecast",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GIMM8E",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Reconcile implementation cost",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03A4MRJ",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Close change",
+          "source_line": 495
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Time-and-material cost control",
+      "path": [
+        "Time-and-material cost control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YSCOX8",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Preapprove labor rates",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1L8YMR6",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Preapprove equipment rates",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1ILWOZJ",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Define material markup",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0OPS1G2",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Issue T&M authorization",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZWVXNT",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Record daily labor",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16CLMAF",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Record daily equipment",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0408Q3H",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Attach material invoices",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1E8GK2J",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Identify exact location and work",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LAV205",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Obtain daily signature",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0NH8SVC",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Compare to daily report",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0V5PQ4V",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Audit tickets",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GE2GBH",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Price final work",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1QDTM4T",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Negotiate",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UWLTEM",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Convert to formal change",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16U41NX",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Close T&M record",
+          "source_line": 513
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Actual costs and accruals",
+      "path": [
+        "Actual costs and accruals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0G2WLOG",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Import invoices",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MPUHKG",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Code invoices",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I199TPW4",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Verify receipt",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I13Y5B9W",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Verify scope",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CNE2SD",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Verify tax",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GD6RQX",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Approve invoice",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0HIB0US",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Post actual cost",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TG4V1M",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Accrue unbilled work",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KGKCHQ",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Accrue received material",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1RKNZ3O",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Reverse prior accrual",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0X8737Q",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Reconcile vendor statement",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I01N5VD2",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Reconcile payroll",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0Y03TZO",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Reconcile equipment cost",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11DQNS0",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Reconcile credit card and petty cash",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0SCUTRW",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Correct miscodes",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0HY8M8W",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Close monthly accounting period",
+          "source_line": 532
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Forecasting and cost-to-complete",
+      "path": [
+        "Forecasting and cost-to-complete"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1L3ZGB1",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Review original budget",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0SKHBDL",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Review current budget",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0E928MF",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Review commitments",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MQHQM6",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Review actual cost",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00BZ2YL",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Review accruals",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I010BWOV",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Review pending changes",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1YZM170",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Review allowance exposure",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02SDL6J",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Review contingency exposure",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0TJQ2UQ",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Review procurement risk",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I071TR5R",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Review schedule and general conditions",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12LFSSP",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Review labor productivity",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BFV4SG",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Estimate remaining quantity",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VDGPYO",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Estimate remaining unit cost",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1Q7DDXC",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Forecast subcontract balance",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12HDFG4",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Forecast owner exposure",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1L9N8EF",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Calculate estimate to complete",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0E3H3NE",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Calculate estimate at completion",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VTB2LF",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Calculate variance at completion",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0B4O51C",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Document assumptions",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0HCVT3C",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Obtain forecast approval",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1UGAYVX",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Update monthly",
+          "source_line": 556
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Cash-flow management",
+      "path": [
+        "Cash-flow management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0RKSJUU",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Establish planned billing curve",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1DOELNM",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Forecast owner payments",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I167O3QK",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Forecast subcontractor payments",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XYZWA0",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Forecast material deposits",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0EZ39A4",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Forecast stored-material billing",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CLELRX",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Forecast retainage release",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1ECM0JH",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Forecast change cash flow",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0POG8F6",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Forecast financing draws",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16B4UED",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Identify negative cash periods",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I13ALIQ5",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Update with schedule",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OFK7OM",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Compare plan to actual",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VY9KEM",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Report variance",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OZN5TI",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Revise forecast",
+          "source_line": 572
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Earned-value activities",
+      "path": [
+        "Earned-value activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1428OYV",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Establish performance-measurement baseline",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GFSTFN",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Calculate planned value",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I19J2HPQ",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Calculate earned value",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0M4SM6I",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Record actual cost",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1C4U9XC",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Calculate schedule variance",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I164WPUW",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Calculate cost variance",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I04WS1MN",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Calculate schedule performance index",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02QGXJR",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Calculate cost performance index",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BDTE8G",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Forecast estimate at completion",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16OQI23",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Investigate material variance",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02V39LJ",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Develop corrective action",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0Q4E1WU",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Update management report",
+          "source_line": 587
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Cost reporting",
+      "path": [
+        "Cost reporting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NRLHC8",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Budget report",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0XC22AS",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Commitment report",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BIMRIV",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Buyout report",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0HMPTPF",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Change report",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TTJ6VF",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Allowance report",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JRRR7W",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Contingency report",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1B5U05W",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Invoice report",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I155H5O3",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Payment report",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PNE6IX",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Retainage report",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NKYMCK",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Lien-waiver report",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0RWOQFA",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Insurance compliance report",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1UQM1NR",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Cash-flow report",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1ON2AWA",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Cost-to-complete report",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11ONS78",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Forecast report",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I13BG6Q6",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Variance report",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BX41SA",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Earned-value report",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1QQSKGG",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Executive cost dashboard",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0W3SZ6D",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Funding-draw report",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I143BICF",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Final-account report",
+          "source_line": 609
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Cost review meetings",
+      "path": [
+        "Cost review meetings"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0U4OEJ1",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Cost-control kickoff",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TV2LPA",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Estimate reconciliation",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1JSKTE9",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Buyout review",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IJQ3YC",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Weekly change review",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1ACO6VE",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Monthly cost forecast",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1EKEA0G",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Pay-application review",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1K0YPWB",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Owner billing review",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0M3MNEV",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Funding-draw review",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I147CAHU",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Contingency review",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03C3VRG",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Executive cost review",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I18LDFVU",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Audit review",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0CAC9LE",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Final-account negotiation",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1MWQB7Q",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Record decisions and action items",
+          "source_line": 625
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Payment holds and dispute activities",
+      "path": [
+        "Payment holds and dispute activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12WOLWV",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Identify disputed line item",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16KQ8L1",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Document reason",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I15FHLBA",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Separate undisputed amount",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0KMURXT",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Notify affected party",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1Q5TBNT",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Establish cure requirement",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0H2L09Q",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Correct defective work",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1HYZ4L7",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Provide missing backup",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1UOJZ87",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Resolve quantity dispute",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1LWXWC3",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Resolve change authorization",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I191PQBR",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Resolve lien or claim",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1TET8A7",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Recalculate payment",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OLHZ3C",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Release hold",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16Q48N6",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Preserve dispute rights and records",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BSBJOR",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Escalate under contract procedure",
+          "source_line": 642
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Audit activities",
+      "path": [
+        "Audit activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0LJA2J6",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Contract compliance audit",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1QJ7NP5",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Schedule-of-values audit",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0AAAGBW",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Invoice audit",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1SMAFAS",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Labor-rate audit",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1HO9BRQ",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Equipment-rate audit",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02W8D3S",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Material-invoice audit",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PHCNJW",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "T&M ticket audit",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0B15USA",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Change-order audit",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1GTNFWK",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Stored-material audit",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I17SCF5U",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Certified-payroll audit",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I19O2WUW",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Lien-waiver audit",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0QKRRXF",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Insurance audit",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1T1L4DT",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Allowance audit",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0TVDZUK",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Contingency audit",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I19MAWQM",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Cost-code audit",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VQEFND",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Final-account audit",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1DZLQ9S",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Correct findings",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I13815VV",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Close audit",
+          "source_line": 663
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Final payment and financial closeout",
+      "path": [
+        "Final payment and financial closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I045NYTT",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Confirm physical completion",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I19HU5WA",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Confirm final inspection",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1UEXNEU",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Confirm punch completion",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BOLAEM",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Confirm closeout deliverables",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1OX64JG",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Confirm warranties",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GCQCVP",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Confirm final schedule",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1403QCX",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Confirm final change orders",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WLLXCV",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Reconcile allowances",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1VQB6FG",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Reconcile unit prices",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1CKH2FZ",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Reconcile contingency",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0582POM",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Reconcile commitments",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0V852KI",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Obtain final invoice",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1589NM1",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Obtain final pay application",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I14AM64M",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Obtain final lien waivers",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0B68ZPN",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Obtain consent of surety when required",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WFBEI2",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Obtain release of claims",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1BDB8FM",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Verify taxes and fees",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0GWHQRD",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Release retainage",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1SXLX8D",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Issue final payment",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0UIV0MJ",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Close cost codes",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I09MR9AF",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Archive financial records",
+          "source_line": 687
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Cost and payment status values",
+      "path": [
+        "Cost and payment status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1IA0IC0",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Planned",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1H8A7OU",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Budgeted",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0P9QG5C",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Pricing",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I02JGLCC",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Bid received",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NRH9Z8",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Under review",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0O4NPKC",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Committed",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I089KBLB",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Pending change",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00M6HTZ",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Approved change",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1DQKR0R",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Invoiced",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0TRT274",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Payment review",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PF88Y3",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Certified",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0IIPD9J",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Funding requested",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0BXVAI3",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Payment approved",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FJP74S",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Paid",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ANBXQM",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Partially paid",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WV2WR4",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "On hold",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0330IA6",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Disputed",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I00LW04A",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Retainage",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1NM33ZT",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Final billing",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1FTYOF5",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Final waiver pending",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I096HA6Q",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 711
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G036",
+      "sequence": 36,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZDBQZ2",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Cost structure → budget",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1XN7FXI",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Approved budget → procurement and commitments",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0F97NBL",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Executed commitment → performance and billing",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZOI4PS",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Installed and accepted work → progress approval",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0ZJSCXL",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Approved progress → pay application",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0F522F7",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Certified pay application → funding",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I11DMU2G",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Owner payment → downstream payment",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0FQ7QFG",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Payment → unconditional waiver",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I175357J",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Approved change → revised budget and commitment",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12T6X1J",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Completion and closeout → retainage release",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I073VS86",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Final waivers and reconciliation → final payment",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1DYHUN6",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Final payment → financial closeout",
+          "source_line": 726
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-G037",
+      "sequence": 37,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0EIFLKJ",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Link payment activities to observable, accepted progress.",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I16XQJ1B",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Track billing cutoffs, reviews, funding and payment as separate dates.",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I04OCKYV",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Separate budget, commitment, actual cost, accrual and forecast.",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I05SGDB6",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Keep pending changes visible without treating them as approved.",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0PY68F1",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Track allowances and contingency independently.",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1WP4KVQ",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Require documented authorization before transferring funds.",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0Z47R05",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Prevent duplicate billing of stored and installed materials.",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I08S3GTE",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Track lien waivers, insurance and bonds as payment prerequisites.",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I03J3K53",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Reconcile schedule progress with billed progress.",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I1SEJ7TD",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Forecast general conditions when completion moves.",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I12YPKLD",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Preserve a complete audit trail.",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS-I0TJ6I14",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Close each commitment before final project financial closure.",
+          "source_line": 741
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4967 @@
+{
+  "department_id": "SSX-SUP-DESIGN-AND-ENGINEERING",
+  "slug": "design-and-engineering",
+  "title": "Design And Engineering",
+  "document_title": "SSX Master Design and Engineering Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/design-and-engineering/MASTER_DESIGN_AND_ENGINEERING_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 33,
+    "items": 650
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Core design questions",
+      "path": [
+        "Core design questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0PCZAF3",
+          "sequence": 1,
+          "type": "table-row",
+          "text": "Field | Required answer",
+          "source_line": 9,
+          "cells": [
+            "Field",
+            "Required answer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1O6KR6L",
+          "sequence": 2,
+          "type": "table-row",
+          "text": "What is required? | Decision, study, calculation, drawing, specification, model, detail, response, approval or release",
+          "source_line": 11,
+          "cells": [
+            "What is required?",
+            "Decision, study, calculation, drawing, specification, model, detail, response, approval or release"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0WKZBUP",
+          "sequence": 3,
+          "type": "table-row",
+          "text": "Why is it needed? | Design development, permit, procurement, coordination, fabrication, construction, testing, commissioning or closeout",
+          "source_line": 12,
+          "cells": [
+            "Why is it needed?",
+            "Design development, permit, procurement, coordination, fabrication, construction, testing, commissioning or closeout"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YVQZTV",
+          "sequence": 4,
+          "type": "table-row",
+          "text": "Where does it apply? | Site, building, floor, room, grid, elevation, assembly, system or equipment",
+          "source_line": 13,
+          "cells": [
+            "Where does it apply?",
+            "Site, building, floor, room, grid, elevation, assembly, system or equipment"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I004SAKH",
+          "sequence": 5,
+          "type": "table-row",
+          "text": "Who authors it? | Architect, engineer, consultant, delegated designer, contractor, subcontractor, supplier or specialty engineer",
+          "source_line": 14,
+          "cells": [
+            "Who authors it?",
+            "Architect, engineer, consultant, delegated designer, contractor, subcontractor, supplier or specialty engineer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OPUGL8",
+          "sequence": 6,
+          "type": "table-row",
+          "text": "Who reviews it? | Design lead, consultants, contractor, owner, utility, commissioning authority, third party or AHJ",
+          "source_line": 15,
+          "cells": [
+            "Who reviews it?",
+            "Design lead, consultants, contractor, owner, utility, commissioning authority, third party or AHJ"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0RP55ZE",
+          "sequence": 7,
+          "type": "table-row",
+          "text": "When is it needed? | Date calculated from procurement, fabrication, installation, inspection or milestone",
+          "source_line": 16,
+          "cells": [
+            "When is it needed?",
+            "Date calculated from procurement, fabrication, installation, inspection or milestone"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0INY32W",
+          "sequence": 8,
+          "type": "table-row",
+          "text": "What are the inputs? | Owner decision, survey, investigation, criteria, product data, calculations, coordination or field measurement",
+          "source_line": 17,
+          "cells": [
+            "What are the inputs?",
+            "Owner decision, survey, investigation, criteria, product data, calculations, coordination or field measurement"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0DRN0X8",
+          "sequence": 9,
+          "type": "table-row",
+          "text": "What releases? | Permit submission, procurement, fabrication, construction, testing, turnover or occupancy",
+          "source_line": 18,
+          "cells": [
+            "What releases?",
+            "Permit submission, procurement, fabrication, construction, testing, turnover or occupancy"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I016I8E6",
+          "sequence": 10,
+          "type": "table-row",
+          "text": "What proves completion? | Approved deliverable, issued revision, transmittal, model publication, permit approval or field verification",
+          "source_line": 19,
+          "cells": [
+            "What proves completion?",
+            "Approved deliverable, issued revision, transmittal, model publication, permit approval or field verification"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06YKI0P",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Design activity ID and title",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AVQKHJ",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Project phase and design stage",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LDCGPN",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Discipline and responsible firm",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LD42JZ",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Author and reviewer",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FK1912",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Building, area, level, room and system",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07D5PDV",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Drawing, specification, model or calculation reference",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0B4WS37",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Required input and predecessor",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I068QYAC",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Decision or information needed",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0E2QLS0",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Planned start and finish",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07JVOOS",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Need-by date",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0K6WDHQ",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Review duration",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0D9Q03X",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Revision duration",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VYA6B0",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Approval authority",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0AFKS5E",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Permit or AHJ involvement",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15L4GVP",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Procurement or long-lead linkage",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BT3LZN",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Construction activity released",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0M2W44G",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Design status and revision",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JT9EVL",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Coordination status",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KSWB13",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Comments open and closed",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1M67OVI",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Field verification required",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AYFAXZ",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Change-management reference",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I052G2L4",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Transmittal and distribution",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0PT23N4",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Record-document requirement",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YQQQ36",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Final acceptance and archive",
+          "source_line": 46
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Design activity classifications",
+      "path": [
+        "Design activity classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0AISY4K",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Programming",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1E1R61C",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Existing-condition investigation",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01ZBEUD",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Survey",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1JRZPIK",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Feasibility",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ROVN8P",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Conceptual design",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1NRKSJM",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Schematic design",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PC1SOK",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Design development",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1B8F3J0",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Construction documents",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1U1IZ7M",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Permit documents",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1F53BF4",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Bid documents",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BX361E",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Issued for construction",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03D9A6M",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Early-release package",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13V6RON",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Design-assist",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I11U5CC2",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Delegated design",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I148S192",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Specialty engineering",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FL2T2M",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Coordination drawing",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1F59NRP",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "BIM/VDC",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VTKK1O",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Calculation",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YPME8B",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Technical study",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19K0B6A",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Constructability review",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0RURDLE",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Code review",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0U4YZY7",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Value engineering",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1F1RLHV",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Design change",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0H3MC9T",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Field design",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XSE40D",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "RFI response",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1LJC9FJ",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Record document",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1UAXAFV",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "As-built model",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13USLOL",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Closeout certification",
+          "source_line": 77
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Standard design-to-construction workflow",
+      "path": [
+        "Standard design-to-construction workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DVIGOF",
+          "sequence": 63,
+          "type": "numbered",
+          "text": "Confirm scope, criteria and responsibility",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0S9VWU8",
+          "sequence": 64,
+          "type": "numbered",
+          "text": "Collect existing information",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1FZ0PP7",
+          "sequence": 65,
+          "type": "numbered",
+          "text": "Perform surveys and investigations",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I085XTSN",
+          "sequence": 66,
+          "type": "numbered",
+          "text": "Establish design schedule",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1FYM36H",
+          "sequence": 67,
+          "type": "numbered",
+          "text": "Identify owner decisions",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BBHCAX",
+          "sequence": 68,
+          "type": "numbered",
+          "text": "Develop basis of design",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I056L4VB",
+          "sequence": 69,
+          "type": "numbered",
+          "text": "Produce discipline deliverables",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1NNOA77",
+          "sequence": 70,
+          "type": "numbered",
+          "text": "Coordinate across disciplines",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1X6TTPJ",
+          "sequence": 71,
+          "type": "numbered",
+          "text": "Conduct internal quality review",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0X2JWJK",
+          "sequence": 72,
+          "type": "numbered",
+          "text": "Conduct constructability review",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0VD6LJ8",
+          "sequence": 73,
+          "type": "numbered",
+          "text": "Conduct code and permit review",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1SL8EMV",
+          "sequence": 74,
+          "type": "numbered",
+          "text": "Obtain owner review and decisions",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1EA8HZT",
+          "sequence": 75,
+          "type": "numbered",
+          "text": "Revise and approve deliverables",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07KFG5J",
+          "sequence": 76,
+          "type": "numbered",
+          "text": "Submit to utilities and AHJs",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0583WRP",
+          "sequence": 77,
+          "type": "numbered",
+          "text": "Resolve review comments",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I08YP24P",
+          "sequence": 78,
+          "type": "numbered",
+          "text": "Issue approved documents",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FLP1AE",
+          "sequence": 79,
+          "type": "numbered",
+          "text": "Release procurement and construction",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0AISZPY",
+          "sequence": 80,
+          "type": "numbered",
+          "text": "Respond to RFIs and field conditions",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YIP5KD",
+          "sequence": 81,
+          "type": "numbered",
+          "text": "Process design changes",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0W4KV8G",
+          "sequence": 82,
+          "type": "numbered",
+          "text": "Verify installed conditions",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0VZRZDF",
+          "sequence": 83,
+          "type": "numbered",
+          "text": "Update record documents",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07TBTLA",
+          "sequence": 84,
+          "type": "numbered",
+          "text": "Complete final certifications and archive",
+          "source_line": 102
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Design-management planning",
+      "path": [
+        "Design-management planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07V0ZWZ",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Define project delivery method",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07YK45J",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Confirm design scope by discipline",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AJV9BS",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Prepare responsibility matrix",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0N3MHQ2",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Establish design authority",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GJ0R0Q",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Establish document standards",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0J0WJO6",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Establish drawing and specification numbering",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1HHIBD4",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Establish BIM execution plan",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1422RKX",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Establish common data environment",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1SMKSCV",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Establish design-review workflow",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0TX4HX4",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Establish comment-resolution workflow",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0RZZ38I",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Establish change-control workflow",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1W5YACD",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Establish model-coordination cadence",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1Q948IO",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Establish owner decision log",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KRW429",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Establish code and permit matrix",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0IL2WZX",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Establish early-release packages",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I043OC10",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Establish delegated-design register",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I165Z95B",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Establish design deliverable schedule",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BGG08G",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Link design dates to procurement and construction",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1M24RUL",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Conduct design kickoff",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19J36RX",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Update design schedule regularly",
+          "source_line": 125
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Programming and owner criteria",
+      "path": [
+        "Programming and owner criteria"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1JD7II8",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Confirm project objectives",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1Y0624R",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Validate space program",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XM7XIE",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Confirm occupancy and use",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GQ6ATS",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Confirm departmental requirements",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1MMJYK4",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Confirm room data sheets",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XFMZUX",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Confirm equipment program",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1O309B2",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Confirm finish standards",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07PBPQ2",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Confirm sustainability goals",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14L41IH",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Confirm accessibility goals",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15B1FX7",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Confirm security requirements",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I17YBABZ",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Confirm technology requirements",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0H76T6Q",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Confirm commissioning scope",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1X46265",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Confirm operational constraints",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UY41ZK",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Confirm budget and schedule",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1JYD5WD",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Obtain program approval",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KIUV7I",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Freeze critical criteria",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I09TA7OK",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Track later criteria changes",
+          "source_line": 145
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Existing-condition investigation",
+      "path": [
+        "Existing-condition investigation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KQ9PEI",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Collect record drawings",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SHBDZJ",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Review prior reports",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I163J3B9",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Perform boundary survey",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YL6MOT",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Perform topographic survey",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1J1IVIX",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Perform utility survey",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0A4T26T",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Perform subsurface utility engineering",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0R858ND",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Perform geotechnical investigation",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1330TU9",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Perform environmental assessment",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03VP5RO",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Perform hazardous-material survey",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KXAIFU",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Perform structural assessment",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0VWR7PH",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Perform roof survey",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ADBH07",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Perform envelope assessment",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1QWXU59",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Perform MEP systems survey",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0DPLR29",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Perform fire and life-safety survey",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0RWTMYT",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Perform accessibility survey",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JPFN5I",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Perform selective demolition probes",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0Q1DYL9",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Perform laser scanning",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0HRDZP9",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Verify dimensions and elevations",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ITPATX",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Document concealed conditions",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I154HN9I",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Issue existing-condition report",
+          "source_line": 168
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Feasibility and technical studies",
+      "path": [
+        "Feasibility and technical studies"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0U51Q64",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Site feasibility study",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1G6YT6T",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Zoning and entitlement study",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0B2QDZ8",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Code analysis",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1N1LKFG",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Massing study",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0665HSF",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Structural systems study",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I00XFCQ7",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Foundation study",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0T9JBJY",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Envelope study",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03LJ6XM",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Energy model",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I08VQHG6",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Daylighting study",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0U290N7",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Life-cycle cost analysis",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I149OZM6",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Utility capacity study",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KT0SMM",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Electrical load study",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PKF1MA",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Short-circuit and coordination study",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I05R2KD1",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Mechanical load study",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I16SQ44N",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Plumbing demand study",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0Q8VPVV",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Fire-flow study",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I040B0SQ",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Stormwater study",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YNFIGL",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Traffic study",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I12U1WO0",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Acoustical study",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1OSTS8M",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Vibration study",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VG6WYF",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Vertical-transportation study",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I16ADLTN",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Technology and security study",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14LBJSJ",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Constructability study",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AXE146",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Phasing and logistics study",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1SVMG6Z",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Resilience study",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NP679S",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Sustainability assessment",
+          "source_line": 197
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Schematic design activities",
+      "path": [
+        "Schematic design activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CTRIDU",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Develop site plan",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1WZ947M",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Develop floor plans",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YCWEEV",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Develop elevations and sections",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I08CLE8F",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Develop structural concept",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1C63S4C",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Develop MEP system concepts",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NOH4BR",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Develop life-safety concept",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I02SHKSS",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Develop envelope concept",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LXYVUR",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Develop vertical-transportation concept",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BDCFJL",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Develop technology/security concept",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01QZGEE",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Establish preliminary equipment rooms",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0I4H2LH",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Establish major shafts and risers",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OSYUDA",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Prepare outline specifications",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XGN4JV",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Prepare preliminary code analysis",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0QEDX57",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Prepare initial cost estimate",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1LZYIY0",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Conduct interdisciplinary review",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0V5686Y",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Conduct owner review",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NCVIYH",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Resolve comments",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YVN453",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Obtain schematic-design approval",
+          "source_line": 218
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Design-development activities",
+      "path": [
+        "Design-development activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GQZBEI",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Refine plans, sections and elevations",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1D9RGLO",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Develop wall and envelope assemblies",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZIWAH4",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Develop structural framing",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0HFV97U",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Size major equipment",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CSDF2S",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Develop equipment layouts",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I051B3N4",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Develop riser diagrams",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I05HT1S0",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Coordinate shafts and ceiling zones",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14DK50X",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Develop room layouts",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ULPD7D",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Develop finish selections",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0V6RJIH",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Develop door and hardware concepts",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0V7ZAY6",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Develop lighting and controls",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1273JYB",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Develop fire/life-safety systems",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XU1Q06",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Develop civil and landscape design",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1FUPPH8",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Develop waterproofing details",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03ECTZ1",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Develop accessibility details",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I04PYAYN",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Update specifications",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BCNMDE",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Update code analysis",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0J8W714",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Update energy model",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14ZTCLE",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Perform BIM coordination",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1U57PHE",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Update cost estimate",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06YGYFT",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Conduct constructability review",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06GJ7PJ",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Conduct owner review",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I02VXXPS",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Resolve comments",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1G4ILRI",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Obtain design-development approval",
+          "source_line": 245
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Construction-document activities",
+      "path": [
+        "Construction-document activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1SATM79",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Complete general drawings",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06IJL98",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Complete civil drawings",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I04PNB8E",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Complete landscape drawings",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FJTXBI",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Complete architectural drawings",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I00KPNIW",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Complete structural drawings",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0G9TPI1",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Complete plumbing drawings",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I18TOV1O",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Complete mechanical drawings",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LJR9O3",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Complete electrical drawings",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1NEM8R3",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Complete fire-protection criteria",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03686FV",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Complete technology drawings",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BC2TFZ",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Complete security drawings",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1EFTPX6",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Complete interiors drawings",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PU8S8O",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Complete food-service or specialty drawings",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1OL8LHG",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Complete specifications",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OVB8VK",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Complete schedules",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15BBW6K",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Complete details",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XZSYZC",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Complete calculations",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0IO04N1",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Coordinate dimensions and references",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1WP4XCF",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Coordinate penetrations and openings",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BORYGV",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Coordinate equipment access",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1L5Y6LF",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Coordinate testing and commissioning requirements",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FE6KFI",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Conduct interdisciplinary review",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1MWF33C",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Conduct independent quality review",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SA96NO",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Conduct constructability review",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0DMSZ3F",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Resolve comments",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0IOALP4",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Seal and issue documents",
+          "source_line": 274
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Early-release packages",
+      "path": [
+        "Early-release packages"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I09I46AT",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Survey package",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DTU131",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Demolition package",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OIW9UP",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Sitework package",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1IMN1B5",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Utilities package",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0509KRZ",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Foundations package",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YEQZUE",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Structural-steel package",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JVDDIF",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Envelope package",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KXU8U6",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Vertical-transportation package",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1IU1HLM",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Long-lead equipment package",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NRHLPM",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Electrical service package",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I16RV70I",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Technology backbone package",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15M0WW5",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Interior buildout package",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1WBQWKZ",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Issue package scope matrix",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1M4OVSS",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Confirm interfaces with later packages",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06IKUBW",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Conduct package-specific review",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1HOHOJ0",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Obtain owner approval",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DTA9V7",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Submit for permit",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19BN5AR",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Issue for procurement",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1S5G0S2",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Issue for construction",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1Q4S24S",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Reconcile later design with released package",
+          "source_line": 297
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Code and regulatory design",
+      "path": [
+        "Code and regulatory design"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MNHXOL",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Establish applicable codes",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1A2LTJ1",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Confirm occupancy classifications",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XLHDTI",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Confirm construction type",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19T4XIJ",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Confirm allowable area and height",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0Y3KJJT",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Confirm fire-resistance requirements",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SHAWCP",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Confirm egress and occupant loads",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DY8ZD9",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Confirm accessibility",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I045ZY3D",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Confirm plumbing-fixture counts",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13COG3Q",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Confirm energy-code compliance",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I16DC7K3",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Confirm structural design criteria",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0U63OM1",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Confirm wind, snow and seismic criteria",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UWYKNB",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Confirm flood requirements",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0IDW037",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Confirm fire-protection requirements",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0X6N53W",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Confirm smoke-control requirements",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13IBX36",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Confirm health-department requirements",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XL9YNJ",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Confirm elevator requirements",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I02HIVEN",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Confirm environmental requirements",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01NZX5G",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Conduct code conference",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I154V9ER",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Prepare permit documents",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AE45TJ",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Respond to plan-review comments",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ILNZBB",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Revise and resubmit",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1CLY7AW",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Obtain permit approval",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1GH2LPG",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Maintain approved permit set",
+          "source_line": 323
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Discipline coordination",
+      "path": [
+        "Discipline coordination"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19P3KS0",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Architectural/structural coordination",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ARCLQN",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Architectural/MEP coordination",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1373WNT",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Structural/MEP coordination",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OQZVLO",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Civil/landscape coordination",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0T9T5JB",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Civil/utility coordination",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0VI8UA5",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Envelope/structural coordination",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UGN9JK",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Envelope/MEP coordination",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1O1AQ2C",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Interior/MEP coordination",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GNEPW6",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Equipment/utility coordination",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1OR3JWC",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Kitchen/MEP coordination",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BXR7OO",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Elevator/structural/MEP coordination",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0K6D72J",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Fire-protection/ceiling coordination",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01JJ8YW",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Technology/electrical coordination",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XI9R05",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Security/door-hardware coordination",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01KWNI0",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Controls/system-integration coordination",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I08VMGIL",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Commissioning/design coordination",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YM33AI",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Resolve penetrations and sleeves",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I00MTXP6",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Resolve access and clearances",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I09R060Q",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Resolve maintenance pathways",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0C5EWEU",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Resolve rated assemblies",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PQ92XD",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Resolve drainage and waterproofing",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1429CRX",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Publish coordinated deliverables",
+          "source_line": 348
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "BIM and VDC activities",
+      "path": [
+        "BIM and VDC activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1EPT8UG",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Prepare BIM execution plan",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1QWR5RE",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Define model uses",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XPOKGM",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Define levels of development",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ARTB18",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Define coordinates and shared origin",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06BTS2O",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Create discipline models",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NX2O81",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Validate model standards",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1OKSKJR",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Publish models",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NM7XG2",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Federate models",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I02MYY6B",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Run clash detection",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YNEMS8",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Assign clashes",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19NP7CE",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Conduct coordination meeting",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1MSMXPC",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Resolve hard clashes",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1U5NE9M",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Resolve soft-clearance clashes",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0X42RCH",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Resolve workflow and access conflicts",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1559JYR",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Coordinate openings and sleeves",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0AQR6YX",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Coordinate equipment zones",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13QSN4M",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Coordinate ceiling zones",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0R4GSIV",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Freeze coordinated areas",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I04XDR9E",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Produce coordination drawings",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BU67KF",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Update fabrication models",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AUCMLK",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Capture field conditions",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07C9D8B",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Update record model",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I18X9313",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Archive final model",
+          "source_line": 374
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Constructability reviews",
+      "path": [
+        "Constructability reviews"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VXTL90",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Site access and logistics review",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0U7NU2B",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Phasing review",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I11QR8MR",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Temporary-works review",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SPT3NY",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Excavation and shoring review",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0S7XK3K",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Foundation sequencing review",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1X9E39V",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Structural erection review",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XTPQVX",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Envelope sequencing review",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06UP88E",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Waterproofing continuity review",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1OA8FOZ",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "MEP routing review",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I16OPOEV",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Equipment access review",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I113RU3O",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Maintainability review",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UYRSMZ",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Material availability review",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1CKJG1I",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Tolerance review",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0H7WGKN",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Trade-interface review",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YWJGFE",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Prefabrication review",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LEWKCI",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Safety-by-design review",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0Q50TJM",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Testing-access review",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CI4GPT",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Commissioning-readiness review",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I17FGDR5",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Occupied-facility review",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0L286O0",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Document review comments",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FPYDJF",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Assign and close comments",
+          "source_line": 398
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Design quality-control reviews",
+      "path": [
+        "Design quality-control reviews"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I05ZWVWU",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Discipline self-check",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GAOSWP",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Independent discipline check",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0J4O5I6",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Interdisciplinary review",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0Y32T0I",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Drawing/specification coordination",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1IT8E34",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Detail-reference check",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CE9HO3",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Dimension check",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0L7LOQI",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Calculation check",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1JXVZCO",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Code-compliance check",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XT7JEB",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Product and performance check",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I12HCWJS",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Constructability check",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KS9ASY",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Owner-criteria check",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1FITDH3",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Accessibility check",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0QNXRNW",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Life-safety check",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KACVIO",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Sustainability check",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KXCDM3",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Commissioning-requirements check",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VZ8HJ9",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Cost and scope check",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZK4UTW",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Revision-cloud check",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07XQIUF",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Seal and signature check",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0T1SUGJ",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Comment closure",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I12CYIVL",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Issue authorization",
+          "source_line": 421
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Delegated design and specialty engineering",
+      "path": [
+        "Delegated design and specialty engineering"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14BIMLM",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Identify delegated-design scope",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OD76SQ",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Define performance criteria",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0O1MIMU",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Identify licensed designer",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1O911UA",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Obtain design inputs",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1UAK3XC",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Perform field verification",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15BWUJ3",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Prepare calculations",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VAWIA4",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Prepare shop drawings",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1LQP7U2",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Coordinate interfaces",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AW3O2S",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Internal contractor review",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SDQM9K",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Submit to design professional",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FZ5TU8",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Respond to review comments",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0I83518",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Obtain approval",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0N3OCQD",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Submit to AHJ when required",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MV97K3",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Release fabrication",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15L80ST",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Provide installation requirements",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19PYWTB",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Perform field observation",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AWPANZ",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Provide final certification",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0G47FPO",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Update record documents",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I17FWVU9",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Structural steel connections",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01PPDZV",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Metal stairs and railings",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0N08SIV",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Cold-formed metal framing",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PZB7Q6",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Curtain walls and glazing",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1HB3KIH",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Precast concrete",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OTFB87",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Trusses",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1G7TZOI",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Shoring and formwork",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1GGRCXP",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Excavation support",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PBAOUM",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Fire-protection systems",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I02C43QV",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Seismic restraint",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1C2T9P4",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Equipment supports",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06XBRVN",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Temporary structures",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YLXPAH",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Fall-protection systems",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1EM88S6",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Signage structures",
+          "source_line": 458
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Design-assist activities",
+      "path": [
+        "Design-assist activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I12GKZY4",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Select design-assist partner",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0U23ZCX",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Execute design-assist agreement",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MBB1ZZ",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Conduct kickoff",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I05V5A43",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Review basis of design",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1E8CUY1",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Provide product and fabrication input",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PYQP0D",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Provide cost and lead-time data",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0DM06GG",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Develop alternates",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PI0RG5",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Develop coordination model",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03X69EN",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Develop details",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I01TOJZC",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Perform mockup",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I04D8C60",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Validate performance",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KCCX5C",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Reconcile design responsibility",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SRJSV3",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Incorporate accepted recommendations",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1J1CF93",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Issue final design",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NUESFD",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Transition to procurement and fabrication",
+          "source_line": 476
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Engineering calculations",
+      "path": [
+        "Engineering calculations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0Z2ZE39",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Design-criteria confirmation",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06IM1GL",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Structural gravity calculations",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0298V7B",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Lateral-system calculations",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I17UOFPD",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Foundation calculations",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1V3J58M",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Connection calculations",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1HJFOZI",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Temporary-works calculations",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1NC30B4",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Equipment-support calculations",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SQ3GAC",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Wind and seismic anchorage",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I08C4VJD",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Mechanical load calculations",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GR32RU",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Energy calculations",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XBJO6M",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Plumbing calculations",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1RLJIBX",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Hydraulic calculations",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VRWCJW",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Electrical load calculations",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XBT4YQ",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Short-circuit calculations",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I09EKT3R",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Protective-device coordination",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BQCU2E",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Voltage-drop calculations",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YIGU8Q",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Lighting calculations",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13K2C6L",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Fire-alarm battery calculations",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0AL6CGX",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Smoke-control calculations",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1IL26QK",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Acoustical calculations",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BTWSZR",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Independent calculation check",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0QM2UXK",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Professional seal",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0WH5O35",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "AHJ submission and approval",
+          "source_line": 502
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Equipment and manufacturer coordination",
+      "path": [
+        "Equipment and manufacturer coordination"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FRMNSY",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Obtain manufacturer data",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KISAOE",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Confirm basis-of-design product",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XKG4RJ",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Confirm capacities and ratings",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06L1LNH",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Confirm dimensions and weights",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FPF2WS",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Confirm utility requirements",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1SH5HH6",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Confirm structural loads",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1UG9HUQ",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Confirm service clearances",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LMJGME",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Confirm controls interfaces",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1U0W3AB",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Confirm shipping splits",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I131C8BG",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Confirm rigging path",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0TJTNU4",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Confirm pad and anchorage",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0FJEL9Y",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Confirm penetrations",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JR7JAC",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Confirm acoustic and vibration requirements",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1CKRM43",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Update design documents",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZUX02R",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Release procurement",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I11L2Y0U",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Verify final selected equipment",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13B3JHF",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Incorporate vendor drawings",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1F2TJMS",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Update record documents",
+          "source_line": 523
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Owner and user design reviews",
+      "path": [
+        "Owner and user design reviews"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0TPHAJW",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Prepare review package",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0WQIDN0",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Distribute before meeting",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1W6ILF8",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Conduct owner review",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0R5552K",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Conduct user-group review",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1A8HQI5",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Conduct operations review",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0R5IEI8",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Conduct maintenance review",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1H7E0LU",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Conduct infection-control review",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XP32Z5",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Conduct security review",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1GU75J1",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Conduct technology review",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ESLX5M",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Conduct finish review",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14YH6MU",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Conduct mockup review",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I191VPX3",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Record decisions",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1JN7IJM",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Assign comments",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I04INOUS",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Set decision need-by dates",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ALNOFR",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Resolve comments",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1RDVFMG",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Obtain written stage approval",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0J36AL6",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Freeze approved decisions",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MA7QLR",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Process later changes formally",
+          "source_line": 544
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Value engineering and alternates",
+      "path": [
+        "Value engineering and alternates"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19G57PD",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Identify cost or schedule target",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0NV0GF3",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Develop option",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZS0TB3",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Verify technical equivalency",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0I9216U",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Assess code impact",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0IIU6R9",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Assess life-cycle cost",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06E7GVU",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Assess maintenance impact",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0PX9E6L",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Assess aesthetic impact",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XIOF9P",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Assess procurement impact",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03ND5SU",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Assess schedule impact",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1RHA7AK",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Review with design team",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0XNE09O",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Review with owner",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1M6Q8BI",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Approve or reject",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CRK4PP",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Revise drawings and specifications",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1G0WKIE",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Update estimate",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1UAA8L5",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Update permit documents",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0RB1LT7",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Issue accepted change",
+          "source_line": 563
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Design deliverable reviews",
+      "path": [
+        "Design deliverable reviews"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZHKQPZ",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Issue draft package",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VWS6J5",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Completeness screening",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0EEEJQ1",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Discipline review",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1MGLA5I",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Interdisciplinary review",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I00VQYWU",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Contractor review",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1I85A8S",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Constructability review",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0W5G6RG",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Cost review",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VFJLRK",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Owner review",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1T7VR30",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Commissioning review",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I10MSCHW",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Sustainability review",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0S8TAKQ",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Permit review",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JGIT7S",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Consolidate comments",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14D3CUY",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Resolve conflicts between comments",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I051OJDS",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Assign responses",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0M6IJI1",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Revise package",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1P4MPAS",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Verify comment closure",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I02QKECJ",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Obtain approval",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I11IAMZC",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Issue final package",
+          "source_line": 584
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "RFIs and field questions",
+      "path": [
+        "RFIs and field questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I122PC3D",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Identify question",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0OOVWDE",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Research contract documents",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JVMV73",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Verify field condition",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I07UZSND",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Draft clear question and proposed solution",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1QGDD96",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Identify affected work",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1N9GBQX",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Establish response need-by date",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19SGL50",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Submit RFI",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1GBO8WU",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Route to responsible designer",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I13KMYK5",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Coordinate consultant response",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KJP43S",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Obtain owner input when required",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MYWK7L",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Issue response",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YCPAHU",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Determine cost and schedule effect",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1J8PNI7",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Link to change management",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0PGOLPR",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Distribute response",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1IZSO5T",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Incorporate into field documents",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1Y6W18G",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Verify implementation",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0037S1M",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Close RFI",
+          "source_line": 604
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Field design and revisions",
+      "path": [
+        "Field design and revisions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ENN822",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Document field condition",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0X7HHZX",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Determine immediate protection",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0HO8NIQ",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Develop field solution",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03RBVQV",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Coordinate disciplines",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CET7DR",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Prepare sketch",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BGGEHJ",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Perform calculations",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0HAJ31D",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Obtain professional approval",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YER9SZ",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Obtain owner approval",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DQXT0G",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Obtain AHJ approval when required",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0VM7BCI",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Issue field revision",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I073M5QW",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Remove superseded information",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I06GZXTX",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Brief affected trades",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MSICKW",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Implement revision",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19K2KZV",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Inspect changed work",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PED0JM",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Update record documents",
+          "source_line": 622
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Submittal and shop-drawing design coordination",
+      "path": [
+        "Submittal and shop-drawing design coordination"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0DVARD4",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Confirm design criteria",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZU9RKJ",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Review contractor coordination",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I029FH3I",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Review dimensions",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0F7CQ0C",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Review materials and performance",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0O5W5U5",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Review calculations",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I187HPA2",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Review delegated-design seal",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KA0QZR",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Review interfaces",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0SK69H3",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Review deviations",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0A5PCRB",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Consolidate consultant comments",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1S1PX91",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Return review",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DAS4DX",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Resubmit when required",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15M0WIW",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Issue final reviewed submittal",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UAMQUC",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Incorporate accepted information into design",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I136M21H",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Track unresolved design issues",
+          "source_line": 639
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Mockups and prototypes",
+      "path": [
+        "Mockups and prototypes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1L1DZB0",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Define design intent",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I09ROU2F",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Define performance criteria",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I03X6K68",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Prepare mockup drawings",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I12VRIVF",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Coordinate materials",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PNVSLZ",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Construct visual mockup",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0V6MWG9",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Construct performance mockup",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0APUX5Z",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Conduct design review",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I04WC89Q",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Conduct owner review",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14R872T",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Conduct testing",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I122TEGN",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Document deficiencies",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I124F4GL",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Revise details",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I17EA03B",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Correct and retest",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0WV4ZRV",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Approve benchmark",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0G25U5A",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Incorporate lessons into documents",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1HQT9A0",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Preserve record of acceptance",
+          "source_line": 657
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Construction-phase design services",
+      "path": [
+        "Construction-phase design services"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I16X8NZ5",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Attend progress meetings",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I10Q9ZSW",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Conduct site observations",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1X2275C",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Review submittals",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YMBNCG",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Respond to RFIs",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I021W040",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Review substitutions",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I12Z3ZEQ",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Review mockups",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14H4GCH",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Review test reports",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I11RY05H",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Review special-inspection reports",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0TXNYQS",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Review nonconforming work",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0W0OUS2",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Develop repair details",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I00CYOQL",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Review change proposals",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KJBR5E",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Issue supplemental instructions",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I15MZVT0",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Review pay applications when contracted",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1P6DXUE",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Participate in punch inspections",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I09895QN",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Verify substantial completion",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I00LD50Y",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Support commissioning",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MSJ7NN",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Support AHJ inspections",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XWRL50",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Issue final certifications",
+          "source_line": 678
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Record documents and closeout design",
+      "path": [
+        "Record documents and closeout design"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ID9KKM",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Establish record-document process",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I175XU0O",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Collect contractor redlines",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1FA9V8D",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Collect survey as-builts",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I19DLJBI",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Collect approved RFIs and changes",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0WHG6QO",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Collect final shop drawings",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1G3H28Q",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Verify equipment data",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1AIQUE9",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Update drawing backgrounds",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0B03HRN",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Update discipline drawings",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0LV4MI9",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Update specifications when required",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ULQNDN",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Update BIM model",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KBAGS8",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Coordinate record documents",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0L2POJC",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Conduct quality review",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I10MLWFZ",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Resolve missing information",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I149S7UZ",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Issue record set",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0HNOD5D",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Provide electronic files",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YRNJ44",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Archive calculations and models",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0KZ4ZSE",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Complete professional certifications",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0EG2AVC",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Support final permit closure",
+          "source_line": 699
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Design status values",
+      "path": [
+        "Design status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1ISAWWD",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Planned",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1EN50P3",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Awaiting input",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1EUCQTT",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Investigation",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I191JOSK",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "In design",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1BVEOZG",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Internal review",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1YRDYC2",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Coordination",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I17RE5I0",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Owner review",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1I46GDE",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Permit review",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1S2VRII",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Comments received",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I011Q2V2",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Revision in progress",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0916PLI",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Ready to issue",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UWNJWL",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Issued for review",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0MVBZ6Q",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Issued for permit",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0GA7KEH",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Issued for pricing",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1KQVM55",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Issued for procurement",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I14YG12G",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Issued for construction",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0CEP9LE",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0PF0B8L",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "On hold",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0G1I545",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Superseded",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0T8JCLC",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Field revision",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1GOUKGD",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Record update",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1RP8WUY",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Complete",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PTLE9N",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Archived",
+          "source_line": 725
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1X3370I",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Owner criteria → programming approval",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0WTVLT1",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Surveys and investigations → design basis",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1MZVYEB",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Design basis → schematic design",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YC3HVX",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Schematic approval → design development",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0UM9ADE",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Design-development approval → construction documents",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1GT4IZJ",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Coordinated documents → permit submission",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1PS6EXB",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Permit comments → revisions",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1DQ3R3Q",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Permit approval and owner approval → issue for construction",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0O6BQPA",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Design release → submittals and procurement",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I113DA84",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Field question → RFI response",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1XM2JA8",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Approved design change → revised construction",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0JNLSNP",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Installed work and redlines → record documents",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZMZR5Y",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Record-document approval → final closeout",
+          "source_line": 741
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DESIGN-AND-ENGINEERING-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0ZJVRQJ",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Link design deliverables to the construction and procurement activities they release.",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0VEA1ER",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Calculate need-by dates backward from field requirements.",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I05R0ZVA",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Track authoring, review, revision and approval as separate activities.",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0BFQ9VZ",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Identify all required owner decisions and external approvals.",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0R6GCNV",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Preserve design-package boundaries and interfaces.",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1VYU9I1",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Control revisions and remove superseded documents.",
+          "source_line": 750
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0S01X40",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Treat delegated design as real design work with inputs, calculations, review and approval.",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1H1I5IU",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Include field verification before finalizing dimension-dependent design.",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1OCUYDA",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Connect RFIs and revisions to change management.",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0W4RJP6",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "Track BIM coordination to measurable area or system completion.",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1E8D7GW",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "Include permit resubmittal time when designs change.",
+          "source_line": 755
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I1LPO8UH",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "Update record documents continuously rather than waiting until project end.",
+          "source_line": 756
+        },
+        {
+          "item_id": "SSX-SUP-DESIGN-AND-ENGINEERING-I0YT1I64",
+          "sequence": 650,
+          "type": "bullet",
+          "text": "Preserve a traceable record of issued and approved information.",
+          "source_line": 757
+        }
+      ]
+    }
+  ]
+}

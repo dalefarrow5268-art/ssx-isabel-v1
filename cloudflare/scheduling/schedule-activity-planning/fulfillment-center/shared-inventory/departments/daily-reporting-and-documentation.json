@@ -1,0 +1,5051 @@
+{
+  "department_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION",
+  "slug": "daily-reporting-and-documentation",
+  "title": "Daily Reporting And Documentation",
+  "document_title": "SSX Master Daily Reporting and Project Documentation Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/daily-reporting-and-documentation/MASTER_DAILY_REPORTING_AND_DOCUMENTATION_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 38,
+    "items": 649
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Core documentation questions",
+      "path": [
+        "Core documentation questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MSF0D2",
+          "sequence": 1,
+          "type": "table-row",
+          "text": "Field | Required answer",
+          "source_line": 9,
+          "cells": [
+            "Field",
+            "Required answer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RRB0K7",
+          "sequence": 2,
+          "type": "table-row",
+          "text": "What happened? | Work, decision, direction, delivery, inspection, test, event, delay, correction or milestone",
+          "source_line": 11,
+          "cells": [
+            "What happened?",
+            "Work, decision, direction, delivery, inspection, test, event, delay, correction or milestone"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Z2G75J",
+          "sequence": 3,
+          "type": "table-row",
+          "text": "When? | Date, time, shift, duration and reporting period",
+          "source_line": 12,
+          "cells": [
+            "When?",
+            "Date, time, shift, duration and reporting period"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1H4JI36",
+          "sequence": 4,
+          "type": "table-row",
+          "text": "Where? | Project, building, floor, room, grid, elevation, system or workfront",
+          "source_line": 13,
+          "cells": [
+            "Where?",
+            "Project, building, floor, room, grid, elevation, system or workfront"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U71UOQ",
+          "sequence": 5,
+          "type": "table-row",
+          "text": "Who? | Company, crew, responsible person, visitor, inspector, witness or decision maker",
+          "source_line": 14,
+          "cells": [
+            "Who?",
+            "Company, crew, responsible person, visitor, inspector, witness or decision maker"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LFB722",
+          "sequence": 6,
+          "type": "table-row",
+          "text": "How much? | Manpower, hours, equipment, quantity installed, delivery quantity or measured impact",
+          "source_line": 15,
+          "cells": [
+            "How much?",
+            "Manpower, hours, equipment, quantity installed, delivery quantity or measured impact"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XZHBAL",
+          "sequence": 7,
+          "type": "table-row",
+          "text": "Why does it matter? | Progress, safety, quality, payment, change, delay, risk, acceptance or closeout",
+          "source_line": 16,
+          "cells": [
+            "Why does it matter?",
+            "Progress, safety, quality, payment, change, delay, risk, acceptance or closeout"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0G81D6T",
+          "sequence": 8,
+          "type": "table-row",
+          "text": "What proves it? | Photograph, video, ticket, checklist, test result, correspondence, signature or system record",
+          "source_line": 17,
+          "cells": [
+            "What proves it?",
+            "Photograph, video, ticket, checklist, test result, correspondence, signature or system record"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00OEV77",
+          "sequence": 9,
+          "type": "table-row",
+          "text": "What follows? | Action, notice, correction, reinspection, decision, schedule update or closure",
+          "source_line": 18,
+          "cells": [
+            "What follows?",
+            "Action, notice, correction, reinspection, decision, schedule update or closure"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VDYXPF",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Record ID and record type",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IKWWUF",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Project and contract",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ZNUB00",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Date, time, shift and timezone",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15PWKV8",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Author and responsible company",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XU4VS7",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Exact location and system",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04ILNAL",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "CSI division, trade and work package",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I05CCXG6",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Related schedule activity",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0FT1XHW",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Related RFI, submittal, change, inspection, test or issue",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I03DR849",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Weather and site conditions",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I192JGJQ",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Workforce and equipment",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00R2OQM",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Work performed and quantity",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0AZJ5YM",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Work planned",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HIBW81",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Delay, disruption or constraint",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ECWH6Z",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Direction and decision",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XWVMRE",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Safety and quality observations",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1R179QT",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Photographs and attachments",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1LMC9VQ",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Notice requirement",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U1PEH1",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Action owner and due date",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VMLU4Z",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Distribution",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0W6J3EI",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Review and certification",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Q9HR54",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Revision history",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RK72I5",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Retention class",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I18ARB5C",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Confidentiality or legal hold",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1NP1W74",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Closure status",
+          "source_line": 45
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Record classifications",
+      "path": [
+        "Record classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MNIIAR",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Daily report",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1E7L0ZY",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Superintendent log",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I02UYQRP",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Trade daily report",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1ISF9GA",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Safety report",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TEAGP7",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Quality report",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YYI9KQ",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Inspection report",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1P0WYXO",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Test report",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0J3N2NN",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Delivery record",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0BXHDYS",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Equipment log",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LMFD1N",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Manpower report",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H8TUKL",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Production report",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I040CNH7",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Weather record",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0FDZ7KQ",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Photograph",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1NXGKKX",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Video",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0AUZ5MP",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Meeting minute",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H6QJYW",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Correspondence",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01RUZ9M",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Notice",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1EKWTYH",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "RFI",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0J8H1DB",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Submittal",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YKC2M7",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Change record",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YE3R8W",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Cost record",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QWPMDG",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Schedule record",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IOZI7M",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Permit record",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0QNNAPI",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Commissioning record",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1PMKJU8",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Turnover record",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RKO7RN",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Warranty record",
+          "source_line": 74
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Standard documentation workflow",
+      "path": [
+        "Standard documentation workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YZQW79",
+          "sequence": 60,
+          "type": "numbered",
+          "text": "Define documentation requirements",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VDZ1U7",
+          "sequence": 61,
+          "type": "numbered",
+          "text": "Establish file structure and naming",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1D6QIFP",
+          "sequence": 62,
+          "type": "numbered",
+          "text": "Assign record ownership",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16JY2EV",
+          "sequence": 63,
+          "type": "numbered",
+          "text": "Capture information at the time of occurrence",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0C6RZCP",
+          "sequence": 64,
+          "type": "numbered",
+          "text": "Attach objective evidence",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GAJIWJ",
+          "sequence": 65,
+          "type": "numbered",
+          "text": "Verify accuracy and completeness",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1BESRBX",
+          "sequence": 66,
+          "type": "numbered",
+          "text": "Certify or sign when required",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1CQSJ63",
+          "sequence": 67,
+          "type": "numbered",
+          "text": "Distribute to required parties",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I18CRH0H",
+          "sequence": 68,
+          "type": "numbered",
+          "text": "Create actions and notices",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LLSQEZ",
+          "sequence": 69,
+          "type": "numbered",
+          "text": "Link related records",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0S7C9WW",
+          "sequence": 70,
+          "type": "numbered",
+          "text": "Correct errors through traceable revision",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1Q9Y6Q6",
+          "sequence": 71,
+          "type": "numbered",
+          "text": "Preserve original record",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1FUWB9D",
+          "sequence": 72,
+          "type": "numbered",
+          "text": "Apply retention and access controls",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0QI5SNL",
+          "sequence": 73,
+          "type": "numbered",
+          "text": "Transfer closeout records",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I12SC11A",
+          "sequence": 74,
+          "type": "numbered",
+          "text": "Archive final project record",
+          "source_line": 92
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Documentation-management setup",
+      "path": [
+        "Documentation-management setup"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0EABXV6",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Review contract record requirements",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1D6OOAG",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Establish document-control plan",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0PJY0YU",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Establish project folder structure",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YXP87J",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Establish metadata and naming convention",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RW2FC1",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Establish numbering systems",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0W4Y8MA",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Establish common data environment",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07X3TKG",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Establish permissions",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I10HHSK5",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Establish field-device access",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0PYJ4ZW",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Establish offline capture procedure",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0X88EZ9",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Establish version control",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VT7IHJ",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Establish distribution matrix",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07PL6JH",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Establish review and approval workflow",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0T8M3W2",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Establish signature requirements",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XALLU7",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Establish retention schedule",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U8MAQM",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Establish backup and recovery",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I06N5ZW0",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Establish confidentiality controls",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0U8S51P",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Establish litigation-hold procedure",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0BB4CWP",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Train project team",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0J1XLBN",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Audit compliance",
+          "source_line": 114
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Daily superintendent report",
+      "path": [
+        "Daily superintendent report"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1AIEOC2",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Report date and shift",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IYH0KG",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Superintendent and staff onsite",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1G37MDS",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Weather observations",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1PZN8VM",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Site and ground conditions",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1O6NZH1",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Work hours",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1L2F9KT",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Contractors onsite",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0GCEYG0",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Workforce by trade",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01N55CB",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Equipment in use",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14GZMYI",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Work performed by location",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I13A5A9S",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Quantities installed",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IHOCFS",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Major deliveries",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Q4M924",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Visitors",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16MXU6X",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Meetings",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1PXWUQE",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Inspections",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1EM6MHC",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Tests",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I169W13W",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Safety activities and incidents",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CBIBTR",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Quality observations",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0USDGO6",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Deficiencies and corrections",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01CHNA8",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "RFIs and submittals affecting work",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19CK832",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Owner or designer directions",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0B21W68",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Delays and disruptions",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1WC566T",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Work stopped or suspended",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1K5OG5H",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Utility interruptions",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NHUF4G",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SV2ROJ",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Tomorrow’s plan",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VQI3ZB",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Required follow-up",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I003YG3V",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Superintendent certification",
+          "source_line": 146
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Trade contractor daily report",
+      "path": [
+        "Trade contractor daily report"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VDYYN4",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Company and foreman",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0P49WXI",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Crew count and classifications",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0AURLZU",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Work hours and overtime",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I137JGZS",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Exact work locations",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TQMEMO",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Scope performed",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00DE6GF",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Quantity installed",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04YP7TF",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Materials used",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U6PDUT",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Equipment used",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I10EAR2N",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Deliveries received",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0M147FG",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Predecessor condition",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TSS7YE",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Access and workspace",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ZCBZZG",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Instructions received",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1V7NGAZ",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Inspection and testing",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VMZO5B",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Safety meeting",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01P5Q9F",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Quality issues",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09MVP5T",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Delays or constraints",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0F77L4C",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Rework",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0FMCZXR",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Extra work",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MNKYCU",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Time-and-material work",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19OQQ15",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0V5SY4G",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Planned next work",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1A7TF10",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Foreman signature",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SK1OYY",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Superintendent review",
+          "source_line": 172
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Manpower reporting",
+      "path": [
+        "Manpower reporting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H4D7OY",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Contractor",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I166O4A1",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Trade",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0K2COEF",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Supervisor",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GN9KAX",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Journeymen",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I162DSIJ",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Apprentices",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1Y1GUIB",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Laborers",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DTLRZU",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Operators",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GIZF17",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Specialty personnel",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VAF6L0",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Regular hours",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I13Q75IP",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Overtime hours",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1A0DM6V",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Shift",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00C2HRR",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Work location",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YR3D0C",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Activity",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1F3Q2Z6",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Planned manpower",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1FMQNR4",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Actual manpower",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VHB3HQ",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Variance",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07JCF25",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Cumulative hours",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I139OBGH",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Certified-payroll linkage",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IL7ZA7",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Workforce-goal reporting",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MH3IBM",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Trend and forecast",
+          "source_line": 195
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Production reporting",
+      "path": [
+        "Production reporting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I109O6IN",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Schedule activity",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ZHXQAT",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Work item",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1G14PZ4",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Location",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CTZDYI",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Unit of measure",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1LX6S00",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Total quantity",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I06PR7WF",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Planned daily quantity",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YEKWAX",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Actual daily quantity",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1RX4U61",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Quantity to date",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DVCV42",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Remaining quantity",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I10M0337",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Crew size",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MH2CID",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Work hours",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MKZU1M",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Production rate",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0PL2SV7",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Planned rate",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Z436EW",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Variance",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XIN8NM",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Cause of variance",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LV54ZG",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Rework quantity",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YAMJW7",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Accepted quantity",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SW8B40",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Forecast completion",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1EQ9THB",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 217
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Equipment and tool logs",
+      "path": [
+        "Equipment and tool logs"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16U4GD7",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Equipment ID",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XP56VJ",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Owner or rental company",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I12FOA1U",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Operator",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IUXI4Y",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Arrival and removal",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I18UTYXQ",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Operating hours",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1NUCKQR",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Idle hours",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0HGVBLO",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Work activity",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ZQ1PQ5",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Fuel or charge",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I08O6XRC",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Inspection",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XEKCUC",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Certification",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DK9SUT",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Maintenance",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0UOMGLL",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Breakdown",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RFV367",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Repair",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1N1BN0X",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Standby reason",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I175I1GK",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Rental ticket",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1L6G2NZ",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Damage",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16P1R1V",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0HIWUBQ",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Release or return",
+          "source_line": 238
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Delivery documentation",
+      "path": [
+        "Delivery documentation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HEOEGM",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Delivery date and time",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1G42EG9",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Supplier and carrier",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X6ZDQ3",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Purchase order",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1KOBZPA",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Material or equipment",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I110QNU5",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Quantity",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VAD9J5",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Model, tag, serial, batch or lot",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LXV953",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Delivery location",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NM0W6Z",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Shipping condition",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01GOP0Z",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Damage or shortage",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0F3AN6L",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Approved submittal verification",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19PG0FU",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Certificate or test report",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0GNZ3Y8",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Receiving inspection",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09TS5TS",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Accepted, rejected or quarantined",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0WXLNSC",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Storage location",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14UUMAC",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Delivery ticket",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I119QREX",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0KXBER1",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Recipient signature",
+          "source_line": 258
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Weather and environmental records",
+      "path": [
+        "Weather and environmental records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1G8ERWM",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Observation time",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I159K4ET",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Temperature",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VXEFHS",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Precipitation",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1I0BXRB",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Wind",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XYOBPC",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Humidity",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01Y3XZJ",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Ground condition",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I160EVHD",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Site access condition",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0STZEJ5",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Official weather source",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I081PVTS",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Alerts and warnings",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0E6JUPY",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Work planned",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I08BQ3CK",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Work affected",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0C8QIH3",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Crew and equipment affected",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I097EBKA",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Hours lost",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1H5BINN",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Protective measures",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0GZNLDD",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Shutdown and restart",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14U8QPA",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Environmental condition",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15QW9C6",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00J4NBC",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Link to schedule activities",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1T48OX7",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Notice or claim reference",
+          "source_line": 280
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Photographic documentation",
+      "path": [
+        "Photographic documentation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HAX0KA",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Establish photo plan",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U4GCR8",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Capture overall site views",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1BMI841",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Capture each active work area",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HTEX97",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Capture concealed work",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VI27NM",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Capture deliveries",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1E5MM2H",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Capture inspections and tests",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VVBTTV",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Capture deficiencies",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0BSBVZZ",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Capture corrective work",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1E2Z2FN",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Capture existing conditions",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0WW06O1",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Capture adjacent property",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0BHGXMT",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Capture weather impacts",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XVNY7J",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Capture change work",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14V4Z56",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Capture milestone completion",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0O6KBVM",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Capture turnover condition",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19QJ89I",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Include date and time",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TJLRKA",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Include exact location",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I091NFA2",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Include orientation or viewpoint",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I06WS2EG",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Include descriptive caption",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1CCPOL8",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Link to activity and issue",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RU4P1W",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Preserve original metadata",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YOOHGS",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Avoid unapproved alteration",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TQ5PM6",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Maintain recurring fixed viewpoints",
+          "source_line": 305
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Video, drone and reality-capture records",
+      "path": [
+        "Video, drone and reality-capture records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01JD4H1",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Define permitted use",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NNL0CY",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Obtain access or flight authorization",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VOQM1Z",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Establish capture route",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07BILVX",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Conduct progress video",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I043PE05",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Conduct drone flight",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SIJ0YL",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Conduct 360-degree capture",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1L0FEG9",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Conduct laser scan",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0AM9NQ7",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Conduct photogrammetry",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1C76P48",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Capture facade or roof",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I17WNPZP",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Capture concealed conditions",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TOYZOK",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Index by date and location",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SOZHKF",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Link to model or drawings",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1Q632B1",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Protect privacy and security",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0C9T2KB",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Preserve original files",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I151L3SM",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Compare periods",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X32002",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Archive final record",
+          "source_line": 324
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Meeting records",
+      "path": [
+        "Meeting records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1ARXB86",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Meeting type",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I165KWWG",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Date, time and location",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DVU2YY",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Attendees and companies",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IO0TT9",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Agenda",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1G8JWF5",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Prior action review",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H9GJUD",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Discussion summary",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0KVBYH4",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Decisions",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CQT22R",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Directions",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09EYT57",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Open issues",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1M3Q5TP",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "New action items",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1SOJPPW",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Responsible person",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0D6UF6B",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Due date",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04SY0BP",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Schedule effect",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LV404H",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Cost effect",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YQA2SP",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Attachments",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14DHSB2",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Draft distribution",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0EUM5UR",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Comment period",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I014ZWJA",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Final minutes",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0P8FVTP",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Acceptance or correction",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1K9LNRM",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Action closure",
+          "source_line": 347
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Correspondence and notices",
+      "path": [
+        "Correspondence and notices"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YG24ZC",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Incoming correspondence log",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07G444Q",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Outgoing correspondence log",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1ERD112",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Contract notice",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0FNDJRN",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Potential-change notice",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TV5MQ1",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Delay notice",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U93YJC",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Differing-condition notice",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0BVPNE8",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Nonconformance notice",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1RKLXC2",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Safety notice",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14YNNU2",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Payment notice",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1F8VPPJ",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Cure notice",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H4R4N7",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Suspension notice",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1WX4TIO",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Claim notice",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I17G5EP6",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Completion notice",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1E1195W",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Warranty notice",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1CVK1QX",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Record sender and recipients",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1940M5D",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Record method of delivery",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MR66YK",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Record delivery confirmation",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1UEI7JZ",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Link response",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QJYD4S",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Track response due date",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YTULC7",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Preserve full thread",
+          "source_line": 370
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Direction and decision records",
+      "path": [
+        "Direction and decision records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TO2XO1",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Record verbal direction promptly",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X6LZ2J",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Identify speaker and authority",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0D1TDG9",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "State exact direction",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I06KJG0S",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "State date, time and location",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1UU5U5R",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Identify affected work",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0V8KXHD",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Identify potential cost and time",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0X70LA5",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Confirm in writing",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0LJAC2Q",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Request clarification when needed",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I11H6KOL",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Link owner decision",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1812A8L",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Link design document",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0FR7S7J",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Link change record",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MN0CVV",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Record field implementation",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07NZLL7",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Record later modification",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19P0P4C",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Close after formal disposition",
+          "source_line": 387
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "RFI records",
+      "path": [
+        "RFI records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0T3NIDO",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "RFI number and title",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1PSFFWD",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Discipline",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0OFN5AP",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Exact location",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Q8R1DJ",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Drawing and specification",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MGSW5G",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Clear question",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0C83SVC",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Proposed solution",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00S2277",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Reason",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0KBAXU6",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Work affected",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0R7FTN1",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Need-by date",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0GXKXJI",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Date submitted",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1NBYGAI",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Responsible designer",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1F0NUUG",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Response date",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1J8SDOK",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Response",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I172EGY1",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Cost and time effect",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0PMFKSK",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Change linkage",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16QFS8H",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Distribution",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SF0NOK",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Field verification",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0G8JTJC",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Closure",
+          "source_line": 408
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Submittal records",
+      "path": [
+        "Submittal records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YZOIJ3",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Submittal number",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MMICWH",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Specification section",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XBS86T",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Type",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I05CC5VT",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Contractor and supplier",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04B48TO",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Required date",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I17B9GQ2",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Submitted date",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0E5GRP9",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Review status",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IET24I",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Reviewer",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I12YXO1B",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Review duration",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15OUPFZ",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Comments",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0D5GT0C",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Resubmission",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1WZAWHO",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Final disposition",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1I1C8CC",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Procurement release",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1KDAUQB",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Field distribution",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1NOA05G",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Superseded-version removal",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XU8PWO",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Installation verification",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DD6QA2",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Closeout linkage",
+          "source_line": 428
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Inspection and test records",
+      "path": [
+        "Inspection and test records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XLPEAY",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Request date",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0WJ8JJO",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Required notice",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I077N9UM",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Inspector or tester",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1AKXTF6",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Qualification",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Y241BY",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Location",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0F22BD9",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Work inspected",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CAE6S5",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Standard and acceptance criteria",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1FZXYP2",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Equipment and calibration",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YC6DNZ",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Sample",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CCIXDF",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Measured results",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0RNYSYB",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Pass or fail",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0UDC7N4",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Deficiency",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IS8DG5",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IKUEOO",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Reinspection or retest",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04V71TM",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Final acceptance",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DRUX27",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Report distribution",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MDTOXR",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Concealment release",
+          "source_line": 448
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Safety documentation",
+      "path": [
+        "Safety documentation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1SQP7CO",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Orientation",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0UJRPG9",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Toolbox talk",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0K7BV72",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Pre-task plan",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1FP1E53",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Job hazard analysis",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0N0OURP",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Permit",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15X78UN",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Daily inspection",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09GAPDS",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Equipment inspection",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VCGOYT",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Competent-person inspection",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VQHYKG",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Incident",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IC11L4",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Near miss",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1B6FCWQ",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "First aid",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GO7MPJ",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Regulatory visit",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I065U9H8",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YZB34X",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Training record",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19NCAI8",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Certification",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I065G0FQ",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Emergency drill",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0C0NJZH",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Return-to-work record",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1SZLOFA",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Restricted access as required",
+          "source_line": 469
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Quality documentation",
+      "path": [
+        "Quality documentation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I17J3K21",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Quality-control plan",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0I4I011",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Preparatory meeting",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I104O9TN",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Initial inspection",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0WFJSG8",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Follow-up inspection",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VMLSCP",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Mockup acceptance",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01RUMS5",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Receiving inspection",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01I1YQQ",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Hold-point release",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0HHWXU5",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Nonconformance",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1V3KC29",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TXOV66",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Reinspection",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0QTZE1X",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Test report",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1D7BZJF",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Calibration",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0KHY1SM",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Special inspection",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1C103G6",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Manufacturer inspection",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I08M8PTJ",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Punch",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0L6317Y",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Acceptance",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X3OFEW",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Quality-record index",
+          "source_line": 489
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Change and extra-work records",
+      "path": [
+        "Change and extra-work records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QOC9L4",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Change ID",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NHTUZV",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Original requirement",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0AF1ZJI",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Changed requirement",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Z7NZDW",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Direction",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1T6090C",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Date identified",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19Q18RX",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Exact location",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QB6YIF",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Labor",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H9ENBP",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Equipment",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1318RG2",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Material",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1Q6QV63",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Daily T&M ticket",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TZ9JDM",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Quantity",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0B5TQF0",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HYABJF",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Schedule effect",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04SSEEF",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Pricing",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0FHK14C",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Authorization",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0VJTKKZ",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Inspection and acceptance",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X9N90V",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Cost reconciliation",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14ZW5ZX",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Record-document update",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1DQEK10",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Closure",
+          "source_line": 511
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Delay and disruption records",
+      "path": [
+        "Delay and disruption records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1S3PBGA",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Event ID",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YWO6FT",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Notice date",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MTW979",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Event start and end",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14PTIGM",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Cause",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XTHE3X",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Responsible party",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TAV0CB",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Exact affected work",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00GCSOF",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Schedule activities",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01K3J3C",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Critical-path status",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0UPIBLG",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Planned work",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QG50QZ",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Work actually performed",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I11KQF82",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Labor and equipment affected",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I086KIX8",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Productivity effect",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I02JN21Y",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Access or predecessor condition",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0I31R54",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Mitigation",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0E41E89",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Correspondence",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I06CWNSO",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Photographs",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0JKWJ25",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Weather or official data",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IOA1OC",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Cost records",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09EMIBS",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Schedule analysis",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1LC90RS",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Event closure",
+          "source_line": 534
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Permit and regulatory records",
+      "path": [
+        "Permit and regulatory records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0O8Q1EU",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Application",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I128KBOS",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Submission",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CAN5SO",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Fee",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0QIXZ0G",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Plan-review comments",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SZIRQL",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Revision",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X5X7KB",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Approval",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TF06B7",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Permit card",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1FXYTXU",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Required inspections",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0812BEF",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Inspection result",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I12YSQ7C",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Violation or correction",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1CJ333Z",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Certificate",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04O4AQV",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "TCO or CO",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0SPSZ69",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Permit closeout",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0T1L639",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "AHJ correspondence",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0W6M31L",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Posted documents",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0JKV4VI",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Final archive",
+          "source_line": 553
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Commissioning and turnover records",
+      "path": [
+        "Commissioning and turnover records"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HRFC51",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Equipment tag",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I000F6DG",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Startup checklist",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IELU7O",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Manufacturer report",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1E0N750",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "TAB report",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0JB652M",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Pre-functional checklist",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GOGUR6",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Functional test",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1B1BLCA",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Integrated test",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I13VOQ5I",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Deficiency",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0T394KQ",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Retest",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1I2W371",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Training",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XWTO6L",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "O&M manual",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MHUK43",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Warranty",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0H24MNG",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Spare parts",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0DE033K",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Record drawing",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1E6VI8P",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "System acceptance",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Q496CU",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Turnover package",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19OLGWY",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Owner receipt",
+          "source_line": 573
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Document-control activities",
+      "path": [
+        "Document-control activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1V0BDO6",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Receive document",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1AS4SKM",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Assign number",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07C4WMZ",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Validate metadata",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1EWVN04",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Check completeness",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0319YYL",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Upload",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0IFN9NL",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Route",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1B7PAXS",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Review",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0E1W3N1",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Approve",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I095BP5R",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Publish",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I054S747",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Distribute",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16GNRAO",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Confirm receipt",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I183WPX4",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Supersede prior version",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1NX96O2",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Archive prior version",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I02LOSCW",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Restrict obsolete field copy",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16990NG",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Revise",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I05J4A1S",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Close",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0V3SEZF",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Audit",
+          "source_line": 593
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "File naming and metadata controls",
+      "path": [
+        "File naming and metadata controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1LJXOPC",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Project identifier",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I08BN907",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Document type",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I146EACI",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Discipline",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0EQ3WWA",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Originator",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HGQ3X0",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Building",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1BE01T6",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Level",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0JTVRID",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Area",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1KXVDNX",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "System",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1RVUKT4",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Sequential number",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1LNXCU1",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Revision",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I023QSCE",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Status",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QEO2CW",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Date",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0TE0KN6",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Confidentiality",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0S7S20I",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Retention class",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I18FS7OL",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Use standardized date format",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1IHE80S",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Avoid duplicate names",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YKM6KT",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Preserve unique record ID",
+          "source_line": 613
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Version and revision controls",
+      "path": [
+        "Version and revision controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ZQVLYC",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Identify current revision",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0EYE5XW",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Record revision date",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XACAWU",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Record author",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0OZ9AAY",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "State revision description",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0K8IXCL",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Use revision clouds when required",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I08FTSEF",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Preserve superseded revision",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XWMPO9",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Publish current revision",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1DQRYTA",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Remove obsolete field copies",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I17RC8HE",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Confirm affected parties received revision",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I11RXD44",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Link revision to change",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19S2C59",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Prevent uncontrolled editing",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I14FDYVA",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Maintain audit log",
+          "source_line": 628
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Distribution and acknowledgment",
+      "path": [
+        "Distribution and acknowledgment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1DFEQ5Y",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Establish distribution matrix",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QKEUD3",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Route by document type",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0MMQOK5",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Send to contract-required parties",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I11Q3P2E",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Record transmittal",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TA2U9D",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Record date and time",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I163V6YQ",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Record delivery method",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XIESJB",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Record receipt",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I00QLKMJ",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Require acknowledgment when needed",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0GX6G9A",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Track failed delivery",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I120BAR9",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Correct recipient list",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1HRRCIR",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Protect confidential information",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1940G8L",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Preserve distribution record",
+          "source_line": 643
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Review and certification",
+      "path": [
+        "Review and certification"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I02PVPLE",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Author completeness check",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0Y1XNM9",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Superintendent review",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ORTITG",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Project-manager review",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MR68AH",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Safety review",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16XDQ0I",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Quality review",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09GNMX0",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Cost review",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I08LPPY8",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Schedule review",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I13IMEXU",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Required signature",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0D3L4LS",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Required professional seal",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I19UH9T2",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Required notarization",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1OYY9BE",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Correction without overwriting original",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NT9GAT",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Final certification",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1PZZSTM",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Lock approved record",
+          "source_line": 659
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Daily and periodic cadence",
+      "path": [
+        "Daily and periodic cadence"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1KPAHPX",
+          "sequence": 559,
+          "type": "table-row",
+          "text": "Frequency | Typical records",
+          "source_line": 663,
+          "cells": [
+            "Frequency",
+            "Typical records"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1BR4M6R",
+          "sequence": 560,
+          "type": "table-row",
+          "text": "Each shift | Daily report, workforce, work performed, equipment, safety, quality, delays and photographs",
+          "source_line": 665,
+          "cells": [
+            "Each shift",
+            "Daily report, workforce, work performed, equipment, safety, quality, delays and photographs"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1VE1JN2",
+          "sequence": 561,
+          "type": "table-row",
+          "text": "Every delivery | Delivery ticket, receiving inspection, damage, certificates and storage location",
+          "source_line": 666,
+          "cells": [
+            "Every delivery",
+            "Delivery ticket, receiving inspection, damage, certificates and storage location"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I01ZCQU8",
+          "sequence": 562,
+          "type": "table-row",
+          "text": "Every inspection/test | Request, result, measured values, deficiency, correction and release",
+          "source_line": 667,
+          "cells": [
+            "Every inspection/test",
+            "Request, result, measured values, deficiency, correction and release"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I120GQ54",
+          "sequence": 563,
+          "type": "table-row",
+          "text": "Weekly | Progress photographs, manpower and production trend, open-action review and look-ahead support",
+          "source_line": 668,
+          "cells": [
+            "Weekly",
+            "Progress photographs, manpower and production trend, open-action review and look-ahead support"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CDI6T0",
+          "sequence": 564,
+          "type": "table-row",
+          "text": "Monthly | Schedule-status evidence, pay-application support, executive progress record and document audit",
+          "source_line": 669,
+          "cells": [
+            "Monthly",
+            "Schedule-status evidence, pay-application support, executive progress record and document audit"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0305AKZ",
+          "sequence": 565,
+          "type": "table-row",
+          "text": "At event | Direction, incident, delay, change, shutdown, weather impact, differing condition or regulatory visit",
+          "source_line": 670,
+          "cells": [
+            "At event",
+            "Direction, incident, delay, change, shutdown, weather impact, differing condition or regulatory visit"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1S8Y1SG",
+          "sequence": 566,
+          "type": "table-row",
+          "text": "Before concealment | Location-specific photographs, inspection, test and acceptance",
+          "source_line": 671,
+          "cells": [
+            "Before concealment",
+            "Location-specific photographs, inspection, test and acceptance"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1W1LZTP",
+          "sequence": 567,
+          "type": "table-row",
+          "text": "At turnover | Record documents, commissioning, training, warranties, certificates and owner receipt",
+          "source_line": 672,
+          "cells": [
+            "At turnover",
+            "Record documents, commissioning, training, warranties, certificates and owner receipt"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0JTYP44",
+          "sequence": 568,
+          "type": "table-row",
+          "text": "During warranty | Service call, inspection, correction, retest and acceptance",
+          "source_line": 673,
+          "cells": [
+            "During warranty",
+            "Service call, inspection, correction, retest and acceptance"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Record correction",
+      "path": [
+        "Record correction"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15U6IEO",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Do not silently overwrite",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1T2KZBC",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Preserve original entry",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NFQCH0",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Identify corrected information",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0HKR1TM",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "State reason",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I143ORIZ",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Record correction author",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0D12D98",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Record correction date",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0XES5OE",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Obtain approval when required",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1U3DQO0",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Redistribute material correction",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I005JLQA",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Preserve revision history",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I05MFYSK",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Link affected decisions or notices",
+          "source_line": 686
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Record retention and archive",
+      "path": [
+        "Record retention and archive"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I001JL36",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Establish retention requirement by record type",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1TJCTJ4",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Preserve native format",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1ANDWQW",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Preserve readable export",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0QOUIF8",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Preserve attachments",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0ZF3GIF",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Preserve metadata",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1L4GLA9",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Preserve signatures",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MLCXUX",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Preserve audit history",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1RDR9XZ",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Verify backup",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XD0NW7",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Protect confidential records",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GRXHD0",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Apply legal hold",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1XW5SSN",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Suspend routine deletion under hold",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09VCKOV",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Verify archive completeness",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I05HMV5K",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Transfer owner records",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15BRGQU",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Test retrieval",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0X4T5XA",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Document destruction authorization",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1X4U9ZW",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Close archive",
+          "source_line": 705
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Documentation audits",
+      "path": [
+        "Documentation audits"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1GXGGRX",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Daily-report completeness audit",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I11Q8YVX",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Photo coverage audit",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0YXD6FI",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Manpower reconciliation",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I17MAMXC",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Production-record audit",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1RZQVH1",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Delivery-record audit",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1V0OWIF",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Inspection/test-report audit",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I16OBBGH",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Correspondence audit",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QQJJXH",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Notice-timeliness audit",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0OLW5QM",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "RFI/submittal audit",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I157NTKL",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Change-record audit",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0P09ZLG",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Delay-record audit",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1SRQKX7",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Drawing-revision audit",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I15SP42G",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Permit-record audit",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1WEDX91",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Closeout-record audit",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1Y53HAF",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Correct missing or inconsistent metadata",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0UHGR2U",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Close findings",
+          "source_line": 724
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G036",
+      "sequence": 36,
+      "level": 2,
+      "title": "Documentation status values",
+      "path": [
+        "Documentation status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0HN6OWB",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Draft",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0R5KPI5",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Submitted",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YC1TAA",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Under review",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0S8ZGK2",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Revision required",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1YA2RQF",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1QDLJMQ",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Published",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0HA2CKT",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Distributed",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0V6FEMW",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Acknowledged",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0K7LY7J",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Action required",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1OGU4W8",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Superseded",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I02FQDO8",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1OS90HI",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Archived",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1UXB22E",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Confidential",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I07Y68M2",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Legal hold",
+          "source_line": 741
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G037",
+      "sequence": 37,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I147F72S",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Documentation setup → field reporting",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I04ET3NR",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Work shift → daily report",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I09A3CZI",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Delivery → receiving record",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0M6ZORZ",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Inspection/test → result and release",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1L2O1PS",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Direction → written confirmation",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0WWOZAM",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Potential change → notice and cost/schedule record",
+          "source_line": 750
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0QMFUFN",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Delay event → contemporaneous evidence",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1SCIA1Y",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Progress cutoff → monthly supporting record",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0F4OUS5",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Completed work → record-document update",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1SJ8J8M",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Turnover → record transfer",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0L7Z4YW",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Final audit → archive",
+          "source_line": 755
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-G038",
+      "sequence": 38,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0OU49G8",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Complete daily reports daily, not from memory at month end.",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NXO5R6",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Identify exact work locations and responsible companies.",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I13YWVO2",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Record quantities and production, not only general descriptions.",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1MSOE6N",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Separate fact, observation, direction and opinion.",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I18D565N",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Link records to schedule activities and issue IDs.",
+          "source_line": 763
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I02DFHT0",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Preserve original photographs and metadata.",
+          "source_line": 764
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1Q6QE08",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Confirm verbal direction in writing.",
+          "source_line": 765
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0NJUQ1T",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Document both the event and its actual effect.",
+          "source_line": 766
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0CINJA6",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Record mitigation and work available during a delay.",
+          "source_line": 767
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1OB5291",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Do not silently alter approved records.",
+          "source_line": 768
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0EST2DP",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Remove superseded documents from field use while preserving history.",
+          "source_line": 769
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I1S5R3LM",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "Protect personal, medical, security and privileged information.",
+          "source_line": 770
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I0GTGD13",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "Audit record completeness throughout the project.",
+          "source_line": 771
+        },
+        {
+          "item_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION-I06Y2RS8",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "Make final records searchable and retrievable.",
+          "source_line": 772
+        }
+      ]
+    }
+  ]
+}

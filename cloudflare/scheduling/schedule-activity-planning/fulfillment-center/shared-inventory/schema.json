@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "identifiers": {
+    "department": "SSX-SUP-{DEPARTMENT-SLUG}",
+    "group": "SSX-SUP-{DEPARTMENT-SLUG}-G###",
+    "item": "SSX-SUP-{DEPARTMENT-SLUG}-I{STABLE-HASH}"
+  },
+  "item_types": [
+    "bullet",
+    "numbered",
+    "table-row"
+  ],
+  "rules": {
+    "source_preservation": "Original Markdown master libraries remain authoritative and unchanged.",
+    "shared_selection": "Shared inventory items are pulled only when supported by plans, specifications, intake, contract, municipality, AHJ, project conditions or user direction.",
+    "project_copy": "Project packages reference master item IDs; project dates, durations, owners, status and evidence are stored separately.",
+    "calendar_records": "Holiday table records remain calendar data and are not converted into generic construction activities.",
+    "traceability": "Every selected shared item retains its department, group path, source file and source line."
+  }
+}

@@ -1,0 +1,4970 @@
+{
+  "department_id": "SSX-SUP-MOCKUPS",
+  "slug": "mockups",
+  "title": "Mockups",
+  "document_title": "SSX Master Construction Mockups",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/mockups/MASTER_MOCKUPS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 35,
+    "items": 653
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I05MO0YF",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project, phase, building, floor, area and system",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0B7JDNH",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Mockup name, type and purpose",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YCCB13",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "CSI divisions and specification sections",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I19D0Q62",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Responsible contractor, trades, suppliers and manufacturers",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0AC4PYA",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Architect, engineer, consultant, owner and AHJ reviewers",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1VCXXDN",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Required submittals, samples, calculations and approvals",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UU26W1",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Location, dimensions and configuration",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ERSU21",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Permanent, freestanding, laboratory or off-site status",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KR6RBH",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Materials, products, finishes and approved substitutions",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WD3LEA",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Required weathering, curing or conditioning time",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1W1VD0T",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Required visual, dimensional, functional or performance tests",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I07J0PMZ",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Testing agency, standards, pressures, loads and acceptance criteria",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0SUG1Z1",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Planned and actual construction dates",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UZV0RT",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Planned and actual review and testing dates",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PHK2BK",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Deficiency, correction and retest dates",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IDCS2L",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Final approval date",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CBRIOL",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Production-release date",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0U0GKZQ",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Required preservation period",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YGFQN0",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Removal and restoration dates",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CXBG7X",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Cost responsibility",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18KCAGW",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Linked procurement, submittal, testing and installation activities",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GRIPIJ",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Status, disposition and record attachments",
+          "source_line": 32
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Standard mockup workflow",
+      "path": [
+        "Standard mockup workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0N28OFJ",
+          "sequence": 23,
+          "type": "numbered",
+          "text": "Identify contract-required mockup",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0EEL3YP",
+          "sequence": 24,
+          "type": "numbered",
+          "text": "Define mockup purpose and acceptance criteria",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PJ66E5",
+          "sequence": 25,
+          "type": "numbered",
+          "text": "Identify all affected trades and reviewers",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1RVGND7",
+          "sequence": 26,
+          "type": "numbered",
+          "text": "Select mockup type and location",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02ANMSZ",
+          "sequence": 27,
+          "type": "numbered",
+          "text": "Establish required completion and production-release dates",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0AT11B8",
+          "sequence": 28,
+          "type": "numbered",
+          "text": "Back-calculate design, submittal, procurement and construction dates",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GCSD1B",
+          "sequence": 29,
+          "type": "numbered",
+          "text": "Prepare mockup plan, drawings and testing procedures",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04O19KM",
+          "sequence": 30,
+          "type": "numbered",
+          "text": "Submit mockup plan",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OPKMA8",
+          "sequence": 31,
+          "type": "numbered",
+          "text": "Complete design-team, owner and consultant review",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PB9B0R",
+          "sequence": 32,
+          "type": "numbered",
+          "text": "Obtain required permits or laboratory booking",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LUHBEU",
+          "sequence": 33,
+          "type": "numbered",
+          "text": "Procure approved materials and components",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0XNZ05G",
+          "sequence": 34,
+          "type": "numbered",
+          "text": "Prepare substrate, foundation or test chamber",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15OA30R",
+          "sequence": 35,
+          "type": "numbered",
+          "text": "Conduct preconstruction or pre-installation conference",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0X692PE",
+          "sequence": 36,
+          "type": "numbered",
+          "text": "Construct mockup in the required sequence",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SDU181",
+          "sequence": 37,
+          "type": "numbered",
+          "text": "Document concealed conditions",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00CPABX",
+          "sequence": 38,
+          "type": "numbered",
+          "text": "Complete contractor quality review",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TFRPHE",
+          "sequence": 39,
+          "type": "numbered",
+          "text": "Correct obvious deficiencies before formal review",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12VIIW7",
+          "sequence": 40,
+          "type": "numbered",
+          "text": "Conduct architect, engineer, consultant and owner review",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0983RSN",
+          "sequence": 41,
+          "type": "numbered",
+          "text": "Conduct performance testing when required",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0Q3Z8IF",
+          "sequence": 42,
+          "type": "numbered",
+          "text": "Document results and deficiencies",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1I9V87U",
+          "sequence": 43,
+          "type": "numbered",
+          "text": "Repair, modify or reconstruct",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1A295YX",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Retest",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RU2EE1",
+          "sequence": 45,
+          "type": "numbered",
+          "text": "Obtain final written approval",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0I58VLA",
+          "sequence": 46,
+          "type": "numbered",
+          "text": "Record accepted materials, colors, details and workmanship",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QTWXVO",
+          "sequence": 47,
+          "type": "numbered",
+          "text": "Preserve mockup as the quality benchmark",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1HV6FKV",
+          "sequence": 48,
+          "type": "numbered",
+          "text": "Release production procurement, fabrication or installation",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01OWX63",
+          "sequence": 49,
+          "type": "numbered",
+          "text": "Compare initial and ongoing production work to benchmark",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04LOTEV",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Remove mockup only after written authorization",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RW6M9X",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Restore location",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0EJ3QJK",
+          "sequence": 52,
+          "type": "numbered",
+          "text": "Archive photos, reports and approval records",
+          "source_line": 65
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Mockup classifications",
+      "path": [
+        "Mockup classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0E8VOOI",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Visual appearance mockup",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0L2OFHR",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Workmanship mockup",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LPQSOR",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Quality benchmark",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YX5FLI",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Material sample panel",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1O5FSQU",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Range sample",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0JK3GAN",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Full-size mockup",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I05LR7D4",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Partial assembly",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CLIRFL",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "In-place first-work mockup",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1533HZO",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Freestanding mockup",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17ZKC8R",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Off-site mockup",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0B3UD0H",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Laboratory mockup",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KF0B92",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Field performance mockup",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TLHATV",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Prototype",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KQM8BP",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "First article",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0X6S8BK",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Sample room",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YNETLM",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Model unit",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VMNFY4",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Integrated room mockup",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04T4PBW",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Digital mockup",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PWEH1L",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Virtual reality mockup",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0Q6TYAB",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "BIM coordination mockup",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QM4G1Q",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Destructive test mockup",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NYTY4O",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Training mockup",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0TE5BI5",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Code or AHJ mockup",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1EP73DY",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Manufacturer qualification mockup",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0F3V452",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Warranty mockup",
+          "source_line": 93
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Mockup planning activities",
+      "path": [
+        "Mockup planning activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03LBYXF",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Prepare master mockup register",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1U2OTYS",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Reconcile mockups with drawings and specifications",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0XVNKKV",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Identify mockups embedded in trade specifications",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IR5KJ7",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Identify required samples preceding mockups",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1W2OEPT",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Identify owner-selection dependencies",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PBR189",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Identify long-lead materials",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LWDZAY",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Identify testing and laboratory lead times",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I10TQ1KN",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Identify weather and seasonal constraints",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06Z7ECK",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Identify curing and conditioning periods",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WO7KZH",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Identify mockups requiring field dimensions",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BA7EWC",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Identify mockups requiring structural support",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1VKC2AR",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Identify mockups requiring temporary utilities",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0SYLBT4",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Identify mockups requiring destructive testing",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I10WA0N3",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Identify mockups incorporated into permanent work",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WHWJEU",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Establish review and approval authority",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VVKIRY",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Establish production hold points",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02QYXTS",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Establish preservation and removal responsibilities",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NULJ97",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Integrate mockups into baseline schedule",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1123QYF",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Review mockup status during progress meetings",
+          "source_line": 115
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Mockup plan and submittals",
+      "path": [
+        "Mockup plan and submittals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00QR5OF",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Mockup scope narrative",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1YE10XR",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Mockup location plan",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ZZI25I",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Mockup elevations and sections",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RZ4ME5",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Component and interface details",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UO8OHK",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Structural support details",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1M1S15B",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Installation sequence",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LBENM3",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Product data",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0C1G22D",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Shop drawings",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I13X0J6U",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Samples and color selections",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VB822Q",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Delegated-design calculations",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I11WM1ZL",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Testing standards and procedures",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17T6TYU",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Laboratory or testing-agency proposal",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1W83O44",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Safety and access plan",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I066TGX3",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Temporary utility requirements",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NNJW20",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Weather protection plan",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0Q1BYGV",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Curing and conditioning plan",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1G8Z8NW",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Inspection hold points",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1J0HGXG",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Concealed-condition photography plan",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1HVUPAQ",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Deficiency and repair procedure",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0MJWFMI",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Removal and restoration plan",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I156LKW3",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Approval form and signoff matrix",
+          "source_line": 139
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Site, civil and landscape mockups",
+      "path": [
+        "Site, civil and landscape mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1FXVOZE",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Site paving mockup",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15Y283V",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Concrete sidewalk mockup",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WDIJL9",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Concrete curb and gutter mockup",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I09KDW3Q",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Asphalt mix and finish trial",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OZN56E",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Unit paver mockup",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I083KADR",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Permeable-paving mockup",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1M96UYU",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Pavement marking sample",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1Y3EORO",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Site-wall mockup",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I002RLZE",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Retaining-wall mockup",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I09ZW7LX",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Fence and gate mockup",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IO9JYM",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Guardrail and bollard mockup",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LHUB60",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Site-lighting mockup",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QJF5R8",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Landscape planting-area mockup",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PRJLBH",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Planting-soil mockup",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0O5J6MH",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Irrigation-zone mockup",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KR6K9B",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Green-infrastructure mockup",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1X8OYN0",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Bioswale mockup",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0D4IJ5R",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Playground surfacing mockup",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0V9DJPQ",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Athletic-surface mockup",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QI7J6V",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Streetscape mockup",
+          "source_line": 162
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Earthwork, foundations and concrete mockups",
+      "path": [
+        "Earthwork, foundations and concrete mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OVOVF4",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Soil-stabilization test section",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BE55PL",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Compaction test strip",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1BQOK3B",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Controlled low-strength material trial",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0N1IPAV",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Drilled-pier or pile installation demonstration",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OBKWNL",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Ground-improvement test section",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06NUOVZ",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Concrete trial batch",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PQKSN1",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Concrete finish mockup",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1S9GDJB",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Architectural concrete mockup",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I19Y9VWE",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Form-liner mockup",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OJWCK6",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Exposed aggregate mockup",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00QKG64",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Colored concrete mockup",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0514B3U",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Polished concrete mockup",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I033FS9J",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Concrete repair mockup",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I022WE8O",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Shotcrete qualification panel",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1Y7GERK",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Post-tensioning stressing demonstration",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I012ED3J",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Precast finish and joint mockup",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LJPQ1P",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Tilt-up finish mockup",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I19HSAUG",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Floor-flatness test placement",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I172QQW2",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Concrete coating and sealer mockup",
+          "source_line": 184
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Masonry and stone mockups",
+      "path": [
+        "Masonry and stone mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KDEOEY",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Brick masonry sample panel",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01GYDRC",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "CMU workmanship panel",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0DHH8B0",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Architectural CMU panel",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02GXMPJ",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Stone veneer mockup",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WWWV1Y",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Cast-stone mockup",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GNUNS9",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Mortar color and tooling sample",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03X5HD8",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Grout and joint sample",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0I9G8TO",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Bond-pattern sample",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01G7APY",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Masonry flashing and weep mockup",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PNMXEW",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Cavity-wall mockup",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1HXMAO5",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Shelf-angle and relief-angle mockup",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I149E7QY",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Masonry expansion-joint mockup",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CAIP7L",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Sealant joint mockup",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1G1VXAE",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Masonry cleaning trial",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15NMKFF",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Water-repellent application trial",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PPG4SN",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Masonry repair and repointing mockup",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12MM4P6",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Integrated masonry-envelope performance mockup",
+          "source_line": 204
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Structural steel, metals and fireproofing mockups",
+      "path": [
+        "Structural steel, metals and fireproofing mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TWLXBX",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Structural steel connection mockup",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0B5THGN",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Architecturally exposed structural steel mockup",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OWGTJR",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Welding workmanship sample",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1M7AYG0",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Bolted-connection demonstration",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1YXM7ET",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Metal-deck attachment mockup",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UGR12I",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Miscellaneous-metal finish mockup",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06XXELH",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Stair and railing mockup",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18RFTD6",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Guard and handrail mockup",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0L97U1S",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Ornamental-metal mockup",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I035TQRK",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Galvanizing repair mockup",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HOTOOI",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Coating and paint system mockup",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0MI3B67",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Sprayed fireproofing mockup",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LE6GL9",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Intumescent coating mockup",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IFC2JO",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Fireproofing repair mockup",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QGF8U2",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Firestop penetration mockup",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1EWBVPQ",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Fire-resistive joint mockup",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I09HBUN9",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Perimeter fire-containment mockup",
+          "source_line": 224
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Wood, mass timber and composites",
+      "path": [
+        "Wood, mass timber and composites"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KY947E",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Rough carpentry connection mockup",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1BFJYKL",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Wood framing and air-sealing mockup",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I143PA9Q",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Finish carpentry mockup",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WWNH65",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Wood veneer and stain mockup",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I13L52N6",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Millwork finish sample",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0X2HDW9",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Glulam connection mockup",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1BLSL3L",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Mass-timber connection mockup",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I072IY2W",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Mass-timber surface-repair mockup",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0P39ZVL",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Mass-timber fire-protection mockup",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1FXVLHW",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Wood preservative or coating mockup",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15S5Y7V",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Fiberglass-reinforced plastic mockup",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TCSMQE",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Composite panel mockup",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I08MMYEI",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Solid-surface seam mockup",
+          "source_line": 240
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Roofing and waterproofing mockups",
+      "path": [
+        "Roofing and waterproofing mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01EYPZS",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Below-grade waterproofing mockup",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OEU6UI",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Foundation transition mockup",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0U2BZV5",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Blindside waterproofing mockup",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1P4OZ3J",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Plaza waterproofing mockup",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IZ6UFT",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Balcony waterproofing mockup",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0DKMS2P",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Traffic-coating mockup",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1V5BKIT",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Shower waterproofing mockup",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UD9A19",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Pool waterproofing mockup",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PHO0LL",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Roofing system mockup",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UE6U28",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Roof edge and coping mockup",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PDBTIG",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Roof penetration and curb mockup",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NSJSK9",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Roof drain and overflow mockup",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1W3WRZE",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Expansion-joint mockup",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GGTME0",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Green-roof mockup",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I120ZW0W",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Electronic leak-detection trial",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LA07HT",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Flood-test mockup",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14S14HC",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Membrane repair mockup",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KZON9B",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Manufacturer warranty mockup",
+          "source_line": 261
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Exterior envelope performance mockups",
+      "path": [
+        "Exterior envelope performance mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0R7Y8JM",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Full-scale exterior wall mockup",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0FD74V3",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Laboratory performance mockup",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PVTRFI",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Field performance mockup",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TK5XH1",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Curtain-wall mockup",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IH11R2",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Storefront mockup",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PUZC6S",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Window installation mockup",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CT23VU",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Exterior door mockup",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I11C0WJV",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Skylight mockup",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H1PIF9",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Louver mockup",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18O7AWM",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Air-barrier mockup",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OESRB0",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Vapor-retarder mockup",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1XLPSC4",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Continuous-insulation mockup",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LR0ONW",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Sheathing and weather-barrier mockup",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I187IARP",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Cladding attachment mockup",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1XXDVNU",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Precast facade mockup",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1VU4D1S",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "GFRC mockup",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GJNYPG",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Metal-panel mockup",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PLGQJG",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Composite-panel mockup",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0R5MS8N",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Terracotta mockup",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LUWQ05",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Fiber-cement mockup",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17ZPJ75",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "EIFS mockup",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BOCOAP",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Stucco mockup",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YEVZ2G",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Masonry veneer mockup",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06LLIHA",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Stone veneer mockup",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GZT23L",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Sealant and joint mockup",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WIYK9F",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Exterior soffit mockup",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TV4UX8",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Canopy and sunshade mockup",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I08ZC9PK",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Integrated roof-to-wall mockup",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ORNULY",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Integrated window-to-wall mockup",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YXFN2L",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Integrated base-of-wall mockup",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OP6LUW",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Integrated parapet mockup",
+          "source_line": 295
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Envelope mockup interfaces",
+      "path": [
+        "Envelope mockup interfaces"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1DWZBZM",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Foundation to wall",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15YH4HL",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Wall to roof",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06FWXO1",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Wall to curtain wall",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SNHKMN",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Wall to storefront",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ICO5JZ",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Wall to window",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NGERXN",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Wall to exterior door",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I19THFWW",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Cladding to air barrier",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NSL3JX",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Air barrier to waterproofing",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GUJBYE",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Air barrier to roofing",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CKR1OG",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Air barrier at floor line",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1Q3ZLYF",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Air barrier at shelf angle",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NRYEPD",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Air barrier at expansion joint",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1MKMQD7",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Window head, jamb and sill",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1V4K1YR",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Door threshold",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0B6SBHA",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Louver perimeter",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14AM9FD",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Canopy penetration",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0DF5XX1",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Balcony penetration",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UTXUR2",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Pipe and duct penetration",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1BYDCPJ",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Electrical penetration",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12U46Z5",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Structural anchor penetration",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I05ERL94",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Parapet and coping",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I07M1IHW",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Roof curb and equipment support",
+          "source_line": 320
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Envelope testing activities",
+      "path": [
+        "Envelope testing activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1G40DC9",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Approve testing protocol",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I169ZE83",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Calibrate equipment",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1B0VO89",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Pretest visual inspection",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OIUSSO",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Structural-load test",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GHRR6A",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Static air-infiltration test",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0V4CYJ5",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Static water-penetration test",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0TWD6S0",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Dynamic water-penetration test",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LR14DE",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Hose-nozzle test",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I11KZHM4",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Chamber test",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I05NIKC2",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Thermal-cycle test",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0G5E2OT",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Condensation-resistance test",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BBM7HU",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Interstory drift test",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LN1XCI",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Seismic movement test",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1K4HHYG",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Impact test",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RFNV12",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Anchor pullout test",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CR2L9P",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Sealant adhesion test",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ROL5TW",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Whole-assembly leakage investigation",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RALMS0",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Document failure location",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I11292DB",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Repair and retest",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PW5NGL",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Approve successful test report",
+          "source_line": 343
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Interior partition and ceiling mockups",
+      "path": [
+        "Interior partition and ceiling mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GXNQ2Q",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Metal-stud framing mockup",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1YMB827",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Gypsum-board layer and fastening mockup",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1E1DFV1",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Shaft-wall mockup",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0V6Z9W4",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Rated wall and head-of-wall mockup",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12GB0GR",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Fireblocking and draftstopping mockup",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KR86PV",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Acoustic partition mockup",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1YFND9H",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Lead-lined or shielding wall mockup",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14HAUJB",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Access-panel mockup",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1DK0B3G",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Interior glazing mockup",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SD089W",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Demountable partition mockup",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18VWAYU",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Operable partition mockup",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GKF0V3",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Ceiling grid mockup",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12RT7PJ",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Specialty ceiling mockup",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0Q9TUUY",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Wood ceiling mockup",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I057A7DI",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Metal ceiling mockup",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I16UWPB7",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Acoustic baffle and cloud mockup",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1U48N5L",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Ceiling seismic-bracing mockup",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0I51RO6",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Integrated ceiling mockup",
+          "source_line": 364
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Interior finish mockups",
+      "path": [
+        "Interior finish mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RUVGHL",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Plaster finish mockup",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04AOCYW",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Decorative plaster mockup",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KEB2JJ",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Tile layout and grout mockup",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ISY5KG",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Stone flooring mockup",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0A92ELM",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Terrazzo mockup",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1DRCEEI",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Resilient flooring mockup",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I11PR3DB",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Carpet seam and pattern mockup",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0DQFTW8",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Wood flooring mockup",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H93MEP",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Athletic flooring mockup",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0K162RM",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Raised-floor mockup",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H5PLV1",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Floor-moisture mitigation mockup",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OXQHTZ",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Floor leveling mockup",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0XJBNMM",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Paint color and sheen mockup",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0O68CUD",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "High-performance coating mockup",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TB7P9P",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Wall-covering mockup",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IMFFBF",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Wall-protection mockup",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LXJ6UV",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Decorative panel mockup",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ZMOJ50",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Acoustic panel mockup",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I09Y6WAQ",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Expansion-joint cover mockup",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1MW5J6J",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Entrance mat and grille mockup",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KGCYAH",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Finish transition mockup",
+          "source_line": 388
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Doors, frames, hardware and glazing mockups",
+      "path": [
+        "Doors, frames, hardware and glazing mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KMYENF",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Hollow-metal door and frame mockup",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12Z4REJ",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Wood door and frame mockup",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HYLSF2",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Aluminum entrance mockup",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NZ6WOR",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Fire-door assembly mockup",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SUCILU",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Smoke-door assembly mockup",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I048WJOO",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Acoustical door mockup",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15HK9O4",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Security door mockup",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IKOF04",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Detention door mockup",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00U49MF",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Automatic door mockup",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1X0FBO4",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Revolving door mockup",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OAK8UM",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Overhead door mockup",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I11TMQC7",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Hardware mounting mockup",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WG7F7Y",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Electrified hardware mockup",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TPG4MO",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Access-control door mockup",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0TMTG1J",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Keying demonstration",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01X4TQY",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Fire-alarm release interface mockup",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1BSOBNR",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Interior glass and glazing mockup",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14QXV8D",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Fire-rated glazing mockup",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I098HV1A",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Decorative glass mockup",
+          "source_line": 410
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Casework, millwork, specialties and furnishings",
+      "path": [
+        "Casework, millwork, specialties and furnishings"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WA4UH7",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Casework shop assembly",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PHLUHF",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Millwork workmanship mockup",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1YAJ5IZ",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Cabinet door and drawer mockup",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BGOKSW",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Countertop seam and edge mockup",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I155E982",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Solid-surface mockup",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17XYRF9",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Stone countertop mockup",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KKVD0N",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Laboratory casework mockup",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I10EH27B",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Reception desk mockup",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18KAOH0",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Toilet partition mockup",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PE6F4B",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Toilet accessory mounting mockup",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1EQ2B9F",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Grab-bar anchorage mockup",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0J22FC1",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Locker mockup",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OK0O2D",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Signage and Braille mockup",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03UTGGH",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Fire-extinguisher cabinet mockup",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GNHGHS",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Cubicle-track mockup",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NKLGJI",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Window-treatment mockup",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CY5CH6",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Furniture workstation mockup",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I05IEL88",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Built-in seating mockup",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HKV4E0",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Artwork mounting mockup",
+          "source_line": 432
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Plumbing and mechanical mockups",
+      "path": [
+        "Plumbing and mechanical mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1XZX5IR",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Plumbing wall rough-in mockup",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KDIF85",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Plumbing fixture carrier mockup",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12EADSA",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Bathroom plumbing mockup",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0TBIP8T",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Patient-room headwall mockup",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I07RTRJC",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Medical-gas rough-in mockup",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CI847U",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Pipe insulation mockup",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1AAXYER",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Equipment piping connection mockup",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I16YA91X",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Pump and valve arrangement mockup",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1FVJ3HL",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Mechanical room piping mockup",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UICN6X",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Prefabricated plumbing rack mockup",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0DDZN7N",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Ductwork fabrication mockup",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1EIC8J3",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Duct sealing mockup",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00K41N6",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Duct insulation mockup",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I055Z9KH",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Mechanical insulation mockup",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SMON9Y",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Pipe labeling mockup",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YCAV8Z",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Equipment housekeeping-pad mockup",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1MG21I1",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Vibration-isolation mockup",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H34QXU",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Seismic-restraint mockup",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1QRYCG1",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Controls sensor and device installation mockup",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1AKIP6N",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Access and service-clearance mockup",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QDPT9T",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Prefabricated MEP rack mockup",
+          "source_line": 456
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Electrical, technology and security mockups",
+      "path": [
+        "Electrical, technology and security mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06MABXI",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Electrical room layout mockup",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QBV9JR",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Panel and equipment mounting mockup",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0I2F9IR",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Conduit installation mockup",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WNI5JW",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Exposed conduit workmanship mockup",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PKFEZH",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Cable-tray installation mockup",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LQ957S",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Grounding and bonding mockup",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CIUHHI",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Lighting fixture mockup",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02DYCL8",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Architectural lighting scene mockup",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IIT151",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Lighting-control mockup",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TVRX15",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Device layout mockup",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1XWB1O4",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Generator connection mockup",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1QUSXU4",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Telecom room rack mockup",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0XLX1T5",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Structured-cabling mockup",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GRR7MM",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Wi-Fi equipment mounting mockup",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UEQQH2",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Audiovisual room mockup",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QNP7TB",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Display and speaker mockup",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CTL7UJ",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Access-control mockup",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0F41IDS",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Camera coverage mockup",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1I3AMYZ",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Security command-station mockup",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BYNVLC",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Nurse-call room mockup",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WBCO9W",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Public-safety radio installation mockup",
+          "source_line": 480
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Fire and life-safety mockups",
+      "path": [
+        "Fire and life-safety mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1BTBZGG",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Sprinkler head layout mockup",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06X11KC",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Concealed sprinkler mockup",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UAJHUW",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Standpipe cabinet mockup",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NWU1IV",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Fire-pump arrangement mockup",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YVU272",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Fire-alarm device layout mockup",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1Q96Q6I",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Notification appliance mockup",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HRPXCQ",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Voice intelligibility test room",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0EN0XV2",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Smoke-control interface mockup",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WTT3XL",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Fire and smoke damper access mockup",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1AF4XNO",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Firestop installation mockup",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ZXQFR9",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Fire-resistive joint mockup",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UMZR9T",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Perimeter containment mockup",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15MTZ6O",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Clean-agent release-sequence mockup",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0XTJ5QP",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Kitchen suppression mockup",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18CXPJG",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Emergency responder radio mockup",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04LIUMD",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Integrated life-safety sequence demonstration",
+          "source_line": 499
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Elevators and conveying systems",
+      "path": [
+        "Elevators and conveying systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H453IX",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Elevator cab finish mockup",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VZ0J0O",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Elevator entrance mockup",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1O2Z9A7",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Elevator fixture mockup",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OCCUY7",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Hall station and indicator mockup",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LD853I",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Elevator control interface mockup",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0SHHX23",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Escalator finish mockup",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04434PD",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Platform-lift mockup",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I081DTYF",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Material-lift mockup",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0X6E45C",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Dumbwaiter mockup",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VQB45O",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Conveyor interface mockup",
+          "source_line": 512
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Full-room and project-type mockups",
+      "path": [
+        "Full-room and project-type mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1A0FRPO",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Hotel guest-room mockup",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0AO90XY",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Hotel bathroom mockup",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QDV3K2",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Apartment unit mockup",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1C3F7NU",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Residential kitchen mockup",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GYA2TA",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Resident bathroom mockup",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WH64VB",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Patient-room mockup",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1EGC9ED",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Operating-room mockup",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CHS21Z",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Examination-room mockup",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15BB8FG",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Pharmacy room mockup",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0V0TLXM",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Cleanroom mockup",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14SROLG",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Laboratory room mockup",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1D9SZF1",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Classroom mockup",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HMNLI8",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Dormitory room mockup",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I063UTP2",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Office mockup",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GNYKXU",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Conference-room mockup",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17M66CJ",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Retail bay mockup",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00C8FEW",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Restaurant dining mockup",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1329SGC",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Commercial kitchen mockup",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SKHVWW",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Data-center white-space mockup",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0JRWHSU",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Detention cell mockup",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0E8AGQN",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Accessible room mockup",
+          "source_line": 536
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Sample room coordination",
+      "path": [
+        "Sample room coordination"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0098MWJ",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Establish sample-room design freeze",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12P5OQT",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Confirm room type and options",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I08CDX6D",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Complete BIM coordination",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01RX3CT",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Release mockup submittals",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PTSJ4B",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Release long-lead materials",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GB5Q15",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Complete rough-in",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01JJHBQ",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Complete in-wall inspection",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0V4YPAP",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Close walls and ceilings",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TSBEZN",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Install finishes",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SVC9NC",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Install doors and hardware",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I16B9R3K",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Install casework and specialties",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WR92IV",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Install fixtures and equipment",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ILWX3H",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Install lighting and controls",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KT0S8V",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Install technology and security",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GX01W9",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Install furniture, fixtures and equipment",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0DOEHXC",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Complete testing and balancing",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0V7RUO2",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Complete controls and functional testing",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1B6MDIE",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Complete accessibility review",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LZZGVB",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Complete owner operations review",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I16589BB",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Complete architect and designer review",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I167WULX",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Correct punch items",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1PNPBF6",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Obtain final written approval",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IIN924",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Record approved benchmark",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GDS995",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Release production rooms",
+          "source_line": 563
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Digital and virtual mockups",
+      "path": [
+        "Digital and virtual mockups"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I04VZ4TD",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "BIM design review",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0AEW6R8",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Virtual-reality room review",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QMKMYY",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Augmented-reality layout review",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1T99JN2",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Digital finish board",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RP16E0",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Digital lighting simulation",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03BO9WI",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Daylight simulation",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KRCOCT",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Acoustic simulation",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0XDIY08",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Energy simulation",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0B20DFV",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Computational-fluid-dynamics review",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14PYO51",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Human-factors and operational simulation",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0JSA9DV",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Equipment-access simulation",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1165FR2",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Maintenance-clearance simulation",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1276B3E",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Accessibility simulation",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1DO1GML",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Construction sequencing simulation",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1W0ECPT",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "4D logistics mockup",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1X4BZNX",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Digital twin prototype",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0E7IJBO",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Owner workflow simulation",
+          "source_line": 583
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "First-work-in-place benchmarks",
+      "path": [
+        "First-work-in-place benchmarks"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I154QAIO",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Identify first installation area",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ARFYBO",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Confirm approved submittals and samples",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1FJBMUO",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Hold pre-installation conference",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0GEU9AN",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Install limited first work",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0FMMUUJ",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Conduct contractor quality review",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1MWIXTX",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Conduct design-team and owner review",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NRKK2O",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Correct deficiencies",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WULVWG",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Obtain benchmark approval",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0M1DL63",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Photograph and document",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CWSNAH",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Train crews to benchmark",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CIO7TM",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Release repetitive production",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1JQB1M7",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Conduct periodic benchmark comparisons",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02LT5OK",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Protect benchmark until final acceptance",
+          "source_line": 601
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Mockup review criteria",
+      "path": [
+        "Mockup review criteria"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I09GAQTP",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Dimensions and tolerances",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KN80IL",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Layout and alignment",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I190FPJD",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Color, sheen, texture and pattern",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0C6680Y",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Material compatibility",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I126K7JT",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Joint size and tooling",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0W9U34K",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Fasteners and attachment",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ABH4FT",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Anchorage and structural performance",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IA7JBJ",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Drainage and water management",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0JSBHV4",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Air and vapor continuity",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0T1BHR0",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Thermal continuity",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0P7A4NP",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Fire and smoke performance",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CFF2TE",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Acoustic performance",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SUUEJL",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Accessibility",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VR9PLT",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Safety and maintainability",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I102QL7W",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Cleaning and repairability",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1DAL02H",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Equipment access",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1VG0M0B",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Coordination with adjacent work",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TIU3IG",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Installation sequence",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1QX6G5O",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Workmanship",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ODAUH2",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Visual acceptance",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I07AKLRV",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Functional operation",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0C49PMT",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Code compliance",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00P1AFK",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Manufacturer and warranty compliance",
+          "source_line": 627
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Deficiency and retest workflow",
+      "path": [
+        "Deficiency and retest workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1TJL1A2",
+          "sequence": 538,
+          "type": "numbered",
+          "text": "Record deficiency and test data",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NAL1HY",
+          "sequence": 539,
+          "type": "numbered",
+          "text": "Identify root cause",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LIMQRM",
+          "sequence": 540,
+          "type": "numbered",
+          "text": "Determine repair or reconstruction scope",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1LV918X",
+          "sequence": 541,
+          "type": "numbered",
+          "text": "Obtain repair procedure approval",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03VHAH1",
+          "sequence": 542,
+          "type": "numbered",
+          "text": "Complete corrective work",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GKTDO2",
+          "sequence": 543,
+          "type": "numbered",
+          "text": "Allow required cure or conditioning",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0K24BU9",
+          "sequence": 544,
+          "type": "numbered",
+          "text": "Conduct contractor pretest",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ZVDI0B",
+          "sequence": 545,
+          "type": "numbered",
+          "text": "Repeat failed test",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I13KN9LT",
+          "sequence": 546,
+          "type": "numbered",
+          "text": "Confirm collateral systems remain compliant",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0CI4HFW",
+          "sequence": 547,
+          "type": "numbered",
+          "text": "Issue final test report",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I18T8GG0",
+          "sequence": 548,
+          "type": "numbered",
+          "text": "Obtain written approval",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1KVQSGC",
+          "sequence": 549,
+          "type": "numbered",
+          "text": "Update production details and training",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0MU7YJP",
+          "sequence": 550,
+          "type": "numbered",
+          "text": "Release affected work",
+          "source_line": 643
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Mockup preservation and benchmark control",
+      "path": [
+        "Mockup preservation and benchmark control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ZY06AX",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Protect from weather and construction damage",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WRZSUQ",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Restrict unauthorized modifications",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I054XLTO",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Post benchmark identification",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1JPEGCT",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Maintain lighting for finish comparison",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0OMVKIU",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Preserve approved samples with mockup",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0O2JVL0",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Record product, batch, lot and color data",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I13TMBGA",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Record installers and installation date",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1J21QHD",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Photograph all faces and interfaces",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0L36SR7",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Retain test reports and signoffs",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0R0SSMP",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Inspect benchmark periodically",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I020V2CK",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Repair damage only with approval",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1786WVJ",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Notify all trades before removal",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1RSP3YK",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Preserve until related work is accepted",
+          "source_line": 659
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Removal and restoration",
+      "path": [
+        "Removal and restoration"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GBMVTV",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Confirm written authorization to remove",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UEFXXU",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Document final condition",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1IHNEXV",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Salvage reusable materials when required",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17C66NB",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Disconnect temporary utilities",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H94LVA",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Remove testing equipment",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02UNMBI",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Demolish mockup safely",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HB8M8Z",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Dispose or recycle materials",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0U8KXLS",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Restore laboratory or off-site location",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SGSX0W",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Restore project site",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12H9TJT",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Close temporary penetrations",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1XB2PU3",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Remove foundations and anchors",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I01X3LBD",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Complete final inspection",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I02JRH4O",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Close rental and permit items",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SKUI1I",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Archive final records",
+          "source_line": 676
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1FY82NQ",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Design information → mockup plan",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0JKHPPI",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Mockup plan → submittal approval",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1RNEAX4",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Approval → mockup procurement",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1B74RYE",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Procurement → mockup construction",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1R5NIMQ",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Construction → cure or conditioning",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GIUEXL",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Cure → visual review",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IH3026",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Visual review → performance testing",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00JNJ99",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Failed test → correction and retest",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BCP7GV",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Final approval → production release",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0JK61SO",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Production installation → benchmark comparisons",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0AACH2A",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Related work acceptance → mockup removal",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06CMDCR",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Removal → site restoration",
+          "source_line": 691
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Common hold points",
+      "path": [
+        "Common hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0LNGU4F",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "No mockup construction before approved plan and materials",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06FZKZN",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "No concealed work before required documentation or inspection",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03565O4",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "No performance test before required cure or conditioning",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I16X0Y9R",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "No production release before written mockup approval",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I14ZW2EJ",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "No unapproved material or detail changes after benchmark approval",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1N3NCKM",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "No mockup removal before related work is accepted",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0631SNA",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "No substitution of digital review for required physical testing",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0H1ASAZ",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "No failed mockup incorporated into permanent work without approved correction",
+          "source_line": 702
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0C7X8V6",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Identified",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UFJKGI",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Planning",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1A65GDN",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Design in progress",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I00F9WY1",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Submittal preparation",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I17KCNND",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Under review",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1C5733K",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Approved to construct",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0BAXN83",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Procurement",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PQMQOT",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Location preparation",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1CSHEP0",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Under construction",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0WWQUYQ",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Cure or conditioning",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KRGQ4G",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Contractor review",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I15QLJAW",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Formal review",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I069IFUA",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Testing scheduled",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1WDSD5L",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Testing",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0IJ1UHY",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Failed",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I179J8SH",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Correction in progress",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1OBRLSD",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Retest scheduled",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KMKWVW",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RF7AF8",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Approved as noted",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1T5UQ7C",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Benchmark active",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0NUX7TJ",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Production released",
+          "source_line": 726
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0PIPTF6",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Removal authorized",
+          "source_line": 727
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1GA8GAX",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Removed",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I130K7IW",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Restoration complete",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1Q8LLV3",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0KF1R5G",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Canceled",
+          "source_line": 731
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "SSX mockup classifications",
+      "path": [
+        "SSX mockup classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I09BYXQ1",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Visual",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1UNR4B2",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Workmanship",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I12V6V6T",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Performance",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1QEVULC",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Laboratory",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1VQDQNB",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Field",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I199N06Z",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Freestanding",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I03ML6V9",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "In place",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I08NJFXQ",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "First work",
+          "source_line": 742
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HSTSN9",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Sample panel",
+          "source_line": 743
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0L6YSEX",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Prototype",
+          "source_line": 744
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0Z6GNS3",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "First article",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0QSFHZJ",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Full room",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0F70D5C",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Integrated assembly",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I06JHIZ7",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Digital or virtual",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0M1LK8Z",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Destructive",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0TDS453",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Training",
+          "source_line": 750
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1QJHX87",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Owner approval",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0UT3LUM",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Design-team approval",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0FGUNM5",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "AHJ approval",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0MNU9UF",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Manufacturer or warranty",
+          "source_line": 754
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOCKUPS-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1YDYU19",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Schedule mockups early enough to influence production work.",
+          "source_line": 758
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0VOVU6Q",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Tie owner selections and submittals to mockup procurement.",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1SSW9B6",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Separate construction, cure, review, testing, correction and approval.",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1AB770R",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "Link final approval directly to fabrication or installation release.",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0RDLBPC",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "Include realistic retest contingency for performance mockups.",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1ALLELW",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "Track mockups by system, location and acceptance authority.",
+          "source_line": 763
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0ZH21E7",
+          "sequence": 650,
+          "type": "bullet",
+          "text": "Record the precise approved materials, details and workmanship.",
+          "source_line": 764
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I1NAI4HL",
+          "sequence": 651,
+          "type": "bullet",
+          "text": "Preserve approved benchmarks until related work is accepted.",
+          "source_line": 765
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0HTDB01",
+          "sequence": 652,
+          "type": "bullet",
+          "text": "Apply lessons from mockup failures to production documents and crews.",
+          "source_line": 766
+        },
+        {
+          "item_id": "SSX-SUP-MOCKUPS-I0YY2OQA",
+          "sequence": 653,
+          "type": "bullet",
+          "text": "Do not allow production to outrun required mockup approval.",
+          "source_line": 767
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1611 @@
+{
+  "department_id": "SSX-SUP-TRAINING",
+  "slug": "training",
+  "title": "Training",
+  "document_title": "SSX Master Construction Training Requirements",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/training/MASTER_TRAINING_REQUIREMENTS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 25,
+    "items": 189
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-TRAINING-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "General Orientation",
+      "path": [
+        "General Orientation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I10W9O8X",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "site/new hire/visitor/delivery orientation",
+          "source_line": 9
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I158EFEH",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "project rules",
+          "source_line": 10
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I13MXO8A",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "access and badging",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0YZK7L8",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "PPE",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0RJCXJ7",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "emergency plan/alarms/muster",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0Z21L6Z",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "fire prevention",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0WIGVCR",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "reporting/stop work",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0IH8LE7",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "JHA/pre-task planning",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I165UBQA",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "housekeeping",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0EGG9D6",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "traffic",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I14CPD1R",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "weather",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0JLDZ2B",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "occupied building",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0YDIU8V",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "infection control and owner requirements",
+          "source_line": 21
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "OSHA and Leadership",
+      "path": [
+        "OSHA and Leadership"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1NDJPII",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "OSHA 10",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0KIX1EG",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "OSHA 30",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0906H6L",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "OSHA 500/502 trainer",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0PGC4MB",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "OSHA 510",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0CFR105",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "superintendent/project manager/foreman leadership",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0NMOQ7T",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "competent/qualified person fundamentals",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0KBBEXI",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "multiemployer worksite",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0A9Z1BC",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "recordkeeping and inspection response",
+          "source_line": 32
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Recurring Training",
+      "path": [
+        "Recurring Training"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1FEZMLC",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "daily pre-task/JHA/stretch",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I05EK198",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "weekly toolbox talk/foreman meeting",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0FL7BP3",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "monthly/quarterly/annual refresher",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1XIVZJ4",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "lessons learned",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0E13EGT",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "post-incident/violation/change/new-equipment retraining and safety stand-down",
+          "source_line": 40
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Forklifts and Powered Industrial Trucks",
+      "path": [
+        "Forklifts and Powered Industrial Trucks"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1HA07CG",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "forklift",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0FA1VHN",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "rough-terrain forklift",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0CQBYMJ",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "telehandler",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1MGGWH7",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "reach truck",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0ISZAU4",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "pallet truck",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1B4VAGF",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "order picker",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0ETTSBL",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "attachments/platform",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I17YDI9P",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "load/stability/pedestrian/refueling/battery",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0N64A8O",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "hands-on evaluation and refresher",
+          "source_line": 52
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Heavy Equipment",
+      "path": [
+        "Heavy Equipment"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I0F7628P",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "excavator",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I05RGP0X",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "backhoe",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1WZXJT2",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "dozer",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0L3KN0V",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "loader",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1YWWFEE",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "skid steer",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1HNPO8R",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "grader",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1CE0ZJM",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "scraper",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0VZ33LL",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "trencher",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1NHXFNK",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "compactor",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0UMAG64",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "roller",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0LEDGCR",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "dump/water/concrete truck",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0GTEVWO",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "vacuum/hydro excavation",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1X2JBQX",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "directional drill",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0OII7I8",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "pile/drill rig",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I06I3ZX9",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "spotter/backing",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1EH186K",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "lockout and manufacturer familiarization",
+          "source_line": 71
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Aerial Lifts and MEWPs",
+      "path": [
+        "Aerial Lifts and MEWPs"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1XLRXKH",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "boom",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0SA25SM",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "articulating/telescopic boom",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I14TWE8O",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "scissor",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I07O2FHT",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "mast/personnel lift",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0DE5C9N",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "operator/supervisor/occupant/familiarization",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0IT9716",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "fall protection",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0SULEGS",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "rescue/emergency lowering",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I07ZMCRS",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "inspection",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0F09VLC",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "power lines",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0MKVWEA",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "stability and wind",
+          "source_line": 84
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Cranes, Rigging and Hoists",
+      "path": [
+        "Cranes, Rigging and Hoists"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I16DHIOR",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "mobile/tower/overhead/carry-deck/articulating/boom truck operator",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1JY3Y7G",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "employer evaluation",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0ORZEU1",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "assembly director",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0GVHZRG",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "inspector",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0NS4YXM",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "lift director",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1YQGT2O",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "critical/personnel/multiple crane lift",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1U5MYVW",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "signal person",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1ERX1WU",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "spotter",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I13D40E0",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "basic/intermediate/advanced rigger",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0PMMLGA",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "material/personnel hoist",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I02XG5BS",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "chain/lever hoist and winch",
+          "source_line": 98
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Fall Protection",
+      "path": [
+        "Fall Protection"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I04G79WS",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "hazard recognition",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0IWJ455",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "harness/lanyard/SRL/lifeline/rope grab/anchor",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0RJBBGG",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "leading edge",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0UWBCLN",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "warning/controlled zones",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I187MBKF",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "guardrail/opening/skylight",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0GAA94A",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "scaffold/steel/roof/formwork",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1JHONXV",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "dropped objects",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0JRZCYM",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "competent/qualified person and rescue",
+          "source_line": 109
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Ladders and Scaffolds",
+      "path": [
+        "Ladders and Scaffolds"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1HEV4DO",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "portable/extension/step/platform/fixed/job-made ladder selection/inspection/setup; scaffold user",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1QUD9XH",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "supported/suspended/swing/mobile/mast/pump-jack",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I14RZKNA",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "erector/dismantler",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1FU1H3K",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "competent person",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I08LOO4L",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "inspector",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1TOEYFX",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "tags",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1GX54GM",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "loading and rescue",
+          "source_line": 119
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Excavation and Trenching",
+      "path": [
+        "Excavation and Trenching"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I18ANWUL",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "hazard awareness",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I00UWK4S",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "competent person",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0158ZI9",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "soil classification",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I042GJWP",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "protective systems",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1X8O0OW",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "sloping/shoring/shields",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1SOENXV",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "inspections",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1B0HFT0",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "utility locate/dig permit",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0BNZIPU",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "access",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I17EUKWX",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "water/atmosphere/adjacent structures and trench rescue",
+          "source_line": 131
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Confined Space",
+      "path": [
+        "Confined Space"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1DYCYI4",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "awareness",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I09TPNCK",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "permit program",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0L73F4F",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "entrant",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0KM6H1G",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "attendant",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1KY8P9T",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "entry supervisor",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I114V3BQ",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "atmospheric monitor",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1VIRIRI",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "ventilation/isolation/LOTO",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I007TQQY",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "communications",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0X76IE1",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "retrieval",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1C399XU",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "rescue team/technician",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I054KFXE",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "competent person and hot work",
+          "source_line": 145
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Electrical and LOTO",
+      "path": [
+        "Electrical and LOTO"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I046RZ0E",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "qualified/unqualified electrical",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1SE1DJM",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "energized work",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1IR2CFN",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "arc flash/shock/boundaries/PPE/test instruments",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I13YLDAA",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "temporary power/GFCI/grounding",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1X56S0J",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "overhead/underground lines",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0F8Z4DG",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "switching/medium voltage/energization",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I19ROGQR",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "batteries/PV/generators/NFPA 70E; authorized/affected/group/equipment-specific LOTO and zero energy",
+          "source_line": 155
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Hot Work and Fire",
+      "path": [
+        "Hot Work and Fire"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I0HE5J2I",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "hot-work permit",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1OI2PMR",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "fire watch",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1XQ0M1X",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "welding/cutting/brazing/torch/cylinders/fume/confined-space/roofing",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I03APIZF",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "extinguisher",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1NEDMFM",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "fire plan/drills",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I16EI4PY",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "flammable/LPG/fuel",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1318MGC",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "temporary heat and impairment",
+          "source_line": 165
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Respiratory, Silica and Health",
+      "path": [
+        "Respiratory, Silica and Health"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I0T0L5MT",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "respiratory program/medical/fit/seal/inspection/cleaning/cartridge/APR/PAPR/supplied air/SCBA",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0RRLIMF",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "silica awareness/competent person/Table 1/wet/HEPA/cutting/grinding/tuckpointing/blasting",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0KZ74YY",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "noise/hearing and heat/cold stress",
+          "source_line": 171
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Hazard Communication and Hazardous Materials",
+      "path": [
+        "Hazard Communication and Hazardous Materials"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1IYUDOO",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "HazCom/SDS/labels/inventory/segregation",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1CY2TDM",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "chemicals/flammables/corrosives/cylinders/cryogenic/spill/fuel/epoxy/isocyanate/battery/hazardous waste",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0BS1RZO",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "asbestos classes/competent person",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1BYNJSP",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "lead",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I05WSZWV",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "chromium",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I12NB323",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "mold",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I058O3EO",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "PCB",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0TVCSM9",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "contaminated soil",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0JM0YLF",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "HAZWOPER 24/40/refresher",
+          "source_line": 183
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "PPE and First Aid",
+      "path": [
+        "PPE and First Aid"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I0HHZNLM",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "PPE assessment",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I01UAHSY",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "head/eye/face/hearing/hand/visibility/foot/welding/arc/flotation/protective clothing; first aid",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I01DK1F0",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "CPR",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0KGKA5P",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "AED",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0X6VYCC",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "bloodborne pathogens",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0SCW112",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Stop the Bleed",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I13NS2K6",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "heat/cold/electrical/chemical response and naloxone where provided",
+          "source_line": 193
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Traffic and Material Handling",
+      "path": [
+        "Traffic and Material Handling"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1HZ5OQ7",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "traffic supervisor/technician/flagger/spotter/backing/internal plan/delivery/night/DOT/load securement/oversize; manual lifting/team lifting/stacking/floor loads/pipe/glass/sheet material/ergonomics",
+          "source_line": 197
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Trade-Specific",
+      "path": [
+        "Trade-Specific"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1H1HA1Z",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "demolition competent person/sequence/stability/dust",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I06IZOQF",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "steel connectors/decking/CDZ/rigging",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1U5PKC3",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "concrete formwork/shoring/pumps/rebar/PT/tilt-up",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I13UKF5M",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "masonry competent person/bracing",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I17459VT",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "roofing fall/hot asphalt/torch/rescue and hand/power/powder-actuated/abrasive/concrete/chain saw tools",
+          "source_line": 205
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Environmental",
+      "path": [
+        "Environmental"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1PJ3WRK",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "SWPPP awareness/inspector",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0YL2AMX",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "erosion and sediment control",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I17GPUG3",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "silt-fence install/inspection",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I02MSTH8",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "inlet protection",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0S1X8RC",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "dewatering/turbidity",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0PQDTDB",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "SPCC/spill",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0GTDFQ0",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "washout/fuel/waste/recycling/dust/wetland/species/tree/soil/noise and Florida erosion-control inspector qualification where applicable",
+          "source_line": 215
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Quality, Testing and Commissioning",
+      "path": [
+        "Quality, Testing and Commissioning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1IVOSIN",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "quality orientation",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0GPYZUV",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "inspection/test plans",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0SHDS5G",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "nonconformance",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1UCOTCO",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "mockups",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0VETAKU",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "receipt inspection",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1U7NC8H",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "concrete/soil/welding/bolting/fireproofing/firestop/air barrier/roof qualifications",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I11DQZ85",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "pressure/hydro/pneumatic test safety",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1RQK9J0",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "calibration",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I10RLS3D",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "startup",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1JN3HWK",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "commissioning and documentation",
+          "source_line": 228
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "MEP and Life Safety",
+      "path": [
+        "MEP and Life Safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1QME8RI",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "fire alarm/sprinkler/pump/standpipe/clean agent/smoke control/integrated testing",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1AHDHGM",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "backflow/medical gas/brazer/verifier",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1P0XDOO",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "boiler/chiller/refrigerant EPA 608/ammonia/TAB/BAS/generator/electrical test/water treatment/Legionella and owner system training",
+          "source_line": 234
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Specialty Projects and Rescue",
+      "path": [
+        "Specialty Projects and Rescue"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I04Z4JAF",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "healthcare ICRA/ILSM",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I090ZFUB",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "cleanroom/lab/radiation/MRI/laser/data center/rail/work-over-water/marine/diving/rope/blasting/helicopter/drone/airport/secure facility; fall/confined/trench/high-angle/scaffold/crane/lift/water/electrical/chemical rescue and drills",
+          "source_line": 239
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Administration",
+      "path": [
+        "Administration"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1BKSCNV",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "training records",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I00GRQRI",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "certification/expiration tracking",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1S7ZTEG",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "competent/qualified designation",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1GBNCBF",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "inspections/toolbox/JHA/permit/corrective action/incident/root cause/OSHA records/exposure and medical confidentiality/SDS/digital platform/owner reporting",
+          "source_line": 246
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Training classifications",
+      "path": [
+        "Training classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TRAINING-I1IWVV3F",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Awareness",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I046SA6H",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "User",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1U3RUH2",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Operator",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0KOQWB5",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Hands-on practical",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0S0JWGE",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Competent person",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0ZZW52P",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Qualified person",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0ZT5FXC",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Certification",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0DQTM4P",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "License",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0AGWT1N",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Employer evaluation",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I16MGJAB",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Site orientation",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I08W1A22",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Manufacturer familiarization",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I17MMC32",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Refresher",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1INHLYH",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Toolbox talk",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1HX8UQU",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Emergency drill",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I01I3F7P",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Owner-required",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I1PUKCCZ",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Jurisdiction-required",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-TRAINING-I0LR06CU",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Train-the-trainer",
+          "source_line": 266
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TRAINING-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Required tracking",
+      "path": [
+        "Required tracking"
+      ],
+      "items": []
+    }
+  ]
+}

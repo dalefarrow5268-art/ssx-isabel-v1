@@ -1,0 +1,349 @@
+{
+  "schema_version": "1.0.0",
+  "catalog": "SSX Mason Forge Shared Fulfillment Inventory",
+  "generated_on": "2026-08-13",
+  "source_root": "cloudflare/scheduling/schedule-activity-planning",
+  "totals": {
+    "departments": 28,
+    "groups": 939,
+    "items": 16114
+  },
+  "departments": [
+    {
+      "department_id": "SSX-SUP-CHANGE-MANAGEMENT",
+      "slug": "change-management",
+      "title": "Change Management",
+      "document_title": "SSX Master Change Management Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/change-management/MASTER_CHANGE_MANAGEMENT_ACTIVITIES.md",
+      "counts": {
+        "groups": 28,
+        "items": 485
+      },
+      "file": "departments/change-management.json"
+    },
+    {
+      "department_id": "SSX-SUP-COST-AND-PAYMENT-CONTROLS",
+      "slug": "cost-and-payment-controls",
+      "title": "Cost And Payment Controls",
+      "document_title": "SSX Master Cost and Payment Control Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/cost-and-payment-controls/MASTER_COST_AND_PAYMENT_CONTROL_ACTIVITIES.md",
+      "counts": {
+        "groups": 37,
+        "items": 621
+      },
+      "file": "departments/cost-and-payment-controls.json"
+    },
+    {
+      "department_id": "SSX-SUP-DAILY-REPORTING-AND-DOCUMENTATION",
+      "slug": "daily-reporting-and-documentation",
+      "title": "Daily Reporting And Documentation",
+      "document_title": "SSX Master Daily Reporting and Project Documentation Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/daily-reporting-and-documentation/MASTER_DAILY_REPORTING_AND_DOCUMENTATION_ACTIVITIES.md",
+      "counts": {
+        "groups": 38,
+        "items": 649
+      },
+      "file": "departments/daily-reporting-and-documentation.json"
+    },
+    {
+      "department_id": "SSX-SUP-DELIVERIES",
+      "slug": "deliveries",
+      "title": "Deliveries",
+      "document_title": "SSX Master Construction Deliveries",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/deliveries/MASTER_DELIVERIES.md",
+      "counts": {
+        "groups": 32,
+        "items": 405
+      },
+      "file": "departments/deliveries.json"
+    },
+    {
+      "department_id": "SSX-SUP-DESIGN-AND-ENGINEERING",
+      "slug": "design-and-engineering",
+      "title": "Design And Engineering",
+      "document_title": "SSX Master Design and Engineering Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/design-and-engineering/MASTER_DESIGN_AND_ENGINEERING_ACTIVITIES.md",
+      "counts": {
+        "groups": 33,
+        "items": 650
+      },
+      "file": "departments/design-and-engineering.json"
+    },
+    {
+      "department_id": "SSX-SUP-HOLIDAY-CALENDARS",
+      "slug": "holiday-calendars",
+      "title": "Holiday Calendars",
+      "document_title": "SSX United States Holiday Calendars — 2026–2045",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/holiday-calendars/US_FEDERAL_HOLIDAYS_2026_2045.md",
+      "counts": {
+        "groups": 24,
+        "items": 266
+      },
+      "file": "departments/holiday-calendars.json"
+    },
+    {
+      "department_id": "SSX-SUP-INSPECTIONS",
+      "slug": "inspections",
+      "title": "Inspections",
+      "document_title": "SSX Master Construction Project Inspection List",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/inspections/MASTER_INSPECTIONS.md",
+      "counts": {
+        "groups": 33,
+        "items": 603
+      },
+      "file": "departments/inspections.json"
+    },
+    {
+      "department_id": "SSX-SUP-JURISDICTION-AND-AHJ",
+      "slug": "jurisdiction-and-ahj",
+      "title": "Jurisdiction And Ahj",
+      "document_title": "SSX Master Construction Jurisdiction and AHJ Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/jurisdiction-and-ahj/MASTER_JURISDICTION_AND_AHJ_ACTIVITIES.md",
+      "counts": {
+        "groups": 31,
+        "items": 638
+      },
+      "file": "departments/jurisdiction-and-ahj.json"
+    },
+    {
+      "department_id": "SSX-SUP-MEETINGS-AND-COORDINATION",
+      "slug": "meetings-and-coordination",
+      "title": "Meetings And Coordination",
+      "document_title": "SSX Master Construction Meetings and Coordination Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/meetings-and-coordination/MASTER_MEETINGS_AND_COORDINATION.md",
+      "counts": {
+        "groups": 38,
+        "items": 707
+      },
+      "file": "departments/meetings-and-coordination.json"
+    },
+    {
+      "department_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES",
+      "slug": "mobilization-and-temporary-facilities",
+      "title": "Mobilization And Temporary Facilities",
+      "document_title": "SSX Master Construction Mobilization and Temporary Facilities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/mobilization-and-temporary-facilities/MASTER_MOBILIZATION_AND_TEMPORARY_FACILITIES.md",
+      "counts": {
+        "groups": 31,
+        "items": 616
+      },
+      "file": "departments/mobilization-and-temporary-facilities.json"
+    },
+    {
+      "department_id": "SSX-SUP-MOCKUPS",
+      "slug": "mockups",
+      "title": "Mockups",
+      "document_title": "SSX Master Construction Mockups",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/mockups/MASTER_MOCKUPS.md",
+      "counts": {
+        "groups": 35,
+        "items": 653
+      },
+      "file": "departments/mockups.json"
+    },
+    {
+      "department_id": "SSX-SUP-OWNER-DECISIONS",
+      "slug": "owner-decisions",
+      "title": "Owner Decisions",
+      "document_title": "SSX Master Construction Owner Decisions",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/owner-decisions/MASTER_OWNER_DECISIONS.md",
+      "counts": {
+        "groups": 35,
+        "items": 713
+      },
+      "file": "departments/owner-decisions.json"
+    },
+    {
+      "department_id": "SSX-SUP-PERMITS-AND-LICENSES",
+      "slug": "permits-and-licenses",
+      "title": "Permits And Licenses",
+      "document_title": "SSX Master Construction Permits and Licenses",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/permits-and-licenses/MASTER_PERMITS_AND_LICENSES.md",
+      "counts": {
+        "groups": 31,
+        "items": 727
+      },
+      "file": "departments/permits-and-licenses.json"
+    },
+    {
+      "department_id": "SSX-SUP-PROCUREMENT-AND-LONG-LEAD",
+      "slug": "procurement-and-long-lead",
+      "title": "Procurement And Long Lead",
+      "document_title": "SSX Master Construction Procurement and Long-Lead Milestones",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/procurement-and-long-lead/MASTER_PROCUREMENT_AND_LONG_LEAD_MILESTONES.md",
+      "counts": {
+        "groups": 30,
+        "items": 566
+      },
+      "file": "departments/procurement-and-long-lead.json"
+    },
+    {
+      "department_id": "SSX-SUP-QUALITY-CONTROL",
+      "slug": "quality-control",
+      "title": "Quality Control",
+      "document_title": "SSX Master Construction Quality Control Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/quality-control/MASTER_QUALITY_CONTROL_ACTIVITIES.md",
+      "counts": {
+        "groups": 55,
+        "items": 859
+      },
+      "file": "departments/quality-control.json"
+    },
+    {
+      "department_id": "SSX-SUP-SAFETY",
+      "slug": "safety",
+      "title": "Safety",
+      "document_title": "SSX Master Construction Safety Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/safety/MASTER_SAFETY_ACTIVITIES.md",
+      "counts": {
+        "groups": 19,
+        "items": 189
+      },
+      "file": "departments/safety.json"
+    },
+    {
+      "department_id": "SSX-SUP-SCHEDULE-MANAGEMENT",
+      "slug": "schedule-management",
+      "title": "Schedule Management",
+      "document_title": "SSX Master Schedule Management Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/schedule-management/MASTER_SCHEDULE_MANAGEMENT_ACTIVITIES.md",
+      "counts": {
+        "groups": 39,
+        "items": 700
+      },
+      "file": "departments/schedule-management.json"
+    },
+    {
+      "department_id": "SSX-SUP-SECURITY-AND-SITE-ACCESS",
+      "slug": "security-and-site-access",
+      "title": "Security And Site Access",
+      "document_title": "SSX Master Security and Site Access Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/security-and-site-access/MASTER_SECURITY_AND_SITE_ACCESS_ACTIVITIES.md",
+      "counts": {
+        "groups": 35,
+        "items": 527
+      },
+      "file": "departments/security-and-site-access.json"
+    },
+    {
+      "department_id": "SSX-SUP-SITE-LOGISTICS-AND-MATERIAL-HANDLING",
+      "slug": "site-logistics-and-material-handling",
+      "title": "Site Logistics And Material Handling",
+      "document_title": "SSX Master Site Logistics and Material Handling Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/site-logistics-and-material-handling/MASTER_SITE_LOGISTICS_AND_MATERIAL_HANDLING_ACTIVITIES.md",
+      "counts": {
+        "groups": 37,
+        "items": 582
+      },
+      "file": "departments/site-logistics-and-material-handling.json"
+    },
+    {
+      "department_id": "SSX-SUP-STARTUP-AND-COMMISSIONING",
+      "slug": "startup-and-commissioning",
+      "title": "Startup And Commissioning",
+      "document_title": "SSX Master Construction Startup and Commissioning Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/startup-and-commissioning/MASTER_STARTUP_AND_COMMISSIONING.md",
+      "counts": {
+        "groups": 35,
+        "items": 759
+      },
+      "file": "departments/startup-and-commissioning.json"
+    },
+    {
+      "department_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS",
+      "slug": "submittals-and-approvals",
+      "title": "Submittals And Approvals",
+      "document_title": "SSX Master Construction Submittals and Approvals",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/submittals-and-approvals/MASTER_SUBMITTALS_AND_APPROVALS.md",
+      "counts": {
+        "groups": 38,
+        "items": 808
+      },
+      "file": "departments/submittals-and-approvals.json"
+    },
+    {
+      "department_id": "SSX-SUP-SUSTAINABILITY-AND-GREEN-BUILDING",
+      "slug": "sustainability-and-green-building",
+      "title": "Sustainability And Green Building",
+      "document_title": "SSX Master Sustainability and Green-Building Compliance Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/sustainability-and-green-building/MASTER_SUSTAINABILITY_AND_GREEN_BUILDING_ACTIVITIES.md",
+      "counts": {
+        "groups": 35,
+        "items": 516
+      },
+      "file": "departments/sustainability-and-green-building.json"
+    },
+    {
+      "department_id": "SSX-SUP-TESTING",
+      "slug": "testing",
+      "title": "Testing",
+      "document_title": "SSX Master Construction Testing Requirements",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/testing/MASTER_TESTING_REQUIREMENTS.md",
+      "counts": {
+        "groups": 26,
+        "items": 130
+      },
+      "file": "departments/testing.json"
+    },
+    {
+      "department_id": "SSX-SUP-TRAINING",
+      "slug": "training",
+      "title": "Training",
+      "document_title": "SSX Master Construction Training Requirements",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/training/MASTER_TRAINING_REQUIREMENTS.md",
+      "counts": {
+        "groups": 25,
+        "items": 189
+      },
+      "file": "departments/training.json"
+    },
+    {
+      "department_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT",
+      "slug": "turnover-and-closeout",
+      "title": "Turnover And Closeout",
+      "document_title": "SSX Master Construction Turnover and Closeout Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/turnover-and-closeout/MASTER_TURNOVER_AND_CLOSEOUT.md",
+      "counts": {
+        "groups": 36,
+        "items": 732
+      },
+      "file": "departments/turnover-and-closeout.json"
+    },
+    {
+      "department_id": "SSX-SUP-UTILITY-COMPANY-ACTIVITIES",
+      "slug": "utility-company-activities",
+      "title": "Utility Company Activities",
+      "document_title": "SSX Master Construction Utility-Company Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/utility-company-activities/MASTER_UTILITY_COMPANY_ACTIVITIES.md",
+      "counts": {
+        "groups": 35,
+        "items": 666
+      },
+      "file": "departments/utility-company-activities.json"
+    },
+    {
+      "department_id": "SSX-SUP-WEATHER-AND-ENVIRONMENTAL-EVENTS",
+      "slug": "weather-and-environmental-events",
+      "title": "Weather And Environmental Events",
+      "document_title": "SSX Master Construction Weather and Environmental Events",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/weather-and-environmental-events/MASTER_WEATHER_AND_ENVIRONMENTAL_EVENTS.md",
+      "counts": {
+        "groups": 35,
+        "items": 644
+      },
+      "file": "departments/weather-and-environmental-events.json"
+    },
+    {
+      "department_id": "SSX-SUP-WORKFORCE-AND-LABOR",
+      "slug": "workforce-and-labor",
+      "title": "Workforce And Labor",
+      "document_title": "SSX Master Workforce and Labor Activities",
+      "source_path": "cloudflare/scheduling/schedule-activity-planning/workforce-and-labor/MASTER_WORKFORCE_AND_LABOR_ACTIVITIES.md",
+      "counts": {
+        "groups": 33,
+        "items": 514
+      },
+      "file": "departments/workforce-and-labor.json"
+    }
+  ]
+}

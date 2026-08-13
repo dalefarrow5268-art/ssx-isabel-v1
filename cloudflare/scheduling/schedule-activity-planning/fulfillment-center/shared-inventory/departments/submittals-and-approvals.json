@@ -1,0 +1,6088 @@
+{
+  "department_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS",
+  "slug": "submittals-and-approvals",
+  "title": "Submittals And Approvals",
+  "document_title": "SSX Master Construction Submittals and Approvals",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/submittals-and-approvals/MASTER_SUBMITTALS_AND_APPROVALS.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 38,
+    "items": 808
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I145F38Y",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project, phase, area, building and bid package",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0R6OS1E",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "CSI division and specification section",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XSVVOH",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Submittal number, revision and title",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JT4GOQ",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Submittal type",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1F6827C",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Responsible trade, preparer, supplier and fabricator",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1T63WSI",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Required reviewer, approver and final decision authority",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11G3R0D",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Contract requirement and governing document",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JYM097",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Required-on-site or installation date",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BEJ6K2",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Procurement, fabrication and shipping lead times",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I03U8U06",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Back-calculated need-by dates",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0R1SK09",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Preparation start and planned submission date",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HRPPAN",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Internal contractor review duration",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DHZ6BZ",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Design-team review duration",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02EV0ZP",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Owner, consultant, utility or AHJ review duration",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GC8917",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Planned and actual submission, return and resubmission dates",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10W0SCF",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Review status and disposition",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UGSRTW",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Linked RFI, substitution, change, procurement item and schedule activity",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I160ZBT5",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Approval hold point and affected work",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y66IJV",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Required sample, mockup, test data or delegated-design calculation",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LGBFVG",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Long-lead, critical-path and expediting flags",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1I6PTUC",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Responsible person and aging days",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GKNRBZ",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Final approved revision and attachment",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1A91I9C",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Closeout conversion requirement",
+          "source_line": 33
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Standard submittal workflow activities",
+      "path": [
+        "Standard submittal workflow activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0J4ECC5",
+          "sequence": 24,
+          "type": "numbered",
+          "text": "Identify contract-required submittal",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GPJUDJ",
+          "sequence": 25,
+          "type": "numbered",
+          "text": "Add item to submittal register",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UMURST",
+          "sequence": 26,
+          "type": "numbered",
+          "text": "Assign responsible trade and preparer",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1U16A3Y",
+          "sequence": 27,
+          "type": "numbered",
+          "text": "Confirm specification, drawing and procurement requirements",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0O2ON6N",
+          "sequence": 28,
+          "type": "numbered",
+          "text": "Confirm required-on-site and installation dates",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I076B6WC",
+          "sequence": 29,
+          "type": "numbered",
+          "text": "Calculate fabrication and procurement release date",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0O7H9UB",
+          "sequence": 30,
+          "type": "numbered",
+          "text": "Calculate approval need-by date",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PBHN6A",
+          "sequence": 31,
+          "type": "numbered",
+          "text": "Prepare submittal",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TJJC0Y",
+          "sequence": 32,
+          "type": "numbered",
+          "text": "Perform subcontractor or supplier quality review",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1B74L8C",
+          "sequence": 33,
+          "type": "numbered",
+          "text": "Coordinate dimensions, interfaces and field conditions",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18W8RUD",
+          "sequence": 34,
+          "type": "numbered",
+          "text": "Complete delegated-design engineering, when required",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LL3WR2",
+          "sequence": 35,
+          "type": "numbered",
+          "text": "Obtain required professional seal, certification or manufacturer review",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BDJRGT",
+          "sequence": 36,
+          "type": "numbered",
+          "text": "Submit to general contractor or construction manager",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y9XHSV",
+          "sequence": 37,
+          "type": "numbered",
+          "text": "Perform contractor compliance and coordination review",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0YUGOWV",
+          "sequence": 38,
+          "type": "numbered",
+          "text": "Return incomplete or noncompliant package for correction, when required",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WM8Z40",
+          "sequence": 39,
+          "type": "numbered",
+          "text": "Submit coordinated package to design team",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12W03AE",
+          "sequence": 40,
+          "type": "numbered",
+          "text": "Route to architect, engineers, consultants, owner, commissioning authority, utility or AHJ",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RC94M4",
+          "sequence": 41,
+          "type": "numbered",
+          "text": "Answer reviewer questions and provide supplemental information",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I037SR9O",
+          "sequence": 42,
+          "type": "numbered",
+          "text": "Receive review disposition",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0RP69RM",
+          "sequence": 43,
+          "type": "numbered",
+          "text": "Distribute reviewed submittal to responsible parties",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GEPODN",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Revise and resubmit, when required",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I018Q3XO",
+          "sequence": 45,
+          "type": "numbered",
+          "text": "Obtain final approval or approval as noted",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UJPS7H",
+          "sequence": 46,
+          "type": "numbered",
+          "text": "Release material or equipment for procurement and fabrication",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0RQSZ2F",
+          "sequence": 47,
+          "type": "numbered",
+          "text": "Update procurement and delivery dates",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04ZABCT",
+          "sequence": 48,
+          "type": "numbered",
+          "text": "Incorporate approved information into coordination drawings and field work",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PSUC1L",
+          "sequence": 49,
+          "type": "numbered",
+          "text": "Verify installed work matches approved submittal",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0L5E59B",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Archive approved record copy",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D5NP5U",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Convert applicable information into closeout documents",
+          "source_line": 64
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Review dispositions and schedule outcomes",
+      "path": [
+        "Review dispositions and schedule outcomes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11UIUQM",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Approved",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0I36Q3I",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Approved as noted",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01Y4ZSK",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Approved with comments",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SGUQ6V",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "No exceptions taken",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00PF0ET",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Furnish as submitted",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HCGTN3",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Furnish as corrected",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12TMEZW",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Reviewed",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1KAZHC2",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Reviewed for general conformance",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AQ3GZT",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Revise and resubmit",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CL34LF",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Rejected",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UWU979",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Not approved",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1K40126",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Submit specified item",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1NI4J3L",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Incomplete",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18KLWWQ",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Returned without review",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D65900",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "For information only",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0JSKJ91",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Record copy",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SPNEFM",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Approved for mockup only",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1W0FVUJ",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Approved for fabrication",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RHNCFM",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Approved for construction",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LICXBE",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Approved for procurement release",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1EKD4SL",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Pending owner selection",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1W277IL",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Pending AHJ or utility approval",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1P4IJQW",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Void or superseded",
+          "source_line": 90
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Submittal types",
+      "path": [
+        "Submittal types"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XEZ1WN",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Product data",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PNHUW1",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Shop drawings",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GXGYWO",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Coordination drawings",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0G9GKIR",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Fabrication drawings",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XHV9B9",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Installation drawings",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07C4R6N",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Layout drawings",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I184S7K9",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Setting drawings",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MTHKXN",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Field-wiring diagrams",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19ZJO1N",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Control diagrams",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01FRAPF",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Riser diagrams",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MLEMR7",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Single-line diagrams",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1M345QG",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Schematics",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1OZIMCE",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Design calculations",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J6EPEM",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Delegated-design calculations",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0D0TNWP",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Engineering analysis",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0KH2T3X",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Structural calculations",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZRXZ6L",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Seismic calculations",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1KEGMOB",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Wind-load calculations",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G9JW98",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Equipment schedules",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I06JOGS7",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Product schedules",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I14OH1MR",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Finish schedules",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09B2SYC",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Door, frame and hardware schedules",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I059A8XP",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Samples",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZLW7A6",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Color samples",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10SNY3Q",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Finish samples",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10ZM6A0",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Range samples",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WRIJTW",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Full-size samples",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J8LX8J",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Sample panels",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WRM4CH",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Mockup plans",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01USG9E",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Mockups",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02YVS59",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Prototypes",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0D31XQF",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Product certificates",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02XKAZ9",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Material certificates",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BG4XBY",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Certificates of compliance",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZIMLJN",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Certificates of origin",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HMA97W",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Installer qualifications",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1KABQ4F",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Manufacturer qualifications",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IDPJJV",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Fabricator qualifications",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GPCOGG",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Testing-agency qualifications",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19XULS5",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Welding procedures and qualifications",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12444WN",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Mix designs",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MVWA1D",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Test reports",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GFW2IC",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Research reports",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MJF2MF",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Evaluation reports",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1M2XQ0M",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Code-compliance reports",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04WMRNW",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Safety data sheets",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1OH2YBS",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Manufacturer instructions",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BJTCNE",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Manufacturer field-service reports",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01KVNDI",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Warranties",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZNFQOB",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Maintenance data",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0NTQSER",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Operation and maintenance data",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I16DRNAF",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Training plans and materials",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15MT1DB",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Commissioning documentation",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I027FF5I",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Sustainable-design documentation",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11VA5RV",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Record submittals",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MXB8WP",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "As-built documents",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1L6TNLW",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Closeout submittals",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1R2FL9X",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Informational submittals",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0D0M0CY",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Action submittals",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TRHIVP",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Deferred submittals",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1ACCKSL",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Permit submittals",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DYKZ4W",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Utility submittals",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IWKYDQ",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Owner approval requests",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AZBPHJ",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Substitution requests",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EBS1EE",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Value-engineering proposals",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I03SWVX1",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Request-for-information responses affecting submittals",
+          "source_line": 161
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Submittal planning and controls",
+      "path": [
+        "Submittal planning and controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1POUO4I",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Prepare preliminary submittal register",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IDJTS1",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Hold preconstruction submittal conference",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09PC43A",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Reconcile register with specifications and drawings",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I08MYYMP",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Incorporate subcontractor and supplier submittal logs",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RUV9EY",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Identify long-lead and critical submittals",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I03OBFGZ",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Identify early-release packages",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RLG0HD",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Identify deferred and delegated-design submittals",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1X67I4U",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Identify owner-selection and design-decision deadlines",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UBEM8H",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Identify AHJ, utility and third-party approvals",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0NMUXEL",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Identify samples and mockups requiring sequential approval",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15P3OJT",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Establish numbering, naming and revision standards",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0RAC5R9",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Establish electronic routing and distribution",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05LRW0P",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Establish review durations by reviewer",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WADGX2",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Establish escalation and overdue-submittal procedures",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0S075ZP",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Baseline planned submission and approval dates",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0H8NHCW",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Update submittal schedule during progress updates",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1VJA16L",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Conduct weekly submittal status review",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AHENQD",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Issue overdue and critical-submittal reports",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GV7ZFU",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Forecast approval impacts on procurement and installation",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MMV0K7",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Recover late submittals with expediting or phased packages",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WAYD1U",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Close superseded, duplicate and canceled items",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Z1HXAA",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Verify approved submittals are available in the field",
+          "source_line": 186
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Preconstruction and administrative submittals",
+      "path": [
+        "Preconstruction and administrative submittals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DEGUTN",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Project organization chart",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1H6GJPA",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Contact directory",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DGVM3A",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Responsibility matrix",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WODISY",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Baseline construction schedule",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1FT7GLN",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Schedule of values",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZXMGET",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Submittal schedule",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1YU2LT4",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Procurement schedule",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0F5P8P6",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Long-lead item schedule",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I153FA4D",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Mobilization plan",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04W6GQM",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Site logistics plan",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DLPGMX",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Construction phasing plan",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZQ9IFY",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Temporary facilities plan",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MVDDSZ",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Traffic-control plan",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10XK9TA",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Delivery and hoisting plan",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AUPWMA",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Crane and lift plans",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1F7U157",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Quality-control plan",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PGIF34",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Safety plan",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15PGWVL",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Emergency action plan",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0W145BU",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Environmental and SWPPP plans",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DYGPQ8",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Waste-management plan",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IHEDWF",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Indoor-air-quality management plan",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IV5219",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Security and access plan",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DZMDBK",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Existing-condition documentation",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GGIH6S",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Survey and layout procedures",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04I3O81",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Testing and inspection plan",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BDCJK5",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Commissioning plan",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1O1O62E",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "BIM execution plan",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SKF5U4",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Coordination-drawing schedule",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LQR2VP",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Contractor licenses, bonds and insurance certificates",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TJT8Q2",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Permits and permit applications",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Q4JX8A",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "List of subcontractors and suppliers",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0K4MBQO",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Product and manufacturer list",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I102E8AL",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Contractor and installer qualifications",
+          "source_line": 222
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Design coordination and delegated design",
+      "path": [
+        "Design coordination and delegated design"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19UOA85",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Structural steel connection design",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0YWKU3O",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Cold-formed metal framing design",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0NCJYZR",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Metal building system design",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MTDCJ9",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Precast connection and erection design",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11N3EU0",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Tilt-up bracing design",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CCGOKN",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Mass-timber connection design",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JZ00B9",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Wood truss design",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AAX7N6",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Curtain-wall and storefront engineering",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IN5FTU",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Exterior cladding support and attachment design",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EAXO5U",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Stone anchorage design",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I048WEW4",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Masonry veneer support design",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AOR1OA",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Roofing attachment and wind-uplift design",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I08LOUX4",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Fall-protection and davit system design",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1X2F2WU",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Permanent access system design",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0R4P0JN",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Seismic restraint and bracing design",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G008TP",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Equipment anchorage design",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1VQ8FL0",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Fire sprinkler hydraulic calculations",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y8WFU2",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Fire-pump calculations",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I043GH6T",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Fire-alarm voltage-drop and battery calculations",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12YDOQK",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Smoke-control design calculations",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SS0W5I",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Stair pressurization calculations",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I13781PF",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Kitchen hood and suppression design",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DTUUVV",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Medical-gas design and certification",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05UIZXI",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Temporary shoring and reshoring design",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RUL9EG",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Excavation support and underpinning design",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11D1H0N",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Formwork and falsework design",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0N2I3YY",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Post-tensioning shop drawings and calculations",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IT9QTD",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Expansion-joint design",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01H8WDC",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Operable partition support design",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1R5CY9E",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Railings, guards and delegated specialty design",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0OTSLVU",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Signage structural design",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17P49IH",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Solar photovoltaic mounting design",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02RWOOF",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Utility interconnection design",
+          "source_line": 258
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Substitutions, value engineering and alternates",
+      "path": [
+        "Substitutions, value engineering and alternates"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WN6XMP",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Identify proposed substitution",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09UUAD8",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Verify substitution deadline",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11PFN5J",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Prepare technical comparison",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Z7L91D",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Prepare cost and schedule comparison",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HLJ1LF",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Document impacts to adjacent systems",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G9G213",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Obtain manufacturer and installer information",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0QBKG8I",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Submit substitution request",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G16PCB",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Contractor review",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0C82S87",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Architect and engineer review",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CB91L5",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Owner decision",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1QWGSA5",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "AHJ or utility review, when required",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0K74N0P",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Revise drawings or specifications, when required",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I152PUHP",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Obtain formal acceptance",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HKBGUM",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Incorporate accepted substitution into submittals",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I170TEES",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Update budget, procurement and schedule",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07E2A2W",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Reject and return to specified product, when not accepted",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01TLBLP",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Submit value-engineering proposal",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DWH57T",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Review accepted alternate",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1CJOJSH",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Issue change authorization before implementation",
+          "source_line": 282
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Samples, colors and finish selections",
+      "path": [
+        "Samples, colors and finish selections"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1W1A1HO",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Prepare finish-selection schedule",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1T0JU6X",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Submit standard color charts",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0498M3L",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Submit physical color and texture samples",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0THU0IC",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Submit range samples for natural materials",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17WN6K3",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Submit custom color match",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15EZ6R0",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Submit stain and coating samples",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WEJQ8W",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Submit sealant color samples",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AZRP8A",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Submit grout and mortar samples",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RN6S1F",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Submit flooring, tile, carpet and wall-covering samples",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I06D28S1",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Submit ceiling and acoustic finish samples",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1YUOYEA",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Submit casework, laminate, veneer and countertop samples",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0YRQY0A",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Submit metal, glass and hardware finish samples",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1557PEM",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Submit masonry, stone, precast and cladding samples",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11HZGRK",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Submit roofing and sheet-metal color samples",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1C5SDGB",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Submit plumbing fixture and accessory selections",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1QNZBU7",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Submit lighting fixture and control-device selections",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1S81SHI",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Submit furniture, fixtures and equipment selections",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12BGPPW",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Prepare sample room or finish board",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SQ3KC3",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Architect review",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I064KIMP",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Interior designer review",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1L3W3F8",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Owner review and selection",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TJ4L24",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Revise and resubmit",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I08VE7IH",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Record final selection and release affected materials",
+          "source_line": 308
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Mockups and prototypes",
+      "path": [
+        "Mockups and prototypes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZGF7E9",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Define mockup scope and acceptance criteria",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I16H8C3J",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Submit mockup plan and details",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1KEX2ER",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Submit mockup materials",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HE16DL",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Approve mockup location",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15WM1QO",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Construct visual mockup",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1EJI2VW",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Construct performance mockup",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GYN3JB",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Construct building-envelope mockup",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00A91S4",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Construct masonry sample panel",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WPROF4",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Construct roofing mockup",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MBKUAL",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Construct waterproofing mockup",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0VYBZR7",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Construct interior finish mockup",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1K5M15Z",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Construct hotel guest-room, apartment-unit or patient-room mockup",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15EGYP7",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Construct bathroom or kitchen mockup",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1C2HCRO",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Construct MEP ceiling coordination mockup",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LARU4O",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Construct firestop engineering-judgment mockup",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0G4VSML",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Conduct architect, engineer, consultant and owner review",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1YGEU7K",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Conduct laboratory or field testing",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1KLFJF4",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Document deficiencies",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0B09GHL",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Correct and retest mockup",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1EV4SE5",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Obtain final mockup approval",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01Y6FLI",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Preserve approved benchmark",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0W6W5LF",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Release production work",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XAZULZ",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Remove mockup after authorization, when required",
+          "source_line": 334
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Sitework, earthwork and utilities",
+      "path": [
+        "Sitework, earthwork and utilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04GYA7K",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Surveyor qualifications and procedures",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19O0XKL",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Clearing, demolition and earthwork plans",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1V49XEL",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Erosion and sediment-control products",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09QBVHL",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Silt fence and inlet-protection product data",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G3T6X5",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Dewatering plan",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FEFGE4",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Excavation support plan",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0S5Y45C",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Soil stabilization products",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10MYIBQ",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Geotextile and geogrid data",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07093Z1",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Fill, aggregate and topsoil source certifications",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04Z8OP9",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Compaction procedures",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I153LYYW",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Utility pipe, fitting and valve data",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LHKPT3",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Manhole, inlet and drainage-structure shop drawings",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0OXNIOY",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Stormwater detention and infiltration system drawings",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00V2Q3T",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Pump and lift-station submittals",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZVFZ2C",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Water-service and fire-service submittals",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SS4CZ8",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Hydrant and backflow-preventer submittals",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1VWI3IY",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Trench drain and oil-water separator submittals",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UG65V3",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Utility crossing and connection plans",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05N6UT3",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Municipal and utility-company approvals",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I056TJEL",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Testing, flushing, disinfection and acceptance procedures",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0QEEFI2",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Record survey and utility as-builts",
+          "source_line": 358
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Concrete and foundations",
+      "path": [
+        "Concrete and foundations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AJJH24",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Concrete mix designs",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11GAKEC",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Cementitious-material, aggregate and admixture data",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I142AUA5",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Reinforcing-steel and welded-wire reinforcement data",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y6WIWY",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Reinforcing shop drawings and bar lists",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0XJSX1V",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Mechanical splice and headed-bar data",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19HQBWD",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Formwork and shoring drawings",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1P9U9RV",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Reshoring procedures",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01LRA6M",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Waterstop, vapor-retarder and curing-material data",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GOLGIH",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Embedded items and anchor templates",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1K68ITT",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Post-installed anchor product data and evaluation reports",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I13D0D4D",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Adhesive-anchor installer qualifications",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19BY47O",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Deep-foundation installation procedures",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AQ62E2",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Pile, helical pile, micropile and drilled-shaft data",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MVHK3L",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Load-test procedures",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18GB9C1",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Post-tensioning shop drawings, calculations and stressing procedures",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0X1T9FV",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Precast shop drawings and erection plans",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0M1FRJZ",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Tilt-up panel drawings and bracing plans",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SNSKOR",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Grout and repair-material data",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZRJPEH",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Floor-tolerance plan",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11TE19S",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Cold- and hot-weather concreting plans",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DVYXDJ",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Test reports and strength data",
+          "source_line": 382
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Masonry",
+      "path": [
+        "Masonry"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I184IVBE",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Masonry unit and brick data",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04FULC5",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Stone and cast-stone shop drawings",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09CIOVZ",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Mortar and grout mix designs",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15DTEUH",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Reinforcing, anchors, ties and accessories",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I025MWQX",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Lintel and shelf-angle drawings",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01H3IU8",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Flashing, weep and drainage products",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12PRKY8",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Control-joint and expansion-joint layout",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GBZ6HU",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Masonry cleaning products and procedures",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00M55QJ",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Efflorescence-control information",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0718ENO",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Masonry sample panel",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I13TTM6C",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Installer and testing qualifications",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1B8TVMC",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Material certificates and test reports",
+          "source_line": 397
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Structural steel and miscellaneous metals",
+      "path": [
+        "Structural steel and miscellaneous metals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UPNEFQ",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Structural steel shop drawings",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1RHC9EP",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Connection calculations",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01DJOB8",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Erection drawings and sequencing",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11AL6NA",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Erection and site logistics plan",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SG0RD9",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Mill certificates",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09UXBQO",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Welding procedure specifications",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LWFHB1",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Procedure and welder qualification records",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CKHI37",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "High-strength bolt and fastener data",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TDWVBX",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Metal-deck shop drawings",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0RO6QQL",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Steel joist and bridging drawings",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1R39XBX",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Shear-stud data",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FGLM3O",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Grating, stairs, ladders, railings and guard shop drawings",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01SJBI2",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Bollard, canopy, platform and miscellaneous-metal drawings",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I06AFG6N",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Galvanizing and coating data",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WJ2QZ9",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Fireproofing compatibility information",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0722HSW",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Nondestructive testing procedures and reports",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Q74Y69",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Fabrication and source-inspection reports",
+          "source_line": 417
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Wood, plastics and composites",
+      "path": [
+        "Wood, plastics and composites"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0XT8QA2",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Lumber, plywood and sheathing data",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PG2EU2",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Preservative and fire-retardant treatment certificates",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I127HGU4",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Engineered wood and structural composite lumber data",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZL2GLH",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Wood truss shop drawings and calculations",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I131KKZF",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Glulam and mass-timber shop drawings",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WCFRLJ",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Mass-timber connection details",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HSVC04",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Moisture-control and protection plan",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0R7K673",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Rough carpentry and blocking layouts",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1T6ZBQ3",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Finish carpentry shop drawings",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17NT7F0",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Plastic fabrication drawings",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10HXI0M",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Fiberglass-reinforced product data",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FN0DL2",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Installer qualifications and treatment certificates",
+          "source_line": 432
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Roofing and waterproofing",
+      "path": [
+        "Roofing and waterproofing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GW2C2E",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Manufacturer and installer qualifications",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0XNZMUO",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Roofing system product data",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1OVXP8I",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Roof plan and tapered-insulation layout",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1OHTIBE",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Fastening and attachment plan",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D3HMLX",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Wind-uplift calculations",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BWQN6I",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Perimeter and corner enhancements",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0JKPPAL",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Sheet-metal and flashing shop drawings",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0A7PKE4",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Roof drain, overflow and scupper coordination",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GD3QAA",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Expansion-joint and penetration details",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0T8CCL8",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Vapor retarder, insulation and cover-board data",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I083YN6Z",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Membrane, adhesive and sealant data",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02V1NEY",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Below-grade waterproofing data",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PZJNRS",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Plaza, balcony, shower and traffic-coating data",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01F0CV3",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Waterstop and drainage-composite data",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1A6OHQL",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Flood-test and electronic leak-detection procedures",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11E3D0M",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Roofing and waterproofing mockups",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1X691TF",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Manufacturer field-review plan",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1CY5F2H",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Warranty sample and final warranty",
+          "source_line": 453
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Exterior envelope, cladding and glazing",
+      "path": [
+        "Exterior envelope, cladding and glazing"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LIU2GJ",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Air- and vapor-barrier products",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I014DWKJ",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Transition membrane and penetration details",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PV9G11",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Insulation and thermal-bridge details",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0891GHZ",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Exterior sheathing and weather-barrier data",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I14WVNAM",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Curtain-wall shop drawings and calculations",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MO3U2H",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Storefront and window shop drawings",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UHI6R4",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Glass types, makeup and performance data",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15R2BSR",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Window and curtain-wall anchorage",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SYPAYR",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Exterior door and entrance shop drawings",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1VETHZR",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Louvers, sunscreens, canopies and soffit drawings",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I16HTD0V",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Metal panel and composite panel drawings",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0VBK1KQ",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Precast, GFRC, EIFS, stucco, fiber-cement and terracotta submittals",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XIELEX",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Stone and masonry veneer anchorage",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BI23J2",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Sealant and compatibility testing",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10H5GUI",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Cladding fastening and pullout data",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12I2CPU",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Laboratory and field-testing plans",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0A60LBL",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Building-envelope mockup",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TJB99D",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Water, air and structural test reports",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DA4N0E",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Cleaning and protection procedures",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I162GR0B",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Warranties",
+          "source_line": 476
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Openings, doors and hardware",
+      "path": [
+        "Openings, doors and hardware"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07NZXNC",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Door, frame and hardware schedule",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19T9088",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Door and frame shop drawings",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I059GOI2",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Fire, smoke and acoustical rating data",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0OTELO4",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Wood, hollow-metal, aluminum and specialty door data",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12YNCK7",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Overhead, coiling and loading-dock door data",
+          "source_line": 484
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0R1FLZ1",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Automatic and revolving entrance data",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FIGP3B",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Finish and veneer samples",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WXVP2B",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Keying schedule",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0F9YHDS",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Hardware sets",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BJD03L",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Electrified hardware wiring diagrams",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IW4CFJ",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Access-control interface matrix",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1H36NMU",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Door sequence-of-operation",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02B7BQ5",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Fire-alarm release and egress interface",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GW0IWH",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Delayed-egress and controlled-egress approval",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D8OGK1",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Glass and glazing schedule",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JQEHJV",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Fire-rated, safety, security and specialty glazing data",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0D44NE7",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Installation and field-testing procedures",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D1JYCR",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Door and hardware closeout schedule",
+          "source_line": 497
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Interior construction and finishes",
+      "path": [
+        "Interior construction and finishes"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07M3M8P",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Metal framing and gypsum-board data",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TIO1FW",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Interior framing shop drawings",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1B86Y6X",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Shaft-wall and rated assembly data",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DFKPJB",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Firestop and fire-resistive joint systems",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EILXW5",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Engineering judgments",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WTLIR7",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Insulation and acoustic treatment data",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GOX0Z2",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Ceiling layouts and seismic-bracing details",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y0T75X",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Access-panel schedule",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1I76O02",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Tile and stone shop drawings",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I02SQ114",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Terrazzo mix and divider-strip layouts",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SDPNNS",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Flooring and moisture-mitigation products",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GXTOVM",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Carpet seaming diagrams",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1QOML9T",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Wood and athletic flooring data",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UHAOG8",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Wall covering and wall-protection layouts",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DL2P29",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Paint and coating systems",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0L7JDKZ",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Specialty plaster and decorative finish samples",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15MRINR",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Expansion-joint cover drawings",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1FA7M1U",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Entrance mat and grille drawings",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Z58UCG",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Finish samples, mockups and room prototypes",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BCZCX5",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Maintenance and cleaning instructions",
+          "source_line": 520
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Specialties, casework and furnishings",
+      "path": [
+        "Specialties, casework and furnishings"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I10J14FR",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Toilet partition and accessory layouts",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Z0HUAX",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Grab-bar and accessory anchorage",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0VO3L0D",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Signage schedule, message list and tactile/Braille details",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0OCAT3G",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Locker and storage system drawings",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AQNIOL",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Fire-extinguisher cabinet schedule",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G6ZKRT",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Operable partition shop drawings and support requirements",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J83WMV",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Folding grille and wire partition drawings",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0O0DKRO",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Casework and millwork shop drawings",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00OGJSB",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Cabinet hardware and finish samples",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IUUTBY",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Countertop templates and seam layouts",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TONZ5J",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Laboratory casework and fume hood drawings",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1895P1G",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Window-treatment drawings",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0T5H8U0",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Furniture plans and product data",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WQ9M2T",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Appliances and owner-furnished equipment",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01C941R",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Artwork, accessories and furnishing samples",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AXWWX9",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Attic stock and spare-material requirements",
+          "source_line": 539
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Equipment and specialty systems",
+      "path": [
+        "Equipment and specialty systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IBKR46",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Commercial kitchen equipment drawings",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XZS17W",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Kitchen utility connection drawings",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PTR5LJ",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Hood and grease-duct drawings",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04Y3BJS",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Food-service refrigeration data",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I191N3E9",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Laundry equipment drawings",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IIEMMS",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Trash and linen chute drawings",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09Z872J",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Compactor and waste equipment drawings",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1F08JWE",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Athletic, fitness and recreation equipment",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FVSDXE",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Theater, stage and rigging systems",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UR6AZY",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Library and storage systems",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EUMQHI",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Laboratory and medical equipment",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0C0XP6S",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Imaging, MRI and radiation-shielding coordination",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0VLLDK7",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Sterilizer and specialty utility requirements",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1QAW1RQ",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Loading dock equipment",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UX3KA6",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Maintenance and fall-protection equipment",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1VTQ27A",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Manufacturer startup and training requirements",
+          "source_line": 558
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Plumbing and fire-service piping",
+      "path": [
+        "Plumbing and fire-service piping"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Y74OQI",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Plumbing fixture schedule and product data",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1YMTNYW",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Plumbing equipment schedules",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09OLQKL",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Domestic-water, sanitary, vent and storm piping data",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01PTKFH",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Plumbing coordination and fabrication drawings",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07MZ7FH",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Fixture-carrier drawings",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1V8FDMQ",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Water-heater, storage-tank and pump data",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I14PDPLD",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Sump, ejector and interceptor data",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09HBWIM",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Backflow-preventer and water-treatment data",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TV6U3L",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Pipe, valve, fitting, insulation and support data",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AKIXNX",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Seismic restraint calculations",
+          "source_line": 571
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IZ02UL",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Penetration and sleeve layouts",
+          "source_line": 572
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HTMQYY",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Fuel-gas system drawings",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GS1QQZ",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Medical-gas drawings, brazing procedures and certifications",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11U9YK0",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Pressure-test, flushing and disinfection plans",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WU5100",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Water-balance and commissioning procedures",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IW9R9H",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Manufacturer startup reports",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TTUSBD",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "O&M and training materials",
+          "source_line": 578
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "HVAC, controls and building automation",
+      "path": [
+        "HVAC, controls and building automation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AJ6DO9",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Mechanical equipment schedules and product data",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GRJKXE",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "AHU, RTU, DOAS, ERV, fan-coil and heat-pump data",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18FI200",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Chiller, boiler, cooling-tower and pump data",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0XJFW53",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Fan, terminal unit and air-device data",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0YRYJCI",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Ductwork and sheet-metal shop drawings",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D9W520",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Piping fabrication drawings",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HH8MN3",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Equipment room and plant-room coordination drawings",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J5TNY2",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Duct and piping insulation data",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J7A71U",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Vibration isolation and seismic restraint calculations",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18PAPAC",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Louver and intake/exhaust coordination",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EOS6NT",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Kitchen, laboratory and specialty exhaust drawings",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HGWYVR",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Refrigerant piping and detection system data",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GGNGBK",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Controls architecture and network diagrams",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J049ZP",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Control drawings and wiring diagrams",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I073WB3P",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Points list",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GTVX3E",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Sequences of operation",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01O5WV1",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Control-device and sensor data",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0468MVL",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "BAS graphics standards",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MOEEB2",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "TAB plan",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15B8TFJ",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Startup and commissioning procedures",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1UZ40O4",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Indoor-air-quality and flush-out plans",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19KN0V3",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "O&M, training and warranty data",
+          "source_line": 603
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Electrical, lighting and emergency power",
+      "path": [
+        "Electrical, lighting and emergency power"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15KIVRD",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Electrical equipment schedules",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1L0ODDM",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Switchgear, switchboard, panelboard and transformer data",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I045V0CI",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Motor-control center and VFD data",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PDSQ94",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Generator, fuel system, paralleling gear and ATS data",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LPECPY",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "UPS and battery system data",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FQ90F5",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Busway, cable tray, conduit and conductor data",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1T3NTEM",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Electrical room layouts and coordination drawings",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1H9B0YZ",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Short-circuit, coordination and arc-flash studies",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I047SYJ0",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Protective-device settings",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1EENP5N",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Grounding and bonding drawings",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0NBW93V",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Lightning-protection drawings and calculations",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DQLPLL",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Lighting fixture schedule and product data",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1H1WHXT",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Lighting-control diagrams and sequence",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GQJVAH",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Emergency-lighting calculations",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZLCDSV",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Photometric calculations",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PDFRW1",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Wiring diagrams and field connection drawings",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1WDR4QU",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Metering and submetering data",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0QYGKGQ",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "PV, battery-storage and EV-charging submittals",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0OS78U3",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Utility service and interconnection package",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0U6N5M1",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Testing and energization procedures",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UTMDHL",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Load-bank and acceptance-test plans",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PDDGKO",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "O&M, training and warranty data",
+          "source_line": 628
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Fire protection and life safety",
+      "path": [
+        "Fire protection and life safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15ZJ7JF",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Fire sprinkler shop drawings",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MHPCJX",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Hydraulic calculations",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SX6P9E",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Underground fire-main drawings",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ESGN8B",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Standpipe drawings",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0GRN0HW",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Fire-pump and controller data",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LBU6ZM",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Fire-water tank data",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05MMRIB",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Seismic bracing calculations",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PDDVR7",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Clean-agent, foam, mist, preaction and deluge system drawings",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MHZJDM",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Kitchen suppression drawings",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SCVDO3",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Fire-alarm shop drawings",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LZGZQS",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Device and appliance data",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05LC70J",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Riser and point-to-point wiring diagrams",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1YK23TI",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Battery and voltage-drop calculations",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18NUFVF",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Sequence-of-operations matrix",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0186GXO",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Cause-and-effect matrix",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DMK5T9",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Elevator recall and shunt-trip interface",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AARKC9",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Door release and access-control interface",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0JDMXJN",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "HVAC shutdown and smoke-control interface",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0492BBT",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Emergency responder radio system design",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LWBGQM",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Mass-notification design",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1CPDKG3",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Smoke-control rational analysis and testing plan",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SKLITC",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Integrated testing plan",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JTTDXQ",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "AHJ and Fire Marshal approvals",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PS7TNV",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Record of completion, test certificates and acceptance reports",
+          "source_line": 655
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Technology, communications, AV and security",
+      "path": [
+        "Technology, communications, AV and security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Z7NHD6",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Telecommunications room layouts",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZK0CKG",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Rack elevations",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0U5X9HI",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Cable tray and pathway drawings",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0G8KNLV",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Backbone and horizontal cabling diagrams",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HSJLKQ",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Copper and fiber product data",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ML0XZI",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Network architecture",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HPXCZE",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Wi-Fi predictive survey",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0W9DE42",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Public-safety and cellular DAS design",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WZ4Y5Z",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Audiovisual system drawings",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07GMPCJ",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Display, speaker and equipment schedules",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0L3P4A1",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Intercom, paging and master-clock drawings",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I14978QQ",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Nurse-call and specialty communications drawings",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LWGEV1",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Security system architecture",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17PB4H4",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Access-control door matrix",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00GQJLN",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Camera layout and coverage",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1THK4P6",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Intrusion, duress and intercom diagrams",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G0R8RJ",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Cybersecurity and network requirements",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BBCE48",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Testing, labeling and certification plans",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TOB6TR",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Owner IT and security approval",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05M8QL2",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "O&M, training and warranty data",
+          "source_line": 678
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Elevators and conveying systems",
+      "path": [
+        "Elevators and conveying systems"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EHQ2L3",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Elevator shop drawings",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TWJABW",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Hoistway, pit and overhead requirements",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0JKQPFX",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Machine-room and control-space layouts",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I065727Q",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Structural loads and support reactions",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12JFXRT",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Entrance, sill and door details",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0O1JZAB",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Cab interior and finish selections",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1359S5J",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Fixtures, controls and signal schedules",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I03SWYX7",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Power, disconnect and heat-load requirements",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MJ8VJ6",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Fire-service and emergency-power sequences",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TVIYM9",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Communication and security interfaces",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I176Z1YM",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Escalator and moving-walk drawings",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0H8B698",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Platform lift, material lift and dumbwaiter drawings",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IHVP9V",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "State or jurisdictional approval",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12PJQYB",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Testing and inspection procedures",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0N4Q4B0",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Maintenance and warranty data",
+          "source_line": 696
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Site improvements and landscaping",
+      "path": [
+        "Site improvements and landscaping"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LU3R7C",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Asphalt and concrete paving mix designs",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1G7JMJ1",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Paver, curb and site-concrete data",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11MCSJB",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Pavement marking and signage data",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I012Y9NL",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Retaining-wall shop drawings and calculations",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FE7FN7",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Fence, gate and vehicle-control drawings",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1OAV5Q4",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Site-lighting drawings",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1295SZH",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Playground and athletic-equipment drawings",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EI2G8C",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Site-furnishing data",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1CAEGT6",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Landscape plant list and nursery sources",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1FKA3ZJ",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Tree, soil, mulch and planting data",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00G7E4H",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Irrigation drawings and calculations",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Q2URFJ",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Landscape-lighting data",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1U5YX3T",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Maintenance and establishment plan",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07RW8O9",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Accessibility details",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15XMREC",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Municipal, planning and owner approvals",
+          "source_line": 714
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Sustainability, environmental and energy compliance",
+      "path": [
+        "Sustainability, environmental and energy compliance"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0KVCDG6",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Recycled-content documentation",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GB5KUM",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Regional sourcing documentation",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MAXNK3",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Environmental product declarations",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I122EVV3",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Health product declarations",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I180D2AM",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Low-emitting material certificates",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0FXC0K7",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "VOC content and emissions data",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1801533",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Certified wood documentation",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J7PTAR",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Construction waste reports",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0TOBAJZ",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Indoor-air-quality plans and test reports",
+          "source_line": 726
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I13QCVUE",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Water-use calculations",
+          "source_line": 727
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1QZOHUP",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Energy-code compliance forms",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D5THA6",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "Equipment efficiency certificates",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1NWVGK2",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Envelope and air-barrier documentation",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1F2ZLDB",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Lighting-power and control calculations",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I16AIJNH",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Renewable-energy documentation",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Q08736",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Refrigerant-management data",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01GGM0R",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Material ingredient and responsible-sourcing data",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0E7IYRE",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "LEED, WELL, Green Globes or other rating-system submittals",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0X0S36S",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Commissioning documentation",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LTRPSG",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Final sustainability certification package",
+          "source_line": 737
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Permits, utilities and AHJ approvals",
+      "path": [
+        "Permits, utilities and AHJ approvals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I09VJZRG",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Building permit application and revisions",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BYXR3F",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Demolition permit",
+          "source_line": 742
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JKQEWB",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Site and civil permits",
+          "source_line": 743
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AZSZI6",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Right-of-way and street-use permits",
+          "source_line": 744
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JHHM49",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Environmental and stormwater permits",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0F09XTD",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Dewatering and discharge permits",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1H1O7O9",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Utility connection applications",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1X8RD4N",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "Water and sewer tap approvals",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1B3LWUB",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "Gas service approval",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19U2S15",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "Electrical service application",
+          "source_line": 750
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I03D1SM9",
+          "sequence": 650,
+          "type": "bullet",
+          "text": "Transformer and meter approvals",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07XC2LQ",
+          "sequence": 651,
+          "type": "bullet",
+          "text": "Fire-department and Fire Marshal submittals",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17JXS6X",
+          "sequence": 652,
+          "type": "bullet",
+          "text": "Fire sprinkler and alarm deferred submittals",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17O33YZ",
+          "sequence": 653,
+          "type": "bullet",
+          "text": "Elevator permit",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DTFP6L",
+          "sequence": 654,
+          "type": "bullet",
+          "text": "Boiler and pressure-vessel permit",
+          "source_line": 755
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I19WACBC",
+          "sequence": 655,
+          "type": "bullet",
+          "text": "Health-department approval",
+          "source_line": 756
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15LA0DV",
+          "sequence": 656,
+          "type": "bullet",
+          "text": "Pool permit",
+          "source_line": 757
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PGR3Q6",
+          "sequence": 657,
+          "type": "bullet",
+          "text": "Sign permit",
+          "source_line": 758
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0U4VH86",
+          "sequence": 658,
+          "type": "bullet",
+          "text": "Accessibility review",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1883IQX",
+          "sequence": 659,
+          "type": "bullet",
+          "text": "Energy-code compliance submission",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I17HI26K",
+          "sequence": 660,
+          "type": "bullet",
+          "text": "Planning, zoning and historic review",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y63Q8S",
+          "sequence": 661,
+          "type": "bullet",
+          "text": "Temporary use and phased-occupancy approvals",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HOL1X0",
+          "sequence": 662,
+          "type": "bullet",
+          "text": "TCO and CO application packages",
+          "source_line": 763
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Commissioning, startup and performance submittals",
+      "path": [
+        "Commissioning, startup and performance submittals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1J4WMHT",
+          "sequence": 663,
+          "type": "bullet",
+          "text": "Commissioning design-review responses",
+          "source_line": 767
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I13BUN59",
+          "sequence": 664,
+          "type": "bullet",
+          "text": "Commissioning submittal-review packages",
+          "source_line": 768
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0A7JQV2",
+          "sequence": 665,
+          "type": "bullet",
+          "text": "Equipment startup plans",
+          "source_line": 769
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DKH3BE",
+          "sequence": 666,
+          "type": "bullet",
+          "text": "Manufacturer startup forms",
+          "source_line": 770
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SOQ2Y5",
+          "sequence": 667,
+          "type": "bullet",
+          "text": "Pre-functional checklists",
+          "source_line": 771
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BROQH8",
+          "sequence": 668,
+          "type": "bullet",
+          "text": "Functional performance test procedures",
+          "source_line": 772
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1453LX8",
+          "sequence": 669,
+          "type": "bullet",
+          "text": "Integrated systems test procedures",
+          "source_line": 773
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TIFSU5",
+          "sequence": 670,
+          "type": "bullet",
+          "text": "TAB plan and reports",
+          "source_line": 774
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PCO195",
+          "sequence": 671,
+          "type": "bullet",
+          "text": "Controls point-to-point forms",
+          "source_line": 775
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I01WMDE8",
+          "sequence": 672,
+          "type": "bullet",
+          "text": "Sensor calibration reports",
+          "source_line": 776
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LWWJ2R",
+          "sequence": 673,
+          "type": "bullet",
+          "text": "Testing and inspection reports",
+          "source_line": 777
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I16J2MSR",
+          "sequence": 674,
+          "type": "bullet",
+          "text": "Issues log and corrective-action responses",
+          "source_line": 778
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PLTJUV",
+          "sequence": 675,
+          "type": "bullet",
+          "text": "Seasonal and deferred testing plans",
+          "source_line": 779
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GGAXGT",
+          "sequence": 676,
+          "type": "bullet",
+          "text": "Systems manual",
+          "source_line": 780
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EIIY3I",
+          "sequence": 677,
+          "type": "bullet",
+          "text": "Owner training plan, agenda and materials",
+          "source_line": 781
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1PHXPQU",
+          "sequence": 678,
+          "type": "bullet",
+          "text": "Final commissioning report",
+          "source_line": 782
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I038J795",
+          "sequence": 679,
+          "type": "bullet",
+          "text": "Warranty-period commissioning plan",
+          "source_line": 783
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Closeout and record submittals",
+      "path": [
+        "Closeout and record submittals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0W5WFQ8",
+          "sequence": 680,
+          "type": "bullet",
+          "text": "Closeout submittal register",
+          "source_line": 787
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0KGCWRA",
+          "sequence": 681,
+          "type": "bullet",
+          "text": "Record drawings",
+          "source_line": 788
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I163VSLA",
+          "sequence": 682,
+          "type": "bullet",
+          "text": "As-built drawings",
+          "source_line": 789
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BRRI8F",
+          "sequence": 683,
+          "type": "bullet",
+          "text": "Record specifications",
+          "source_line": 790
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BGGT62",
+          "sequence": 684,
+          "type": "bullet",
+          "text": "Approved shop drawings",
+          "source_line": 791
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0O6G7RK",
+          "sequence": 685,
+          "type": "bullet",
+          "text": "Record product data",
+          "source_line": 792
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HNUEG0",
+          "sequence": 686,
+          "type": "bullet",
+          "text": "Final coordination drawings",
+          "source_line": 793
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0OOOVZ5",
+          "sequence": 687,
+          "type": "bullet",
+          "text": "Survey and utility record drawings",
+          "source_line": 794
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I11HFT7X",
+          "sequence": 688,
+          "type": "bullet",
+          "text": "O&M manuals",
+          "source_line": 795
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZNENHE",
+          "sequence": 689,
+          "type": "bullet",
+          "text": "Systems manual",
+          "source_line": 796
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I07FNRNU",
+          "sequence": 690,
+          "type": "bullet",
+          "text": "Equipment asset data",
+          "source_line": 797
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I06K2VKU",
+          "sequence": 691,
+          "type": "bullet",
+          "text": "Spare-parts and attic-stock lists",
+          "source_line": 798
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1QR45Y2",
+          "sequence": 692,
+          "type": "bullet",
+          "text": "Extra materials",
+          "source_line": 799
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1P8XCYM",
+          "sequence": 693,
+          "type": "bullet",
+          "text": "Special tools",
+          "source_line": 800
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I15JWED6",
+          "sequence": 694,
+          "type": "bullet",
+          "text": "Keying and access-control records",
+          "source_line": 801
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0J1BBFC",
+          "sequence": 695,
+          "type": "bullet",
+          "text": "Test and inspection reports",
+          "source_line": 802
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I000OYMH",
+          "sequence": 696,
+          "type": "bullet",
+          "text": "Certificates and licenses",
+          "source_line": 803
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0YIO6OM",
+          "sequence": 697,
+          "type": "bullet",
+          "text": "Permit closeout and final approvals",
+          "source_line": 804
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I000WUHL",
+          "sequence": 698,
+          "type": "bullet",
+          "text": "Training records and recordings",
+          "source_line": 805
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BNNZ8I",
+          "sequence": 699,
+          "type": "bullet",
+          "text": "Startup and commissioning reports",
+          "source_line": 806
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0QZQARL",
+          "sequence": 700,
+          "type": "bullet",
+          "text": "Final TAB report",
+          "source_line": 807
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18I2OO9",
+          "sequence": 701,
+          "type": "bullet",
+          "text": "Warranties and bonds",
+          "source_line": 808
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MX7YFH",
+          "sequence": 702,
+          "type": "bullet",
+          "text": "Manufacturer service agreements",
+          "source_line": 809
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1S38W79",
+          "sequence": 703,
+          "type": "bullet",
+          "text": "Sustainability documentation",
+          "source_line": 810
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0XYEA9I",
+          "sequence": 704,
+          "type": "bullet",
+          "text": "Final payment affidavits and releases",
+          "source_line": 811
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I124EDIT",
+          "sequence": 705,
+          "type": "bullet",
+          "text": "Consent of surety",
+          "source_line": 812
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12B55MR",
+          "sequence": 706,
+          "type": "bullet",
+          "text": "Punch-list completion documentation",
+          "source_line": 813
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I026W7AJ",
+          "sequence": 707,
+          "type": "bullet",
+          "text": "TCO and CO documentation",
+          "source_line": 814
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Y0BHZD",
+          "sequence": 708,
+          "type": "bullet",
+          "text": "Final acceptance package",
+          "source_line": 815
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Owner decisions and approvals",
+      "path": [
+        "Owner decisions and approvals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0JS3G6A",
+          "sequence": 709,
+          "type": "bullet",
+          "text": "Program confirmation",
+          "source_line": 819
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UA00NW",
+          "sequence": 710,
+          "type": "bullet",
+          "text": "Design option selection",
+          "source_line": 820
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0106JFX",
+          "sequence": 711,
+          "type": "bullet",
+          "text": "Finish and color selections",
+          "source_line": 821
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1HBWMDZ",
+          "sequence": 712,
+          "type": "bullet",
+          "text": "Equipment and fixture selection",
+          "source_line": 822
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1CDR79N",
+          "sequence": 713,
+          "type": "bullet",
+          "text": "Furniture, fixtures and equipment approval",
+          "source_line": 823
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1MORUDF",
+          "sequence": 714,
+          "type": "bullet",
+          "text": "Owner-furnished equipment information",
+          "source_line": 824
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1V5QCDO",
+          "sequence": 715,
+          "type": "bullet",
+          "text": "Branding, signage and artwork approval",
+          "source_line": 825
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SUKG95",
+          "sequence": 716,
+          "type": "bullet",
+          "text": "Security and access-control decisions",
+          "source_line": 826
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I081ZWX7",
+          "sequence": 717,
+          "type": "bullet",
+          "text": "IT and audiovisual standards",
+          "source_line": 827
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LP062G",
+          "sequence": 718,
+          "type": "bullet",
+          "text": "Keying and access hierarchy",
+          "source_line": 828
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1BVFLQU",
+          "sequence": 719,
+          "type": "bullet",
+          "text": "Mockup and prototype approval",
+          "source_line": 829
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I13PUBQR",
+          "sequence": 720,
+          "type": "bullet",
+          "text": "Value-engineering and substitution decisions",
+          "source_line": 830
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00ES2BE",
+          "sequence": 721,
+          "type": "bullet",
+          "text": "Allowance selections",
+          "source_line": 831
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1485ULJ",
+          "sequence": 722,
+          "type": "bullet",
+          "text": "Alternates acceptance",
+          "source_line": 832
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I08OG7AE",
+          "sequence": 723,
+          "type": "bullet",
+          "text": "Change proposal authorization",
+          "source_line": 833
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00WJ8QX",
+          "sequence": 724,
+          "type": "bullet",
+          "text": "Training schedule approval",
+          "source_line": 834
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EH3NB3",
+          "sequence": 725,
+          "type": "bullet",
+          "text": "Move-in, phased occupancy and turnover approval",
+          "source_line": 835
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Common approval hold points",
+      "path": [
+        "Common approval hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1Q9QEI3",
+          "sequence": 726,
+          "type": "bullet",
+          "text": "Do not procure before product approval",
+          "source_line": 841
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0NO94SC",
+          "sequence": 727,
+          "type": "bullet",
+          "text": "Do not fabricate before approved shop drawings",
+          "source_line": 842
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0C8SEPD",
+          "sequence": 728,
+          "type": "bullet",
+          "text": "Do not release custom finishes before owner selection",
+          "source_line": 843
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0HI2DJ2",
+          "sequence": 729,
+          "type": "bullet",
+          "text": "Do not conceal work before required inspection",
+          "source_line": 844
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BQEXB7",
+          "sequence": 730,
+          "type": "bullet",
+          "text": "Do not install until coordinated drawings are approved",
+          "source_line": 845
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I074Z04O",
+          "sequence": 731,
+          "type": "bullet",
+          "text": "Do not proceed beyond mockup until benchmark approval",
+          "source_line": 846
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I06OKDZA",
+          "sequence": 732,
+          "type": "bullet",
+          "text": "Do not energize until utility and AHJ authorization",
+          "source_line": 847
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0DT6ZPT",
+          "sequence": 733,
+          "type": "bullet",
+          "text": "Do not start equipment until startup prerequisites are approved",
+          "source_line": 848
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1E1IES2",
+          "sequence": 734,
+          "type": "bullet",
+          "text": "Do not occupy until life-safety approvals and TCO or CO",
+          "source_line": 849
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0YDG7DL",
+          "sequence": 735,
+          "type": "bullet",
+          "text": "Do not close contract until record and closeout submittals are accepted",
+          "source_line": 850
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CKWCB8",
+          "sequence": 736,
+          "type": "bullet",
+          "text": "Design information available → submittal preparation",
+          "source_line": 854
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1XVR0K2",
+          "sequence": 737,
+          "type": "bullet",
+          "text": "Field dimensions available → shop drawings",
+          "source_line": 855
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0B5FK0Q",
+          "sequence": 738,
+          "type": "bullet",
+          "text": "Shop drawings → internal contractor review",
+          "source_line": 856
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SL2QXO",
+          "sequence": 739,
+          "type": "bullet",
+          "text": "Contractor review → design-team review",
+          "source_line": 857
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I06KS64T",
+          "sequence": 740,
+          "type": "bullet",
+          "text": "Design-team review → revise and resubmit or final approval",
+          "source_line": 858
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1O0ESGC",
+          "sequence": 741,
+          "type": "bullet",
+          "text": "Final approval → release for fabrication",
+          "source_line": 859
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0C4LXNU",
+          "sequence": 742,
+          "type": "bullet",
+          "text": "Release → fabrication",
+          "source_line": 860
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BCNL1L",
+          "sequence": 743,
+          "type": "bullet",
+          "text": "Fabrication → factory testing",
+          "source_line": 861
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1R4G20Z",
+          "sequence": 744,
+          "type": "bullet",
+          "text": "Factory testing → shipping",
+          "source_line": 862
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I05NJSCR",
+          "sequence": 745,
+          "type": "bullet",
+          "text": "Shipping → delivery",
+          "source_line": 863
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0LOTKCT",
+          "sequence": 746,
+          "type": "bullet",
+          "text": "Delivery → installation",
+          "source_line": 864
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I08F0KMR",
+          "sequence": 747,
+          "type": "bullet",
+          "text": "Installation → field testing",
+          "source_line": 865
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UYIMVY",
+          "sequence": 748,
+          "type": "bullet",
+          "text": "Testing → startup and commissioning",
+          "source_line": 866
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CNNTA9",
+          "sequence": 749,
+          "type": "bullet",
+          "text": "Commissioning → owner training",
+          "source_line": 867
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0D6MHDG",
+          "sequence": 750,
+          "type": "bullet",
+          "text": "Training and closeout submittals → substantial completion or final acceptance",
+          "source_line": 868
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G036",
+      "sequence": 36,
+      "level": 2,
+      "title": "Required scheduling controls",
+      "path": [
+        "Required scheduling controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I148EE8Q",
+          "sequence": 751,
+          "type": "bullet",
+          "text": "Back-calculate every approval date from installation and required-on-site dates.",
+          "source_line": 874
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18D964E",
+          "sequence": 752,
+          "type": "bullet",
+          "text": "Include realistic preparation, coordination, review, revision, fabrication and shipping durations.",
+          "source_line": 875
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1IIEOK0",
+          "sequence": 753,
+          "type": "bullet",
+          "text": "Distinguish first submission, review, resubmission and final approval as separate activities when schedule-critical.",
+          "source_line": 876
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SPH3WZ",
+          "sequence": 754,
+          "type": "bullet",
+          "text": "Do not use one generic submittal activity to represent an entire trade when individual packages have different release dates.",
+          "source_line": 877
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0UWDPO7",
+          "sequence": 755,
+          "type": "bullet",
+          "text": "Tie long-lead submittals directly to procurement and delivery activities.",
+          "source_line": 878
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00AK8R6",
+          "sequence": 756,
+          "type": "bullet",
+          "text": "Flag overdue decisions and approvals before they affect fabrication or installation.",
+          "source_line": 879
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0A059VF",
+          "sequence": 757,
+          "type": "bullet",
+          "text": "Preserve revision history and do not overwrite approved records.",
+          "source_line": 880
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12DMK9A",
+          "sequence": 758,
+          "type": "bullet",
+          "text": "Confirm final approval status before releasing controlled work.",
+          "source_line": 881
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MRXRGQ",
+          "sequence": 759,
+          "type": "bullet",
+          "text": "Use project-specific contract review durations and notice requirements.",
+          "source_line": 882
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IES8DY",
+          "sequence": 760,
+          "type": "bullet",
+          "text": "Track only applicable submittals and approvals.",
+          "source_line": 883
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G037",
+      "sequence": 37,
+      "level": 2,
+      "title": "SSX submittal classifications",
+      "path": [
+        "SSX submittal classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0RD7GY2",
+          "sequence": 761,
+          "type": "bullet",
+          "text": "Action",
+          "source_line": 887
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1I4R7DF",
+          "sequence": 762,
+          "type": "bullet",
+          "text": "Informational",
+          "source_line": 888
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AE1VY0",
+          "sequence": 763,
+          "type": "bullet",
+          "text": "Closeout",
+          "source_line": 889
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1CJTRQZ",
+          "sequence": 764,
+          "type": "bullet",
+          "text": "Deferred",
+          "source_line": 890
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0EW8KFD",
+          "sequence": 765,
+          "type": "bullet",
+          "text": "Delegated design",
+          "source_line": 891
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0SAXLXP",
+          "sequence": 766,
+          "type": "bullet",
+          "text": "Product data",
+          "source_line": 892
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I12MBFKQ",
+          "sequence": 767,
+          "type": "bullet",
+          "text": "Shop drawing",
+          "source_line": 893
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1D46G7L",
+          "sequence": 768,
+          "type": "bullet",
+          "text": "Coordination drawing",
+          "source_line": 894
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I162WMCY",
+          "sequence": 769,
+          "type": "bullet",
+          "text": "Sample",
+          "source_line": 895
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I010YHKJ",
+          "sequence": 770,
+          "type": "bullet",
+          "text": "Mockup",
+          "source_line": 896
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1S9WUJD",
+          "sequence": 771,
+          "type": "bullet",
+          "text": "Calculation",
+          "source_line": 897
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0946BYF",
+          "sequence": 772,
+          "type": "bullet",
+          "text": "Certificate",
+          "source_line": 898
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1KB3MGX",
+          "sequence": 773,
+          "type": "bullet",
+          "text": "Qualification",
+          "source_line": 899
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1FFSGFI",
+          "sequence": 774,
+          "type": "bullet",
+          "text": "Test report",
+          "source_line": 900
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MHXF51",
+          "sequence": 775,
+          "type": "bullet",
+          "text": "Manufacturer report",
+          "source_line": 901
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00RS7IP",
+          "sequence": 776,
+          "type": "bullet",
+          "text": "Substitution",
+          "source_line": 902
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0IR3EK2",
+          "sequence": 777,
+          "type": "bullet",
+          "text": "Value engineering",
+          "source_line": 903
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1FH4977",
+          "sequence": 778,
+          "type": "bullet",
+          "text": "Owner decision",
+          "source_line": 904
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0Z7U5IB",
+          "sequence": 779,
+          "type": "bullet",
+          "text": "Design-team approval",
+          "source_line": 905
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0AQ2IJF",
+          "sequence": 780,
+          "type": "bullet",
+          "text": "Utility approval",
+          "source_line": 906
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I18LKRX4",
+          "sequence": 781,
+          "type": "bullet",
+          "text": "AHJ approval",
+          "source_line": 907
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1YXN8DF",
+          "sequence": 782,
+          "type": "bullet",
+          "text": "Permit",
+          "source_line": 908
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DS4AT1",
+          "sequence": 783,
+          "type": "bullet",
+          "text": "Record",
+          "source_line": 909
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0MMMFT4",
+          "sequence": 784,
+          "type": "bullet",
+          "text": "Warranty",
+          "source_line": 910
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0BWIV5R",
+          "sequence": 785,
+          "type": "bullet",
+          "text": "Commissioning",
+          "source_line": 911
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-G038",
+      "sequence": 38,
+      "level": 2,
+      "title": "SSX status values",
+      "path": [
+        "SSX status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1AH6JE2",
+          "sequence": 786,
+          "type": "bullet",
+          "text": "Not required",
+          "source_line": 915
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0WJUVPM",
+          "sequence": 787,
+          "type": "bullet",
+          "text": "Planned",
+          "source_line": 916
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I086O87W",
+          "sequence": 788,
+          "type": "bullet",
+          "text": "Not started",
+          "source_line": 917
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04YLOCU",
+          "sequence": 789,
+          "type": "bullet",
+          "text": "In preparation",
+          "source_line": 918
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0VQHKZJ",
+          "sequence": 790,
+          "type": "bullet",
+          "text": "Internal review",
+          "source_line": 919
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0JAXPV4",
+          "sequence": 791,
+          "type": "bullet",
+          "text": "Ready to submit",
+          "source_line": 920
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I190H8J5",
+          "sequence": 792,
+          "type": "bullet",
+          "text": "Submitted",
+          "source_line": 921
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I03IVDHU",
+          "sequence": 793,
+          "type": "bullet",
+          "text": "Under design-team review",
+          "source_line": 922
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1SLI0AB",
+          "sequence": 794,
+          "type": "bullet",
+          "text": "Under owner review",
+          "source_line": 923
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1DB59NP",
+          "sequence": 795,
+          "type": "bullet",
+          "text": "Under consultant review",
+          "source_line": 924
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I00B7VRY",
+          "sequence": 796,
+          "type": "bullet",
+          "text": "Under utility review",
+          "source_line": 925
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1ELPGXD",
+          "sequence": 797,
+          "type": "bullet",
+          "text": "Under AHJ review",
+          "source_line": 926
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CR4JHY",
+          "sequence": 798,
+          "type": "bullet",
+          "text": "Returned approved",
+          "source_line": 927
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I04R49GM",
+          "sequence": 799,
+          "type": "bullet",
+          "text": "Returned approved as noted",
+          "source_line": 928
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I072RO3Y",
+          "sequence": 800,
+          "type": "bullet",
+          "text": "Revise and resubmit",
+          "source_line": 929
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0ZBU4FI",
+          "sequence": 801,
+          "type": "bullet",
+          "text": "Rejected",
+          "source_line": 930
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1V76UVM",
+          "sequence": 802,
+          "type": "bullet",
+          "text": "Resubmitted",
+          "source_line": 931
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1JZOLDE",
+          "sequence": 803,
+          "type": "bullet",
+          "text": "Approved for procurement",
+          "source_line": 932
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0PYGVEM",
+          "sequence": 804,
+          "type": "bullet",
+          "text": "Approved for fabrication",
+          "source_line": 933
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1GMJ9K4",
+          "sequence": 805,
+          "type": "bullet",
+          "text": "Approved for installation",
+          "source_line": 934
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1TTE17O",
+          "sequence": 806,
+          "type": "bullet",
+          "text": "Superseded",
+          "source_line": 935
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I0CZ1HUF",
+          "sequence": 807,
+          "type": "bullet",
+          "text": "Canceled",
+          "source_line": 936
+        },
+        {
+          "item_id": "SSX-SUP-SUBMITTALS-AND-APPROVALS-I1LHDPAC",
+          "sequence": 808,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 937
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5387 @@
+{
+  "department_id": "SSX-SUP-SCHEDULE-MANAGEMENT",
+  "slug": "schedule-management",
+  "title": "Schedule Management",
+  "document_title": "SSX Master Schedule Management Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/schedule-management/MASTER_SCHEDULE_MANAGEMENT_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 39,
+    "items": 700
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Core schedule questions",
+      "path": [
+        "Core schedule questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YX2MUD",
+          "sequence": 1,
+          "type": "table-row",
+          "text": "Field | Required answer",
+          "source_line": 9,
+          "cells": [
+            "Field",
+            "Required answer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0L5I4UE",
+          "sequence": 2,
+          "type": "table-row",
+          "text": "What must happen? | Clearly defined scope, deliverable, decision, procurement step, field operation, inspection, test or milestone",
+          "source_line": 11,
+          "cells": [
+            "What must happen?",
+            "Clearly defined scope, deliverable, decision, procurement step, field operation, inspection, test or milestone"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1C8KRRV",
+          "sequence": 3,
+          "type": "table-row",
+          "text": "Where? | Project, phase, building, floor, room, area, grid, elevation, system or workfront",
+          "source_line": 12,
+          "cells": [
+            "Where?",
+            "Project, phase, building, floor, room, area, grid, elevation, system or workfront"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I072QZP9",
+          "sequence": 4,
+          "type": "table-row",
+          "text": "Who owns it? | One responsible organization and accountable person",
+          "source_line": 13,
+          "cells": [
+            "Who owns it?",
+            "One responsible organization and accountable person"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I133ICIT",
+          "sequence": 5,
+          "type": "table-row",
+          "text": "When? | Planned, forecast, actual, required and contractual dates",
+          "source_line": 14,
+          "cells": [
+            "When?",
+            "Planned, forecast, actual, required and contractual dates"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1A7BNZN",
+          "sequence": 6,
+          "type": "table-row",
+          "text": "Why then? | Logic, access, resource, approval, material, weather, permit or operational constraint",
+          "source_line": 15,
+          "cells": [
+            "Why then?",
+            "Logic, access, resource, approval, material, weather, permit or operational constraint"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1JSI8XG",
+          "sequence": 7,
+          "type": "table-row",
+          "text": "What must happen first? | Physical, contractual, safety, quality, information, procurement or resource predecessor",
+          "source_line": 16,
+          "cells": [
+            "What must happen first?",
+            "Physical, contractual, safety, quality, information, procurement or resource predecessor"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I132PC5D",
+          "sequence": 8,
+          "type": "table-row",
+          "text": "What follows? | Work or milestone released by completion",
+          "source_line": 17,
+          "cells": [
+            "What follows?",
+            "Work or milestone released by completion"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RD4ESX",
+          "sequence": 9,
+          "type": "table-row",
+          "text": "How long? | Original, remaining and actual duration supported by quantities and production",
+          "source_line": 18,
+          "cells": [
+            "How long?",
+            "Original, remaining and actual duration supported by quantities and production"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18TP11R",
+          "sequence": 10,
+          "type": "table-row",
+          "text": "What could prevent it? | Risk, decision, material, labor, access, change, inspection, weather or interface",
+          "source_line": 19,
+          "cells": [
+            "What could prevent it?",
+            "Risk, decision, material, labor, access, change, inspection, weather or interface"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1IPDAVS",
+          "sequence": 11,
+          "type": "table-row",
+          "text": "How is completion proven? | Installed quantity, approved document, delivery, inspection, test, acceptance or signed milestone",
+          "source_line": 20,
+          "cells": [
+            "How is completion proven?",
+            "Installed quantity, approved document, delivery, inspection, test, acceptance or signed milestone"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Recommended SSX schedule fields",
+      "path": [
+        "Recommended SSX schedule fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NPJ0Q1",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Activity ID and name",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11J3SBL",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Activity type and category",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1BZC1SS",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "WBS and control account",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I00PZ0AZ",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Project phase",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0OU2429",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Building, floor, area, room and system",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Q2ZFIO",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "CSI division and trade",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10YE5X6",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Responsible contractor and person",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I03WFZ8E",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Activity description and measurable scope",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12W719I",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Quantity, unit and planned production",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0M0TEW4",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Calendar and shift",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I08EG15G",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Original duration",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MN433Z",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Remaining duration",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18UU3AR",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Percent complete",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1GGSBVV",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Physical percent complete method",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AW6OYW",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Early and late dates",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0OSR9K2",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Total and free float",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0R7WKUZ",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Predecessors and successors",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1NNY1BE",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Relationship types and lags",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12UHCYT",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Constraints and reasons",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YCL651",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Baseline dates",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1Y60S27",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Current planned dates",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LUG9TZ",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Actual start and finish",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FFTM42",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Forecast start and finish",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I01LV6ZT",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Required finish",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1V11FWR",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Contract milestone",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0M6IAWO",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Procurement linkage",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QVNPV5",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Submittal, decision, permit, inspection and testing linkage",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LKXUF6",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Risk and change reference",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QSGD2E",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Recovery or mitigation action",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AMPHJK",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Schedule narrative",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0I45AD3",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Status date and source",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QGBH0X",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Evidence and attachments",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0TXEGPM",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Approval or acceptance status",
+          "source_line": 56
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Schedule activity classifications",
+      "path": [
+        "Schedule activity classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0H25ABN",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Contract milestone",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E82LU0",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Owner milestone",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1V7I9SF",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Design milestone",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0J0K8EE",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Permit milestone",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I076OOUT",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Procurement milestone",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I040PA7R",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Delivery",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I156E5ZI",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Mobilization",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AB3U7Q",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Construction",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AJ7ZWX",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Inspection",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0119DID",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Testing",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MMD1IE",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Commissioning",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0KVK10M",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Turnover",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WR9Y5P",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Decision",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1N9FPB8",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Approval",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15ZKS7W",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Constraint",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WNJJ92",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Level of effort",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y21CHT",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Summary",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12BRUID",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Hammock",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1C1SRNZ",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Recurring activity",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QV3PE7",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Weather allowance",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1HVQAWN",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Risk response",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I170D6W3",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Change",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MLFJ0S",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Recovery",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14CUXL3",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Warranty",
+          "source_line": 83
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Standard schedule-management workflow",
+      "path": [
+        "Standard schedule-management workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1I24T65",
+          "sequence": 69,
+          "type": "numbered",
+          "text": "Review contract scheduling requirements",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0H91OUR",
+          "sequence": 70,
+          "type": "numbered",
+          "text": "Establish scheduling procedures and responsibility",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0XBOE8D",
+          "sequence": 71,
+          "type": "numbered",
+          "text": "Build WBS and coding structure",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09SKODD",
+          "sequence": 72,
+          "type": "numbered",
+          "text": "Identify scope and milestones",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1HFGA0P",
+          "sequence": 73,
+          "type": "numbered",
+          "text": "Break work into measurable activities",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1DNVX19",
+          "sequence": 74,
+          "type": "numbered",
+          "text": "Assign responsibility and locations",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QL97SL",
+          "sequence": 75,
+          "type": "numbered",
+          "text": "Establish calendars",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I08H0MWO",
+          "sequence": 76,
+          "type": "numbered",
+          "text": "Develop durations from quantities and production",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I01WA3D3",
+          "sequence": 77,
+          "type": "numbered",
+          "text": "Develop logic and constraints",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1PBFJFW",
+          "sequence": 78,
+          "type": "numbered",
+          "text": "Integrate design, procurement, approvals and construction",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1BJX380",
+          "sequence": 79,
+          "type": "numbered",
+          "text": "Perform schedule quality review",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RC9599",
+          "sequence": 80,
+          "type": "numbered",
+          "text": "Establish baseline",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PMEGXQ",
+          "sequence": 81,
+          "type": "numbered",
+          "text": "Collect progress at each status date",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NNWM1D",
+          "sequence": 82,
+          "type": "numbered",
+          "text": "Validate field status",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YNHFLT",
+          "sequence": 83,
+          "type": "numbered",
+          "text": "Update actuals, remaining durations and logic",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1DK6FTR",
+          "sequence": 84,
+          "type": "numbered",
+          "text": "Recalculate and analyze",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05S8786",
+          "sequence": 85,
+          "type": "numbered",
+          "text": "Forecast milestones and completion",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1VXS451",
+          "sequence": 86,
+          "type": "numbered",
+          "text": "Identify critical and near-critical paths",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0V2ERKN",
+          "sequence": 87,
+          "type": "numbered",
+          "text": "Develop mitigation or recovery",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1543DN8",
+          "sequence": 88,
+          "type": "numbered",
+          "text": "Issue update and narrative",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NQL4BJ",
+          "sequence": 89,
+          "type": "numbered",
+          "text": "Maintain look-ahead and weekly plans",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1798NXR",
+          "sequence": 90,
+          "type": "numbered",
+          "text": "Incorporate approved changes",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CAKJUK",
+          "sequence": 91,
+          "type": "numbered",
+          "text": "Analyze delays and time impacts",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10CEOD8",
+          "sequence": 92,
+          "type": "numbered",
+          "text": "Record as-built schedule",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XR7YAL",
+          "sequence": 93,
+          "type": "numbered",
+          "text": "Complete final schedule reconciliation and archive",
+          "source_line": 111
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Contract and specification review",
+      "path": [
+        "Contract and specification review"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LSEMXR",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Identify required schedule software and format",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09V0CKK",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Identify required submission dates",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1SCOC8F",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Identify baseline requirements",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AQHCCX",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Identify update frequency",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0TM2GMZ",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Identify data-date requirements",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0O3QRSC",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Identify coding requirements",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I119JBNF",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Identify maximum activity duration",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I04G8R03",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Identify logic and constraint rules",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I070XSQ0",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Identify calendar requirements",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1F0XRLM",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Identify cost and resource loading",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WPMOCF",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Identify schedule narrative requirements",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0UJ9CQI",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Identify recovery-schedule triggers",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0GSVAVX",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Identify time-impact-analysis procedures",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I01L06RF",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Identify float ownership provisions",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CEISKI",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Identify weather requirements",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1S1EFP3",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Identify schedule acceptance process",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Q9UDBR",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Identify payment linkage",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LU2TPS",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Identify as-built schedule requirements",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TDFBFK",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Prepare scheduling compliance checklist",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ND39CW",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Conduct schedule kickoff",
+          "source_line": 134
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Work breakdown structure",
+      "path": [
+        "Work breakdown structure"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NXP9HM",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Project level",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OS8KPY",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Contract phase",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0CE3VWY",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Design phase",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0P2UF0C",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Permit package",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B9ML23",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Procurement package",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I020ET1N",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Building",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QZLX9I",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Floor or level",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1SU3V17",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Area or zone",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0BBEPMM",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "System",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1I2S93B",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "CSI division",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I079QHY6",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Trade contractor",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0GP7WJI",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Work package",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Q7CO1E",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Turnover package",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QM4VFN",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Commissioning system",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0XQQSLW",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Milestone group",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1A8U9I7",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Create WBS dictionary",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0V9HEZU",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Assign coding standards",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I08KFPXU",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Control revisions to structure",
+          "source_line": 155
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Milestone development",
+      "path": [
+        "Milestone development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MCSK2Q",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Notice to proceed",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LQPXUG",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Design authorization",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0JU0DG6",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Design-stage approvals",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0IU5C4P",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Permit submissions",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1PK3VKC",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Permit approvals",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WBLXLR",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Early-release packages",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1UK5F6C",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Long-lead releases",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PW9AEM",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Mobilization",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1DG5ZJ2",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Site access",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11F9WTC",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Utility availability",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I19RLJEU",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Foundations complete",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XS155K",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Structure topped out",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12J3BZO",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Dry-in",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0EFWJAU",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Permanent power",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18TO5X7",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Building conditioned",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I17TV4NX",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Area ready for finishes",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1S93AI4",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Equipment startup",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HG8JKE",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Commissioning readiness",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18AR2ET",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Substantial completion",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0XB7CJN",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "TCO",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0OFM2UX",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "CO",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1GM21ZR",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Phased turnover",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YRBH1H",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Owner move-in",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0O8U2BD",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Final completion",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11F7T1M",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Warranty milestones",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I059ZURE",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Define milestone acceptance evidence",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0D7VQYW",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Confirm contractual dates",
+          "source_line": 185
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Activity development",
+      "path": [
+        "Activity development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OVTRVS",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Define measurable scope",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1T1X89T",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Limit activity size",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1UHSYEE",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Identify exact location",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11HRN8X",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Assign one responsible party",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1V7XIHR",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Define physical completion criteria",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1U47I5M",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Identify quantity and unit",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13V4KE7",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Calculate production rate",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I075Z6UK",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Calculate duration",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WW9YLY",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Identify crew or resource assumptions",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0D1RDBA",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Select calendar",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0J94TLN",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Identify predecessor requirements",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0TMCRU8",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Identify successor releases",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WKAJMD",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Link drawings, specifications and work package",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1RI15ZA",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Separate procurement and approvals",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1K7SV8O",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Separate inspection and testing",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B9SKVO",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Separate commissioning and turnover",
+          "source_line": 204
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1VJPE2V",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Review for missing scope",
+          "source_line": 205
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Duration development",
+      "path": [
+        "Duration development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1V1S2UC",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Measure quantities",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10MEC93",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Establish crew composition",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y8IXHM",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Establish normal production",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0CZCY70",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Apply learning curve",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1X94SCX",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Apply access and congestion factors",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RVPFBK",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Apply shift and calendar",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WSZIOL",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Apply weather effects",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I121HSM8",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Apply cure and wait periods",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10V6818",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Apply testing and approval durations",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14G3E7K",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Apply mobilization and setup",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RPSJTS",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Apply cleanup and demobilization",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1HAQIGT",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Validate with trade partner",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0K8FRLF",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Compare historical production",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16B1SES",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Document assumptions",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1M2JA7Q",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Revisit duration after actual production",
+          "source_line": 223
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Logic development",
+      "path": [
+        "Logic development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OHT7BN",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Physical sequence",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0T5QN3Y",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Safety sequence",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I01A6TV6",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Access sequence",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0UH7KU5",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Structural sequence",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I013GAEG",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Weather-tightness sequence",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0606OCI",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Temporary-works sequence",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10DG6RC",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Resource sequence",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14F44K4",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Procurement sequence",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1GG7EHH",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Submittal and approval sequence",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B1E8WE",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Permit and inspection sequence",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0UKVT0Q",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Testing sequence",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LU18OF",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Commissioning sequence",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1E2PN27",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Turnover sequence",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0EFFRPK",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Owner-decision sequence",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TAJYQQ",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Utility sequence",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0456EHS",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Location-flow sequence",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B1O49J",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Validate relationship type",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12NT0EA",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Minimize unnecessary lags",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HQ6TYI",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Avoid open ends",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1K19GA1",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Document external constraints",
+          "source_line": 246
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Calendars and shifts",
+      "path": [
+        "Calendars and shifts"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XIULAP",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Standard five-day calendar",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10GRBZW",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Six-day calendar",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I08SV8GV",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Seven-day calendar",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1APK347",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Day shift",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0DSUWYB",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Night shift",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HIS74S",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Multiple shifts",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02HC6DT",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Holiday calendar",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1EG1W2Y",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Owner-restricted workdays",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QV30DU",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Jurisdiction work restrictions",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02SK2GZ",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Seasonal calendar",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I17X789Q",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Weather-sensitive calendar",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RRV9GL",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Concrete cure calendar",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YZYHAZ",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Fabrication calendar",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TENG99",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Shipping calendar",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1POV2ZV",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Utility-company calendar",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16L6SWL",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Inspection calendar",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0OV2Y8W",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Commissioning calendar",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MK5U52",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Define work hours",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09L12H2",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Define exceptions",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1UU6XFY",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Update annually",
+          "source_line": 269
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Baseline schedule development",
+      "path": [
+        "Baseline schedule development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0O74R3J",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Develop preliminary schedule",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1ESFYJL",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Conduct trade pull planning",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1HXHX4J",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Integrate design schedule",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12X836J",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Integrate procurement schedule",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05UIQ8S",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Integrate permit schedule",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FRSTCQ",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Integrate construction schedule",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I003GUFJ",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Integrate commissioning and turnover",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0K3UC1G",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Integrate owner activities",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11L5GQB",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Add contractual milestones",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FZTXW6",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Load costs when required",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YXWA01",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Load resources when required",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14UDHAM",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Run schedule calculation",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LKDG69",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Review critical path",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NX2ID5",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Review near-critical paths",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09VMYU7",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Perform schedule health check",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PTRU03",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Review with project team",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0X5W32K",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Review with trade partners",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I054P2CR",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Reconcile comments",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02IVWWC",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Obtain internal approval",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PMSPRG",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Submit baseline",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11J8HB6",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Respond to owner comments",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05XRKGV",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Obtain acceptance",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1F7J0Y8",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Freeze approved baseline",
+          "source_line": 295
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Schedule quality checks",
+      "path": [
+        "Schedule quality checks"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I08MVZVA",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "No missing scope",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0IVMUC7",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "No duplicate scope",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0N8M4ZO",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "No invalid dates",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0X94LIS",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "No open-ended activities",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OSX7I8",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "No excessive durations",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YJH602",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "No unjustified constraints",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1RK7R6I",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "No negative lags",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OBZTBO",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Minimal use of positive lags",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1J4H9YR",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Logical relationship types",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1RNPR6B",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Reasonable float",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I04NRVSU",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Continuous critical path",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1HWYAEA",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Correct calendars",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05I01DZ",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Correct status date",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0P432CL",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Actual dates before data date",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1ACGSXZ",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "No progress after data date unless permitted",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VK2BN2",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "No out-of-sequence anomalies unresolved",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0EHCRV0",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Reasonable remaining durations",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0L7VDVH",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Milestones tied to acceptance evidence",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0GJ6L7Q",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Coding complete",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1RGB8OP",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Schedule narrative reconciled to data",
+          "source_line": 318
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Progress measurement plan",
+      "path": [
+        "Progress measurement plan"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I06LYRV3",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Define status date",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I00SPFDW",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Define update cycle",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E4XBYI",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Define physical progress rules",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0IZVR2C",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Define quantity-based measurement",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QMFSMZ",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Define milestone-weighted measurement",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y9CSP4",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Define installed-work evidence",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CHUWID",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Define procurement progress rules",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05AXOPR",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Define design progress rules",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XBQB7F",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Define level-of-effort rules",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18J2PCI",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Define actual start criteria",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1IMUA5X",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Define actual finish criteria",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1DSD8CO",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Define responsibility for status",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Q2D0FF",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Define cutoff dates",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0JW0KZ5",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Define approval workflow",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16P6MHI",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Define late-data treatment",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0UEZSZI",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Train reporting parties",
+          "source_line": 337
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Schedule update cycle",
+      "path": [
+        "Schedule update cycle"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TR11O6",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Issue status request",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YQP4QQ",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Collect trade updates",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1NBA056",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Conduct field walks",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I04WHH9D",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Validate actual starts",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B0T8ZN",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Validate actual finishes",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02SL4WP",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Validate installed quantities",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1L1YPO8",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Update remaining durations",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1DK4LNI",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Update physical percent complete",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0D351BJ",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Update logic",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I17KQJQG",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Record out-of-sequence progress",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VQCBHV",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Update procurement",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15UFAWJ",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Update submittals and decisions",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OGCL3R",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Update permits and inspections",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ASC40Q",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Update commissioning",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0V3ZY0W",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Incorporate approved changes",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0H1D714",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Add newly identified work",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0IV4NXC",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Recalculate schedule",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1I8K19K",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Review critical path",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I108ZO65",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Review milestone variance",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I08CB2HI",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Conduct update review meeting",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0A6BJHV",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Correct status errors",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OSVAL5",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Prepare narrative",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1U71TJ5",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Submit update",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FSEWH8",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Respond to review comments",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FHLKNX",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Publish accepted update",
+          "source_line": 365
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Field progress validation",
+      "path": [
+        "Field progress validation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PCG7M1",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Daily superintendent review",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AQI8T8",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Weekly trade walk",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0M93AHZ",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Quantity measurement",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I015HQCI",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Drone or photographic verification",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E8Z07K",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Inspection record verification",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y4OVV5",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Delivery verification",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18ZO3CF",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Test-result verification",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1J8ID5V",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Crew and production review",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I114K84J",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Compare daily reports",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0553SES",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Compare payment quantities",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HC7CUG",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Verify concealed work",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TTIK5V",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Confirm blocked work",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16SXOV9",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Confirm actual dates with responsible trade",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I03JA9GU",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Resolve conflicting status",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I00Q01GL",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Preserve status evidence",
+          "source_line": 383
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Look-ahead planning",
+      "path": [
+        "Look-ahead planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0GD4WEM",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Create six-week look-ahead",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0O70D46",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Create three-week look-ahead",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0GZZSSB",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Create weekly work plan",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MOC2MC",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Break master activities into field tasks",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05NKTU9",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Confirm area readiness",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0XGDKL0",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Confirm drawings and submittals",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TAAN3Q",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Confirm materials",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10JNPF7",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Confirm labor and equipment",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QP6636",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Confirm permits and inspections",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02AXBHV",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Confirm safety planning",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1F82GRD",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Confirm quality hold points",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MP9TS5",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Confirm predecessor completion",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MVLFZ4",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Identify constraints",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0G6NU7K",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Assign constraint removal",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CVBDNG",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Set promise dates",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13UW141",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Conduct weekly planning meeting",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0B033UN",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Measure plan reliability",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I19Y8W7H",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Feed field results back to master schedule",
+          "source_line": 404
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Constraint management",
+      "path": [
+        "Constraint management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I11203D3",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Design constraint",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I07MBB14",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Owner decision constraint",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LXZTNQ",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Submittal constraint",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FKG2PN",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Procurement constraint",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1L938MK",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Permit constraint",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LDQS79",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Utility constraint",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LNK65R",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Access constraint",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LTUJ9N",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Labor constraint",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VMWOZL",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Equipment constraint",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FAD706",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Predecessor constraint",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0JDXZK3",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Inspection constraint",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I17NWZ6T",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Testing constraint",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18UZ4BN",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Safety constraint",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MRUT9D",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Environmental constraint",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I03Y1LW1",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Weather constraint",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1O5I39H",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Change constraint",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0T5HHDY",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Funding constraint",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I105E12C",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Assign owner",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I19DFJSL",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Establish need-by date",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0KCYVEP",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Track removal",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0JU2O8L",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Escalate overdue constraint",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I04RE976",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Link to affected activities",
+          "source_line": 429
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Critical-path analysis",
+      "path": [
+        "Critical-path analysis"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0KZ1R88",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Identify longest path",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1904QIV",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Identify contractual critical path",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15DYS0J",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Identify near-critical paths",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1W0ME1R",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Review driving relationships",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VM1PFA",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Validate actual field sequence",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0B4ZTMD",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Review calendar effects",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CETWB7",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Review constraints",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0KARRZ0",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Review negative float",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1N07IMA",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Review multiple critical paths",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LEEW3M",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Review milestone drivers",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0B8PIHM",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Review procurement drivers",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AJRG4E",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Review owner-decision drivers",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E6651C",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Review utility and AHJ drivers",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1P0XYQJ",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Compare prior update",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14R9E88",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Explain critical-path changes",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12OEFAT",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Develop action plan",
+          "source_line": 448
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Float and variance analysis",
+      "path": [
+        "Float and variance analysis"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FRQS9G",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Calculate total float",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WO27K8",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Calculate free float",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WLMB7P",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Identify negative float",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1V25HH3",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Compare baseline and current dates",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0O4ULMN",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Calculate start variance",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VDQPAE",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Calculate finish variance",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I17APXUX",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Calculate milestone variance",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14E34QW",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Identify consumed float",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1J7FS10",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Identify gained float",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0P8WZR1",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Identify near-critical exposure",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1GE6XLX",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Review float ownership requirements",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1S1U96K",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Separate variance from delay entitlement",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I00TKSP9",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Explain material changes",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FW6DII",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Forecast trend",
+          "source_line": 465
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Forecasting",
+      "path": [
+        "Forecasting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0V5JXFK",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Forecast activity starts",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1M7LN9I",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Forecast activity finishes",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12QCULS",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Forecast procurement deliveries",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1D0XAN9",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Forecast inspections",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TMCK96",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Forecast system startup",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WVTZY0",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Forecast turnover packages",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QIX4JW",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Forecast substantial completion",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I012MEXB",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Forecast TCO/CO",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0UE0JC4",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Forecast final completion",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LS2C8N",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Forecast cash flow",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I03VWSLB",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Forecast labor demand",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1I7CU1L",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Forecast equipment demand",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1KMS1HU",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Develop best-case forecast",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0SWNUYF",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Develop most-likely forecast",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VK1JZD",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Develop risk-adjusted forecast",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1UQ09MR",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Update forecast at each cycle",
+          "source_line": 484
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Resource and production planning",
+      "path": [
+        "Resource and production planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1K6BU7M",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Load labor by trade",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1T6HGQL",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Load equipment",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1P0GVRA",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Load major materials",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I180C4QH",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Create manpower curve",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0UDT4RY",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Create production targets",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RJAVY7",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Identify resource peaks",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0N5X2MD",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Identify trade stacking",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ZZWDWV",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Identify workspace conflicts",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E9KZCB",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Level resources when appropriate",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1P67PND",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Compare planned and actual labor",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1VUN92I",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Compare planned and actual production",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TI5OEU",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Calculate productivity trend",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05121M2",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Adjust remaining duration",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I01K6YGB",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Develop staffing recovery",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WRXHM8",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Coordinate shared equipment",
+          "source_line": 502
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Cost-loaded schedule activities",
+      "path": [
+        "Cost-loaded schedule activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18IWSBT",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Develop schedule of values alignment",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NTUAWH",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Assign cost accounts",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E1RUZF",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Allocate budget to activities",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0GGPQV8",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Validate cost distribution",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y5YHSB",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Load approved changes",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I17IPU06",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Calculate planned value",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16ISMTD",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Calculate earned value",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MQHD51",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Calculate actual cost when available",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YTZQQ3",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Forecast cash flow",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I01GG4M7",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Reconcile with pay application",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0A3UKZ8",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Prevent front loading",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1ECCBTR",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Update remaining cost",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WQTHPI",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Produce cost curves",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I165BGD6",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Close cost accounts",
+          "source_line": 519
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Procurement schedule management",
+      "path": [
+        "Procurement schedule management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I07SRX1X",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Identify long-lead items",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QAXD06",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Establish procurement chain",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AJYV62",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Link submittal preparation",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I06B9WW0",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Link design review",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14QJ277",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Link owner selection",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1O7HZEG",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Link purchase release",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1C4W4TC",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Link fabrication",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MEA30W",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Link factory testing",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02B5KVN",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Link shipping and delivery",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09075QA",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Link receiving inspection",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PBPKII",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Link installation",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0R6F2I1",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Track supplier updates",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I07UG2RI",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Validate promised dates",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0BCBUJN",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Analyze procurement risk",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0BUCWDF",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Develop expediting plan",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1PW1KVQ",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Update monthly",
+          "source_line": 538
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Design and approval schedule management",
+      "path": [
+        "Design and approval schedule management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1958XHP",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Establish deliverable schedule",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0XXS905",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Link design inputs",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I19NV1AM",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Link owner decisions",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1E5DERP",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Link design reviews",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B5YTZG",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Link revisions",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FHIZNO",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Link permit reviews",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0EI62CI",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Link submittal reviews",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1J6YRJ9",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Link RFI responses",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HO58A7",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Link delegated design",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I00AIU7L",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Link BIM coordination",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YTX0BG",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Link design release to procurement",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1PQJWQZ",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Link design release to construction",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LM4PAX",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Track overdue responses",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0EEZPIR",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Calculate decision need-by dates",
+          "source_line": 555
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Weather planning and status",
+      "path": [
+        "Weather planning and status"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0C5YA8D",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Establish weather calendar",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MPQVQI",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Establish expected adverse-weather allowance",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WNXMZF",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Record actual weather",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FOJZ5Q",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Record affected work",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MY4766",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Record lost hours and shifts",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0DV9VCA",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Record mitigation",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I099XPSU",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Distinguish weather occurrence from impact",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LVSLO3",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Update weather-sensitive activities",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0C5WE0I",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Forecast seasonal exposure",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B4LAAM",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Analyze extraordinary weather",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1E21E1L",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Preserve supporting records",
+          "source_line": 569
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Change integration",
+      "path": [
+        "Change integration"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I079P743",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Create change activity or fragnet",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I153HHME",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Identify impact point",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OUYMU7",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Develop design and approval logic",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0TOZH0J",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Develop procurement logic",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1EXWTJE",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Develop construction logic",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1TW7JZT",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Develop testing and turnover logic",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I03LBV7P",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Estimate durations",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1B0384Z",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Insert into current schedule",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09LV2HF",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Analyze effect",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1SUY9OD",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Review mitigation",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I087KZ1Y",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Obtain approval",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14F0H93",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Incorporate authorized change",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1Q0E1X3",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Track actual performance",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OKIFWI",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Preserve baseline comparison",
+          "source_line": 586
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Time-impact analysis",
+      "path": [
+        "Time-impact analysis"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0DQDPVU",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Confirm analysis requirements",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ZWLL0B",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Establish valid schedule update",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1RFKU1H",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Establish impact date",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1JBKUM5",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Define change or delay event",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05A0Z1Y",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Develop fragnet",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18C3XWD",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Document assumptions",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05VSVST",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Insert fragnet at proper point",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0N2SWO7",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Recalculate",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I193ALH7",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Identify milestone effect",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15YWT2V",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Analyze concurrency",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14PZ8EZ",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Analyze mitigation",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0N6BXHM",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Analyze float",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13857M0",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Review with responsible parties",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I04RMVIT",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Revise as required",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I19EWBLC",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Submit time request",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10A3UYI",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Resolve comments",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1V3LEOF",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Incorporate agreed time",
+          "source_line": 606
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Delay documentation",
+      "path": [
+        "Delay documentation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1NHVDWJ",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Issue required notice",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0DZU2K5",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Identify event start",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1EKW28O",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Identify affected activities",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y92J7P",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Identify responsible party",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1BC3LAV",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Record labor and equipment",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QIPDA2",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Record work available",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15LZE4V",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Record mitigation",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0TBSE4O",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Maintain daily photographs",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CYB5HH",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Preserve correspondence",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1QDMXC4",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Preserve schedule updates",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I00AA0E1",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Track event end",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I122XRIZ",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Analyze actual impact",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0DC1L49",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Distinguish critical and noncritical effect",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0CDFA8S",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Evaluate concurrent delay",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0WC6IS3",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Prepare delay chronology",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13GPJR1",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Link to claim or change",
+          "source_line": 625
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Recovery schedule",
+      "path": [
+        "Recovery schedule"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I14UMYK7",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Identify recovery trigger",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1VB88LO",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Validate current forecast",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I06DYF0P",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Identify recoverable activities",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0I8F4YW",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Review logic and sequence",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LVK2V7",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Review added shifts",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1F1635O",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Review added crews",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1Q5OSGF",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Review overtime",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16JWTIG",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Review alternate methods",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PR6SSX",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Review prefabrication",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I07HGD2O",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Review expedited procurement",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FABBB2",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Review design acceleration",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0W50786",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Review phased turnover",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VY7VMG",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Quantify cost and risk",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02ZZA5X",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Develop recovery schedule",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0NV8IRE",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Establish interim milestones",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1PJZ49F",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Obtain commitments",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1SU2OIA",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Submit recovery plan",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I010QXDX",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Track recovery weekly",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1W6JQBU",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Measure actual gains",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1Q2MFXZ",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Revise if ineffective",
+          "source_line": 648
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Schedule compression and acceleration",
+      "path": [
+        "Schedule compression and acceleration"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FKCNOL",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Fast-track design packages",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I162PAU5",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Overlap design and construction",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16IAFHO",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Expedite approvals",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0XKFLKA",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Expedite procurement",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PE8RZP",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Air freight",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1UBNOOM",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Add shifts",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I196YMOB",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Add crews",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I148PJ8T",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Add equipment",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HORRBV",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Increase workfaces",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I122VOUN",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Resequence work",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1M6MRXH",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Use alternate materials",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0E43HEU",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Prefabricate",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RT4GY0",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Use temporary systems",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ICTAEQ",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Phase inspections",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MWT1V0",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Phase occupancy",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0CWNIXF",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Document directed acceleration",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0CIHLLA",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Monitor safety and quality",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1YHZUM9",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Measure productivity loss",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0CVR6PS",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Reforecast completion",
+          "source_line": 670
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Schedule meetings",
+      "path": [
+        "Schedule meetings"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I030EM4V",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Schedule kickoff",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0995OIF",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Baseline workshop",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15TAS7G",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Pull-planning session",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1EFL4OE",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Trade schedule review",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YE1XTY",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Weekly planning meeting",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0BINH9S",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Six-week look-ahead meeting",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1GY5P1A",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Monthly update meeting",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1GFDSEF",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Procurement review",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1ET88PC",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Design schedule review",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13A96XA",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Owner decision review",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AOFIRW",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Critical-path review",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0THK3SM",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Risk review",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1NBXPW7",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Recovery meeting",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1N2NQ42",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Time-impact workshop",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0FYEX6D",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Executive milestone review",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0M4EKFR",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Commissioning schedule review",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I04WJWI4",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Turnover planning meeting",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YEOLET",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Record decisions and actions",
+          "source_line": 691
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Schedule reporting",
+      "path": [
+        "Schedule reporting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0DD7DG9",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Executive milestone dashboard",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I19Q8EFG",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Critical-path report",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1P4HGUH",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Near-critical report",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0478JWY",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Variance report",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MJXOOG",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Look-ahead",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0BX8H86",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Constraint log",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FV5O2R",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Procurement report",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AHN00V",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Design and approval report",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1BPIP1O",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Manpower report",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PB3FZ6",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Production report",
+          "source_line": 704
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AAAQ8T",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Weather report",
+          "source_line": 705
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I181NXXM",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Change-impact report",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I013PB5I",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Recovery report",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1A3LS3H",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Risk forecast",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VKMC3Y",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Earned-value report",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0249U0C",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Cash-flow curve",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I06AWO20",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Schedule narrative",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XV2ZRR",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "As-built comparison",
+          "source_line": 712
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Schedule narrative content",
+      "path": [
+        "Schedule narrative content"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0901EJX",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Reporting period",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0B0FSJO",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Status date",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y8W0DY",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Work completed",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1WU5K6P",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Work in progress",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ED9KWY",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Work planned next",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0POVVUA",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Milestone status",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AXH0X3",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Critical-path description",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YZS8YM",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Near-critical paths",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15ZORJN",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Major variances",
+          "source_line": 724
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QNQREN",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Changes incorporated",
+          "source_line": 725
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ZDAXX4",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Delays and impacts",
+          "source_line": 726
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Q8DT90",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Weather effects",
+          "source_line": 727
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1Q3DVK6",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Procurement status",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MM2EYA",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Design and approval status",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1MOZQFI",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Recovery actions",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0RTQ7ZM",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Risks and opportunities",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1AE4WII",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Decisions required",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ABLU2E",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Basis of forecast",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0PAH6F7",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Data limitations",
+          "source_line": 734
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Schedule status values",
+      "path": [
+        "Schedule status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0SIYR8V",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Not started",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I148AMGK",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Ready",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0N9KB8B",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "Constrained",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1FDL8F9",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "Planned",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HN2Z45",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "In progress",
+          "source_line": 742
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0ALIR4Y",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Suspended",
+          "source_line": 743
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0LL8CD5",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Delayed",
+          "source_line": 744
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I07R8V8D",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Out of sequence",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12TB9L2",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Recovery",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I15SHW3M",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Complete",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HQG11B",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Pending verification",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1LHMIRK",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "Accepted",
+          "source_line": 749
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I03RMDVW",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Forecast late",
+          "source_line": 750
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05POCZS",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Critical",
+          "source_line": 751
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1HQLDJK",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Near critical",
+          "source_line": 752
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XTG12C",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Negative float",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y1SW2K",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Cancelled",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09FJYN1",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Superseded",
+          "source_line": 755
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G036",
+      "sequence": 36,
+      "level": 2,
+      "title": "As-built schedule",
+      "path": [
+        "As-built schedule"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I060IRE1",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Preserve each accepted update",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0N9A4JY",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Maintain actual dates",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1D0GFRS",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "Maintain actual sequence",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0I8KKER",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "Record suspensions and resumptions",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13RIWSS",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "Record weather impacts",
+          "source_line": 763
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VJEF2P",
+          "sequence": 650,
+          "type": "bullet",
+          "text": "Record change implementation",
+          "source_line": 764
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I12DTA1P",
+          "sequence": 651,
+          "type": "bullet",
+          "text": "Record inspections and testing",
+          "source_line": 765
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0M8GEWL",
+          "sequence": 652,
+          "type": "bullet",
+          "text": "Record phased turnover",
+          "source_line": 766
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1CW3O85",
+          "sequence": 653,
+          "type": "bullet",
+          "text": "Reconcile missing actual dates",
+          "source_line": 767
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1SAAYDH",
+          "sequence": 654,
+          "type": "bullet",
+          "text": "Add explanatory notes",
+          "source_line": 768
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0MOIQOQ",
+          "sequence": 655,
+          "type": "bullet",
+          "text": "Validate with records",
+          "source_line": 769
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1JV9SYF",
+          "sequence": 656,
+          "type": "bullet",
+          "text": "Produce final longest path",
+          "source_line": 770
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1DJPBD5",
+          "sequence": 657,
+          "type": "bullet",
+          "text": "Compare baseline to actual",
+          "source_line": 771
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0D9YAEG",
+          "sequence": 658,
+          "type": "bullet",
+          "text": "Archive native and PDF formats",
+          "source_line": 772
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AWAAP3",
+          "sequence": 659,
+          "type": "bullet",
+          "text": "Support lessons learned",
+          "source_line": 773
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G037",
+      "sequence": 37,
+      "level": 2,
+      "title": "Schedule closeout",
+      "path": [
+        "Schedule closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0L923TV",
+          "sequence": 660,
+          "type": "bullet",
+          "text": "Confirm all actual starts and finishes",
+          "source_line": 777
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I015V1AU",
+          "sequence": 661,
+          "type": "bullet",
+          "text": "Confirm milestone acceptance",
+          "source_line": 778
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I16OCNY9",
+          "sequence": 662,
+          "type": "bullet",
+          "text": "Reconcile approved time extensions",
+          "source_line": 779
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10JIAHP",
+          "sequence": 663,
+          "type": "bullet",
+          "text": "Reconcile final completion",
+          "source_line": 780
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10YUX2M",
+          "sequence": 664,
+          "type": "bullet",
+          "text": "Complete final narrative",
+          "source_line": 781
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1OO1A2A",
+          "sequence": 665,
+          "type": "bullet",
+          "text": "Complete as-built schedule",
+          "source_line": 782
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YB45CD",
+          "sequence": 666,
+          "type": "bullet",
+          "text": "Archive baseline and updates",
+          "source_line": 783
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0AHU3XD",
+          "sequence": 667,
+          "type": "bullet",
+          "text": "Archive calendars and coding",
+          "source_line": 784
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1343DWF",
+          "sequence": 668,
+          "type": "bullet",
+          "text": "Archive schedule logs",
+          "source_line": 785
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YUKZ63",
+          "sequence": 669,
+          "type": "bullet",
+          "text": "Document major variances",
+          "source_line": 786
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I197GSPT",
+          "sequence": 670,
+          "type": "bullet",
+          "text": "Document production history",
+          "source_line": 787
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0J5QPDQ",
+          "sequence": 671,
+          "type": "bullet",
+          "text": "Document delay events",
+          "source_line": 788
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I021MTR1",
+          "sequence": 672,
+          "type": "bullet",
+          "text": "Capture lessons learned",
+          "source_line": 789
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0K186CD",
+          "sequence": 673,
+          "type": "bullet",
+          "text": "Transfer warranty activities",
+          "source_line": 790
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I09OVD0B",
+          "sequence": 674,
+          "type": "bullet",
+          "text": "Close schedule-management process",
+          "source_line": 791
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G038",
+      "sequence": 38,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0EL9EL8",
+          "sequence": 675,
+          "type": "bullet",
+          "text": "Contract requirements → schedule procedures",
+          "source_line": 795
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0IGX5V4",
+          "sequence": 676,
+          "type": "bullet",
+          "text": "WBS and scope → activity development",
+          "source_line": 796
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I10YVN5J",
+          "sequence": 677,
+          "type": "bullet",
+          "text": "Activities and durations → logic development",
+          "source_line": 797
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0HD1XXK",
+          "sequence": 678,
+          "type": "bullet",
+          "text": "Integrated schedule → quality review",
+          "source_line": 798
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1NTJOKF",
+          "sequence": 679,
+          "type": "bullet",
+          "text": "Quality review → baseline submission",
+          "source_line": 799
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I05ZUJ4M",
+          "sequence": 680,
+          "type": "bullet",
+          "text": "Baseline acceptance → progress updates",
+          "source_line": 800
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1M7LWMH",
+          "sequence": 681,
+          "type": "bullet",
+          "text": "Field status → schedule calculation",
+          "source_line": 801
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I18DLV4W",
+          "sequence": 682,
+          "type": "bullet",
+          "text": "Analysis → mitigation and forecast",
+          "source_line": 802
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XWEFGP",
+          "sequence": 683,
+          "type": "bullet",
+          "text": "Approved change → schedule integration",
+          "source_line": 803
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YVRFSK",
+          "sequence": 684,
+          "type": "bullet",
+          "text": "Delay event → time-impact analysis",
+          "source_line": 804
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I010YZIE",
+          "sequence": 685,
+          "type": "bullet",
+          "text": "Late forecast → recovery schedule",
+          "source_line": 805
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I02PAN46",
+          "sequence": 686,
+          "type": "bullet",
+          "text": "Final actuals → as-built schedule",
+          "source_line": 806
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YEU342",
+          "sequence": 687,
+          "type": "bullet",
+          "text": "Accepted as-built → schedule closeout",
+          "source_line": 807
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-SCHEDULE-MANAGEMENT-G039",
+      "sequence": 39,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0VB3CYQ",
+          "sequence": 688,
+          "type": "bullet",
+          "text": "Use one consistent data date for each update.",
+          "source_line": 811
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0Y499V7",
+          "sequence": 689,
+          "type": "bullet",
+          "text": "Base progress on observable evidence.",
+          "source_line": 812
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1U8XKRG",
+          "sequence": 690,
+          "type": "bullet",
+          "text": "Separate actual dates, current plan and forecast.",
+          "source_line": 813
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1IHQH91",
+          "sequence": 691,
+          "type": "bullet",
+          "text": "Connect every activity with valid logic except approved project endpoints.",
+          "source_line": 814
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I13P458N",
+          "sequence": 692,
+          "type": "bullet",
+          "text": "Avoid hard constraints unless contractually or physically required.",
+          "source_line": 815
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1ML4RNO",
+          "sequence": 693,
+          "type": "bullet",
+          "text": "Make activity names specific enough to identify action and location.",
+          "source_line": 816
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0JXB8YE",
+          "sequence": 694,
+          "type": "bullet",
+          "text": "Tie durations to quantities, production and calendars.",
+          "source_line": 817
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1XNY5PQ",
+          "sequence": 695,
+          "type": "bullet",
+          "text": "Track decisions, design, procurement, inspections and turnover—not only field installation.",
+          "source_line": 818
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0KE40T4",
+          "sequence": 696,
+          "type": "bullet",
+          "text": "Explain critical-path and milestone changes every update.",
+          "source_line": 819
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I096S2C2",
+          "sequence": 697,
+          "type": "bullet",
+          "text": "Preserve approved baselines and prior updates.",
+          "source_line": 820
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I1PUYJQT",
+          "sequence": 698,
+          "type": "bullet",
+          "text": "Incorporate authorized changes without rewriting historical performance.",
+          "source_line": 821
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0YGZAVQ",
+          "sequence": 699,
+          "type": "bullet",
+          "text": "Treat recovery as measurable commitments, not an optimistic finish date.",
+          "source_line": 822
+        },
+        {
+          "item_id": "SSX-SUP-SCHEDULE-MANAGEMENT-I0QFGRYN",
+          "sequence": 700,
+          "type": "bullet",
+          "text": "Maintain a reliable as-built record throughout the project.",
+          "source_line": 823
+        }
+      ]
+    }
+  ]
+}

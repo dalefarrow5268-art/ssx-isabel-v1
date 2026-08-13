@@ -1,0 +1,5534 @@
+{
+  "department_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT",
+  "slug": "turnover-and-closeout",
+  "title": "Turnover And Closeout",
+  "document_title": "SSX Master Construction Turnover and Closeout Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/turnover-and-closeout/MASTER_TURNOVER_AND_CLOSEOUT.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 36,
+    "items": 732
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YKIA8Q",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project, phase, building, floor, area, room and system",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WRJZVV",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Activity, deliverable and closeout classification",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I10TL1QW",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Responsible contractor, subcontractor, vendor and person",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12JDCSM",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Required reviewer, approver, witness and recipient",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AU2KVT",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Contract, specification, permit or owner requirement",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I192NQQ2",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Required format, naming and metadata",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0OX3TKO",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Planned and actual submission dates",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZI5XHV",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Review duration and return date",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AHMEPS",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Revision and resubmission dates",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1W97L03",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Required completion or acceptance date",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0S5X5H2",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Area and system readiness prerequisites",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1ULXDQ3",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Punch, testing and commissioning dependencies",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1X4YO5A",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "TCO, CO, permit and license dependencies",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RUP11N",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Status, aging and responsible party",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0UNY69R",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Deficiencies and corrective actions",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1F2C386",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Warranty start, expiration and notification dates",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XMV6LO",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Linked schedule, cost, asset, training and occupancy activities",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04ODR8W",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Final accepted file and record location",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1Q2C3Q8",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Whether it blocks turnover, payment, retention or contract closeout",
+          "source_line": 29
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Closeout classifications",
+      "path": [
+        "Closeout classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02LZ2AD",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Area completion",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1DNDX1P",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "System completion",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0CWRHJ4",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Trade completion",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G3SOSO",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Punch",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FFVXTI",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Substantial completion",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0D4FKIE",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Final completion",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OKAHYU",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Temporary occupancy",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1N9YLIL",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Final occupancy",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FKVYZS",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Owner turnover",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18P2M0B",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Record documents",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NI1V0O",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "O&M and systems manuals",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G5O8JI",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Training",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YVS7J3",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Commissioning",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18M1620",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Warranty",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16ATLG1",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Spare parts and attic stock",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0B4RXC8",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Asset data",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04HQ7EX",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Permit closeout",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I097ZNMO",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Utility closeout",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11C7R10",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Environmental closeout",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FPYS6T",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Financial closeout",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PDBEBS",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Subcontract closeout",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04PDU36",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Demobilization",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18XP246",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Post-occupancy",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0H8U7MI",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Warranty-period closeout",
+          "source_line": 56
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Standard turnover and closeout workflow",
+      "path": [
+        "Standard turnover and closeout workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DY39N9",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Establish closeout requirements during preconstruction",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MS4QNJ",
+          "sequence": 45,
+          "type": "numbered",
+          "text": "Prepare closeout responsibility matrix",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DUOFXY",
+          "sequence": 46,
+          "type": "numbered",
+          "text": "Prepare closeout submittal register",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AILAT1",
+          "sequence": 47,
+          "type": "numbered",
+          "text": "Define phased turnover and acceptance strategy",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NHMX3X",
+          "sequence": 48,
+          "type": "numbered",
+          "text": "Establish required formats and owner systems",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0525MR9",
+          "sequence": 49,
+          "type": "numbered",
+          "text": "Collect closeout documents throughout construction",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I194OA4V",
+          "sequence": 50,
+          "type": "numbered",
+          "text": "Track equipment and asset data",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0T9XIZ0",
+          "sequence": 51,
+          "type": "numbered",
+          "text": "Update record drawings continuously",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ACGZRQ",
+          "sequence": 52,
+          "type": "numbered",
+          "text": "Plan testing, commissioning and training",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0EOR18O",
+          "sequence": 53,
+          "type": "numbered",
+          "text": "Define area and system completion criteria",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BPJONG",
+          "sequence": 54,
+          "type": "numbered",
+          "text": "Conduct contractor quality-control inspections",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05ZOSG6",
+          "sequence": 55,
+          "type": "numbered",
+          "text": "Complete pre-punch",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1JM4QB0",
+          "sequence": 56,
+          "type": "numbered",
+          "text": "Complete design-team and owner punch",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AW368D",
+          "sequence": 57,
+          "type": "numbered",
+          "text": "Correct punch items",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1M54LT8",
+          "sequence": 58,
+          "type": "numbered",
+          "text": "Complete required tests and commissioning",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15WD6TP",
+          "sequence": 59,
+          "type": "numbered",
+          "text": "Complete final AHJ and utility inspections",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XTGGNI",
+          "sequence": 60,
+          "type": "numbered",
+          "text": "Obtain TCO, CO and operating certificates",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0B25056",
+          "sequence": 61,
+          "type": "numbered",
+          "text": "Deliver approved record documents and manuals",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BKD9CH",
+          "sequence": 62,
+          "type": "numbered",
+          "text": "Complete owner training",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1S6SZPN",
+          "sequence": 63,
+          "type": "numbered",
+          "text": "Transfer keys, credentials, assets, spares and tools",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XI5L61",
+          "sequence": 64,
+          "type": "numbered",
+          "text": "Complete phased or final turnover",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1271P4Y",
+          "sequence": 65,
+          "type": "numbered",
+          "text": "Obtain substantial completion",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I041N2X8",
+          "sequence": 66,
+          "type": "numbered",
+          "text": "Complete remaining exceptions",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04FN3NC",
+          "sequence": 67,
+          "type": "numbered",
+          "text": "Complete final completion",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AINQT4",
+          "sequence": 68,
+          "type": "numbered",
+          "text": "Complete financial and subcontract closeout",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06X27X1",
+          "sequence": 69,
+          "type": "numbered",
+          "text": "Demobilize and restore site",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12XV28N",
+          "sequence": 70,
+          "type": "numbered",
+          "text": "Conduct post-occupancy and warranty reviews",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YJYD5Z",
+          "sequence": 71,
+          "type": "numbered",
+          "text": "Resolve warranty issues",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1M2FXQM",
+          "sequence": 72,
+          "type": "numbered",
+          "text": "Complete final warranty closeout",
+          "source_line": 88
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XVPGDH",
+          "sequence": 73,
+          "type": "numbered",
+          "text": "Archive project records and lessons learned",
+          "source_line": 89
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Closeout planning activities",
+      "path": [
+        "Closeout planning activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I190ENFG",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Hold closeout planning kickoff",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1Q9YD75",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Define substantial and final completion",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I027VM45",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Define phased turnover milestones",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1QGS5AA",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Define owner beneficial-use milestones",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0UQNX18",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Define TCO and CO strategy",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I10HW19B",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Define completion by building, floor, area, room and system",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0HDR1J5",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Define responsible party for each deliverable",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TBVQOB",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Define owner document platform",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0O89G8N",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Define record-document standards",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0C3IV91",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Define asset-data requirements",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0Z1WCVD",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Define file formats and naming",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11FFMBY",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Define training requirements",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G5PGGN",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Define spare-parts and attic-stock requirements",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1N5Z1VG",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Define warranty requirements",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I08NVEX5",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Define commissioning closeout",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YLT6OE",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Define permit and environmental closeout",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1R6DQUH",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Define financial closeout",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16TDAD6",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Define document review durations",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1H8MFAM",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Define retention-release requirements",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XEXNH5",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Define post-occupancy and warranty meetings",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I14NZ6M0",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Integrate closeout into baseline schedule",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KMSV85",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Review closeout status monthly, then weekly near turnover",
+          "source_line": 114
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Completion-area planning",
+      "path": [
+        "Completion-area planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1053XXV",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Establish turnover zones",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0CAZMGM",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Establish system boundaries",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0COVVSL",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Establish room and space coding",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XNBCOP",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Establish area-complete criteria",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZW312J",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Establish sequence of trade completion",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0K6MOTE",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Establish cleaning and protection requirements",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BAJ5DQ",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Establish access-control transition",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NHFPPF",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Establish owner move-in constraints",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I08FYUHF",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Establish punch inspection routes",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YZ0JF4",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Establish completion tagging",
+          "source_line": 127
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0J8YXWH",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Establish deficiency ownership",
+          "source_line": 128
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0QWHU9W",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Establish reinspection frequency",
+          "source_line": 129
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1UTXU1G",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Establish phased utility and life-safety coverage",
+          "source_line": 130
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I17MZUSE",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Establish temporary separation between construction and occupied areas",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19DTNIM",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Establish area-release documentation",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00MIG5V",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Establish warranty-start rules by phase",
+          "source_line": 133
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Trade completion activities",
+      "path": [
+        "Trade completion activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0F49P07",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Complete trade scope",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YQHEWG",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Complete trade quality-control inspection",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WCS2ZN",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Complete testing and inspections",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1E5QIIY",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Complete labeling and identification",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OCH4AC",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Complete cleaning",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0OLI6EN",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Remove surplus material and debris",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0S6SF43",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Complete touchup and repair",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SGRCYJ",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Update record drawings",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FZJ0A5",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Submit test reports",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HZ2X7H",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Submit certifications",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G9Z7IE",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Submit O&M data",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VV366Q",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Submit warranties",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I10PWXO6",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Submit spare-parts list",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I162WXX4",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Submit training requirements",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1JMPSWL",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Submit subcontractor punch list",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EJOKQY",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Correct trade punch",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1C3LIUW",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Obtain trade completion acceptance",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18HMTGB",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Demobilize trade labor and equipment",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HU7393",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Complete subcontract closeout",
+          "source_line": 155
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Pre-punch and punch workflow",
+      "path": [
+        "Pre-punch and punch workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00602ZV",
+          "sequence": 131,
+          "type": "numbered",
+          "text": "Define punch-ready criteria",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0IX4SUK",
+          "sequence": 132,
+          "type": "numbered",
+          "text": "Complete construction and testing",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RINTNW",
+          "sequence": 133,
+          "type": "numbered",
+          "text": "Complete contractor quality-control inspection",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1R671N5",
+          "sequence": 134,
+          "type": "numbered",
+          "text": "Complete subcontractor pre-punch",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CU4BGV",
+          "sequence": 135,
+          "type": "numbered",
+          "text": "Correct pre-punch items",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RMCSR7",
+          "sequence": 136,
+          "type": "numbered",
+          "text": "Clean and protect area",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12YH0K7",
+          "sequence": 137,
+          "type": "numbered",
+          "text": "Submit area as punch ready",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0QAHLG0",
+          "sequence": 138,
+          "type": "numbered",
+          "text": "Conduct architect and engineer punch",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XHPO8M",
+          "sequence": 139,
+          "type": "numbered",
+          "text": "Conduct owner punch",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09CISCA",
+          "sequence": 140,
+          "type": "numbered",
+          "text": "Conduct specialty consultant punch",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0SO00HH",
+          "sequence": 141,
+          "type": "numbered",
+          "text": "Consolidate duplicate items",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16AMV91",
+          "sequence": 142,
+          "type": "numbered",
+          "text": "Assign responsible trade and due date",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SH0DHV",
+          "sequence": 143,
+          "type": "numbered",
+          "text": "Correct punch items",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TQSNF3",
+          "sequence": 144,
+          "type": "numbered",
+          "text": "Verify corrections",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1R37P32",
+          "sequence": 145,
+          "type": "numbered",
+          "text": "Reinspect",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0G06A32",
+          "sequence": 146,
+          "type": "numbered",
+          "text": "Close accepted items",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0D5PGA3",
+          "sequence": 147,
+          "type": "numbered",
+          "text": "Escalate overdue items",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1ES39P4",
+          "sequence": 148,
+          "type": "numbered",
+          "text": "Carry approved exceptions to substantial completion",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1Q0Q3YG",
+          "sequence": 149,
+          "type": "numbered",
+          "text": "Complete final punch",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BXLHZ9",
+          "sequence": 150,
+          "type": "numbered",
+          "text": "Archive punch records",
+          "source_line": 178
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Potential punch categories",
+      "path": [
+        "Potential punch categories"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SRWCZ0",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Incomplete work",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I01J331B",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Damaged work",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JWAJWX",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Defective work",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DTQCNT",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Nonconforming work",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1R7GP3I",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Finish defects",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TMM0L0",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Cleaning",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I108XI0K",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Missing labels",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04CQNWF",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Missing accessories",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18FBDV4",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Alignment and adjustment",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I07GZI47",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Door and hardware operation",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1PJG0LS",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Equipment operation",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00D6YNL",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Controls and programming",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BYCKOH",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Accessibility",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0QZKM6Q",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Fire and life safety",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BU51S7",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Water intrusion",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KET660",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Noise and vibration",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JCN62B",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Testing incomplete",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SKG3IH",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Documentation incomplete",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PFHFJB",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Training incomplete",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09VI5QL",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Owner-requested correction",
+          "source_line": 201
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04A94MM",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Warranty item",
+          "source_line": 202
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I014V8ZA",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Seasonal item",
+          "source_line": 203
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1TVKOJB",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Deferred item",
+          "source_line": 204
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Substantial completion activities",
+      "path": [
+        "Substantial completion activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1P51VNH",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Review contractual definition",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HVD2LR",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Confirm substantial-completion milestone scope",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00UIS56",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Complete life-safety systems",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0HHMYTW",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Complete required utilities",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0F0SLXA",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Complete accessible route",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1C5O6DD",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Complete operational systems",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XP2BBY",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Complete required testing and commissioning",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NWBZJ3",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Complete required owner training",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12PYEQH",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Complete occupancy inspections",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GR6BDM",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Complete cleaning",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1C6HYMB",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Complete security and access transition",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0K3RD6X",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Submit contractor request for inspection",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RVZFEF",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Submit list of incomplete items",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0SH5NV1",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Submit estimated completion dates",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00AMRZE",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Conduct architect substantial-completion inspection",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1DLFUCA",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Conduct owner substantial-completion inspection",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1NY3TQE",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Correct blocking deficiencies",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZZX85S",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Establish responsibility for security, utilities, maintenance and insurance",
+          "source_line": 225
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09IL4TG",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Establish warranty commencement",
+          "source_line": 226
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02NIZK5",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Issue Certificate of Substantial Completion",
+          "source_line": 227
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WLPMP9",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Record exceptions and remaining work",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0KWU17D",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Update schedule for final completion",
+          "source_line": 229
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Final completion activities",
+      "path": [
+        "Final completion activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00R5M98",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Complete all punch items",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I163NTTT",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Complete approved deferred and seasonal work",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06EKEBB",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Complete final testing",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XCOAYC",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Complete final commissioning",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I004LAW3",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Submit all closeout documents",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06H15F4",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Submit final warranties",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BWQ6XI",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Complete permit closeout",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DRFPS9",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Complete environmental closeout",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1ODH5T2",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Complete final cleaning",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0HLFDO2",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Complete demobilization and restoration",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15J3450",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Submit final payment application",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FI117O",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Submit releases and affidavits",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04MRTO6",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Obtain consent of surety",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0OYVD6H",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Resolve claims and changes",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05EAG24",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Conduct final completion inspection",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0500D0R",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Obtain architect and owner acceptance",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G6PBW5",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Issue final completion certification",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I174JSWW",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Release final payment and retention",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0D53ILE",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Close contract",
+          "source_line": 251
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Temporary and phased occupancy",
+      "path": [
+        "Temporary and phased occupancy"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0V7KTSJ",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Develop phased occupancy plan",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0M5JEYS",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Define occupied and construction boundaries",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06OA8GW",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Confirm life-safety coverage",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0SCM3HU",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Confirm fire-department access",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05JUG0S",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Confirm accessible route",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0T72JRM",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Confirm utilities and environmental conditions",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0X3LY4R",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Confirm temporary partitions and egress",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FBQNU8",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Confirm security and badging",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1Q685C0",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Confirm owner operational staffing",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WFCGX7",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Complete area testing and commissioning",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0950AOW",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Complete area cleaning",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IRV2T1",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Complete area training",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1TBX8KT",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Complete area punch",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MDBPDF",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Submit TCO application",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1E6YN14",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Conduct TCO inspections",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YU2P3E",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Correct TCO deficiencies",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OR7VMQ",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Obtain Temporary Certificate of Occupancy",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1JVCXCA",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Track TCO conditions",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I07NB5CL",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Track TCO expiration",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FA33YM",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Renew TCO when permitted",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BGO126",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Transfer area custody",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YAMI7Z",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Maintain construction access controls",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FDBPDH",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Complete remaining work without disrupting occupancy",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EEF741",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Convert TCO to final CO",
+          "source_line": 278
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Certificate of Occupancy and final approvals",
+      "path": [
+        "Certificate of Occupancy and final approvals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JIRCV4",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Complete building final inspection",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06JQAR6",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Complete electrical final inspection",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I07UJI0O",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Complete plumbing final inspection",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0D3Q8L5",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Complete mechanical final inspection",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0CKDHZK",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Complete fire-protection final inspection",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I161QMXP",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Complete fire-alarm acceptance",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1Z0RU46",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Complete Fire Marshal final inspection",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1QY4IKS",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Complete accessibility final inspection",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TGY2PW",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Complete energy-code final",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NKHCH7",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Complete elevator acceptance",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1JCKOV9",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Complete health-department inspection",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I17B1TEQ",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Complete pool inspection",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EOK8X1",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Complete utility acceptance",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I180MZL3",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Complete public-works acceptance",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PXU98H",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Complete planning and zoning closeout",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I03F7SZJ",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Submit special-inspection final report",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1NJK9KQ",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Submit structural observation final letter",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CAV4UP",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Submit commissioning and testing records",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0MTHFT3",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Submit record of completion",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I014I073",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Submit CO application",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PB8X2Q",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Correct final deficiencies",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XCADSX",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Obtain Certificate of Occupancy",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NRDA6A",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Obtain Certificate of Completion where applicable",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0CBY2KW",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Obtain operating licenses and certificates",
+          "source_line": 305
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Record drawings and as-built documents",
+      "path": [
+        "Record drawings and as-built documents"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YL8GNR",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Establish record-drawing procedure",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18TKDP6",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Maintain field redlines",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AYOAK6",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Record approved changes",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VTTEU7",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Record RFIs and ASIs",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1R4NS9W",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Record concealed utilities",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PJEBV0",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Record invert elevations",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I13XO0JY",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Record valve and cleanout locations",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FOPNAQ",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Record sleeves and penetrations",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BKFZN2",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Record equipment locations and tags",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FIU059",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Record control points and addresses",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MWXF75",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Record final circuiting",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12630C2",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Record fire-alarm device addresses",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G72W67",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Record security-device addresses",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16AXDP4",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Record final dimensions and elevations",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YOZCMD",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Record utility connections",
+          "source_line": 323
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1UJPJS2",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Complete survey as-builts",
+          "source_line": 324
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SEOCTT",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Complete civil record drawings",
+          "source_line": 325
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WTIVTR",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Complete architectural record drawings",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16N65RH",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Complete structural record drawings",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1A48RPY",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Complete plumbing record drawings",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16UKUKX",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Complete mechanical record drawings",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CXPAUC",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Complete electrical record drawings",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11WQD46",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Complete fire-protection record drawings",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0Y8PPHT",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Complete technology and security record drawings",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1PESVZ4",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Complete controls record drawings",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1J3HWPD",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Complete final BIM or record model",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EKGU92",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Contractor review",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1E1YW1E",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Design-professional review when required",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FQYLT1",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Correct and resubmit",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FQKUDT",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Deliver accepted records",
+          "source_line": 338
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Operation and maintenance manuals",
+      "path": [
+        "Operation and maintenance manuals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09B0SKF",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Establish O&M index and template",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0843NF8",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Collect product data",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I10BVOO9",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Collect approved shop drawings",
+          "source_line": 344
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0774ZI5",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Collect equipment data",
+          "source_line": 345
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0350S58",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Collect startup procedures",
+          "source_line": 346
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I028FK8Y",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Collect operating procedures",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LHXP0Z",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Collect shutdown procedures",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BQVBVO",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Collect emergency procedures",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05GYN3V",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Collect preventive-maintenance procedures",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I148G5SI",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Collect maintenance schedules",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SN01FZ",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Collect troubleshooting information",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0EZ6WKK",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Collect parts lists",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00ZCRX0",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Collect recommended spares",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0L5U8KX",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Collect lubrication data",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PJR66X",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Collect controls sequences",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0QMET44",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Collect setpoints and alarm matrices",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1RYU36W",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Collect test and balancing reports",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BWD95N",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Collect commissioning reports",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XACDUH",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Collect warranties",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZEZCYD",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Collect manufacturer contacts",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16OAYPL",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Collect service agreements",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1T45TQT",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Organize by system and asset",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RES9ON",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Contractor quality review",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KHCQ0H",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Commissioning authority review",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BXN64Q",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Owner review",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TM6L67",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Correct and resubmit",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0EVS1AF",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Deliver final digital and physical copies",
+          "source_line": 368
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Systems manual",
+      "path": [
+        "Systems manual"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0POQZN3",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Owner’s Project Requirements",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0U3NWNK",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Basis of Design",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02YSFAL",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Final design narrative",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DRMN47",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "System descriptions",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I00AU9RB",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Final sequences of operation",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I07CF86K",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Control schematics",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04GKCE1",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Setpoints and alarms",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1H3U2FH",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Equipment schedules",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LZCG1N",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Startup and shutdown procedures",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YW9VU3",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Normal operation",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0MHYW6Z",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Emergency operation",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KPNX30",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Seasonal operation",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1QZLHQT",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Maintenance strategy",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EIOCFF",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Testing and commissioning records",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1NXUYJA",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "TAB report",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0MAWBN1",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Training records",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VYIONU",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Warranty matrix",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1F596LD",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Open seasonal and deferred items",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0I19TTD",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Recommended optimization",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0UDE94G",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Final systems manual approval",
+          "source_line": 391
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Equipment and asset data",
+      "path": [
+        "Equipment and asset data"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HJRK9E",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Confirm owner asset-data template",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15ML4NT",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Assign asset IDs",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05UN8GB",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Record equipment tag",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0S2YIJC",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Record manufacturer",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EVHDMQ",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Record model",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18Y1KTU",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Record serial number",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GSHFQX",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Record capacity and rating",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NDY51A",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Record location",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0QD9U24",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Record serving area",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DC2HMJ",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Record installation date",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05PEV02",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Record startup date",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DMVC2W",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Record warranty dates",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18BQ4KH",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Record maintenance interval",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0HIOR80",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Record parts and consumables",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YP7DUV",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Record vendor contact",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I077GY1W",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Record barcode or QR code",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I032OJBK",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Attach product data",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0AGO8DZ",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Attach O&M manual",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I13CV64G",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Attach startup report",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1I9OJUH",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Attach test and commissioning records",
+          "source_line": 414
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DHIOWK",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Validate data",
+          "source_line": 415
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0Y8JOJW",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Import to CMMS, IWMS, CAFM or owner platform",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZO6BHB",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Obtain owner acceptance",
+          "source_line": 417
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Warranties and bonds",
+      "path": [
+        "Warranties and bonds"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15PB3YC",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Prepare warranty register",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DTDNDP",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Identify standard and extended warranties",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0U7ZLIB",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Identify special warranties",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15KC7OD",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Identify system warranties",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BSJY55",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Identify manufacturer warranties",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1E678SM",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Identify installer warranties",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TGR1O9",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Identify roofing and envelope warranties",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18300SE",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Identify equipment warranties",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18FILN3",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Identify finish warranties",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1TFFN2A",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Identify performance bonds",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1C6GAMR",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Identify maintenance bonds",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AAUL0J",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Confirm warranty start dates",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0N3GFL8",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Confirm phased-turnover warranty dates",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1DLNE7U",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Obtain executed warranty documents",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I130IGJF",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Obtain manufacturer inspections",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18SN0O7",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Correct warranty prerequisites",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16LI86H",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Submit warranty samples",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KS3U4M",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Submit final warranties",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11LOPWF",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Transfer warranties to owner",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JROP27",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Record claim procedures",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IIBDTY",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Record contacts and response times",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BHL397",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Track expiration dates",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZTNB3T",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Schedule pre-expiration reviews",
+          "source_line": 443
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Attic stock, spare parts and special tools",
+      "path": [
+        "Attic stock, spare parts and special tools"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BUQCDI",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Prepare attic-stock matrix",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DH1HF4",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Confirm required quantities",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16UARYO",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Confirm approved products, colors, dye lots and batches",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LYYIMC",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Procure extra materials",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VZBQWR",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Procure spare filters, belts and consumables",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ROGDTA",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Procure spare fixtures and components",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I007ZG8T",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Procure replacement lamps and drivers",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0T83KXS",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Procure control components and fuses",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PKI620",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Procure special tools",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VAT2ZH",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Procure test equipment when required",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CKEC11",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Label and package",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0P3H8W9",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Inventory and photograph",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1Q0O1F6",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Identify storage location",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0HB3N0I",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Transfer custody",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0KFKN70",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Obtain owner receipt",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0K8A1B3",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Include inventory in O&M records",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RZQ5T3",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Replace used or damaged stock before final acceptance",
+          "source_line": 463
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Keys, access and security turnover",
+      "path": [
+        "Keys, access and security turnover"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19R79IW",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Develop keying schedule",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1P5FDBV",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Complete final keying",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WH13L9",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Inventory keys",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1ALMR19",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Inventory cores and cylinders",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1M0ELHF",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Inventory access cards and credentials",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FT3JQ0",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Transfer master and control keys",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GRLKIE",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Transfer key cabinets",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YU1SNB",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Transfer lock-control records",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15KV05D",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Transfer access-control database",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LS6G9T",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Transfer administrator credentials",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YVQR5C",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Transfer camera and security credentials",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1PMCDID",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Transfer alarm codes",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0Y76LRT",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Transfer software licenses",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I054I92H",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Reset temporary passwords",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1V0U5DI",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Remove contractor credentials",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0O4Y3O0",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Test owner access",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WQDM38",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Obtain signed receipt",
+          "source_line": 483
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GVIK9M",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Preserve cybersecurity requirements",
+          "source_line": 484
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Owner training",
+      "path": [
+        "Owner training"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0AHY6RU",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Prepare training matrix",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06DXZD8",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Identify required trainees",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0QL31X8",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Identify trainers",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19NWOIU",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Approve training plan",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0P0BST1",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Approve agendas and materials",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SL5ABM",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Coordinate room, equipment and technology",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I03DIRVK",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Confirm systems operational",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LBKJJ9",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Conduct classroom training",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1B0JAI8",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Conduct hands-on training",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I07EHM2R",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Conduct emergency-procedure training",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0N52D81",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Conduct maintenance training",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1UI7L77",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Conduct controls and energy training",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04UFF06",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Conduct fire and life-safety training",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GLFT21",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Conduct security and technology training",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09EVP6C",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Conduct warranty-process training",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I022A07Z",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Conduct seasonal follow-up training",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0UQ79G2",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Record attendance",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0OVKDWC",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Record sessions",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GNR938",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Provide makeup training",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GZZPNG",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Assess competency when required",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HSMNJT",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Deliver final materials",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HOHQTZ",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Obtain owner acceptance",
+          "source_line": 509
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Testing and commissioning closeout",
+      "path": [
+        "Testing and commissioning closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0V9ERAH",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Complete startup",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06RV75Y",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Complete pre-functional checklists",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YHH0MF",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Complete TAB",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15EAP9E",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Complete controls checkout",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GQBL5H",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Complete functional testing",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16KC1WZ",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Complete integrated systems testing",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G7XXSC",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Correct deficiencies",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FLKUW7",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Complete retesting",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VMYQB3",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Complete owner training",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12HW8KO",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Complete seasonal-testing plan",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0O2VQQ1",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Complete deferred-testing plan",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16K73MH",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Submit commissioning issue log",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I13S9A9E",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Submit test reports",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LWFGFQ",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Submit final commissioning report",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EFOAPN",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Obtain commissioning authority acceptance",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I17KIJPJ",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Transfer trends, programs and backups",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0L4BOM7",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Schedule warranty commissioning review",
+          "source_line": 529
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Permits and regulatory closeout",
+      "path": [
+        "Permits and regulatory closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0MMTSFB",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Complete required inspections",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WEZAD9",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Resolve correction notices",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DH7KRI",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Close trade permits",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0KBKZW6",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Close supplemental permits",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1PR2AZ1",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Close demolition permit",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0UZT6VY",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Close right-of-way permits",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PU9IRO",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Close environmental permits",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15ZC5VZ",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Submit stormwater Notice of Termination",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KSZ6N9",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Obtain final stabilization acceptance",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19ZLVFN",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Close dewatering and discharge permits",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1P5H72K",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Obtain utility acceptance",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I03S2YZY",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Obtain elevator certificate",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0M93QRL",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Obtain boiler and pressure-vessel certificates",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SF8G2D",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Obtain health-department permit",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MK78NA",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Obtain fire-system acceptance",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AO0UV4",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Obtain Fire Marshal approval",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1LRF9N6",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Obtain TCO or CO",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02TJ2W3",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Close building permit",
+          "source_line": 550
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0H374PI",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Release permit bonds and deposits",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11YBWKI",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Archive permits and approved plans",
+          "source_line": 552
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Utility turnover and closeout",
+      "path": [
+        "Utility turnover and closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JG999D",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Complete permanent service",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OGCRCB",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Complete utility inspections",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FR2ALV",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Complete meter installation",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1NZJP9L",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Complete service activation",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NQVVRM",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Transfer accounts to owner",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1T5JK6P",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Record meter numbers and readings",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IUF0NK",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Transfer easement records",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LG42DZ",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Transfer shutdown and emergency contacts",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VXLZO6",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Deliver utility acceptance letters",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0P6NXHA",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Close temporary utility accounts",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1NRKIEC",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Remove temporary services",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0STS1TO",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Reconcile utility charges",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FR2CO0",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Complete utility restoration",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0MTS13N",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Close utility work orders",
+          "source_line": 569
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Environmental and sustainability closeout",
+      "path": [
+        "Environmental and sustainability closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GAFB5P",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Complete final stabilization",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VFMNVC",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Remove temporary erosion controls after approval",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0AJ17XW",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "File Notice of Termination",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05PEP14",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Submit waste-diversion reports",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06MIU3D",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Submit hazardous-waste manifests",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GFFXQF",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Submit indoor-air-quality records",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I111UAEV",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Complete flush-out or IAQ testing",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0E3UQDO",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Submit low-emitting material documentation",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0M7AF3N",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Submit recycled-content and sourcing records",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1DJ6EH7",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Submit energy and water documentation",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0547NR4",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Complete sustainability commissioning",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1NIJMRJ",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Submit LEED, WELL, Green Globes or other certification package",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19HVD15",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Resolve certification comments",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0W3PT68",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Obtain final rating or certification",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1S9DK6P",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Deliver environmental permits and monitoring records",
+          "source_line": 587
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Final cleaning and owner move-in",
+      "path": [
+        "Final cleaning and owner move-in"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0B10NAX",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Prepare final-cleaning plan",
+          "source_line": 591
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DU92CK",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Complete rough cleaning",
+          "source_line": 592
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0095Q2U",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Complete progress cleaning",
+          "source_line": 593
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1EK7K3G",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Complete final construction cleaning",
+          "source_line": 594
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16PAJUZ",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Complete high cleaning",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18UCM2K",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Clean glazing",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0I7YO6G",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Clean equipment",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NO9RNO",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Clean ducts when required",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I13AZ2UH",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Clean floors and finishes",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0IW4VXK",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Complete healthcare terminal cleaning",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09M24AM",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Complete food-service sanitation",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XTLMJ8",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Complete pest-control treatment",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SYO0V3",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Conduct owner cleanliness inspection",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I14JYFMN",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Correct cleaning deficiencies",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15907WG",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Protect cleaned areas",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BPU2YP",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Coordinate furniture installation",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1TBDN5U",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Coordinate owner equipment installation",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1G4LWOX",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Coordinate IT and security activation",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1B2C9XM",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Coordinate move-in",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0CLOXSZ",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Complete post-move cleaning",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0292KVG",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Release area for operations",
+          "source_line": 611
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Demobilization and site restoration",
+      "path": [
+        "Demobilization and site restoration"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZUA1U1",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Prepare demobilization plan",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VHXWLD",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Remove surplus materials",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1S8GDC3",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Remove temporary offices",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HK5KKO",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Remove storage containers",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04WN6RG",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Remove cranes and hoists",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WY4ROE",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Remove temporary utilities",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FIC5Q4",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Remove temporary roads and parking",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YD77PY",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Remove fencing and gates",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OHY1KA",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Remove signs and barriers",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FZ9DDH",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Remove waste containers",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CYWL8Y",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Restore pavements",
+          "source_line": 625
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0N0XNDA",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Restore sidewalks and curbs",
+          "source_line": 626
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MOWY0R",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Restore landscaping",
+          "source_line": 627
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1B1BEFD",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Restore occupied areas",
+          "source_line": 628
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OV3NQA",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Close temporary penetrations",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11J9I96",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Complete final grading",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1PNYYYX",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Complete final stabilization",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ENR2TW",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Complete site cleaning",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OTYR9I",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Conduct owner restoration inspection",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I120ZUEA",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Correct damage",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WB7M5B",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Close rentals and accounts",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0Q9XZWU",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Release temporary easements",
+          "source_line": 636
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Financial and contractual closeout",
+      "path": [
+        "Financial and contractual closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1H0S2C9",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Complete final change orders",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1RLF22O",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Resolve allowances",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DCJIAU",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Resolve contingencies",
+          "source_line": 642
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IDOZK1",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "Reconcile unit prices",
+          "source_line": 643
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I08E10NE",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "Reconcile stored materials",
+          "source_line": 644
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1M2O0AW",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "Complete final payment application",
+          "source_line": 645
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZUFTHI",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "Submit contractor affidavit",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15KT5C2",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "Submit subcontractor and supplier affidavits",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04CM75R",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "Submit conditional and final lien waivers",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0K72V1E",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "Submit release of liens",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WGI55C",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "Submit consent of surety",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09Q1VHZ",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "Submit final certified payroll",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0KY1JJ8",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "Submit tax documentation",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HO0MA0",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Submit insurance and claim status",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12B9XB0",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Resolve claims and disputes",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GEJAZR",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Complete audit",
+          "source_line": 655
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1RC3N5T",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Complete final cost report",
+          "source_line": 656
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IC7MIY",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Release retention",
+          "source_line": 657
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0B386CU",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Release bonds",
+          "source_line": 658
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I17MZWH7",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Close subcontract commitments",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DLWJZ9",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Close purchase orders",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1DRP4PM",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Archive financial records",
+          "source_line": 661
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Subcontractor closeout",
+      "path": [
+        "Subcontractor closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0EVPCCD",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "Complete subcontract scope",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06JJVUX",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Complete punch",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16OA7QT",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Complete testing",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1PNVR6A",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Submit record drawings",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BAN9LA",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Submit O&M data",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0O8NAPM",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Submit warranties",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RX4UMY",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Submit training records",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I007I8LG",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Submit test reports and certificates",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11NDCC7",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Submit spare parts and attic stock",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1ODG71L",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Submit final invoice",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18BBHUN",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Submit lien waivers",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CFXJW7",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Submit payroll and compliance records",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VHAX8Q",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Resolve backcharges",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1LMGCPN",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Resolve change orders",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I087OUJZ",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Return badges, keys and owner property",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZDKK3H",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Remove equipment and materials",
+          "source_line": 680
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I141FJL1",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Complete demobilization",
+          "source_line": 681
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YHSR7J",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Obtain subcontract completion",
+          "source_line": 682
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I16K5X2H",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Release retention",
+          "source_line": 683
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ZONRK6",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Close subcontract",
+          "source_line": 684
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Lender, insurer and third-party closeout",
+      "path": [
+        "Lender, insurer and third-party closeout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MSSYUP",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Lender progress inspection",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09G65SO",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Final lender inspection",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TDNQNR",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Title and lien review",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PFGFIN",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Survey and endorsement",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18JBLWN",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Insurance loss-control inspection",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0A4I0XK",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Property insurer acceptance",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1CYIFVH",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Builder’s risk transition",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1UKH289",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Permanent property insurance activation",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GGIQAU",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Surety closeout",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0L7N26N",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Tax-credit documentation",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1C1PI23",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Grant compliance closeout",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0IZQ639",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Funding-agency closeout",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IV41JC",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Independent commissioning acceptance",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02CG0Q4",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Accessibility consultant acceptance",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0F40Z1K",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Envelope consultant acceptance",
+          "source_line": 702
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0F7ALRI",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Acoustical consultant acceptance",
+          "source_line": 703
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1K8HSEK",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Kitchen or healthcare consultant acceptance",
+          "source_line": 704
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Turnover ceremony and custody transfer",
+      "path": [
+        "Turnover ceremony and custody transfer"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VZS9CH",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Prepare turnover package",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XBLR66",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Confirm owner acceptance authority",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I13PP6JT",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Conduct final walkthrough",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JFHANZ",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Review open exceptions",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VZ2959",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Transfer keys and credentials",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1QKMBMB",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Transfer documents and asset data",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0SE7CZP",
+          "sequence": 617,
+          "type": "bullet",
+          "text": "Transfer spare parts and tools",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11OJ3FM",
+          "sequence": 618,
+          "type": "bullet",
+          "text": "Transfer warranties",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I10GKIET",
+          "sequence": 619,
+          "type": "bullet",
+          "text": "Transfer systems and equipment",
+          "source_line": 716
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15HQGPM",
+          "sequence": 620,
+          "type": "bullet",
+          "text": "Transfer utility and maintenance responsibility",
+          "source_line": 717
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I10SRVCP",
+          "sequence": 621,
+          "type": "bullet",
+          "text": "Transfer security and insurance responsibility",
+          "source_line": 718
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1RQL7OI",
+          "sequence": 622,
+          "type": "bullet",
+          "text": "Record meter readings",
+          "source_line": 719
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GEAT58",
+          "sequence": 623,
+          "type": "bullet",
+          "text": "Record condition photographs",
+          "source_line": 720
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AG2SRT",
+          "sequence": 624,
+          "type": "bullet",
+          "text": "Execute custody-transfer form",
+          "source_line": 721
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HQJNVF",
+          "sequence": 625,
+          "type": "bullet",
+          "text": "Establish warranty-service contacts",
+          "source_line": 722
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0ATS21N",
+          "sequence": 626,
+          "type": "bullet",
+          "text": "Confirm emergency-response contacts",
+          "source_line": 723
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YX3W8A",
+          "sequence": 627,
+          "type": "bullet",
+          "text": "Issue owner occupancy notice",
+          "source_line": 724
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Post-occupancy and warranty activities",
+      "path": [
+        "Post-occupancy and warranty activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19F4Y2C",
+          "sequence": 628,
+          "type": "bullet",
+          "text": "Occupancy check-in",
+          "source_line": 728
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0I76YWH",
+          "sequence": 629,
+          "type": "bullet",
+          "text": "30-day review",
+          "source_line": 729
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04DKQA2",
+          "sequence": 630,
+          "type": "bullet",
+          "text": "60-day review",
+          "source_line": 730
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02U40BV",
+          "sequence": 631,
+          "type": "bullet",
+          "text": "90-day review",
+          "source_line": 731
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OGVPII",
+          "sequence": 632,
+          "type": "bullet",
+          "text": "Six-month review",
+          "source_line": 732
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18X9UKW",
+          "sequence": 633,
+          "type": "bullet",
+          "text": "Seasonal commissioning",
+          "source_line": 733
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YT6W6S",
+          "sequence": 634,
+          "type": "bullet",
+          "text": "Deferred testing",
+          "source_line": 734
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0SIHG2W",
+          "sequence": 635,
+          "type": "bullet",
+          "text": "Energy-performance review",
+          "source_line": 735
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0N1FMRN",
+          "sequence": 636,
+          "type": "bullet",
+          "text": "Water-performance review",
+          "source_line": 736
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1N1U0V7",
+          "sequence": 637,
+          "type": "bullet",
+          "text": "Indoor-air-quality review",
+          "source_line": 737
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06658DS",
+          "sequence": 638,
+          "type": "bullet",
+          "text": "BAS trend review",
+          "source_line": 738
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WOW79U",
+          "sequence": 639,
+          "type": "bullet",
+          "text": "Roof and envelope inspection",
+          "source_line": 739
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HQ779V",
+          "sequence": 640,
+          "type": "bullet",
+          "text": "Landscape establishment inspection",
+          "source_line": 740
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0M4SC31",
+          "sequence": 641,
+          "type": "bullet",
+          "text": "Pavement inspection",
+          "source_line": 741
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0RRI8AB",
+          "sequence": 642,
+          "type": "bullet",
+          "text": "Warranty call review",
+          "source_line": 742
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SIADLL",
+          "sequence": 643,
+          "type": "bullet",
+          "text": "Owner complaint review",
+          "source_line": 743
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1RTWGA6",
+          "sequence": 644,
+          "type": "bullet",
+          "text": "Correct warranty deficiencies",
+          "source_line": 744
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I05EKOU3",
+          "sequence": 645,
+          "type": "bullet",
+          "text": "Verify response times",
+          "source_line": 745
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JSOB8P",
+          "sequence": 646,
+          "type": "bullet",
+          "text": "Eleven-month inspection",
+          "source_line": 746
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1HSV29H",
+          "sequence": 647,
+          "type": "bullet",
+          "text": "One-year inspection",
+          "source_line": 747
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1LG0K57",
+          "sequence": 648,
+          "type": "bullet",
+          "text": "Extended-warranty review",
+          "source_line": 748
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1N6E691",
+          "sequence": 649,
+          "type": "bullet",
+          "text": "Final warranty closeout",
+          "source_line": 749
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Lessons learned and project archive",
+      "path": [
+        "Lessons learned and project archive"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FJXDXQ",
+          "sequence": 650,
+          "type": "bullet",
+          "text": "Conduct project-team lessons-learned workshop",
+          "source_line": 753
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15YH6BJ",
+          "sequence": 651,
+          "type": "bullet",
+          "text": "Conduct owner lessons-learned review",
+          "source_line": 754
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TLK3OJ",
+          "sequence": 652,
+          "type": "bullet",
+          "text": "Conduct design-team review",
+          "source_line": 755
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FV7VDF",
+          "sequence": 653,
+          "type": "bullet",
+          "text": "Conduct subcontractor feedback session",
+          "source_line": 756
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0DYOPWJ",
+          "sequence": 654,
+          "type": "bullet",
+          "text": "Document successes and failures",
+          "source_line": 757
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TGGLLU",
+          "sequence": 655,
+          "type": "bullet",
+          "text": "Document schedule lessons",
+          "source_line": 758
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1SL802P",
+          "sequence": 656,
+          "type": "bullet",
+          "text": "Document procurement lessons",
+          "source_line": 759
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0P4ULCX",
+          "sequence": 657,
+          "type": "bullet",
+          "text": "Document safety and quality lessons",
+          "source_line": 760
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WAZC89",
+          "sequence": 658,
+          "type": "bullet",
+          "text": "Document commissioning and closeout lessons",
+          "source_line": 761
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0GKFCSP",
+          "sequence": 659,
+          "type": "bullet",
+          "text": "Update company standards and templates",
+          "source_line": 762
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1R54549",
+          "sequence": 660,
+          "type": "bullet",
+          "text": "Archive contract documents",
+          "source_line": 763
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1X7H19Q",
+          "sequence": 661,
+          "type": "bullet",
+          "text": "Archive permits and approvals",
+          "source_line": 764
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I03054BE",
+          "sequence": 662,
+          "type": "bullet",
+          "text": "Archive correspondence and meeting minutes",
+          "source_line": 765
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1AVUQIU",
+          "sequence": 663,
+          "type": "bullet",
+          "text": "Archive submittals and RFIs",
+          "source_line": 766
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0VWXJWD",
+          "sequence": 664,
+          "type": "bullet",
+          "text": "Archive cost and change records",
+          "source_line": 767
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I02BPLIE",
+          "sequence": 665,
+          "type": "bullet",
+          "text": "Archive schedule records",
+          "source_line": 768
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0MV9WU6",
+          "sequence": 666,
+          "type": "bullet",
+          "text": "Archive photos and progress records",
+          "source_line": 769
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04EL8YW",
+          "sequence": 667,
+          "type": "bullet",
+          "text": "Archive record drawings and models",
+          "source_line": 770
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15MAS82",
+          "sequence": 668,
+          "type": "bullet",
+          "text": "Archive closeout and warranty records",
+          "source_line": 771
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1GCF20T",
+          "sequence": 669,
+          "type": "bullet",
+          "text": "Confirm retention-period requirements",
+          "source_line": 772
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15NOZYG",
+          "sequence": 670,
+          "type": "bullet",
+          "text": "Construction completion → contractor pre-punch",
+          "source_line": 776
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15C6R50",
+          "sequence": 671,
+          "type": "bullet",
+          "text": "Pre-punch correction → design-team punch",
+          "source_line": 777
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09MI698",
+          "sequence": 672,
+          "type": "bullet",
+          "text": "Punch correction → area acceptance",
+          "source_line": 778
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0NPKIXU",
+          "sequence": 673,
+          "type": "bullet",
+          "text": "System completion → startup and commissioning",
+          "source_line": 779
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0JMZ1CX",
+          "sequence": 674,
+          "type": "bullet",
+          "text": "Commissioning acceptance → owner training",
+          "source_line": 780
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09225N2",
+          "sequence": 675,
+          "type": "bullet",
+          "text": "Training and approved records → system turnover",
+          "source_line": 781
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0FAAK7O",
+          "sequence": 676,
+          "type": "bullet",
+          "text": "Final inspections → TCO or CO",
+          "source_line": 782
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0Q0HNFO",
+          "sequence": 677,
+          "type": "bullet",
+          "text": "Occupancy approval → owner move-in",
+          "source_line": 783
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XYHR5H",
+          "sequence": 678,
+          "type": "bullet",
+          "text": "Substantial completion → remaining-work period",
+          "source_line": 784
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KDON51",
+          "sequence": 679,
+          "type": "bullet",
+          "text": "Final punch and closeout documents → final completion",
+          "source_line": 785
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19EYZJJ",
+          "sequence": 680,
+          "type": "bullet",
+          "text": "Final completion → final payment and retention",
+          "source_line": 786
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18HMEMI",
+          "sequence": 681,
+          "type": "bullet",
+          "text": "Occupancy → warranty reviews",
+          "source_line": 787
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I11OK59D",
+          "sequence": 682,
+          "type": "bullet",
+          "text": "Warranty expiration → final warranty closeout",
+          "source_line": 788
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G034",
+      "sequence": 34,
+      "level": 2,
+      "title": "Common hold points",
+      "path": [
+        "Common hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1XAG5LL",
+          "sequence": 683,
+          "type": "bullet",
+          "text": "No punch inspection before the area meets punch-ready criteria",
+          "source_line": 792
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1MYM8RJ",
+          "sequence": 684,
+          "type": "bullet",
+          "text": "No owner turnover before life-safety and required systems are operational",
+          "source_line": 793
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04OIO7A",
+          "sequence": 685,
+          "type": "bullet",
+          "text": "No occupancy before TCO or CO",
+          "source_line": 794
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1KKW9EF",
+          "sequence": 686,
+          "type": "bullet",
+          "text": "No substantial completion before contractual prerequisites are satisfied",
+          "source_line": 795
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1U866QW",
+          "sequence": 687,
+          "type": "bullet",
+          "text": "No final completion before punch and closeout requirements are complete",
+          "source_line": 796
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1YD8DSQ",
+          "sequence": 688,
+          "type": "bullet",
+          "text": "No final payment before required releases, warranties and documents",
+          "source_line": 797
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0LTYX8T",
+          "sequence": 689,
+          "type": "bullet",
+          "text": "No removal of temporary protections that are still required",
+          "source_line": 798
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0E5SH6N",
+          "sequence": 690,
+          "type": "bullet",
+          "text": "No warranty closeout before seasonal and deferred obligations are resolved",
+          "source_line": 799
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1ED5WGF",
+          "sequence": 691,
+          "type": "bullet",
+          "text": "No project archive before final accepted records are secured",
+          "source_line": 800
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G035",
+      "sequence": 35,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FRHROX",
+          "sequence": 692,
+          "type": "bullet",
+          "text": "Not started",
+          "source_line": 804
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15H98ZE",
+          "sequence": 693,
+          "type": "bullet",
+          "text": "Planning",
+          "source_line": 805
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YLT2EH",
+          "sequence": 694,
+          "type": "bullet",
+          "text": "Collection in progress",
+          "source_line": 806
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I17DMJHQ",
+          "sequence": 695,
+          "type": "bullet",
+          "text": "Draft",
+          "source_line": 807
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1VXAAY4",
+          "sequence": 696,
+          "type": "bullet",
+          "text": "Submitted",
+          "source_line": 808
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I09CVTXT",
+          "sequence": 697,
+          "type": "bullet",
+          "text": "Under review",
+          "source_line": 809
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0P5EVFF",
+          "sequence": 698,
+          "type": "bullet",
+          "text": "Revise and resubmit",
+          "source_line": 810
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1BIM3OM",
+          "sequence": 699,
+          "type": "bullet",
+          "text": "Accepted",
+          "source_line": 811
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1OMO5FO",
+          "sequence": 700,
+          "type": "bullet",
+          "text": "Area not ready",
+          "source_line": 812
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1WPJB8D",
+          "sequence": 701,
+          "type": "bullet",
+          "text": "Pre-punch",
+          "source_line": 813
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0CIW3T9",
+          "sequence": 702,
+          "type": "bullet",
+          "text": "Punch",
+          "source_line": 814
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I003OS2X",
+          "sequence": 703,
+          "type": "bullet",
+          "text": "Correction in progress",
+          "source_line": 815
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0TDAAUG",
+          "sequence": 704,
+          "type": "bullet",
+          "text": "Reinspection",
+          "source_line": 816
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0D2JJOR",
+          "sequence": 705,
+          "type": "bullet",
+          "text": "Area accepted",
+          "source_line": 817
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I19K7ZFZ",
+          "sequence": 706,
+          "type": "bullet",
+          "text": "System accepted",
+          "source_line": 818
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0BQRR9O",
+          "sequence": 707,
+          "type": "bullet",
+          "text": "TCO pending",
+          "source_line": 819
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0HELTY4",
+          "sequence": 708,
+          "type": "bullet",
+          "text": "TCO issued",
+          "source_line": 820
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I18WKY86",
+          "sequence": 709,
+          "type": "bullet",
+          "text": "CO pending",
+          "source_line": 821
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1X9NKK6",
+          "sequence": 710,
+          "type": "bullet",
+          "text": "CO issued",
+          "source_line": 822
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I03IK0N6",
+          "sequence": 711,
+          "type": "bullet",
+          "text": "Substantial completion pending",
+          "source_line": 823
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0AY78E1",
+          "sequence": 712,
+          "type": "bullet",
+          "text": "Substantially complete",
+          "source_line": 824
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0EV8UGE",
+          "sequence": 713,
+          "type": "bullet",
+          "text": "Final completion pending",
+          "source_line": 825
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1QFINFX",
+          "sequence": 714,
+          "type": "bullet",
+          "text": "Finally complete",
+          "source_line": 826
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I156X2CI",
+          "sequence": 715,
+          "type": "bullet",
+          "text": "Financial closeout",
+          "source_line": 827
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WGQD6B",
+          "sequence": 716,
+          "type": "bullet",
+          "text": "Warranty active",
+          "source_line": 828
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I15DVUFF",
+          "sequence": 717,
+          "type": "bullet",
+          "text": "Deferred item",
+          "source_line": 829
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1FKTZ4Q",
+          "sequence": 718,
+          "type": "bullet",
+          "text": "Seasonal item",
+          "source_line": 830
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I17L124H",
+          "sequence": 719,
+          "type": "bullet",
+          "text": "Warranty closeout",
+          "source_line": 831
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0SHIDFR",
+          "sequence": 720,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 832
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-G036",
+      "sequence": 36,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I04KKABL",
+          "sequence": 721,
+          "type": "bullet",
+          "text": "Begin closeout planning at project start.",
+          "source_line": 836
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0P3TSZS",
+          "sequence": 722,
+          "type": "bullet",
+          "text": "Collect and review closeout documents throughout construction.",
+          "source_line": 837
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I06SR5O6",
+          "sequence": 723,
+          "type": "bullet",
+          "text": "Break turnover into actual areas and systems.",
+          "source_line": 838
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0YOGB1I",
+          "sequence": 724,
+          "type": "bullet",
+          "text": "Separate pre-punch, punch, correction and reinspection.",
+          "source_line": 839
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0R5EK1T",
+          "sequence": 725,
+          "type": "bullet",
+          "text": "Tie owner training and manuals to system turnover.",
+          "source_line": 840
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0PKXRV5",
+          "sequence": 726,
+          "type": "bullet",
+          "text": "Tie TCO and CO to every required inspection and approval.",
+          "source_line": 841
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I12AOJGF",
+          "sequence": 727,
+          "type": "bullet",
+          "text": "Track phased warranty dates accurately.",
+          "source_line": 842
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0WFPBC5",
+          "sequence": 728,
+          "type": "bullet",
+          "text": "Link final payment and retention to contractual closeout requirements.",
+          "source_line": 843
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1UQGF1P",
+          "sequence": 729,
+          "type": "bullet",
+          "text": "Preserve seasonal, deferred and warranty obligations after occupancy.",
+          "source_line": 844
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I03C26PF",
+          "sequence": 730,
+          "type": "bullet",
+          "text": "Assign one responsible owner and due date to every deliverable.",
+          "source_line": 845
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I1IJ4HS6",
+          "sequence": 731,
+          "type": "bullet",
+          "text": "Do not treat submission as acceptance.",
+          "source_line": 846
+        },
+        {
+          "item_id": "SSX-SUP-TURNOVER-AND-CLOSEOUT-I0XPOKZN",
+          "sequence": 732,
+          "type": "bullet",
+          "text": "Maintain secure, searchable final records.",
+          "source_line": 847
+        }
+      ]
+    }
+  ]
+}

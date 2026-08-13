@@ -1,0 +1,4667 @@
+{
+  "department_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES",
+  "slug": "mobilization-and-temporary-facilities",
+  "title": "Mobilization And Temporary Facilities",
+  "document_title": "SSX Master Construction Mobilization and Temporary Facilities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/mobilization-and-temporary-facilities/MASTER_MOBILIZATION_AND_TEMPORARY_FACILITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 31,
+    "items": 616
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0XSMITU",
+          "sequence": 1,
+          "type": "bullet",
+          "text": "Project phase, building, floor, area and logistics zone",
+          "source_line": 11
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00X0YCZ",
+          "sequence": 2,
+          "type": "bullet",
+          "text": "Activity and temporary facility type",
+          "source_line": 12
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1AIY037",
+          "sequence": 3,
+          "type": "bullet",
+          "text": "Responsible contractor, subcontractor, vendor and person",
+          "source_line": 13
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QUPOVL",
+          "sequence": 4,
+          "type": "bullet",
+          "text": "Owner, landlord, utility or AHJ dependency",
+          "source_line": 14
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GB292M",
+          "sequence": 5,
+          "type": "bullet",
+          "text": "Required permit, approval, inspection or license",
+          "source_line": 15
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MLQ40N",
+          "sequence": 6,
+          "type": "bullet",
+          "text": "Predecessors and successors",
+          "source_line": 16
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0FGS7ZS",
+          "sequence": 7,
+          "type": "bullet",
+          "text": "Required-on-site and removal dates",
+          "source_line": 17
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SKM3FO",
+          "sequence": 8,
+          "type": "bullet",
+          "text": "Planned and actual start and finish",
+          "source_line": 18
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0G5ISNJ",
+          "sequence": 9,
+          "type": "bullet",
+          "text": "Installation, relocation, maintenance and removal duration",
+          "source_line": 19
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ULAFSQ",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Capacity, quantity and service level",
+          "source_line": 20
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1D3XG7V",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Rental start, minimum term and off-rent date",
+          "source_line": 21
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1SVIRW2",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Delivery, crane, rigging and access requirements",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09D66WW",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Utility source, metering and operating cost",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1PXVCTW",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Inspection and preventive-maintenance frequency",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12NW57G",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Safety, security, environmental and accessibility requirements",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1L5232G",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Phased relocation or expansion requirements",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0USRQAV",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Status, deficiency and corrective action",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1M8KD4N",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Cost code and responsible payer",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00A9IA2",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Closeout, restoration and evidence required",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YKVBRK",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Linked permit, procurement, inspection and schedule activities",
+          "source_line": 30
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Standard mobilization workflow",
+      "path": [
+        "Standard mobilization workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02MBJ90",
+          "sequence": 21,
+          "type": "numbered",
+          "text": "Confirm notice to proceed and site possession",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1H2XIVA",
+          "sequence": 22,
+          "type": "numbered",
+          "text": "Confirm contract mobilization requirements",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1CIHI9Z",
+          "sequence": 23,
+          "type": "numbered",
+          "text": "Verify permits, insurance, bonds and licenses",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SUHSEZ",
+          "sequence": 24,
+          "type": "numbered",
+          "text": "Complete existing-condition documentation",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MIPZI0",
+          "sequence": 25,
+          "type": "numbered",
+          "text": "Approve site logistics and temporary-facilities plans",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1KT9XT6",
+          "sequence": 26,
+          "type": "numbered",
+          "text": "Confirm utility availability and connection points",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18HTKUL",
+          "sequence": 27,
+          "type": "numbered",
+          "text": "Confirm site access, delivery routes and work hours",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CZN6IR",
+          "sequence": 28,
+          "type": "numbered",
+          "text": "Establish survey control and project limits",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0Q0RY9A",
+          "sequence": 29,
+          "type": "numbered",
+          "text": "Install environmental and public-protection controls",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I038SVLL",
+          "sequence": 30,
+          "type": "numbered",
+          "text": "Establish secure perimeter and controlled access",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0UX9JLS",
+          "sequence": 31,
+          "type": "numbered",
+          "text": "Install temporary roads, entrances and laydown areas",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1A2OP1Q",
+          "sequence": 32,
+          "type": "numbered",
+          "text": "Deliver and install field offices and support facilities",
+          "source_line": 45
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1VV0NZF",
+          "sequence": 33,
+          "type": "numbered",
+          "text": "Establish temporary power, lighting, water, sanitation and communications",
+          "source_line": 46
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GMGJDP",
+          "sequence": 34,
+          "type": "numbered",
+          "text": "Establish emergency, fire and first-aid systems",
+          "source_line": 47
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1LQQIJS",
+          "sequence": 35,
+          "type": "numbered",
+          "text": "Establish waste, recycling and housekeeping operations",
+          "source_line": 48
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0E5SR17",
+          "sequence": 36,
+          "type": "numbered",
+          "text": "Inspect and approve temporary facilities",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01YQUK5",
+          "sequence": 37,
+          "type": "numbered",
+          "text": "Mobilize staff, workforce, equipment and initial materials",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ZQIIC4",
+          "sequence": 38,
+          "type": "numbered",
+          "text": "Begin recurring inspection, maintenance and service",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1VLUPBA",
+          "sequence": 39,
+          "type": "numbered",
+          "text": "Expand, relocate or reduce facilities as phases change",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I124RAZZ",
+          "sequence": 40,
+          "type": "numbered",
+          "text": "Transition temporary systems to permanent systems when authorized",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0JFLXWK",
+          "sequence": 41,
+          "type": "numbered",
+          "text": "Demobilize unused facilities",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03F9P15",
+          "sequence": 42,
+          "type": "numbered",
+          "text": "Remove temporary utilities and structures",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1WZ1HM3",
+          "sequence": 43,
+          "type": "numbered",
+          "text": "Restore disturbed areas",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1KSJ9FA",
+          "sequence": 44,
+          "type": "numbered",
+          "text": "Complete final inspection and release",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QYWXZN",
+          "sequence": 45,
+          "type": "numbered",
+          "text": "Close rentals, permits, accounts and temporary easements",
+          "source_line": 58
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Pre-mobilization planning",
+      "path": [
+        "Pre-mobilization planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1Y6E25G",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Receive notice to proceed",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1Q9UQHN",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Confirm site possession date",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14ZLXMW",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Confirm owner access and work-area release",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0A8OVPS",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Review general conditions requirements",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00FQ5GW",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Review owner rules and occupied-facility restrictions",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1T8MWHW",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Verify bonds and insurance",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16M1Y1N",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Verify contractor and trade licenses",
+          "source_line": 68
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ULPJTH",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Obtain required mobilization permits",
+          "source_line": 69
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02TIUPB",
+          "sequence": 54,
+          "type": "bullet",
+          "text": "Establish project organization and contacts",
+          "source_line": 70
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HDYJ0S",
+          "sequence": 55,
+          "type": "bullet",
+          "text": "Assign superintendent and site leadership",
+          "source_line": 71
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1XJ7K6Q",
+          "sequence": 56,
+          "type": "bullet",
+          "text": "Prepare site-specific safety plan",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I08Z934W",
+          "sequence": 57,
+          "type": "bullet",
+          "text": "Prepare project quality plan",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13MNPB1",
+          "sequence": 58,
+          "type": "bullet",
+          "text": "Prepare emergency action plan",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0XYHXBL",
+          "sequence": 59,
+          "type": "bullet",
+          "text": "Prepare environmental and SWPPP plan",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0G9BQN0",
+          "sequence": 60,
+          "type": "bullet",
+          "text": "Prepare security plan",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I132W9YZ",
+          "sequence": 61,
+          "type": "bullet",
+          "text": "Prepare traffic-control and delivery plans",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00LNG1H",
+          "sequence": 62,
+          "type": "bullet",
+          "text": "Prepare fire-prevention plan",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0E0LUCM",
+          "sequence": 63,
+          "type": "bullet",
+          "text": "Prepare temporary-utilities plan",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01AXB2Q",
+          "sequence": 64,
+          "type": "bullet",
+          "text": "Prepare site logistics plan",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MQ52ST",
+          "sequence": 65,
+          "type": "bullet",
+          "text": "Prepare crane and hoisting plan",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HNY9W7",
+          "sequence": 66,
+          "type": "bullet",
+          "text": "Prepare workforce and parking plan",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I057639I",
+          "sequence": 67,
+          "type": "bullet",
+          "text": "Prepare communications and technology plan",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0W68ZOK",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Prepare waste-management plan",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16QB6WQ",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Prepare winter, hurricane or severe-weather plan",
+          "source_line": 85
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10FL5GC",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Conduct preconstruction conference",
+          "source_line": 86
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1IUSHMA",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Conduct pre-mobilization risk review",
+          "source_line": 87
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14HKDNO",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Obtain owner, design-team and AHJ approvals",
+          "source_line": 88
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Existing conditions and site turnover",
+      "path": [
+        "Existing conditions and site turnover"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QHSY64",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Execute site access agreement",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0Y17TB4",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Complete property and right-of-entry documentation",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1CZX9DQ",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Confirm limits of construction",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I15P1OC0",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Confirm property lines and easements",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11FWCJE",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Confirm survey benchmarks",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EN2C8X",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Conduct existing-condition survey",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1389ZLD",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Conduct adjacent-property condition survey",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1K6JMP9",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Complete photographic and video documentation",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BH5VIS",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Document existing roads, sidewalks and curbs",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1JC5T2S",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Document existing landscaping",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04WJGQR",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Document existing utilities and meters",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06G4WSQ",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Verify utility locates",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MEPF9W",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Verify hazardous-material conditions",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0B14APW",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Verify environmental restrictions",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1W6MRVJ",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Verify occupied-area boundaries",
+          "source_line": 106
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DRZQXV",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Verify owner equipment and contents",
+          "source_line": 107
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1OO8YMN",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Identify salvage and protection items",
+          "source_line": 108
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09VSZTZ",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Complete owner handover inspection",
+          "source_line": 109
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0KCXHTM",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Establish damage-reporting procedure",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0P6YZP6",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Accept work area or document exceptions",
+          "source_line": 111
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Survey control and site layout",
+      "path": [
+        "Survey control and site layout"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EAU41W",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Establish horizontal and vertical control",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WSTDY3",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Protect benchmarks and monuments",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0KB5GK4",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Install construction stakes",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03H4NSF",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Establish building corners and offsets",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I113VA4Y",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Establish excavation limits",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HHXJF1",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Establish crane, hoist and equipment locations",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0X3LVW9",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Establish laydown and storage zones",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1XKAT94",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Establish environmental-control limits",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13GBKZ3",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Establish no-work and protected zones",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0JRTLBQ",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Install settlement and movement monitoring points",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1LFW3WK",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Establish periodic survey-verification activities",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1CLZZ5O",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Replace damaged control points",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1TTCBG1",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Complete final temporary-control removal",
+          "source_line": 127
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Site access and temporary roads",
+      "path": [
+        "Site access and temporary roads"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HB81DR",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Obtain access and curb-cut approvals",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I08H2EKJ",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Construct stabilized construction entrance",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1NO5R2E",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Install wheel wash or track-out controls",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16W11YH",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Construct temporary haul roads",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OKQGGC",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Construct temporary parking",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0Y2TXHY",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Establish delivery entrance and exit",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0Q1JWIS",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Establish one-way circulation",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0S9YEP6",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Establish truck queuing",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CAW68Y",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Establish emergency vehicle access",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0PG24IY",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Establish fire-department access",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01HT3FS",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Establish pedestrian routes and crossings",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13I3MI8",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Install temporary bridges or crossings",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I002326N",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Install temporary ramps",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ANY4JY",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Install temporary stairs and walkways",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0KZRI1I",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Install road plates",
+          "source_line": 145
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1663M6H",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Provide mud and dust control",
+          "source_line": 146
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1B9YTPT",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Provide snow and ice control",
+          "source_line": 147
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0BQSFSS",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Maintain roads and repair potholes",
+          "source_line": 148
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0O0G51U",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Modify routes for construction phases",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1VEUHEA",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Remove temporary roads",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WFHE4A",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Restore permanent surfaces",
+          "source_line": 151
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Fencing, gates and perimeter security",
+      "path": [
+        "Fencing, gates and perimeter security"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QU934R",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Install construction fence",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YKZPLT",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Install privacy screening",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06GJCI9",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Install gates",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MKDG8M",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Install turnstiles",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0LW6NIV",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Install vehicle barriers",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11VMRD5",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Install jersey barriers and bollards",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12GBXXI",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Install pedestrian barricades",
+          "source_line": 161
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04QQL1D",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Install anti-climb and high-security fencing",
+          "source_line": 162
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YZV9DQ",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Install protected overhead walkways",
+          "source_line": 163
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OA9NEQ",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Install sidewalk sheds",
+          "source_line": 164
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18C7TD8",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Establish gatehouse",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16A697T",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Establish security patrol",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1LFKBVI",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Install access-control system",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GGFA82",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Install badge readers",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1EQ1PCE",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Install visitor management",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QMZJ5K",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Install temporary security cameras",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01MCYIJ",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Install intrusion detection",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0BQ8KDK",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Install site lighting",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0052VUQ",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Post trespass and safety signs",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00KRUXR",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Inspect and repair perimeter",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QPKJQE",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Relocate fencing and gates",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1K5U0DT",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Remove fencing and restore surfaces",
+          "source_line": 176
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Field offices and administrative facilities",
+      "path": [
+        "Field offices and administrative facilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I087E5RJ",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Select office location and configuration",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1XP2MXQ",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Obtain trailer or modular-office permit",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CIVE7Y",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Prepare foundations, blocking and anchorage",
+          "source_line": 182
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YKX2B0",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Deliver office trailers or modules",
+          "source_line": 183
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1B9036I",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Set, level and anchor units",
+          "source_line": 184
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1RMP1FQ",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Install stairs, ramps and handrails",
+          "source_line": 185
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1Y2KWKE",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Provide accessible entrance and facilities",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10KGK49",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Connect power, water, sewer and communications",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I040FBXT",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Install heating, cooling and ventilation",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WPR46N",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Install fire extinguishers and alarms",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0747KKR",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Install furniture and workstations",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14R3IGC",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Establish plan room",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I17QIMMK",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Establish conference and training room",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1N4WYXE",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Establish owner, architect and testing-agency offices",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0O3Q594",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Establish document-control area",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GP3MEL",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Install printers, plotters and technology",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HAZV4L",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Establish mail and delivery area",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I07T8LCO",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Inspect and commission offices",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1EHF4PQ",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Expand or relocate offices",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0J32LCR",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "Clean and maintain offices",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04RQI8T",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Remove offices and foundations",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1N7Y55G",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Restore area",
+          "source_line": 201
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Workforce welfare facilities",
+      "path": [
+        "Workforce welfare facilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14QHUZN",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Provide portable toilets",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NCLTH6",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Provide accessible toilets",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12JNYQP",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Provide handwashing stations",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18EBRIF",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Provide drinking water",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12N4ARL",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Provide hydration stations",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1RWK59V",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Provide break areas",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1UK9U9S",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Provide lunch shelters",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1DVQ62H",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Provide changing rooms",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0TTFSIR",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "Provide lockers",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I05FKAKV",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Provide showers where required",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BHO3XH",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "Provide drying rooms",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DENCYU",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Provide shade and cooling stations",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0F3AGBM",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Provide warming stations",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0A3I1ZM",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Provide nursing or wellness space",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1AR46BT",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Provide prayer or quiet space when required",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0TINUK0",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Provide sanitary supplies",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I05CNXEF",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Establish cleaning and pumping service",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1N8VDSX",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Adjust capacity with workforce levels",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SIOW1W",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Inspect sanitation and accessibility",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11K784A",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Remove facilities and restore area",
+          "source_line": 224
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Temporary power and electrical distribution",
+      "path": [
+        "Temporary power and electrical distribution"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EAK2M4",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Confirm source and available capacity",
+          "source_line": 228
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I110YY83",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Submit temporary-power plan",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I011LALV",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Obtain utility and electrical permits",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MAZE3E",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Establish temporary service",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QYQIGA",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Install temporary transformer",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0JELSA0",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Install generators",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0P04CPN",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Install fuel system",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09EUNTV",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Install distribution panels",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1WA1PHV",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Install feeders and branch circuits",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OPFWFC",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Install spider boxes and receptacles",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NTNS56",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Install GFCI protection",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0RETH1C",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Establish assured-equipment-grounding program",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0UVM7F6",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Install temporary grounding and bonding",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I004ZOA1",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Provide equipment and crane power",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0B24092",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Provide hoist power",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NQ67DP",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Provide welding power",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BRLDRI",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Provide heating and dehumidification power",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EOWSNS",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Provide office and welfare-facility power",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MDLU3Y",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Meter temporary power",
+          "source_line": 246
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13EVU15",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Label and protect distribution",
+          "source_line": 247
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1PSJDWO",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Complete electrical inspection and energization",
+          "source_line": 248
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0V32WTV",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Perform recurring GFCI and grounding inspections",
+          "source_line": 249
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1F7MOJ3",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Maintain generators and fuel",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0IBGQW6",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Relocate distribution as work progresses",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QAVAL1",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Transfer loads to permanent power",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QLFU4V",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Remove temporary service",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0X95IXI",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Close utility account",
+          "source_line": 254
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Temporary lighting",
+      "path": [
+        "Temporary lighting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0I01YOL",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Prepare temporary-lighting plan",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I17IS5U7",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Install site and perimeter lighting",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YOMSF6",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Install access and egress lighting",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1L5C1EF",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Install office and welfare-area lighting",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01K52G4",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Install building interior lighting",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00JP5F8",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Install stair and shaft lighting",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GKPLGV",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Install task lighting",
+          "source_line": 264
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06T5X13",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Install emergency lighting",
+          "source_line": 265
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EYOTKI",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Install lighting for night work",
+          "source_line": 266
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MTWPBB",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Install lighting controls and timers",
+          "source_line": 267
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QMT6WE",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Protect fixtures and cords",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1F0ZLPI",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Measure illumination where required",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1H94BF9",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Inspect and maintain lighting",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0I7VNVD",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Relocate lighting with construction phases",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0Z0JXLB",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Transfer to permanent lighting",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1P52A0I",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Remove temporary lighting",
+          "source_line": 273
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Temporary water, drainage and sanitation",
+      "path": [
+        "Temporary water, drainage and sanitation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1RIB0GR",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Confirm water source and capacity",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18PK9JG",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Obtain temporary water permit",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MKO9II",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Install temporary meter and backflow protection",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I08WCXEH",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Install site water distribution",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1C16ZX9",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Provide potable water",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1DXP5O9",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Provide construction water",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0C5PU7L",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Provide concrete and masonry water",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0W8JV6C",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Provide dust-control water",
+          "source_line": 284
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1U0188E",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Provide fire-protection water",
+          "source_line": 285
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1W2AGM1",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Provide heated water where required",
+          "source_line": 286
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NZBTG8",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Protect piping from freezing and damage",
+          "source_line": 287
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YSZ0MH",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Install temporary sanitary connection",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I05KL6JT",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Install holding tanks",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BM8163",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Provide portable sanitation service",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00JO9T2",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Install temporary storm drainage",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16A9AG3",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Install pumps and sumps",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02NHTQ3",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Install dewatering discharge",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13J5HQ8",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Monitor consumption and leaks",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1EWVDFO",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Test potable water where required",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1RFR4VF",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Relocate distribution",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1VYIZZG",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Transition to permanent systems",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MMA9BX",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Disconnect and close accounts",
+          "source_line": 298
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Temporary heating, cooling, ventilation and environmental control",
+      "path": [
+        "Temporary heating, cooling, ventilation and environmental control"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HHIUP6",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Prepare temporary-conditioning plan",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MH3L9H",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Calculate heating, cooling and ventilation loads",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QVYTK8",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Select temporary equipment",
+          "source_line": 304
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YIWUZO",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Obtain temporary heat and fuel permits",
+          "source_line": 305
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0IPM8ZO",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Install heaters",
+          "source_line": 306
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14ESXD4",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Install boilers",
+          "source_line": 307
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0XGWR0N",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Install chillers or portable cooling",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10F0RSZ",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Install temporary air-handling and ventilation",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0KASV6H",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Install fans and air movers",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0LFOSZE",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Install dehumidifiers",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1995PRM",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Install negative-air machines",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1R3NQ08",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Install filtration and air scrubbers",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06AQ4LK",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Establish freeze protection",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1039M8Y",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Establish humidity control",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EQ39YF",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Establish moisture-control plan",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1N4U1MB",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Establish indoor-air-quality protection",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HLM1WF",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Monitor temperature, humidity and dew point",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I084ERER",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Maintain fuel and equipment",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YY31D8",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Relocate equipment",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WCDO8E",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Transition to permanent HVAC under controlled use",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BLN9R8",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Remove temporary equipment",
+          "source_line": 322
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Communications and project technology",
+      "path": [
+        "Communications and project technology"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01IK1AI",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Establish internet service",
+          "source_line": 326
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0AE0Y2B",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Establish temporary fiber or cellular service",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1CH16YG",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Install Wi-Fi network",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1V64OXG",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Install phones and radios",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GKWE0E",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Establish emergency communications",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0UAMWQH",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Establish project email and collaboration platforms",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I17P6CYI",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Establish document-control system",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GPBGP3",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Establish digital plan access",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1K68FTQ",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Establish BIM coordination environment",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1LV3J0D",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Install project cameras",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00LMXV8",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Install weather station",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0B0KRAN",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Install environmental monitors",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OUOY5C",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Install progress-capture cameras and scanners",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18CIAZ7",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Install access-control and badging technology",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I076VXVZ",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Establish cybersecurity controls",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16MW81V",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Test coverage and redundancy",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I151OXD3",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Maintain equipment and subscriptions",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02PW7Y0",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Relocate technology",
+          "source_line": 343
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I05OFB12",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Archive data and close accounts",
+          "source_line": 344
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Fire prevention and temporary life safety",
+      "path": [
+        "Fire prevention and temporary life safety"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YK97A9",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Prepare fire-prevention plan",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1PF1BRQ",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Coordinate with Fire Marshal",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16W7EGK",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Maintain fire-department access",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12YM6OV",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Maintain hydrant and FDC access",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1EPCG1Z",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Install fire extinguishers",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14L412F",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Install temporary standpipes",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0RSCDNH",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Install temporary sprinkler protection",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01SHWAB",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Install temporary fire alarm",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HDRJKU",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Install smoke and heat detection",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0I5LY8W",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Establish fire watch",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HZSUVC",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Establish hot-work permit system",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1DTJA0D",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Establish impairment procedures",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1EGFA80",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Control flammable and combustible materials",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YA5332",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Establish LPG and fuel storage",
+          "source_line": 361
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18APQVF",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Establish emergency egress",
+          "source_line": 362
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1TOHDYJ",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Install exit signs and emergency lighting",
+          "source_line": 363
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0L0V2X0",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Establish muster points",
+          "source_line": 364
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1OIGRJ4",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Conduct fire drills",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1IPR5AD",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Inspect temporary fire systems",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0S1VUKA",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Extend systems as building rises",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WJW09I",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Transition to permanent systems",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03A6GTA",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Obtain removal authorization",
+          "source_line": 369
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Emergency and first-aid facilities",
+      "path": [
+        "Emergency and first-aid facilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I08BXCO1",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Establish emergency action plan",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1J8E51U",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Post emergency contacts",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0S4V78C",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Establish first-aid station",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I08WIHJF",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Provide first-aid kits",
+          "source_line": 376
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NXA756",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Provide AEDs",
+          "source_line": 377
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11X396E",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Provide eyewash and emergency showers",
+          "source_line": 378
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ERQ1I7",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Provide bloodborne-pathogen supplies",
+          "source_line": 379
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YVNMX0",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Provide rescue equipment",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12CFNPB",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Establish ambulance access",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00F8VAR",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Establish severe-weather shelter",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11ACJLE",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Establish hurricane or tornado readiness",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SWIJYG",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Establish spill-response supplies",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DLR0NP",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Establish emergency generators and lighting",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I15BLL83",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Conduct emergency drills",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06TKYB2",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Inspect and restock equipment",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GM8EOD",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Relocate emergency facilities",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0O5OF74",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Transfer emergency provisions to owner systems",
+          "source_line": 389
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Environmental controls",
+      "path": [
+        "Environmental controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1W3CJB6",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Install stabilized entrance",
+          "source_line": 393
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0EO902I",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Install silt fence and sediment barriers",
+          "source_line": 394
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1XFVZTG",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Install inlet protection",
+          "source_line": 395
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12KLMTF",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Install sediment basins and traps",
+          "source_line": 396
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0J83PWJ",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Install wattles and filter socks",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QIR0L2",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Install stockpile protection",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I147KC4T",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Install concrete washout",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GXD66H",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Install dewatering controls",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QCNDTF",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Install turbidity controls",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02R68OU",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Establish fuel and chemical containment",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0LBGX5A",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Establish spill-response stations",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0VTOPX1",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Install dust-control systems",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1M949GY",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Install noise and vibration controls",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03J92QG",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Protect wetlands, trees and buffers",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ZA49TU",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Establish waste and recycling areas",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1SP5DOM",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Establish hazardous-waste storage",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0E38GB8",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Establish street-sweeping service",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FUYNDU",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Inspect before land disturbance",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01LY4VW",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Inspect routinely and after rain",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GOHCX3",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Repair and maintain controls",
+          "source_line": 412
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0TY1EZQ",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Complete final stabilization",
+          "source_line": 413
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I089ZH3F",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Remove environmental controls after authorization",
+          "source_line": 414
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Waste, recycling and housekeeping",
+      "path": [
+        "Waste, recycling and housekeeping"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1NF9ZWY",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Prepare waste-management plan",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YYG4JM",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Establish dumpsters and compactors",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QS5147",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Establish recycling containers",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YO09JR",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Establish hazardous-waste containers",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FEAM8A",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Establish concrete and masonry recycling",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0TPZQML",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Establish scrap-metal storage",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13W5LHH",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Establish wood and cardboard recycling",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WKWDGP",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Establish office waste collection",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ESRDUO",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Establish floor and area cleaning",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02L08VA",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Establish debris-chute locations",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1GKQCWX",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Establish daily housekeeping",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0BXVBH2",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Establish street and sidewalk cleaning",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NUCACI",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Schedule hauling and replacement",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0L15YPS",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Track diversion and disposal documentation",
+          "source_line": 431
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0QEMDP4",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Prevent overfilled containers",
+          "source_line": 432
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FKLKUJ",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Relocate collection areas",
+          "source_line": 433
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MIT7HL",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Complete final waste removal",
+          "source_line": 434
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09TYQVW",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Remove containers and restore area",
+          "source_line": 435
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Material handling, laydown and storage",
+      "path": [
+        "Material handling, laydown and storage"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I17M456W",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Develop material-flow plan",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0D9AQ2R",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Establish laydown areas",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BD7369",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Establish secure storage",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NV0RDM",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Install storage containers",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1UI765C",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Establish climate-controlled storage",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1CNTZW5",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Establish hazardous-material storage",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06IN5AE",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Establish gas-cylinder storage",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1K4BZWB",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Establish flammable-material cabinets",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0V6HIND",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Establish off-site warehouse",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1V6IMZ8",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Establish consolidation center",
+          "source_line": 448
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I056F5M2",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Establish just-in-time delivery process",
+          "source_line": 449
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12IZ54R",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Establish receiving and inspection area",
+          "source_line": 450
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FWMACU",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Establish quarantine area",
+          "source_line": 451
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0X1LJDG",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Install racks and dunnage",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MVCXXO",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Establish floor-loading limits",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1OAISX3",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Protect materials from moisture and damage",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1E5MA9R",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Establish inventory controls",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I14R14IJ",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Establish vertical-distribution plan",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1PE8F48",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Relocate storage by phase",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1E81Y07",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Clear laydown for permanent work",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0LS62K6",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Remove storage facilities",
+          "source_line": 459
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Cranes, hoists and vertical access",
+      "path": [
+        "Cranes, hoists and vertical access"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01UIK9Q",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Prepare crane and hoisting plan",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YJQF7Z",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Obtain crane permits",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11M4EE6",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Complete air-rights and overswing agreements",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04D7Q94",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Prepare crane foundation",
+          "source_line": 466
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ZZHHGE",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Install tower crane",
+          "source_line": 467
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0E0ZPKU",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Assemble mobile crane",
+          "source_line": 468
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1PNI6VX",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Inspect and certify crane",
+          "source_line": 469
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1U6D34F",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Establish critical-lift procedures",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0AILGYW",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Install personnel and material hoists",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1AT6KIM",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Install mast climbers",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GNK3JQ",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Install temporary elevators",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11XLFJA",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Install loading platforms",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02EFRNL",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Install debris chutes",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1N3PC6P",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Install temporary stairs",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1JQQBVU",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Install ladders and access towers",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0Z8ANK1",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Install roof and shaft access",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0554Y3G",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Provide rigging storage",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ATN74M",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Inspect cranes, hoists and access",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1E0XR4R",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Climb or relocate crane and hoist",
+          "source_line": 481
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I05A82ET",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Dismantle and remove",
+          "source_line": 482
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BQNM5M",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Restore foundations and penetrations",
+          "source_line": 483
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Temporary support, protection and enclosures",
+      "path": [
+        "Temporary support, protection and enclosures"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1KOER8B",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Install temporary shoring",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NN84B3",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Install reshoring",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0U03421",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Install underpinning",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NSACVR",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Install excavation support",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FVEDZQ",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Install bracing",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GY66AJ",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Install weather enclosures",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1LD14MZ",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Install temporary roofing",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ZNPTHK",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Install temporary walls and partitions",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18WHNBP",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Install dust partitions",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YRZP6W",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Install negative-air containment",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WNYJET",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Install temporary doors and locks",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SDKQP5",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Install opening protection",
+          "source_line": 498
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YWEWLQ",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Install edge protection",
+          "source_line": 499
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0J0SBPN",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Install floor and finish protection",
+          "source_line": 500
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ECJ7TF",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Install waterproof covers",
+          "source_line": 501
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MBZBFM",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Install temporary drainage",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OJCUID",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Protect existing structures and finishes",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0XH7GBK",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Protect owner operations and equipment",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1SPZYA0",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Inspect and maintain protection",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1VHIBBT",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Modify with phases",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1U3X33T",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Remove after permanent work is secure",
+          "source_line": 507
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Occupied-building and infection-control facilities",
+      "path": [
+        "Occupied-building and infection-control facilities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I05940IG",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Establish owner coordination area",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ZRKGPL",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Establish occupied/unoccupied boundaries",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0FOZHM2",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Install infection-control barriers",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I19KIS3Z",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Install negative-air containment",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SBUALP",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Install HEPA filtration",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BTQ78Z",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Establish anterooms",
+          "source_line": 516
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HCD7YN",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Install walk-off mats",
+          "source_line": 517
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0U8FDBN",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Establish clean and dirty routes",
+          "source_line": 518
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DTDW3O",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Establish noise, dust and vibration controls",
+          "source_line": 519
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1JEPG6U",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Protect air intakes",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I115G1SY",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Establish shutdown and tie-in controls",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I191PCJQ",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Establish patient, tenant or public detours",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04X81EO",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Maintain accessible egress",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HS8ESX",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Establish daily barrier inspection",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0F0EV8F",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Monitor pressure and particles",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0K5KSY1",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Relocate barriers by phase",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I071ELL8",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Complete terminal cleaning",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MW5BOI",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Obtain owner release before removal",
+          "source_line": 528
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Signage and public information",
+      "path": [
+        "Signage and public information"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1L4E5U9",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Install project identification sign",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1W8ZM5I",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Install permit board",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0TRTNBR",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Post required labor and safety notices",
+          "source_line": 534
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0N711XL",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Install directional signs",
+          "source_line": 535
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1R1G18V",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Install delivery signs",
+          "source_line": 536
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0RQK3YS",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Install emergency signs",
+          "source_line": 537
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1UOW9ZP",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Install PPE and hazard signs",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FIZF8T",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Install evacuation maps",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I070KOWD",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Install wayfinding",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0BQ8GOP",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Install accessible-route signs",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10K7T8C",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Install pedestrian-detour signs",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1POUWP0",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Install traffic-control signs",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WHQIHN",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Install owner and tenant notifications",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02GZ6WO",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Install community information",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0VSANQL",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Update signage as routes change",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1SBL4O3",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Remove temporary signs and repair surfaces",
+          "source_line": 547
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Recurring temporary-facility operations",
+      "path": [
+        "Recurring temporary-facility operations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0M4CM4Z",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Daily access and perimeter inspection",
+          "source_line": 551
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0B9T6C0",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Daily housekeeping",
+          "source_line": 552
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10XN9S0",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Daily temporary-power inspection",
+          "source_line": 553
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I08AUDFB",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Daily temporary-heat inspection",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0YTBOFA",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Daily egress and fire-access inspection",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CGG7V4",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Daily sanitation service check",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I11KI1SA",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Weekly office and welfare inspection",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I07WWHDI",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Weekly fence, gate and signage inspection",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10DX9YJ",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Weekly environmental-control inspection",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06D517L",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Weekly temporary-utility inspection",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0NT1G3J",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Weekly emergency-equipment inspection",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12DGY81",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Weekly storage and laydown inspection",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03OFRS5",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Monthly fire-extinguisher inspection",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12I74RW",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Monthly generator and emergency-power test",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MEPC13",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Monthly trailer and anchorage inspection",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1Y88X19",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Weather-event readiness inspection",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0I0G1Z4",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Post-storm inspection",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1JHWA23",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Post-relocation inspection",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1B1E188",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Corrective-action reinspection",
+          "source_line": 569
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1X6AM59",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Rental and service invoice review",
+          "source_line": 570
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MOCA99",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Capacity adjustment for workforce changes",
+          "source_line": 571
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Phase transitions and relocations",
+      "path": [
+        "Phase transitions and relocations"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0A0T1G5",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Update logistics plan for next phase",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I020TOS1",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Relocate access and gates",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1K9GUXJ",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Relocate fencing and barriers",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I13F65PB",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Relocate offices and welfare facilities",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I12R7T9H",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Relocate temporary utilities",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0I3CW9Q",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Extend temporary power and lighting",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1Y0WJ8O",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Extend fire protection and standpipes",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I048AFD0",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Relocate laydown and storage",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02B83P5",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Relocate cranes, hoists and loading platforms",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00JGJZM",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Modify traffic and pedestrian routes",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1UW74N0",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Transition from exterior to interior logistics",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0JC5M6P",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Transition from temporary to permanent power",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I07VA55J",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Transition from temporary to permanent water",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GEWR8E",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Transition from temporary to permanent HVAC",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0U7O6TL",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Transition from temporary to permanent fire alarm",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1ES1TXU",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Reduce temporary-facility capacity",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0K5RQF2",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Obtain inspection and approval after relocation",
+          "source_line": 591
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Demobilization and restoration",
+      "path": [
+        "Demobilization and restoration"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0H7BUFZ",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Prepare demobilization plan",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CA09GU",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Confirm permanent systems accepted",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0XEG2OK",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Confirm temporary facilities no longer required",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0P5ASA9",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Coordinate off-rent dates",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1CG25SM",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Remove surplus materials and equipment",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1QWPXQ2",
+          "sequence": 515,
+          "type": "bullet",
+          "text": "Remove storage containers",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1KA6Y6Y",
+          "sequence": 516,
+          "type": "bullet",
+          "text": "Remove cranes and hoists",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1PZOI21",
+          "sequence": 517,
+          "type": "bullet",
+          "text": "Remove trailers and offices",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1L7EHRL",
+          "sequence": 518,
+          "type": "bullet",
+          "text": "Remove toilets and welfare facilities",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1J3E2WJ",
+          "sequence": 519,
+          "type": "bullet",
+          "text": "Remove temporary fencing and gates",
+          "source_line": 604
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1FOTID2",
+          "sequence": 520,
+          "type": "bullet",
+          "text": "Remove temporary roads and parking",
+          "source_line": 605
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DLM8XV",
+          "sequence": 521,
+          "type": "bullet",
+          "text": "Disconnect temporary power",
+          "source_line": 606
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09V41HF",
+          "sequence": 522,
+          "type": "bullet",
+          "text": "Disconnect temporary water and sanitary",
+          "source_line": 607
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16OHZAC",
+          "sequence": 523,
+          "type": "bullet",
+          "text": "Remove temporary lighting",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02PC6WZ",
+          "sequence": 524,
+          "type": "bullet",
+          "text": "Remove temporary HVAC and environmental equipment",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I06YVFM5",
+          "sequence": 525,
+          "type": "bullet",
+          "text": "Remove temporary fire and life-safety systems after approval",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1119U17",
+          "sequence": 526,
+          "type": "bullet",
+          "text": "Close utility accounts",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09Z613Y",
+          "sequence": 527,
+          "type": "bullet",
+          "text": "Close temporary permits",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0G6LLGW",
+          "sequence": 528,
+          "type": "bullet",
+          "text": "Remove signs and permit boards",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1XP0LMF",
+          "sequence": 529,
+          "type": "bullet",
+          "text": "Remove waste containers",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18TCVYJ",
+          "sequence": 530,
+          "type": "bullet",
+          "text": "Complete final cleaning",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CUCUP4",
+          "sequence": 531,
+          "type": "bullet",
+          "text": "Repair pavements, sidewalks and curbs",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I098MIDO",
+          "sequence": 532,
+          "type": "bullet",
+          "text": "Restore landscaping and grades",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1HQXO1T",
+          "sequence": 533,
+          "type": "bullet",
+          "text": "Remove temporary foundations and anchors",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1C96P46",
+          "sequence": 534,
+          "type": "bullet",
+          "text": "Close wall, roof and slab penetrations",
+          "source_line": 619
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I199PZN7",
+          "sequence": 535,
+          "type": "bullet",
+          "text": "Complete environmental stabilization",
+          "source_line": 620
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1THZOZ8",
+          "sequence": 536,
+          "type": "bullet",
+          "text": "Conduct owner and AHJ restoration inspection",
+          "source_line": 621
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1VKPJ78",
+          "sequence": 537,
+          "type": "bullet",
+          "text": "Resolve damage and deficiencies",
+          "source_line": 622
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1NY866K",
+          "sequence": 538,
+          "type": "bullet",
+          "text": "Release temporary easements",
+          "source_line": 623
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0AP0SVR",
+          "sequence": 539,
+          "type": "bullet",
+          "text": "Return keys and access devices",
+          "source_line": 624
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I016JHVV",
+          "sequence": 540,
+          "type": "bullet",
+          "text": "Archive records and close rentals",
+          "source_line": 625
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03DZ472",
+          "sequence": 541,
+          "type": "bullet",
+          "text": "Notice to proceed → pre-mobilization planning",
+          "source_line": 629
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0J0LLL4",
+          "sequence": 542,
+          "type": "bullet",
+          "text": "Approved logistics plan → site establishment",
+          "source_line": 630
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0RW42QC",
+          "sequence": 543,
+          "type": "bullet",
+          "text": "Environmental controls → land disturbance",
+          "source_line": 631
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0BW8PGV",
+          "sequence": 544,
+          "type": "bullet",
+          "text": "Fencing and access → workforce mobilization",
+          "source_line": 632
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GAIFQQ",
+          "sequence": 545,
+          "type": "bullet",
+          "text": "Temporary utilities → offices and field operations",
+          "source_line": 633
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OPY7QJ",
+          "sequence": 546,
+          "type": "bullet",
+          "text": "Temporary roads and laydown → major deliveries",
+          "source_line": 634
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1550OCB",
+          "sequence": 547,
+          "type": "bullet",
+          "text": "Crane foundation → crane erection",
+          "source_line": 635
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SUH62N",
+          "sequence": 548,
+          "type": "bullet",
+          "text": "Hoist installation → vertical construction",
+          "source_line": 636
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0T5FK47",
+          "sequence": 549,
+          "type": "bullet",
+          "text": "Temporary enclosure → interior conditioning",
+          "source_line": 637
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1X8QYSX",
+          "sequence": 550,
+          "type": "bullet",
+          "text": "Temporary heat and dry-in → finishes",
+          "source_line": 638
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0T2W55Z",
+          "sequence": 551,
+          "type": "bullet",
+          "text": "Permanent utility acceptance → temporary utility removal",
+          "source_line": 639
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1UDSU90",
+          "sequence": 552,
+          "type": "bullet",
+          "text": "Permanent life safety → temporary-system removal",
+          "source_line": 640
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1TL5NKW",
+          "sequence": 553,
+          "type": "bullet",
+          "text": "Substantial completion → major demobilization",
+          "source_line": 641
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04LVMA4",
+          "sequence": 554,
+          "type": "bullet",
+          "text": "Final acceptance → complete restoration and closeout",
+          "source_line": 642
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Common hold points",
+      "path": [
+        "Common hold points"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1V9XWHR",
+          "sequence": 555,
+          "type": "bullet",
+          "text": "No mobilization before notice to proceed and site access",
+          "source_line": 646
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1IJS2GS",
+          "sequence": 556,
+          "type": "bullet",
+          "text": "No land disturbance before environmental controls and permit",
+          "source_line": 647
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0I0DJCW",
+          "sequence": 557,
+          "type": "bullet",
+          "text": "No workforce access before secure perimeter and orientation",
+          "source_line": 648
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I141ON3J",
+          "sequence": 558,
+          "type": "bullet",
+          "text": "No temporary utility use before inspection and approval",
+          "source_line": 649
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I02473VL",
+          "sequence": 559,
+          "type": "bullet",
+          "text": "No crane or hoist use before certification",
+          "source_line": 650
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0T0ON85",
+          "sequence": 560,
+          "type": "bullet",
+          "text": "No occupied-area work before approved protection plan",
+          "source_line": 651
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1UX9R8O",
+          "sequence": 561,
+          "type": "bullet",
+          "text": "No removal of temporary fire protection before permanent coverage is active",
+          "source_line": 652
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1YXBNDX",
+          "sequence": 562,
+          "type": "bullet",
+          "text": "No removal of temporary power before permanent service supports the work",
+          "source_line": 653
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I16DOL3N",
+          "sequence": 563,
+          "type": "bullet",
+          "text": "No demobilization that impairs punch, testing, commissioning or warranty work",
+          "source_line": 654
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CYX8K4",
+          "sequence": 564,
+          "type": "bullet",
+          "text": "No permit or rental closure before final restoration is verified",
+          "source_line": 655
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Status values",
+      "path": [
+        "Status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0ORMER1",
+          "sequence": 565,
+          "type": "bullet",
+          "text": "Identified",
+          "source_line": 659
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0G870EX",
+          "sequence": 566,
+          "type": "bullet",
+          "text": "Planning",
+          "source_line": 660
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0869QWC",
+          "sequence": 567,
+          "type": "bullet",
+          "text": "Permit required",
+          "source_line": 661
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I17E52VT",
+          "sequence": 568,
+          "type": "bullet",
+          "text": "Awaiting approval",
+          "source_line": 662
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0S12LDY",
+          "sequence": 569,
+          "type": "bullet",
+          "text": "Procurement",
+          "source_line": 663
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I10SUOUZ",
+          "sequence": 570,
+          "type": "bullet",
+          "text": "Delivery scheduled",
+          "source_line": 664
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18BO9R4",
+          "sequence": 571,
+          "type": "bullet",
+          "text": "Installation",
+          "source_line": 665
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1RSEW6V",
+          "sequence": 572,
+          "type": "bullet",
+          "text": "Inspection required",
+          "source_line": 666
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1A631HU",
+          "sequence": 573,
+          "type": "bullet",
+          "text": "Active",
+          "source_line": 667
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I09NGCK4",
+          "sequence": 574,
+          "type": "bullet",
+          "text": "In service",
+          "source_line": 668
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1L43IBC",
+          "sequence": 575,
+          "type": "bullet",
+          "text": "Maintenance required",
+          "source_line": 669
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HVB7LN",
+          "sequence": 576,
+          "type": "bullet",
+          "text": "Deficient",
+          "source_line": 670
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DZM60M",
+          "sequence": 577,
+          "type": "bullet",
+          "text": "Corrective action",
+          "source_line": 671
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1BAUE6W",
+          "sequence": 578,
+          "type": "bullet",
+          "text": "Relocation planned",
+          "source_line": 672
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SSHBZX",
+          "sequence": 579,
+          "type": "bullet",
+          "text": "Relocated",
+          "source_line": 673
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0SWJJQ4",
+          "sequence": 580,
+          "type": "bullet",
+          "text": "Transitioning to permanent",
+          "source_line": 674
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0BFQ1RA",
+          "sequence": 581,
+          "type": "bullet",
+          "text": "Removal planned",
+          "source_line": 675
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I132ZKBW",
+          "sequence": 582,
+          "type": "bullet",
+          "text": "Off rent",
+          "source_line": 676
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1X9FH2K",
+          "sequence": 583,
+          "type": "bullet",
+          "text": "Removed",
+          "source_line": 677
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01CFSM1",
+          "sequence": 584,
+          "type": "bullet",
+          "text": "Restoration required",
+          "source_line": 678
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I097BU2I",
+          "sequence": 585,
+          "type": "bullet",
+          "text": "Restored",
+          "source_line": 679
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I01E8H2W",
+          "sequence": 586,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 680
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "SSX classifications",
+      "path": [
+        "SSX classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0GW5KII",
+          "sequence": 587,
+          "type": "bullet",
+          "text": "Pre-mobilization",
+          "source_line": 684
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0FYSMY2",
+          "sequence": 588,
+          "type": "bullet",
+          "text": "Mobilization",
+          "source_line": 685
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1Z04LVB",
+          "sequence": 589,
+          "type": "bullet",
+          "text": "Temporary structure",
+          "source_line": 686
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I19LMOM2",
+          "sequence": 590,
+          "type": "bullet",
+          "text": "Temporary utility",
+          "source_line": 687
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0CE79M2",
+          "sequence": 591,
+          "type": "bullet",
+          "text": "Site access",
+          "source_line": 688
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0HNM6DL",
+          "sequence": 592,
+          "type": "bullet",
+          "text": "Public protection",
+          "source_line": 689
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I07TA2UC",
+          "sequence": 593,
+          "type": "bullet",
+          "text": "Environmental control",
+          "source_line": 690
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0F2ZJ91",
+          "sequence": 594,
+          "type": "bullet",
+          "text": "Safety and emergency",
+          "source_line": 691
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I18OQKN1",
+          "sequence": 595,
+          "type": "bullet",
+          "text": "Workforce welfare",
+          "source_line": 692
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1KJLMOB",
+          "sequence": 596,
+          "type": "bullet",
+          "text": "Field office",
+          "source_line": 693
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0WSYKZ2",
+          "sequence": 597,
+          "type": "bullet",
+          "text": "Logistics",
+          "source_line": 694
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0OMOE9N",
+          "sequence": 598,
+          "type": "bullet",
+          "text": "Material storage",
+          "source_line": 695
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0VN3IO3",
+          "sequence": 599,
+          "type": "bullet",
+          "text": "Hoisting and access",
+          "source_line": 696
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1RRHGEH",
+          "sequence": 600,
+          "type": "bullet",
+          "text": "Occupied-building protection",
+          "source_line": 697
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1IVE7AT",
+          "sequence": 601,
+          "type": "bullet",
+          "text": "Recurring service",
+          "source_line": 698
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1JT3L34",
+          "sequence": 602,
+          "type": "bullet",
+          "text": "Phase relocation",
+          "source_line": 699
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0G0E6KN",
+          "sequence": 603,
+          "type": "bullet",
+          "text": "Transition to permanent",
+          "source_line": 700
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1MT4WEP",
+          "sequence": 604,
+          "type": "bullet",
+          "text": "Demobilization",
+          "source_line": 701
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0O11FRL",
+          "sequence": 605,
+          "type": "bullet",
+          "text": "Restoration",
+          "source_line": 702
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I03YJD88",
+          "sequence": 606,
+          "type": "bullet",
+          "text": "Tie each temporary facility to the first activity needing it and the last activity depending on it.",
+          "source_line": 706
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0MOQEGQ",
+          "sequence": 607,
+          "type": "bullet",
+          "text": "Include permitting, procurement, delivery, installation, inspection and removal.",
+          "source_line": 707
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1I17NIL",
+          "sequence": 608,
+          "type": "bullet",
+          "text": "Track recurring maintenance and service when failure could stop work.",
+          "source_line": 708
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1DVC565",
+          "sequence": 609,
+          "type": "bullet",
+          "text": "Adjust capacities to workforce and phase changes.",
+          "source_line": 709
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0R2WNPA",
+          "sequence": 610,
+          "type": "bullet",
+          "text": "Coordinate rental dates with actual delivery and off-rent confirmation.",
+          "source_line": 710
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1J0LY39",
+          "sequence": 611,
+          "type": "bullet",
+          "text": "Preserve emergency access, egress and fire protection through every phase.",
+          "source_line": 711
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I1E3AM5U",
+          "sequence": 612,
+          "type": "bullet",
+          "text": "Do not remove temporary systems before permanent replacements are tested and accepted.",
+          "source_line": 712
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I04O5YTU",
+          "sequence": 613,
+          "type": "bullet",
+          "text": "Link environmental controls to stabilization and permit closeout.",
+          "source_line": 713
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I0DI65Z0",
+          "sequence": 614,
+          "type": "bullet",
+          "text": "Include final restoration and damage correction.",
+          "source_line": 714
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I184VMMT",
+          "sequence": 615,
+          "type": "bullet",
+          "text": "Use separate activities for material relocations that affect production.",
+          "source_line": 715
+        },
+        {
+          "item_id": "SSX-SUP-MOBILIZATION-AND-TEMPORARY-FACILITIES-I00PDM4B",
+          "sequence": 616,
+          "type": "bullet",
+          "text": "Update the logistics plan whenever access, cranes, hoists, barriers or occupied areas change.",
+          "source_line": 716
+        }
+      ]
+    }
+  ]
+}

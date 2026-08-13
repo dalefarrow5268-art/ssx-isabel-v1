@@ -1,0 +1,4011 @@
+{
+  "department_id": "SSX-SUP-WORKFORCE-AND-LABOR",
+  "slug": "workforce-and-labor",
+  "title": "Workforce And Labor",
+  "document_title": "SSX Master Workforce and Labor Activities",
+  "source_path": "cloudflare/scheduling/schedule-activity-planning/workforce-and-labor/MASTER_WORKFORCE_AND_LABOR_ACTIVITIES.md",
+  "source_sha": null,
+  "counts": {
+    "groups": 33,
+    "items": 514
+  },
+  "groups": [
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G001",
+      "sequence": 1,
+      "level": 2,
+      "title": "Core workforce questions",
+      "path": [
+        "Core workforce questions"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1QLFWAY",
+          "sequence": 1,
+          "type": "table-row",
+          "text": "Field | Required answer",
+          "source_line": 9,
+          "cells": [
+            "Field",
+            "Required answer"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10L48QH",
+          "sequence": 2,
+          "type": "table-row",
+          "text": "Who is needed? | Company, trade, classification, skill, certification and supervision",
+          "source_line": 11,
+          "cells": [
+            "Who is needed?",
+            "Company, trade, classification, skill, certification and supervision"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I02WVMD2",
+          "sequence": 3,
+          "type": "table-row",
+          "text": "How many? | Planned crew, peak workforce, replacement reserve and actual workforce",
+          "source_line": 12,
+          "cells": [
+            "How many?",
+            "Planned crew, peak workforce, replacement reserve and actual workforce"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0H7BXFW",
+          "sequence": 4,
+          "type": "table-row",
+          "text": "Where? | Project, building, floor, area, workfront, fabrication shop or shift",
+          "source_line": 13,
+          "cells": [
+            "Where?",
+            "Project, building, floor, area, workfront, fabrication shop or shift"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0J0FMHR",
+          "sequence": 5,
+          "type": "table-row",
+          "text": "When? | Mobilization, start, ramp-up, peak, shift change, reassignment and release dates",
+          "source_line": 14,
+          "cells": [
+            "When?",
+            "Mobilization, start, ramp-up, peak, shift change, reassignment and release dates"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0O38QI2",
+          "sequence": 6,
+          "type": "table-row",
+          "text": "For what work? | Schedule activity, quantity, production target and milestone",
+          "source_line": 15,
+          "cells": [
+            "For what work?",
+            "Schedule activity, quantity, production target and milestone"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I020OOZ7",
+          "sequence": 7,
+          "type": "table-row",
+          "text": "What is required first? | Contract, orientation, badging, screening, training, certification, tools and access",
+          "source_line": 16,
+          "cells": [
+            "What is required first?",
+            "Contract, orientation, badging, screening, training, certification, tools and access"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1GDI5ZP",
+          "sequence": 8,
+          "type": "table-row",
+          "text": "What can prevent performance? | Shortage, absenteeism, turnover, fatigue, stacking, access, material, rework or low productivity",
+          "source_line": 17,
+          "cells": [
+            "What can prevent performance?",
+            "Shortage, absenteeism, turnover, fatigue, stacking, access, material, rework or low productivity"
+          ]
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1KGFPYE",
+          "sequence": 9,
+          "type": "table-row",
+          "text": "How is readiness proven? | Approved roster, credential, orientation record, assignment, attendance and production report",
+          "source_line": 18,
+          "cells": [
+            "How is readiness proven?",
+            "Approved roster, credential, orientation record, assignment, attendance and production report"
+          ]
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G002",
+      "sequence": 2,
+      "level": 2,
+      "title": "Recommended SSX tracking fields",
+      "path": [
+        "Recommended SSX tracking fields"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1ICSA0F",
+          "sequence": 10,
+          "type": "bullet",
+          "text": "Workforce activity ID",
+          "source_line": 22
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DE2PJ3",
+          "sequence": 11,
+          "type": "bullet",
+          "text": "Employer and trade partner",
+          "source_line": 23
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0PHX740",
+          "sequence": 12,
+          "type": "bullet",
+          "text": "Trade and labor classification",
+          "source_line": 24
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0NIGQZK",
+          "sequence": 13,
+          "type": "bullet",
+          "text": "Employee or crew identifier",
+          "source_line": 25
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0WPYMCQ",
+          "sequence": 14,
+          "type": "bullet",
+          "text": "Supervisor and foreman",
+          "source_line": 26
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1WFMW2F",
+          "sequence": 15,
+          "type": "bullet",
+          "text": "Skill and certification",
+          "source_line": 27
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14N66O3",
+          "sequence": 16,
+          "type": "bullet",
+          "text": "Union/local when applicable",
+          "source_line": 28
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0O4RMTB",
+          "sequence": 17,
+          "type": "bullet",
+          "text": "Work authorization/compliance status",
+          "source_line": 29
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I07UB7XJ",
+          "sequence": 18,
+          "type": "bullet",
+          "text": "Background screening status",
+          "source_line": 30
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MPUFPZ",
+          "sequence": 19,
+          "type": "bullet",
+          "text": "Drug-testing status when required",
+          "source_line": 31
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MN9YLE",
+          "sequence": 20,
+          "type": "bullet",
+          "text": "Orientation and training status",
+          "source_line": 32
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1J052GZ",
+          "sequence": 21,
+          "type": "bullet",
+          "text": "Badge and access status",
+          "source_line": 33
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1L92C4W",
+          "sequence": 22,
+          "type": "bullet",
+          "text": "Planned mobilization and release",
+          "source_line": 34
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12Z49KM",
+          "sequence": 23,
+          "type": "bullet",
+          "text": "Actual mobilization and release",
+          "source_line": 35
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1ACK5P6",
+          "sequence": 24,
+          "type": "bullet",
+          "text": "Shift and work hours",
+          "source_line": 36
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08EJMV8",
+          "sequence": 25,
+          "type": "bullet",
+          "text": "Building, area and work package",
+          "source_line": 37
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1XE7GFW",
+          "sequence": 26,
+          "type": "bullet",
+          "text": "Related schedule activity",
+          "source_line": 38
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17FCBTX",
+          "sequence": 27,
+          "type": "bullet",
+          "text": "Planned and actual headcount",
+          "source_line": 39
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18QC27J",
+          "sequence": 28,
+          "type": "bullet",
+          "text": "Planned and actual production",
+          "source_line": 40
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1ILZ6XS",
+          "sequence": 29,
+          "type": "bullet",
+          "text": "Overtime",
+          "source_line": 41
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I096DGO8",
+          "sequence": 30,
+          "type": "bullet",
+          "text": "Absence and turnover",
+          "source_line": 42
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I13FBH37",
+          "sequence": 31,
+          "type": "bullet",
+          "text": "Constraint and corrective action",
+          "source_line": 43
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HACMCS",
+          "sequence": 32,
+          "type": "bullet",
+          "text": "Confidential-record location",
+          "source_line": 44
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0I045Y5",
+          "sequence": 33,
+          "type": "bullet",
+          "text": "Status and notes",
+          "source_line": 45
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G003",
+      "sequence": 3,
+      "level": 2,
+      "title": "Workforce activity classifications",
+      "path": [
+        "Workforce activity classifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ON5DW1",
+          "sequence": 34,
+          "type": "bullet",
+          "text": "Workforce planning",
+          "source_line": 49
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18MZ0YM",
+          "sequence": 35,
+          "type": "bullet",
+          "text": "Recruiting",
+          "source_line": 50
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0T8UHZD",
+          "sequence": 36,
+          "type": "bullet",
+          "text": "Hiring",
+          "source_line": 51
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18PE58K",
+          "sequence": 37,
+          "type": "bullet",
+          "text": "Labor sourcing",
+          "source_line": 52
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0DTNDH2",
+          "sequence": 38,
+          "type": "bullet",
+          "text": "Union coordination",
+          "source_line": 53
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1W0H1YG",
+          "sequence": 39,
+          "type": "bullet",
+          "text": "Screening",
+          "source_line": 54
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1AFZ9ED",
+          "sequence": 40,
+          "type": "bullet",
+          "text": "Onboarding",
+          "source_line": 55
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1B6TRPA",
+          "sequence": 41,
+          "type": "bullet",
+          "text": "Orientation",
+          "source_line": 56
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MS6RGI",
+          "sequence": 42,
+          "type": "bullet",
+          "text": "Training",
+          "source_line": 57
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0BB2ROA",
+          "sequence": 43,
+          "type": "bullet",
+          "text": "Certification",
+          "source_line": 58
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1RCIXQG",
+          "sequence": 44,
+          "type": "bullet",
+          "text": "Badging",
+          "source_line": 59
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I01QBB11",
+          "sequence": 45,
+          "type": "bullet",
+          "text": "Mobilization",
+          "source_line": 60
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14VGPWM",
+          "sequence": 46,
+          "type": "bullet",
+          "text": "Crew assignment",
+          "source_line": 61
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CYS5V5",
+          "sequence": 47,
+          "type": "bullet",
+          "text": "Shift planning",
+          "source_line": 62
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0L1CEJR",
+          "sequence": 48,
+          "type": "bullet",
+          "text": "Attendance",
+          "source_line": 63
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Z7MHM4",
+          "sequence": 49,
+          "type": "bullet",
+          "text": "Productivity",
+          "source_line": 64
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1EUZBU9",
+          "sequence": 50,
+          "type": "bullet",
+          "text": "Labor compliance",
+          "source_line": 65
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0GBGSJ5",
+          "sequence": 51,
+          "type": "bullet",
+          "text": "Workforce development",
+          "source_line": 66
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1JUSDMQ",
+          "sequence": 52,
+          "type": "bullet",
+          "text": "Corrective staffing",
+          "source_line": 67
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MXX9TY",
+          "sequence": 53,
+          "type": "bullet",
+          "text": "Demobilization",
+          "source_line": 68
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G004",
+      "sequence": 4,
+      "level": 2,
+      "title": "Standard workforce workflow",
+      "path": [
+        "Standard workforce workflow"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11JX5W4",
+          "sequence": 54,
+          "type": "numbered",
+          "text": "Determine scope, quantities and schedule",
+          "source_line": 72
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0D7T10Q",
+          "sequence": 55,
+          "type": "numbered",
+          "text": "Develop labor-loaded forecast",
+          "source_line": 73
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1GP933F",
+          "sequence": 56,
+          "type": "numbered",
+          "text": "Identify skills and credentials",
+          "source_line": 74
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YEDWDB",
+          "sequence": 57,
+          "type": "numbered",
+          "text": "Confirm labor source and availability",
+          "source_line": 75
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I07X2R4Y",
+          "sequence": 58,
+          "type": "numbered",
+          "text": "Recruit or assign workforce",
+          "source_line": 76
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0JU8L82",
+          "sequence": 59,
+          "type": "numbered",
+          "text": "Complete screening and employment requirements",
+          "source_line": 77
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0BYDNFO",
+          "sequence": 60,
+          "type": "numbered",
+          "text": "Complete orientation, training and badging",
+          "source_line": 78
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Y5B4PX",
+          "sequence": 61,
+          "type": "numbered",
+          "text": "Mobilize supervision and crews",
+          "source_line": 79
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0WI7E56",
+          "sequence": 62,
+          "type": "numbered",
+          "text": "Assign workfronts and production targets",
+          "source_line": 80
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1OV8YVN",
+          "sequence": 63,
+          "type": "numbered",
+          "text": "Track attendance, hours and output",
+          "source_line": 81
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1I1BF80",
+          "sequence": 64,
+          "type": "numbered",
+          "text": "Resolve shortages, congestion and performance issues",
+          "source_line": 82
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12V54X6",
+          "sequence": 65,
+          "type": "numbered",
+          "text": "Ramp crews up or down with the schedule",
+          "source_line": 83
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1KNL3XD",
+          "sequence": 66,
+          "type": "numbered",
+          "text": "Transfer knowledge and complete closeout",
+          "source_line": 84
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I082FM05",
+          "sequence": 67,
+          "type": "numbered",
+          "text": "Demobilize and close workforce records",
+          "source_line": 85
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G005",
+      "sequence": 5,
+      "level": 2,
+      "title": "Workforce planning",
+      "path": [
+        "Workforce planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RARYQ7",
+          "sequence": 68,
+          "type": "bullet",
+          "text": "Review construction schedule",
+          "source_line": 89
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0QH7EF1",
+          "sequence": 69,
+          "type": "bullet",
+          "text": "Break work into labor-driven activities",
+          "source_line": 90
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10YR1CG",
+          "sequence": 70,
+          "type": "bullet",
+          "text": "Measure quantities",
+          "source_line": 91
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1A5PMBK",
+          "sequence": 71,
+          "type": "bullet",
+          "text": "Establish production rates",
+          "source_line": 92
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DMVE46",
+          "sequence": 72,
+          "type": "bullet",
+          "text": "Develop crew compositions",
+          "source_line": 93
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MKNS33",
+          "sequence": 73,
+          "type": "bullet",
+          "text": "Develop trade manpower curves",
+          "source_line": 94
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1JUU32D",
+          "sequence": 74,
+          "type": "bullet",
+          "text": "Develop total project manpower curve",
+          "source_line": 95
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DQWEHE",
+          "sequence": 75,
+          "type": "bullet",
+          "text": "Identify peak periods",
+          "source_line": 96
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I15IB4E4",
+          "sequence": 76,
+          "type": "bullet",
+          "text": "Identify critical skills",
+          "source_line": 97
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1JXOFN2",
+          "sequence": 77,
+          "type": "bullet",
+          "text": "Identify supervision ratios",
+          "source_line": 98
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MZYD67",
+          "sequence": 78,
+          "type": "bullet",
+          "text": "Identify shift requirements",
+          "source_line": 99
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HS9UTR",
+          "sequence": 79,
+          "type": "bullet",
+          "text": "Identify local labor availability",
+          "source_line": 100
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0C5EBUR",
+          "sequence": 80,
+          "type": "bullet",
+          "text": "Identify travel and lodging needs",
+          "source_line": 101
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0UKC9M5",
+          "sequence": 81,
+          "type": "bullet",
+          "text": "Identify workforce-goal requirements",
+          "source_line": 102
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11FN5V7",
+          "sequence": 82,
+          "type": "bullet",
+          "text": "Identify training lead times",
+          "source_line": 103
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I097R7U5",
+          "sequence": 83,
+          "type": "bullet",
+          "text": "Validate forecast with trade partners",
+          "source_line": 104
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08NB470",
+          "sequence": 84,
+          "type": "bullet",
+          "text": "Update forecast monthly",
+          "source_line": 105
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0K1X6AM",
+          "sequence": 85,
+          "type": "bullet",
+          "text": "Update look-ahead weekly",
+          "source_line": 106
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G006",
+      "sequence": 6,
+      "level": 2,
+      "title": "Labor sourcing and recruiting",
+      "path": [
+        "Labor sourcing and recruiting"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I048QZQ6",
+          "sequence": 86,
+          "type": "bullet",
+          "text": "Prequalify trade contractor",
+          "source_line": 110
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Q0SU1H",
+          "sequence": 87,
+          "type": "bullet",
+          "text": "Confirm committed workforce",
+          "source_line": 111
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I100V8O3",
+          "sequence": 88,
+          "type": "bullet",
+          "text": "Confirm union labor source",
+          "source_line": 112
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RLP8M7",
+          "sequence": 89,
+          "type": "bullet",
+          "text": "Coordinate hiring hall",
+          "source_line": 113
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0XZI1A6",
+          "sequence": 90,
+          "type": "bullet",
+          "text": "Coordinate open-shop recruiting",
+          "source_line": 114
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1UK0H9E",
+          "sequence": 91,
+          "type": "bullet",
+          "text": "Advertise positions",
+          "source_line": 115
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1REUM0Q",
+          "sequence": 92,
+          "type": "bullet",
+          "text": "Conduct job fair",
+          "source_line": 116
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1LZSG0T",
+          "sequence": 93,
+          "type": "bullet",
+          "text": "Conduct community outreach",
+          "source_line": 117
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0SYUKNK",
+          "sequence": 94,
+          "type": "bullet",
+          "text": "Coordinate apprenticeship program",
+          "source_line": 118
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I09MQ8KQ",
+          "sequence": 95,
+          "type": "bullet",
+          "text": "Coordinate workforce agency",
+          "source_line": 119
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0768UFK",
+          "sequence": 96,
+          "type": "bullet",
+          "text": "Screen applicants",
+          "source_line": 120
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I050VGNM",
+          "sequence": 97,
+          "type": "bullet",
+          "text": "Verify qualifications",
+          "source_line": 121
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1S68231",
+          "sequence": 98,
+          "type": "bullet",
+          "text": "Conduct interviews",
+          "source_line": 122
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0BTV660",
+          "sequence": 99,
+          "type": "bullet",
+          "text": "Issue offer or assignment",
+          "source_line": 123
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I19L7QJG",
+          "sequence": 100,
+          "type": "bullet",
+          "text": "Establish start date",
+          "source_line": 124
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18ACSSC",
+          "sequence": 101,
+          "type": "bullet",
+          "text": "Maintain backup candidates",
+          "source_line": 125
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I151LZSZ",
+          "sequence": 102,
+          "type": "bullet",
+          "text": "Track unfilled positions",
+          "source_line": 126
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I09A91YI",
+          "sequence": 103,
+          "type": "bullet",
+          "text": "Escalate shortage",
+          "source_line": 127
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G007",
+      "sequence": 7,
+      "level": 2,
+      "title": "Union and labor-relations activities",
+      "path": [
+        "Union and labor-relations activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1VLXEOF",
+          "sequence": 104,
+          "type": "bullet",
+          "text": "Identify applicable agreements",
+          "source_line": 131
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1XYDHR3",
+          "sequence": 105,
+          "type": "bullet",
+          "text": "Confirm jurisdiction by trade",
+          "source_line": 132
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12KDF1O",
+          "sequence": 106,
+          "type": "bullet",
+          "text": "Confirm wage and benefit rates",
+          "source_line": 133
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TF1B9V",
+          "sequence": 107,
+          "type": "bullet",
+          "text": "Confirm work rules",
+          "source_line": 134
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CQDEQM",
+          "sequence": 108,
+          "type": "bullet",
+          "text": "Confirm shift and overtime rules",
+          "source_line": 135
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YZW34U",
+          "sequence": 109,
+          "type": "bullet",
+          "text": "Confirm crew composition",
+          "source_line": 136
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1R1ZRIX",
+          "sequence": 110,
+          "type": "bullet",
+          "text": "Confirm steward requirements",
+          "source_line": 137
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14BTZSX",
+          "sequence": 111,
+          "type": "bullet",
+          "text": "Confirm referral procedure",
+          "source_line": 138
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1VBSZ5S",
+          "sequence": 112,
+          "type": "bullet",
+          "text": "Request labor",
+          "source_line": 139
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0YZXMKI",
+          "sequence": 113,
+          "type": "bullet",
+          "text": "Conduct pre-job conference",
+          "source_line": 140
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0DEMGFA",
+          "sequence": 114,
+          "type": "bullet",
+          "text": "Resolve jurisdictional issue",
+          "source_line": 141
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I140XN0B",
+          "sequence": 115,
+          "type": "bullet",
+          "text": "Resolve grievance",
+          "source_line": 142
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1XTPZ6K",
+          "sequence": 116,
+          "type": "bullet",
+          "text": "Coordinate picket or labor disruption response",
+          "source_line": 143
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0OD5R91",
+          "sequence": 117,
+          "type": "bullet",
+          "text": "Update agreement changes",
+          "source_line": 144
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I098Y7W8",
+          "sequence": 118,
+          "type": "bullet",
+          "text": "Preserve required records",
+          "source_line": 145
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G008",
+      "sequence": 8,
+      "level": 2,
+      "title": "Pre-employment and project screening",
+      "path": [
+        "Pre-employment and project screening"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1RXF800",
+          "sequence": 119,
+          "type": "bullet",
+          "text": "Verify identity and work authorization under required process",
+          "source_line": 149
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0GTS21M",
+          "sequence": 120,
+          "type": "bullet",
+          "text": "Complete background screening when required",
+          "source_line": 150
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RGF7YP",
+          "sequence": 121,
+          "type": "bullet",
+          "text": "Complete drug or alcohol testing when required",
+          "source_line": 151
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HTZU3E",
+          "sequence": 122,
+          "type": "bullet",
+          "text": "Complete fitness-for-duty process when required",
+          "source_line": 152
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X0KUI0",
+          "sequence": 123,
+          "type": "bullet",
+          "text": "Verify motor-vehicle record for drivers",
+          "source_line": 153
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0CS8QZC",
+          "sequence": 124,
+          "type": "bullet",
+          "text": "Verify operator qualification",
+          "source_line": 154
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1N27DGX",
+          "sequence": 125,
+          "type": "bullet",
+          "text": "Verify professional license",
+          "source_line": 155
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11HRVTU",
+          "sequence": 126,
+          "type": "bullet",
+          "text": "Verify trade license",
+          "source_line": 156
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1KB6QD1",
+          "sequence": 127,
+          "type": "bullet",
+          "text": "Verify insurance enrollment",
+          "source_line": 157
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Z7VTTQ",
+          "sequence": 128,
+          "type": "bullet",
+          "text": "Verify emergency contact",
+          "source_line": 158
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0WK4FQ3",
+          "sequence": 129,
+          "type": "bullet",
+          "text": "Protect confidential information",
+          "source_line": 159
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14ACYL8",
+          "sequence": 130,
+          "type": "bullet",
+          "text": "Approve or reject project access",
+          "source_line": 160
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I176TYG8",
+          "sequence": 131,
+          "type": "bullet",
+          "text": "Track expiration and rescreening",
+          "source_line": 161
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G009",
+      "sequence": 9,
+      "level": 2,
+      "title": "Onboarding and orientation",
+      "path": [
+        "Onboarding and orientation"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CNCJEC",
+          "sequence": 132,
+          "type": "bullet",
+          "text": "Collect project roster",
+          "source_line": 165
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I02MIARE",
+          "sequence": 133,
+          "type": "bullet",
+          "text": "Submit worker information",
+          "source_line": 166
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I13OP2X9",
+          "sequence": 134,
+          "type": "bullet",
+          "text": "Schedule orientation",
+          "source_line": 167
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I03CS74F",
+          "sequence": 135,
+          "type": "bullet",
+          "text": "Complete company onboarding",
+          "source_line": 168
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10GR3J2",
+          "sequence": 136,
+          "type": "bullet",
+          "text": "Complete project orientation",
+          "source_line": 169
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MI6TE7",
+          "sequence": 137,
+          "type": "bullet",
+          "text": "Complete safety orientation",
+          "source_line": 170
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0B56KE9",
+          "sequence": 138,
+          "type": "bullet",
+          "text": "Complete site logistics briefing",
+          "source_line": 171
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1T4LSUS",
+          "sequence": 139,
+          "type": "bullet",
+          "text": "Complete emergency-procedure briefing",
+          "source_line": 172
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I05UMADD",
+          "sequence": 140,
+          "type": "bullet",
+          "text": "Complete quality expectations briefing",
+          "source_line": 173
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0CLTZJR",
+          "sequence": 141,
+          "type": "bullet",
+          "text": "Complete environmental briefing",
+          "source_line": 174
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0A2Q4KJ",
+          "sequence": 142,
+          "type": "bullet",
+          "text": "Complete conduct and anti-harassment training",
+          "source_line": 175
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MLWVAB",
+          "sequence": 143,
+          "type": "bullet",
+          "text": "Complete security briefing",
+          "source_line": 176
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ZZTPEN",
+          "sequence": 144,
+          "type": "bullet",
+          "text": "Issue handbook or rules",
+          "source_line": 177
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1R3WGLB",
+          "sequence": 145,
+          "type": "bullet",
+          "text": "Verify comprehension",
+          "source_line": 178
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I06HGXH9",
+          "sequence": 146,
+          "type": "bullet",
+          "text": "Sign acknowledgments",
+          "source_line": 179
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1A6FPWE",
+          "sequence": 147,
+          "type": "bullet",
+          "text": "Issue badge",
+          "source_line": 180
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1950VHG",
+          "sequence": 148,
+          "type": "bullet",
+          "text": "Assign supervisor and work area",
+          "source_line": 181
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1RKAH2V",
+          "sequence": 149,
+          "type": "bullet",
+          "text": "Authorize first shift",
+          "source_line": 182
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G010",
+      "sequence": 10,
+      "level": 2,
+      "title": "Badging and access",
+      "path": [
+        "Badging and access"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1UOYHMB",
+          "sequence": 150,
+          "type": "bullet",
+          "text": "Submit badge request",
+          "source_line": 186
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I16ZMEK7",
+          "sequence": 151,
+          "type": "bullet",
+          "text": "Verify prerequisites",
+          "source_line": 187
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Z40R7N",
+          "sequence": 152,
+          "type": "bullet",
+          "text": "Capture photograph",
+          "source_line": 188
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1VM4HTP",
+          "sequence": 153,
+          "type": "bullet",
+          "text": "Issue worker badge",
+          "source_line": 189
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NYXJ3T",
+          "sequence": 154,
+          "type": "bullet",
+          "text": "Assign access zones",
+          "source_line": 190
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0LJRGAL",
+          "sequence": 155,
+          "type": "bullet",
+          "text": "Assign access hours",
+          "source_line": 191
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1PR1PS1",
+          "sequence": 156,
+          "type": "bullet",
+          "text": "Test access",
+          "source_line": 192
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1LYJL05",
+          "sequence": 157,
+          "type": "bullet",
+          "text": "Activate parking or gate credential",
+          "source_line": 193
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1XS7W34",
+          "sequence": 158,
+          "type": "bullet",
+          "text": "Track temporary badge",
+          "source_line": 194
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0UUXYZW",
+          "sequence": 159,
+          "type": "bullet",
+          "text": "Replace lost badge",
+          "source_line": 195
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0T57TO8",
+          "sequence": 160,
+          "type": "bullet",
+          "text": "Suspend badge",
+          "source_line": 196
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1PNQ08F",
+          "sequence": 161,
+          "type": "bullet",
+          "text": "Modify access by phase",
+          "source_line": 197
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NSMDAE",
+          "sequence": 162,
+          "type": "bullet",
+          "text": "Audit active badges",
+          "source_line": 198
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0XMJRO4",
+          "sequence": 163,
+          "type": "bullet",
+          "text": "Deactivate at separation",
+          "source_line": 199
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1GU1IXC",
+          "sequence": 164,
+          "type": "bullet",
+          "text": "Recover badge",
+          "source_line": 200
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1F4U1QV",
+          "sequence": 165,
+          "type": "bullet",
+          "text": "Preserve access log",
+          "source_line": 201
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G011",
+      "sequence": 11,
+      "level": 2,
+      "title": "Skills and certifications",
+      "path": [
+        "Skills and certifications"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1JHWEOU",
+          "sequence": 166,
+          "type": "bullet",
+          "text": "Competent-person designation",
+          "source_line": 205
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DQGSCD",
+          "sequence": 167,
+          "type": "bullet",
+          "text": "Qualified-person designation",
+          "source_line": 206
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0OL7A1Q",
+          "sequence": 168,
+          "type": "bullet",
+          "text": "OSHA or project safety credential",
+          "source_line": 207
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0C46ARN",
+          "sequence": 169,
+          "type": "bullet",
+          "text": "Equipment-operator certification",
+          "source_line": 208
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I04H8J78",
+          "sequence": 170,
+          "type": "bullet",
+          "text": "Crane-operator certification",
+          "source_line": 209
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0DZ97KR",
+          "sequence": 171,
+          "type": "bullet",
+          "text": "Rigger qualification",
+          "source_line": 210
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0QV99Q9",
+          "sequence": 172,
+          "type": "bullet",
+          "text": "Signal-person qualification",
+          "source_line": 211
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12MHMT5",
+          "sequence": 173,
+          "type": "bullet",
+          "text": "Forklift or telehandler authorization",
+          "source_line": 212
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CZ9WXV",
+          "sequence": 174,
+          "type": "bullet",
+          "text": "Aerial-lift authorization",
+          "source_line": 213
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NIF8LX",
+          "sequence": 175,
+          "type": "bullet",
+          "text": "Scaffold qualification",
+          "source_line": 214
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08E9Q4G",
+          "sequence": 176,
+          "type": "bullet",
+          "text": "Welding certification",
+          "source_line": 215
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11XOLCX",
+          "sequence": 177,
+          "type": "bullet",
+          "text": "Electrical qualification",
+          "source_line": 216
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0274MBW",
+          "sequence": 178,
+          "type": "bullet",
+          "text": "Confined-space qualification",
+          "source_line": 217
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I16F8YDD",
+          "sequence": 179,
+          "type": "bullet",
+          "text": "First-aid/CPR certification",
+          "source_line": 218
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I001CIMJ",
+          "sequence": 180,
+          "type": "bullet",
+          "text": "Respiratory-protection qualification",
+          "source_line": 219
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1A2G6OU",
+          "sequence": 181,
+          "type": "bullet",
+          "text": "HAZWOPER or hazardous-material training",
+          "source_line": 220
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1KTMEV1",
+          "sequence": 182,
+          "type": "bullet",
+          "text": "Manufacturer certification",
+          "source_line": 221
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I15C28BZ",
+          "sequence": 183,
+          "type": "bullet",
+          "text": "Special-process certification",
+          "source_line": 222
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1C3ZBSI",
+          "sequence": 184,
+          "type": "bullet",
+          "text": "Track expiration",
+          "source_line": 223
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Q53KVV",
+          "sequence": 185,
+          "type": "bullet",
+          "text": "Schedule renewal",
+          "source_line": 224
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YVH04G",
+          "sequence": 186,
+          "type": "bullet",
+          "text": "Remove expired worker from affected task",
+          "source_line": 225
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G012",
+      "sequence": 12,
+      "level": 2,
+      "title": "Supervisor and foreman mobilization",
+      "path": [
+        "Supervisor and foreman mobilization"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0H6SZ6G",
+          "sequence": 187,
+          "type": "bullet",
+          "text": "Assign project executive",
+          "source_line": 229
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1GPS8Q5",
+          "sequence": 188,
+          "type": "bullet",
+          "text": "Assign project manager",
+          "source_line": 230
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0377F4R",
+          "sequence": 189,
+          "type": "bullet",
+          "text": "Assign superintendent",
+          "source_line": 231
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KVKLGJ",
+          "sequence": 190,
+          "type": "bullet",
+          "text": "Assign assistant superintendent",
+          "source_line": 232
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RICMN4",
+          "sequence": 191,
+          "type": "bullet",
+          "text": "Assign safety manager",
+          "source_line": 233
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1WQQA6T",
+          "sequence": 192,
+          "type": "bullet",
+          "text": "Assign quality manager",
+          "source_line": 234
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11S5KH2",
+          "sequence": 193,
+          "type": "bullet",
+          "text": "Assign scheduler",
+          "source_line": 235
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12CC5EP",
+          "sequence": 194,
+          "type": "bullet",
+          "text": "Assign cost engineer",
+          "source_line": 236
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1RGBIPP",
+          "sequence": 195,
+          "type": "bullet",
+          "text": "Assign trade superintendent",
+          "source_line": 237
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NQ5SAP",
+          "sequence": 196,
+          "type": "bullet",
+          "text": "Assign general foreman",
+          "source_line": 238
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I187PANX",
+          "sequence": 197,
+          "type": "bullet",
+          "text": "Assign foreman",
+          "source_line": 239
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HCNN4A",
+          "sequence": 198,
+          "type": "bullet",
+          "text": "Conduct leadership kickoff",
+          "source_line": 240
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1M8ZJ98",
+          "sequence": 199,
+          "type": "bullet",
+          "text": "Review scope and schedule",
+          "source_line": 241
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ATATD5",
+          "sequence": 200,
+          "type": "bullet",
+          "text": "Review logistics",
+          "source_line": 242
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1GCN86S",
+          "sequence": 201,
+          "type": "bullet",
+          "text": "Review safety and quality",
+          "source_line": 243
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CPJ9NT",
+          "sequence": 202,
+          "type": "bullet",
+          "text": "Establish reporting duties",
+          "source_line": 244
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0NHOKGI",
+          "sequence": 203,
+          "type": "bullet",
+          "text": "Mobilize before crews",
+          "source_line": 245
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I02PLJ54",
+          "sequence": 204,
+          "type": "bullet",
+          "text": "Maintain coverage for all shifts",
+          "source_line": 246
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G013",
+      "sequence": 13,
+      "level": 2,
+      "title": "Crew mobilization",
+      "path": [
+        "Crew mobilization"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0F7S5AK",
+          "sequence": 205,
+          "type": "bullet",
+          "text": "Confirm work package ready",
+          "source_line": 250
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0NXT8QN",
+          "sequence": 206,
+          "type": "bullet",
+          "text": "Confirm approved documents",
+          "source_line": 251
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0XY814M",
+          "sequence": 207,
+          "type": "bullet",
+          "text": "Confirm material and equipment",
+          "source_line": 252
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11KXNND",
+          "sequence": 208,
+          "type": "bullet",
+          "text": "Confirm work area and access",
+          "source_line": 253
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14F2WHF",
+          "sequence": 209,
+          "type": "bullet",
+          "text": "Confirm tools and PPE",
+          "source_line": 254
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ZOTTHF",
+          "sequence": 210,
+          "type": "bullet",
+          "text": "Confirm orientation and badges",
+          "source_line": 255
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1HFDBE9",
+          "sequence": 211,
+          "type": "bullet",
+          "text": "Confirm supervision",
+          "source_line": 256
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I013RP0Q",
+          "sequence": 212,
+          "type": "bullet",
+          "text": "Conduct pre-task meeting",
+          "source_line": 257
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TAMG6K",
+          "sequence": 213,
+          "type": "bullet",
+          "text": "Assign crew",
+          "source_line": 258
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1SU2CK5",
+          "sequence": 214,
+          "type": "bullet",
+          "text": "Establish production target",
+          "source_line": 259
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CKRTLR",
+          "sequence": 215,
+          "type": "bullet",
+          "text": "Start first-work activity",
+          "source_line": 260
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0F3RS0B",
+          "sequence": 216,
+          "type": "bullet",
+          "text": "Conduct initial quality inspection",
+          "source_line": 261
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0GJPDPJ",
+          "sequence": 217,
+          "type": "bullet",
+          "text": "Record actual start",
+          "source_line": 262
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1H9OCMY",
+          "sequence": 218,
+          "type": "bullet",
+          "text": "Verify first-shift performance",
+          "source_line": 263
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1X81ZVB",
+          "sequence": 219,
+          "type": "bullet",
+          "text": "Adjust crew as needed",
+          "source_line": 264
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G014",
+      "sequence": 14,
+      "level": 2,
+      "title": "Shift planning",
+      "path": [
+        "Shift planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0FNV5LA",
+          "sequence": 220,
+          "type": "bullet",
+          "text": "Establish day shift",
+          "source_line": 268
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YYOHIO",
+          "sequence": 221,
+          "type": "bullet",
+          "text": "Establish second shift",
+          "source_line": 269
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1ARL8QI",
+          "sequence": 222,
+          "type": "bullet",
+          "text": "Establish night shift",
+          "source_line": 270
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1936WZL",
+          "sequence": 223,
+          "type": "bullet",
+          "text": "Establish weekend shift",
+          "source_line": 271
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I16VU8IK",
+          "sequence": 224,
+          "type": "bullet",
+          "text": "Establish rotating shift",
+          "source_line": 272
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I01X0MMJ",
+          "sequence": 225,
+          "type": "bullet",
+          "text": "Confirm work hours",
+          "source_line": 273
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I067C0KG",
+          "sequence": 226,
+          "type": "bullet",
+          "text": "Confirm differential and overtime",
+          "source_line": 274
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RZ8I0W",
+          "sequence": 227,
+          "type": "bullet",
+          "text": "Confirm supervision",
+          "source_line": 275
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HF21MN",
+          "sequence": 228,
+          "type": "bullet",
+          "text": "Confirm safety coverage",
+          "source_line": 276
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I059GEPO",
+          "sequence": 229,
+          "type": "bullet",
+          "text": "Confirm quality coverage",
+          "source_line": 277
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I13D35AU",
+          "sequence": 230,
+          "type": "bullet",
+          "text": "Confirm inspection availability",
+          "source_line": 278
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1B89V9B",
+          "sequence": 231,
+          "type": "bullet",
+          "text": "Confirm security",
+          "source_line": 279
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1FHH5ON",
+          "sequence": 232,
+          "type": "bullet",
+          "text": "Confirm lighting and temporary utilities",
+          "source_line": 280
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0GPEC8E",
+          "sequence": 233,
+          "type": "bullet",
+          "text": "Confirm deliveries and material support",
+          "source_line": 281
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1FDGQEW",
+          "sequence": 234,
+          "type": "bullet",
+          "text": "Confirm noise restrictions",
+          "source_line": 282
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08PD0GP",
+          "sequence": 235,
+          "type": "bullet",
+          "text": "Conduct shift handoff",
+          "source_line": 283
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NB6VDU",
+          "sequence": 236,
+          "type": "bullet",
+          "text": "Track shift-specific production",
+          "source_line": 284
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G015",
+      "sequence": 15,
+      "level": 2,
+      "title": "Daily workforce management",
+      "path": [
+        "Daily workforce management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1LT9JDK",
+          "sequence": 237,
+          "type": "bullet",
+          "text": "Verify attendance",
+          "source_line": 288
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0IR11XY",
+          "sequence": 238,
+          "type": "bullet",
+          "text": "Conduct stretch-and-flex when used",
+          "source_line": 289
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CXST4Y",
+          "sequence": 239,
+          "type": "bullet",
+          "text": "Conduct pre-task planning",
+          "source_line": 290
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0GRIU9A",
+          "sequence": 240,
+          "type": "bullet",
+          "text": "Assign workfronts",
+          "source_line": 291
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0N05GT1",
+          "sequence": 241,
+          "type": "bullet",
+          "text": "Confirm crew qualifications",
+          "source_line": 292
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12RSUOK",
+          "sequence": 242,
+          "type": "bullet",
+          "text": "Record headcount",
+          "source_line": 293
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1UFXS0E",
+          "sequence": 243,
+          "type": "bullet",
+          "text": "Record hours",
+          "source_line": 294
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10AHTK4",
+          "sequence": 244,
+          "type": "bullet",
+          "text": "Record overtime",
+          "source_line": 295
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I076YQRL",
+          "sequence": 245,
+          "type": "bullet",
+          "text": "Monitor production",
+          "source_line": 296
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0CBQIC8",
+          "sequence": 246,
+          "type": "bullet",
+          "text": "Monitor safety",
+          "source_line": 297
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1SR0HYR",
+          "sequence": 247,
+          "type": "bullet",
+          "text": "Monitor workmanship",
+          "source_line": 298
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08XHMPA",
+          "sequence": 248,
+          "type": "bullet",
+          "text": "Coordinate breaks",
+          "source_line": 299
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1IHETZG",
+          "sequence": 249,
+          "type": "bullet",
+          "text": "Resolve access or material constraints",
+          "source_line": 300
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I101L2E6",
+          "sequence": 250,
+          "type": "bullet",
+          "text": "Reassign labor",
+          "source_line": 301
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1LWHVZO",
+          "sequence": 251,
+          "type": "bullet",
+          "text": "Conduct end-of-shift cleanup",
+          "source_line": 302
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0IDIQDS",
+          "sequence": 252,
+          "type": "bullet",
+          "text": "Complete daily report",
+          "source_line": 303
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0TCO8WY",
+          "sequence": 253,
+          "type": "bullet",
+          "text": "Conduct shift handoff",
+          "source_line": 304
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G016",
+      "sequence": 16,
+      "level": 2,
+      "title": "Attendance and timekeeping",
+      "path": [
+        "Attendance and timekeeping"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1B5A37K",
+          "sequence": 254,
+          "type": "bullet",
+          "text": "Worker check-in",
+          "source_line": 308
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Z9JM8A",
+          "sequence": 255,
+          "type": "bullet",
+          "text": "Badge scan",
+          "source_line": 309
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0LW02R7",
+          "sequence": 256,
+          "type": "bullet",
+          "text": "Foreman timecard",
+          "source_line": 310
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0R0RIM1",
+          "sequence": 257,
+          "type": "bullet",
+          "text": "Assign cost code",
+          "source_line": 311
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I05AAYH9",
+          "sequence": 258,
+          "type": "bullet",
+          "text": "Assign schedule activity",
+          "source_line": 312
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1OBNQFO",
+          "sequence": 259,
+          "type": "bullet",
+          "text": "Record regular hours",
+          "source_line": 313
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0E0LEDQ",
+          "sequence": 260,
+          "type": "bullet",
+          "text": "Record overtime",
+          "source_line": 314
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NHT8CK",
+          "sequence": 261,
+          "type": "bullet",
+          "text": "Record shift differential",
+          "source_line": 315
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ZBR3U0",
+          "sequence": 262,
+          "type": "bullet",
+          "text": "Record absence",
+          "source_line": 316
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0V6W7UW",
+          "sequence": 263,
+          "type": "bullet",
+          "text": "Record late arrival",
+          "source_line": 317
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17761M0",
+          "sequence": 264,
+          "type": "bullet",
+          "text": "Review daily time",
+          "source_line": 318
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MHWGF5",
+          "sequence": 265,
+          "type": "bullet",
+          "text": "Correct exception",
+          "source_line": 319
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18W5Q5A",
+          "sequence": 266,
+          "type": "bullet",
+          "text": "Obtain supervisor approval",
+          "source_line": 320
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ZZ521F",
+          "sequence": 267,
+          "type": "bullet",
+          "text": "Submit payroll",
+          "source_line": 321
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TYY1QZ",
+          "sequence": 268,
+          "type": "bullet",
+          "text": "Reconcile certified payroll when required",
+          "source_line": 322
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1FOK6H8",
+          "sequence": 269,
+          "type": "bullet",
+          "text": "Preserve time record",
+          "source_line": 323
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G017",
+      "sequence": 17,
+      "level": 2,
+      "title": "Production and productivity",
+      "path": [
+        "Production and productivity"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0IB6MYK",
+          "sequence": 270,
+          "type": "bullet",
+          "text": "Define installed quantity",
+          "source_line": 327
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0INKGEK",
+          "sequence": 271,
+          "type": "bullet",
+          "text": "Define planned production rate",
+          "source_line": 328
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I09JXVY7",
+          "sequence": 272,
+          "type": "bullet",
+          "text": "Define crew size",
+          "source_line": 329
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1EVJQ1R",
+          "sequence": 273,
+          "type": "bullet",
+          "text": "Record daily output",
+          "source_line": 330
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DUSTZU",
+          "sequence": 274,
+          "type": "bullet",
+          "text": "Calculate labor hours per unit",
+          "source_line": 331
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1M1AN29",
+          "sequence": 275,
+          "type": "bullet",
+          "text": "Compare plan to actual",
+          "source_line": 332
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I044ZBPF",
+          "sequence": 276,
+          "type": "bullet",
+          "text": "Identify learning curve",
+          "source_line": 333
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Z88DI1",
+          "sequence": 277,
+          "type": "bullet",
+          "text": "Identify congestion",
+          "source_line": 334
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10TPZA4",
+          "sequence": 278,
+          "type": "bullet",
+          "text": "Identify trade stacking",
+          "source_line": 335
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I00D41SU",
+          "sequence": 279,
+          "type": "bullet",
+          "text": "Identify waiting time",
+          "source_line": 336
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17PX1B2",
+          "sequence": 280,
+          "type": "bullet",
+          "text": "Identify rework",
+          "source_line": 337
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0DJ1NXJ",
+          "sequence": 281,
+          "type": "bullet",
+          "text": "Identify material or equipment delay",
+          "source_line": 338
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0D58CZ1",
+          "sequence": 282,
+          "type": "bullet",
+          "text": "Identify absenteeism effect",
+          "source_line": 339
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KAXWOV",
+          "sequence": 283,
+          "type": "bullet",
+          "text": "Forecast completion",
+          "source_line": 340
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1T2XTZJ",
+          "sequence": 284,
+          "type": "bullet",
+          "text": "Adjust remaining duration",
+          "source_line": 341
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1G9PRQ9",
+          "sequence": 285,
+          "type": "bullet",
+          "text": "Develop productivity action",
+          "source_line": 342
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1NN2KQV",
+          "sequence": 286,
+          "type": "bullet",
+          "text": "Verify improvement",
+          "source_line": 343
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G018",
+      "sequence": 18,
+      "level": 2,
+      "title": "Weekly workforce planning",
+      "path": [
+        "Weekly workforce planning"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I020OK5A",
+          "sequence": 287,
+          "type": "bullet",
+          "text": "Review six-week look-ahead",
+          "source_line": 347
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14L7JXU",
+          "sequence": 288,
+          "type": "bullet",
+          "text": "Confirm activities ready",
+          "source_line": 348
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0BYKJYU",
+          "sequence": 289,
+          "type": "bullet",
+          "text": "Forecast trade headcount",
+          "source_line": 349
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0XF5CW7",
+          "sequence": 290,
+          "type": "bullet",
+          "text": "Forecast crew changes",
+          "source_line": 350
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1BYD6U5",
+          "sequence": 291,
+          "type": "bullet",
+          "text": "Confirm new-worker orientation",
+          "source_line": 351
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1OVTNDF",
+          "sequence": 292,
+          "type": "bullet",
+          "text": "Confirm certification needs",
+          "source_line": 352
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0609H37",
+          "sequence": 293,
+          "type": "bullet",
+          "text": "Confirm overtime",
+          "source_line": 353
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YUF9QG",
+          "sequence": 294,
+          "type": "bullet",
+          "text": "Confirm second shift",
+          "source_line": 354
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1S5KWOH",
+          "sequence": 295,
+          "type": "bullet",
+          "text": "Confirm shared equipment",
+          "source_line": 355
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I02XJHUB",
+          "sequence": 296,
+          "type": "bullet",
+          "text": "Resolve workface conflicts",
+          "source_line": 356
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0SR9CZ0",
+          "sequence": 297,
+          "type": "bullet",
+          "text": "Review absenteeism and turnover",
+          "source_line": 357
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1WEFMH8",
+          "sequence": 298,
+          "type": "bullet",
+          "text": "Review productivity",
+          "source_line": 358
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1CMY5VP",
+          "sequence": 299,
+          "type": "bullet",
+          "text": "Commit weekly manpower",
+          "source_line": 359
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ORFYLQ",
+          "sequence": 300,
+          "type": "bullet",
+          "text": "Report forecast variance",
+          "source_line": 360
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0QLL12X",
+          "sequence": 301,
+          "type": "bullet",
+          "text": "Escalate labor risk",
+          "source_line": 361
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G019",
+      "sequence": 19,
+      "level": 2,
+      "title": "Workforce ramp-up",
+      "path": [
+        "Workforce ramp-up"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RDP31J",
+          "sequence": 302,
+          "type": "bullet",
+          "text": "Mobilize core leadership",
+          "source_line": 365
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YUBNMI",
+          "sequence": 303,
+          "type": "bullet",
+          "text": "Mobilize enabling trades",
+          "source_line": 366
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0T54OOR",
+          "sequence": 304,
+          "type": "bullet",
+          "text": "Add crews by phase",
+          "source_line": 367
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0SKPR0Y",
+          "sequence": 305,
+          "type": "bullet",
+          "text": "Add supervision",
+          "source_line": 368
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KDQ4X4",
+          "sequence": 306,
+          "type": "bullet",
+          "text": "Add orientation sessions",
+          "source_line": 369
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10SS9RS",
+          "sequence": 307,
+          "type": "bullet",
+          "text": "Expand parking and welfare facilities",
+          "source_line": 370
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17RJTET",
+          "sequence": 308,
+          "type": "bullet",
+          "text": "Expand access control",
+          "source_line": 371
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I03NAM2X",
+          "sequence": 309,
+          "type": "bullet",
+          "text": "Expand transportation or lodging",
+          "source_line": 372
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0NX96PU",
+          "sequence": 310,
+          "type": "bullet",
+          "text": "Add shifts",
+          "source_line": 373
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0NQKGVZ",
+          "sequence": 311,
+          "type": "bullet",
+          "text": "Monitor congestion",
+          "source_line": 374
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08VDKTC",
+          "sequence": 312,
+          "type": "bullet",
+          "text": "Validate productivity",
+          "source_line": 375
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I02RSZ9U",
+          "sequence": 313,
+          "type": "bullet",
+          "text": "Stabilize peak workforce",
+          "source_line": 376
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G020",
+      "sequence": 20,
+      "level": 2,
+      "title": "Workforce leveling and trade stacking",
+      "path": [
+        "Workforce leveling and trade stacking"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0QV6AXB",
+          "sequence": 314,
+          "type": "bullet",
+          "text": "Identify shared work areas",
+          "source_line": 380
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I10YSYQT",
+          "sequence": 315,
+          "type": "bullet",
+          "text": "Calculate space capacity",
+          "source_line": 381
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1HQ6VE9",
+          "sequence": 316,
+          "type": "bullet",
+          "text": "Sequence trades",
+          "source_line": 382
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1BTSWMC",
+          "sequence": 317,
+          "type": "bullet",
+          "text": "Establish work zones",
+          "source_line": 383
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1KANQ27",
+          "sequence": 318,
+          "type": "bullet",
+          "text": "Stagger shifts",
+          "source_line": 384
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1GSO116",
+          "sequence": 319,
+          "type": "bullet",
+          "text": "Stagger breaks",
+          "source_line": 385
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14426WX",
+          "sequence": 320,
+          "type": "bullet",
+          "text": "Reassign crews",
+          "source_line": 386
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I19USP7I",
+          "sequence": 321,
+          "type": "bullet",
+          "text": "Limit area headcount",
+          "source_line": 387
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1D0Q5E9",
+          "sequence": 322,
+          "type": "bullet",
+          "text": "Coordinate overhead and floor work",
+          "source_line": 388
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1SLIHFJ",
+          "sequence": 323,
+          "type": "bullet",
+          "text": "Maintain emergency access",
+          "source_line": 389
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0G2E05M",
+          "sequence": 324,
+          "type": "bullet",
+          "text": "Monitor congestion",
+          "source_line": 390
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Q60X7M",
+          "sequence": 325,
+          "type": "bullet",
+          "text": "Measure productivity loss",
+          "source_line": 391
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KGSNSL",
+          "sequence": 326,
+          "type": "bullet",
+          "text": "Update look-ahead",
+          "source_line": 392
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0W9PP1L",
+          "sequence": 327,
+          "type": "bullet",
+          "text": "Release additional workfront",
+          "source_line": 393
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G021",
+      "sequence": 21,
+      "level": 2,
+      "title": "Overtime and fatigue management",
+      "path": [
+        "Overtime and fatigue management"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I06U7ZL1",
+          "sequence": 328,
+          "type": "bullet",
+          "text": "Identify schedule need",
+          "source_line": 397
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MJT0F3",
+          "sequence": 329,
+          "type": "bullet",
+          "text": "Evaluate alternatives",
+          "source_line": 398
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1RF7BA6",
+          "sequence": 330,
+          "type": "bullet",
+          "text": "Obtain authorization",
+          "source_line": 399
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17D153L",
+          "sequence": 331,
+          "type": "bullet",
+          "text": "Define duration and objective",
+          "source_line": 400
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11EZJ1X",
+          "sequence": 332,
+          "type": "bullet",
+          "text": "Establish overtime schedule",
+          "source_line": 401
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0L1PGER",
+          "sequence": 333,
+          "type": "bullet",
+          "text": "Confirm supervision and support",
+          "source_line": 402
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HZBKEL",
+          "sequence": 334,
+          "type": "bullet",
+          "text": "Monitor hours worked",
+          "source_line": 403
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YBKD71",
+          "sequence": 335,
+          "type": "bullet",
+          "text": "Monitor consecutive days",
+          "source_line": 404
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1WD4IIT",
+          "sequence": 336,
+          "type": "bullet",
+          "text": "Monitor fatigue indicators",
+          "source_line": 405
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X29F6P",
+          "sequence": 337,
+          "type": "bullet",
+          "text": "Rotate personnel",
+          "source_line": 406
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0DBGN59",
+          "sequence": 338,
+          "type": "bullet",
+          "text": "Provide rest periods",
+          "source_line": 407
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0M3R39M",
+          "sequence": 339,
+          "type": "bullet",
+          "text": "Measure productivity",
+          "source_line": 408
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0OW9U8U",
+          "sequence": 340,
+          "type": "bullet",
+          "text": "Monitor safety and quality",
+          "source_line": 409
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0UOH921",
+          "sequence": 341,
+          "type": "bullet",
+          "text": "Stop ineffective overtime",
+          "source_line": 410
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X5SOSW",
+          "sequence": 342,
+          "type": "bullet",
+          "text": "Reforecast completion",
+          "source_line": 411
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0T6XN6I",
+          "sequence": 343,
+          "type": "bullet",
+          "text": "Document cost and result",
+          "source_line": 412
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G022",
+      "sequence": 22,
+      "level": 2,
+      "title": "Labor-shortage response",
+      "path": [
+        "Labor-shortage response"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0FM3M4Q",
+          "sequence": 344,
+          "type": "bullet",
+          "text": "Confirm shortage and affected activity",
+          "source_line": 416
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08RWML1",
+          "sequence": 345,
+          "type": "bullet",
+          "text": "Identify critical skill",
+          "source_line": 417
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X2OSYI",
+          "sequence": 346,
+          "type": "bullet",
+          "text": "Request additional workers",
+          "source_line": 418
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I19HVWZV",
+          "sequence": 347,
+          "type": "bullet",
+          "text": "Recruit locally",
+          "source_line": 419
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0ERTUN5",
+          "sequence": 348,
+          "type": "bullet",
+          "text": "Request union referrals",
+          "source_line": 420
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0QYG44B",
+          "sequence": 349,
+          "type": "bullet",
+          "text": "Transfer workers",
+          "source_line": 421
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X7RZ10",
+          "sequence": 350,
+          "type": "bullet",
+          "text": "Add subcontractor or second-tier support",
+          "source_line": 422
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1C03K4K",
+          "sequence": 351,
+          "type": "bullet",
+          "text": "Cross-train qualified personnel",
+          "source_line": 423
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0FVG6SD",
+          "sequence": 352,
+          "type": "bullet",
+          "text": "Prefabricate offsite",
+          "source_line": 424
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0XC61PK",
+          "sequence": 353,
+          "type": "bullet",
+          "text": "Resequence work",
+          "source_line": 425
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1L85NME",
+          "sequence": 354,
+          "type": "bullet",
+          "text": "Add shift",
+          "source_line": 426
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0R4IWP2",
+          "sequence": 355,
+          "type": "bullet",
+          "text": "Retain key workers",
+          "source_line": 427
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KS0A0F",
+          "sequence": 356,
+          "type": "bullet",
+          "text": "Improve travel or lodging support",
+          "source_line": 428
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I16B8Q0V",
+          "sequence": 357,
+          "type": "bullet",
+          "text": "Escalate executive assistance",
+          "source_line": 429
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0WTOSD6",
+          "sequence": 358,
+          "type": "bullet",
+          "text": "Update forecast and recovery schedule",
+          "source_line": 430
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0R9ID64",
+          "sequence": 359,
+          "type": "bullet",
+          "text": "Track effectiveness",
+          "source_line": 431
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G023",
+      "sequence": 23,
+      "level": 2,
+      "title": "Absenteeism and turnover response",
+      "path": [
+        "Absenteeism and turnover response"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1F5US0S",
+          "sequence": 360,
+          "type": "bullet",
+          "text": "Record absence and reason category",
+          "source_line": 435
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0V28UKI",
+          "sequence": 361,
+          "type": "bullet",
+          "text": "Protect confidential details",
+          "source_line": 436
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1W1RTM0",
+          "sequence": 362,
+          "type": "bullet",
+          "text": "Measure absence rate",
+          "source_line": 437
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0FJI19P",
+          "sequence": 363,
+          "type": "bullet",
+          "text": "Identify repeated pattern",
+          "source_line": 438
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18P1W99",
+          "sequence": 364,
+          "type": "bullet",
+          "text": "Maintain replacement roster",
+          "source_line": 439
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1T3E5IW",
+          "sequence": 365,
+          "type": "bullet",
+          "text": "Reassign crew",
+          "source_line": 440
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1RCS5Y8",
+          "sequence": 366,
+          "type": "bullet",
+          "text": "Conduct return-to-work process",
+          "source_line": 441
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18IVWOC",
+          "sequence": 367,
+          "type": "bullet",
+          "text": "Replace separated worker",
+          "source_line": 442
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MEMMZO",
+          "sequence": 368,
+          "type": "bullet",
+          "text": "Recover badge and property",
+          "source_line": 443
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I02D4H1O",
+          "sequence": 369,
+          "type": "bullet",
+          "text": "Conduct knowledge transfer",
+          "source_line": 444
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I19S62F6",
+          "sequence": 370,
+          "type": "bullet",
+          "text": "Conduct exit process",
+          "source_line": 445
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I102V9E2",
+          "sequence": 371,
+          "type": "bullet",
+          "text": "Analyze turnover causes",
+          "source_line": 446
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1VJ7ZC1",
+          "sequence": 372,
+          "type": "bullet",
+          "text": "Correct supervision or conditions",
+          "source_line": 447
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11DFFXK",
+          "sequence": 373,
+          "type": "bullet",
+          "text": "Update manpower forecast",
+          "source_line": 448
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G024",
+      "sequence": 24,
+      "level": 2,
+      "title": "Workforce development",
+      "path": [
+        "Workforce development"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KHCOP7",
+          "sequence": 374,
+          "type": "bullet",
+          "text": "Apprenticeship placement",
+          "source_line": 452
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0G2QXCG",
+          "sequence": 375,
+          "type": "bullet",
+          "text": "Mentoring",
+          "source_line": 453
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TEZT95",
+          "sequence": 376,
+          "type": "bullet",
+          "text": "Task qualification",
+          "source_line": 454
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Y5AQ0S",
+          "sequence": 377,
+          "type": "bullet",
+          "text": "Cross-training",
+          "source_line": 455
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1ONADYK",
+          "sequence": 378,
+          "type": "bullet",
+          "text": "Foreman development",
+          "source_line": 456
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1HS0MVI",
+          "sequence": 379,
+          "type": "bullet",
+          "text": "Supervisor development",
+          "source_line": 457
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1A9MLGI",
+          "sequence": 380,
+          "type": "bullet",
+          "text": "Safety leadership",
+          "source_line": 458
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I15IZJ1J",
+          "sequence": 381,
+          "type": "bullet",
+          "text": "Quality workmanship training",
+          "source_line": 459
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1QNMDFQ",
+          "sequence": 382,
+          "type": "bullet",
+          "text": "Digital-tool training",
+          "source_line": 460
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I01XHNHO",
+          "sequence": 383,
+          "type": "bullet",
+          "text": "Lean planning training",
+          "source_line": 461
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Y6299Z",
+          "sequence": 384,
+          "type": "bullet",
+          "text": "Language-access support",
+          "source_line": 462
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I023YWP5",
+          "sequence": 385,
+          "type": "bullet",
+          "text": "Literacy or technical support",
+          "source_line": 463
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1O5R9JK",
+          "sequence": 386,
+          "type": "bullet",
+          "text": "Career progression",
+          "source_line": 464
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DKV93S",
+          "sequence": 387,
+          "type": "bullet",
+          "text": "Record completed development",
+          "source_line": 465
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I15HPV2S",
+          "sequence": 388,
+          "type": "bullet",
+          "text": "Evaluate effectiveness",
+          "source_line": 466
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G025",
+      "sequence": 25,
+      "level": 2,
+      "title": "Workforce participation and reporting goals",
+      "path": [
+        "Workforce participation and reporting goals"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0OLR7YE",
+          "sequence": 389,
+          "type": "bullet",
+          "text": "Identify contractual goals",
+          "source_line": 470
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0F71CRM",
+          "sequence": 390,
+          "type": "bullet",
+          "text": "Identify local-hire goals",
+          "source_line": 471
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0G1DNKH",
+          "sequence": 391,
+          "type": "bullet",
+          "text": "Identify apprentice goals",
+          "source_line": 472
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1PI1TX6",
+          "sequence": 392,
+          "type": "bullet",
+          "text": "Identify disadvantaged-business workforce requirements",
+          "source_line": 473
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MKKERI",
+          "sequence": 393,
+          "type": "bullet",
+          "text": "Establish lawful tracking method",
+          "source_line": 474
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MIF5FB",
+          "sequence": 394,
+          "type": "bullet",
+          "text": "Collect required records",
+          "source_line": 475
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I01E7SMH",
+          "sequence": 395,
+          "type": "bullet",
+          "text": "Report participation",
+          "source_line": 476
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0C4E13I",
+          "sequence": 396,
+          "type": "bullet",
+          "text": "Forecast compliance",
+          "source_line": 477
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X6EYID",
+          "sequence": 397,
+          "type": "bullet",
+          "text": "Conduct outreach",
+          "source_line": 478
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0GHFBU7",
+          "sequence": 398,
+          "type": "bullet",
+          "text": "Correct shortfall",
+          "source_line": 479
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I09VUTPH",
+          "sequence": 399,
+          "type": "bullet",
+          "text": "Preserve supporting documentation",
+          "source_line": 480
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0LFLBXH",
+          "sequence": 400,
+          "type": "bullet",
+          "text": "Complete final report",
+          "source_line": 481
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G026",
+      "sequence": 26,
+      "level": 2,
+      "title": "Labor compliance",
+      "path": [
+        "Labor compliance"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1JC8BI4",
+          "sequence": 401,
+          "type": "bullet",
+          "text": "Verify required wage determination",
+          "source_line": 485
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1Y5ZF59",
+          "sequence": 402,
+          "type": "bullet",
+          "text": "Classify workers correctly",
+          "source_line": 486
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I004XOXL",
+          "sequence": 403,
+          "type": "bullet",
+          "text": "Post required notices",
+          "source_line": 487
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I18X6JE5",
+          "sequence": 404,
+          "type": "bullet",
+          "text": "Collect certified payroll",
+          "source_line": 488
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I07GF6AI",
+          "sequence": 405,
+          "type": "bullet",
+          "text": "Review wage and fringe rates",
+          "source_line": 489
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I01U8PU1",
+          "sequence": 406,
+          "type": "bullet",
+          "text": "Review apprentice registration",
+          "source_line": 490
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0DZ8HUC",
+          "sequence": 407,
+          "type": "bullet",
+          "text": "Review overtime",
+          "source_line": 491
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1KVRHEU",
+          "sequence": 408,
+          "type": "bullet",
+          "text": "Interview workers when required",
+          "source_line": 492
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0APNKNR",
+          "sequence": 409,
+          "type": "bullet",
+          "text": "Correct payroll discrepancy",
+          "source_line": 493
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1V59SN0",
+          "sequence": 410,
+          "type": "bullet",
+          "text": "Pay restitution when required",
+          "source_line": 494
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1SVV0FB",
+          "sequence": 411,
+          "type": "bullet",
+          "text": "Resolve compliance finding",
+          "source_line": 495
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MSJAGA",
+          "sequence": 412,
+          "type": "bullet",
+          "text": "Submit compliance report",
+          "source_line": 496
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1AEHPJ6",
+          "sequence": 413,
+          "type": "bullet",
+          "text": "Preserve payroll records",
+          "source_line": 497
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MZ4UTY",
+          "sequence": 414,
+          "type": "bullet",
+          "text": "Close compliance review",
+          "source_line": 498
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G027",
+      "sequence": 27,
+      "level": 2,
+      "title": "Workforce welfare and support",
+      "path": [
+        "Workforce welfare and support"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1QN0NZK",
+          "sequence": 415,
+          "type": "bullet",
+          "text": "Provide toilets and sanitation",
+          "source_line": 502
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0YVC3IR",
+          "sequence": 416,
+          "type": "bullet",
+          "text": "Provide potable water",
+          "source_line": 503
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I01GRK26",
+          "sequence": 417,
+          "type": "bullet",
+          "text": "Provide break areas",
+          "source_line": 504
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1QUVJ41",
+          "sequence": 418,
+          "type": "bullet",
+          "text": "Provide handwashing",
+          "source_line": 505
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I066HUTA",
+          "sequence": 419,
+          "type": "bullet",
+          "text": "Provide changing facilities when required",
+          "source_line": 506
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I07SM2B4",
+          "sequence": 420,
+          "type": "bullet",
+          "text": "Provide heat or cooling relief",
+          "source_line": 507
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1OIZUTN",
+          "sequence": 421,
+          "type": "bullet",
+          "text": "Provide transportation",
+          "source_line": 508
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1A6SMIN",
+          "sequence": 422,
+          "type": "bullet",
+          "text": "Provide parking",
+          "source_line": 509
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11854F6",
+          "sequence": 423,
+          "type": "bullet",
+          "text": "Provide lodging when applicable",
+          "source_line": 510
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0X2W59D",
+          "sequence": 424,
+          "type": "bullet",
+          "text": "Provide language-access resources",
+          "source_line": 511
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0FG6BSU",
+          "sequence": 425,
+          "type": "bullet",
+          "text": "Provide emergency communication",
+          "source_line": 512
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1K6K52B",
+          "sequence": 426,
+          "type": "bullet",
+          "text": "Inspect welfare facilities",
+          "source_line": 513
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0LYCO5F",
+          "sequence": 427,
+          "type": "bullet",
+          "text": "Expand with headcount",
+          "source_line": 514
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HZI0TT",
+          "sequence": 428,
+          "type": "bullet",
+          "text": "Relocate by phase",
+          "source_line": 515
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12HOC7B",
+          "sequence": 429,
+          "type": "bullet",
+          "text": "Remove at demobilization",
+          "source_line": 516
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G028",
+      "sequence": 28,
+      "level": 2,
+      "title": "Worker communication",
+      "path": [
+        "Worker communication"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1G4RJKW",
+          "sequence": 430,
+          "type": "bullet",
+          "text": "Daily pre-task briefing",
+          "source_line": 520
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I14NYDIL",
+          "sequence": 431,
+          "type": "bullet",
+          "text": "Toolbox talk",
+          "source_line": 521
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0AUP60P",
+          "sequence": 432,
+          "type": "bullet",
+          "text": "Schedule briefing",
+          "source_line": 522
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Q4PJEM",
+          "sequence": 433,
+          "type": "bullet",
+          "text": "Logistics update",
+          "source_line": 523
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1ILSH9W",
+          "sequence": 434,
+          "type": "bullet",
+          "text": "Weather alert",
+          "source_line": 524
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I09JB9GI",
+          "sequence": 435,
+          "type": "bullet",
+          "text": "Emergency notification",
+          "source_line": 525
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I06XWBSD",
+          "sequence": 436,
+          "type": "bullet",
+          "text": "Policy update",
+          "source_line": 526
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1HPLB82",
+          "sequence": 437,
+          "type": "bullet",
+          "text": "Quality bulletin",
+          "source_line": 527
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I024GRIS",
+          "sequence": 438,
+          "type": "bullet",
+          "text": "Lessons learned",
+          "source_line": 528
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1WI4YJV",
+          "sequence": 439,
+          "type": "bullet",
+          "text": "Multilingual communication",
+          "source_line": 529
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11OZ99M",
+          "sequence": 440,
+          "type": "bullet",
+          "text": "Bulletin board update",
+          "source_line": 530
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TA8OWT",
+          "sequence": 441,
+          "type": "bullet",
+          "text": "Digital notification",
+          "source_line": 531
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17CS4T7",
+          "sequence": 442,
+          "type": "bullet",
+          "text": "Worker feedback",
+          "source_line": 532
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DB813S",
+          "sequence": 443,
+          "type": "bullet",
+          "text": "Stop-work concern",
+          "source_line": 533
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0LO2LVN",
+          "sequence": 444,
+          "type": "bullet",
+          "text": "Confirm acknowledgment",
+          "source_line": 534
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G029",
+      "sequence": 29,
+      "level": 2,
+      "title": "Workforce incident and corrective activities",
+      "path": [
+        "Workforce incident and corrective activities"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I11R4AGN",
+          "sequence": 445,
+          "type": "bullet",
+          "text": "Remove worker from immediate hazard",
+          "source_line": 538
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1WQQJVR",
+          "sequence": 446,
+          "type": "bullet",
+          "text": "Provide medical response",
+          "source_line": 539
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0CQHQD4",
+          "sequence": 447,
+          "type": "bullet",
+          "text": "Notify supervision",
+          "source_line": 540
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0WGJPK0",
+          "sequence": 448,
+          "type": "bullet",
+          "text": "Preserve confidentiality",
+          "source_line": 541
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1MOS66T",
+          "sequence": 449,
+          "type": "bullet",
+          "text": "Investigate event",
+          "source_line": 542
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0JAWQMT",
+          "sequence": 450,
+          "type": "bullet",
+          "text": "Conduct required testing under policy",
+          "source_line": 543
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I00PXWRU",
+          "sequence": 451,
+          "type": "bullet",
+          "text": "Determine work status",
+          "source_line": 544
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1VKS87P",
+          "sequence": 452,
+          "type": "bullet",
+          "text": "Conduct retraining",
+          "source_line": 545
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0O23KE5",
+          "sequence": 453,
+          "type": "bullet",
+          "text": "Reassign when appropriate",
+          "source_line": 546
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0AWF830",
+          "sequence": 454,
+          "type": "bullet",
+          "text": "Apply disciplinary process",
+          "source_line": 547
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0IHPMH4",
+          "sequence": 455,
+          "type": "bullet",
+          "text": "Complete return-to-work process",
+          "source_line": 548
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0WUUB0F",
+          "sequence": 456,
+          "type": "bullet",
+          "text": "Update qualification or access",
+          "source_line": 549
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TQ5LGS",
+          "sequence": 457,
+          "type": "bullet",
+          "text": "Close corrective action",
+          "source_line": 550
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G030",
+      "sequence": 30,
+      "level": 2,
+      "title": "Demobilization",
+      "path": [
+        "Demobilization"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1DBWJ2P",
+          "sequence": 458,
+          "type": "bullet",
+          "text": "Forecast crew release",
+          "source_line": 554
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0MNRGPL",
+          "sequence": 459,
+          "type": "bullet",
+          "text": "Notify employer and workforce",
+          "source_line": 555
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0FJ4YZ9",
+          "sequence": 460,
+          "type": "bullet",
+          "text": "Complete remaining scope",
+          "source_line": 556
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1TG1T4K",
+          "sequence": 461,
+          "type": "bullet",
+          "text": "Complete punch and rework",
+          "source_line": 557
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0RKHIMX",
+          "sequence": 462,
+          "type": "bullet",
+          "text": "Transfer knowledge",
+          "source_line": 558
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12C4INU",
+          "sequence": 463,
+          "type": "bullet",
+          "text": "Return tools and equipment",
+          "source_line": 559
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1B6U6MH",
+          "sequence": 464,
+          "type": "bullet",
+          "text": "Recover badges and keys",
+          "source_line": 560
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I00ZA8QM",
+          "sequence": 465,
+          "type": "bullet",
+          "text": "Close timekeeping",
+          "source_line": 561
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I13Z5JXW",
+          "sequence": 466,
+          "type": "bullet",
+          "text": "Complete final payroll",
+          "source_line": 562
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0HIMF5A",
+          "sequence": 467,
+          "type": "bullet",
+          "text": "Complete benefit or union reporting",
+          "source_line": 563
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I17R9HF9",
+          "sequence": 468,
+          "type": "bullet",
+          "text": "Reassign or release workers",
+          "source_line": 564
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1HL0FD7",
+          "sequence": 469,
+          "type": "bullet",
+          "text": "Conduct exit process",
+          "source_line": 565
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0AFXG3E",
+          "sequence": 470,
+          "type": "bullet",
+          "text": "Deactivate access",
+          "source_line": 566
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0AWZX5X",
+          "sequence": 471,
+          "type": "bullet",
+          "text": "Update emergency roster",
+          "source_line": 567
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KBM2JC",
+          "sequence": 472,
+          "type": "bullet",
+          "text": "Retain warranty-response contacts",
+          "source_line": 568
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0SXAVQ8",
+          "sequence": 473,
+          "type": "bullet",
+          "text": "Close workforce records",
+          "source_line": 569
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G031",
+      "sequence": 31,
+      "level": 2,
+      "title": "Workforce status values",
+      "path": [
+        "Workforce status values"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1T8F6CP",
+          "sequence": 474,
+          "type": "bullet",
+          "text": "Forecast",
+          "source_line": 573
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08W1THQ",
+          "sequence": 475,
+          "type": "bullet",
+          "text": "Recruiting",
+          "source_line": 574
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1M1LH8S",
+          "sequence": 476,
+          "type": "bullet",
+          "text": "Assigned",
+          "source_line": 575
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1J2GLH4",
+          "sequence": 477,
+          "type": "bullet",
+          "text": "Screening",
+          "source_line": 576
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1JJ8JG1",
+          "sequence": 478,
+          "type": "bullet",
+          "text": "Orientation scheduled",
+          "source_line": 577
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1EOMSVZ",
+          "sequence": 479,
+          "type": "bullet",
+          "text": "Training required",
+          "source_line": 578
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0R7VH6C",
+          "sequence": 480,
+          "type": "bullet",
+          "text": "Badge pending",
+          "source_line": 579
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1O1IAQJ",
+          "sequence": 481,
+          "type": "bullet",
+          "text": "Ready to mobilize",
+          "source_line": 580
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I08ZP69L",
+          "sequence": 482,
+          "type": "bullet",
+          "text": "Mobilized",
+          "source_line": 581
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1T9Y8ZQ",
+          "sequence": 483,
+          "type": "bullet",
+          "text": "Active",
+          "source_line": 582
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I112O0AL",
+          "sequence": 484,
+          "type": "bullet",
+          "text": "Reassigned",
+          "source_line": 583
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1UPOP6P",
+          "sequence": 485,
+          "type": "bullet",
+          "text": "Shortage",
+          "source_line": 584
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I12SAYUN",
+          "sequence": 486,
+          "type": "bullet",
+          "text": "Overtime",
+          "source_line": 585
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0W276LN",
+          "sequence": 487,
+          "type": "bullet",
+          "text": "Leave",
+          "source_line": 586
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1VFXEYX",
+          "sequence": 488,
+          "type": "bullet",
+          "text": "Suspended",
+          "source_line": 587
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1N7KMSZ",
+          "sequence": 489,
+          "type": "bullet",
+          "text": "Demobilizing",
+          "source_line": 588
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1YAACG7",
+          "sequence": 490,
+          "type": "bullet",
+          "text": "Released",
+          "source_line": 589
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I019A8LL",
+          "sequence": 491,
+          "type": "bullet",
+          "text": "Warranty standby",
+          "source_line": 590
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1E8FST0",
+          "sequence": 492,
+          "type": "bullet",
+          "text": "Closed",
+          "source_line": 591
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G032",
+      "sequence": 32,
+      "level": 2,
+      "title": "Typical schedule logic",
+      "path": [
+        "Typical schedule logic"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0CH4VKI",
+          "sequence": 493,
+          "type": "bullet",
+          "text": "Scope and quantities → labor forecast",
+          "source_line": 595
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0Q6D0CI",
+          "sequence": 494,
+          "type": "bullet",
+          "text": "Labor forecast → recruiting and assignment",
+          "source_line": 596
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I03D43V3",
+          "sequence": 495,
+          "type": "bullet",
+          "text": "Assignment → screening, orientation and badging",
+          "source_line": 597
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1FWE84D",
+          "sequence": 496,
+          "type": "bullet",
+          "text": "Worker readiness → crew mobilization",
+          "source_line": 598
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1STBO2Z",
+          "sequence": 497,
+          "type": "bullet",
+          "text": "Workfront readiness and crew mobilization → production",
+          "source_line": 599
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0C7TNVK",
+          "sequence": 498,
+          "type": "bullet",
+          "text": "Production trend → staffing adjustment",
+          "source_line": 600
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0KA3ST5",
+          "sequence": 499,
+          "type": "bullet",
+          "text": "Labor shortage → recovery action",
+          "source_line": 601
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0LZ6S5C",
+          "sequence": 500,
+          "type": "bullet",
+          "text": "Phase completion → crew ramp-down",
+          "source_line": 602
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0YMVJKL",
+          "sequence": 501,
+          "type": "bullet",
+          "text": "Punch and closeout → trade release",
+          "source_line": 603
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0W8ARS6",
+          "sequence": 502,
+          "type": "bullet",
+          "text": "Badge recovery and final payroll → workforce closure",
+          "source_line": 604
+        }
+      ]
+    },
+    {
+      "group_id": "SSX-SUP-WORKFORCE-AND-LABOR-G033",
+      "sequence": 33,
+      "level": 2,
+      "title": "Required schedule controls",
+      "path": [
+        "Required schedule controls"
+      ],
+      "items": [
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I00QWOHH",
+          "sequence": 503,
+          "type": "bullet",
+          "text": "Link manpower forecasts to quantities, production rates and exact schedule activities.",
+          "source_line": 608
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1E0NEKY",
+          "sequence": 504,
+          "type": "bullet",
+          "text": "Mobilize supervision before production crews.",
+          "source_line": 609
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1Q6NKSU",
+          "sequence": 505,
+          "type": "bullet",
+          "text": "Schedule screening, orientation, training and badging before the first shift.",
+          "source_line": 610
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0TDHYZW",
+          "sequence": 506,
+          "type": "bullet",
+          "text": "Track qualifications and expiration dates for safety-critical work.",
+          "source_line": 611
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I06LD450",
+          "sequence": 507,
+          "type": "bullet",
+          "text": "Compare planned manpower and production with actual results.",
+          "source_line": 612
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1L56DL4",
+          "sequence": 508,
+          "type": "bullet",
+          "text": "Distinguish labor shortage from unavailable workfront, material or information.",
+          "source_line": 613
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1PL3PZZ",
+          "sequence": 509,
+          "type": "bullet",
+          "text": "Include all support coverage needed for added shifts.",
+          "source_line": 614
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1FWCG9P",
+          "sequence": 510,
+          "type": "bullet",
+          "text": "Monitor congestion, fatigue, safety and quality when increasing labor or overtime.",
+          "source_line": 615
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0CF4Q56",
+          "sequence": 511,
+          "type": "bullet",
+          "text": "Preserve confidential workforce records outside general project reporting.",
+          "source_line": 616
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I0XW12MK",
+          "sequence": 512,
+          "type": "bullet",
+          "text": "Forecast ramp-up and ramp-down early.",
+          "source_line": 617
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1T45JZ5",
+          "sequence": 513,
+          "type": "bullet",
+          "text": "Recover access credentials during demobilization.",
+          "source_line": 618
+        },
+        {
+          "item_id": "SSX-SUP-WORKFORCE-AND-LABOR-I1F82632",
+          "sequence": 514,
+          "type": "bullet",
+          "text": "Retain qualified contacts for warranty response.",
+          "source_line": 619
+        }
+      ]
+    }
+  ]
+}

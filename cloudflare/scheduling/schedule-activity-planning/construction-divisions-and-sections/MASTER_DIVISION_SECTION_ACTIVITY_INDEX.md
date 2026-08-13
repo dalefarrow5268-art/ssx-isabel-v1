@@ -59,7 +59,7 @@ Each applicable section activity library will include:
 | 28 | [Electronic Safety and Security](./division-28/MASTER_DIVISION_28_ACTIVITIES.md) | Activity list created |
 | 29 | Reserved | No trade activities unless project-defined |
 | 30 | Reserved | No trade activities unless project-defined |
-| 31 | Earthwork | Queued |
+| 31 | [Earthwork](./division-31/MASTER_DIVISION_31_ACTIVITIES.md) | Activity list created |
 | 32 | Exterior Improvements | Queued |
 | 33 | Utilities | Queued |
 | 34 | Transportation | Queued |

@@ -72,7 +72,7 @@ Each applicable section activity library will include:
 | 41 | [Material Processing and Handling Equipment](./division-41/MASTER_DIVISION_41_ACTIVITIES.md) | Activity list created |
 | 42 | [Process Heating, Cooling, and Drying Equipment](./division-42/MASTER_DIVISION_42_ACTIVITIES.md) | Activity list created |
 | 43 | [Process Gas and Liquid Handling, Purification, and Storage Equipment](./division-43/MASTER_DIVISION_43_ACTIVITIES.md) | Activity list created |
-| 44 | Pollution and Waste Control Equipment | Queued |
+| 44 | [Pollution and Waste Control Equipment](./division-44/MASTER_DIVISION_44_ACTIVITIES.md) | Activity list created |
 | 45 | Industry-Specific Manufacturing Equipment | Queued |
 | 46 | Water and Wastewater Equipment | Queued |
 | 47 | Reserved | No trade activities unless project-defined |

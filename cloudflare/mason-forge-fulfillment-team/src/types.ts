@@ -2,6 +2,7 @@ export interface Env {
   DB: D1Database;
   PROJECT_FILES: R2Bucket;
   PROJECT_WORKFLOW: Workflow<ProjectIntake>;
+  DOCUMENT_PROCESSOR?: Fetcher;
   FULFILLMENT_QUEUE: Queue<FulfillmentMessage>;
   WAREHOUSE_INDEX?: VectorizeIndex;
   AI?: Ai;

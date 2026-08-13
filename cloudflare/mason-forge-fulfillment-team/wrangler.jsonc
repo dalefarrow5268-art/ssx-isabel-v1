@@ -31,6 +31,10 @@
       "max_retries": 3
     }]
   },
+  "services": [{
+    "binding": "DOCUMENT_PROCESSOR",
+    "service": "ssx-document-processor"
+  }],
   "vars": {
     "WEATHER_CENTER_URL": "REPLACE_WITH_EXISTING_SSX_WEATHER_CENTER_URL"
   }

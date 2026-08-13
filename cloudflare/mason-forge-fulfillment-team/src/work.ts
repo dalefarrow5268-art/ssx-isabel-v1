@@ -1,6 +1,7 @@
 import { employee } from "./employees";
 import { ivyIntake } from "./adapters/ivy-intake";
 import { dexterDecoder } from "./adapters/dexter-decoder";
+import { reggieRules } from "./adapters/reggie-rules";
 import type { Env, ProjectIntake, WorkResult } from "./types";
 
 export async function recordStatus(env: Env, projectId: string, employeeId: string, status: string, detail: string) {
@@ -22,6 +23,7 @@ export async function completeAssignment(
 ): Promise<WorkResult> {
   if (employeeId === "SSX-EMP-002") return ivyIntake(env, intake);
   if (employeeId === "SSX-EMP-003") return dexterDecoder(env, intake, inputRefs);
+  if (employeeId === "SSX-EMP-004") return reggieRules(env, intake, inputRefs);
 
   const staff = employee(employeeId);
   await recordStatus(env, intake.projectId, employeeId, "working", assignment);

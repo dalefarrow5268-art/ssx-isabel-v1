@@ -1,4 +1,5 @@
 import { employee } from "./employees";
+import { ivyIntake } from "./adapters/ivy-intake";
 import type { Env, ProjectIntake, WorkResult } from "./types";
 
 export async function recordStatus(env: Env, projectId: string, employeeId: string, status: string, detail: string) {
@@ -18,38 +19,27 @@ export async function completeAssignment(
   assignment: string,
   inputRefs: string[]
 ): Promise<WorkResult> {
+  if (employeeId === "SSX-EMP-002") return ivyIntake(env, intake);
+
   const staff = employee(employeeId);
   await recordStatus(env, intake.projectId, employeeId, "working", assignment);
+  const outputRef = `projects/${intake.projectId}/employee-work/${employeeId}.json`;
+  const summary = `${staff.name} is waiting for the production adapter required for ${assignment}.`;
+  const exceptions = [`${staff.name}'s production adapter is not configured.`];
 
-  const result: WorkResult = {
+  await env.PROJECT_FILES.put(outputRef, JSON.stringify({
     projectId: intake.projectId,
-    employeeId,
-    status: "completed",
-    outputRef: `projects/${intake.projectId}/employee-work/${employeeId}.json`,
-    summary: `${staff.name} completed the assigned ${assignment} stage.`,
-    exceptions: []
-  };
-
-  // Each employee-specific business adapter replaces this packet with its
-  // structured work product. Until configured, the packet makes missing
-  // integration explicit and prevents false project release.
-  const packet = {
-    ...result,
     employee: staff,
     assignment,
     inputRefs,
     generatedAt: new Date().toISOString(),
     implementationStatus: "adapter-required",
-    releaseBlocking: true
-  };
-  result.status = "waiting-for-input";
-  result.exceptions.push(`${staff.name}'s production adapter is not configured.`);
+    releaseBlocking: true,
+    exceptions
+  }, null, 2), { httpMetadata: { contentType: "application/json" } });
 
-  await env.PROJECT_FILES.put(result.outputRef, JSON.stringify(packet, null, 2), {
-    httpMetadata: { contentType: "application/json" }
-  });
-  await recordStatus(env, intake.projectId, employeeId, result.status, result.summary);
-  return result;
+  await recordStatus(env, intake.projectId, employeeId, "waiting-for-input", summary);
+  return { projectId: intake.projectId, employeeId, status: "waiting-for-input", outputRef, summary, exceptions };
 }
 
 export async function returnToStandby(env: Env, projectId: string, employeeId: string) {

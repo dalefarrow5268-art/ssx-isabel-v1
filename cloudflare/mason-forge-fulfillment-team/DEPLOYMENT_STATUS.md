@@ -1,41 +1,35 @@
 # Deployment Status and Required Connections
 
-## What is implemented
+## Active production adapters
+
+- **Oscar Orchestrator** — accepts authenticated intake requests and R2 project-manifest events, creates one durable workflow per project and prevents duplicate instance IDs.
+- **Ivy Intake** — inventories all files beneath the project upload prefix, classifies documents, records R2 fingerprints, identifies exact duplicates and unsupported file types, writes the D1 document register and saves the full register to R2.
+
+## Implemented employment framework
 
 - Named 12-person employee roster used directly by runtime code.
-- Event-driven project intake endpoint.
 - Durable project Workflow with employee assignments in operational order.
 - Parallel estimate, schedule and weather assignments where dependencies allow.
 - D1 project and employee-status audit tables.
-- R2 employee work-product storage.
 - Dale approval gate before presentation and release.
 - Automatic return-to-standby after assignment closure.
-- Safe implementation hold: employees cannot falsely release a project until each production adapter is connected.
+- Safe implementation hold for employees whose production adapters are not yet connected.
 
-## Required before first live project
+## Required Cloudflare resources before deployment
 
-1. Create or identify D1 database `ssx-mason-forge`.
-2. Create or identify private R2 bucket `ssx-project-files`.
-3. Create Queue `ssx-mason-forge-fulfillment` and dead-letter queue.
-4. Add actual IDs to `wrangler.jsonc`.
-5. Store `INTERNAL_API_TOKEN` as a Cloudflare secret.
-6. Connect the existing SSX Weather Center URL.
-7. Implement and test each employee’s production adapter:
-   - document classification and fingerprinting
-   - OCR and drawing/spec extraction
-   - requirements extraction
-   - scope detection
-   - warehouse barcode search
-   - estimating
-   - scheduling
-   - weather/hazard analysis
-   - duration/logic
-   - quality validation
-   - presentation/export
-8. Apply D1 migration.
-9. Run a controlled test project.
-10. Dale approves production activation.
+1. D1 database `ssx-mason-forge`.
+2. Private R2 bucket `ssx-project-files`.
+3. Upload event Queue `ssx-project-upload-events` and DLQ `ssx-project-upload-events-dlq`.
+4. R2 event notification for uploaded `project-intake.json` objects.
+5. Fulfillment Queue `ssx-mason-forge-fulfillment`.
+6. Actual resource identifiers in `wrangler.jsonc`.
+7. `INTERNAL_API_TOKEN` stored as a Cloudflare secret.
+8. Existing SSX Weather Center URL.
+9. D1 migrations applied in numerical order.
+10. Controlled test project before Dale authorizes production.
 
-## Important
+## Remaining employee adapters
 
-The workflow is intentionally fail-closed. Until the production adapters are connected, every employee produces an auditable `adapter-required` result and Oscar places the project on hold. This prevents a skeleton system from pretending it completed a real estimate or schedule.
+Dexter Decoder, Reggie Rules, Penny Plancheck, Parker Picker, Esther Estimates, Sally Sequence, Wendy Weatherwise, Duncan Duration, Quincy Quality and Piper Presentations.
+
+The system remains fail-closed. Missing adapters create an explicit hold and can never be mistaken for completed project work.

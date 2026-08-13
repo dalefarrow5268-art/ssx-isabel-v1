@@ -25,6 +25,13 @@ export type FulfillmentMessage = {
   idempotencyKey: string;
 };
 
+export type R2ObjectEvent = {
+  action: string;
+  bucket?: string;
+  object: { key: string; size?: number; eTag?: string };
+  eventTime?: string;
+};
+
 export type WorkResult = {
   projectId: string;
   employeeId: string;

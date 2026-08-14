@@ -36,6 +36,12 @@ cloudflare/<project-name>/README.md
 
 The README should state the project's name and purpose. Commit the file to `main`, fetch `cloudflare/` again, and report the exact path and commit link.
 
+## Default execution behavior
+
+When Dale names a new project and asks to create its folder, that request authorizes the complete safe folder-creation operation: derive the kebab-case name, confirm the path is unused, create `cloudflare/<project-name>/README.md`, commit it to `main`, and verify it.
+
+Do not ask for repeated approval between these safe steps. Pause only if the proposed path already exists, the requested action would alter or delete protected content, required access is unavailable, or the project name cannot be derived reliably.
+
 ## Allowed actions
 
 - List files and folders in the repository.
